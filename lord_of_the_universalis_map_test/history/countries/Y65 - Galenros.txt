@@ -1,0 +1,7 @@
+mercantilism = 0.1
+government = elf_gov
+add_government_reform = lordship_elf_reform
+primary_culture = culture_noldor
+religion = religion_calaquendi
+technology_group = lotr_elven
+capital = 235

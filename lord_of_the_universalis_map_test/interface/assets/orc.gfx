@@ -1,0 +1,47 @@
+objectTypes = {	
+	
+	###################################################################################################################
+	#####                                                                                                         #####
+	#####                                                   LEVEL 1                                               #####
+	#####                                                                                                         #####
+	###################################################################################################################
+		
+	pdxmesh = {
+		name = "mesh_orc_infantry_1"
+		
+		file = "gfx/models/Units/mordor.mesh"
+
+		animation = { id = "attack"				type = "orc_attack_anim" }
+		animation = { id = "death"				type = "rifleman_death_animation" }		
+		animation = { id = "idle"				type = "orc_idle_anim" }
+		animation = { id = "walk"				type = "orc_move_anim" }
+		animation = { id = "retreat"			type = "orc_move_anim" }
+		
+		animation = { id = "horse_attack"		type = "cavalryman_attack_lance_anim" }		
+		animation = { id = "horse_idle"			type = "cavalryman_idle_anim" }
+		animation = { id = "horse_walk"			type = "cavalryman_move_anim" }
+		animation = { id = "horse_death"		type = "cavalry_rider_death_animation" }
+		animation = { id = "horse_retreat"		type = "cavalryman_move_anim" }	
+		
+		scale = 0.5
+	}
+
+	pdxmesh = {
+		name = "mace_orkish"
+		
+		file = "gfx/models/Units/orc_mace.mesh"
+		scale = 0.5
+	}
+	
+	pdxmesh = {
+		name = "orc_cav_warg"
+		file = "gfx/models/Units/orc/orc_cav_warg.mesh"
+		
+		animation = { id = "horse_attack" 	type = "warg_attack_anim" }
+		animation = { id = "horse_idle"		type = "warg_move_anim" }
+		animation = { id = "horse_walk"		type = "warg_move_anim" }
+		animation = { id = "horse_retreat"	type = "warg_attack_anim" }
+		
+		scale = 0.48
+	}
+}

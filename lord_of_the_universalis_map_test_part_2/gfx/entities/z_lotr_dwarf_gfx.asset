@@ -1,0 +1,268 @@
+# Notes:
+# These are loaded instead of the default western_units, eastern_units, etc asset files, so the missing entries need to be accounted for.
+
+##############################################
+# Map Items
+##############################################
+entity = {
+	name = "lotr_dwarf_gfx_magistrate"
+	clone = "westerngfx_magistrate"
+}
+
+entity = {
+	name = "lotr_dwarf_gfx_port"
+	clone = "westerngfx_port"
+}
+
+entity = {
+	clone = westerngfx_city_0
+	name = "lotr_dwarf_gfx_city_0"
+	pdxmesh = "westerngfx_city_0"
+}
+entity = {
+	clone = westerngfx_city_0
+	name = "lotr_dwarf_gfx_city_1"
+	pdxmesh = "westerngfx_city_1"
+}
+entity = {
+	clone = westerngfx_city_0
+	name = "lotr_dwarf_gfx_city_2"
+	pdxmesh = "westerngfx_city_2"
+}
+entity = {
+	clone = westerngfx_city_0
+	name = "lotr_dwarf_gfx_city_3"
+	pdxmesh = "westerngfx_city_3"
+}
+entity = {
+	name = "lotr_dwarf_gfx_castle_1"
+	pdxmesh = "westerngfx_castle_1"
+}
+entity = {
+	name = "lotr_dwarf_gfx_castle_2"
+	pdxmesh = "westerngfx_castle_2"
+}
+entity = {
+	name = "lotr_dwarf_gfx_castle_3"
+	pdxmesh = "westerngfx_castle_3"
+}
+entity = {
+	name = "lotr_dwarf_gfx_house_1_1"
+	pdxmesh = "westerngfx_house_1_1"
+}
+entity = {
+	name = "lotr_dwarf_gfx_house_1_2"
+	pdxmesh = "westerngfx_house_1_2"
+}
+entity = {
+	name = "lotr_dwarf_gfx_house_1_3"
+	pdxmesh = "westerngfx_house_1_3"
+}
+entity = {
+	name = "lotr_dwarf_gfx_house_1_4"
+	pdxmesh = "westerngfx_house_1_4"
+}
+entity = {
+	name = "lotr_dwarf_gfx_house_2_1"
+	pdxmesh = "westerngfx_house_2_1"
+}
+entity = {
+	name = "lotr_dwarf_gfx_house_2_2"
+	pdxmesh = "westerngfx_house_2_2"
+}
+entity = {
+	name = "lotr_dwarf_gfx_house_2_3"
+	pdxmesh = "westerngfx_house_2_3"
+}
+entity = {
+	name = "lotr_dwarf_gfx_house_2_4"
+	pdxmesh = "westerngfx_house_2_4"
+}
+entity = {
+	name = "lotr_dwarf_gfx_house_3_1"
+	pdxmesh = "westerngfx_house_3_1"
+}
+entity = {
+	name = "lotr_dwarf_gfx_house_3_2"
+	pdxmesh = "westerngfx_house_3_2"
+}
+entity = {
+	name = "lotr_dwarf_gfx_house_3_3"
+	pdxmesh = "westerngfx_house_3_3"
+}
+entity = {
+	name = "lotr_dwarf_gfx_house_3_4"
+	pdxmesh = "westerngfx_house_3_4"
+}
+entity = {
+	name = "lotr_dwarf_gfx_house_4_1"
+	pdxmesh = "westerngfx_house_4_1"
+}
+entity = {
+	name = "lotr_dwarf_gfx_house_4_2"
+	pdxmesh = "westerngfx_house_4_2"
+}
+entity = {
+	name = "lotr_dwarf_gfx_house_4_3"
+	pdxmesh = "westerngfx_house_4_3"
+}
+entity = {
+	name = "lotr_dwarf_gfx_house_4_4"
+	pdxmesh = "westerngfx_house_4_4"
+}
+
+entity = {
+	name = "lotr_dwarf_gfx_fort_15th"
+	pdxmesh = "westerngfx_fort_15th"
+}
+
+entity = {
+	name = "lotr_dwarf_gfx_fort_16th"
+	pdxmesh = "westerngfx_fort_16th"
+}
+entity = {
+	name = "lotr_dwarf_gfx_fort_17th"
+	pdxmesh = "westerngfx_fort_17th"
+}
+entity = {
+	name = "lotr_dwarf_gfx_fort_18th"
+	pdxmesh = "westerngfx_fort_18th"
+}
+
+###################################################################################################################
+#####                                                                                                         #####
+#####                                                   Infantry	                                          #####
+#####                                                                                                         #####
+###################################################################################################################
+
+entity = {
+	name = "lotr_dwarf_gfx_INFANTRY_1"
+	pdxmesh = "mesh_dwarf_infantry_1"
+	version = 10
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" animation_speed = 1.3 }
+	state = { name = "attack"		animation = "attack" animation_speed = 3.0 }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
+
+	
+	attach = {
+		Right_hand_node = "warhammer_dwarf"
+	}
+}
+
+entity = {
+	name = "warhammer_dwarf"
+	pdxmesh = "warhammer_dwarf"
+}
+
+entity = {
+	name = "lotr_dwarf_gfx_INFANTRY_2"
+	clone = "DAN_INFANTRY_2"
+}
+
+entity = {
+	name = "lotr_dwarf_gfx_INFANTRY_3"
+	clone = "DAN_INFANTRY_3"
+}
+
+entity = {
+	name = "lotr_dwarf_gfx_INFANTRY_4"
+	clone = "DAN_INFANTRY_4"
+}
+
+###################################################################################################################
+#####                                                                                                         #####
+#####                                                   Cavalry		                                          #####
+#####                                                                                                         #####
+###################################################################################################################
+
+entity = {
+	name = "lotr_dwarf_gfx_CAVALRY_1"
+	clone = "westerngfx_CAVALRY_1"
+}
+
+entity = {
+	name = "lotr_dwarf_gfx_CAVALRY_2"
+	clone = "westerngfx_CAVALRY_2"
+}
+
+entity = {
+	name = "lotr_dwarf_gfx_CAVALRY_3"
+	clone = "westerngfx_CAVALRY_3"
+}
+
+entity = {
+	name = "lotr_dwarf_gfx_CAVALRY_4"
+	clone = "westerngfx_CAVALRY_4"
+}
+
+###################################################################################################################
+#####                                                                                                         #####
+#####                                                   Artillery		                                      #####
+#####                                                                                                         #####
+###################################################################################################################
+entity = {
+	name = "lotr_dwarf_gfx_ARTILLERY_1"
+	pdxmesh = "artillery_base_mesh"
+
+	state = { name = "attack"		animation = "artillery_base_attack" }
+	state = { name = "idle" 		animation = "artillery_base_idle" }
+	state = { name = "walk" 		animation = "artillery_base_moving" }
+	
+	attach = { 
+		name = "gunman"
+		infantry_node = "lotr_dwarf_gfx_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+
+entity = {
+	name = "lotr_dwarf_gfx_ARTILLERY_2"
+	pdxmesh = "artillery_base_mesh"
+
+	state = { name = "attack"		animation = "artillery_base_attack" }
+	state = { name = "idle" 		animation = "artillery_base_idle" }
+	state = { name = "walk" 		animation = "artillery_base_moving" }
+	
+	attach = { 
+		name = "gunman"
+		infantry_node = "lotr_dwarf_gfx_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+
+entity = {
+	name = "lotr_dwarf_gfx_ARTILLERY_3"
+	pdxmesh = "artillery_base_mesh"
+
+	state = { name = "attack"		animation = "artillery_base_attack" }
+	state = { name = "idle" 		animation = "artillery_base_idle" }
+	state = { name = "walk" 		animation = "artillery_base_moving" }
+	
+	attach = { 
+		name = "gunman"
+		infantry_node = "lotr_dwarf_gfx_INFANTRY_3" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+
+entity = {
+	name = "lotr_dwarf_gfx_ARTILLERY_4"
+	pdxmesh = "artillery_base_mesh"
+
+	state = { name = "attack"		animation = "artillery_base_attack" }
+	state = { name = "idle" 		animation = "artillery_base_idle" }
+	state = { name = "walk" 		animation = "artillery_base_moving" }
+	
+	attach = { 
+		name = "gunman"
+		infantry_node = "lotr_dwarf_gfx_INFANTRY_4" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+

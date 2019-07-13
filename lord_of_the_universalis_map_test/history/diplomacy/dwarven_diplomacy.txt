@@ -1,0 +1,9 @@
+# Battle of Middle Earth
+
+#Sigal-Nara Bar-Shual
+vassal = {
+	first = Y10
+	second = V54
+	start_date = 2758.10.10
+	end_date = 3500.1.1
+}

@@ -1,0 +1,624 @@
+﻿l_english:
+ #-----------------------------
+ # Terrain
+ #-----------------------------
+ unique_minas_tirith: "Minas Tirith"
+ unique_helmsdeep: "Helm's Deep"
+ unique_mountdoom: "Orodriun"
+ unique_osgilliath: "Osgilliath"
+ unique_dolguldur: "Dol Guldur"
+ unique_erebor: "Erebor"
+ unique_dale: "Dale"
+ unique_laketown: "Laketown"
+ unique_isengard: "Isengard"
+ unique_Edoras: "Edoras"
+ unique_rivendell: "Rivendell"
+ unique_hobbitton: "Hobbitton"
+ unique_moria: "Moria"
+ unique_umbar: "Umbar"
+ unique_blackgate: "The Black Gate"
+ unique_fangorn: "Fangorn Forrest"
+ unique_lothloria: "Lothlorien"
+ unique_thalls: "Halls of Thranduil"
+ unique_gundabad: "Gundabad"
+ unique_goblintown: "Goblintown"
+ unique_greyhavens: "Greyhavens"
+ unique_baraddur: "Barad Dûr"
+ unique_dolamroth: "Dol Amroth"
+ unique_pass: "Caradhras Pass"
+ unique_shire: "The Shire"
+ unique_rohan: "Rohan"
+ unique_mordor: "Mordor"
+ unique_bree: "Bree"
+ unique_carndum: "Carn Dûm"
+ unique_cirithungol: "Cirith Ungol"
+ unique_minasmorgul: "Minas Ithil"
+ unique_ithilien: "Ithilien"
+ unique_harad_river: "Desert River"
+ 
+ #-----------------------------
+ # Continent
+ #-----------------------------
+ middle_earth: "Middle Earth"
+ other: "Other"
+ 
+ #-----------------------------
+ # Superregion
+ #-----------------------------
+ gondor_superregion: "Gondor"
+ gondor_superregion_name: "Gondor"
+ gondor_superregion_adj: "Gondor"
+ 
+ rohan_superregion: "Rohan"
+ rohan_superregion_name: "Rohan"
+ rohan_superregion_adj: "Rohan"
+ 
+ old_pukel_land_superregion: "Old Pukel Land"
+ old_pukel_land_superregion_name: "Old Pukel Land"
+ old_pukel_land_superregion_adj: "Old Pukel Land"
+ 
+ western_middle_earth_sea_superregion: "Western Middle Earth Ocean"
+ western_middle_earth_sea_superregion_name: "Western Middle Earth Ocean"
+ western_middle_earth_sea_superregion_adj: "Western Middle Earth Ocean"
+ 
+ #-----------------------------
+ # Region
+ #-----------------------------
+ gondor_region: "Gondor"
+ gondor_region_name: "Gondor"
+ gondor_region_adj: "Gondor"
+ 
+ old_pukel_land_region: "Old Pukel Land"
+ old_pukel_land_region_name: "Old Pukel Land"
+ old_pukel_land_region_adj: "Old Pukel Land"
+ 
+ rohan_region: "Rohan"
+ rohan_region_name: "Rohan"
+ rohan_region_adj: "Rohan"
+ 
+ shire_region: "Shire"
+ shire_region_name: "Shire"
+ shire_region_adj: "Shire"
+ 
+ #-----------------------------
+ # Sea/Ocean/River
+ #-----------------------------
+ #-----------------------------
+ # /River
+ #-----------------------------
+ anduin_river_region: "Anduin River"
+ anduin_river_region_name: "Anduin River"
+ anduin_river_region_adj: "Anduin River"
+ 
+ angren_river_region: "Angren River"
+ angren_river_region_name: "Angren River"
+ angren_river_region_adj: "Angren River"
+ 
+ gwathlo_river_region: "Gwathlo River"
+ gwathlo_river_region_name: "Gwathlo River"
+ gwathlo_river_region_adj: "Gwathlo River"
+ 
+ baranduin_river_region: "Baranduin River"
+ baranduin_river_region_name: "Baranduin River"
+ baranduin_river_region_adj: "Baranduin River"
+ 
+ sea_of_rhun_region: "Sea of Rhun"
+ sea_of_rhun_region_name: "Sea of Rhun"
+ sea_of_rhun_region_adj: "Sea of Rhun"
+ 
+ #-----------------------------
+ # Belegaer Sea
+ #-----------------------------
+ 
+ bay_of_belfalas_region: "Bay of Belfalas"
+ bay_of_belfalas_region_name: "Bay of Belfalas"
+ bay_of_belfalas_region_adj: "Bay of Belfalas"
+ 
+ sea_of_belegaer_region: "Sea of Belegaer"
+ sea_of_belegaer_region_name: "Sea of Belegaer"
+ sea_of_belegaer_region_adj: "Sea of Belegaer"
+ 
+ sea_of_harad_region: "Sea of Harad"
+ sea_of_harad_region_name: "Sea of Harad"
+ sea_of_harad_region_adj: "Sea of Harad"
+ 
+ sea_of_enedwaith_region: "Sea of Enedwaith"
+ sea_of_enedwaith_region_name: "Sea of Enedwaith"
+ sea_of_enedwaith_region_adj: "Sea of Enedwaith"
+ 
+ sea_of_eriador_region: "Sea of Eriador"
+ sea_of_eriador_region_name: "Sea of Eriador"
+ sea_of_eriador_region_adj: "Sea of Eriador"
+ 
+ sea_of_forodwaith_region: "Sea of Forodwaith"
+ sea_of_forodwaith_region_name: "Sea of Forodwaith"
+ sea_of_forodwaith_region_adj: "Sea of Forodwaith"
+ 
+ bay_of_beriannen_region: "Bay of Beriannen"
+ bay_of_beriannen_region_name: "Bay of Beriannen"
+ bay_of_beriannen_region_adj: "Bay of Beriannen"
+ 
+ #-----------------------------
+ # Helkeaar Sea
+ #-----------------------------
+ 
+ helkeaar_sea_region: "Helkeäar Sea"
+ helkeaar_sea_region_name: "Helkeäar Sea"
+ helkeaar_sea_region_adj: "Helkeäar Sea"
+ 
+ bay_of_utum_region: "Bay of Utum"
+ bay_of_utum_region_name: "Bay of Utum"
+ bay_of_utum_region_adj: "Bay of Utum"
+ 
+ #-----------------------------
+ # Ormal Sea
+ #-----------------------------
+ 
+ ormal_sea_region: "Ormal Sea"
+ ormal_sea_region_name: "Ormal Sea"
+ ormal_sea_region_adj: "Ormal Sea"
+ 
+ #-----------------------------
+ # Eastern Sea
+ #-----------------------------
+ 
+ eastern_sea_region: "Eastern Sea"
+ eastern_sea_region_name: "Eastern Sea"
+ eastern_sea_region_adj: "Eastern Sea"
+ 
+ #-----------------------------
+ # Area
+ #-----------------------------
+ 
+ #-----------------------------
+ # Gondor
+ #-----------------------------
+ anorien_area: "Anórien"
+ anorien_area_name: "Anórien"
+ anorien_area_adj: "Anórien"
+ minas_tirith_area: "Minas Tirith"
+ minas_tirith_area_name: "Minas Tirith"
+ minas_tirith_area_adj: "Minas Tirith"
+ osgiliath_area: "Osgiliath"
+ osgiliath_area_name: "Osgiliath"
+ osgiliath_area_adj: "Osgiliath"
+ lossarnach_area: "Lossarnach"
+ lossarnach_area_name: "Lossarnach"
+ lossarnach_area_adj: "Lossarnach"
+ forithilien_area: "Forithilien"
+ forithilien_area_name: "Forithilien"
+ forithilien_area_adj: "Forithilien"
+ harithilien_area: "Harithilien"
+ harithilien_area_name: "Harithilien"
+ harithilien_area_adj: "Harithilien"
+ pelargir_area: "Pelargir"
+ pelargir_area_name: "Pelargir"
+ pelargir_area_adj: "Pelargir"
+ linhir_area: "Linhir"
+ linhir_area_name: "Linhir"
+ linhir_area_adj: "Linhir"
+ gilrain_area: "Gilrain"
+ gilrain_area_name: "Gilrain"
+ gilrain_area_adj: "Gilrain"
+ arnach_area: "Arnach"
+ arnach_area_name: "Arnach"
+ arnach_area_adj: "Arnach"
+ celosien_area: "Celosien"
+ celosien_area_name: "Celosien"
+ celosien_area_adj: "Celosien"
+ lebenninivet_area: "Lebenninivet"
+ lebenninivet_area_name: "Lebenninivet"
+ lebenninivet_area_adj: "Lebenninivet"
+ lamedon_area: "Lamedon"
+ lamedon_area_name: "Lamedon"
+ lamedon_area_adj: "Lamedon"
+ mornan_area: "Mornan"
+ mornan_area_name: "Mornan"
+ mornan_area_adj: "Mornan"
+ pinnath_gelin_area: "Pinnath Gelin"
+ pinnath_gelin_area_name: "Pinnath Gelin"
+ pinnath_gelin_area_adj: "Pinnath Gelin"
+ anfalas_area: "Anfalas"
+ anfalas_area_name: "Anfalas"
+ anfalas_area_adj: "Anfalas"
+ dol_amroth_area: "Dol Amroth"
+ dol_amroth_area_name: "Dol Amroth"
+ dol_amroth_area_adj: "Dol Amroth"
+ edhellond_area: "Edhellond"
+ edhellond_area_name: "Edhellond"
+ edhellond_area_adj: "Edhellond"
+ tol_falas_area: "Tol Falas"
+ tol_falas_area_name: "Tol Falas"
+ tol_falas_area_adj: "Tol Falas"
+ belfalas_area: "Belfalas"
+ belfalas_area_name: "Belfalas"
+ belfalas_area_adj: "Belfalas"
+ andrast_area: "Andrast"
+ andrast_area_name: "Andrast"
+ andrast_area_adj: "Andrast"
+ nan_lefnui_area: "Nan Lefnui"
+ nan_lefnui_area_name: "Nan Lefnui"
+ nan_lefnui_area_adj: "Nan Lefnui"
+ nindalf_area: "Nindalf"
+ nindalf_area_name: "Nindalf"
+ nindalf_area_adj: "Nindalf"
+ tarlang_area: "Tarlang"
+ tarlang_area_name: "Tarlang"
+ tarlang_area_adj: "Tarlang"
+ nan-i-feryth_area: "Nan-i-Feryth"
+ nan-i-feryth_area_name: "Nan-i-Feryth"
+ nan-i-feryth_area_adj: "Nan-i-Feryth"
+ daningweth_area: "Danningweth"
+ daningweth_area_name: "Danningweth"
+ daningweth_area_adj: "Danningweth"
+ ethir_anduin_area: "Ethir Anduin"
+ ethir_anduin_area_name: "Ethir Anduin"
+ ethir_anduin_area_adj: "Ethir Anduin"
+ emyn_arnen_area: "Emyn Arnen"
+ emyn_arnen_area_name: "Emyn Arnen"
+ emyn_arnen_area_adj: "Emyn Arnen"
+ dor-en-ernil_area: "Dor-en-Ernil"
+ dor-en-ernil_area_name: "Dor-en-Ernil"
+ dor-en-ernil_area_adj: "Dor-en-Ernil"
+ cair_andros_area: "Cair Andros"
+ cair_andros_area_name: "Cair Andros"
+ cair_andros_area_adj: "Cair Andros"
+ tawar-in-druedain_area: "Tawar-in-Drúedain"
+ tawar-in-druedain_area_name: "Tawar-in-Drúedain"
+ tawar-in-druedain_area_adj: "Tawar-in-Drúedain"
+ ###########################
+ 
+ 
+ #-----------------------------
+ # Old Pukel Land
+ #-----------------------------
+ parth_laur_area: "Parth Laur"
+ parth_laur_area_name: "Parth Laur"
+ parth_laur_area_adj: "Parth Laur"
+ druwaith_laur_area: "Drúwaith Laur"
+ druwaith_laur_area_name: "Drúwaith Laur"
+ druwaith_laur_area_adj: "Drúwaith Laur"
+ balorn_area: "Balorn"
+ balorn_area_name: "Balorn"
+ balorn_area_adj: "Balorn"
+ ###########################
+ 
+ #-----------------------------
+ # Rohan
+ #-----------------------------
+ west_march_area: "West-March"
+ west_march_area_name: "West-March"
+ west_march_area_adj: "West-March"
+ westemnet_area: "West-Emnet"
+ westemnet_area_name: "West-Emnet"
+ westemnet_area_adj: "West-Emnet"
+ westfold_area: "Westfold"
+ westfold_area_name: "Westfold"
+ westfold_area_adj: "Westfold"
+ white_mountains_area: "White Mountains"
+ white_mountains_area_name: "White Mountains"
+ white_mountains_area_adj: "White Mountains"
+ kings_land_area: "King's Land"
+ kings_land_area_name: "King's Land"
+ kings_land_area_adj: "King's Land"
+ eastfold_area: "Eastfold"
+ eastfold_area_name: "Eastfold"
+ eastfold_area_adj: "Eastfold"
+ eastemnet_area: "East-Emnet"
+ eastemnet_area_name: "East-Emnet"
+ eastemnet_area_adj: "East-Emnet"
+ entwade_area: "Mouths of Entwade"
+ entwade_area_name: "Mouths of Entwade"
+ entwade_area_adj: "Mouths of Entwade"
+ the_wold_area: "The Wold"
+ the_wold_area_name: "The Wold"
+ the_wold_area_adj: "The Wold"
+ parth_galen_area: "Parth Galen"
+ parth_galen_area_name: "Parth Galen"
+ parth_galen_area_adj: "Parth Galen"
+ ###########################
+ #-----------------------------
+ # Shire
+ #-----------------------------
+ north_farthing_area: "North Farthing"
+ north_farthing_area_name: "North Farthing"
+ north_farthing_area_adj: "North Farthing"
+ 
+ south_farthing_area: "South Farthing"
+ south_farthing_area_name: "South Farthing"
+ south_farthing_area_adj: "South Farthing"
+ 
+ east_farthing_area: "East Farthing"
+ east_farthing_area_name: "East Farthing"
+ east_farthing_area_adj: "East Farthing"
+ 
+ west_farthing_area: "West Farthing"
+ west_farthing_area_name: "West Farthing"
+ west_farthing_area_adj: "West Farthing"
+ 
+ westmarch_area: "Westmarch"
+ westmarch_area_name: "Westmarch"
+ westmarch_area_adj: "Westmarch"
+ 
+ buckland_area: "Buckland"
+ buckland_area_name: "Buckland"
+ buckland_area_adj: "Buckland"
+ 
+ ###########################
+ 
+ #-----------------------------
+ # Sea/Ocean/River Area
+ #-----------------------------
+ #-----------------------------
+ # River Area
+ #-----------------------------
+ north_anduin_river_area: "North Anduin River"
+ north_anduin_river_area_name: "North Anduin River"
+ north_anduin_river_area_adj: "North Anduin River"
+ 
+ south_anduin_river_area: "South Anduin River"
+ south_anduin_river_area_name: "South Anduin River"
+ south_anduin_river_area_adj: "South Anduin River"
+ 
+ celduin_river_area: "Celduin River"
+ celduin_river_area_name: "Celduin River"
+ celduin_river_area_adj: "Celduin River"
+ 
+ sea_of_rhun_area: "Sea of Rhun"
+ sea_of_rhun_area_name: "Sea of Rhun"
+ sea_of_rhun_area_adj: "Sea of Rhun"
+ 
+ angren_river_area: "Angren River"
+ angren_river_area_name: "Angren River"
+ angren_river_area_adj: "Angren River"
+ 
+ gwatlo_river_area: "Gwathlo River"
+ gwatlo_river_area_name: "Gwathlo River"
+ gwatlo_river_area_adj: "Gwathlo River"
+ 
+ baranduin_river_area: "Baranduin River"
+ baranduin_river_area_name: "Baranduin River"
+ baranduin_river_area_adj: "Baranduin River"
+ 
+ river_place_river_area: "River Place River"
+ river_place_river_area_name: "River Place River"
+ river_place_river_area_adj: "River Place River"
+ 
+ #-----------------------------
+ # Western Ocean Area
+ #-----------------------------
+ sea_of_tol_falas_area: "Sea of Tol Falas"
+ sea_of_tol_falas_area_name: "Sea of Tol Falas"
+ sea_of_tol_falas_area_adj: "Sea of Tol Falas"
+ 
+ gulf_of_linhir_area: "Gulf of Linhir"
+ gulf_of_linhir_area_name: "Gulf of Linhir"
+ gulf_of_linhir_area_adj: "Gulf of Linhir"
+ 
+ coast_of_belfalas_area: "Coast of Belfalas"
+ coast_of_belfalas_area_name: "Coast of Belfalas"
+ coast_of_belfalas_area_adj: "Coast of Belfalas"
+ 
+ coast_of_anfalas_area: "Coast of Anfalas"
+ coast_of_anfalas_area_name: "Coast of Anfalas"
+ coast_of_anfalas_area_adj: "Coast of Anfalas"
+ 
+ cap_of_andrast_area: "Cap of Anfalas"
+ cap_of_andrast_area_name: "Cap of Anfalas"
+ cap_of_andrast_area_adj: "Cap of Anfalas"
+ 
+ coast_of_parth_laur_area: "Coast of Parth Laur"
+ coast_of_parth_laur_area_name: "Coast of Parth Laur"
+ coast_of_parth_laur_area_adj: "Coast of Parth Laur"
+ 
+ coast_of_harondor_area: "Coast of Harondor"
+ coast_of_harondor_area_name: "Coast of Harondor"
+ coast_of_harondor_area_adj: "Coast of Harondor"
+ 
+ coast_of_glinfalas_area: "Coast of Glinfalas"
+ coast_of_glinfalas_area_name: "Coast of Glinfalas"
+ coast_of_glinfalas_area_adj: "Coast of Glinfalas"
+ 
+ bay_of_umbar_area: "Gulf of Umbar"
+ bay_of_umbar_area_name: "Gulf of Umbar"
+ bay_of_umbar_area_adj: "Gulf of Umbar"
+ 
+ coast_of_mardrauk_area: "Coast of Mardrauk"
+ coast_of_mardrauk_area_name: "Coast of Mardrauk"
+ coast_of_mardrauk_area_adj: "Coast of Mardrauk"
+ 
+ sea_of_tol_uialgaer_area: "Sea of Tol Uialgaer"
+ sea_of_tol_uialgaer_area_name: "Sea of Tol Uialgaer"
+ sea_of_tol_uialgaer_area_adj: "Sea of Tol Uialgaer"
+ 
+ bay_of_belfalas_area: "Bay of Belfalas"
+ bay_of_belfalas_area_name: "Bay of Belfalas"
+ bay_of_belfalas_area_adj: "Bay of Belfalas"
+ 
+ sea_of_enedwaith_area: "Sea of Enedwaith"
+ sea_of_enedwaith_area_name: "Sea of Enedwaith"
+ sea_of_enedwaith_area_adj: "Sea of Enedwaith"
+ 
+ sea_of_eriador_area: "Sea of Eriador"
+ sea_of_eriador_area_name: "Sea of Eriador"
+ sea_of_eriador_area_adj: "Sea of Eriador"
+ 
+ sea_of_forodwaith_area: "Sea of Forodwaith"
+ sea_of_forodwaith_area_name: "Sea of Forodwaith"
+ sea_of_forodwaith_area_adj: "Sea of Forodwaith"
+ 
+ sea_of_lonely_islands_area: "Sea of The Lonely Islands"
+ sea_of_lonely_islands_area_name: "Sea of The Lonely Islands"
+ sea_of_lonely_islands_area_adj: "Sea of The Lonely Islands"
+ 
+ bay_of_falaya_area: "Bay of Falaya"
+ bay_of_falaya_area_name: "Bay of Falaya"
+ bay_of_falaya_area_adj: "Bay of Falaya"
+ 
+ coast_of_kulijar_area: "Coast of Kulijar"
+ coast_of_kulijar_area_name: "Coast of Kulijar"
+ coast_of_kulijar_area_adj: "Coast of Kulijar"
+ 
+ bay_of_tulwang_area: "Bay of Tulwang"
+ bay_of_tulwang_area_name: "Bay of Tulwang"
+ bay_of_tulwang_area_adj: "Bay of Tulwang"
+ 
+ strait_of_bishra_area: "Strait of Bishra"
+ strait_of_bishra_area_name: "Strait of Bishra"
+ strait_of_bishra_area_adj: "Strait of Bishra"
+ 
+ gulf_of_nashar_area: "Gulf of Nashar"
+ gulf_of_nashar_area_name: "Gulf of Nashar"
+ gulf_of_nashar_area_adj: "Gulf of Nashar"
+ 
+ gulf_of_forondir_area: "Gulf of Forondir"
+ gulf_of_forondir_area_name: "Gulf of Forondir"
+ gulf_of_forondir_area_adj: "Gulf of Forondir"
+ 
+ sea_of_tel_firn_i_guinar_area: "Sea of Tel Firn-i-Guinar"
+ sea_of_tel_firn_i_guinar_area_name: "Sea of Tel Firn-i-Guinar"
+ sea_of_tel_firn_i_guinar_area_adj: "Sea of Tel Firn-i-Guinar"
+ 
+ coast_of_harlindon_area: "Coast of Harlindon"
+ coast_of_harlindon_area_name: "Coast of Harlindon"
+ coast_of_harlindon_area_adj: "Coast of Harlindon"
+ 
+ gulf_of_lhun_area: "Gulf of Lhun"
+ gulf_of_lhun_area_name: "Gulf of Lhun"
+ gulf_of_lhun_area_adj: "Gulf of Lhun"
+ 
+ coast_of_forlindon_area: "Coast of Forlindon"
+ coast_of_forlindon_area_name: "Coast of Forlindon"
+ coast_of_forlindon_area_adj: "Coast of Forlindon"
+ 
+ coast_of_lothlann_area: "Coast of Lothlann"
+ coast_of_lothlann_area_name: "Coast of Lothlann"
+ coast_of_lothlann_area_adj: "Coast of Lothlann"
+ 
+ sea_of_tol_fuin_area: "Sea of Tol Fuin"
+ sea_of_tol_fuin_area_name: "Sea of Tol Fuin"
+ sea_of_tol_fuin_area_adj: "Sea of Tol Fuin"
+ 
+ sea_of_tol_morwen_area: "Sea of Tol Morwen"
+ sea_of_tol_morwen_area_name: "Sea of Tol Morwen"
+ sea_of_tol_morwen_area_adj: "Sea of Tol Morwen"
+ 
+ bay_of_forochel_area: "Bay of Forochel"
+ bay_of_forochel_area_name: "Bay of Forochel"
+ bay_of_forochel_area_adj: "Bay of Forochel"
+ 
+ gulf_of_helcharaes_area: "Gulf of Helcharaes"
+ gulf_of_helcharaes_area_name: "Gulf of Helcharaes"
+ gulf_of_helcharaes_area_adj: "Gulf of Helcharaes"
+ 
+ coast_of_jarvamaa_area: "Coast of Jarvamaa"
+ coast_of_jarvamaa_area_name: "Coast of Jarvamaa"
+ coast_of_jarvamaa_area_adj: "Coast of Jarvamaa"
+ 
+ coast_of_rast_lornaeth_area: "Coast of Rast Lornaeth"
+ coast_of_rast_lornaeth_area_name: "Coast of Rast Lornaeth"
+ coast_of_rast_lornaeth_area_adj: "Coast of Rast Lornaeth"
+ 
+ coast_of_aanaar_area: "Coast of Aanaar"
+ coast_of_aanaar_area_name: "Coast of Aanaar"
+ coast_of_aanaar_area_adj: "Coast of Aanaar"
+ 
+ coast_of_minheldolath_area: "Coast of Minheldolath"
+ coast_of_minheldolath_area_name: "Coast of Minheldolath"
+ coast_of_minheldolath_area_adj: "Coast of Minheldolath"
+ 
+ coast_of_achrond_area: "Coast of Achrond"
+ coast_of_achrond_area_name: "Coast of Achrond"
+ coast_of_achrond_area_adj: "Coast of Achrond"
+ 
+ north_sea_of_belegaer_area: "North Sea of Belegaer"
+ north_sea_of_belegaer_area_name: "North Sea of Belegaer"
+ north_sea_of_belegaer_area_adj: "North Sea of Belegaer"
+ 
+ central_sea_of_belegaer_area: "Central Sea of Belegaer"
+ central_sea_of_belegaer_area_name: "Central Sea of Belegaer"
+ central_sea_of_belegaer_area_adj: "Central Sea of Belegaer"
+ 
+ south_sea_of_belegaer_area: "South Sea of Belegaer"
+ south_sea_of_belegaer_area_name: "South Sea of Belegaer"
+ south_sea_of_belegaer_area_adj: "South Sea of Belegaer"
+ 
+ #-----------------------------
+ # Helkeaar Sea
+ #-----------------------------
+ 
+ helkeaar_sea_area: "Helkaer Sea"
+ helkeaar_sea_area_name: "Helkaer Sea"
+ helkeaar_sea_area_adj: "Helkaer Sea"
+ 
+ coast_of_ukal_sej_area: "Coast of Ukal Sej"
+ coast_of_ukal_sej_area_name: "Coast of Ukal Sej"
+ coast_of_ukal_sej_area_adj: "Coast of Ukal Sej"
+ 
+ gulf_of_unknown_area: "Gulf of Unknown"
+ gulf_of_unknown_area_name: "Gulf of Unknown"
+ gulf_of_unknown_area_adj: "Gulf of Unknown"
+ 
+ sea_of_solitude_area: "Sea of Solitude"
+ sea_of_solitude_area_name: "Sea of Solitude"
+ sea_of_solitude_area_adj: "Sea of Solitude"
+ 
+ sea_of_storms_area: "Sea of Storms"
+ sea_of_storms_area_name: "Sea of Storms"
+ sea_of_storms_area_adj: "Sea of Storms"
+ 
+ sea_of_havens_area: "Sea of Havens"
+ sea_of_havens_area_name: "Sea of Havens"
+ sea_of_havens_area_adj: "Sea of Havens"
+ 
+#---------------------------
+# Ormal Sea
+#---------------------------
+
+ bay_of_chy_area: "Bay of Chy"
+ bay_of_chy_area_name: "Bay of Chy"
+ bay_of_chy_area_adj: "Bay of Chy"
+ 
+ sea_of_codya_area: "Sea of Codya"
+ sea_of_codya_area_name: "Sea of Codya"
+ sea_of_codya_area_adj: "Sea of Codya"
+ 
+ bay_of_sakalan_area: "Bay of Sakalan"
+ bay_of_sakalan_area_name: "Bay of Sakalan"
+ bay_of_sakalan_area_adj: "Bay of Sakalan"
+ 
+ sea_of_ormal_area: "Sea of Ormal"
+ sea_of_ormal_area_name: "Sea of Ormal"
+ sea_of_ormal_area_adj: "Sea of Ormal"
+ 
+ bay_of_shay_area: "Bay of Shay"
+ bay_of_shay_area_name: "Bay of Shay"
+ bay_of_shay_area_adj: "Bay of Shay"
+ 
+ #---------------------------
+# Eastern Sea
+#---------------------------
+
+ sea_of_lochas_druz_area: "Sea of Lochas Druz"
+ sea_of_lochas_druz_area_name: "Sea of Lochas Druz"
+ sea_of_lochas_druz_area_adj: "Sea of Lochas Druz"
+ 
+ sea_of_ka_ish_area: "Sea of Ka'ish"
+ sea_of_ka_ish_area_name: "Sea of Ka'ish"
+ sea_of_ka_ish_area_adj: "Sea of Ka'ish"
+ 
+ bay_of_ang_sigmorig_area: "Bay of Ang Simorig"
+ bay_of_ang_sigmorig_area_name: "Bay of Ang Simorig"
+ bay_of_ang_sigmorig_area_adj: "Bay of Ang Simorig"
+ 
+ sea_of_ruuriik_area: "Sea of Ruuriik"
+ sea_of_ruuriik_area_name: "Sea of Ruuriik"
+ sea_of_ruuriik_area_adj: "Sea of Ruuriik"
+ 
+ bay_of_kendarca_area: "Bay of Kendarca"
+ bay_of_kendarca_area_name: "Bay of Kendarca"
+ bay_of_kendarca_area_adj: "Bay of Kendarca"
+ 
+ eastern_sea_area: "Eastern Sea"
+ eastern_sea_area_name: "Eastern Sea"
+ eastern_sea_area_adj: "Eastern Sea"

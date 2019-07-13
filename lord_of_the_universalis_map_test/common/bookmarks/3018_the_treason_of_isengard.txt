@@ -1,0 +1,24 @@
+bookmark =
+{
+    # The Treason of Isengard
+	name = "LOTR_9_NAME"
+	desc = "LOTR_9_DESC"
+	date = 3018.1.1
+	
+	country = X12
+	country = X84
+	country = X78
+	country = X70
+	country = X71
+	
+	effect = {
+		X12 = {
+			add_stability = -1
+			add_prestige = -50
+		}
+		X70 = {
+			add_stability = -1
+			add_prestige = -50
+		}
+	}
+}

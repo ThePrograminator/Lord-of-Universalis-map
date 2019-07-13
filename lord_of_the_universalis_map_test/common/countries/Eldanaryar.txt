@@ -1,0 +1,190 @@
+#Country Name: Please see filename.
+graphical_culture = easterngfx
+
+color = { 100 100 100 }
+
+historical_idea_groups = {
+	offensive_ideas
+	diplomatic_ideas
+	defensive_ideas
+	innovativeness_ideas
+	administrative_ideas
+	quantity_ideas
+	economic_ideas
+	aristocracy_ideas
+}
+
+historical_units = {
+	lotr_wildmen_tribes_men_1
+	lotr_wildmen_axe_raiders_2
+	lotr_wildmen_heavy_axemen_3
+
+	lotr_wildmen_mounted_tribesmen_1
+	lotr_wildmen_mounted_axe_raiders_2
+}
+
+monarch_names = {
+	"Abâruzîr" = 10
+	"Abâruzûr" = 10
+	"Abârzagar" = 10
+	"Abattârik" = 10
+	"Abrazîr" = 10
+	"Abrazûr" = 10
+	"Abrazôr" = 10
+	"Adrazôr" = 10
+	"Adûnabâr" = 10
+	"Adûnakhôr" = 10
+	"Adûnaphazôr" = 10
+	"Adûnazîr" = 10
+	"Adûnazûr" = 10
+	"Agandaûr" = 10
+	"Akhôrahil" = 10
+	"Aphanuzîr" = 10
+	"Aphanuzûr" = 10
+	"Arphagôr" = 10
+	"Ârukhûrân" = 10
+	"Ârunarû" = 10
+	"Arzagar" = 10
+	"Avalôikhâz" = 10
+	"Avalôizîr" = 10
+	"Avalôizûr" = 10
+	"Azarkarbû" = 10
+	"Azarnarû" = 10
+	"Azrubêl" = 10
+	"Azruzûr" = 10
+	"Azûlphazgân" = 10
+	"Azûlzîr" = 10
+	"Azûlzûr" = 10
+	"Balkumagân" = 10
+	"Balkuthôr" = 10
+	"Belnardu" = 10
+	"Belzagar" = 10
+	"Dâurnardu" = 10
+	"Gimilkhâd" = 10
+	"Gimilzagar" = 10
+	"Gimilzôr" = 10
+	"Îbal" = 10
+	"Imrahil" = 10
+	"Imrakhôr" = 10
+	"Imrazôr" = 10
+	"Indilzar" = 10
+	"Inziladûn" = 10
+	"Inzilbêl" = 10
+	"Inzilzûr" = 10
+	"Inzilurud" = 10
+	"Minulzîr" = 10
+	"Minulzôr" = 10
+	"Minulzûr" = 10
+	"Mûrakhôr" = 10
+	"Mûrazôr" = 10
+	"Nâloân" = 10
+	"Nîlozîr" = 10
+	"Nîlozûr" = 10
+	"Nimruzîr" = 10
+	"Nimruzûr" = 10
+	"Nimrukhâz" = 10
+	"Pharazôn" = 10
+	"Sakalbâr" = 10
+	"Sakalthôrsion" = 10
+	"Sapazîr" = 10
+	"Sapazûr" = 10
+	"Tamarzîr" = 10
+	"Tamarzûr" = 10
+	"Ulbâr" = 10
+	"Ulbuzîr" = 10
+	"Ulbuzûr" = 10
+	"Ûrêthôr" = 10
+	"Ûrêzîr" = 10
+	"Ûrêzûr" = 10
+	"Zabathân" = 10
+	"Zabathânardu" = 10
+	"Zimrabâr" = 10
+	"Zimrâdun" = 10
+	"Zimrkhâz" = 10
+	"Zimrathôn" = 10
+	"Zimrathôr" = 10
+	"Zimrazôr" = 10
+	"Zimrazûl" = 10
+	
+	"Abattâbêth" = -10
+	"Adrabêth" = -10
+	"Adûphazî" = -10
+	"Âmugarâphel" = -10
+	"Anîzil" = -10
+	"Avradî" = -10
+	"Avradîbêlin" = -10
+	"Azrubêlin" = -10
+	"Azrukali" = -10
+	"Azrunithil" = -10
+	"Bêlkali" = -10
+	"Bêlnithil" = -10
+	"Gimilkali" = -10
+	"Îbanithil" = -10
+	"Imrabêth" = -10
+	"Imraphel" = -10
+	"Inzilbêlin" = -10
+	"Inzilbêth" = -10
+	"Mûrabêth" = -10
+	"Mûraphel" = -10
+	"Mûrnithil" = -10
+	"Zamîn" = -10
+	"Zimraphel" = -10
+	"Zimrinzil" = -10
+	"Zimrnithil" = -10
+	"Zîryô" = -10
+}
+
+leader_names = {
+	
+}
+
+ship_names = {
+	Eagletree
+	Feathersun
+	Lowtree
+	Distantblade
+	Pineweaver
+	Oceanfang
+	Humbleripper
+	Wiseblood
+	Sunmantle
+	Grandpunch
+	Pyrefollower
+	Hawkfall
+	Heartsteam
+	Stonestrength
+	Mastertide
+	Gloomsworn
+	Redfist
+	Riverwinds
+	Skyspire
+	Fireclaw
+	Lunapike
+	Whitbane
+	Tarrensnow
+	Leafroot
+	Softswallow
+	Peacereaper
+	Stagarm
+	Monsterfury
+	Horsebinder
+	Strongmoon
+	Moltenmourn
+	Skymight
+	Covenstriker
+	Glowstrider
+	Farwatcher
+	Fallendown
+	Tarrengem
+	Stonestar
+	Fernstriker
+	Roughheart
+}
+
+army_names = {
+	"Regiment of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}

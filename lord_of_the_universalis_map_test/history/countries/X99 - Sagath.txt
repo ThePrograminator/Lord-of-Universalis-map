@@ -1,0 +1,8 @@
+mercantilism = 0.1
+government = monarchy
+
+add_government_reform = easterling_clan_reform
+primary_culture = culture_sagath
+religion = religion_ulgath
+technology_group = lotr_easterling 
+capital = 517

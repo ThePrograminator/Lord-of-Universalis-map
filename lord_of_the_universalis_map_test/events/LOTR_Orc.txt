@@ -1,0 +1,889 @@
+########################################
+# Events for Orcs			
+########################################
+
+namespace = flavor_orc
+normal_or_historical_nations = yes
+
+# Infighting
+country_event = {
+	id = flavor_orc.1
+	title = flavor_orc.1.t
+	desc = flavor_orc.1.d
+	picture = BATTLE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		technology_group = lotr_orc
+		
+		NOT = {
+			has_country_modifier = orc_stronger_orc_troops
+			has_country_modifier = orc_reinforce_orc_troops
+		}
+	}
+	
+	#Let them fight
+	option = {
+		name = "flavor_orc.1.a"
+		
+		add_country_modifier = {
+			name = orc_stronger_orc_troops
+			duration = 1095
+		}
+    }
+
+	#Break up the fighting
+	option = {
+		name = "flavor_orc.1.b"
+		
+		add_country_modifier = {
+            name = orc_reinforce_orc_troops
+           	duration = 1095
+		}
+    }
+}
+
+# Meat is back on the menu boys
+country_event = {
+	id = flavor_orc.2
+	title = flavor_orc.2.t
+	desc = flavor_orc.2.d
+	picture = FUR_TRADE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		technology_group = lotr_orc
+		
+		any_owned_province = {
+			has_owner_culture = yes
+			has_owner_religion = yes
+			controlled_by = ROOT
+			OR = {
+				trade_goods = livestock
+				has_terrain = woods
+				has_terrain = forest
+				has_terrain = jungle
+			}
+		}
+		
+		NOT = {
+			has_country_modifier = orc_food_bonus
+		}
+	}
+	
+	#Finally some decend food
+	option = {
+		name = "flavor_orc.2.a"
+		
+		random_owned_province = {
+			limit = {
+				has_owner_culture = yes
+				has_owner_religion = yes
+				controlled_by = ROOT
+				trade_goods = livestock
+			}
+			
+			add_base_production = 1
+		}
+		
+		add_country_modifier = {
+            name = orc_food_bonus
+			duration = 1095
+		}
+    }
+}
+
+# A New Warlord Rises
+# Need Cleanup
+country_event = {
+	id = flavor_orc.3
+	title = flavor_orc.3.t
+	desc = flavor_orc.3.d
+	picture = CONQUEST_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+        technology_group = lotr_orc
+        OR = {
+           	num_of_generals = 1
+      	    num_of_generals = 0
+        }
+		AND = {
+			stability = -2
+		}
+		
+		NOT = {
+			has_country_flag = orc_warlord_risen
+			num_of_generals = 2
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+
+		modifier = {
+			factor = 1.0
+			AND = {is_at_war = no}
+		}
+		modifier = {
+			factor = 0.5
+			AND = { is_at_war = yes}
+		}
+	}
+	
+    #A New Warlord Rises
+ 	option = {
+      	name = "flavor_orc.3.a"
+		add_stability = -1
+		add_mil_power = -50
+        create_general = 45
+		set_country_flag = orc_warlord_risen
+		hidden_effect = {
+			country_event = {
+				id = flavor_orc.11
+				days = 3650
+			}
+		}
+    }
+}
+
+# An Orc Clan wants to join our host
+# Need Cleanup
+country_event = {
+	id = flavor_orc.4
+	title = flavor_orc.4.t
+	desc = flavor_orc.4.d
+	picture = NATIVES_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+        technology_group = lotr_orc
+		NOT = {
+			has_country_flag = orc_clan_arrives
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+
+		modifier = {
+			factor = 1.0
+			OR = {
+				NOT = { stability = -2 }
+				AND = { war_exhaustion = 8}
+			}
+		}
+		modifier = {
+			factor = 1.0
+			OR = {
+				NOT = { stability = -1 }
+				AND = { war_exhaustion = 6}
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				NOT = { stability = 0 }
+				AND = { war_exhaustion = 4}
+			}
+		}
+		modifier = {
+			factor = 0.8
+			OR = {
+				NOT = { stability = 1 }
+				AND = { war_exhaustion = 2}
+			}
+		}
+		modifier = {
+			factor = 0.7
+			OR = {
+				NOT = { stability = 2 }
+				AND = { war_exhaustion = 0}
+			}
+		}
+		modifier = {
+			factor = 0.6
+			OR = {
+				NOT = { stability = 3 }
+				AND = { war_exhaustion = 0}
+			}
+		}
+	}
+	
+    #Yay
+ 	option = {
+      	name = "flavor_orc.4.a"
+
+		add_mil_power = -50
+		add_manpower = 3
+		add_army_professionalism = -0.05
+		add_army_tradition = -5
+		set_country_flag = orc_clan_arrives
+		
+		hidden_effect = {
+			country_event = {
+				id = flavor_orc.12
+				days = 3650
+			}
+		}
+    }
+	
+	#nay, slay them
+ 	option = {
+      	name = "flavor_orc.4.a"
+
+		add_mil_power = 50
+		add_manpower = -1
+		add_army_professionalism = 0.1
+		add_army_tradition = 5
+		set_country_flag = orc_clan_arrives
+		
+		hidden_effect = {
+			country_event = {
+				id = flavor_orc.12
+				days = 3650
+			}
+		}
+    }
+}
+
+# Warg Scouts
+# Need Cleanup
+country_event = {
+	id = flavor_orc.5
+	title = flavor_orc.5.t
+	desc = flavor_orc.5.d
+	picture = HORSE_ON_HORSEBACK_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+        technology_group = lotr_orc
+		NOT = {
+			has_country_modifier = orc_send_warg_scouts
+			has_country_flag = orc_send_scouts
+		}
+		
+		any_neighbor_country = {
+			has_removed_fow = no
+		}
+	}
+	
+    #Send Out
+ 	option = {
+      	name = "flavor_orc.5.a"
+		
+		random_neighbor_country  = {
+			limit = { has_removed_fow = no }
+			remove_fow = 6
+		}
+
+		add_country_modifier = {
+			name = orc_send_warg_scouts
+			duration = 3650
+		}
+    }
+	
+	#Don't Send
+ 	option = {
+      	name = "flavor_orc.5.a"
+
+		add_mil_power = 50
+		set_country_flag = orc_send_scouts
+		
+		hidden_effect = {
+			country_event = {
+				id = flavor_orc.13
+				days = 3650
+			}
+		}
+    }
+}
+
+# Wood Copping
+country_event = {
+	id = flavor_orc.6
+	title = flavor_orc.6.t
+	desc = flavor_orc.6.d
+	picture = COLONIZATION_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+        technology_group = lotr_orc
+		NOT = {
+			has_country_modifier = orc_wood_to_industry
+			has_country_modifier = orc_wood_to_campfires
+		}
+		
+		any_owned_province = {
+			has_owner_culture = yes
+			has_owner_religion = yes
+			controlled_by = ROOT
+			trade_goods = tropical_wood
+		}
+	}
+	
+    #Industry
+ 	option = {
+      	name = "flavor_orc.6.a"
+		
+		random_owned_province = {
+			limit = {
+				has_owner_culture = yes
+				has_owner_religion = yes
+				controlled_by = ROOT
+				trade_goods = tropical_wood
+			}
+			
+			add_base_production = 1
+		}
+
+		add_country_modifier = {
+			name = orc_wood_to_industry
+			duration = 3650
+		}
+    }
+	
+	#Campfires
+ 	option = {
+      	name = "flavor_orc.6.b"
+
+		add_country_modifier = {
+			name = orc_wood_to_campfires
+			duration = 3650
+		}
+    }
+}
+
+# Pay Tribute To Mordor
+country_event = {
+	id = flavor_orc.7
+	title = flavor_orc.7.t
+	desc = flavor_orc.7.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+        technology_group = lotr_orc
+		
+		exists = V17
+		
+		NOT = {
+			war_with = V17
+		}
+		
+		border_distance = {
+			who = V17
+			distance = 500
+		}
+		
+		V17 = {
+			NOT = {
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = orc_payed_tribute_to_mordor
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = orc_didnt_pay_tribute_to_mordor
+				}
+			}
+		}
+		
+		NOT = {
+			tag = V17
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+
+		modifier = {
+			factor = 1.0
+			AND = {
+				is_at_war = no
+				NOT = {
+					V17 = {
+						has_opinion = {
+							who = ROOT
+							value = -50
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			AND = { 
+				is_at_war = yes
+				V17 = {
+					has_opinion = {
+						who = ROOT
+						value = 10
+					}
+				}
+			}
+		}
+	}
+	
+    #Men
+ 	option = {
+      	name = "flavor_orc.7.a"
+		
+		add_manpower = -3
+		add_mil_power = -25
+		add_prestige = -5
+		
+		V17 = {
+			add_trust = {
+				who = ROOT
+				value = 5
+				mutual = no
+			}
+		
+			add_opinion = {
+				who = ROOT
+				modifier = orc_payed_tribute_to_mordor
+			}
+		}
+    }
+	
+	#Resouces
+ 	option = {
+      	name = "flavor_orc.7.b"
+		
+		add_adm_power = -50
+		add_dip_power = -50
+		add_prestige = -5
+		
+		V17 = {
+			add_trust = {
+				who = ROOT
+				value = 5
+				mutual = no
+			}
+		
+			add_opinion = {
+				who = ROOT
+				modifier = orc_payed_tribute_to_mordor
+			}
+		}
+    }
+	
+	#Don't
+ 	option = {
+      	name = "flavor_orc.7.c"
+		
+		add_adm_power = 25
+		add_dip_power = 25
+		add_mil_power = 25
+		add_prestige = 10
+		
+		V17 = {
+			add_trust = {
+				who = ROOT
+				value = -10
+				mutual = no
+			}
+		
+			add_opinion = {
+				who = ROOT
+				modifier = orc_didnt_pay_tribute_to_mordor
+			}
+		}
+    }
+}
+
+# Offended Another Orc Nation
+country_event = {
+	id = flavor_orc.8
+	title = flavor_orc.8.t
+	desc = flavor_orc.8.d
+	picture = ACCUSATION_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+        technology_group = lotr_orc
+
+		NOT = {
+			has_country_modifier = orc_offended_nation
+		}
+		
+		any_known_country = {
+			AND = {
+				border_distance = {
+					who = ROOT
+					distance = 500
+				}
+			}
+			NOT = {
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = orc_offended_orc_nation
+				}
+			}
+			OR ={
+				AND = {
+					technology_group = lotr_orc
+					alliance_with = ROOT
+				}
+				AND = {
+					technology_group = lotr_orc
+					is_neighbor_of = ROOT
+				}
+				AND = {
+					technology_group = lotr_orc
+					is_subject_of = ROOT
+				}
+				AND = {
+					technology_group = lotr_orc
+					alliance_with = ROOT
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+
+		modifier = {
+			factor = 0.5
+			AND = {
+				is_at_war = no
+			}
+		}
+		modifier = {
+			factor = 1.0
+			AND = { 
+				is_at_war = yes
+			}
+		}
+	}
+	
+    #We are stronger than you!
+ 	option = {
+      	name = "flavor_orc.8.a"
+		
+		add_country_modifier = {
+			name = orc_offended_nation
+			duration = 3650
+		}
+		
+		random_known_country = { 
+			limit = {
+				AND = {
+					border_distance = {
+						who = ROOT
+						distance = 500
+					}
+				}
+				OR ={
+					AND = {
+						technology_group = lotr_orc
+						alliance_with = ROOT
+					}
+					AND = {
+						technology_group = lotr_orc
+						is_neighbor_of = ROOT
+					}
+					AND = {
+						technology_group = lotr_orc
+						OR = {	
+							is_subject_of = ROOT
+							alliance_with = ROOT
+						}
+					}
+				}
+			}
+			
+			add_trust = {
+				who = ROOT
+				value = -10
+				mutual = no
+			}
+		
+			add_opinion = {
+				who = ROOT
+				modifier = orc_offended_orc_nation
+			}
+		}
+    }
+}
+
+# Advisor i threating our rule
+# Need Cleanup
+country_event = {
+	id = flavor_orc.9
+	title = flavor_orc.9.t
+	desc = flavor_orc.9.d
+	picture = ADVISOR_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+        technology_group = lotr_orc
+		
+		has_advisor = yes
+		
+		stability = -2
+
+		NOT = {
+			has_country_flag = orc_killed_advisor
+			has_country_flag = orc_kept_advisor
+			stability = 3
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+
+		modifier = {
+			factor = 1.0
+			OR = {
+				NOT = { stability = -2 }
+				AND = { war_exhaustion = 8}
+			}
+		}
+		modifier = {
+			factor = 1.0
+			OR = {
+				NOT = { stability = -1 }
+				AND = { war_exhaustion = 6}
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				NOT = { stability = 0 }
+				AND = { war_exhaustion = 4}
+			}
+		}
+		modifier = {
+			factor = 0.8
+			OR = {
+				NOT = { stability = 1 }
+				AND = { war_exhaustion = 2}
+			}
+		}
+		modifier = {
+			factor = 0.7
+			OR = {
+				NOT = { stability = 2 }
+				AND = { war_exhaustion = 0}
+			}
+		}
+		modifier = {
+			factor = 0.6
+			OR = {
+				NOT = { stability = 3 }
+				AND = { war_exhaustion = 0}
+			}
+		}
+	}
+	
+    #Kill Him
+ 	option = {
+      	name = "flavor_orc.9.a"
+		kill_advisor = random
+		add_stability = 1
+		set_country_flag = orc_killed_advisor
+		
+		hidden_effect = {
+			country_event = {
+				id = flavor_orc.14
+				days = 3650
+			}
+		}
+    }
+	
+	#Keep him
+ 	option = {
+      	name = "flavor_orc.9.b"
+		
+		add_stability = -1
+		set_country_flag = orc_kept_advisor
+		
+		hidden_effect = {
+			country_event = {
+				id = flavor_orc.13
+				days = 3650
+			}
+		}
+	}
+}
+
+# Culture and religion convert province
+# Need Cleanup
+country_event = {
+	id = flavor_orc.10
+	title = flavor_orc.10.t
+	desc = flavor_orc.10.d
+	picture = BORDER_TENSION_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+        technology_group = lotr_orc
+		
+		NOT = {
+			has_country_flag = converted_province_recently
+		}
+		
+		any_owned_province = {
+			controlled_by = ROOT
+			has_owner_culture = no
+			has_owner_religion = no
+		}
+	}
+	
+    #Convert Province
+ 	option = {
+      	name = "flavor_orc.10.a"
+		random_owned_province = { 
+			limit = {
+				controlled_by = ROOT
+				has_owner_culture = no
+				has_owner_religion = no
+			}
+			
+			change_religion = owner
+			change_culture = owner
+		}
+		
+		set_country_flag = converted_province_recently
+		
+		hidden_effect = {
+			country_event = {
+				id = flavor_orc.15
+				days = 3650
+			}
+		}
+    }
+}
+
+#Clean Up Event flavor_orc.3
+country_event = {
+	id = flavor_orc.11
+	title = flavor_orc.11.t
+	desc = flavor_orc.11.d
+	picture = MILITARY_CAMP_eventPicture
+
+	is_triggered_only = yes
+	hidden = yes
+	
+	trigger = {
+		tag = FROM
+		has_country_flag = orc_warlord_risen
+	
+		#had_country_flag = {
+		#	flag = orc_warlord_risen
+		#	days = 3650
+		#}
+	}
+	
+	#doest matter
+	option = { 
+		name = flavor_orc.11.a
+		clr_country_flag = orc_warlord_risen
+	}
+}
+
+#Clean Up Event flavor_orc.4
+country_event = {
+	id = flavor_orc.12
+	title = flavor_orc.12.t
+	desc = flavor_orc.12.d
+	picture = MILITARY_CAMP_eventPicture
+
+	is_triggered_only = yes
+	hidden = yes
+	
+	trigger = {
+		tag = FROM
+		has_country_flag = orc_clan_arrives
+	}
+	
+	#doest matter
+	option = { 
+		name = flavor_orc.12.a
+		clr_country_flag = orc_clan_arrives
+	}
+}
+
+#Clean Up Event flavor_orc.5
+country_event = {
+	id = flavor_orc.13
+	title = flavor_orc.13.t
+	desc = flavor_orc.13.d
+	picture = MILITARY_CAMP_eventPicture
+
+	is_triggered_only = yes
+	hidden = yes
+	
+	trigger = {
+		tag = FROM
+		has_country_flag = orc_send_scouts
+	}
+	
+	#doest matter
+	option = { 
+		name = flavor_orc.13.a
+		clr_country_flag = orc_send_scouts
+	}
+}
+
+#Clean Up Event flavor_orc.9
+country_event = {
+	id = flavor_orc.14
+	title = flavor_orc.14.t
+	desc = flavor_orc.14.d
+	picture = MILITARY_CAMP_eventPicture
+
+	is_triggered_only = yes
+	hidden = yes
+	
+	trigger = {
+		tag = FROM
+		OR = {
+			has_country_flag = orc_killed_advisor
+			has_country_flag = orc_kept_advisor
+		}
+	}
+	
+	#doest matter
+	option = { 
+		name = flavor_orc.14.a
+		clr_country_flag = orc_killed_advisor
+		clr_country_flag = orc_kept_advisor
+	}
+}
+
+#Clean Up Event flavor_orc.10
+country_event = {
+	id = flavor_orc.15
+	title = flavor_orc.15.t
+	desc = flavor_orc.15.d
+	picture = MILITARY_CAMP_eventPicture
+
+	is_triggered_only = yes
+	hidden = yes
+	
+	trigger = {
+		tag = FROM
+		has_country_flag = converted_province_recently
+	}
+	
+	#doest matter
+	option = { 
+		name = flavor_orc.15.a
+		clr_country_flag = converted_province_recently
+	}
+}
+

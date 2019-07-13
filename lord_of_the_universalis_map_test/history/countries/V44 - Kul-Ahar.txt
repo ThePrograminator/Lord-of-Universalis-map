@@ -1,0 +1,7 @@
+mercantilism = 0.1
+government = tribal
+add_government_reform = steppe_horde
+primary_culture = culture_kargarim
+religion = religion_ahar
+technology_group = lotr_ahar
+capital = 517

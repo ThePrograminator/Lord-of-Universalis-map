@@ -1,0 +1,9 @@
+mercantilism = 0.1
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = culture_dunir
+religion = religion_daen
+technology_group = lotr_daen
+capital = 180
+
+government_rank = 1

@@ -1,0 +1,8 @@
+mercantilism = 0.1
+government = monarchy
+
+add_government_reform = principality_reform
+primary_culture = culture_gusar
+religion = religion_apysani_beduins
+technology_group = lotr_sand_men
+capital = 470

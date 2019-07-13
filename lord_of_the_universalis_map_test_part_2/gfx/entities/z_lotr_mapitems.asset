@@ -1,0 +1,14 @@
+entity = {
+	name = "minas_tirith_monument"
+	pdxmesh = "minas_tirith_monument_mesh"
+}
+
+entity = {
+	name = "barad_dur_monument"
+	pdxmesh = "barad_dur_monument_mesh"
+}
+
+entity = {
+	name = "black_gate_monument"
+	pdxmesh = "black_gate_monument_mesh"
+}

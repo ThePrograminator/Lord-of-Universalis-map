@@ -1,0 +1,7 @@
+mercantilism = 0.1
+government = republic
+add_government_reform = oligarchy_reform
+primary_culture = culture_breelanders
+religion = religion_eriadorians
+technology_group = lotr_eriadorian
+capital = 267

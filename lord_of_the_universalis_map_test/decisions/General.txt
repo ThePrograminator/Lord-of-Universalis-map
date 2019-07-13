@@ -1,0 +1,101 @@
+country_decisions = {
+	
+	purify_the_realm = {
+		potential = {
+			NOT = { has_country_modifier = purifying_the_realm }
+		}
+		allow = {
+			adm_power = 50
+		}
+		effect = {	
+			add_adm_power = -50
+			
+			add_country_modifier = {
+				name = purifying_the_realm
+				duration = 3650
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				stability = 3
+			}
+			modifier = {
+				factor = 0
+				unrest = 2
+			}
+		}
+	}
+
+	cleanse_our_population = {
+		potential = {
+			NOT = { has_country_modifier = cleansing_population }
+		}
+		allow = {
+			dip_power = 50
+		}
+		effect = {	
+			add_dip_power = -50
+			
+			add_country_modifier = {
+				name = cleansing_population
+				duration = 3650
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				stability = 3
+			}
+			modifier = {
+				factor = 0
+				unrest = 2
+			}
+		}
+	}
+	
+	garrison_forces_on_the_border = {
+		potential = {
+			NOT = { has_country_modifier = border_garrisons }
+		}
+		allow = {
+			mil_power = 50
+		}
+		effect = {	
+			add_mil_power = -50
+			
+			add_country_modifier = {
+				name = border_garrisons
+				duration = 3650
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				stability = 3
+			}
+			modifier = {
+				factor = 0
+				unrest = 2
+			}
+		}
+	}
+	
+	open_help_menu = {
+		potential = {
+			ai = no
+		}
+		allow = {
+			ai = no
+		}
+		effect = {	
+			country_event = { id = help_events.1 }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

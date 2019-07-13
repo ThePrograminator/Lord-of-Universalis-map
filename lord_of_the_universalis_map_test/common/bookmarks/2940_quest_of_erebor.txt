@@ -1,0 +1,12 @@
+bookmark =
+{
+    # Quest for Erebor
+	name = "LOTR_6_NAME"
+	desc = "LOTR_6_DESC"
+	date = 2940.1.1
+	
+	country = Z06
+	country = X09
+	country = X17
+	country = Z72
+}

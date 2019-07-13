@@ -1,0 +1,19 @@
+mercantilism = 0.1
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = culture_urukhai
+religion = religion_uruk
+technology_group = lotr_uruk_hai
+capital = 226
+
+2990.1.1 = {
+	monarch = {
+		name = "Saruman the White"
+		adm = 4
+		dip = 4
+		mil = 5
+		birth_date = 2990.1.1
+	}
+
+	add_ruler_personality = immortal_personality
+}

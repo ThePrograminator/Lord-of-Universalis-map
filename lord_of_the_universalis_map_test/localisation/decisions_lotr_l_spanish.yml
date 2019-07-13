@@ -1,0 +1,139 @@
+﻿l_spanish:
+ # Decisions
+ purify_the_realm_title: "Purify the Realm"
+ purify_the_realm_desc: "Purify our realm, expelling all of those whom are of a different race."
+ 
+ cleanse_our_population_title: "Cleanse our Population"
+ cleanse_our_population_desc: "Purify our lands of undue locals."
+
+ garrison_forces_on_the_border_title: "Garrison troops on our border"
+ garrison_forces_on_the_border_desc: "Garrison troops on our border to reduce dissidence."
+ 
+ border_garrisons: "Border Garrisons"
+ desc_border_garrisons: "We are currently garrisoning troops on our borders."
+ 
+ arnor_second_nation_title: "Form Kingdom of Arnor"
+ arnor_second_nation_desc: "Returning to our ancestral glory and power over Eriador"
+ 
+ arthedain_nation_title: "Form Kingdom of Arthedain"
+ arthedain_nation_desc: "A small step in returning to our ancestral kingdom of Arnor"
+ 
+ cardolan_nation_title: "Form Kingdom of Cardolan"
+ cardolan_nation_desc: "A small step in returning to our ancestral kingdom of Arnor"
+ 
+ dunland_nation_title: "Form Cheifdom of Dunland"
+ dunland_nation_desc: "We must unite or people under one banner"
+ 
+ eriador_nation_title: "Form Kingdom of Eriador"
+ eriador_nation_desc: "Unite the different people of Eriador under one banner"
+ 
+ harad_nation_title: "Form Kingdom of Harad"
+ harad_nation_desc: "We must unite or people under one banner"
+ 
+ khand_nation_title: "Form Khanate of Khand"
+ khand_nation_desc: "We must unite or people under one banner"
+ 
+ nuriags_nation_title: "Form Khanate of Nûriags"
+ nuriags_nation_desc: "We must unite or people under one banner"
+ 
+ rhudaur_nation_title: "Form Kingdom of Rhudaur"
+ rhudaur_nation_desc: "A small step in returning to our ancestral kingdom of Arnor"
+ 
+ rhudaur_nation_title: "Form Kingdom of Rhudaur"
+ rhudaur_nation_desc: "A small step in returning to our ancestral kingdom of Arnor"
+ 
+ rhun_nation_title: "Form Empire of Rhûn"
+ rhun_nation_desc: "Unite the Easterling kingdoms into one nation"
+ 
+ saralainn_nation_title: "Form Cheifdom of Saralainn"
+ saralainn_nation_desc: "We must unite or people under one banner"
+ 
+ vales_of_anduin_nation_title: "Form Kingdom of Vales of Anduin"
+ vales_of_anduin_nation_desc: "We must unite or people under one banner"
+ 
+ durins_nation_title: "Form Kingdom of Durin's Folk"
+ durins_nation_desc: "We must unite or people under one banner"
+ 
+ moria_nation_title: "Form Kingdom of Khazad-dûm"
+ moria_nation_desc: "We must retake or glorious city of Khazad-dûm"
+ 
+ angmar_nation_title: "Form Kingdom of Angmar"
+ angmar_nation_desc: "We must unite or people under one banner"
+ 
+ angmar_nan_nation_title: "Form Kingdom of Angmar"
+ angmar_nan_nation_desc: "We must remake the old kingdom in the north"
+ 
+ gulf_of_mirlond_nation_title: "Form Kingdom of Gulf of Mirlond"
+ gulf_of_mirlond_nation_desc: "We Must claim the entirty of the Gulf of Mirlond inorder to control all trade going north"
+ 
+ harnendor_nation_title: "Form Kingdom of Harnendor"
+ harnendor_nation_desc: "We must Unite the Harondorian people!"
+ 
+ rhovanion_nation_title: "Form Kingdom of Rhovanion"
+ rhovanion_nation_desc: "Rhovanion was once a great kingdom in north eastern Middle-Earth. We must once again reclaim the land which by right is ours."
+ 
+ gondor_nation_title: "Form Kingdom of Gondor"
+ gondor_nation_desc: "The powerfull and old Kingdom of Gondor have fallen some point in time, it is our duty to reform this great nation!"
+ 
+ gondor_gain_claim_on_south_gondor_title: "Reclaim Harnendor!"
+ gondor_gain_claim_on_south_gondor_desc: "Once Harnendor was a part of the Kingdom of Gondor, but for many hundreads of years it hasnt been so. We must reclaim these lands as our own!"
+ 
+ # Decisions (Mordor)
+ rebuild_barad_dur_title: "Rebuild Barad-Dûr"
+ rebuild_barad_dur_desc: "For Sauron to stand strong in Mordor, and show his might, we must rebuild the ruined fortress of Barad-Dûr. The Construction can take 9 years, and will cause the loss of many orc workers."
+ 
+ build_saurons_road_title: "Build Sauron's Road"
+ build_saurons_road_desc: "For fast movement across the barren wastes of Mordor, Sauron build a network of roads to quickly move production from Barad-Dûr to the Black Gates, and south again to Cirith Ungol. The Construction can take 3 years, and will cause the loss of many orc workers."
+ 
+ # Decisions (Dol Guldur)
+ dol_guldur_secure_dol_guldur_title: "Gather Strength: Secure Dol Guldur"
+ dol_guldur_secure_dol_guldur_desc: "Inorder to secure our Saurons Strength, we must secure that Dol Guldur Doesn't get attacked by nearby enermies. If we complete all the tasks, then Sauron will be ready to reveal himself and to unleash the forces of Mordor upon Middle-Earth."
+ 
+ dol_guldur_build_up_reserves_title: "Gather Strength: Build Up Reserves"
+ dol_guldur_build_up_reserves_desc: "Inorder to secure our Saurons Strength, we must secure that Dol Guldur has reserves of food, weapons and materials. If we complete all the tasks, then Sauron will be ready to reveal himself and to unleash the forces of Mordor upon Middle-Earth."
+ 
+ dol_guldur_erebor_situation_title: "Gather Strength: Secure Erebor"
+ dol_guldur_erebor_situation_desc: "Inorder to secure our Saurons Strength, we must secure that The Kingdom Under The Mountain does not return to power in northern Middle-Earth. If we complete all the tasks, then Sauron will be ready to reveal himself and to unleash the forces of Mordor upon Middle-Earth."
+ 
+ dol_guldur_secure_border_to_mordor_title: "Gather Strength: Secure Border to Mordor"
+ dol_guldur_secure_border_to_mordor_desc: "Inorder to secure our Saurons Strength, we must secure that Dol Guldur has a steady supply line all the way to Mordor when the Battle of Middle-Earth commences. If we complete all the tasks, then Sauron will be ready to reveal himself and to unleash the forces of Mordor upon Middle-Earth."
+ 
+ dol_guldur_secure_power_title: "Gather Strength: Secure Power"
+ dol_guldur_secure_power_desc: "Inorder to secure our Saurons Strength, we must secure that Dol Guldur Strength in Millitary, Resources and Food is secured. If we complete all the tasks, then Sauron will be ready to reveal himself and to unleash the forces of Mordor upon Middle-Earth."
+ 
+ dol_guldur_finish_securing_strength_title: "Reveal The Dark Lord!"
+ dol_guldur_finish_securing_strength_desc: "Reveal The Dark Lord to all of Middle-Earth and unleash the power of Mordor!"
+ 
+ # Advisor Decisions
+ consult_the_elders_title: "Consult our Elders"
+ consult_the_elders_desc: "Our elders often have valuable advice relevant to our current predicaments, but we must listen to them first, else lose their valuable experience."
+ 
+ construct_monuments_title: "Build new Monuments"
+ construct_monuments_desc: "The glory of our ruler must be displayed across our realm."
+
+ commission_grand_painting_title: "Commission Grand Painting"
+ commission_grand_painting_desc: "The beauty of our rulers must be captured in the brushstrokes of a legendary artist. Commission one of our realm's artists to produce this masterpiece."
+
+ institute_sin_tax_title: "Institute Sin Tax"
+ institute_sin_tax_desc: "Our people revel and party continously! We must curb this by instituting a sin tax. This will also help fill our coffers."
+
+ support_the_poor_title: "Help the Poor"
+ support_the_poor_desc: "The poorest in our realm require help to live fufilled lives. If we invest some of our wealth and help bring up the poorest in our realm, we will improve the realm's stability."
+ 
+ settle_debts_title: "Settle Debts"
+ settle_debts_desc: "If we settle our debts early, other nobles will be more willing to lend money to us."
+
+ purify_land_title: "Purify Land"
+ purify_land_desc: "Our realm must be cleansed! Force people to follow our traditions or 'send' them away."
+ 
+ call_a_council_title: "Form Local Councils"
+ call_a_council_desc: "Our realm is large, and without local councils our administration will falter."
+ 
+ reinforce_ships_title: "Reinforce Warships"
+ reinforce_ships_desc: "Our navy is in ruins. Let us reinforce the warships and restore them to their former glory."
+ 
+ open_help_menu_title: "Help Menu"
+ open_help_menu_desc: "Open up the Help Menu"
+ 
+ return_ring_to_sauron_title: "Return The Ring To Sauron"
+ return_ring_to_sauron_desc: "By Returning the Ring to It's master, Mordor will gain immense strength."

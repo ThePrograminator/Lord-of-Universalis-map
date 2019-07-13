@@ -1,0 +1,60 @@
+spriteTypes = {
+
+	################################################
+	# Backgrounds
+	################################################
+
+	spriteType = {
+		name = "GFX_background_human"
+		texturefile = "gfx/interface/background_human.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_background_dwarf"
+		texturefile = "gfx/interface/background_dwarf.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_background_elf"
+		texturefile = "gfx/interface/background_elf.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_background_orc"
+		texturefile = "gfx/interface/background_orc.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_background_grey"
+		texturefile = "gfx/interface/background_grey.dds"
+	}
+	
+	################################################
+	# Banners
+	################################################
+	
+	spriteType = {
+		name = "GFX_banner_buildings_blue"
+		texturefile = "gfx/interface/banner_buildings_blue.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_banner_buildings_yellow"
+		texturefile = "gfx/interface/banner_buildings_yellow.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_banner_buildings_green"
+		texturefile = "gfx/interface/banner_buildings_green.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_banner_buildings_red"
+		texturefile = "gfx/interface/banner_buildings_red.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_banner_buildings_grey"
+		texturefile = "gfx/interface/banner_buildings_grey.dds"
+	}
+}

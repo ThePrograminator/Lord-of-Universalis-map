@@ -1,0 +1,526 @@
+#Country Name: Please see filename.
+graphical_culture = westerngfx
+
+color = { 250 255 0 }
+
+historical_idea_groups = {
+	offensive_ideas
+	diplomatic_ideas
+	defensive_ideas
+	innovativeness_ideas
+	administrative_ideas
+	quantity_ideas
+	economic_ideas
+	aristocracy_ideas
+}
+
+historical_units = {
+	lotr_hobbit_in_arms_1
+	lotr_hobbit_sheriff_archers_2
+	lotr_hobbit_bandobras_followers_3
+
+	lotr_hobbit_pony_riders_1
+	lotr_hobbit_bandobras_riders_2
+}
+
+monarch_names = {
+	"Berilac" = 10
+	"Berilac" = 10
+	"Dinodas" = 10
+	"Dinodas" = 10
+	"Doderic" = 10
+	"Doderic" = 10
+	"Dodinas" = 10
+	"Dodinas" = 10
+	"Gorbadoc" = 10
+	"Gorbadoc" = 10
+	"Gorbulas" = 10
+	"Gorbulas" = 10
+	"Gorhendad" = 10
+	"Gorhendad" = 10
+	"Gormadoc" = 10
+	"Gormadoc" = 10
+	"Haldad" = 10
+	"Haldad" = 10
+	"Ilberic" = 10
+	"Ilberic" = 10
+	"Macdoc" = 10
+	"Macdoc" = 10
+	"Madoc" = 10
+	"Madoc" = 10
+	"Marmadas" = 10
+	"Marmadas" = 10
+	"Marmadoc" = 10
+	"Marmadoc" = 10
+	"Marroc" = 10
+	"Marroc" = 10
+	"Meriadoc" = 10
+	"Meriadoc" = 10
+	"Merimac" = 10
+	"Merimac" = 10
+	"Merimas" = 10
+	"Merimas" = 10
+	"Orgulas" = 10
+	"Orgulas" = 10
+	"Rorimac" = 10
+	"Rorimac" = 10
+	"Sadoc" = 10
+	"Sadoc" = 10
+	"Saradas" = 10
+	"Saradas" = 10
+	"Saradoc" = 10
+	"Saradoc" = 10
+	"Seredic" = 10
+	"Seredic" = 10
+	"Adalbert" = 10
+	"Adalbert" = 10
+	"Adalgar" = 10
+	"Adalgar" = 10
+	"Adalgrim" = 10
+	"Adalgrim" = 10
+	"Adelard" = 10
+	"Adelard" = 10
+	"Andy" = 10
+	"Andrew" = 10
+	"Anson" = 10
+	"Anson" = 10
+	"Andwise" = 10
+	"Andwise" = 10
+	"Balbo" = 10
+	"Balbo" = 10
+	"Basso" = 10
+	"Basso" = 10
+	"Bert" = 10
+	"Bert" = 10
+	"Bilbo" = 10
+	"Bilbo" = 10
+	"Bill" = 10
+	"William" = 10
+	"Bingo" = 10
+	"Bingo" = 10
+	"Blancho" = 10
+	"Blancho" = 10
+	"Blanco" = 10
+	"Blanco" = 10
+	"Bob" = 10
+	"Robert" = 10
+	"Bodo" = 10
+	"Bodo" = 10
+	"Bosco" = 10
+	"Bosco" = 10
+	"Bowman" = 10
+	"Bowman" = 10
+	"Briffo" = 10
+	"Briffo" = 10
+	"Bruno" = 10
+	"Bruno" = 10
+	"Bucca" = 10
+	"Bucca" = 10
+	"Buffo" = 10
+	"Buffo" = 10
+	"Bungo" = 10
+	"Bungo" = 10
+	"Carl" = 10
+	"Charles" = 10
+	"Cotman" = 10
+	"Cotman" = 10
+	"Cottar" = 10
+	"Cottar" = 10
+	"Daddy" = 10
+	"Daddy" = 10
+	"Déagol" = 10
+	"Déagol" = 10
+	"Drogo" = 10
+	"Drogo" = 10
+	"Dudo" = 10
+	"Dudo" = 10
+	"Ed" = 10
+	"Edmund" = 10
+	"Edmund" = 10
+	"Edmund" = 10
+	"Elfstan" = 10
+	"Elfstan" = 10
+	"Erling" = 10
+	"Eorling" = 10
+	"Everard" = 10
+	"Everard" = 10
+	"Falco" = 10
+	"Falco" = 10
+	"Fastolph" = 10
+	"Fastolph" = 10
+	"Fastred" = 10
+	"Fastred" = 10
+	"Fatty" = 10
+	"Fredegar" = 10
+	"Ferdibrand" = 10
+	"Ferdibrand" = 10
+	"Ferdinand" = 10
+	"Ferdinand" = 10
+	"Filibert" = 10
+	"Filibert" = 10
+	"Flambard" = 10
+	"Flambard" = 10
+	"Folco" = 10
+	"Folco" = 10
+	"Fosco" = 10
+	"Fosco" = 10
+	"Fredegar" = 10
+	"Fredegar" = 10
+	"Frodo" = 10
+	"Frodo" = 10
+	"Gaffer" = 10
+	"Gaffer" = 10
+	"Griffo" = 10
+	"Griffo" = 10
+	"Gruffo" = 10
+	"Gruffo" = 10
+	"Gundabald" = 10
+	"Gundabald" = 10
+	"Gundahad" = 10
+	"Gundahad" = 10
+	"Gundahar" = 10
+	"Gundahar" = 10
+	"Gundolpho" = 10
+	"Gundolpho" = 10
+	"Halfast" = 10
+	"Halfast" = 10
+	"Halfred" = 10
+	"Halfred" = 10
+	"Harding" = 10
+	"Harding" = 10
+	"Hamfast" = 10
+	"Hamfast" = 10
+	"Hamson" = 10
+	"Hamson" = 10
+	"Hending" = 10
+	"Hending" = 10
+	"Heribald" = 10
+	"Heribald" = 10
+	"Herugar" = 10
+	"Herugar" = 10
+	"Hildibrand" = 10
+	"Hildibrand" = 10
+	"Hildifons" = 10
+	"Hildifons" = 10
+	"Hildigard" = 10
+	"Hildigard" = 10
+	"Hildigrim" = 10
+	"Hildigrim" = 10
+	"Hob" = 10
+	"Hob" = 10
+	"Holfast" = 10
+	"Holfast" = 10
+	"Holman" = 10
+	"Holman" = 10
+	"Hugo" = 10
+	"Hugo" = 10
+	"Isembard" = 10
+	"Isenbard" = 10
+	"Isembold" = 10
+	"Isenbold" = 10
+	"Isengar" = 10
+	"Isengar" = 10
+	"Isengrim" = 10
+	"Isengrim" = 10
+	"Jago" = 10
+	"Jago" = 10
+	"Jolly" = 10
+	"Jolly" = 10
+	"Largo" = 10
+	"Largo" = 10
+	"Longo" = 10
+	"Longo" = 10
+	"Lotho" = 10
+	"Lotho" = 10
+	"Marcho" = 10
+	"Marcho" = 10
+	"Merry" = 10
+	"Meriadoc" = 10
+	"Milo" = 10
+	"Milo" = 10
+	"Minto" = 10
+	"Minto" = 10
+	"Moro" = 10
+	"Moro" = 10
+	"Mosco" = 10
+	"Mosco" = 10
+	"Mungo" = 10
+	"Mungo" = 10
+	"Nibs" = 10
+	"Nibs" = 10
+	"Nick" = 10
+	"Nicholas" = 10
+	"Nob" = 10
+	"Nob" = 10
+	"Odo" = 10
+	"Odo" = 10
+	"Odovacar" = 10
+	"Odovacar" = 10
+	"Olo" = 10
+	"Olo" = 10
+	"Otho" = 10
+	"Otho" = 10
+	"Otto" = 10
+	"Otto" = 10
+	"Peregrin" = 10
+	"Peregrin" = 10
+	"Pippin" = 10
+	"Peregrin" = 10
+	"Polo" = 10
+	"Polo" = 10
+	"Ponto" = 10
+	"Ponto" = 10
+	"Porto" = 10
+	"Porto" = 10
+	"Posco" = 10
+	"Posco" = 10
+	"Reginard" = 10
+	"Reginard" = 10
+	"Robin" = 10
+	"Robin" = 10
+	"Rollo" = 10
+	"Rollo" = 10
+	"Rudibert" = 10
+	"Rudibert" = 10
+	"Rudigar" = 10
+	"Rudigar" = 10
+	"Rudolph" = 10
+	"Rudolph" = 10
+	"Rufus" = 10
+	"Rufus" = 10
+	"Sam" = 10
+	"Samuel" = 10
+	"Samwise" = 10
+	"Samwise" = 10
+	"Sancho" = 10
+	"Sancho" = 10
+	"Sigismund" = 10
+	"Sigismund" = 10
+	"Sméagol" = 10
+	"Sméagol" = 10
+	"Ted" = 10
+	"Ted" = 10
+	"Theobald" = 10
+	"Theobald" = 10
+	"Tobold" = 10
+	"Tobold" = 10
+	"Togo" = 10
+	"Togo" = 10
+	"Tolman" = 10
+	"Tolman" = 10
+	"Tom" = 10
+	"Thomas" = 10
+	"Tosto" = 10
+	"Tosto" = 10
+	"Trotter" = 10
+	"Trotter" = 10
+	"Uffo" = 10
+	"Uffo" = 10
+	"Vigo" = 10
+	"Vigo" = 10
+	"Wilcome" = 10
+	"Wilcome" = 10
+	"Will" = 10
+	"William" = 10
+	"Wilibald" = 10
+	"Wilibald" = 10
+	"Wilimar" = 10
+	"Wilimar" = 10
+	"Willie" = 10
+	"William" = 10
+	"Wiseman" = 10
+	
+	"Adaldrida" = -10
+	"Adaldrida" = -10
+	"Adamanta" = -10
+	"Adamanta" = -10
+	"Alfrida" = -10
+	"Alfrida" = -10
+	"Amaranth" = -10
+	"Amaranth" = -10
+	"Amethyst" = -10
+	"Amethyst" = -10
+	"Angelica" = -10
+	"Angelica" = -10
+	"Asphodel" = -10
+	"Asphodel" = -10
+	"Belba" = -10
+	"Belba" = -10
+	"Bell" = -10
+	"Bell" = -10
+	"Belladonna" = -10
+	"Belladonna" = -10
+	"Berylla" = -10
+	"Berylla" = -10
+	"Camellia" = -10
+	"Camellia" = -10
+	"Celandine" = -10
+	"Celandine" = -10
+	"Chica" = -10
+	"Chica" = -10
+	"Cora" = -10
+	"Cora" = -10
+	"Daisy" = -10
+	"Daisy" = -10
+	"Diamond" = -10
+	"Diamond" = -10
+	"Dina" = -10
+	"Dina" = -10
+	"Donnamira" = -10
+	"Donnamira" = -10
+	"Dora" = -10
+	"Dora" = -10
+	"Druda" = -10
+	"Druda" = -10
+	"Eglantine" = -10
+	"Eglantine" = -10
+	"Esmeralda" = -10
+	"Esmeralda" = -10
+	"Estella" = -10
+	"Estella" = -10
+	"Gerda" = -10
+	"Gerda" = -10
+	"Gilly" = -10
+	"Gilly" = -10
+	"Goldilocks" = -10
+	"Goldilocks" = -10
+	"Hanna" = -10
+	"Hannah" = -10
+	"Hilda" = -10
+	"Hilda" = -10
+	"Hildigrim" = -10
+	"Hildigrim" = -10
+	"Ivy" = -10
+	"Ivy" = -10
+	"Jessamine" = -10
+	"Jessamine" = -10
+	"Lalia" = -10
+	"Lalia" = -10
+	"Lavender" = -10
+	"Lavender" = -10
+	"Laura" = -10
+	"Laura" = -10
+	"Laterose" = -10
+	"Laterose" = -10
+	"Lily" = -10
+	"Lily" = -10
+	"Linda" = -10
+	"Linda" = -10
+	"Lobelia" = -10
+	"Lobelia" = -10
+	"Malva" = -10
+	"Malva" = -10
+	"Marigold" = -10
+	"Marigold" = -10
+	"May" = -10
+	"May" = -10
+	"Melilot" = -10
+	"Melilot" = -10
+	"Menegilda" = -10
+	"Menegilda" = -10
+	"Mentha" = -10
+	"Mentha" = -10
+	"Mimosa" = -10
+	"Mimosa" = -10
+	"Mirabella" = -10
+	"Mirabella" = -10
+	"Myrtle" = -10
+	"Myrtle" = -10
+	"Nina" = -10
+	"Nina" = -10
+	"Nora" = -10
+	"Nora" = -10
+	"Pansy" = -10
+	"Pansy" = -10
+	"Pearl" = -10
+	"Pearl" = -10
+	"Peony" = -10
+	"Peony" = -10
+	"Pervinca" = -10
+	"Pervinca" = -10
+	"Pimpernel" = -10
+	"Pimpernel" = -10
+	"Poppy" = -10
+	"Poppy" = -10
+	"Primrose" = -10
+	"Primrose" = -10
+	"Primula" = -10
+	"Primula" = -10
+	"Prisca" = -10
+	"Prisca" = -10
+	"Rosa" = -10
+	"Rose" = -10
+	"Rosamunda" = -10
+	"Rosamunda" = -10
+	"Rose" = -10
+	"Rose" = -10
+	"Rosie" = -10
+	"Rose" = -10
+	"Rowan" = -10
+	"Rowan" = -10
+	"Ruby" = -10
+	"Ruby" = -10
+	"Salvia" = -10
+	"Salvia" = -10
+	"Sapphira" = -10
+	"Sapphira" = -10
+	"Tanta" = -10
+	"Tanta" = -10
+	"Widow" = -10
+	
+}
+
+leader_names = {
+	
+}
+
+ship_names = {
+	Eagletree
+	Feathersun
+	Lowtree
+	Distantblade
+	Pineweaver
+	Oceanfang
+	Humbleripper
+	Wiseblood
+	Sunmantle
+	Grandpunch
+	Pyrefollower
+	Hawkfall
+	Heartsteam
+	Stonestrength
+	Mastertide
+	Gloomsworn
+	Redfist
+	Riverwinds
+	Skyspire
+	Fireclaw
+	Lunapike
+	Whitbane
+	Tarrensnow
+	Leafroot
+	Softswallow
+	Peacereaper
+	Stagarm
+	Monsterfury
+	Horsebinder
+	Strongmoon
+	Moltenmourn
+	Skymight
+	Covenstriker
+	Glowstrider
+	Farwatcher
+	Fallendown
+	Tarrengem
+	Stonestar
+	Fernstriker
+	Roughheart
+}
+
+army_names = {
+	"Regiment of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}

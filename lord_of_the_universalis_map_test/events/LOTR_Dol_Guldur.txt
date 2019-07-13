@@ -1,0 +1,558 @@
+########################################
+# Events for Dol Guldur
+#
+#
+########################################
+
+namespace = flavor_dol_guldur
+normal_or_historical_nations = yes
+
+# Thrain Captured
+country_event = {
+	id = flavor_dol_guldur.1
+	title = flavor_dol_guldur.1.t
+	desc = flavor_dol_guldur.1.d
+	picture = ASSASSINATION_eventPicture
+
+	fire_only_once = yes
+	
+	trigger = {
+		AND = {
+			tag = V19
+			is_year = 2845
+			304 = {
+				owned_by = ROOT
+			}
+		}
+		NOT = {
+			has_country_modifier = dol_guldur_thrain_captured
+		}
+	}
+	
+	#
+	option = { 
+		name = flavor_dol_guldur.1.a
+		
+		add_country_modifier = {
+			name = dol_guldur_thrain_captured
+			duration = -1
+		}
+	}
+}
+
+# Gandalf Discover us
+country_event = {
+	id = flavor_dol_guldur.2
+	title = flavor_dol_guldur.2.t
+	desc = flavor_dol_guldur.2.d
+	picture = ADVISOR_eventPicture
+
+	fire_only_once = yes
+	
+	trigger = {
+		AND = {
+			tag = V19
+			is_year = 2850
+			304 = {
+				owned_by = ROOT
+			}
+		}
+		NOT = {
+			has_country_modifier = dol_guldur_gandalf_discovered
+		}
+	}
+	
+	#
+	option = { 
+		name = flavor_dol_guldur.2.a
+		
+		add_country_modifier = {
+			name = dol_guldur_gandalf_discovered
+			duration = -1
+		}
+	}
+}
+
+# Shrouded in Mystery
+country_event = {
+	id = flavor_dol_guldur.3
+	title = flavor_dol_guldur.3.t
+	desc = flavor_dol_guldur.3.d
+	picture = COMET_SIGHTED_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			tag = V19
+			304 = {
+				owned_by = ROOT
+			}
+		}
+		NOT = {
+			has_country_modifier = dol_guldur_shrouded_mystery
+			has_country_modifier = dol_guldur_gandalf_discovered
+			is_year = 2850
+		}
+	}
+	
+	#
+	option = { 
+		name = flavor_dol_guldur.3.a
+		
+		add_country_modifier = {
+			name = dol_guldur_shrouded_mystery
+			duration = 3650
+		}
+	}
+}
+
+# Spiders Patrol
+country_event = {
+	id = flavor_dol_guldur.4
+	title = flavor_dol_guldur.4.t
+	desc = flavor_dol_guldur.4.d
+	picture = NATIVES_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			tag = V19
+			mirkwood_region = {
+				OR ={
+					owns_or_vassal_of = V20
+					owns_or_vassal_of = V41
+					owned_by = V19
+				}
+				OR = {
+					culture = culture_spider
+					religion = religion_spider
+				}
+			}
+		}
+		NOT = {
+			any_owned_province = {
+				OR = {
+					has_province_modifier = dol_guldur_province_spider_patrol
+					has_province_modifier = dol_guldur_orcs_missing_meat
+				}
+			}
+		}
+	}
+	
+	#Yes
+	option = { 
+		name = flavor_dol_guldur.4.a
+		
+		mirkwood_region = {
+			limit = {
+				OR ={
+					owns_or_vassal_of = V20
+					owns_or_vassal_of = V41
+					owned_by = V19
+				}
+				OR = {
+					culture = culture_spider
+					religion = religion_spider
+				}
+			}
+			
+			add_province_modifier = {
+				name = "dol_guldur_province_spider_patrol"
+				duration = 3650
+			}
+		}
+	}
+	
+	#No
+	option = { 
+		name = flavor_dol_guldur.4.b
+		
+		add_country_modifier = {
+			name = dol_guldur_orcs_missing_meat
+			duration = 3650
+		}
+		
+		add_prestige = -5
+	}
+}
+
+# Ask Guldurim for Troops
+country_event = {
+	id = flavor_dol_guldur.5
+	title = flavor_dol_guldur.5.t
+	desc = flavor_dol_guldur.5.d
+	picture = LIBERUM_VETO_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			tag = V19
+			dol_guldur_area = {
+				OR ={
+					#owns_or_vassal_of = Z61
+					owned_by = V19
+				}
+				OR = {
+					#culture = culture_guldurim
+					religion = religion_easterlings
+				}
+			}
+		}
+		NOT = {
+			has_country_flag = dol_guldur_refused_troops
+			any_owned_province = {
+				OR = {
+					has_province_modifier = dol_guldur_ask_guldurim_troops
+				}
+			}
+		}
+	}
+	
+	#Yes
+	option = { 
+		name = flavor_dol_guldur.5.a
+		
+		add_mil_power = -50
+		add_manpower = 3
+		
+		dol_guldur_area = {
+			limit = {
+				OR ={
+					#owns_or_vassal_of = Z61
+					owned_by = V19
+				}
+				#culture = culture_guldurim
+				religion = religion_easterlings
+			}
+			add_province_modifier = {
+				name = dol_guldur_ask_guldurim_troops
+				duration = 3650
+			}
+		}
+	}
+	
+	#No
+	option = { 
+		name = flavor_dol_guldur.5.b
+		
+		set_country_flag = dol_guldur_refused_troops
+		
+		add_prestige = -5
+		
+		hidden_effect = {
+			country_event = {
+				id = flavor_dol_guldur.8
+				days = 3650
+			}
+		}
+	}
+}
+
+# Initiate Spawn Mordor
+country_event = {
+	id = flavor_dol_guldur.6
+	title = flavor_dol_guldur.6.t
+	desc = flavor_dol_guldur.6.d
+	picture = COUNTRY_COLLAPSE_eventPicture
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = V19
+			
+		has_country_flag = dol_guldur_first
+		has_country_flag = dol_guldur_second
+		has_country_flag = dol_guldur_third
+		has_country_flag = dol_guldur_fourth
+		has_country_flag = dol_guldur_fifth
+		has_country_flag = dol_guldur_finish_securing_strength
+		
+		NOT = {
+			is_year = 2942
+			exists = V17
+		}
+	}
+	
+	#Yes
+	option = { 
+		name = flavor_dol_guldur.6.a
+		
+		if = {
+			limit = {
+				ai = no
+			}
+			set_country_flag = dol_guldur_change_tag
+		}
+		
+		country_event = {
+			id = flavor_dol_guldur.7
+		}
+		set_global_flag = mordor_spawned
+	}
+	
+	#No
+	option = { 
+		name = flavor_dol_guldur.6.b
+
+		if = {
+			limit = {
+				ai = no
+			}
+			set_country_flag = dol_guldur_keep_tag
+		}
+		
+		country_event = {
+			id = flavor_dol_guldur.7
+		}
+		set_global_flag = mordor_spawned
+	}
+}
+
+# Spawn Mordor
+province_event = {
+	id = flavor_dol_guldur.7
+	title = flavor_dol_guldur.7.t
+	desc = flavor_dol_guldur.7.d
+	picture = COUNTRY_COLLAPSE_eventPicture
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	major = yes
+
+	trigger = {
+		tag = V19
+	
+		NOT = {
+			exists = V17 
+		}
+		
+		mordor_region = {
+			is_empty = yes
+		}
+	}
+	
+	option = { 
+		name = flavor_dol_guldur.7.a
+		
+		tooltip = {
+			mordor_region = {
+				add_core = V17
+				cede_province = V17
+				set_capital = 639
+			}
+		}
+		
+		hidden_effect = {
+			mordor_region = {
+				add_core = V17
+			}
+			
+			mordor_region = {
+				limit = {
+					is_empty = yes
+				}
+				
+				cede_province = V17
+				
+				change_culture = culture_orkish
+				change_religion = religion_orkish
+				
+				691 = {
+					change_trade_goods = stone
+					
+					add_province_modifier = {
+						name = ruins_debuff 
+						duration = 1095
+					}
+				}
+					
+				72 = {
+					change_trade_goods = livestock
+				}
+					
+				662 = {
+					change_trade_goods = iron
+				}
+					
+				147 = {
+					change_trade_goods = iron
+				}
+
+				150 = {
+					change_trade_goods = livestock
+				}
+
+				151 = {
+					change_trade_goods = stone
+				}
+				
+				148 = {
+					change_trade_goods = stone
+				}
+
+				639 = {
+					change_trade_goods = livestock
+					
+					add_province_modifier = {
+						name = ruins_debuff 
+						duration = 1095
+					}
+				}
+				
+				149 = {
+					change_trade_goods = stone
+				}
+				
+				233 = {
+					change_trade_goods = livestock
+				}
+				
+				332 = {
+					change_trade_goods = livestock
+				}
+				
+				152 = {
+					change_trade_goods = copper
+				}
+				
+				334 = {
+					change_trade_goods = livestock
+				}
+				
+				109 = {
+					change_trade_goods = copper
+				}
+				
+				333 = {
+					change_trade_goods = livestock
+				}
+			}
+			
+			gondor_region = {
+				limit = {
+					is_empty = yes
+				}
+				
+				426 = {
+					add_core = V17
+					cede_province = V17
+					change_culture = culture_orkish
+					change_religion = religion_orkish
+					change_trade_goods = iron
+				}
+			}
+			
+			
+			V17 = {
+				add_opinion = {
+					who = V19
+					modifier = dol_guldur_servant
+					years = 500
+				}
+				add_adm_tech = V19
+				add_dip_tech = V19
+				add_mil_tech = V19
+				add_treasury = 300
+			}
+			
+			V19 = {
+				add_opinion = {
+					who = V17
+					modifier = mordor_master
+					years = 500
+				}
+				add_country_modifier = {
+					name = mordor_dol_guldur_subject
+					duration = -1
+				}
+			}
+			
+			country_event = {
+				id = flavor_mordor.3
+				days = 31
+			}
+		}
+		
+		if = {
+			limit = {
+				has_country_flag = dol_guldur_change_tag
+			}
+			swap_free_idea_group = yes
+			switch_tag = V17
+			
+			custom_tooltip = dol_guldur_switch_nation_meta
+			hidden_effect = {
+				every_province = {
+					limit = {
+						owned_by = V19
+						NOT = {
+							region = mirkwood_region
+						}
+					}
+					
+					remove_core = V19
+					add_core = V17
+					cede_province = V17
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				has_country_flag = dol_guldur_keep_tag
+			}
+			V17 = {
+				create_march = V19
+			}
+		}
+		
+		if = {
+			limit = {
+				ai = yes
+				NOT = {
+					has_country_flag = dol_guldur_change_tag
+					has_country_flag = dol_guldur_keep_tag
+				}
+			}
+			V17 = {
+				create_march = V19
+			}
+		}
+		
+		hidden_effect = {
+			set_capital = 639
+		}
+	}
+}
+
+#Clean Up Event flavor_dol_guldur.5
+country_event = {
+	id = flavor_dol_guldur.8
+	title = flavor_dol_guldur.8.t
+	desc = flavor_dol_guldur.8.d
+	picture = MILITARY_CAMP_eventPicture
+
+	is_triggered_only = yes
+	hidden = yes
+	
+	trigger = {
+		tag = FROM
+		has_country_flag = dol_guldur_refused_troops
+	
+		#had_country_flag = {
+		#	flag = orc_warlord_risen
+		#	days = 3650
+		#}
+	}
+	
+	#doest matter
+	option = { 
+		name = flavor_dol_guldur.8.a
+		clr_country_flag = dol_guldur_refused_troops
+	}
+}

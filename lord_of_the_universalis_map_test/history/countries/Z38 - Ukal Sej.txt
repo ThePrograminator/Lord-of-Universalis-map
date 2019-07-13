@@ -1,0 +1,9 @@
+mercantilism = 0.1
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = culture_lossoth
+religion = religion_forodwaith
+technology_group = lotr_snow_men
+capital = 668
+
+government_rank = 1

@@ -1,0 +1,51 @@
+﻿l_spanish:
+ # Religions
+ religion_group_eruhini: "Ainur"
+ religion_eruhini: "Ainur"
+ 
+ religion_group_enyd: "Onodrim"
+ religion_enyd: "Onodrim"
+ 
+ religion_group_khazad: "Khazâd"
+ religion_mahal: "Dwarves"
+ 
+ religion_group_eldar: "Eldar"
+ religion_moriquendi: "Moriquendi"
+ religion_umanyar: "Úmanyar"
+ religion_calaquendi: "Calaquendi"
+ 
+ religion_group_periannath: "Periannath"
+ religion_perian: "Perian"
+ 
+ religion_group_edain: "Edain"
+ religion_druedain: "Drúedain"
+ religion_edain: "Edain"
+ religion_dunedain: "Dúnedain"
+ religion_numenorean: "Númenórean"
+ religion_rhovanion: "Northmen"
+ religion_nurning: "Núrnoth"
+ religion_haldadian: "Haldadian"
+ religion_ishmalogim: "Ishmalogim"
+ religion_lossoth: "Lossoth"
+ religion_eriadorians: "Eriadorians"
+ 
+ religion_group_hildor: "Men of Darkness"
+ religion_southron: "Southrons"
+ religion_easterlings: "Easterlings"
+ religion_black_numenorean: "Black Númenóreans"
+ 
+ religion_group_melkor: "Creatures of Melkor"
+ religion_wight: "Wight"
+ religion_olog: "Troll"
+ religion_orkish: "Orcs"
+ religion_goblin: "Goblin"
+ religion_uruk: "Uruk"
+ religion_dragons: "Dragon"
+ religion_spider: "Spider"
+ religion_angmarim: "Angmarism"
+ 
+ religion_group_sun: "Sun people"
+ religion_sun: "Sun People"
+ 
+ religion_group_wilderness: "Wilderness"
+ religion_wilderness: "Wilderness"

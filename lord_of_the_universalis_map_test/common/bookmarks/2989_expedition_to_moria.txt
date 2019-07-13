@@ -1,0 +1,20 @@
+bookmark =
+{
+    # Expedition to Moria
+	name = "LOTR_8_NAME"
+	desc = "LOTR_8_DESC"
+	date = 2989.1.1
+	
+	country = X12
+	country = X84
+	country = X78
+	country = X70
+	country = Z73
+	
+	effect = {
+		X12 = {
+			add_stability = -1
+			add_prestige = -50
+		}
+	}
+}

@@ -1,0 +1,11 @@
+# Big Ents
+type = infantry
+unit_type = lotr_ent
+
+maneuver = 1
+offensive_morale = 8
+defensive_morale = 10
+offensive_fire = 0
+defensive_fire = 0
+offensive_shock = 3
+defensive_shock = 3

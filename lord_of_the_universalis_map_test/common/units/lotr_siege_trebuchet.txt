@@ -1,0 +1,14 @@
+# Trebuchet
+type = artillery
+
+maneuver = 1
+offensive_morale = 3
+defensive_morale = 3
+offensive_fire = 3
+defensive_fire = 3
+offensive_shock = 3
+defensive_shock = 3
+
+trigger = {
+	culture_group = culture_group_numenorean
+}

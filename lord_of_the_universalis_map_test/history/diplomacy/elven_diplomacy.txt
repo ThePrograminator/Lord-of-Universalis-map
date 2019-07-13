@@ -1,0 +1,33 @@
+# Battle of Middle Earth
+
+# Arentaurr and Taarun
+union = {
+	first = Y75
+	second = Y74
+	start_date = 2758.10.10
+	end_date = 9651.1.1
+}
+
+# Lindon and Forlindon
+union = {
+	first = Y81
+	second = Y82
+	start_date = 2758.10.10
+	end_date = 9651.1.1
+}
+
+# Lindon and Harlindon
+union = {
+	first = Y81
+	second = Y83
+	start_date = 2758.10.10
+	end_date = 9651.1.1
+}
+
+# Rivendell and Amon Lind
+march = {
+	first = Y80
+	second = Y84
+	start_date = 2758.10.10
+	end_date = 9651.1.1
+}

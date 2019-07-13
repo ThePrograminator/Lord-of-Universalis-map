@@ -1,0 +1,204 @@
+##################################################
+# Institutions 
+#
+# written by DKStranger
+##################################################
+
+
+namespace = institution_events
+
+
+
+########################################
+# Company of Thorin.  
+########################################
+
+country_event = {
+	id = institution_events.1
+	title = institution_events.1.t
+	desc = institution_events.1.d
+	picture = PAINTER_ARTIST_eventPicture
+
+	is_triggered_only = yes
+	
+
+	trigger = {
+		always = yes
+	}
+	
+	immediate = {
+		hidden_effect = {
+			#country_event = { id = institution_events.3 }
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = institution_events.1.a
+		custom_tooltip = tooltip_thorin_company_started
+		FROM = {
+			set_province_flag = thorin_company_path_start
+		}
+		hidden_effect = {
+			every_country = {
+				limit = {
+					ai = no
+					NOT = { tag = ROOT }
+					has_discovered = 84
+				}
+				country_event = { id = institution_events.2 }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = institution_events.2
+	title = institution_events.2.t
+	desc = institution_events.2.d
+	picture = PAINTER_ARTIST_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		#company_of_thorin = 100		
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = institution_events.2.a
+		custom_tooltip = tooltip_thorin_company_started
+	}
+}
+
+country_event = {
+	id = institution_events.3
+	title = institution_events.3.t
+	desc = institution_events.3.d
+	picture = PAINTER_ARTIST_eventPicture
+
+	is_triggered_only = yes
+	hidden = yes
+
+	trigger = {
+		always = yes			
+	}
+
+	option = {
+		name = institution_events.3.a
+		
+		create_thorin_company_path = yes
+	}
+}
+
+#######################################
+# Fellowship of the Ring
+#######################################
+country_event = {
+	id = institution_events.4
+	title = institution_events.4.t
+	desc = institution_events.4.d
+	picture = PAINTER_ARTIST_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		always = yes
+	}
+	
+	immediate = {
+		hidden_effect = {
+			#country_event = { id = institution_events.6 }
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = institution_events.4.a
+		custom_tooltip = tooltip_fellowship_started
+		FROM = {
+			set_province_flag = fellowship_path_start
+		}
+		hidden_effect = {
+			every_country = {
+				limit = {
+					ai = no
+					NOT = { tag = ROOT }
+					has_discovered = 84
+				}
+				country_event = { id = institution_events.5 }
+			}
+		}
+	}
+}
+
+
+country_event = {
+	id = institution_events.5
+	title = institution_events.5.t
+	desc = institution_events.5.d
+	picture = PAINTER_ARTIST_eventPicture
+
+	is_triggered_only = yes
+	
+
+	trigger = {
+		always = yes
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = institution_events.5.a
+		custom_tooltip = tooltip_fellowship_started
+	}
+}
+
+country_event = {
+	id = institution_events.6
+	title = institution_events.6.t
+	desc = institution_events.6.d
+	picture = PAINTER_ARTIST_eventPicture
+
+	is_triggered_only = yes
+	hidden = yes
+
+	trigger = {
+		always = yes			
+	}
+
+	option = {
+		name = institution_events.6.a
+		
+		if = {
+			limit = {
+				84 = {
+					NOT = {
+						fellowship_of_ring = 100
+					}
+				}
+				started_in = 3018.1.1
+			}
+			
+			84 = {
+				add_institution_embracement = {
+					which = fellowship_of_ring
+					value = 10
+				}
+			}
+		}
+		
+		create_fellowship_path = yes
+	}
+}

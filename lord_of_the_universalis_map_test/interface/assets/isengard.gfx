@@ -1,0 +1,29 @@
+objectTypes = {	
+	
+	###################################################################################################################
+	#####                                                                                                         #####
+	#####                                                   LEVEL 1                                               #####
+	#####                                                                                                         #####
+	###################################################################################################################
+		
+	pdxmesh = {
+		name = "mesh_isengard_infantry_1"
+		
+		file = "gfx/models/Units/isengard_infantry.mesh"
+
+		animation = { id = "attack"				type = "urukhai_attack_anim" }
+		animation = { id = "death"				type = "rifleman_death_animation" }		
+		animation = { id = "idle"				type = "urukhai_idle_anim" }
+		animation = { id = "walk"				type = "urukhai_move_anim" }
+		animation = { id = "retreat"			type = "urukhai_move_anim" }
+		
+		scale = 0.5
+	}
+
+	pdxmesh = {
+		name = "isengard_pike"
+		
+		file = "gfx/models/Units/isengard_pike.mesh"
+		scale = 0.5
+	}
+}

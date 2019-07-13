@@ -1,0 +1,363 @@
+monarchy = {
+	basic_reform = monarchy_mechanic
+	
+	color = { 55 90 225 }
+	
+	reform_levels = {
+		government_form_monarchy = {
+			reforms = {
+				feudalism_reform
+				autocracy_reform
+				principality_reform
+				stewardship_reform
+				easterling_clan_reform
+			}
+		}
+		hereditary_vs_nobility = {
+			reforms = {
+				enforce_privileges_reform
+				quash_noble_power_reform
+			}
+		}
+		bureaucracy = {
+			reforms = {
+				centralize_reform
+				decentralize_reform
+			}
+		}
+		growth_of_administration = {
+			reforms = {
+				of_noble_bearing_reform
+				meritocratic_focus_reform
+			}
+		}
+	}
+
+	legacy_government = {
+		lotr_kingship_legacy
+		lotr_stewardship_legacy
+		lotr_principality_legacy
+		lotr_easterling_clan_legacy
+		lotr_lordship_dwarf_legacy
+		lotr_kingdom_dwarf_legacy
+	}
+	
+	exclusive_reforms = {
+		stewardship_reform
+	}
+
+	# Each group of exclusive reforms are mutually exclusive to each other
+}
+
+republic = {
+	basic_reform = republic_mechanic
+
+	color = { 65 155 220 }
+	
+	reform_levels = {
+		government_form_republic = {
+			reforms = {
+				oligarchy_reform
+				merchants_reform
+				mayorship_reform
+				thainship_reform
+			}
+		}
+		republican_virtues = {
+			reforms = {
+				republican_authoritarianism_reform
+				nepotism_reform
+				republicanism_reform
+			}
+		}
+		frequent_elections_vs_consolidation_of_power = {
+			reforms = {
+				frequent_elections_reform
+				consolidation_of_power_reform
+			}
+		}
+		federalism_vs_unitarism_vs_confederacy = {
+			reforms = {
+				provincial_governments_reform
+				administrative_divisions_reform
+			}
+		}
+	}
+	
+	legacy_government = {
+		lotr_mayorship_legacy
+		lotr_thainship_legacy
+		oligarchic_republic
+		merchant_republic
+	}
+}
+
+tribal = {
+	basic_reform = tribe_mechanic
+	
+	color = { 220 165 95 }
+
+	legacy_government = {
+		lotr_clan_legacy
+		tribal_federation_legacy
+		steppe_horde_legacy
+		lotr_khaganate_legacy
+		lotr_independent_khaganate_legacy
+		lotr_khaganate_ruler_legacy
+	}
+
+	reform_levels = {
+		government_form_tribal = {
+			reforms = {
+				tribal_kingdom
+				tribal_federation
+				steppe_horde
+				haradwaith_nomad_reform
+				khaganate_reform
+				independent_khaganate_reform
+				khaganate_ruler_reform
+			}
+		}
+		tribal_cultural_values = {
+			reforms = {
+				martial_society_reform
+				civil_society_reform
+			}
+		}
+		tribal_religion = {
+			reforms = {
+				religious_societies_reform
+				lip_service_reform
+			}
+		}
+		tribal_modernization = {
+			reforms = {
+				centralize_tribal_power_reform
+				retain_tribal_hierarchy_reform
+			}
+		}
+		tribal_reformation = {
+			reforms = {
+				tribe_becomes_monarchy_reform
+				tribe_becomes_republic_reform
+			}
+		}
+	}
+}
+
+native = {
+	basic_reform = native_basic_reform
+	
+	color = { 194 127 209 }
+
+	legacy_government = {
+		native_council_legacy
+	}
+}
+
+
+theocracy = {
+	basic_reform = theocracy_mechanic
+	
+	color = { 75 170 75 }
+
+	legacy_government = {
+		
+	}
+	reform_levels = {
+		
+	}
+}
+
+orc_gov = {
+    basic_reform = orc_gov_mechanic
+	
+	color = { 185 0 0 }
+    
+    reform_levels = {
+        government_form_orc_gov = {
+			reforms = {
+                lotr_orc_clan_reform
+				lotr_orc_clan_federation_reform
+				lotr_orc_kingdom_reform
+                lotr_nazgul_reform
+                lotr_isengard_reform
+                lotr_mordor_reform
+			}
+		}
+		orc_tribe_decision = {
+			reforms = {
+				centralize_tribal_power_reform
+				retain_tribal_hierarchy_reform
+			}
+		}
+		concentration_of_production = {
+			reforms = {
+				food_production_reform
+				weapons_production_reform
+				machinery_production_reform
+			}
+		}
+		orc_cause = {
+			reforms = {
+				total_dominance_reform
+				total_destruction_reform
+			}
+		}
+    }
+    
+    legacy_government = {
+        lotr_orc_clan_legacy
+		lotr_orc_clan_federation_legacy
+		lotr_orc_kingdom_legacy
+		lotr_nazgul_legacy
+		lotr_isengard_legacy
+		lotr_mordor_legacy
+    }
+	
+	exclusive_reforms = {
+		lotr_orc_clan_reform
+		lotr_nazgul_reform
+		lotr_isengard_reform
+		lotr_mordor_reform
+	}
+}
+
+dwarf_gov = {
+    basic_reform = dwarf_gov_mechanic
+	
+	color = { 250 255 0 }
+    
+    reform_levels = {
+        government_form_dwarf_gov = {
+			reforms = {
+                lordship_dwarf_reform
+				kingdom_dwarf_reform
+				guild_aristocracy_reform
+			}
+		}
+		internal_vs_external_mission = {
+			reforms = {
+				internal_mission_dwarf_reform
+				external_mission_dwarf_reform
+			}
+		}
+		bureaucracy = {
+			reforms = {
+				centralize_reform
+				decentralize_reform
+			}
+		}
+		dwarven_cause = {
+			reforms = {
+				safeguard_dwelling_reform
+				recapture_lost_dwellings_reform
+				expanding_dwellings_reform
+				economic_growth_reform
+			}
+		}
+    }
+    
+    legacy_government = {
+        lordship_dwarf_reform
+        kingdom_dwarf_reform
+		lotr_guild_aristocracy_legacy
+    }
+	
+	exclusive_reforms = {
+
+	}
+}
+
+elf_gov = {
+    basic_reform = elf_gov_mechanic
+	
+	color = { 40 130 0 }
+    
+    reform_levels = {
+        government_form_elf_gov = {
+			reforms = {
+                lordship_elf_reform
+				kingdom_elf_reform
+				principality_elf_reform
+			}
+		}
+		internal_vs_external_mission = {
+			reforms = {
+				internal_mission_dwarf_reform
+				external_mission_dwarf_reform
+			}
+		}
+		bureaucracy = {
+			reforms = {
+				centralize_reform
+				decentralize_reform
+			}
+		}
+		elven_cause = {
+			reforms = {
+				regaining_lost_artifacts_reform
+				reconquer_our_lands_reform
+				peace_keepers_reform
+			}
+		}
+    }
+    
+    legacy_government = {
+        lotr_lordship_elf_legacy
+		lotr_kingdom_elf_legacy
+		lotr_principality_elf_legacy
+    }
+	
+	exclusive_reforms = {
+
+	}
+}
+
+melkor_gov = {
+    basic_reform = melkor_gov_mechanic
+	
+	color = { 155 55 255 }
+    
+    reform_levels = {
+        government_form_melkor_gov = {
+			reforms = {
+				lotr_troll_clan_reform
+				lotr_wight_government_reform
+				lotr_spider_government_reform
+			}
+		}
+    }
+    
+    legacy_government = {
+		lotr_troll_clan_legacy
+		lotr_wight_government_legacy
+		lotr_spider_government_legacy
+    }
+	
+	exclusive_reforms = {
+
+	}
+}
+
+eru_gov = {
+    basic_reform = eru_gov_mechanic
+	
+	color = { 40 255 0 }
+    
+    reform_levels = {
+        government_form_eru_gov = {
+			reforms = {
+				lotr_ent_government_reform
+			}
+		}
+    }
+    
+    legacy_government = {
+		lotr_ent_government_legacy
+    }
+	
+	exclusive_reforms = {
+
+	}
+}

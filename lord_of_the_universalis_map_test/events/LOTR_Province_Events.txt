@@ -1,0 +1,58 @@
+########################################
+# Events Regarding Provinces
+#
+#
+########################################
+
+namespace = lotr_province_event
+normal_or_historical_nations = yes
+
+#Mount Doom Eruption
+country_event = {
+	id = lotr_province_event.1
+	title = lotr_province_event.1.t
+	desc = lotr_province_event.1.d
+	picture = COMET_SIGHTED_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		any_owned_province = {
+			NOT = { 
+				has_province_modifier = province_ruined_by_mount_doom
+			}
+			any_neighbor_province = {
+				province_id = 147
+			}
+		}
+		
+		
+		any_province = {
+			NOT = { 
+				has_province_modifier = province_ruined_by_mount_doom
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+	}
+	
+	#Yes
+	option = { 
+		name = lotr_province_event.1.a
+		
+		random_owned_province = {
+			limit = {
+				any_neighbor_province = {
+					province_id = 147
+				}
+			}
+			
+			add_province_modifier = {
+				name = province_ruined_by_mount_doom 
+				duration = 3650
+			}
+		}
+	}
+}

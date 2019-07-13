@@ -1,0 +1,407 @@
+mercantilism = 0.1
+government = monarchy
+add_government_reform = feudalism_reform
+
+primary_culture = culture_eorlingas
+religion = religion_eorlingas
+technology_group = lotr_rohirrim
+capital = 114
+
+historical_friend = X01
+
+2510.1.1 = {
+	monarch = {
+		name = "Eorl the Young"
+		dynasty = "House of Eorl"
+		adm = 4
+		dip = 4
+		mil = 6
+		birth_date = 2485.1.1		# 182
+	}
+}
+
+2512.1.1 = {
+	heir = {
+		name = "Brego"
+		monarch_name = "Brego"
+		dynasty = "House of Eorl"
+		birth_date = 2512.1.1		# 182
+		death_date = 2570.1.1 
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+
+2544.1.1 = {
+	heir = {
+		name = "Aldor"
+		monarch_name = "Aldor The Old"
+		dynasty = "House of Eorl"
+		birth_date = 2544.1.1		# 182
+		death_date = 2645.1.1 
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+2545.1.1 = {
+	monarch = {
+		name = "Brego"
+		dynasty = "House of Eorl"
+		adm = 2
+		dip = 5
+		mil = 3
+		birth_date = 2512.1.1		# 182
+	}
+}
+
+2570.1.1 = {
+	monarch = {
+		name = "Aldor The Old"
+		dynasty = "House of Eorl"
+		adm = 2
+		dip = 5
+		mil = 3
+		birth_date = 2544.1.1		# 182
+	}
+}
+
+2570.1.1 = {
+	heir = {
+		name = "Fréa"
+		monarch_name = "Fréa"
+		dynasty = "House of Eorl"
+		birth_date = 2570.1.1		# 182
+		death_date = 2659.1.1 
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+
+2594.1.1 = {
+	heir = {
+		name = "Frëawine"
+		monarch_name = "Frëawine"
+		dynasty = "House of Eorl"
+		birth_date = 2594.1.1		# 182
+		death_date = 2680.1.1 
+		claim = 95
+		adm = 2
+		dip = 5
+		mil = 3
+	}
+}
+
+2619.1.1 = {
+	heir = {
+		name = "Goldwine"
+		monarch_name = "Goldwine"
+		dynasty = "House of Eorl"
+		birth_date = 2619.1.1		# 182
+		death_date = 2699.1.1 
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+2644.1.1 = {
+	heir = {
+		name = "Déor"
+		monarch_name = "Déor"
+		dynasty = "House of Eorl"
+		birth_date = 2644.1.1		# 182
+		death_date = 2718.1.1 
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 1
+	}
+}
+
+2645.1.1 = {
+	monarch = {
+		name = "Fréa"
+		dynasty = "House of Eorl"
+		adm = 2
+		dip = 2
+		mil = 3
+		birth_date = 2570.1.1		# 182
+	}
+}
+
+2659.1.1 = {
+	monarch = {
+		name = "Frëawine"
+		dynasty = "House of Eorl"
+		adm = 2
+		dip = 5
+		mil = 3
+		birth_date = 2594.1.1		# 182
+	}
+}
+
+2668.1.1 = {
+	heir = {
+		name = "Gram"
+		monarch_name = "Gram"
+		dynasty = "House of Eorl"
+		birth_date = 2668.1.1		# 182
+		death_date = 2741.1.1 
+		claim = 95
+		adm = 1
+		dip = 2
+		mil = 4
+	}
+}
+
+2680.1.1 = {
+	monarch = {
+		name = "Goldwine"
+		dynasty = "House of Eorl"
+		adm = 5
+		dip = 5
+		mil = 5
+		birth_date = 2619.1.1		# 182
+	}
+}
+
+2691.1.1 = {
+	heir = {
+		name = "Helm Hammerhand"
+		monarch_name = "Helm Hammerhand"
+		dynasty = "House of Eorl"
+		birth_date = 2691.1.1		# 182
+		death_date = 2759.1.1 
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+2699.1.1 = {
+	monarch = {
+		name = "Déor"
+		dynasty = "House of Eorl"
+		adm = 3
+		dip = 4
+		mil = 1
+		birth_date = 2644.1.1		# 182
+	}
+}
+
+2718.1.1 = {
+	monarch = {
+		name = "Gram"
+		dynasty = "House of Eorl"
+		adm = 1
+		dip = 2
+		mil = 4
+		birth_date = 2668.1.1		# 182
+	}
+}
+
+2741.1.1 = {
+	monarch = {
+		name = "Helm Hammerhand"
+		dynasty = "House of Eorl"
+		adm = 5
+		dip = 5
+		mil = 6
+		birth_date = 2691.1.1		# 182
+	}
+}
+
+2752.1.1 = {
+	heir = {
+		name = "Brytta Léofa"
+		monarch_name = "Brytta Léofa"
+		dynasty = "House of Hildeson"
+		birth_date = 2752.1.1		# 182
+		death_date = 2842.1.1 
+		claim = 95
+		adm = 2
+		dip = 6
+		mil = 2
+	}
+}
+
+2759.1.1 = {
+	monarch = {
+		name = "Fréaláf Hildeson"
+		dynasty = "House of Hildeson"
+		adm = 3
+		dip = 3
+		mil = 4
+		birth_date = 2726.1.1		# 182
+	}
+}
+
+2780.1.1 = {
+	heir = {
+		name = "Walda"
+		monarch_name = "Walda"
+		dynasty = "House of Hildeson"
+		birth_date = 2780.1.1		# 182
+		death_date = 2851.1.1 
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+
+2798.1.1 = {
+	monarch = {
+		name = "Brytta Léofa"
+		dynasty = "House of Hildeson"
+		adm = 2
+		dip = 6
+		mil = 2
+		birth_date = 2752.1.1		# 182
+	}
+}
+
+2804.1.1 = {
+	heir = {
+		name = "Folca the Hunter"
+		monarch_name = "Folca the Hunter"
+		dynasty = "House of Hildeson"
+		birth_date = 2804.1.1		# 182
+		death_date = 2864.1.1 
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 5
+	}
+}
+
+2830.1.1 = {
+	heir = {
+		name = "Folcwine"
+		monarch_name = "Folcwine"
+		dynasty = "House of Hildeson"
+		birth_date = 2830.1.1		# 182
+		death_date = 2903.1.1 
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 2
+	}
+}
+
+2842.1.1 = {
+	monarch = {
+		name = "Walda"
+		dynasty = "House of Hildeson"
+		adm = 2
+		dip = 2
+		mil = 3
+		birth_date = 2780.1.1		# 182
+	}
+}
+
+2851.1.1 = {
+	monarch = {
+		name = "Folca the Hunter"
+		dynasty = "House of Hildeson"
+		adm = 2
+		dip = 2
+		mil = 5
+		birth_date = 2804.1.1		# 182
+	}
+}
+
+2864.1.1 = {
+	monarch = {
+		name = "Folcwine"
+		dynasty = "House of Hildeson"
+		adm = 4
+		dip = 3
+		mil = 2
+		birth_date = 2830.1.1		# 182
+	}
+}
+
+2870.1.1 = {
+	heir = {
+		name = "Fengel"
+		monarch_name = "Fengel"
+		dynasty = "House of Hildeson"
+		birth_date = 2870.1.1		# 182
+		death_date = 2953.1.1 
+		claim = 95
+		adm = 1
+		dip = 1
+		mil = 2
+	}
+}
+
+2903.1.1 = {
+	monarch = {
+		name = "Fengel"
+		dynasty = "House of Hildeson"
+		adm = 1
+		dip = 1
+		mil = 2
+		birth_date = 2870.1.1		# 182
+	}
+}
+
+2905.1.1 = {
+	heir = {
+		name = "Thengel"
+		monarch_name = "Thengel"
+		dynasty = "House of Hildeson"
+		birth_date = 2905.1.1		# 182
+		death_date = 2953.1.1 
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+2948.1.1 = {
+	heir = {
+		name = "Théoden"
+		monarch_name = "Théoden"
+		dynasty = "House of Hildeson"
+		birth_date = 2948.1.1		# 182
+		death_date = 3019.1.1 
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}
+
+2953.1.1 = {
+	monarch = {
+		name = "Thengel"
+		dynasty = "House of Hildeson"
+		adm = 2
+		dip = 2
+		mil = 2
+		birth_date = 2905.1.1		# 182
+	}
+}
+
+2980.1.1 = {
+	monarch = {
+		name = "Théoden"
+		dynasty = "House of Hildeson"
+		adm = 4
+		dip = 3
+		mil = 5
+		birth_date = 2948.1.1		# 182
+	}
+}

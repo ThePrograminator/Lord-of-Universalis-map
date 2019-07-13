@@ -1,0 +1,278 @@
+
+##################################################################
+### Terrain Categories
+###
+###
+
+categories =  {
+	pti = {
+		terrain_override = {
+			847 846 845 844 843 842 841 840 838
+		}
+	}
+
+	ocean = {
+		movement_cost = 1.0
+		is_water = yes
+		sound_type = sea
+		color = { 255 255 255 }
+	}
+
+	inland_ocean = {
+		movement_cost = 1.0
+		is_water = yes
+		inland_sea = yes
+		sound_type = sea
+		color = { 0 0 200 }
+	}
+
+	arctic = {
+		movement_cost = 1.0
+		attrition = 2
+		supply_limit = 1
+		sound_type = desert
+		color = { 235 235 235 }
+	}
+
+	farmlands = {
+		movement_cost = 1.10
+		
+		supply_limit = 5
+		sound_type = plains
+		color = { 137 104 165  }
+		
+		terrain_override = {
+		}
+	}
+	
+	forest = {
+		movement_cost = 1.25
+		defence = 1
+
+		combat_width = -0.20
+		supply_limit = 3
+		sound_type = forest
+		color = { 91 123 45 }
+		
+		terrain_override = {
+		}
+		
+	}
+	
+	hills = {
+		movement_cost = 1.40
+		defence = 1
+		local_defensiveness = 0.1
+		color = { 135 70 0 }
+
+		
+		terrain_override = {
+		}
+
+		combat_width = -0.25
+		supply_limit = 3
+		sound_type = mountain
+	}
+
+	woods = {
+		movement_cost = 1.10
+		defence = 1
+		
+		color = { 165 205 108 }
+		terrain_override = {
+		}
+
+		combat_width = -0.20
+		supply_limit = 3
+		sound_type = forest
+	}
+	
+	mountain = {
+		movement_cost = 1.5
+		defence = 2
+		attrition = 2
+		local_defensiveness = 0.25
+		color = { 117 108 119 }
+		
+		terrain_override = {
+			556 148 654 149 691
+		}
+
+		combat_width = -0.50
+		supply_limit = 2
+		sound_type = mountain
+	}
+	
+	desert_mountain = {
+		movement_cost = 1.5
+		defence = 2
+		attrition = 2
+		local_defensiveness = 0.25
+		
+		color = { 147 148 119 }
+		
+		
+		terrain_override = {
+		}
+
+		combat_width = -0.50
+		supply_limit = 2
+		sound_type = desert
+	}
+
+	impassable_mountains = {
+		movement_cost = 8.0
+		defence = 6
+		sound_type = desert
+		
+		color = { 128 128 128 }
+	}
+
+	grasslands = {
+		movement_cost = 1.0
+
+		supply_limit = 4
+		sound_type = plains
+		color = { 211 201 184 }
+		
+		terrain_override = {
+		}
+	}
+	
+	plains = {
+		movement_cost = 1.0
+
+		supply_limit = 5
+		sound_type = plains
+		color = { 241 221 184 }
+		
+		terrain_override = {
+		}
+	}
+
+	jungle = {
+		movement_cost = 1.5
+		defence = 1
+		attrition = 2
+
+		combat_width = -0.25
+		supply_limit = 2
+		sound_type = jungle
+		color = { 40 180 149 }
+		
+		terrain_override = {
+		}
+	}	
+	
+	marsh = {
+		movement_cost = 3
+		defence = 2
+		attrition = 5
+		
+		terrain_override = {
+			46 586 268
+		}
+
+		combat_width = -0.25
+		supply_limit = 2
+		sound_type = forest
+		color = { 76 112 105 }
+	}
+	
+	desert = {
+		movement_cost = 1.05
+		attrition = 2
+	
+		supply_limit = 1
+		sound_type = desert
+		
+		terrain_override = {
+			145 146 143 464 463 460 138 142 141 140 139 136 458 459 465 462 457 456 461 466 453 452 451 449 455 454 447 446 443 272 448 650 450 649 645 648 646 647 514 515 513 512 510 511 509 499 502 500 503 516 505 504 508 506 507 537 536 534 535 533 531 530 484 483 479 480 481 482 485 467 472 468 469 473 470 474 471 475 486 487 488 489 490 491 492 493 496 498 494 497 434 675 518 524 519 523 520 521 522 	
+		}
+		
+		color = { 220 210 0 }
+	}
+	
+	coastal_desert = {
+		movement_cost = 1.0
+		attrition = 1
+		
+		color = { 200 128 0 }
+		
+		terrain_override = { 
+			130 131 144 132 476 477 478 439 437 436 432 431 430 433 438 529 528 526 527 525 517
+		}
+	
+		supply_limit = 1
+		sound_type = desert
+	}
+	
+	coastline = {
+		movement_cost = 1.0
+
+		supply_limit = 2
+		sound_type = sea
+		
+		terrain_override = {
+			
+		}
+		
+		color = { 200 128 0 }
+	}	
+}
+
+
+##################################################################
+### Graphical terrain
+###		type	=	refers to the terrain defined above, "terrain category"'s 
+### 	color 	= 	index in bitmap color table (see terrain.bmp)
+###
+
+terrain
+{
+	plains				= { type = plains			color = { 	0	 } }
+	hills				= { type = hills			color = { 	1	 } }
+	desert_mountain		= { type = desert_mountain	color = { 	2	 } }
+	desert				= { type = desert			color = { 	3	 } }
+
+	grasslands			= { type = grasslands		color = { 	4	 } }
+	terrain_5			= { type = plains			color = { 	5	 } }
+	mountain			= { type = mountain			color = { 	6	 } }
+	desert_mountain_low	= { type = desert			color = { 	7	 } }
+
+	terrain_8			= { type = hills			color = { 	8	 } }
+	marsh				= { type = marsh			color = { 	9	 } }
+	terrain_10			= { type = farmlands		color = { 	10	 } }
+	terrain_11			= { type = farmlands		color = { 	11	 } }
+
+	forest_12			= { type = forest			color = { 	12	 } }
+	forest_13			= { type = forest			color = { 	13	 } }
+	forest_14			= { type = forest			color = { 	14	 } }
+	ocean				= { type = ocean			color = { 	15	 } }
+
+	snow				= { type = mountain 		color = { 	16	 } } # (SPECIAL CASE) Used to identify permanent snow
+	inland_ocean_17 	= { type = inland_ocean		color = {	17	 } }
+
+	coastal_desert_18	= { type = coastal_desert	color = { 	19	 } }
+	coastline			= { type = coastline		color = { 	35	 } }
+	
+	#unique_minas_tirith	= { type = mountain			color = { 	40	 } }
+	
+	woods				= { type = woods			color = { 	255	 } }
+	jungle				= { type = jungle			color = { 	254	 } }
+}
+
+##################################################################
+### Tree terrain
+###		terrain	=	refers to the terrain tag defined above
+### 	color 	= 	index in bitmap color table (see tree.bmp)
+###
+
+tree
+{
+	forest				= { terrain = forest 			color = { 	3 4 6 7 19 20	} }
+	woods				= { terrain = woods 			color = { 	2 5 8 18	} }
+	jungle				= { terrain = jungle 			color = { 	13 14 15	} }
+	palms				= { terrain = desert 			color = { 	12	} }
+	savana				= { terrain = plains 	color = { 	27 28 29 30	} }
+}

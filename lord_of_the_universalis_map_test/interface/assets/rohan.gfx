@@ -1,0 +1,68 @@
+objectTypes = {	
+	
+	###################################################################################################################
+	#####                                                                                                         #####
+	#####                                                   LEVEL 1                                               #####
+	#####                                                                                                         #####
+	###################################################################################################################
+		
+	pdxmesh = {
+		name = "mesh_rohan_infantry_1"
+		
+		file = "gfx/models/Units/rohan/rohan_infantry.mesh"
+
+		animation = { id = "attack"				type = "rohan1hd_attack_anim" }
+		animation = { id = "death"				type = "rohan_move_anim" }		
+		animation = { id = "idle"				type = "rohan_idle_anim" }
+		animation = { id = "walk"				type = "rohan_move_anim" }
+		animation = { id = "retreat"			type = "rohan_move_anim" }
+		
+		scale = 0.5
+	}
+	
+	pdxmesh = {
+		name = "mesh_rohan_arty_infantry_1"
+		
+		file = "gfx/models/Units/rohan/rohan_arti.mesh"
+
+		animation = { id = "attack"				type = "gondor_arti_thrust_anim" }
+		animation = { id = "death"				type = "gondor_arti_move_anim" }		
+		animation = { id = "idle"				type = "gondor_arti_idle_anim" }
+		animation = { id = "walk"				type = "gondor_arti_move_anim" }
+		animation = { id = "retreat"			type = "gondor_arti_move_anim" }
+		
+		scale = 0.5
+	}
+	
+	pdxmesh = {
+		name = "mesh_rohan_cav_rider_1"
+		
+		file = "gfx/models/Units/rohan/rohan_cav.mesh"
+
+		animation = { id = "attack"				type = "gondorattack_anim" }
+		animation = { id = "death"				type = "rifleman_death_animation" }		
+		animation = { id = "idle"				type = "gondoridle_anim" }
+		animation = { id = "walk"				type = "gondor_soldier_move_anim" }
+		animation = { id = "retreat"			type = "gondor_soldier_move_anim" }
+		
+		animation = { id = "horse_attack"		type = "cavalryman_attack_lance_anim" }		
+		animation = { id = "horse_idle"			type = "cavalryman_idle_anim" }
+		animation = { id = "horse_walk"			type = "cavalryman_move_anim" }
+		animation = { id = "horse_death"		type = "cavalry_rider_death_animation" }
+		animation = { id = "horse_retreat"		type = "cavalryman_move_anim" }	
+		
+		scale = 0.5
+	}
+	
+	pdxmesh = {
+		name = "spear_rohan"
+		file = "gfx/models/Units/rohan/rohan_spear.mesh"
+		scale = 0.5
+	}
+	
+	pdxmesh = {
+		name = "shield_rohan"
+		file = "gfx/models/Units/rohan/rohan_shield.mesh"
+		scale = 0.5
+	}
+}

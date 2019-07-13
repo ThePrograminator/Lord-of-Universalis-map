@@ -1,0 +1,283 @@
+# Notes:
+# These are loaded instead of the default western_units, eastern_units, etc asset files, so the missing entries need to be accounted for.
+
+##############################################
+# Map Items
+##############################################
+entity = {
+	name = "lotr_orc_gfx_magistrate"
+	clone = "southamericagfx_magistrate"
+}
+
+entity = {
+	name = "lotr_orc_gfx_port"
+	clone = "southamericagfx_port"
+}
+
+entity = {
+	clone = southamericagfx_city_0
+	name = "lotr_orc_gfx_city_0"
+	pdxmesh = "southamericagfx_city_0"
+}
+entity = {
+	clone = southamericagfx_city_0
+	name = "lotr_orc_gfx_city_1"
+	pdxmesh = "southamericagfx_city_1"
+}
+entity = {
+	clone = southamericagfx_city_0
+	name = "lotr_orc_gfx_city_2"
+	pdxmesh = "southamericagfx_city_2"
+}
+entity = {
+	clone = southamericagfx_city_0
+	name = "lotr_orc_gfx_city_3"
+	pdxmesh = "southamericagfx_city_3"
+}
+entity = {
+	name = "lotr_orc_gfx_castle_1"
+	pdxmesh = "southamericagfx_castle_1"
+}
+entity = {
+	name = "lotr_orc_gfx_castle_2"
+	pdxmesh = "southamericagfx_castle_2"
+}
+entity = {
+	name = "lotr_orc_gfx_castle_3"
+	pdxmesh = "southamericagfx_castle_3"
+}
+entity = {
+	name = "lotr_orc_gfx_house_1_1"
+	pdxmesh = "southamericagfx_house_1_1"
+}
+entity = {
+	name = "lotr_orc_gfx_house_1_2"
+	pdxmesh = "southamericagfx_house_1_2"
+}
+entity = {
+	name = "lotr_orc_gfx_house_1_3"
+	pdxmesh = "southamericagfx_house_1_3"
+}
+entity = {
+	name = "lotr_orc_gfx_house_1_4"
+	pdxmesh = "southamericagfx_house_1_4"
+}
+entity = {
+	name = "lotr_orc_gfx_house_2_1"
+	pdxmesh = "southamericagfx_house_2_1"
+}
+entity = {
+	name = "lotr_orc_gfx_house_2_2"
+	pdxmesh = "southamericagfx_house_2_2"
+}
+entity = {
+	name = "lotr_orc_gfx_house_2_3"
+	pdxmesh = "southamericagfx_house_2_3"
+}
+entity = {
+	name = "lotr_orc_gfx_house_2_4"
+	pdxmesh = "southamericagfx_house_2_4"
+}
+entity = {
+	name = "lotr_orc_gfx_house_3_1"
+	pdxmesh = "southamericagfx_house_3_1"
+}
+entity = {
+	name = "lotr_orc_gfx_house_3_2"
+	pdxmesh = "southamericagfx_house_3_2"
+}
+entity = {
+	name = "lotr_orc_gfx_house_3_3"
+	pdxmesh = "southamericagfx_house_3_3"
+}
+entity = {
+	name = "lotr_orc_gfx_house_3_4"
+	pdxmesh = "southamericagfx_house_3_4"
+}
+entity = {
+	name = "lotr_orc_gfx_house_4_1"
+	pdxmesh = "southamericagfx_house_4_1"
+}
+entity = {
+	name = "lotr_orc_gfx_house_4_2"
+	pdxmesh = "southamericagfx_house_4_2"
+}
+entity = {
+	name = "lotr_orc_gfx_house_4_3"
+	pdxmesh = "southamericagfx_house_4_3"
+}
+entity = {
+	name = "lotr_orc_gfx_house_4_4"
+	pdxmesh = "southamericagfx_house_4_4"
+}
+
+entity = {
+	name = "lotr_orc_gfx_fort_15th"
+	pdxmesh = "southamericagfx_fort_15th"
+}
+
+entity = {
+	name = "lotr_orc_gfx_fort_16th"
+	pdxmesh = "westerngfx_fort_16th"
+}
+entity = {
+	name = "lotr_orc_gfx_fort_17th"
+	pdxmesh = "westerngfx_fort_17th"
+}
+entity = {
+	name = "lotr_orc_gfx_fort_18th"
+	pdxmesh = "westerngfx_fort_18th"
+}
+
+###################################################################################################################
+#####                                                                                                         #####
+#####                                                   Infantry	                                          #####
+#####                                                                                                         #####
+###################################################################################################################
+
+entity = {
+	name = "lotr_orc_gfx_INFANTRY_1"
+	pdxmesh = "mesh_orc_infantry_1"
+	version = 10
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" animation_speed = 1.3 }
+	state = { name = "attack"		animation = "attack" animation_speed = 3.0 }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
+
+	
+	attach = {
+		Right_hand_node = "mace_orkish"
+		Left_hand_node = "mace_orkish" 
+	}
+}
+
+entity = {
+	name = "mace_orkish"
+	pdxmesh = "mace_orkish"
+}
+
+entity = {
+	name = "lotr_orc_gfx_INFANTRY_2"
+	clone = "lotr_orc_gfx_INFANTRY_1"
+}
+
+entity = {
+	name = "lotr_orc_gfx_INFANTRY_3"
+	clone = "lotr_orc_gfx_INFANTRY_1"
+}
+
+entity = {
+	name = "lotr_orc_gfx_INFANTRY_4"
+	clone = "lotr_orc_gfx_INFANTRY_1"
+}
+
+###################################################################################################################
+#####                                                                                                         #####
+#####                                                   Cavalry		                                          #####
+#####                                                                                                         #####
+###################################################################################################################
+
+entity = {
+	name = "lotr_orc_gfx_CAVALRY_1"
+	pdxmesh = "orc_cav_warg"
+
+	state = { name = "idle" 		animation = "horse_idle" }
+	#state = { name = "death" 		animation = "horse_idle" }
+	state = { name = "walk" 		animation = "horse_walk" }
+	state = { name = "retreat" 		animation = "horse_walk" }
+	state = { name = "attack"		animation = "horse_attack" }
+	#state = { name = "extra_state_1"		animation = "horse_extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "horse_extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "horse_extra_state_3" }
+
+	attach = {
+		name = "rider"
+		Saddle_Node = "lotr_orc_gfx_INFANTRY_1" 
+	}
+}
+
+entity = {
+	name = "lotr_orc_gfx_CAVALRY_2"
+	clone = "lotr_orc_gfx_CAVALRY_1"
+}
+
+entity = {
+	name = "lotr_orc_gfx_CAVALRY_3"
+	clone = "lotr_orc_gfx_CAVALRY_1"
+}
+
+entity = {
+	name = "lotr_orc_gfx_CAVALRY_4"
+	clone = "lotr_orc_gfx_CAVALRY_1"
+}
+
+###################################################################################################################
+#####                                                                                                         #####
+#####                                                   Artillery		                                      #####
+#####                                                                                                         #####
+###################################################################################################################
+entity = {
+	name = "lotr_orc_gfx_ARTILLERY_1"
+	pdxmesh = "artillery_base_mesh"
+
+	state = { name = "attack"		animation = "artillery_base_attack" }
+	state = { name = "idle" 		animation = "artillery_base_idle" }
+	state = { name = "walk" 		animation = "artillery_base_moving" }
+	
+	attach = { 
+		name = "gunman"
+		infantry_node = "lotr_orc_gfx_INFANTRY_1" 
+		cannon_node = "southamericagfx_ARTILLERY_1_cannon" 
+	}
+}
+
+entity = {
+	name = "lotr_orc_gfx_ARTILLERY_2"
+	pdxmesh = "artillery_base_mesh"
+
+	state = { name = "attack"		animation = "artillery_base_attack" }
+	state = { name = "idle" 		animation = "artillery_base_idle" }
+	state = { name = "walk" 		animation = "artillery_base_moving" }
+	
+	attach = { 
+		name = "gunman"
+		infantry_node = "lotr_orc_gfx_INFANTRY_2" 
+		cannon_node = "southamericagfx_ARTILLERY_1_cannon" 
+	}
+}
+
+entity = {
+	name = "lotr_orc_gfx_ARTILLERY_3"
+	pdxmesh = "artillery_base_mesh"
+
+	state = { name = "attack"		animation = "artillery_base_attack" }
+	state = { name = "idle" 		animation = "artillery_base_idle" }
+	state = { name = "walk" 		animation = "artillery_base_moving" }
+	
+	attach = { 
+		name = "gunman"
+		infantry_node = "lotr_orc_gfx_INFANTRY_3" 
+		cannon_node = "southamericagfx_ARTILLERY_1_cannon" 
+	}
+}
+
+entity = {
+	name = "lotr_orc_gfx_ARTILLERY_4"
+	pdxmesh = "artillery_base_mesh"
+
+	state = { name = "attack"		animation = "artillery_base_attack" }
+	state = { name = "idle" 		animation = "artillery_base_idle" }
+	state = { name = "walk" 		animation = "artillery_base_moving" }
+	
+	attach = { 
+		name = "gunman"
+		infantry_node = "lotr_orc_gfx_INFANTRY_4" 
+		cannon_node = "southamericagfx_ARTILLERY_1_cannon" 
+	}
+}
+

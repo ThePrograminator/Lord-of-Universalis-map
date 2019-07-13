@@ -1,0 +1,41 @@
+spriteTypes = {
+    #----------------------------------------------
+	# Institutions
+	#----------------------------------------------
+	spriteType = {
+		name = "GFX_icon_institution_company_of_thorin"
+		texturefile = "gfx//interface//institutions//company_of_thorin.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}	
+    
+    spriteType = {
+		name = "GFX_institution_tab_company_of_thorin"
+		texturefile = "gfx/interface/institutions//institution_tab_company_of_thorin.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_institution_fellowship_of_ring"
+		texturefile = "gfx//interface//institutions//fellowship_of_ring.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}	
+    
+    spriteType = {
+		name = "GFX_institution_tab_fellowship_of_ring"
+		texturefile = "gfx/interface/institutions//institution_tab_fellowship_of_ring.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_institution_mood"
+		texturefile = "gfx//interface//institutions//institution_mood.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	
+	
+}

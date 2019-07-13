@@ -1,0 +1,413 @@
+# Races
+#	Maiar
+#	Dragon (Evil only)
+#	Dwarf
+#	Elf
+#	Ent
+#	Giant
+#	Goblin
+#	Hobbit
+#	Man
+#	Orc
+#	Troll
+#	Wight (Evil only)
+
+# Fall of Arnor (9651)
+# Lindon 
+#	X01
+#	culture_sindar
+#	religion_moriquendi
+
+# Khagolabbad
+#	X02
+#	culture_broadbeam
+#	religion_mahal
+
+# Khagolabbad Faraku
+#	X03
+#	culture_firebeard
+#	religion_mahal
+
+# Arthedain
+#	X04
+#	culture_dunedain
+#	religion_dunedain
+
+# Cardolan
+#	X05
+#	culture_dunedain
+#	religion_dunedain
+
+# Rhudaur
+#	X06
+#	culture_dunedain
+#	religion_dunedain
+
+# Rivendell
+# 	X07
+#	culture_noldor
+#	religion_moriquendi
+
+# Angmar
+#	X08
+#	culture_wight 
+#	religion_wight
+
+# Gundabad
+#	X09
+#	culture_orkish
+#	religion_orkish
+
+# Dunland
+#	X10
+#	culture_dunlending 
+#	religion_haldadian
+
+# Old Pakel Land
+#	X11
+#	culture_druedain
+#	religion_druedain
+
+# Gondor
+#	X12
+#	culture_gondorian
+#	religion_dunedain
+
+# Fangorn
+#	X13
+#	culture_entish
+#	religion_enyd
+
+# Lothlorien
+#	X14
+#	culture_sindar
+#	religion_moriquendi
+
+# Gladdenfields
+#	X15
+#	culture_stoor
+#	religion_perian
+
+# Shadows of Mirkwood
+#	X16
+#	culture_maiar
+#	religion_wight
+
+# Eryn Galen
+#	X17
+#	culture_sindar
+#	religion_moriquendi
+
+# Harroch
+#	X18
+#	culture_northmen
+#	religion_rhovanion
+
+# Haradnur
+#	X19
+#	culture_northmen
+#	religion_rhovanion
+
+# Nurn
+#	X20
+#	culture_nurnim
+#	religion_nurning
+
+# Kas Rhun
+#	X21
+#	culture_easterling
+#	religion_easterlings
+
+# Gathod
+#	X22
+#	culture_easterling
+#	religion_easterlings
+
+# Rhovanion
+#	X23
+#	culture_northmen
+#	religion_rhovanion
+
+# Ehwathr
+#	X24
+#	culture_northmen
+#	religion_rhovanion
+
+# Dale
+#	X25
+#	culture_northmen
+#	religion_rhovanion
+
+# Grasgard 
+#	X26
+#	culture_northmen
+#	religion_rhovanion
+
+# Carnen
+#	X27
+#	culture_northmen
+#	religion_rhovanion
+
+# Durin's Folk
+#	X28
+# 	culture_longbeard
+#	religion_mahal
+
+# Bellakar
+#	X29
+#	culture_black_numenorean
+#	religion_black_numenorean
+
+# Akhor
+#	X30
+#	culture_black_numenorean
+#	religion_black_numenorean
+
+# Haruzan
+#	X31
+#	culture_haradrim
+#	religion_southron
+
+# Haradwaith 
+#	X32
+#	culture_haradrim
+#	religion_southron
+
+# Pezarsan
+#	X33
+#	culture_haradrim
+#	religion_southron
+
+# Lurmsakun
+#	X34
+#	culture_haradrim
+#	religion_southron
+
+# Arysis
+#	X35
+#	culture_haradrim
+#	religion_southron
+
+# Ammu Khand 
+#	X36
+#	culture_variags
+#	religion_easterlings
+
+# Laorki
+#	X37
+#	culture_variags
+#	religion_easterlings
+
+# Harmal
+#	X38
+#	culture_variags
+#	religion_easterlings
+
+# Admal
+#	X39
+#	culture_variags
+#	religion_easterlings
+
+# Olbamarl
+#	X40
+#	culture_variags
+#	religion_easterlings
+
+# Gweithavar
+#	X41
+#	culture_avari
+#	religion_moriquendi
+
+# Nurunkhizdin
+#	X42
+#	culture_blacklock
+#	religion_mahal
+
+# Zirakdum
+#	X43
+#	culture_stonefoot
+#	religion_mahal
+
+# Chelkar
+#	X44
+#	culture_haradrim
+#	religion_southron
+
+# Andrast
+#	X46
+#	culture_gondorian
+#	religion_dunedain
+
+# Pinnath Gelin
+#	X47
+#	culture_gondorian
+#	religion_dunedain
+
+# Anfalas
+#	X48
+#	culture_gondorian
+#	religion_dunedain
+
+# Lamedon
+#	X49
+#	culture_gondorian
+#	religion_dunedain	
+
+# Dor-en-Ernil
+#	X50
+#	culture_gondorian
+#	religion_dunedain	
+
+# Lebennin
+#	X51
+#	culture_gondorian
+#	religion_dunedain
+
+# South Gondor
+#	X52
+#	culture_arnorian
+#	religion_dunedain
+
+# Ithilien
+#	X53
+#	culture_gondorian
+#	religion_dunedain
+
+# Calenardhon
+#	X54
+#	culture_gondorian
+#	religion_dunedain
+
+# Harlindon
+#	X55
+#	culture_sindar
+#	religion_moriquendi
+
+# Repeats are not noted here
+# War of the Ring (11361)
+#	Lossoth 
+#		culture_lossoth
+#		Lossoth
+#	Shire
+#		culture_hobbit
+#		Periannath
+#	Bree-land
+#		culture_breelander
+#		Haldadian
+#	Buckland
+#		culture_hobbit
+#		Periannath
+#	Tyrn Gorthad
+#		culture_wight
+#		Wights
+#	Dunedain of the North
+#		culture_dunedain
+#		Dunedain
+#	Hill-men of Angmar
+#		culture_hillmen
+#		Angmarim
+#	Ithilien
+#		culture_wight
+#		Wights
+#	Nan Angmar
+#		culture_orkish
+#		Orcs
+#	Carn Dum
+#		culture_orkish
+#		Orcs
+#	Hill-men of Rhudaur
+#		culture_hillmen
+#		Haldadian
+#	Trollshaws
+#		culture_troll
+#		Troll
+#	Coldfells
+#		culture_troll
+#		Troll	
+#	Vales of Anduin
+#		culture_beorning
+#		Northmen
+#	Saralainn
+#		culture_daoine
+#		Haldadian
+#	Riddermark
+#		culture_rohirrim
+#		Northmen
+#	Isengard
+#		culture_istari
+#		Ainur
+#	Dunlogan
+#		culture_druwaithing
+#		Haldadian
+#	Druwaith Laden
+#		culture_dunlending
+#		Haldadian
+#	Balorn
+#		culture_druwaithing
+#		Haldadian
+#	Abastmil
+#		culture_druwaithing
+#		Haldadian
+#	Imlothim
+#		culture_druwaithing
+#		Haldadian
+#	Druwaith Nimrais
+#		culture_druedain
+#		Druedain
+#	Umbar
+#		culture_black_numenorean
+#		Black Numenoreans
+#	Abarloni
+#		culture_harondorian
+#		Southrons
+#	Harnendor
+#		culture_harondorian
+#		Southrons	
+#	Nurad
+#		culture_nuriags
+#		Easterlings
+#	Wainriders
+#		culture_wainriders
+#		Easterlings
+#	Khand
+#		culture_variags
+#		Easterlings
+# 	Mordor
+#		culture_maiar
+#		Ainur
+#	Rhun
+#		culture_easterling
+#		Easterlings
+#	Dorwinion
+#		culture_dorwinrim
+#		Northmen
+#	Jangovars
+#		culture_jangovars
+#		Easterlings
+#	Khundolars
+#		culture_khundolars
+#		Easterlings
+#	Balchoths
+#		culture_balchoth
+#		Easterlings
+#	Woodmen of Mirkwood
+#		culture_woodsmen
+#		Northmen
+#	Eagles
+#		culture_eagles
+#		Ainur
+#	Galadhmor
+#		culture_spider
+#		Spiders
+#	Imlad Megli
+#		culture_spider
+#		Spiders	
+#	Eryn Aras
+#		culture_spider
+#		Spiders
+#	Cell Angol
+#		culture_spider
+#		Spiders
+#	Brogorn
+#		culture_spider
+#		Spiders

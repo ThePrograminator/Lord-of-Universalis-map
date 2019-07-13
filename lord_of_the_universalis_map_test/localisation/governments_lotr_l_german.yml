@@ -1,0 +1,86 @@
+﻿l_german:
+ # Government
+ lotr_kingship: "Kingship"
+ lotr_kingship_desc: "A realm governed by a king."
+ lotr_kingship_ruler: "King"
+ lotr_kingship_ruler_female: "Queen"
+ lotr_kingship_ruler_gundabad: ""
+ lotr_kingship_ruler_gundabad_female: ""
+ lotr_kingship_ruler_mordor: "Lord"
+ 
+ lotr_administrative_kingship: "Administrative Kingship"
+ lotr_administrative_kingship_desc: "An administrative focused realm, governed by a king."
+ lotr_administrative_kingship_female: "Queen"
+ lotr_administrative_kingship_gundabad: ""
+ lotr_administrative_kingship_mordor: "Lord"
+ 
+ lotr_absolute_kingship: "Absolute Kingship"
+ lotr_absolute_kingship_desc: "An absolute focused realm, governed by a king."
+ lotr_absolute_kingship_female: "Queen"
+ lotr_absolute_kingship_gundabad: ""
+ lotr_absolute_kingship_mordor: "Lord"
+ 
+ lotr_stewardship: "Stewardship"
+ lotr_stewardship_desc: "A realm governed by a steward."
+ lotr_stewardship_ruler: "Steward"
+ lotr_stewardship_ruler_female: "Stewardess"
+ 
+ lotr_principality: "Principality"
+ lotr_principality_desc: "A realm governed by a Prince or Princess."
+ lotr_principality_ruler: "Prince"
+ lotr_principality_ruler_female: "Princess"
+ 
+ lotr_administrative_stewardship: "Administrative Stewardship"
+ lotr_administrative_stewardship_desc: "A realm governed by a steward."
+ lotr_administrative_stewardship_ruler: "Steward"
+ lotr_administrative_stewardship_ruler_female: "Stewardess"
+ 
+ lotr_absolute_stewardship: "Absolute Stewardship"
+ lotr_absolute_stewardship_desc: "A realm governed by a steward."
+ lotr_absolute_stewardship_ruler: "Steward"
+ lotr_absolute_stewardship_ruler_female: "Stewardess"
+ 
+ lotr_mayorship: "Thainship"
+ lotr_mayorship_desc: "A realm governed by a thain."
+ lotr_mayorship_ruler: "Thain"
+ 
+ lotr_administrative_mayorship: "Administrative Thainship"
+ lotr_administrative_mayorship_desc: "A realm governed by a thain."
+ lotr_administrative_mayorship_ruler: "Thain"
+ 
+ lotr_absolute_mayorship: "Absolute Thainship"
+ lotr_absolute_mayorship_desc: "A realm governed by a thain."
+ lotr_absolute_mayorship_ruler: "Thain"
+ 
+ lotr_clan: "Tribal Chiefdom"
+ lotr_clan_desc: "A realm ruled as a chiefdom."
+ lotr_clan_ruler: "Chief"
+ lotr_clan_ruler_female: "Chiefess"
+ 
+ lotr_clan_federation: "Tribal Federation"
+ lotr_clan_federation_desc: "A realm ruled as a federation."
+ lotr_clan_federation_ruler: "Chief"
+ 
+ lotr_clan_democracy: "Tribal Democracy"
+ lotr_clan_democracy_desc: "A realm ruled as a democracy."
+ lotr_clan_democracy_ruler: "Chief"
+ 
+ lotr_dragon_council: "Dragon Council"
+ lotr_dragon_council_desc: "Here be dragons."
+ lotr_dragon_council_ruler: "King"
+
+ lotr_hand_of_angmar: "Hand of Angmar"
+ lotr_hand_of_angmar_desc: "This land is ruled by an overseer who reports to the Witch-King of Angmar."
+ lotr_hand_of_angmar_ruler: "Overseer"
+ 
+ lotr_hand_of_isengard: "Hand of Isengard"
+ lotr_hand_of_isengard_desc: "This land is ruled by an overseer who reports to Saruman."
+ lotr_hand_of_isengard_ruler: "Overseer"
+ 
+ lotr_hand_of_mordor: "Hand of Mordor"
+ lotr_hand_of_mordor_desc: "This land is ruled by an overseer who reports to Sauron."
+ lotr_hand_of_mordor_ruler: "Overseer"
+ 
+ lotr_orc_clan: "Orc Clan"
+ lotr_orc_clan_desc: "A realm of orcs ruled as a chiefdom."
+ lotr_orc_clan_ruler: "Chief"

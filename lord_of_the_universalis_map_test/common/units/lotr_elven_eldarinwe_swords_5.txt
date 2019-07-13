@@ -1,0 +1,18 @@
+# Elven Archers
+type = infantry
+unit_type = lotr_elven
+
+maneuver = 1
+offensive_morale = 4
+defensive_morale = 5
+offensive_fire = 0
+defensive_fire = 0
+offensive_shock = 5
+defensive_shock = 3
+
+trigger = {
+	OR= {
+		culture_group = culture_group_noldor
+		culture_group = culture_group_sindar
+	}
+}

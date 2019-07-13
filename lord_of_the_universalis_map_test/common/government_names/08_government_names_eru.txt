@@ -1,0 +1,26 @@
+# For specific government types
+# Will pick the first valid one it finds in list
+
+gov_lotr_ent_government = {
+	rank = {
+		1 = ENTMOOT
+		2 = GRAND_ENTMOOT
+		3 = GREAT_ENTMOOT
+	}
+
+	ruler_male = {
+		1 = SHEPHERD_ENT
+		2 = SHEPHERD_ENT
+		3 = SHEPHERD_ENT
+	}
+
+	ruler_female = {
+		1 = SHEPHERD_ENT
+		2 = SHEPHERD_ENT
+		3 = SHEPHERD_ENT
+	}
+
+	trigger = {
+		has_reform = lotr_ent_government_reform
+	}
+}

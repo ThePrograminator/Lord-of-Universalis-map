@@ -1,0 +1,543 @@
+# SOME META SCRIPT EXAMPLES
+# This also works for Scripted effects the same. Provided arguments will be pasted in
+# wherever the key occurs. If it fails to compile you should get a proper error message
+# and the source generated in the error log. There is no added overhead during runtime but
+# if used extensivley it might make loading time longer.
+#
+# my_test_trigger = {
+#	OR = {
+#		has_country_modifier = $ARG1$_modifier
+#		AND = {
+#			has_country_modifier = $ARG2$_modifier
+#			$CONTEXT$ = {
+#				NOT = { has_country_modifier = $ARG1$_modifier }
+#			}
+#		}
+#	}
+# }
+# Usage:
+# my_test_trigger = { ARG1=foo ARG2=bar CONTEXT=FROM }
+
+
+province_owner_is_human_race = { #Province Scope
+	owner = {
+		OR = {
+			technology_group = lotr_ahar
+			technology_group = lotr_bellakarian
+			technology_group = lotr_black_numenorean
+			technology_group = lotr_chyan
+			technology_group = lotr_daen
+			technology_group = lotr_dunedain
+			technology_group = lotr_easterling
+			technology_group = lotr_eriadorian
+			technology_group = lotr_hobbit
+			technology_group = lotr_haradrim
+			technology_group = lotr_linerim
+			technology_group = lotr_lochans
+			technology_group = lotr_lynerians
+			technology_group = lotr_northmen
+			technology_group = lotr_rohirrim
+			technology_group = lotr_sand_men
+			technology_group = lotr_shelflanders
+			technology_group = lotr_siranians
+			technology_group = lotr_snow_men
+			technology_group = lotr_swarthy_men
+			technology_group = lotr_ts_balla
+			technology_group = lotr_urdic_men
+			technology_group = lotr_wizard
+			technology_group = lotr_womarin
+			technology_group = lotr_woses
+		}
+	}
+}
+
+province_owner_is_melkor_race = { #Province Scope
+	owner = {
+		OR = {
+			technology_group = lotr_orc
+			technology_group = lotr_half_orc
+			technology_group = lotr_goblin
+			technology_group = lotr_uruk_hai
+			technology_group = lotr_wights
+		}
+	}
+}
+
+province_is_buildable = { #Province Scope
+	NOT = {
+		culture = culture_wilderness
+		religion = religion_wilderness 
+		has_province_modifier = wilderness_debuff
+		has_province_modifier = constructing_capital_debuff
+		has_province_modifier = ruins_debuff
+	}
+}
+
+#######
+#Human#
+#######
+
+province_human_has_main_building_tier_1 = { #Province Scope
+	OR = {
+		has_building = settlement_building
+		has_building = city_1_building
+		has_building = city_2_building
+		has_building = city_3_building
+		has_building = fortress_1_building
+		has_building = fortress_2_building
+		has_building = fortress_3_building
+		has_building = capital_1_building
+		has_building = capital_2_building
+		has_building = capital_3_building
+	}
+}
+
+province_human_has_main_building_tier_2 = { #Province Scope
+	OR = {
+		has_building = city_1_building
+		has_building = city_2_building
+		has_building = city_3_building
+		has_building = fortress_1_building
+		has_building = fortress_2_building
+		has_building = fortress_3_building
+		has_building = capital_1_building
+		has_building = capital_2_building
+		has_building = capital_3_building
+	}
+}
+
+province_human_has_fortress_building_tier_3 = { #Province Scope
+	OR = {
+		has_building = fortress_2_building
+		has_building = fortress_3_building
+		has_building = capital_2_building
+		has_building = capital_3_building
+	}
+}
+
+province_human_has_fortress_building_tier_4 = { #Province Scope
+	OR = {
+		has_building = fortress_3_building
+		has_building = capital_3_building
+	}
+}
+
+province_human_has_city_building_tier_3 = { #Province Scope
+	OR = {
+		has_building = city_2_building
+		has_building = city_3_building
+		has_building = capital_2_building
+		has_building = capital_3_building
+	}
+}
+
+province_human_has_city_building_tier_4 = { #Province Scope
+	OR = {
+		has_building = city_3_building
+		has_building = capital_3_building
+	}
+}
+
+province_human_has_city_buildings = { #Province Scope
+	OR = {
+		has_building = city_1_building
+		has_building = city_2_building
+		has_building = city_3_building
+	}
+}
+
+province_human_has_fortress_buildings = { #Province Scope
+	OR = {
+		has_building = fortress_1_building
+		has_building = fortress_2_building
+		has_building = fortress_3_building
+	}
+}
+
+province_human_has_capital_buildings = { #Province Scope
+	OR = {
+		has_building = capital_1_building
+		has_building = capital_2_building
+		has_building = capital_3_building
+	}
+}
+
+#######
+#Dwarf#
+#######
+
+province_dwarf_has_main_building_tier_1 = { #Province Scope
+	OR = {
+		has_building = colony_outpost_dwarf_building
+		has_building = settlement_1_dwarf_building
+		has_building = settlement_2_dwarf_building
+		has_building = settlement_3_dwarf_building
+		has_building = hold_1_dwarf_building
+		has_building = hold_2_dwarf_building
+		has_building = hold_3_dwarf_building
+		has_building = capital_1_dwarf_building
+		has_building = capital_2_dwarf_building
+		has_building = capital_3_dwarf_building
+	}
+}
+
+province_dwarf_has_main_building_tier_2 = { #Province Scope
+	OR = {
+		has_building = settlement_1_dwarf_building
+		has_building = settlement_2_dwarf_building
+		has_building = settlement_3_dwarf_building
+		has_building = hold_1_dwarf_building
+		has_building = hold_2_dwarf_building
+		has_building = hold_3_dwarf_building
+		has_building = capital_1_dwarf_building
+		has_building = capital_2_dwarf_building
+		has_building = capital_3_dwarf_building
+	}
+}
+
+province_dwarf_has_main_building_tier_3 = { #Province Scope
+	OR = {
+		has_building = settlement_2_dwarf_building
+		has_building = settlement_3_dwarf_building
+		has_building = hold_2_dwarf_building
+		has_building = hold_3_dwarf_building
+		has_building = capital_2_dwarf_building
+		has_building = capital_3_dwarf_building
+	}
+}
+
+province_dwarf_has_main_building_tier_4 = { #Province Scope
+	OR = {
+		has_building = settlement_3_dwarf_building
+		has_building = hold_3_dwarf_building
+		has_building = capital_3_dwarf_building
+	}
+}
+
+province_dwarf_has_fortress_building_tier_3 = { #Province Scope
+	OR = {
+		has_building = hold_2_dwarf_building
+		has_building = hold_3_dwarf_building
+		has_building = capital_2_dwarf_building
+		has_building = capital_3_dwarf_building
+	}
+}
+
+province_dwarf_has_fortress_building_tier_4 = { #Province Scope
+	OR = {
+		has_building = hold_3_dwarf_building
+		has_building = capital_3_dwarf_building
+	}
+}
+
+province_dwarf_has_city_building_tier_2 = { #Province Scope
+	OR = {
+		has_building = settlement_1_dwarf_building
+		has_building = settlement_2_dwarf_building
+		has_building = settlement_3_dwarf_building
+		has_building = capital_1_dwarf_building
+		has_building = capital_2_dwarf_building
+		has_building = capital_3_dwarf_building
+	}
+}
+
+province_dwarf_has_city_building_tier_3 = { #Province Scope
+	OR = {
+		has_building = settlement_2_dwarf_building
+		has_building = settlement_3_dwarf_building
+		has_building = capital_2_dwarf_building
+		has_building = capital_3_dwarf_building
+	}
+}
+
+province_dwarf_has_city_building_tier_4 = { #Province Scope
+	OR = {
+		has_building = settlement_3_dwarf_building
+		has_building = capital_3_dwarf_building
+	}
+}
+
+province_dwarf_has_city_buildings = { #Province Scope
+	OR = { 
+		has_building = settlement_1_dwarf_building
+		has_building = settlement_2_dwarf_building 
+		has_building = settlement_3_dwarf_building 
+	}	
+}
+
+province_dwarf_has_fortress_buildings = {
+	OR = { 
+		has_building = hold_1_dwarf_building 
+		has_building = hold_2_dwarf_building 
+		has_building = hold_3_dwarf_building 
+	}
+}
+
+province_dwarf_has_capital_buildings = { #Province Scope
+	OR = { 
+		has_building = capital_1_dwarf_building 
+		has_building = capital_2_dwarf_building 
+		has_building = capital_3_dwarf_building 
+	}
+}
+
+province_dwarf_has_mountains_terrain = { #Province Scope
+	OR = {
+		has_terrain = mountain
+		has_terrain = highlands
+		has_terrain = unique_minas_tirith
+		has_terrain = unique_helmsdeep
+		has_terrain = unique_mountdoom
+		has_terrain = unique_dolguldur
+		has_terrain = unique_erebor
+		has_terrain = unique_isengard
+		has_terrain = unique_rivendell
+		has_terrain = unique_moria
+		has_terrain = unique_gundabad
+		has_terrain = unique_goblintown
+		has_terrain = unique_baraddur
+		has_terrain = unique_dolamroth
+		has_terrain = unique_pass
+		has_terrain = unique_carndum
+		has_terrain = unique_cirithungol
+		has_terrain = unique_minasmorgul
+	}
+}
+
+#######
+#Elf#
+#######
+
+province_elf_has_main_building_tier_1 = { #Province Scope
+	OR = {
+		has_building = noble_residence_elf_building
+		has_building = town_1_elf_building
+		has_building = town_2_elf_building
+		has_building = town_3_elf_building
+		has_building = fort_1_elf_building
+		has_building = fort_2_elf_building
+		has_building = fort_3_elf_building
+		has_building = capital_1_elf_building
+		has_building = capital_2_elf_building
+		has_building = capital_3_elf_building
+	}
+}
+
+province_elf_has_main_building_tier_2 = { #Province Scope
+	OR = {
+		has_building = town_1_elf_building
+		has_building = town_2_elf_building
+		has_building = town_3_elf_building
+		has_building = fort_1_elf_building
+		has_building = fort_2_elf_building
+		has_building = fort_3_elf_building
+		has_building = capital_1_elf_building
+		has_building = capital_2_elf_building
+		has_building = capital_3_elf_building
+	}
+}
+
+province_elf_has_main_building_tier_3 = { #Province Scope
+	OR = {
+		has_building = town_2_elf_building
+		has_building = town_3_elf_building
+		has_building = fort_2_elf_building
+		has_building = fort_3_elf_building
+		has_building = capital_2_elf_building
+		has_building = capital_3_elf_building
+	}
+}
+
+province_elf_has_main_building_tier_4 = { #Province Scope
+	OR = {
+		has_building = town_3_elf_building
+		has_building = fort_3_elf_building
+		has_building = capital_3_elf_building
+	}
+}
+
+province_elf_has_fortress_building_tier_3 = { #Province Scope
+	OR = {
+		has_building = fort_2_elf_building
+		has_building = fort_3_elf_building
+		has_building = capital_2_elf_building
+		has_building = capital_3_elf_building
+	}
+}
+
+province_elf_has_fortress_building_tier_4 = { #Province Scope
+	OR = {
+		has_building = fort_3_elf_building
+		has_building = capital_3_elf_building
+	}
+}
+
+province_elf_has_city_building_tier_2 = { #Province Scope
+	OR = {
+		has_building = town_1_elf_building
+		has_building = town_2_elf_building
+		has_building = town_3_elf_building
+		has_building = capital_1_elf_building
+		has_building = capital_2_elf_building
+		has_building = capital_3_elf_building
+	}
+}
+
+province_elf_has_city_building_tier_3 = { #Province Scope
+	OR = {
+		has_building = town_2_elf_building
+		has_building = town_3_elf_building
+		has_building = capital_2_elf_building
+		has_building = capital_3_elf_building
+	}
+}
+
+province_elf_has_city_building_tier_4 = { #Province Scope
+	OR = {
+		has_building = town_3_elf_building
+		has_building = capital_3_elf_building
+	}
+}
+
+province_elf_has_city_buildings = { #Province Scope
+	OR = { 
+		has_building = town_1_elf_building
+		has_building = town_2_elf_building
+		has_building = town_3_elf_building
+	}	
+}
+
+province_elf_has_fortress_buildings = {
+	OR = { 
+		has_building = fort_1_elf_building
+		has_building = fort_2_elf_building
+		has_building = fort_3_elf_building
+	}
+}
+
+province_elf_has_capital_buildings = { #Province Scope
+	OR = { 
+		has_building = capital_1_elf_building
+		has_building = capital_2_elf_building
+		has_building = capital_3_elf_building
+	}
+}
+
+#######
+#Orc#
+#######
+
+province_orc_has_main_building_tier_1 = { #Province Scope
+	OR = {
+		has_building = camp_orc_building
+		has_building = encampment_1_orc_building
+		has_building = encampment_2_orc_building
+		has_building = encampment_3_orc_building
+		has_building = fortress_1_orc_building
+		has_building = fortress_2_orc_building
+		has_building = fortress_3_orc_building
+		has_building = capital_1_orc_building
+		has_building = capital_2_orc_building
+		has_building = capital_3_orc_building
+	}
+}
+
+province_orc_has_main_building_tier_2 = { #Province Scope
+	OR = {
+		has_building = encampment_1_orc_building
+		has_building = encampment_2_orc_building
+		has_building = encampment_3_orc_building
+		has_building = fortress_1_orc_building
+		has_building = fortress_2_orc_building
+		has_building = fortress_3_orc_building
+		has_building = capital_1_orc_building
+		has_building = capital_2_orc_building
+		has_building = capital_3_orc_building
+	}
+}
+
+province_orc_has_main_building_tier_3 = { #Province Scope
+	OR = {
+		has_building = encampment_2_orc_building
+		has_building = encampment_3_orc_building
+		has_building = fortress_2_orc_building
+		has_building = fortress_3_orc_building
+		has_building = capital_2_orc_building
+		has_building = capital_3_orc_building
+	}
+}
+
+province_orc_has_main_building_tier_4 = { #Province Scope
+	OR = {
+		has_building = encampment_3_orc_building
+		has_building = fortress_3_orc_building
+		has_building = capital_3_orc_building
+	}
+}
+
+province_orc_has_fortress_building_tier_3 = { #Province Scope
+	OR = {
+		has_building = fortress_2_orc_building
+		has_building = fortress_3_orc_building
+		has_building = capital_2_orc_building
+		has_building = capital_3_orc_building
+	}
+}
+
+province_orc_has_fortress_building_tier_4 = { #Province Scope
+	OR = {
+		has_building = fortress_3_orc_building
+		has_building = capital_3_orc_building
+	}
+}
+
+province_orc_has_city_building_tier_2 = { #Province Scope
+	OR = {
+		has_building = encampment_1_orc_building
+		has_building = encampment_2_orc_building
+		has_building = encampment_3_orc_building
+		has_building = capital_1_orc_building
+		has_building = capital_2_orc_building
+		has_building = capital_3_orc_building
+	}
+}
+
+province_orc_has_city_building_tier_3 = { #Province Scope
+	OR = {
+		has_building = encampment_2_orc_building
+		has_building = encampment_3_orc_building
+		has_building = capital_2_orc_building
+		has_building = capital_3_orc_building
+	}
+}
+
+province_orc_has_city_building_tier_4 = { #Province Scope
+	OR = {
+		has_building = encampment_3_orc_building
+		has_building = capital_3_orc_building
+	}
+}
+
+province_orc_has_city_buildings = { #Province Scope
+	OR = { 
+		has_building = encampment_1_orc_building
+		has_building = encampment_2_orc_building
+		has_building = encampment_3_orc_building
+	}	
+}
+
+province_orc_has_fortress_buildings = {
+	OR = { 
+		has_building = fortress_1_orc_building
+		has_building = fortress_2_orc_building
+		has_building = fortress_3_orc_building
+	}
+}
+
+province_orc_has_capital_buildings = { #Province Scope
+	OR = { 
+		has_building = capital_1_orc_building
+		has_building = capital_2_orc_building
+		has_building = capital_3_orc_building
+	}
+}

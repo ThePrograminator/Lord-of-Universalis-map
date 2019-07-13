@@ -1,0 +1,1038 @@
+﻿l_french:
+ # Events
+ LOTR_HONEY.1t: "Harsh Winter"
+ LOTR_HONEY.1d: "The latest winter was especially harsh for the bees this year, this will result in a smaller production of honey."
+ LOTR_HONEY.1a: "Not the bees!"
+ LOTR_IRON.1t: "Iron ore quality problems"
+ LOTR_IRON.1d: "Our iron mines' deposit have run into some poor quality iron which cannot be used for weapons or armor."
+ LOTR_IRON.1a: "we didn't need it anyways"
+ LOTR_WARGS.1t: "Captured Wargs"
+ LOTR_WARGS.1d: "One of your hunting parties have captured and returned a large quantity of wargs. This has resulted in a abumdant of wargs for our troops."
+ LOTR_WARGS.1a: "Send them to the front"
+ flavor_isg.1.t: "The Treason of Isengard."
+ flavor_isg.1.d: "Saruman has openly declared his alligance to Sauron."
+ flavor_isg.1.a: "OH NO!"
+ flavor_isg.3.b: "Your people are weak!"
+ flavor_isg.3.t: "The Dunlendings offer their alliance."
+ flavor_isg.3.d: "The Dunlendings offer their assistance towards their hated enermy, Rohan. They do this with the promise of returning home to their ancestral home."
+ flavor_isg.3.a: "Join me!"
+ flavor_isg.3.b: "Your people are weak!"
+ 
+ LOTR_WILDERNESS.1t: "Wilderness"
+ LOTR_WILDERNESS.1d: "These lands, however offcially under your claim and authority, has no people living there. To colonise these lands you must change the religion and culture."
+ LOTR_WILDERNESS.1a: "We have lots of people in need of a home"
+ LOTR_WILDERNESS.1b: "Finally we can start working the lands"
+ 
+ LOTR_PROVINCE_WIGHT.1.t: "Wights Roam The Land"
+ LOTR_PROVINCE_WIGHT.1.d: "The Barrow-wights were shape-shifting beings of darkness, similar in circumstance to Wraiths, who dwelt in dark places of Eriador such as the Barrow-downs. They were put there by sorcerers of Angmar who corrupted the souls of the inhabitants of the Barrow-downs. The sorcerers were sent by the Witch-king of Angmar who wished to keep the Dúnedain away from there. To Rid these or your lands, you must change the religion and culture."
+ LOTR_PROVINCE_WIGHT.1.a: "These Wights will cause trouble!"
+ LOTR_PROVINCE_WIGHT.1.b: "Finally we can start working the lands"
+ 
+ LOTR_PROVINCE_TROLL.1.t: "Trolls Roam The Land"
+ LOTR_PROVINCE_TROLL.1.d: "Trolls are strong and vicious, but generally dim-witted and stupid at best. Some were described as being able to speak, while others appear to be as irrational as animals. They seem to be fond of meat, and will eat almost any animal or being they come across. They also have very disgusting manners. To Rid these or your lands, you must change the religion and culture."
+ LOTR_PROVINCE_TROLL.1.a: "These Trolls will cause trouble!"
+ LOTR_PROVINCE_TROLL.1.b: "Finally we can start working the lands"
+ 
+ LOTR_PROVINCE_HUORN.1.t: "Huorn Roam The Land"
+ LOTR_PROVINCE_HUORN.1.d: "Huorns were the dreadful, living race of ancient, slow-moving trees, whom the Ents cared for and tended to in the Second and Third Ages. The Huorns mostly stood as dark trees in the deepest forests, gnarled and unmoving, yet watchful. When aroused in wrath they moved swiftly as if wrapped in shadows, falling on foes with deadly and merciless strength. At least one such sentient tree spirit inhabited the Old Forest by the banks of the Withywindle River, who was called Old Man Willow. As the Old Forest and Fangorn were the last remnants of the most ancient forests in Middle-earth, Old Man Willow wished to prevent further inroads into his realm. He held all the Old Forest in an enchantment by the power of his song and led all travellers to him, where with his limb-lithe roots and branches he consumed them. To Rid these or your lands, you must change the religion and culture."
+ LOTR_PROVINCE_HUORN.1.a: "These Huorns will cause trouble!"
+ LOTR_PROVINCE_HUORN.1.b: "Finally we can start working the lands"
+ 
+ LOTR_RUINS.1t: "Province Capital has been Rebuild"
+ LOTR_RUINS.1d: "The province capital has been rebuild in $PROVINCECAPITAL$. Resulting in new inhabitans as well as new have returned to the province."
+ LOTR_RUINS.1a: "Excellent!"
+ lotr_general.7t: "Inhabitants threaten rebellion!"
+ lotr_general.7d: "Near our border, one of our newly acquired towns $PROVINCECAPITAL$ is threatening rebellion unless we grant the ability to have some form of selv-governance. A tricky situation, we will have to dedicated an administrator to deal with this issue if we grant them their demands."
+ lotr_general.7a: "Give in."
+ lotr_general.7b: "Ignore them."
+ desolation_of_smaug.1.t: "Smaug has arrived!"
+ desolation_of_smaug.1.d: "Smaug was a 'great' fire drake of the Third Age, considered to be the last 'great' dragon to exist in Middle Earth. In TA 2770, Smaug came from the mountains in the north, drawn by great wealth amassed by the Dwarven kingdom of the Lonely Mountain, which included gold, gemstones, silver, pearls, the many-faceted crystals of emerald, sapphire and diamond, and the famed Arkenstone."
+ desolation_of_smaug.1.a: "We must slay the dragon!"
+ desolation_of_smaug.2.t: "Erebor is lost!"
+ desolation_of_smaug.2.d: "Smaug has laid waste to the neighboring city of Dale and captured the Lonely Mountain, driving the surviving Dwarves into exile."
+ desolation_of_smaug.2.a: "Our homeland lost!"
+ desolation_of_smaug.3.d: "Smaug has laid waste to the neighboring city of Dale and captured the Lonely Mountain, driving the surviving inhabitans out of the mountain."
+ desolation_of_smaug.3.a: "This cannot be!"
+ desolation_of_smaug.3.b: "We must flee to Laketown!"
+ desolation_of_smaug.4.t: "The Dragon is Dead!"
+ desolation_of_smaug.4.d: "With the United strength of our troops and allies we have slain the dragon and saved Erebor from certain doom!"
+ desolation_of_smaug.4.a: "We shall hold a feast!"
+ desolation_of_smaug.4.b: "We shall Honour the dead."
+ desolation_of_smaug.5.t: "Everything is lost"
+ desolation_of_smaug.5.d: "Just like the Grey Mountains long ago, Erebor has been taken away from Durin's Folk after more than 200 years of settlement. Thrór has commanded us to wander the wilds in search of a new home."
+ desolation_of_smaug.5.a: "We will follow the Company of Thrór"
+ desolation_of_smaug.5.b: "Welcome them in."
+ desolation_of_smaug.6.t: "Help has Arrived!"
+ desolation_of_smaug.6.d: "Thandruil has honoured his alliance with us and has lended us aid which have arrived in Dale"
+ desolation_of_smaug.6.a: "Just in time!"
+ desolation_of_smaug.7.t: "Thandruil has abbandon us"
+ desolation_of_smaug.7.d: "Thandruil has dishonoured his alliance with us and left our city to burn by the fires of the dragon!"
+ desolation_of_smaug.7.a: "Never thrust an Elf!"
+ excile.1.t: "Wondering the Wilds"
+ excile.1.d: "After the sacking of the Lonely Mountain, most of the survivors went to the Iron Hills, however some followed the company of King Thrór. After wandering the wilds, Durin's folk settled in the mountains on the borders of Dunland."
+ excile.1.a: "This will make do"
+ excile.1.b: "Fall back to the Iron Hills"
+ war_of_the_dwarves_and_orcs.1.t: "War of the Dwarves and Orcs is Eminent"
+ war_of_the_dwarves_and_orcs.1.d: "Thrór fell into despair after living many years in poverty, or perhaps the Ring he wore was ultimately working evil upon its bearer. Whatever the case, he decided to leave his people in 2790 to seek out and look upon the ancestral halls of Khazad-dûm. Accompanied by his friend Nár, they crossed the Redhorn Pass and came down to the East-gate of Moria where Thrór took it upon himself to enter alone, despite the warnings of Nár who stayed behind in the dale. Thrór was caught and slain by Azog the Orc-chieftain who rules Moria, and after a few days Thrór's head was branded with Azog's name and the corpse was thrown out of the gate where it was found by Nár."
+ war_of_the_dwarves_and_orcs.1.a: "We will gather the council and avenge Thrór!"
+ war_of_the_dwarves_and_orcs.2.t: "The Blacklock Dwarves have arrived!"
+ war_of_the_dwarves_and_orcs.2.d: "Since the Blacklock Dwarves are far away, they have offered units to help in our cause"
+ war_of_the_dwarves_and_orcs.2.a: "Welcome Brothers!"
+ war_of_the_dwarves_and_orcs.3.t: "The Stonefoot Dwarves have arrived!"
+ war_of_the_dwarves_and_orcs.3.d: "Since the Stonefoot Dwarves are far away, they have offered units to help in our cause"
+ war_of_the_dwarves_and_orcs.3.a: "Welcome Brothers!"
+ war_of_the_dwarves_and_orcs.4.t: "War of the Dwarves and Orcs started!"
+ war_of_the_dwarves_and_orcs.4.d: "When Nár returned to the king's son Thráin, he told him of his father's murder and the Orc's warning. For seven days without eating or sleeping the new king sat, until he stood and cried 'This cannot be borne!' From 2790 to 2793 the Longbeards responded to this tragedy by gathering an army, and calling on all the other six Houses of the Dwarves for war"
+ war_of_the_dwarves_and_orcs.4.a: "For Thrór!"
+ war_of_the_dwarves_and_orcs.5.t: "War of the Dwarves and Orcs Won!"
+ war_of_the_dwarves_and_orcs.5.d: "After the succes of the War of the Dwarves and Orcs, we have reclaimed our ancient halls of Khazad-Dûm."
+ war_of_the_dwarves_and_orcs.5.a: "We truely are the sons of Durin!"
+ war_of_the_dwarves_and_orcs.6.t: "War of the Dwarves and Orcs Lost!"
+ war_of_the_dwarves_and_orcs.6.d: "The war was very costly for the Dwarves, Nearly half of those involved in the battles were killed. However they soon began to wander Eriador before settling at last in the Blue Mountains. Here they prospered in their own fashion, forging iron objects and increasing their numbers."
+ war_of_the_dwarves_and_orcs.6.a: "We Return into Exile"
+ war_of_the_dwarves_and_orcs.7.t: "War of the Dwarves and Orcs Lost!"
+ war_of_the_dwarves_and_orcs.7.d: "The war was very costly for the Dwarves, Nearly half of those involved in the battles were killed returned to Dunland. However, they soon began to wander Eriador before settling at last in the Blue Mountains. Here they prospered in their own fashion, forging iron objects and increasing their numbers."
+ war_of_the_dwarves_and_orcs.7.a: "We Return into Exile"
+ 
+ orc_raiders.1.title: "Orc Raiders in Ithilien"
+ orc_raiders.1.desc: "An orc raiding party has emerged from Mordor and Entered into out lands in Ithilien, destroying and attacking the local population."
+ orc_raiders.1.a: "Drive them back to the shadows!"
+ 
+ invasion_called.1.title: "The Haradrim Warlord has declared an Invasion!"
+ invasion_called.1.desc: "The Warlord of the Haradrim has gathered the warchiefs' of the many different nations and cultures of harad. Their intensions is to invade our lands."
+ invasion_called.1.a: "Prepare the Defences!"
+ 
+ flavor_harad.2.title: "The Haradrim Invasion has started!"
+ flavor_harad.2.desc: "The Warlord of the Haradrim has announced that the Invasion has begone, and the armies of the South are marching towards our lands."
+ flavor_harad.2.a: "Let us hope for victory"
+ 
+ flavor_harad.3.title: "Comence the Invasion!"
+ flavor_harad.3.desc: "The People of the Haradrim are ready to fight our foe, we must tell them to march towards our enermies!"
+ flavor_harad.3.a: "To War!"
+ 
+ #invasion_at_war.1.title: "Haradrim join the ranks"
+ #invasion_at_war.1.desc: "The People of the Haradrim, under your banner join the invasion force"
+ #invasion_at_war.1.a: "Gondor shall fall!"
+ #invasion_at_war.1.b: "To War!"
+ 
+ flavor_harad.4.title: "The Haradrim want to Invade Gondor!"
+ flavor_harad.4.desc: "The People of the Haradrim and their warchiefs are eager to invade the lands of Gondor, you should decide if you should declare and invasion or to not listen to the warchiefs."
+ flavor_harad.4.a: "I promise to declare the Invasion against Gondor soon"
+ flavor_harad.4.b: "Now is not the time"
+ 
+ flavor_harad.5.title: "You Didnt keep the promise!"
+ flavor_harad.5.desc: "The People of the Haradrim and their warchiefs are disapointed with you, this will have faul consequenses."
+ flavor_harad.5.a: "I decide if i keep my promises!"
+ 
+ #Elven
+ flavor_elven.2.t: "Too Helpfull"
+ flavor_elven.2.d: "Your Elven people understand that we are staying here in Middle Earth, to help against the dark forces. However, your elven people has the impression that we are losing too many lives, helping other nations. A group of them has left the province to sail for the Undying Lands."
+ flavor_elven.2.a: "We will see you again soon"
+ 
+ flavor_elven.3.t: "event 3"
+ flavor_elven.3.d: "event 3"
+ flavor_elven.3.a: "set ruler flag"
+ 
+ flavor_elven.4.t: "event 4"
+ flavor_elven.4.d: "event 4"
+ flavor_elven.4.a: "set ruler"
+ 
+ flavor_elven.5.t: "event 5"
+ flavor_elven.5.d: "event 5"
+ flavor_elven.5.a: "kill ruler"
+ 
+ flavor_elven.5.t: "event 5"
+ flavor_elven.5.d: "event 5"
+ flavor_elven.5.a: "kill ruler"
+ 
+ flavor_elven.6.t: "event 6"
+ flavor_elven.6.d: "event 6"
+ flavor_elven.6.a: "gain karma"
+ 
+ flavor_elven.7.t: "event 7"
+ flavor_elven.7.d: "event 7"
+ flavor_elven.7.a: "remove karma"
+ 
+ flavor_elven.8.t: "Too Aggressiv"
+ flavor_elven.8.d: "Your Elven people understand that we are staying here in Middle Earth, to help against the dark forces. However, your elven people has the impression that we are losing too many lives, conquering other nations and be aggressiv. A group of them has left the province to sail for the Undying Lands."
+ flavor_elven.8.a: "We will see you again soon"
+ 
+ flavor_elven.9.t: "event 9"
+ flavor_elven.9.d: "event 9"
+ flavor_elven.9.a: "set heir flag"
+ 
+ flavor_elven.10.t: "event 10"
+ flavor_elven.10.d: "event 10"
+ flavor_elven.10.a: "set heir"
+ 
+ flavor_elven.11.t: "event 11"
+ flavor_elven.11.d: "event 11"
+ flavor_elven.11.a: "kill heir"
+ 
+ #Mordor
+ flavor_mordor.1.t: "Sauron has declared himself Openly."
+ flavor_mordor.1.d: "Sauron has returned to Mordor and openly declared himself. Orc armies and humans alike folk to Mordor too soon unleash upon Middle-Earth."
+ flavor_mordor.1.a: "OH NO!"
+ flavor_mordor.3.t: "Enslave Núrniags."
+ flavor_mordor.3.d: "The Núrniags flee in terror with the reappearance of Souron and his orc legions. Their people are nothing more than slave labour for our cause."
+ flavor_mordor.3.a: "Enslave their people!"
+ flavor_mordor.3.b: "Your people are weak!"
+ 
+ #Mordor Events (Rebuilding Barad-Dur)
+ 
+ flavor_mordor.4.t: "Rebuilding of Barad-Dûr: Starts"
+ flavor_mordor.4.d: "'Then at last his gaze was held: wall upon wall, battlement upon battlement, black tower of adamant, he saw it: Barad-dûr, Fortress of Sauron. All hope left him.' The Rebuilding of Barad-Dûr will take a long time to finish and a lot of orcs and trolls to build. However once finished, the fortress will be a monument to Saurons will."
+ flavor_mordor.4.a: "Start Construction"
+ 
+ flavor_mordor.5.t: "Rebuilding of Barad-Dûr: Foundations"
+ flavor_mordor.5.d: "The Foundations of the great fortress has been rebuild and reinforced. The Chasm surrounding the great fortress has also been refined aswell as the only bridge across it. The next stage we will start building upwards supported by the cliff of the mountain on the backside of the fortress. Many orcs have died as a result of the dangerous work."
+ flavor_mordor.5.a: "Continue the Construction"
+ 
+ flavor_mordor.6.t: "Rebuilding of Barad-Dûr: The Middle Section"
+ flavor_mordor.6.d: "The Middle section of the great fortress has been rebuild. The walls have been build, but also the start of the tall spire is in place. Many orcs have died as a result of the dangerous work."
+ flavor_mordor.6.a: "Continue the Construction"
+ 
+ flavor_mordor.7.t: "Rebuilding of Barad-Dûr: Finished"
+ flavor_mordor.7.d: "The Dark tower is complete, held together with dark magic and the will of Sauron, this monolith stands as the glory of Mordor. Sauron has moved in to the tower, and with dark magic created The Great Eye of fire and flame atop of the tower."
+ flavor_mordor.7.a: "Glory to Sauron!"
+ 
+ flavor_mordor.8.t: "Rebuilding of Barad-Dûr: Cancelled"
+ flavor_mordor.8.d: "The province and lands surrounding Barad-Dûr has been lost, the rebuilding of Barad-Dûr has ceased. Disgraceful!"
+ flavor_mordor.8.a: "This is not good!"
+ 
+ #Mordor Events (Building Saurons Road)
+ 
+ flavor_mordor.9.t: "Building of Sauron's Road: Starts"
+ flavor_mordor.9.d: "To move across Mordor can be a dangerous and difficult task, establishing a network of roads will ensure our production can move quickly."
+ flavor_mordor.9.a: "Start Construction"
+ 
+ flavor_mordor.10.t: "Building of Sauron's Road: Road finished at Barad-Dûr"
+ flavor_mordor.10.d: "The construction started in Barad-Dûr and has now finished. Many orcs have died as a result of the dangerous work."
+ flavor_mordor.10.a: "Continue the Construction"
+ 
+ flavor_mordor.11.t: "Building of Sauron's Road: Road finished at Carach Angren"
+ flavor_mordor.11.d: "The construction started in Carach Angren and has now finished. Many orcs have died as a result of the dangerous work."
+ flavor_mordor.11.a: "Continue the Construction"
+ 
+ flavor_mordor.12.t: "Building of Sauron's Road: Road finished at Udûn"
+ flavor_mordor.12.d: "The construction started in Udûn and has now finished. Many orcs have died as a result of the dangerous work."
+ flavor_mordor.12.a: "Continue the Construction"
+ 
+ flavor_mordor.13.t: "Building of Sauron's Road: Road finished at Morannon"
+ flavor_mordor.13.d: "The construction started in Morannon and has now finished. Many orcs have died as a result of the dangerous work."
+ flavor_mordor.13.a: "Continue the Construction"
+ 
+ flavor_mordor.14.t: "Building of Sauron's Road: Road finished at Morgal"
+ flavor_mordor.14.d: "The construction started in Morgal and has now finished. Many orcs have died as a result of the dangerous work."
+ flavor_mordor.14.a: "Continue the Construction"
+ 
+ flavor_mordor.15.t: "Building of Sauron's Road: Road finished at Cirith Ungol"
+ flavor_mordor.15.d: "The construction started in Cirith Ungol and has now finished and the entirety of Sauron's Road has been build. Many orcs have died as a result of the dangerous work."
+ flavor_mordor.15.a: "The road is finished"
+ 
+ flavor_mordor.15.t: "Building of Sauron's Road: Cancelled"
+ flavor_mordor.15.d: "One of our province that we were building Sauron's road on has been taken by the enermy"
+ flavor_mordor.15.a: "All That Work!"
+ 
+ #Mordor Events 
+ 
+ flavor_mordor.17.t: "Overseers In A Province Are Having Trouble"
+ flavor_mordor.17.d: "A province's Orcs have been causing trouble for the local Overseers, causing chaotic brawling, fighting and not working. We must deal with them!"
+ flavor_mordor.17.a: "Send The Nazgul"
+ flavor_mordor.17.b: "Don't Do Anything"
+ 
+ flavor_mordor.18.t: "Reinforce The Borders To Mordor"
+ flavor_mordor.18.d: "As we have not found the one ring, Sauron is still vunerable. We must not leave anything to chance and make sure nobody sneaking through out defences."
+ flavor_mordor.18.a: "Defend the Borders"
+ flavor_mordor.18.b: "Don't Do Anything"
+ 
+ flavor_mordor.19.t: "Build The Strength Of Mordor"
+ flavor_mordor.19.d: "We must not stop with our progress to advance our industries and provinces. Measures must be taken to ensure progress is being made."
+ flavor_mordor.19.a: "Build Industry"
+ flavor_mordor.19.b: "Improve Provinces"
+ 
+ flavor_mordor.20.t: "Spawning Pools"
+ flavor_mordor.20.d: "Lately a larger amount of Orcs have sprung out of the Spawning Pools, we need to know what to do with them."
+ flavor_mordor.20.a: "Make Them Workers"
+ flavor_mordor.20.b: "Make Them Warriors"
+ 
+ flavor_mordor.21.t: "Starving Province"
+ flavor_mordor.21.d: "A situation in a province has created conditions were the Orcs are starving, we need to act upon this."
+ flavor_mordor.21.a: "Send Meat From Neighbour Provinces"
+ flavor_mordor.21.b: "Let Them Starve"
+ 
+ flavor_mordor.22.t: "Mouth Of Sauron Sent Out"
+ flavor_mordor.22.d: "Even though the might of Mordor alone is a force to be reckoned with. We still rely on allies and men from distant lands to help us in our conquest."
+ flavor_mordor.22.a: "Improve Relations"
+ flavor_mordor.22.b: "Demand Soldiers"
+ 
+ flavor_mordor.23.t: "Poor Equipment"
+ flavor_mordor.23.d: "A combination of poor quality minerals and lousy work by the craftsmen. Have resulted in a reduction in the overall quality of our equipment to our warriors."
+ flavor_mordor.23.a: "They Can Still Fight!"
+ 
+ flavor_mordor.24.t: "Over Consumption"
+ flavor_mordor.24.d: "With a period of over consumption, the provinces producing food have are working behind trying to catch up to the demand of food."
+ flavor_mordor.24.a: "We Must Ration!"
+ 
+ flavor_mordor.25.t: "Entice Bloodlust"
+ flavor_mordor.25.d: "Our Orcs thirst for battle and war, we shall give it to them."
+ flavor_mordor.25.a: "To War!"
+ 
+ flavor_mordor.26.t: "Entice Fear"
+ flavor_mordor.26.d: "Knowing that the Dark Lord has returned and the armies of Mordor on the march. A neighboring nations people are looking in fear to their leaders for salvation against us."
+ flavor_mordor.26.a: "Fear the Might of Mordor"
+ 
+ flavor_mordor.29.t: "Enticed by Fear"
+ flavor_mordor.29.d: "neighboring the nation of Mordor has spread fear amongst our people, they look to us for answers!"
+ flavor_mordor.29.a: "Don't Give In To Fear"
+ 
+ # Event(Option Text)
+ desolation_of_smaug_text_1: "Smaug has taken Erebor, and the Dwarves flee out of the city. Dale is destroyed and the inhabitans flees to the lake Esgaroth."
+ desolation_of_smaug_text_2: "Smaug has taken Erebor, and the inhabitans flee out of the city. Dale is destroyed and the inhabitans flees to the lake Esgaroth."
+ desolation_of_smaug_text_3: "Smaug has taken Erebor, and the inhabitans flee out of the city. Dale is destroyed and the inhabitans flees to the lake Esgaroth."
+ excile_text_1: "Durin's folk settles near Dunland"
+ excile_text_2: "The dwarves of Erebor flees to the Iron Hills"
+ war_of_the_dwarves_and_orcs_text_1: "The Six Dwarfen houses has joined or coalition against the Goblins of Moria. Our war will begin in 3 Months, pepare yourself!"
+ war_of_the_dwarves_and_orcs_text_2: "Your people return to excile and abbandon your holdings in the Dunland Mountains. Wandering Eriador your people settle in the Northern Blue Mountains."
+ invasion_started.3_text: "You have one year to declare an Invasion on Gondor. If you don't you will receive a negative effect"
+ 
+ white_mountain_production: "Any §YProvince§! in the §YGondor Region§! which you §Yown§!, have a §Ycore§!, and has a §Ytrade goods§! which is a §Ymineral§!, will §Ygain§! the:"
+ dol_amroth_coast_raided: "Any §YProvince§! in the §YDol Amroth, §YBelfalas area§! which you §Yown§!, have a §Ycore§!, and is §Ycoastal§!, will §Ygain§! the:"
+ 
+ #Mordor Event(Option Text)
+ rebuilding_barad_dur_stage_start: "The construction will take around 9 years."
+ building_saurons_road_start: "The construction will take around 3 years."
+ 
+ # Institution Event
+
+ institution_events.2.t:0 "The Desolation of Smaug!"
+ institution_events.2.d:0 "In TA 2770, Smaug came from the mountains in the north, drawn by great wealth amassed by the Dwarven kingdom of the Lonely Mountain. For two centuries, Smaug ruled the Lonely Mountain uncontested, lying within the great treasure hoard of the Lonely Mountain and ensuring that no one entered the mountain in an attempt to steal from him. The surrounding domain became a scarred wasteland known to the Dwarves and men as the Desolation of Smaug."
+ institution_events.2.a:0 "This changes everything..."
+ institution_events.2.a.tt:0 "Countries that have not yet fully §YEmbraced§! the The Desolation of Smaug Institution will receive an increasing technology cost penalty of §R1%§! per year up to at most §R50%§!."
+ institution_events.200.d:0 "In TA 2770, Smaug came from the mountains in the north, drawn by great wealth amassed by the Dwarven kingdom of the Lonely Mountain. For two centuries, Smaug ruled the Lonely Mountain uncontested, lying within the great treasure hoard of the Lonely Mountain and ensuring that no one entered the mountain in an attempt to steal from him. The surrounding domain became a scarred wasteland known to the Dwarves and men as the Desolation of Smaug."
+ institution_events.201.d:0 "Travelers speak of a great dragon of old destroying cities and mountains in faraway lands. It is hard to treat such rumors seriously, though we should think clearly what this means for our lands to come."
+ 
+ institution_events.3.t:0 "War of the Dwarves and Orcs"
+ institution_events.3.d:0 "In T.A. 2770 Erebor was sacked by the Dragon Smaug. Many of the Dwarves of Durin's Folk were rendered homeless and wandered through western Middle-earth, trying to make as best a living they could. After some years of wandering they settled down in Dunland. Among these Dwarves were Thrór, formerly the King under the Mountain now King of Durin's folk in exile, his son Thráin II and grandson Thorin II who became later known as Thorin Oakenshield."
+ institution_events.3.a:0 "This changes everything..."
+ institution_events.3.a.tt:0 "Countries that have not yet fully §YEmbraced§! the War of the Dwarves and Orcs Institution will receive an increasing technology cost penalty of §R1%§! per year up to at most §R50%§!."
+ institution_events.300.d:0 "In T.A. 2770 Erebor was sacked by the Dragon Smaug. Many of the Dwarves of Durin's Folk were rendered homeless and wandered through western Middle-earth, trying to make as best a living they could. After some years of wandering they settled down in Dunland. Among these Dwarves were Thrór, formerly the King under the Mountain now King of Durin's folk in exile, his son Thráin II and grandson Thorin II who became later known as Thorin Oakenshield."
+ institution_events.301.d:0 "n T.A. 2770 Erebor was sacked by the Dragon Smaug. Many of the Dwarves of Durin's Folk were rendered homeless and wandered through western Middle-earth, trying to make as best a living they could. After some years of wandering they settled down in Dunland. Among these Dwarves were Thrór, formerly the King under the Mountain now King of Durin's folk in exile, his son Thráin II and grandson Thorin II who became later known as Thorin Oakenshield."
+ institution_events.300.db:0 "n T.A. 2770 Erebor was sacked by the Dragon Smaug. Many of the Dwarves of Durin's Folk were rendered homeless and wandered through western Middle-earth, trying to make as best a living they could. After some years of wandering they settled down in Dunland. Among these Dwarves were Thrór, formerly the King under the Mountain now King of Durin's folk in exile, his son Thráin II and grandson Thorin II who became later known as Thorin Oakenshield."
+ 
+ institution_events.4.t:0 "Darkness and Corruption of Dol Guldur"
+ institution_events.4.d:0 "The White Council long feared the power in Dol Guldur might be Sauron, but Saruman opposed assaulting it. However, Gandalf later went to Dol Guldur himself and discovered that the Necromancer was indeed Sauron. He then informed the White Council, and Saruman was unable to protest. The White Council attacked Dol Guldur, and Sauron, not yet powerful enough to challenge them, fled to Mordor. Sauron continued to increase his power over the next 100 years in his search for the One Ring."
+ institution_events.4.a:0 "This changes everything..."
+ institution_events.4.a.tt:0 "Countries that have not yet fully §YEmbraced§! the Darkness and Corruption of Dol Guldur Institution will receive an increasing technology cost penalty of §R1%§! per year up to at most §R50%§!."
+ institution_events.400.d:0 "The White Council long feared the power in Dol Guldur might be Sauron, but Saruman opposed assaulting it. However, Gandalf later went to Dol Guldur himself and discovered that the Necromancer was indeed Sauron. He then informed the White Council, and Saruman was unable to protest. The White Council attacked Dol Guldur, and Sauron, not yet powerful enough to challenge them, fled to Mordor. Sauron continued to increase his power over the next 100 years in his search for the One Ring."
+ institution_events.401.d:0 "The White Council long feared the power in Dol Guldur might be Sauron, but Saruman opposed assaulting it. However, Gandalf later went to Dol Guldur himself and discovered that the Necromancer was indeed Sauron. He then informed the White Council, and Saruman was unable to protest. The White Council attacked Dol Guldur, and Sauron, not yet powerful enough to challenge them, fled to Mordor. Sauron continued to increase his power over the next 100 years in his search for the One Ring."
+ 
+ institution_events.5.t:0 "Umbar's Rising Power"
+ institution_events.5.d:0 "In TA 2885 Umbar supported the Haradrim who claimed Harondor, although this had long been a debatable land between the Corsairs and the Kings. The enermies of Gondor grow stronger..."
+ institution_events.5.a.tt:0 "Countries that have not yet fully §YEmbraced§! the Umbar's Rising Power Institution will receive an increasing technology cost penalty of §R1%§! per year up to at most §R50%§!."
+ institution_events.5.a:0 "This changes everything..."
+ institution_events.500.d:0 "In TA 2885 Umbar supported the Haradrim who claimed Harondor, although this had long been a debatable land between the Corsairs and the Kings. The enermies of Gondor grow stronger..."
+ institution_events.501.d:0 "In TA 2885 Umbar supported the Haradrim who claimed Harondor, although this had long been a debatable land between the Corsairs and the Kings. The enermies of Gondor grow stronger..."
+ 
+ institution_events.6.t:0 "The Battle of Middle Earth"
+ institution_events.6.d:0 "The War of the Ring was the great conflict at the end of the Third Age, named for the One Ring and the importance this had in the final outcome. The war was fought between Sauron, the Dark Lord of Mordor who attempted to conquer Middle-earth as he nearly did in the Second Age; and the Free peoples, being a loose alliance of Elves and Men led by the Wise."
+ institution_events.6.a.tt:0 "Countries that have not yet fully §YEmbraced§! the The Battle of Middle Earth Institution will receive an increasing technology cost penalty of §R1%§! per year up to at most §R50%§!."
+ institution_events.6.a:0 "This changes everything..."
+ institution_events.600.d:0 "The War of the Ring was the great conflict at the end of the Third Age, named for the One Ring and the importance this had in the final outcome. The war was fought between Sauron, the Dark Lord of Mordor who attempted to conquer Middle-earth as he nearly did in the Second Age; and the Free peoples, being a loose alliance of Elves and Men led by the Wise."
+ institution_events.601.d:0 "The War of the Ring was the great conflict at the end of the Third Age, named for the One Ring and the importance this had in the final outcome. The war was fought between Sauron, the Dark Lord of Mordor who attempted to conquer Middle-earth as he nearly did in the Second Age; and the Free peoples, being a loose alliance of Elves and Men led by the Wise."
+ 
+ institution_events.7.t:0 "The Fourth Age"
+ institution_events.7.d:0 "The Fourth Age began after Sauron was vanquished and his One Ring was destroyed. The Shire and the kingdoms of Arnor and Gondor were restored. It marked the ascent of Men and the final diminishing of the Elves. Gandalf, Elrond, Galadriel, Bilbo and Frodo sailed for the Undying Lands. The allies of Sauron suffered a devastating blow that would take them centuries to recover, if they did at all. Harad was defeated and concluded a peace with King Aragorn II Elessar, by which Umbar, whose fleet had been completely destroyed in the mouths of the Anduin, was returned to Gondor, and South Gondor also annexed."
+ institution_events.7.a.tt:0 "Countries that have not yet fully §YEmbraced§! the §The Fourth Age! Institution will receive an increasing technology cost penalty of §R1%§! per year up to at most §R50%§!."
+ institution_events.7.a:0 "This changes everything..."
+ institution_events.700.d:0 "The Fourth Age began after Sauron was vanquished and his One Ring was destroyed. The Shire and the kingdoms of Arnor and Gondor were restored. It marked the ascent of Men and the final diminishing of the Elves. Gandalf, Elrond, Galadriel, Bilbo and Frodo sailed for the Undying Lands. The allies of Sauron suffered a devastating blow that would take them centuries to recover, if they did at all. Harad was defeated and concluded a peace with King Aragorn II Elessar, by which Umbar, whose fleet had been completely destroyed in the mouths of the Anduin, was returned to Gondor, and South Gondor also annexed."
+ 
+ #Gondor
+ flavor_gondor.1.t: "An Area Asks For More Autonomy"
+ flavor_gondor.1.d: "One of our areas in Gondor request more autonomy, they feel the centralised rule of $MONARCHTITLE$ $MONARCH$ has negleted the area."
+ flavor_gondor.1.a: "I Shall Grand The Request"
+ flavor_gondor.1.b: "The $MONARCHTITLE$ Rules Supreme"
+ 
+ flavor_gondor.2.t: "Our Defences Along The Anduin Are Crumbling"
+ flavor_gondor.2.d: "Our fortifications and walls along the forts of the Anduin river, are deteriorating and crumbling from past aggressions. We should take the opportunity of rebuilding the defences and improving them."
+ flavor_gondor.2.a: "We Need To Be Ready"
+ flavor_gondor.2.b: "This Can Not Be A Priority Right Now"
+ 
+ flavor_gondor.3.t: "Deploy Rangers In Ithilien"
+ flavor_gondor.3.d: "Ithilien is an exposed part of Gondor. As Haradrim attack from the south, Rhun from the north and Mordor from the east. If we deployed our Ithilien Rangers, we would be able to disrupt the enermy movement and supplies."
+ flavor_gondor.3.a: "Send Them Now"
+ flavor_gondor.3.b: "This Can Not Be A Priority Right Now"
+ 
+ flavor_gondor.4.t: "Refugees Arrive In Minas Tirirth"
+ flavor_gondor.4.d: "Gondor is constantly threaten and under attack from all sides. This can cause our residents or even refugees from other kingdoms to move to the save walls of Minas Tirirth."
+ flavor_gondor.4.a: "Give Them Housing"
+ flavor_gondor.4.b: "Give Them Work"
+ flavor_gondor.4.c: "Assign Them To The Military"
+ 
+ flavor_gondor.5.t: "Area Is Prosperous"
+ flavor_gondor.5.d: "An area within our kingdom is seeing a growth in population and work. We should take advantage of this and help the area develop."
+ flavor_gondor.5.a: "Sounds Good"
+ flavor_gondor.5.b: "Just Take Their Tax Money"
+ 
+ flavor_gondor.6.t: "Rohan Calls For Aid"
+ flavor_gondor.6.d: "Rohan calls for aid against agressors and need sturdy men to fight. Shall we help them?"
+ flavor_gondor.6.a: "Rally The Men!"
+ flavor_gondor.6.b: "We Need The Men Here"
+ 
+ flavor_gondor.7.t: "Rohan Calls For Aid"
+ flavor_gondor.7.d: "We Send a rider with a call for aid to Gondor. Have they granted our request?"
+ flavor_gondor.7.a: "Yes, The Men Are Arriving!"
+ flavor_gondor.7.b: "No, We Are Alone..."
+ 
+ flavor_gondor.8.t: "The Return Of The King"
+ flavor_gondor.8.d: "'Men of Gondor, hear now the Steward of this Realm! Behold! One has come to claim the kingship again at last. Here is Aragorn, son of Arathorn, chieftain of the Dúnedain of Arnor, Captain of the Host of the West, bearer of the Star of the North, wielder of the Sword Reforged, victorious in battle, whose hands bring healing, the Elfstone, Elessar of the line of Valandil, Isildur's son, Elendil's son of Numenor. Shall he be king and enter into the City and dwell there?" And all the host and all the people cried yea with one voice.' In 3019 Aragorn became the twenty-sixth King of Arnor, thirty-fifth King of Gondor and the first High King of the Reunited Kingdom."
+ flavor_gondor.8.a: "A King Finally Returned!"
+ 
+ flavor_gondor.9.t: "A Rise Of Hope"
+ flavor_gondor.9.d: "A rise of hope has swept the lands of gondor and a new will to fight has surfaced!"
+ flavor_gondor.9.a: "For Gondor!"
+ 
+ flavor_gondor.10.t: "Ithilien Decline"
+ flavor_gondor.10.d: "With the Frequent Raides from Orcs, Rhunic and Haradrim. The People of Ithilien are starting to evacuate from their lands."
+ flavor_gondor.10.a: "This Is Not Good!"
+ 
+ flavor_gondor.11.t: "The White Tree Is Dead!"
+ flavor_gondor.11.d: "The Third Sapling was planted in The Thrid Age 1640 by King Tarondor. But in 2852 along with the death of Steward Belecthor II, The White Tree of Minas Tirith, the symbol of Gondor died. This is a disaster beyond hope, as there is no sapling to plant the Fourth White Tree. Our people will be loose hope."
+ flavor_gondor.11.a: "This Is A Disaster"
+ 
+ flavor_gondor.13.t: "Reclaim Harnendor!"
+ flavor_gondor.13.d: "Harnendor (South Gondor) was part of the Kingdom of Gondor in the early in the Third Age and soon was subdued by Tarannon Falastur. South Gondor stayed with Gondor until the Kin-strife, which was fought by the Kings of Gondor and the Corsairs of Umbar. Harnendor has since been described as a "debatable and desert land". For too long have these lands have not been a part of Gondor, we must reclaim these lands!"
+ flavor_gondor.13.a: "For Gondor!"
+ 
+ #Dunedain Culture
+ flavor_gondorian.1.t: "Prioritise The Navy To Counter Umbar"
+ flavor_gondorian.1.d: "Umbar has always been a threat to Gondor and Dol Amroth. Their navy frequently raids the coast, to counter this we should focus on building a grand fleet."
+ flavor_gondorian.1.a: "Start Building"
+ flavor_gondorian.1.b: "We Must Research Better Ships"
+ 
+ flavor_gondorian.2.t: "Trade Flows From The South"
+ flavor_gondorian.2.d: "Even Though the Haradrim are very hostile towards our nation. Traders will often come with special goods from afar. While our people enjoy these goods, we cannot be sure all traders are here to earn coin, but instead spying on our military."
+ flavor_gondorian.2.a: "We can't check all traders"
+ 
+ flavor_gondorian.3.t: "The White Mountain Possibilities"
+ flavor_gondorian.3.d: "The White Mountains are filled with minerals of different types. We could support the mining of these minerals, but the workers would require protection from Haradrim Raiders and even Orc Raiders."
+ flavor_gondorian.3.a: "Lets do it"
+ flavor_gondorian.3.b: "We Can't Afford it..."
+ 
+ flavor_gondorian.4.t: "Purchase Horses From Rohan"
+ flavor_gondorian.4.d: "Rohan has experienced a boom in foal being born. We could ask to purchase some of these excellent horses and incorperate them into our army."
+ flavor_gondorian.4.a: "Purchase The Horses"
+ flavor_gondorian.4.b: "Gondor Horses Are Better..."
+ 
+ flavor_gondorian.5.t: "Place Close Advisor"
+ flavor_gondorian.5.d: "Placing family or friends as advisors could be benitficial for our coffers, as they will just be happy to be given a position of power. However, others in the court will not be pleased about this."
+ flavor_gondorian.5.a: "Family and Friends First"
+ flavor_gondorian.5.b: "It Would be Unfair"
+ 
+ flavor_gondorian.6.t: "Gandalf The Grey Visits"
+ flavor_gondorian.6.d: "Gandalf The Grey Visits your court, to warn you of your rivals great power. He advises you to take the fight to them, before they attack our realm."
+ flavor_gondorian.6.a: "I Will Heed Your Advise"
+ flavor_gondorian.6.b: "I Will Defend Gondor Instead"
+ 
+ flavor_gondorian.7.t: "Decendents of Númenór"
+ flavor_gondorian.7.d: "Númenóreans were the scion of the Edain, the most noble race of Men during the First Age. While this were long ago, our people take pride in their history."
+ flavor_gondorian.7.a: "Men Of The West"
+ 
+ flavor_gondorian.8.t: "United Cause"
+ flavor_gondorian.8.d: "Our Realm is constantly at war, keeping the enermies of Gondor at bay. This battle is a long and hard one. Our people can be at times de-motivated and without hope. But recently our people has experienced a will to fight."
+ flavor_gondorian.8.a: "For Our People!"
+ 
+ flavor_gondorian.9.t: "Corsair Raiders"
+ flavor_gondorian.9.d: "Corsair Raiders have snuck past our fleet and landed on the coast of our realm. They might be acting officially on the behalf of Umbar, but they might also just be acting on their own."
+ flavor_gondorian.9.a: "Find Them And Send Them Back To The Sea!"
+ 
+ #Dol Amroth
+ flavor_dol_amroth.1.t: "Donate To A Court"
+ flavor_dol_amroth.1.d: "In the city of Dol Amroth there are 3 dominant courts, the Harper's Court, attenting music and theater. Scholar's Court, working in the field of science. Mason's Court, attending buildings and maintenance. If we donate money to one of these courts, they will surely pay us back in return."
+ flavor_dol_amroth.1.a: "Harper's Court"
+ flavor_dol_amroth.1.b: "Scholar's Court"
+ flavor_dol_amroth.1.c: "Mason's Court"
+ 
+ flavor_dol_amroth.2.t: "Prioritise Our Military"
+ flavor_dol_amroth.2.d: "The time has come that we must prioritise our resources and to spend them where they are needed."
+ flavor_dol_amroth.2.a: "Our Cavalry"
+ flavor_dol_amroth.2.b: "Our Infantry"
+ flavor_dol_amroth.2.c: "Our Galleys"
+ 
+ flavor_dol_amroth.3.t: "Gondor Calls For Men"
+ flavor_dol_amroth.3.d: "Gondor calls for extra men to join their service. They are willing to pay us money for our men, but how many can we spare?"
+ flavor_dol_amroth.3.a: "Send Them A Small Unit"
+ flavor_dol_amroth.3.b: "Send Them A Relative Sized Unit"
+ flavor_dol_amroth.3.c: "Send Them A Large Unit"
+ 
+ flavor_dol_amroth.4.t: "Dol Amorth Sends Men"
+ flavor_dol_amroth.4.d: "Recently we asked Dol Amroth for more men for our army. They have send back their response to us."
+ flavor_dol_amroth.4.a: "It will Due"
+ 
+ flavor_dol_amroth.5.t: "Land Of The Princes"
+ flavor_dol_amroth.5.d: "For centuries Dol Amroth has been ruled by the princes of Dol Amroth. This line goes back 2004 with Galador being the first prince and gaing our autonomy from Gondor who we have been loyale to ever since."
+ flavor_dol_amroth.5.a: "Glory For Dol Amroth"
+ 
+ flavor_dol_amroth.6.t: "Corsair Raides"
+ flavor_dol_amroth.6.d: "Corsair Raiders from Umbar have raided our shores without our fleet to stop them."
+ flavor_dol_amroth.6.a: "We Will Rise From This"
+ 
+ #Dunedain Religion
+ flavor_dunedain.1.t: "Failed Harvest"
+ flavor_dunedain.1.d: "This years harvest has failed, the crops have not grown properly or died of unknown causes. We must import food from other countries if we are not to see hunger within our population."
+ flavor_dunedain.1.a: "Import the Food"
+ flavor_dunedain.1.b: "We Can't afford it"
+ 
+ flavor_dunedain.2.t: "Recruit The Young"
+ flavor_dunedain.2.d: "Our Manpower is at a low point, and we need soldiers on the front-line. We could start recruiting young people from the ages of 13 and up, but the people will most likely disagreed on this."
+ flavor_dunedain.2.a: "Start Recruiting"
+ flavor_dunedain.2.b: "We cannot sink so low"
+ 
+ flavor_dunedain.3.t: "Rusty Armor and Lack of Uniforms"
+ flavor_dunedain.3.d: "From the wars we have endured, we have lost many pieces of armor and uniforms. For the new recruites it is not very encouraging to start training or enter battle with only scraps. What shall we do?"
+ flavor_dunedain.3.a: "Slacken the uniforms"
+ flavor_dunedain.3.b: "Increase Production"
+ 
+ flavor_dunedain.4.t: "A Province Borders Orcs"
+ flavor_dunedain.4.d: "A province of ours is bordering orcs, the people are afraid of raides and attacks. They demand that we increase our military presence there."
+ flavor_dunedain.4.a: "Increase Defeneces"
+ flavor_dunedain.4.b: "We are fine"
+ 
+ flavor_dunedain.5.t: "Our $MONARCHTITLE$ Has Passed Away"
+ flavor_dunedain.5.d: "Our recent $MONARCHTITLE$ has passed away, this has given our people concerns for the future."
+ flavor_dunedain.5.a: "He was loved"
+ flavor_dunedain.5.b: "He wasn't that great"
+ 
+ flavor_dunedain.6.t: "A Battle Was Lost"
+ flavor_dunedain.6.d: "Our people have heard of our recent defeat. Our people are concerned that this might be the begining of the end."
+ flavor_dunedain.6.a: "Victory at all cost!"
+ 
+ flavor_dunedain.7.t: "Excellent Harvest"
+ flavor_dunedain.7.d: "We have experienced an excellent harvest, both our people and our nation enjoys this occation."
+ flavor_dunedain.7.a: "Just what we needed"
+ 
+ flavor_dunedain.8.t: "We Won The War"
+ flavor_dunedain.8.d: "Our people dance in the streets with our recent victory against our enermies!"
+ flavor_dunedain.8.a: "Our hope rises"
+ 
+ flavor_dunedain.9.t: "Too Long War"
+ flavor_dunedain.9.d: "Our people are sick and tired of war, they believe it has lasted for too long. We will soon need to end this, if we are to have the people on our side."
+ flavor_dunedain.9.a: "We Will Fight To The End"
+ 
+ flavor_dunedain.10.t: "The People Has Lost Hope"
+ flavor_dunedain.10.d: "The fight continues for our survival and our way of life. The people are afraid that this struggel may never end."
+ flavor_dunedain.10.a: "It's a struggel we all face"
+ 
+ #Dol Guldur
+ flavor_dol_guldur.1.t: "Thráin Has Been Captured"
+ flavor_dol_guldur.1.d: "Many years after the Desolation of Smaug, and the Dwarves re-settled in the ruins of Belegost. Many years later, Thráin grew older and he became restless. His desire to reclaim his kingdom of the Lonely Mountain grew. In TA 2841, he and a group of followers including Balin and Dwalin left their dwelling in the Blue Mountains and journeyed into Wilderland. They were pursued by the servants of Sauron and one morning, in the eaves of Mirkwood, his companions awoke to find that Thráin was missing. They searched in vain for him for days but he could not be found at all. It was later learned that he had been captured and imprisoned in the pits of Sauron's stronghold of Dol Guldur in southern Mirkwood. There he was tortured and Sauron took from him the last of the Dwarven Rings of Power, and left him there to die."
+ flavor_dol_guldur.1.a: "The Last Dwarven Ring Of Power!"
+ 
+ flavor_dol_guldur.2.t: "Gandalf Discovers The Dark Lord"
+ flavor_dol_guldur.2.d: "Gandalf The Grey has discovered the presence of the Dark Lord and no longer can we hide like we have done before."
+ flavor_dol_guldur.2.a: "I Will Break Him!"
+ 
+ flavor_dol_guldur.3.t: "Shrouded in Mystery"
+ flavor_dol_guldur.3.d: "Our Dark Lord is regenerating his strength, but inorder to not be found by the peoples of middle earth he must use some of his powers to hide his presence and the presence of orcs in and around Dol Guldur."
+ flavor_dol_guldur.3.a: "We Must Hide Until The Time Is Right"
+ 
+ flavor_dol_guldur.4.t: "Use Spiders To Patrol"
+ flavor_dol_guldur.4.d: "The Giant Spiders of Mirkwood have long been present, but since the arival of orcs and especially the Dark Lord, their numbers have grown significantly. We can use their service to patrol the borders of Mirkwood but we will have to reward them with the only thing spiders grave; Meat."
+ flavor_dol_guldur.4.a: "Bring The Meat"
+ flavor_dol_guldur.4.b: "Our Orcs Need The Meat"
+ 
+ flavor_dol_guldur.5.t: "Demand Guldurim For Troops"
+ flavor_dol_guldur.5.d: "The Guldurim, a tribe of Easterlings have lived in the shadows of Mirkwood of a long time before the orcs settled at Dol Guldur. They are loyal to The Dark Lord, as they have hated the elves battling for Southern Mirkwood. We could force their troops to join our orc ranks, but it will create unrest among them."
+ flavor_dol_guldur.5.a: "Demand The Troops"
+ flavor_dol_guldur.5.b: "Good Relations Is What We Need"
+ 
+ flavor_dol_guldur.6.t: "Unleash Mordor!"
+ flavor_dol_guldur.6.d: "Mordor has been unleashed upon Middle-Earth and Sauron has officially revealed himself to the world."
+ flavor_dol_guldur.6.a: "Switch To Play Mordor"
+ flavor_dol_guldur.6.b: "Keep Playing Dol Guldur But Become A March"
+ 
+ flavor_dol_guldur.7.t: "Mordor Unleashed!"
+ flavor_dol_guldur.7.d: "Mordor has been unleashed upon Middle-Earth and Sauron has officially revealed himself to the world."
+ flavor_dol_guldur.7.a: "Playing As Mordor"
+
+ #Orc Religion
+ flavor_orc_religion.1.t: "Infighting!"
+ flavor_orc_religion.1.d: "Who knows how it started, but a group of orcs started a fight and it quickly spread amongst the orcs in the area. How shall we respond to this? What ever we do it will send a signal to the others."
+ flavor_orc_religion.1.a: "Punish The Survivers"
+ flavor_orc_religion.1.b: "Reward The Victors"
+ 
+ flavor_orc_religion.2.t: "Workers Refuse To Work"
+ flavor_orc_religion.2.d: "Lately our production has gone down, it seems that our orc workers are tired of work with no great reward, like meat. They demand meat for work!"
+ flavor_orc_religion.2.a: "Give Them Maggoty Bread"
+ flavor_orc_religion.2.b: "Buy The Meat"
+ 
+ flavor_orc_religion.3.t: "The Warriors Are Badly Trained"
+ flavor_orc_religion.3.d: "The Orcs have not cared for training for a long time or at all. We could force them to do their training, but in so anger them."
+ flavor_orc_religion.3.a: "Force Training"
+ flavor_orc_religion.3.b: "Loose Formation Is Also Good"
+ 
+ flavor_orc_religion.4.t: "Warmongering amongst The Orcs"
+ flavor_orc_religion.4.d: "The Orcs hunger for the thrill of battle and spilling of blood. They want you to lead them into a war as soon as possible."
+ flavor_orc_religion.4.a: "We Are Preparing"
+ flavor_orc_religion.4.b: "Promise To Start War"
+ 
+ flavor_orc_religion.5.t: "Promised War But Didn't"
+ flavor_orc_religion.5.d: "The Orcs chanted your name when you promised that you would follow them into war. But you haven't delivered your promises and now the Orcs think your words are empty."
+ flavor_orc_religion.5.a: "I Decide When We Wage War"
+ 
+ flavor_orc_religion.6.t: "Rogue Orcs Gone Raiding"
+ flavor_orc_religion.6.d: "A large group of Orcs have gone rogue and is on the way to a border province to wage raid and kill. We can turn a blind eye to the situation, but it can affect our neighbors opion of us and also loosen the general grip we have over the orcs."
+ flavor_orc_religion.6.a: "Let Them Raid"
+ flavor_orc_religion.6.b: "Stop Them!"
+ 
+ flavor_orc_religion.7.t: "Provine Being Raided!"
+ flavor_orc_religion.7.d: "A bordering Orc Nation has has raided one of our provinces!"
+ flavor_orc_religion.7.a: "Oh no!"
+ 
+ flavor_orc_religion.8.t: "Attack on Merchants and Emmisaries"
+ flavor_orc_religion.8.d: "Merchants and emmisaries sometimes travel to our borders to sell their goods or engage in diplomatic talks. But this day, some of our orcs without thought attacked a group of merchants and emmisaries. This can badly reduce our relations with them."
+ flavor_orc_religion.8.a: "Compensate"
+ flavor_orc_religion.8.b: "Don't Compensate"
+ 
+ flavor_orc_religion.9.t: "Our Mechans and Emmisaries Killed!"
+ flavor_orc_religion.9.d: "Our Merchants and Emmisaries have been attack by a group of Orcs."
+ flavor_orc_religion.9.a: "Oh no!"
+ 
+ flavor_orc_religion.10.t: "Orc Uprising!"
+ flavor_orc_religion.10.d: "With your lack of control, a group of orcs have started a rebellion to despose you and take over."
+ flavor_orc_religion.10.a: "Bash Their Skulls"
+ 
+ flavor_orc_religion.11.t: "Enlist Overseers"
+ flavor_orc_religion.11.d: "To keep the ranks in line, we need orcs with higher status to be the masters of the whip. If we do not keep the orcs controlled, the situation might turn chaotic."
+ flavor_orc_religion.11.a: "Where There Is a Whip There Is a Way"
+ flavor_orc_religion.11.b: "Leave Them Be"
+ 
+ flavor_orc_religion.12.t: "Many Orcs To Control"
+ flavor_orc_religion.12.d: "Our Army is grand and strong, but keeping a large host of orcs demands great control over the masses. If we do not keep the order, the orcs may get out of control."
+ flavor_orc_religion.12.a: "Keep The Grip"
+ flavor_orc_religion.12.b: "Loosen The Grip"
+ 
+ flavor_orc_religion.13.t: "Orcs are Deserting"
+ flavor_orc_religion.13.d: "A large group of orcs and many more are leaving our armies, seeking raides and war without our harsh control over their every move."
+ flavor_orc_religion.13.a: "They Were Controlled Too Much"
+ 
+#Orc Race
+ flavor_orc.1.t: "Infighting"
+ flavor_orc.1.d: "The Orcs are fighting among eachother to determine who is the strongest. Some of your Orcs will perish in the process!"
+ flavor_orc.1.a: "Let Them Fight"
+ flavor_orc.1.b: "Break up the Fighting"
+ 
+ flavor_orc.2.t: "Our hunters return with a huge catch!"
+ flavor_orc.2.d: "The Orc hunters have had a great hunt and return to our province with plenty of meat for our people to feed on."
+ flavor_orc.2.a: "Looks Like Meat Is Back On The Menu Boys!"
+ 
+ flavor_orc.3.t: "A new Warlord Rises"
+ flavor_orc.3.d: "A new orc warlord emerges from within your ranks! And takes command of a couple of our garrisons! It looks as if he has plenty of experience fighting."
+ flavor_orc.3.a: "We Could Use A Strong Leader!!"
+ 
+ flavor_orc.4.t: "Orc Clan Approachs"
+ flavor_orc.4.d: "A Stray Orc clan is passing our lands and have asked to join our armies."
+ flavor_orc.4.a: "Let Them Join"
+ flavor_orc.4.b: "Slay Them"
+ 
+ flavor_orc.5.t: "Warg Scouts"
+ flavor_orc.5.d: "Shall we deploy the Warg Scouts and keep our enermies in check?"
+ flavor_orc.5.a: "Send Scouts"
+ flavor_orc.5.b: "Don't Send Scouts"
+ 
+ flavor_orc.6.t: "Abundance Of Wood"
+ flavor_orc.6.d: "We have come across an abundance of wood and can't decide what to use it for."
+ flavor_orc.6.a: "Industry"
+ flavor_orc.6.b: "To The War Camps"
+ 
+ flavor_orc.7.t: "Pay Tribute To Mordor"
+ flavor_orc.7.d: "A Emmisary from Mordor has arrived at our borders asking for a tribute in exchange for good relations. How do we respond?"
+ flavor_orc.7.a: "Send Warriors"
+ flavor_orc.7.b: "Send Resources"
+ flavor_orc.7.c: "Don't Pay Tribute"
+ 
+ flavor_orc.8.t: "Offended Another Orc Nation"
+ flavor_orc.8.d: "A local orc nation has been offended by serveral high ranking orcs from our nation. The damage is already done."
+ flavor_orc.8.a: "We are stronger than you!"
+ 
+ flavor_orc.9.t: "Advisor Threating Our Rule"
+ flavor_orc.9.d: "An Advisor of yours has been questioning your decisions and has openly talked about his opinions of you."
+ flavor_orc.9.a: "Kill Him"
+ flavor_orc.9.b: "Keep Him"
+ 
+ flavor_orc.10.t: "Our Orcs Overrun Province"
+ flavor_orc.10.d: "A province which was inhabited by another culture and religion has been driven out by a rampaging group of our orcs. Now only orcs live in this province."
+ flavor_orc.10.a: "The Age Of Orcs!"
+ 
+ # Events(Race Buffs)
+ LOTR_HUMAN.1t: "You are human"
+ LOTR_HUMAN.1d: "The race of Men is the second race of beings created by the supreme God, Ilúvatar. Men bear the Gift of Men, which is mortality, and therefore they age and die when their time comes, and are susceptible to illness and disease."
+ LOTR_HUMAN.1a: "Understood!"
+ LOTR_DWARF.1t: "You are Dwarves"
+ LOTR_DWARF.1d: "Dwarves were a race in Middle-earth also called Khazad, the Naugrim, meaning Stunted People, and Gonnhirrim, meaning Masters of Stone.  .Dwarves were a short, stocky race, a little taller than hobbits but much broader and heavier. Most Dwarves had thick, luxuriant beards in which they took great pride, and often forked or braided them and tucked them into their belts."
+ LOTR_DWARF.1a: "Understood!"
+ LOTR_ELF.1t: "You are Elves"
+ LOTR_ELF.1d: "The Elves were the first and eldest of the Children of Ilúvatar and are considered to be the fairest and wisest race of Arda given sapience by him. The Elves are not subject to disease or physical aging, though they could be killed by violence or by wasting away and losing the will to live. They were otherwise immortal."
+ LOTR_ELF.1a: "Understood!"
+ LOTR_HOBBIT.1t: "You are Hobbits"
+ LOTR_HOBBIT.1d: "Hobbits, also known as Halflings, were an ancient mortal race. Although their exact origins are unknown, they were initially found in the northern parts of Middle-earth and below the Vales of Anduin. At the beginning of the Third Age, Hobbits moved north and west. Most of their race eventually founded the land of the Shire in about the year TA 1601, though a type of Hobbit called Stoor still live in the Anduin Vale (the type of Hobbit Sméagol was, or was related to)."
+ LOTR_HOBBIT.1a: "Understood!"
+ LOTR_ENTS.1t: "You are Ents"
+ LOTR_ENTS.1d: "Ents, called Onodrim (Tree-host) by the elves, are a very old race that appeared in Middle-earth at the same time that the elves did. Ents were envisioned as Shepherds of the Huorns, to protect the forests from orcs and other perils. The Elves have tales of teaching the trees and the Ents to talk: although the Ents were sentient beings at the time, they did not know how to speak until the Elves taught them."
+ LOTR_ENTS.1a: "Understood!"
+ LOTR_BEORNINGS.1t: "You are Beornings"
+ LOTR_BEORNINGS.1d: "Beornings also known as Skin-changers were a race of large Men. The origins of Beornings are not known, save that they dwelt in the Vales of Anduin between Mirkwood and the Great River in the late Third Age. Unlike other Men, they had the ability to change into bears. They were named after Beorn, their patriarch."
+ LOTR_BEORNINGS.1a: "Understood!"
+ LOTR_ORC.1t: "You are Orcs"
+ LOTR_ORC.1d: "Orcs are a race of sentient beings bred by the evil Vala Melkor during the time of the Great Darkness. The Dark Lord Sauron, also bred them and used them, and later the wizard Saruman, as soldiers and henchmen to do various evil deeds across Middle-earth. Wise Elves of Eressëa believed that Melkor had created the orcs before the First Age by breeding Elves he had captured and corrupted, by means of torture and mutilation."
+ LOTR_ORC.1a: "Understood!"
+ LOTR_GOBLIN.1t: "You are Goblins"
+ LOTR_GOBLIN.1d: "Their kingdoms spread throughout many mountains of Middle-earth; notable cities include Goblin-town near the High Pass above Rivendell, the Goblin-capital at Mount Gundabad, and the former Dwarf-kingdom of Moria, as well as those in the service of Isengard and Mordor."
+ LOTR_GOBLIN.1a: "Understood!"
+ LOTR_URUKHAI.1t: "You are Uruk-Hai"
+ LOTR_URUKHAI.1d: "The Uruk-Hai, are a powerful race similar to and mainly composed of orc blood. They were created by Saruman after being instructed to create an army worthy of Mordor. The Uruk-hai are faster than normal Orcs and could travel during the day without being weakened by the sun. They are significantly more muscular and not quite so bow-legged as Orcs, and often stood six feet tall, notably larger than Orcs but still shorter than most men."
+ LOTR_URUKHAI.1a: "Understood!"
+ LOTR_TROLLS.1t: "You are Trolls"
+ LOTR_TROLLS.1d: "Trolls are a very large and monstrous, and for the most part unintelligent humanoid race inhabiting Middle-earth. Melkor created Trolls before the First Age. Trolls were very strong, but they turned to stone in sunlight. Many Trolls died in the War of Wrath, but some survived and joined the forces of Sauron, the greatest surviving servant of Morgoth."
+ LOTR_TROLLS.1a: "Understood!"
+ LOTR_SPIDER.1t: "You are Spiders"
+ LOTR_SPIDER.1d: "The Great Spiders, also known as the Spawn of Ungoliant, were a race of oversized and sentient arachnids that lived in Middle-Earth, particularly in dark and perilous places affected by the power of the Shadow.  Like Orcs and Goblins, Great Spiders were known to detest light, yet they thirsted for it and sought to devour it."
+ LOTR_SPIDER.1a: "Understood!"
+ 
+ # Elections (Hobbits)
+ LOTR_Elections.1.t:0 "Election!"
+ LOTR_Elections.1.desc:0 "The term is up for $MONARCH$. With enough support he can stay in office, but then he must defeat his three primary competitors..."
+ LOTR_Elections.1.a:0 "Keep $MONARCH$"
+ LOTR_Elections.1.b:0 "Bureaucrat Candidate"
+ LOTR_Elections.1.c:0 "Diplomat Candidate"
+ LOTR_Elections.1.d:0 "Military Candidate"
+ LOTR_Elections.2.desc:0 "The unfortunate passing of $MONARCH$ forces us to hold a premature election. Three primary candidates have been nominated..."
+ 
+ #flags
+ dol_guldur_first_tooltip:0 "Secure Dol Guldur"
+ dol_guldur_second_tooltip: "Build Up Reserves"
+ dol_guldur_third_tooltip: "Secure Erebor"
+ dol_guldur_fourth_tooltip: "Secure Border to Mordor"
+ dol_guldur_fifth_tooltip: "Secure Power"
+ 
+ 
+ #Province Events
+ lotr_province_event.1.t: "Mount Doom Eruption"
+ lotr_province_event.1.d: ""
+ lotr_province_event.1.a: "Oh no!"
+ 
+ #Institutions/Companies
+ institution_events.1.t: "The Company of Thorin has formed"
+ institution_events.1.d: "Thorin and Company were a group of thirteen Dwarves, the Wizard Gandalf, and the Hobbit Bilbo Baggins, led by Thorin Oakenshield in TA 2941. Their main purpose was to regain the lost Dwarven kingdom of the Lonely Mountain from the Dragon Smaug."
+ institution_events.1.a: "I Understand"
+ 
+ #institution_events.1.t: "Our Orcs Overrun Province"
+ #institution_events.100.d: "A province which was inhabited by another culture and religion has been driven out by a rampaging group of our orcs. Now only orcs live in this province."
+ #institution_events.1.a: "The Age Of Orcs!"
+ 
+ company_of_thorin_events.1.t: "Thorin Position"
+ company_of_thorin_events.1.d: "Thorin Position moves, hidden"
+ company_of_thorin_events.1.a: "Moves To next Position on path"
+
+ company_of_thorin_events.2.t: "Encounters Trolls (Hidden)"
+ company_of_thorin_events.2.d: "Encounters Trolls in Rhudaur"
+ company_of_thorin_events.2.a: "Survives Trolls"
+ company_of_thorin_events.2.b: "Dies Trolls"
+ 
+ company_of_thorin_events.3.t: "Encounters Goblins (Hidden)"
+ company_of_thorin_events.3.d: "Encounters Goblins in Misty Mountains(Goblin Town)"
+ company_of_thorin_events.3.a: "Survives Goblin Town"
+ company_of_thorin_events.3.b: "Dies Goblin Town"
+ 
+ company_of_thorin_events.4.t: "Encounters Mirkwood Spiders (Hidden)"
+ company_of_thorin_events.4.d: "Encounters Mirkwood Spiders in Mirkwood"
+ company_of_thorin_events.4.a: "Survives Mirkwood Spiders"
+ company_of_thorin_events.4.b: "Dies Mirkwood Spiders"
+ 
+ company_of_thorin_events.5.t: "Encounters Smaug (Hidden)"
+ company_of_thorin_events.5.d: "Encounters Smaug in Erebor"
+ company_of_thorin_events.5.a: "Survives Smaug, Erebor Formed"
+ company_of_thorin_events.5.b: "Dies Smaug"
+ 
+ company_of_thorin_events.6.t: "Smaug Is Dead, The King Under The Mountain Returns"
+ company_of_thorin_events.6.d: "Finally the menace of Smaug has perished. Now we finally have a chance to regain The Emeralds of Girion. If we demand the emeralds, then we must be ready to go to war for them."
+ company_of_thorin_events.6.a: "Demand The Emeralds of Girion"
+ company_of_thorin_events.6.b: "Don't Demand"
+ 
+ company_of_thorin_events.7.t: "Smaug Is Dead, The King Under The Mountain Returns"
+ company_of_thorin_events.7.d: "Finally the Terror of Smaug has been slain. Not before however destroying Laketown, killing many of our inhabitans. It would be only just the The King Under The Mountain, give a share of the treasure as compensation. If we demand a share of the treasure, then we must be ready to go to war for them."
+ company_of_thorin_events.7.a: "Demand Share Of The Treasure"
+ company_of_thorin_events.7.b: "Don't Demand"
+ 
+ company_of_thorin_events.8.t: "Eryn Galen Demands Girion Jewels"
+ company_of_thorin_events.8.d: "The armies of Eryn Galen stand on our doorstep ready to lay siege to Erebor to reclaim them. What shall we do?"
+ company_of_thorin_events.8.a: "Return The Jewels"
+ company_of_thorin_events.8.b: "Refuse Demand"
+ 
+ company_of_thorin_events.9.t: "Laketown Demands Treasure"
+ company_of_thorin_events.9.d: "The people of Laketown stand on our doorstep ready to lay siege to Erebor to demand a share of the treasure. What shall we do?"
+ company_of_thorin_events.9.a: "Reward Their Help With Treasure"
+ company_of_thorin_events.9.b: "Refuse Demand"
+ 
+ company_of_thorin_events.10.t: "Eryn Galen and Laketown Demands Treasure"
+ company_of_thorin_events.10.d: "Both the armies of Eryn Galen and Laketown demand a share of the treasure, and ready to lay siege to Erebor to demand it. What shall we do?"
+ company_of_thorin_events.10.a: "Return Jewels and Treasure"
+ company_of_thorin_events.10.b: "Refuse Demand"
+ 
+ company_of_thorin_events.11.t: "Eryn Galen Lay Siege!"
+ company_of_thorin_events.11.d: "This is an insult to our people and our legacy. the emeralds is ours!"
+ company_of_thorin_events.11.a: "Defend Erebor"
+ 
+ company_of_thorin_events.12.t: "Laketown Lay Siege!"
+ company_of_thorin_events.12.d: "This is an insult to our people and our legacy. the treasure is ours!"
+ company_of_thorin_events.12.a: "Defend Erebor"
+ 
+ company_of_thorin_events.13.t: "Eryn Galen and Laketown lay Siege!"
+ company_of_thorin_events.13.d: "This is an insult to our people and our legacy. the emeralds and treasure is ours!"
+ company_of_thorin_events.13.a: "Defend Erebor"
+ 
+ company_of_thorin_events.14.t: "Erebor Refused!"
+ company_of_thorin_events.14.d: "Erebor has refused our demands, and now we no option but to take the treasure back by force!"
+ company_of_thorin_events.14.a: "Lay Siege!"
+ 
+ company_of_thorin_events.15.t: "Smaug Dead, Erebor Form (Hidden)"
+ company_of_thorin_events.15.d: "Erebor form event"
+ company_of_thorin_events.15.a: "Erebor Formed"
+ 
+ company_of_thorin_events.16.t: "The King Under The Mountain Returns"
+ company_of_thorin_events.16.d: "Smaug the terrible is dead, Erebor has been reclaimed by Thorin. We must bow down to the King Under The Mountain"
+ company_of_thorin_events.16.a: "Change To Erebor"
+ company_of_thorin_events.16.b: "Stay Iron Hills"
+ 
+ company_of_thorin_events.17.t: "Smaug has been slain!"
+ company_of_thorin_events.17.d: "Smaug has been slain. Erebor and it's treasures have been claimed by King Thorin. We must decide if should attack now while they are weak to claim the Mountain for orcs! However, be warned that other may decide to intervene.."
+ company_of_thorin_events.17.a: "Declare War!"
+ company_of_thorin_events.17.b: "We Can't"
+ 
+ company_of_thorin_events.18.t: "Gundabad Declares War (Hidden)"
+ company_of_thorin_events.18.d: "They Want to Take Erebor!"
+ company_of_thorin_events.18.a: "We Must Put Out Differences Aside"
+ 
+ company_of_thorin_events.19.t: "Gundabad Declares War!"
+ company_of_thorin_events.19.d: "As we have just reclaimed our homeland, Gundabad declares war to steal the treasure and capture Erebor. If Eryn Galen or Laketown stand outside our gates, they surely will aid us in the coming war."
+ company_of_thorin_events.19.a: "Defend The Mountain"
+ 
+ company_of_thorin_events.20.t: "The Company of Thorin Are Slain"
+ company_of_thorin_events.20.d: "As no one has either seen or heard from the Company for a while, we must but assume that The Company of Thorin are no more."
+ company_of_thorin_events.20.a: "Last Seen In Trollshaws"
+ company_of_thorin_events.20.b: "Last Seen Climing the Misty Mountain"
+ company_of_thorin_events.20.c: "Last Seen Entering Mirkwood"
+ company_of_thorin_events.20.d: "Smaug The Terrible has Slain Them"
+ 
+ company_of_thorin_events.21.t: "The Fate of Thorin"
+ company_of_thorin_events.21.d: "In the chaos and confusion from battle and war, Thorin OakenShield's fate is unsure."
+ company_of_thorin_events.21.a: "Thorin Has Died"
+ company_of_thorin_events.21.b: "Thorin Has Died"
+ company_of_thorin_events.21.c: "Thorin Lives, Victory For The King!"
+ 
+ company_of_thorin_events.22.t: "King Thorin is Dead"
+ company_of_thorin_events.22.d: "The King Under The Mountain has perished from the Battle against Gundabad. As the next ruler in line, Dáin II Ironfoot has been given the titel of King Under The Mountain. The Memory of Thorin will live on!"
+ company_of_thorin_events.22.a: "Dáin II Ironfoot Becomes King"
+ 
+ company_of_thorin_events.23.t: "Aftermath of The Battle Of Five Armies"
+ company_of_thorin_events.23.d: "From the aftermath of the battle, many lives has been claimed, even those who helped us despite we refused their demands. We must give in to their demands now that they have aided us."
+ company_of_thorin_events.23.a: "Eryn Galen Gains The Emeralds Girion"
+ company_of_thorin_events.23.b: "Lake Town Gains a Share of The Treasure"
+ company_of_thorin_events.23.c: "Eryn Galen and Lake Town Gets a Share"
+ 
+ #Institutions/Companies - Fellowship of The Ring
+ 
+ fellowship_of_ring_events.1.t: "Fellowship Position (Hidden)"
+ fellowship_of_ring_events.1.d: "Fellowship Position moves, hidden"
+ fellowship_of_ring_events.1.a: "Moves To next Position on path"
+
+ fellowship_of_ring_events.2.t: "Encounters Old Man Willow (Hidden)"
+ fellowship_of_ring_events.2.d: "Encounters Old Man Willow in Old Forest"
+ fellowship_of_ring_events.2.a: "Survives Old Man Willow"
+ fellowship_of_ring_events.2.b: "Dies Old Man Willow"
+ 
+ fellowship_of_ring_events.3.t: "Encounters Barrow-Wight (Hidden)"
+ fellowship_of_ring_events.3.d: "Encounters Barrow-Wight in Nilenel"
+ fellowship_of_ring_events.3.a: "Survives Barrow-Wight"
+ fellowship_of_ring_events.3.b: "Dies Barrow-Wight"
+ 
+ fellowship_of_ring_events.4.t: "Encounters Nazgúl (Hidden)"
+ fellowship_of_ring_events.4.d: "Encounters Nazgúl in Midgewater Marshes"
+ fellowship_of_ring_events.4.a: "Survives Nazgúl"
+ fellowship_of_ring_events.4.b: "Dies Nazgúl"
+ 
+ fellowship_of_ring_events.5.t: "Encounters Red Horn Pass (Hidden)"
+ fellowship_of_ring_events.5.d: "Encounters Red Horn Pass in Red Horn Pass"
+ fellowship_of_ring_events.5.a: "Survives Red Horn Pass"
+ fellowship_of_ring_events.5.b: "Dies Red Horn Pass"
+ 
+ fellowship_of_ring_events.6.t: "Encounters Goblins (Hidden)"
+ fellowship_of_ring_events.6.d: "Encounters Goblins in West Moria"
+ fellowship_of_ring_events.6.a: "Survives West Moria Goblins"
+ fellowship_of_ring_events.6.b: "Dies West Moria Goblins"
+ 
+ fellowship_of_ring_events.7.t: "Encounters Balrok (Hidden)"
+ fellowship_of_ring_events.7.d: "Encounters Balrok in East Moria"
+ fellowship_of_ring_events.7.a: "Survives Balrok"
+ fellowship_of_ring_events.7.b: "Dies Balrok"
+ 
+ fellowship_of_ring_events.8.t: "Encounters Sailing Down The Anduin (Hidden)"
+ fellowship_of_ring_events.8.d: "Encounters Sailing Down The Anduin in Sarn Gebir"
+ fellowship_of_ring_events.8.a: "Survives Sailing Down The Anduin"
+ fellowship_of_ring_events.8.b: "Dies Sailing Down The Anduin"
+ 
+ fellowship_of_ring_events.9.t: "Encounters Uruk-Hai (Hidden)"
+ fellowship_of_ring_events.9.d: "Encounters Uruk-Hai in Amon Hen"
+ fellowship_of_ring_events.9.a: "Survives Uruk-Hai"
+ fellowship_of_ring_events.9.b: "Dies Uruk-Hai"
+ 
+ fellowship_of_ring_events.10.t: "Encounters Undead (Hidden)"
+ fellowship_of_ring_events.10.d: "Encounters Undead in Dead Marshes"
+ fellowship_of_ring_events.10.a: "Survives Undead"
+ fellowship_of_ring_events.10.b: "Dies Undead"
+ 
+ fellowship_of_ring_events.11.t: "Encounters Discovered (Hidden)"
+ fellowship_of_ring_events.11.d: "Encounters Discovered in Black Gate"
+ fellowship_of_ring_events.11.a: "Survives Discovered"
+ fellowship_of_ring_events.11.b: "Dies Discovered"
+ 
+ fellowship_of_ring_events.12.t: "Encounters West Osgilliath (Hidden)"
+ fellowship_of_ring_events.12.d: "Encounters West Osgilliath in West Osgilliath"
+ fellowship_of_ring_events.12.a: "Survives West Osgilliath"
+ fellowship_of_ring_events.12.b: "Dies West Osgilliath"
+ 
+ fellowship_of_ring_events.13.t: "Encounters Shelob (Hidden)"
+ fellowship_of_ring_events.13.d: "Encounters Shelob in Minas Ithill"
+ fellowship_of_ring_events.13.a: "Survives Shelob"
+ fellowship_of_ring_events.13.b: "Dies Shelob"
+ 
+ fellowship_of_ring_events.14.t: "Encounters Cirith Ungol (Hidden)"
+ fellowship_of_ring_events.14.d: "Encounters Cirith Ungol in Cirith Ungol"
+ fellowship_of_ring_events.14.a: "Survives Cirith Ungol"
+ fellowship_of_ring_events.14.b: "Dies Cirith Ungol"
+ 
+ fellowship_of_ring_events.15.t: "Encounters Mordor Area (Hidden)"
+ fellowship_of_ring_events.15.d: "Encounters Mordor Area in Mordor Area"
+ fellowship_of_ring_events.15.a: "Survives Mordor Area"
+ fellowship_of_ring_events.15.b: "Dies Mordor Area"
+ 
+ fellowship_of_ring_events.16.t: "The Fellowship of The Ring Are Slain"
+ fellowship_of_ring_events.16.d: "As no one has either seen or heard from the Fellowship for a while, we must but assume that The Fellowship of The Ring are no more."
+ fellowship_of_ring_events.16.a: "Last Seen in The Old Forest"
+ fellowship_of_ring_events.16.b: "Last Seen in Barrow-Downs"
+ fellowship_of_ring_events.16.c: "Last Seen in Midgewater Marshes"
+ fellowship_of_ring_events.16.d: "Last Seen climbing Caradhras Pass"
+ fellowship_of_ring_events.16.e: "Last Seen entering West Moria"
+ fellowship_of_ring_events.16.f: "Last Seen entering East Moria"
+ fellowship_of_ring_events.16.g: "Last Seen Sailing The Anduin"
+ fellowship_of_ring_events.16.h: "Last Seen in Amon Hen"
+ fellowship_of_ring_events.16.i: "Last Seen in Dead Marshes"
+ fellowship_of_ring_events.16.j: "Last Seen around Dagorlad"
+ fellowship_of_ring_events.16.k: "Last Seen entering Osgilliath"
+ fellowship_of_ring_events.16.l: "Last Seen around Minas Ithil"
+ fellowship_of_ring_events.16.m: "Last Seen around Cirith Ungol"
+ fellowship_of_ring_events.16.n: "Last Seen in Mordor"
+ fellowship_of_ring_events.16.o: "The Ring has been taken!"
+ 
+ fellowship_of_ring_events.17.t: "Rivendell Lost"
+ fellowship_of_ring_events.17.d: "Rivendell has beem lost to the forces of evil before the ring arrived to form the Fellowship of the Ring. The Fellowship has given up their efforts and properly hidden the one ring where they were last seen."
+ fellowship_of_ring_events.17.a: "Oh No!"
+ 
+ fellowship_of_ring_events.18.t: "Gondor Lost"
+ fellowship_of_ring_events.18.d: "Gondor has been lost to the forces of evil before the ring has passed Osgilliath. The Fellowship has given up their efforts and has properly hidden the one ring where they were last seen."
+ fellowship_of_ring_events.18.a: "Oh No!"
+ 
+ fellowship_of_ring_events.19.t: "The Fellowship Has Ended Early"
+ fellowship_of_ring_events.19.d: "The Fellowship has ended early because of a certain situtaion which has deemed the mission failed. The Fellowship has given up their efforts and has properly hidden the one ring where they were last seen."
+ fellowship_of_ring_events.19.a: "Rivendell Was Lost"
+ fellowship_of_ring_events.19.a: "Gondor Was Lost"
+ 
+ fellowship_of_ring_events.20.t: "Mordor Explodes!"
+ fellowship_of_ring_events.20.d: "KABOM!"
+ fellowship_of_ring_events.20.a: "AW yeah boi!"
+ 
+ fellowship_of_ring_events.21.t: "The Fellowship Has Ended"
+ fellowship_of_ring_events.21.d: "Frodo Baggins with the Help of Samwise Gamgee has succesfully detroyed The One Ring in the Fires of Mount Doom! Sauron has been defeated and the rule of Mordor has ended."
+ fellowship_of_ring_events.21.a: "The World Is Saved!"
+ 
+ fellowship_of_ring_events.22.t: "Searching for the Ring"
+ fellowship_of_ring_events.22.d: "Searching for the Ring"
+ fellowship_of_ring_events.22.a: "Survives"
+ fellowship_of_ring_events.22.b: "Ring is taken"
+ 
+ fellowship_of_ring_events.23.t: "Timer"
+ fellowship_of_ring_events.23.d: "time between searching"
+ fellowship_of_ring_events.23.a: "end timer"
+ 
+ fellowship_of_ring_events.24.t: "The One Ring Has Been Found!"
+ fellowship_of_ring_events.24.d: "The One Ring Has Been Found been found and is in our possession."
+ fellowship_of_ring_events.24.a: "We Must Deliver It To Sauron!"
+ fellowship_of_ring_events.24.b: "We Must Destroy It!"
+ 
+ fellowship_of_ring_events.25.t: "The One Ring Has Returned"
+ fellowship_of_ring_events.25.d: "A nation has returned the One Ring to us, and finally the ring and master is reunited!"
+ fellowship_of_ring_events.25.a: "Finally!"
+ 
+ fellowship_of_ring_events.26.t: "Sauron Has Obtained The One Ring!"
+ fellowship_of_ring_events.26.d: "The Ring has returned to its master!"
+ fellowship_of_ring_events.26.a: "The Dark Lord Has Returned"
+ 
+ fellowship_of_ring_events.27.t: "Ruler Has Obtained The One Ring"
+ fellowship_of_ring_events.27.d: "Our Ruler has obtained the one ring and is carrying it around with him."
+ fellowship_of_ring_events.27.a: "He Must Destroy It Quickly!"
+ 
+ fellowship_of_ring_events.28.t: "Removes Ring From Ruler"
+ fellowship_of_ring_events.28.d: "Removes Ring From Ruler"
+ fellowship_of_ring_events.28.a: "Oh yei"
+ 
+ fellowship_of_ring_events.29.t: "$MONARCH$ Has Destroyed The Ring"
+ fellowship_of_ring_events.29.d: "$MONARCH$ has destroyed the Ring in the fires of Mount Doom and in doing so destroyed the Dark Lord Sauron. The Nation of Mordor is no more!"
+ fellowship_of_ring_events.29.a: "Hail $MONARCH$"
+ 
+ fellowship_of_ring_events.30.t: "The One Ring Has Been Destroyed"
+ fellowship_of_ring_events.30.d: "The One Ring Has Been Destroyed and The Dark Lord Sauron is no more. The rule of Mordor has ended and Middle-Earth will never be the same again."
+ fellowship_of_ring_events.30.a: "The End Of A Begining"
+ 
+ fellowship_of_ring_events.31.t: "Searching For The Ring"
+ fellowship_of_ring_events.31.d: "Searching For The Ring"
+ fellowship_of_ring_events.31.a: "Aw yeah"
+ 
+ fellowship_of_ring_events.32.t: "Timer"
+ fellowship_of_ring_events.32.d: "Ending Timer"
+ fellowship_of_ring_events.32.a: "Aw yeah"
+ 
+ fellowship_of_ring_events.33.t: "Ruler Is Getting Worse"
+ fellowship_of_ring_events.33.d: "Our ruler is carrying a heavy burden. The One Ring is draining him and he is slowly loosing himself."
+ fellowship_of_ring_events.33.a: "We Must Get Rid Of It Soon!"
+ 
+ fellowship_of_ring_events.34.t: "Timer"
+ fellowship_of_ring_events.34.d: "Ending Timer"
+ fellowship_of_ring_events.34.a: "Aw yeah"
+ 
+ fellowship_of_ring_events.35.t: "Lost The One Ring Through War"
+ fellowship_of_ring_events.35.d: "By losing the war the victors have claimed the One Ring and we have lost it!"
+ fellowship_of_ring_events.35.a: "Precious!"
+ 
+ fellowship_of_ring_events.36.t: "Taken The One Ring"
+ fellowship_of_ring_events.36.d: "By winning the war we have claimed the One Ring!"
+ fellowship_of_ring_events.36.a: "My Precious"
+ 
+ ################
+ #  Help Menu   #
+ ################
+ help_events.1.t: "Help Menu"
+ help_events.1.d: "Read about meta information about mod mechanics"
+ help_events.1.a: "Fellowship Mechanics"
+ help_events.1.b: "Close"
+ 
+ help_events.2.t: "Fellowship Mechanics Menu"
+ help_events.2.d: "The Fellowship mechanics are a total overhaul of the vanilla Institution mechanics. In this mod the, the fellowships are as of now; Company of Thorin and Fellowship of the Ring. The Fellowships will travel through Middle-Earth to reach their destinations where they will trigger some kind of action/events. The Fellowships can die/fail on their way, which can either end the Fellowship or trigger some other kind of actions events."
+ help_events.2.a: "Company of Thorin"
+ help_events.2.b: "Fellowship of The Ring"
+ help_events.2.c: "Back"
+ 
+ help_events.3.t: "Company of Thorin Menu"
+ help_events.3.d: "The Company of Thorin is a Fellowship formed in the Shire and their destination is the Lonely Mountain(Erebor). During their travels they will be challenged which may end their journey fast. If they don't reach the mountain and defeat Smaug then the One Ring wont be found and the Fellowship wont be formed. If they reach the mountain and survive the nation of Erebor will be formed and might be challenged by its neighbors."
+ 
+ help_events.4.t: "The Fellowship Of The Ring Menu"
+ help_events.4.d: "The Fellowship Of The Ring is a Fellowship formed in the Shire and their destination is the Mount Doom in Mordor. During their travels they will be challenged which may end their journey fast. If the fellowship fails the ring will be either taken or dropped in the province they reached. Evil factions can search for the fellowship using the 'Hinder Fellowship' trade policy and also slow them down. If the ring is dropped, the nation owning the province has a chance to find the ring. Which will equip it to the ruler. If the ruler then reaches Mount Doom and controls the province the ring will be destroyed. If the ring is destroyed Mordor will be destroyed and split into smaller nations of remnant orc tribes. If Sauron gains the ring, Mordor will be incredible powerful."

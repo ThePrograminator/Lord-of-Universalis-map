@@ -1,0 +1,41 @@
+spriteTypes = {
+	#-------------------------------------------------------------------------------------
+	# Event Pictures
+	#-------------------------------------------------------------------------------------
+	
+	spriteType = {
+		name = "DESOLATION_OF_SMAUG_eventPicture"
+		texturefile = "gfx/event_pictures/DESOLATION_OF_SMAUG_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "WAR_OF_THE_DWARVES_AND_ORCS_eventPicture"
+		texturefile = "gfx/event_pictures/WAR_OF_THE_DWARVES_AND_ORCS_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "CORUPTION_OF_DOL_GULDUR_eventPicture"
+		texturefile = "gfx/event_pictures/CORUPTION_OF_DOL_GULDUR_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "UMBAR_RISING_POWER_eventPicture"
+		texturefile = "gfx/event_pictures/UMBAR_RISING_POWER_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "BATTLE_OF_MIDDLE_EARTH_eventPicture"
+		texturefile = "gfx/event_pictures/BATTLE_OF_MIDDLE_EARTH_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "THE_FOURTH_AGE_eventPicture"
+		texturefile = "gfx/event_pictures/THE_FOURTH_AGE_eventPicture.dds"
+		allwaystransparent = yes
+	}
+}

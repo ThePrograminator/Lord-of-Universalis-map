@@ -1,0 +1,475 @@
+########################################
+# Events for Tech Group Men (Gondor and Dol Amroth)
+#
+#
+########################################
+
+namespace = flavor_gondorian
+normal_or_historical_nations = yes
+
+# Prioritise naval activties against Umbar
+country_event = {
+	id = flavor_gondorian.1
+	title = flavor_gondorian.1.t
+	desc = flavor_gondorian.1.d
+	picture = HARBOUR_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			technology_group = lotr_dunedain
+			X27 = {
+				exists = yes
+			}
+			any_owned_province = {
+				region = gondor_region
+				has_port = yes
+				is_core = owner
+			}
+			
+		}
+		
+		#NOT = {
+		#	tag = X04
+		#	tag = X05
+		#	tag = X06
+		#	tag = X61
+		#	tag = Z55
+		#	tag = Z69
+		#}
+	}
+	
+	#mean_time_to_happen = {
+	#
+	#}
+	
+	#Yes
+	option = {
+		name = "flavor_gondorian.1.a"
+		
+		add_country_modifier = {
+			name = gondorian_naval_prioritise
+			duration = 3650
+		}
+	}  
+	
+	#No
+	option = {
+		name = "flavor_gondorian.1.b"
+		
+		add_country_modifier = {
+			name = gondorian_didnt_naval_prioritise
+			duration = 3650
+		}
+	} 
+}
+
+# Trade Flows from the south
+country_event = {
+	id = flavor_gondorian.2
+	title = flavor_gondorian.2.t
+	desc = flavor_gondorian.2.d
+	picture = TRADEGOODS_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			technology_group = lotr_dunedain
+			any_owned_province = {
+				region = gondor_region
+				is_core = owner
+			}
+		}
+	}
+	
+	#Yes
+	option = {
+		name = "flavor_gondorian.2.a"
+		
+		add_country_modifier = {
+			name = gondorian_trade_flows
+			duration = 3650
+		}
+	}
+}
+
+# Increase White Mountain Production
+country_event = {
+	id = flavor_gondorian.3
+	title = flavor_gondorian.3.t
+	desc = flavor_gondorian.3.d
+	picture = CITY_DEVELOPMENT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		any_owned_province = {
+			OR = {
+				trade_goods = copper
+				trade_goods = iron
+				trade_goods = silver
+				trade_goods = gold
+				trade_goods = stone
+				trade_goods = marble
+				trade_goods = gems
+				trade_goods = mithril
+			}
+				
+			region = gondor_region
+			owner = {
+				technology_group = lotr_dunedain
+			}
+		}
+	}
+	
+	#Yes
+	option = {
+		name = "flavor_gondorian.3.a"
+		
+		owner = {
+			add_treasury = -50
+			add_dip_power = -50
+			add_mil_power = -25
+		}
+		
+		custom_tooltip = white_mountain_production
+		
+		tooltip = {
+			add_province_modifier = {
+				name = province_gondorian_increased_production
+				duration = 3650
+			}
+		}
+		
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					OR = {
+						trade_goods = copper
+						trade_goods = iron
+						trade_goods = silver
+						trade_goods = gold
+						trade_goods = stone
+						trade_goods = marble
+						trade_goods = gems
+						trade_goods = mithril
+					}
+					is_core = owner
+					region = gondor_region
+				}
+				
+				add_province_modifier = {
+					name = province_gondorian_increased_production
+					duration = 3650
+				}
+			}
+		}
+	}
+	
+	#No
+	option = {
+		name = "flavor_gondorian.3.b"
+		
+		owner = {
+			add_prestige = -5
+			add_legitimacy = -5
+		}
+	}
+}
+
+# Purchase Rohan Horses
+country_event = {
+	id = flavor_gondorian.4
+	title = flavor_gondorian.4.t
+	desc = flavor_gondorian.4.d
+	picture = HORSE_ON_HORSEBACK_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			technology_group = lotr_dunedain
+			any_owned_province = {
+				region = gondor_region
+				is_core = owner
+			}
+		}
+		
+		X16 = {
+			exists = yes
+		}
+	}
+	
+	#Yes
+	option = {
+		name = "flavor_gondorian.4.a"
+		
+		add_treasury = -100
+		add_mil_power = 25
+		
+		add_country_modifier = {
+			name = gondorian_purchase_rohan_horses
+			duration = 3650
+		}
+	}
+	
+	#No
+	option = {
+		name = "flavor_gondorian.4.b"
+		
+		add_prestige = 25
+	}
+}
+
+# Place Close advisors
+country_event = {
+	id = flavor_gondorian.5
+	title = flavor_gondorian.5.t
+	desc = flavor_gondorian.5.d
+	picture = DIPLOMACY_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			technology_group = lotr_dunedain
+		}
+	}
+	
+	#Yes
+	option = {
+		name = "flavor_gondorian.5.a"
+		
+		add_prestige = -25
+		
+		add_country_modifier = {
+			name = gondorian_close_advisor
+			duration = 3650
+		}
+	}
+	
+	#No
+	option = {
+		name = "flavor_gondorian.5.b"
+		
+		add_prestige = 25
+	}
+}
+
+# Gandalf the Grey Visits
+country_event = {
+	id = flavor_gondorian.6
+	title = flavor_gondorian.6.t
+	desc = flavor_gondorian.6.d
+	picture = ADVISOR_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			technology_group = lotr_dunedain
+		}
+		any_rival_country = {
+			army_size_percentage = 0.7
+			land_forcelimit = 20
+			is_neighbor_of = ROOT
+		}
+	}
+	
+	#Yes
+	option = {
+		name = "flavor_gondorian.6.a"
+		#random_rival_country = {
+		#	limit = {
+		#		army_size_percentage = 0.7
+		#		land_forcelimit = 20
+		#		is_neighbor_of = ROOT
+		#	}
+		#	add_spy_network_from = { who = PREV value = 100 }
+		#}
+		
+		add_prestige = -25
+		
+		add_country_modifier = {
+			name = gondorian_taking_gandalfs_advise
+			duration = 3650
+		}
+	}
+	
+	#No
+	option = {
+		name = "flavor_gondorian.6.b"
+		
+		add_prestige = 25
+
+		add_country_modifier = {
+			name = gondorian_not_taking_gandalfs_advise
+			duration = 3650
+		}
+	}
+}
+
+# Decendents of Numenor
+country_event = {
+	id = flavor_gondorian.7
+	title = flavor_gondorian.7.t
+	desc = flavor_gondorian.7.d
+	picture = GOOD_WITH_MONARCH_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			technology_group = lotr_dunedain
+		}
+		OR = {
+			413 = {
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			
+			413 = {
+				is_core = X12
+				owned_by = X12
+			}
+		}
+	}
+	
+	#Very Good
+	option = {
+		name = "flavor_gondorian.7.a"
+		
+		add_stability = 1
+		add_prestige = 25
+		add_adm_power = 25
+		add_dip_power  = 25
+	}
+}
+
+# United Cause
+country_event = {
+	id = flavor_gondorian.8
+	title = flavor_gondorian.8.t
+	desc = flavor_gondorian.8.d
+	picture = LIBERUM_VETO_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			technology_group = lotr_dunedain
+		}
+		NOT = {
+			has_country_modifier = gondor_hope_arises
+			has_country_modifier = gondorian_united_cause
+		}
+		OR = {
+			413 = {
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			
+			413 = {
+				is_core = X12
+				owned_by = X12
+			}
+		}
+		
+	}
+	
+	#Very Good
+	option = {
+		name = "flavor_gondorian.8.a"
+		
+		add_country_modifier = {
+			name = gondorian_united_cause
+			duration = 3650
+		}
+	}
+}
+
+# Corsair Raider
+country_event = {
+	id = flavor_gondorian.9
+	title = "flavor_gondorian.9.title"
+	desc = "flavor_gondorian.9.desc"
+	picture = BORDER_TENSION_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			technology_group = lotr_dunedain
+			exists = X27
+			
+		}
+		any_owned_province = {
+			is_core = ROOT
+			OR = {
+					area = harithilien_area
+					area = lebenninivet_area
+					area = andrast_area
+					area = ethir_anduin_area
+					area = anfalas_area
+					area = belfalas_area
+					area = linhir_area
+					area = dol_amroth_area
+					area = tol_falas_area
+					area = edhellond_area
+				}
+			
+		}
+		NOT = {
+			has_country_modifier = gondorian_spawn_umbar_raider_timer
+		}
+	}
+	
+	option = {
+		name = "flavor_gondorian.9.a"
+		hidden_effect = {
+			add_country_modifier = {
+				name = gondorian_spawn_umbar_raider_timer 
+				duration = 1095
+				hidden = yes
+			}
+		}
+		
+		random_owned_province = {
+			limit = {
+				OR = {
+					area = harithilien_area
+					area = lebenninivet_area
+					area = andrast_area
+					area = ethir_anduin_area
+					area = anfalas_area
+					area = belfalas_area
+					area = linhir_area
+					area = dol_amroth_area
+					area = tol_falas_area
+					area = edhellond_area
+				}
+				NOT = { 
+					units_in_province = 1 
+				}
+				is_capital = no
+				has_port = yes
+			}
+			random_list = {
+				15 = {
+					spawn_rebels = {
+						type = corsair_raider_rebels
+						size = 2
+					}
+				}
+				75 = {
+					spawn_rebels = {
+						type = corsair_raider_rebels
+						size = 1
+					}
+				}
+			}
+		}
+	}
+}

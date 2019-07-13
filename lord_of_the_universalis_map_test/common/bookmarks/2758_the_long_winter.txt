@@ -1,0 +1,18 @@
+bookmark =
+{
+    # The Long Winter
+	name = "LOTR_2_NAME"
+	desc = "LOTR_2_DESC"
+	date = 2758.10.10
+	
+	country = Z11
+	country = Z18
+	country = Z24
+	country = X12
+	country = X70
+	country = X88
+	country = Z01
+	country = X78
+	country = Z93
+	country = X44
+}

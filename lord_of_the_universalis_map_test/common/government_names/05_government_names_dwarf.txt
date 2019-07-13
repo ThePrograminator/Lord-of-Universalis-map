@@ -1,0 +1,50 @@
+# For specific government types
+# Will pick the first valid one it finds in list
+
+gov_lotr_lordship_dwarf = {
+	rank = {
+		1 = LORDSHIP
+		2 = GRAND_LORDSHIP
+		3 = GREAT_LORDSHIP
+	}
+
+	ruler_male = {
+		1 = LORD_DWARF
+		2 = LORD_DWARF
+		3 = LORD_DWARF
+	}
+
+	ruler_female = {
+		1 = PRINCESS
+		2 = PRINCESS
+		3 = PRINCESS
+	}
+
+	trigger = {
+		has_reform = lordship_dwarf_reform
+	}
+}
+
+gov_lotr_guild_aristocracy = {
+	rank = {
+		1 = GUILD_ARISTOCRACY
+		2 = GRAND_GUILD_ARISTOCRACY
+		3 = GREAT_GUILD_ARISTOCRACY
+	}
+
+	ruler_male = {
+		1 = CHAIRMAN
+		2 = CHAIRMAN
+		3 = CHAIRMAN
+	}
+
+	ruler_female = {
+		1 = CHAIRMAN
+		2 = CHAIRMAN
+		3 = CHAIRMAN
+	}
+
+	trigger = {
+		has_reform = lordship_guild_aristocracy_reform
+	}
+}

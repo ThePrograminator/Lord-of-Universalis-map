@@ -1,0 +1,19 @@
+# Northron Swordsmen
+type = infantry
+unit_type = lotr_northmen
+
+maneuver = 1
+offensive_morale = 3
+defensive_morale = 3
+offensive_fire = 0
+defensive_fire = 0
+offensive_shock = 1
+defensive_shock = 3
+
+trigger = {
+	NOT = {
+		primary_culture = culture_men_of_dale
+		primary_culture = culture_bardings
+		primary_culture = culture_beornings
+	}
+}

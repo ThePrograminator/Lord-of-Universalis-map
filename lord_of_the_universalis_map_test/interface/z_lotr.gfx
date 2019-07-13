@@ -1,0 +1,136 @@
+spriteTypes = {
+	#----------------------------------------------
+    # Religion
+    #----------------------------------------------
+	spriteType = {
+		name = "GFX_icon_religion"
+		texturefile = "gfx//interface//icon_religion.tga"
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_country_icon_religion"
+		texturefile = "gfx//interface//country_icon_religion.dds"
+		noOfFrames = 27
+	}
+	
+	spriteType = {
+		name = "GFX_icon_religion_small"
+		texturefile = "gfx//interface//icon_religion_small.tga"
+		noOfFrames = 2
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_religion_icon_strip"
+		texturefile = "gfx//interface//icon_religion_small.dds"
+		transparencecheck = yes
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_province_view_religion"
+		texturefile = "gfx//interface//province_view_religion.tga"
+		noOfFrames = 2
+	}
+	
+	#-------------------------------------------------------------------------------------
+	# Holy Sites / Sacred Sites (Dwarven Religion)
+	#-------------------------------------------------------------------------------------
+	
+	#Default
+	spriteType = {
+		name = "GFX_holy_site_default"
+		texturefile = "gfx//interface//holy_sites//Dwarven_Sacred_Site_Erebor.dds"
+	}
+
+	#Erebor (Vanilla: Aksum)
+	spriteType = {
+		name = "GFX_holy_site_287"
+		texturefile = "gfx//interface//holy_sites//Dwarven_Sacred_Site_Erebor.dds"
+		loadType = "INGAME"
+	}	
+
+	#Dains Halls (Vanilla: alexandria)
+	spriteType = {
+		name = "GFX_holy_site_663"
+		texturefile = "gfx//interface//holy_sites//Dwarven_Sacred_Site_Dains_Halls.dds"
+		loadType = "INGAME"
+	}	
+
+	#Gundabad (Vanilla: antioch)
+	spriteType = {
+		name = "GFX_holy_site_628"
+		texturefile = "gfx//interface//holy_sites//Dwarven_Sacred_Site_Gundabad.dds"
+		loadType = "INGAME"
+	}	
+
+	#Western Halls of Moria (Vanilla: qasr_ibrim)
+	spriteType = {
+		name = "GFX_holy_site_740"
+		texturefile = "gfx//interface//holy_sites//Dwarven_Sacred_Site_Western_Moria.dds"
+		loadType = "INGAME"
+	}	
+
+	#Eastern Halls of Moria (Vanilla: yerevan)
+	spriteType = {
+		name = "GFX_holy_site_285"
+		texturefile = "gfx//interface//holy_sites//Dwarven_Sacred_Site_Eastern_Moria.dds"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_menubar_floating_strip"
+		texturefile = "gfx//interface//menubar_floating_strip.tga"
+		effectFile = "gfx/FX/buttonstate.lua"
+		clicksound = click
+		noOfFrames = 8
+	}
+
+	#----------------------------------------------
+	# Technology
+    #----------------------------------------------
+	spriteType = {
+		name = "GFX_tech_group_strip"
+		texturefile = "gfx//interface//tech_group_strip.dds"
+		transparencecheck = yes	
+		noOfFrames = 18
+	}	
+	
+	#----------------------------------------------
+    # Goods
+    #----------------------------------------------
+	spriteType = {
+		name = "GFX_resource_icon"
+		texturefile = "gfx//interface//resources.tga"
+		noOfFrames = 39
+		loadType = "INGAME"
+		
+	}
+	
+	spriteType = {
+		name = "GFX_resource_icon_small"
+		texturefile = "gfx//interface//resources_small.dds"
+		noOfFrames = 39
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_resource_icon_transparent"
+		texturefile = "gfx//interface//resources.tga"
+		noOfFrames = 39
+		loadType = "INGAME"
+		
+		allwaystransparent = yes
+	}
+	
+	#----------------------------------------------
+    # Trade Policies
+    #----------------------------------------------
+	spriteType = {
+		name = "GFX_Trading_Policy_Hinder_Fellowships"
+		texturefile = "gfx/interface/trading_policy_hinder_fellowships.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+}

@@ -1,0 +1,146 @@
+# For specific government types
+# Will pick the first valid one it finds in list
+
+gov_lotr_stewardship = {
+	rank = {
+		1 = STEWARDSHIP
+		2 = GRAND_STEWARDSHIP
+		3 = GREAT_STEWARDSHIP
+	}
+
+	ruler_male = {
+		1 = STEWARD
+		2 = STEWARD
+		3 = STEWARD
+	}
+
+	ruler_female = {
+		1 = STEWARDESS
+		2 = STEWARDESS
+		3 = STEWARDESS
+	}
+
+	consort_male  = {
+		1 = PRINCE_CONSORT
+		2 = PRINCE_CONSORT
+		3 = PRINCE_CONSORT
+	}
+
+	consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+	}
+
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+
+	trigger = {
+		has_reform = stewardship_reform
+	}
+}
+
+gov_lotr_principality = {
+	rank = {
+		1 = PRINCIPALITY
+		2 = GRAND_PRINCIPALITY
+		3 = GREAT_PRINCIPALITY
+	}
+
+	ruler_male = {
+		1 = PRINCE
+		2 = PRINCE
+		3 = PRINCE
+	}
+
+	ruler_female = {
+		1 = PRINCESS
+		2 = PRINCESS
+		3 = PRINCESS
+	}
+
+	consort_male  = {
+		1 = PRINCE_CONSORT
+		2 = PRINCE_CONSORT
+		3 = PRINCE_CONSORT
+	}
+
+	consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+	}
+
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+
+	trigger = {
+		has_reform = principality_reform
+	}
+}
+
+gov_lotr_eaterling_clan = {
+	rank = {
+		1 = EASTERLING_TRIBE
+		2 = EASTERLING_CLAN
+		3 = EASTERLING_KINGDOM
+	}
+
+	ruler_male = {
+		1 = EASTERLING_CHEIF
+		2 = EASTERLING_CHEIF
+		3 = EASTERLING_KING
+	}
+
+	ruler_female = {
+		1 = PRINCESS
+		2 = PRINCESS
+		3 = PRINCESS
+	}
+
+	consort_male  = {
+		1 = PRINCE_CONSORT
+		2 = PRINCE_CONSORT
+		3 = PRINCE_CONSORT
+	}
+
+	consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+	}
+
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+
+	trigger = {
+		has_reform = easterling_clan_reform
+	}
+}

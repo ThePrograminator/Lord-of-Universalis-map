@@ -1,0 +1,1175 @@
+#When adding effects directly in on_actions always consider if it would be best to do so through a scripted effect. on_actions with a lot of script in them are harder to get an overview of.
+
+# country
+on_startup = {
+	events = {
+		flavor_ere.16
+		lotr_general.21
+		lotr_general.9
+		lotr_general.10
+		lotr_general.11
+		lotr_general.12
+		lotr_general.13
+		lotr_general.14
+		lotr_general.15
+		lotr_general.16
+		lotr_general.17
+		lotr_general.18
+		lotr_general.19
+		lotr_general.22
+      	lotr_setup.1
+		flavor_gondor.12
+		company_of_thorin_events.24
+		institution_events.3
+		institution_events.6
+	}
+    
+	
+}
+
+# country
+on_religion_change = {
+
+}
+
+# country.
+on_secondary_religion_change = {
+	
+}
+
+# country. Spawned when Enforcing Rebel Demands through a Support Rebels-war.
+on_enforce_rebel_demands = {
+	# ROOT = The winning country
+	# FROM = The loosing country
+	set_country_flag = helped_rebels_win_war
+
+}
+
+# country
+on_colonial_liberation = {
+
+}
+
+# country
+on_colonial_reintegration = {
+
+}
+
+# country
+on_peace_actor = {
+
+}
+
+# country
+on_peace_recipient = {
+
+}
+
+# country
+# root = winning country, from = loser country
+on_war_won = {
+
+	ROOT = { country_event = { id = flavor_dunedain.8 } }
+}
+
+# country
+# root = loser country, from = winner country
+on_war_lost = {
+
+	
+	ROOT = {
+		if = {
+			limit = {
+				has_country_modifier = the_one_ring_not_mordor
+			}
+			country_event = { id = fellowship_of_ring_events.35 }
+		}
+	}
+}
+
+# country
+# root = winning country, from = loser country
+on_battle_won_country = {
+
+}
+
+# country
+# root = loser country, from = winner country
+on_battle_lost_country = {
+
+	ROOT = { country_event = { id = flavor_dunedain.6 } }
+}
+
+# province
+# root = location, from = loser country
+on_battle_won_province = {
+
+}
+
+#Unit Scope OnAction for Battle Won
+on_battle_won_unit = {
+
+}
+
+# #Unit Scope OnAction for Battle Lost
+on_battle_lost_unit = {
+	
+}
+
+# province
+# root = location, from = country doing it
+on_added_to_trade_company ={
+
+}
+
+# province
+# root = location, from = country doing it
+on_removed_from_company ={
+
+}
+
+# province
+# root = location, from = country doing it
+on_company_formed ={
+
+}
+
+# province
+# root = location, from = country doing it
+on_company_disolved ={
+
+}
+
+# province
+# root = location, from = winner country
+on_battle_lost_province = {
+
+}
+
+# country
+# root = winning country, from = location
+on_siege_won_country = {
+
+	
+	if = { 
+		limit = {
+			ROOT = {
+				has_country_modifier = the_one_ring_not_mordor
+			}
+			FROM = {
+				province_id = 46
+			}
+		}
+		ROOT = {
+			country_event = { id = fellowship_of_ring_events.29 }
+		}
+	}
+}
+
+# country
+# root = losing country, from = location
+on_siege_lost_country = {
+
+}
+
+# province
+# root = location, from = losing country
+on_siege_won_province = {
+
+}
+
+# province
+# root = location, from = winning country
+on_siege_lost_province =  {
+
+}
+
+# province
+# root = location, from = country that abandons colony
+# Fired right before the colony is abandoned.
+on_abandon_colony = {
+
+}
+
+# OBS: Consider that the following on_actions can be called for Personal Union juniors as well.
+# country
+on_new_monarch = {
+
+}
+
+on_new_consort = {
+
+}
+
+# country
+on_monarch_death = {
+
+	if = {
+		limit = {
+			religion = religion_dunedain
+		
+			culture_group = culture_group_numenorean
+			
+			NOT = {
+				culture_group = culture_group_black_numenorean
+			}
+		}
+		country_event = { 
+			id = flavor_dunedain.5 
+		}
+	}
+}
+
+# country
+on_regent = {
+
+}
+
+# country
+on_new_term_election = {
+
+	events = {
+		flavor_elections.1
+	}
+}
+
+# country
+on_death_election = {
+	events = {
+		flavor_elections.2
+	}
+}
+
+# country
+on_death_foreign_slave_ruler = {
+
+}
+
+# country
+on_replace_governor = {
+
+}
+
+
+# country
+on_bankruptcy = {
+
+}
+
+# country (country annexing, root = target)
+on_diplomatic_annex = {
+	events = {
+		610 # Integrating FROMCOUNTRY
+	}
+
+}
+
+# country
+on_heir_death = {
+
+}
+
+# country
+on_queen_death = {
+
+}
+
+# country
+on_new_heir = {
+
+}
+
+# country
+on_weak_heir_claim = {
+
+}
+
+# country : no heir in theocracy
+on_heir_needed_theocracy = {
+	
+}
+
+# Emperor from same dynasty
+on_successive_emperor = {
+
+}
+
+# HRE Prince released by the emperor
+on_released_hre_member = {
+
+}
+
+# HRE Prince converts to non-Emperor religion
+on_hre_member_false_religion = {
+
+}
+
+# HRE Prince converts to Emperor religion
+on_hre_member_true_religion = {
+
+}
+
+# Emperor wins HRE defensive war
+on_hre_wins_defensive_war = {
+
+}
+
+# HRE member annexed by non-HRE country
+on_hre_member_annexed = {
+
+}
+
+# HRE member released from non-HRE vassalage
+on_hre_released_vassal = {
+
+}
+
+# HRE member transferred from non-HRE vassalage to Emperor
+on_hre_transfered_vassal = {
+
+}
+
+# Emperor coming to the defense of a HRE member
+on_hre_defense = {
+
+}
+
+# Emperor NOT coming to the defense of a HRE member
+on_hre_non_defense = {
+
+}
+
+# HRE Member takes a HRE province from an outs100e country in a peace (province scope)
+on_hre_province_reconquest = {
+
+}
+
+on_lock_hre_religion = {
+
+}
+
+on_change_hre_religion = {
+
+}
+
+on_hre_religion_white_peace = {
+
+}
+
+# When a non-native changes government type
+on_government_change = {
+
+}
+
+# When a native changes government after filling all their advancement groups.
+on_native_change_government = {
+}
+
+# Nation is integrated after being in union
+on_integrate = {
+
+}
+
+# Nation annexed.
+# FROM is the nation being annexed
+on_annexed = {
+
+}
+
+# When the chinese empire gets dismantled (e.g. when the emperor is annexed)
+# FROM = Emperor, ROOT = Current Nation
+on_chinese_empire_dismantled = {
+
+}
+
+# When a nation gains the Mandate of Heaven (becomes the Emperor of China)
+# FROM = Old Emperor, ROOT = New Emperor
+on_mandate_of_heaven_gained = {
+
+}
+
+# When a nation loses the Mandate of Heaven
+# FROM = New Emperor, ROOT = Old Emperor
+on_mandate_of_heaven_lost = {
+
+}
+
+on_dismantle_revolution = {
+
+}
+
+# province
+on_adm_development = {
+
+}
+
+# province
+on_dip_development = {
+
+}
+
+# province
+on_mil_development = {
+
+}
+
+on_overextension_pulse = {
+	random_events = {
+		100 = overextension.1
+		100 = overextension.2
+		100 = overextension.3
+		100 = overextension.4
+		100 = overextension.5
+		100 = overextension.6
+		100 = overextension.7
+		100 = overextension.8
+		100 = overextension.9
+		100 = overextension.10
+	}
+    
+
+}
+
+
+on_colonial_pulse = {
+
+}
+
+on_siberian_pulse = {
+
+}
+
+
+# country random events
+on_bi_yearly_pulse = {
+
+}
+
+on_bi_yearly_pulse_2 = {
+
+	random_events = {
+		75 = flavor_dunedain.1
+		75 = flavor_dunedain.2
+		75 = flavor_dunedain.3
+		
+		75 = flavor_dunedain.7
+		75 = flavor_dunedain.9
+		75 = flavor_dunedain.10
+		
+		75 = flavor_orc_religion.1
+		75 = flavor_orc_religion.2
+		75 = flavor_orc_religion.3
+		75 = flavor_orc_religion.4
+		75 = flavor_orc_religion.6
+		75 = flavor_orc_religion.8
+		75 = flavor_orc_religion.10
+		75 = flavor_orc_religion.11
+		75 = flavor_orc_religion.12
+		75 = flavor_orc_religion.13
+	}
+	
+	if = {
+		limit = {
+			ROOT = {
+				religion = religion_dunedain
+				culture_group = culture_group_numenorean
+			}
+		
+			any_neighbor_country = {
+				OR = {
+					culture_group = culture_group_orcs
+					culture_group = culture_group_melkor
+				}
+				religion_group = religion_group_melkor
+			}
+		}
+		country_event = { id = flavor_dunedain.4 }
+	}
+}
+
+on_bi_yearly_pulse_3 = {
+
+}
+
+on_bi_yearly_pulse_4 = {
+
+}
+
+# country random events
+on_thri_yearly_pulse = {
+
+	random_events = {
+		75 = flavor_gondor.1
+		75 = flavor_gondor.2
+		75 = flavor_gondor.3
+		75 = flavor_gondor.4
+		75 = flavor_gondor.5
+		75 = flavor_gondor.6
+		75 = flavor_gondor.9
+		75 = flavor_gondor.10
+		
+		75 = flavor_dol_amroth.1
+		75 = flavor_dol_amroth.2
+		75 = flavor_dol_amroth.3
+		75 = flavor_dol_amroth.5
+		75 = flavor_dol_amroth.6
+		
+		75 = flavor_gondorian.1
+		75 = flavor_gondorian.2
+		75 = flavor_gondorian.3
+		75 = flavor_gondorian.4
+		75 = flavor_gondorian.5
+		75 = flavor_gondorian.6
+		75 = flavor_gondorian.7
+		75 = flavor_gondorian.9
+		
+		#75 = LOTR_Tradegoods.2
+		#75 = LOTR_Tradegoods.3
+		#75 = LOTR_Tradegoods.4
+		
+		75 = flavor_mordor.17
+		75 = flavor_mordor.18
+		75 = flavor_mordor.19
+		75 = flavor_mordor.20
+		75 = flavor_mordor.21
+		75 = flavor_mordor.22
+		75 = flavor_mordor.23
+		75 = flavor_mordor.24
+		75 = flavor_mordor.25
+		75 = flavor_mordor.26
+		
+		75 = flavor_dol_guldur.3
+		75 = flavor_dol_guldur.4
+		75 = flavor_dol_guldur.5
+		
+		75 = flavor_orc.1
+		75 = flavor_orc.2
+		75 = flavor_orc.3
+		75 = flavor_orc.4
+		75 = flavor_orc.5
+		75 = flavor_orc.6
+		75 = flavor_orc.7
+		75 = flavor_orc.8
+		75 = flavor_orc.9
+		75 = flavor_orc.10
+	}
+}
+
+on_thri_yearly_pulse_2 = {
+
+}
+
+on_thri_yearly_pulse_3 = {
+
+}
+
+on_thri_yearly_pulse_4 = {
+
+}
+
+on_four_year_pulse = {
+
+}
+
+on_four_year_pulse_2 = {
+
+}
+
+on_four_year_pulse_3 = {
+
+}
+
+on_four_year_pulse_4 = {
+
+}
+
+on_five_year_pulse = {
+	random_events = {
+		# Aristocracy 		13  (8g 5b)
+		100 = ideagroups.100
+		100 = ideagroups.101
+		100 = ideagroups.102
+		100 = ideagroups.103
+		100 = ideagroups.104
+		100 = ideagroups.105
+		100 = ideagroups.106
+		100 = ideagroups.107
+		100 = ideagroups.108
+		100 = ideagroups.109
+		100 = ideagroups.110
+		100 = ideagroups.111
+		100 = ideagroups.112
+
+
+		# Plutocracy 		19 (12g 7b)
+		100 = ideagroups.200
+		100 = ideagroups.201
+		100 = ideagroups.202
+		100 = ideagroups.203
+		100 = ideagroups.204
+		100 = ideagroups.205
+		100 = ideagroups.206
+		100 = ideagroups.207
+		100 = ideagroups.208
+		100 = ideagroups.209
+		100 = ideagroups.210
+		100 = ideagroups.211
+		100 = ideagroups.212
+		100 = ideagroups.213
+		100 = ideagroups.214
+		100 = ideagroups.215
+		100 = ideagroups.216
+		100 = ideagroups.217
+		100 = ideagroups.218
+
+		# Innovativenes		11 (7g 4b)
+		100 = ideagroups.300
+		100 = ideagroups.301
+		100 = ideagroups.302
+		100 = ideagroups.303
+		100 = ideagroups.304
+		100 = ideagroups.305
+		100 = ideagroups.306
+		100 = ideagroups.307
+		100 = ideagroups.308
+		100 = ideagroups.309
+		100 = ideagroups.310
+
+		# Religious		18 (11g 7b)
+		100 = ideagroups.400
+		100 = ideagroups.401
+		100 = ideagroups.402
+		100 = ideagroups.403
+		100 = ideagroups.404
+		100 = ideagroups.405
+		100 = ideagroups.406
+		100 = ideagroups.407
+		100 = ideagroups.408
+		100 = ideagroups.409
+		100 = ideagroups.411
+		100 = ideagroups.412
+		100 = ideagroups.413
+		100 = ideagroups.414
+		100 = ideagroups.415
+		100 = ideagroups.416
+		100 = ideagroups.417
+
+
+		# Spy			9 (6g 3b)
+		100 = ideagroups.500
+		100 = ideagroups.501
+		100 = ideagroups.502
+		100 = ideagroups.503
+		100 = ideagroups.504
+		100 = ideagroups.505
+		100 = ideagroups.506
+		100 = ideagroups.507
+		100 = ideagroups.508
+
+
+		# Diplomatic		9 (6g 3b)
+		100 = ideagroups.600
+		100 = ideagroups.601
+		100 = ideagroups.602
+		100 = ideagroups.603
+		100 = ideagroups.604
+		100 = ideagroups.605
+		100 = ideagroups.606
+		100 = ideagroups.607
+		100 = ideagroups.608
+
+
+		# Offensive 		14 (9g 5b)
+		100 = ideagroups.700
+		100 = ideagroups.701
+		100 = ideagroups.702
+		100 = ideagroups.703
+		100 = ideagroups.704
+		100 = ideagroups.705
+		100 = ideagroups.706
+		100 = ideagroups.707
+		100 = ideagroups.708
+		100 = ideagroups.709
+		100 = ideagroups.710
+		100 = ideagroups.711
+		100 = ideagroups.712
+		100 = ideagroups.713
+
+
+		# Defensive		11 (5g 6b)
+		100 = ideagroups.800
+		100 = ideagroups.801
+		100 = ideagroups.802
+		100 = ideagroups.803
+		100 = ideagroups.804
+		100 = ideagroups.805
+		100 = ideagroups.806
+		100 = ideagroups.807
+		100 = ideagroups.808
+		100 = ideagroups.809
+		100 = ideagroups.810
+		100 = ideagroups.811
+		100 = ideagroups.812
+		100 = ideagroups.813
+		100 = ideagroups.814
+		100 = ideagroups.815
+
+
+		# Trade			6 (7g 4b)
+		100 = ideagroups.900
+		100 = ideagroups.901
+		100 = ideagroups.902
+		100 = ideagroups.903
+		100 = ideagroups.904
+		100 = ideagroups.905
+		100 = ideagroups.906
+		100 = ideagroups.907
+		100 = ideagroups.908
+		100 = ideagroups.909
+		100 = ideagroups.910
+
+		# Maritime			22 (14g 8b)
+		100 = ideagroups.1000
+		100 = ideagroups.1001
+		100 = ideagroups.1002
+		100 = ideagroups.1003
+		100 = ideagroups.1004
+		100 = ideagroups.1005
+		100 = ideagroups.1006
+		100 = ideagroups.1007
+		100 = ideagroups.1008
+		100 = ideagroups.1009
+		100 = ideagroups.1010
+		100 = ideagroups.1011
+		100 = ideagroups.1012
+		100 = ideagroups.1013
+		100 = ideagroups.1014
+		100 = ideagroups.1015
+		100 = ideagroups.1016
+		100 = ideagroups.1017
+		100 = ideagroups.1018
+		100 = ideagroups.1019
+		100 = ideagroups.1020
+		100 = ideagroups.1021
+
+		# Economic		11 (7g 4b)
+		100 = ideagroups.1100
+		100 = ideagroups.1101
+		100 = ideagroups.1102
+		100 = ideagroups.1103
+		100 = ideagroups.1104
+		100 = ideagroups.1105
+		100 = ideagroups.1106
+		100 = ideagroups.1107
+		100 = ideagroups.1108
+		100 = ideagroups.1109
+		100 = ideagroups.1110
+
+		# Exploration		11 (7g 4b)
+		100 = ideagroups.1200
+		100 = ideagroups.1201
+		100 = ideagroups.1202
+		100 = ideagroups.1203
+		100 = ideagroups.1204
+		100 = ideagroups.1205
+		100 = ideagroups.1206
+		100 = ideagroups.1207
+		100 = ideagroups.1208
+		100 = ideagroups.1209
+		100 = ideagroups.1210
+
+		# Quality		11 (7g 4b)
+		100 = ideagroups.1300
+		100 = ideagroups.1301
+		100 = ideagroups.1302
+		100 = ideagroups.1303
+		100 = ideagroups.1304
+		100 = ideagroups.1305
+		100 = ideagroups.1306
+		100 = ideagroups.1307
+		100 = ideagroups.1308
+		100 = ideagroups.1309
+		100 = ideagroups.1310
+
+		# Quantity		11 (7g 4b)
+		100 = ideagroups.1400
+		100 = ideagroups.1401
+		100 = ideagroups.1402
+		100 = ideagroups.1403
+		100 = ideagroups.1404
+		100 = ideagroups.1405
+		100 = ideagroups.1406
+		100 = ideagroups.1407
+		100 = ideagroups.1408
+		100 = ideagroups.1409
+		100 = ideagroups.1410
+
+
+		# Expansion		11 (7g 4b)
+		100 = ideagroups.1500
+		100 = ideagroups.1501
+		100 = ideagroups.1502
+		100 = ideagroups.1503
+		100 = ideagroups.1504
+		100 = ideagroups.1505
+		100 = ideagroups.1506
+		100 = ideagroups.1507
+		100 = ideagroups.1508
+		100 = ideagroups.1509
+		100 = ideagroups.1510
+
+		# Administrative	3 (1g 2b)
+		100 = ideagroups.1600
+		100 = ideagroups.1601
+		100 = ideagroups.1602
+		100 = ideagroups.1603
+		100 = ideagroups.1604
+		100 = ideagroups.1605
+		100 = ideagroups.1606
+		100 = ideagroups.1607
+		100 = ideagroups.1608
+		100 = ideagroups.1609
+		100 = ideagroups.1610
+
+		# Naval		11 (7g 4b)
+		100 = ideagroups.1700
+		100 = ideagroups.1701
+		100 = ideagroups.1702
+		100 = ideagroups.1703
+		100 = ideagroups.1704
+		100 = ideagroups.1705
+		100 = ideagroups.1706
+		100 = ideagroups.1707
+		100 = ideagroups.1708
+		100 = ideagroups.1709
+		100 = ideagroups.1710
+
+		# Influence		11 (7g 4b)
+		100 = ideagroups.1800
+		100 = ideagroups.1801
+		100 = ideagroups.1802
+		100 = ideagroups.1803
+		100 = ideagroups.1804
+		100 = ideagroups.1805
+		100 = ideagroups.1806
+		100 = ideagroups.1807
+		100 = ideagroups.1808
+		100 = ideagroups.1809
+		100 = ideagroups.1810
+
+		# Humanist		11 (7g 4b)
+		100 = ideagroups.1900
+		100 = ideagroups.1901
+		100 = ideagroups.1902
+		100 = ideagroups.1903
+		100 = ideagroups.1904
+		100 = ideagroups.1905
+		100 = ideagroups.1906
+		100 = ideagroups.1907
+		100 = ideagroups.1908
+		100 = ideagroups.1909
+		100 = ideagroups.1910
+
+		1000 = 0
+	}
+
+}
+
+
+# Estates pulse
+on_five_year_pulse_2 = {
+
+	
+	random_events = {
+		100 = lotr_province_event.1
+	}
+}
+
+on_five_year_pulse_3 = {
+
+}
+
+on_five_year_pulse_4 = {
+
+}
+
+# El Dorado
+on_explore_coast = {
+
+}
+on_conquistador_empty = {
+
+}
+
+on_conquistador_native = {
+
+}
+
+on_buy_religious_reform = {
+
+}
+
+on_circumnavigation = {
+
+}
+
+on_become_free_city = {
+
+}
+
+on_remove_free_city = {
+
+}
+
+on_revoke_estate_land_ai = { #AI can't handle the rebels atm or perform a gradual revoke, sorry
+
+}
+
+on_revoke_estate_land = {
+
+}
+
+on_grant_estate_land = {
+
+}
+
+on_death_has_harem = {
+
+}
+
+on_select_heir_from_harem = {
+
+}
+
+on_fetishist_cult_change = {
+
+}
+
+# country
+on_gain_great_power_status = {
+
+    
+	if = {
+		limit = {
+			NOT = { has_country_flag = became_great_power_flag }
+		}
+		set_country_flag = became_great_power_flag
+	}
+}
+
+# country
+on_lose_great_power_status = {
+
+}
+
+# province
+on_province_religion_converted = {
+
+}
+
+# province
+on_province_culture_converted = {
+
+}
+
+# THIS = Province, FROM = Country who Propogated
+on_convert_by_trade_policy = {
+
+}
+
+# province
+# FROM = old owner
+on_province_owner_change = {
+
+}
+
+# country
+on_parliament_debate_failed = {
+
+}
+
+# country
+on_parliament_debate_succeeded = {
+
+}
+
+# country
+on_harmonized_pagan = {
+
+}
+on_harmonized_christian = {
+
+}
+on_harmonized_muslim = {
+
+}
+on_harmonized_jewish_group = {
+
+}
+on_harmonized_zoroastrian_group = {
+
+}
+on_harmonized_dharmic = {
+
+}
+on_harmonized_mahayana = {
+
+}
+on_harmonized_buddhism = { #Theravada
+
+}
+on_harmonized_shinto = {
+
+}
+on_harmonized_vajrayana = {
+
+}
+
+# country
+on_russian_sudebnik = {
+
+}
+
+# country
+on_russian_oprichnina = {
+
+}
+
+# country
+on_russian_streltsy = {
+
+}
+
+# province
+on_consecrate_patriarch = {
+
+}
+
+# country. from = overlord
+on_accept_tribute = {
+
+}
+
+# country. from = overlord
+on_refuse_tribute = {
+
+}
+
+# country
+on_leader_recruited = {
+}
+
+# country
+on_general_recruited = {
+	add_army_professionalism = 0.01
+}
+
+# country
+on_admiral_recruited = {
+}
+
+# country
+on_conquistador_recruited = {
+}
+
+# country
+on_explorer_recruited = {
+}
+
+# THIS = Province, FROM = Country
+on_regiment_recruited = {
+
+}
+
+# THIS = Province, FROM = Country
+on_mercenary_recruited = {
+	FROM = {
+		add_army_professionalism = -0.0015
+	}
+}
+
+# THIS = One province in the state
+on_add_pasha = {
+}
+
+# THIS = One province in the state
+on_remove_pasha = {
+
+}
+
+# THIS = Province
+on_janissaries_raised = {
+}
+
+on_reform_enacted = {
+}
+
+on_reform_changed = {
+}
+
+on_trade_company_investment = {
+}
+
+on_center_of_trade_upgrade = {
+
+}
+
+on_center_of_trade_downgrade = {
+
+}
+
+on_culture_promoted = {
+
+}
+
+# FROM = Previous Country, ROOT = Province
+on_company_chartered = {
+	
+}
+
+# ROOT = Overlord, FROM = Minor
+on_dependency_gained = {
+	
+}
+
+# ROOT = Overlord, FROM = Minor
+on_dependency_lost = {
+	
+}
+
+# ROOT = New vassal, FROM = Overlord
+on_create_vassal = {
+
+}
+
+# ROOT = Country establishing it
+# First province in state is set
+on_holy_order_established = {
+
+}
+
+# When a minority is expelled to a colony
+# THIS = Colony, ROOT = Colony, FROM = Home province
+on_minority_expelled = {
+
+}
+
+# THIS = Raiding country, FROM = Sea province
+on_raid_coast = {
+
+}
+
+# ROOT = Tag that captured the flagship, FROM = Tag that lost the flagship
+on_flagship_captured = {
+
+}
+
+# ROOT = Tag that destroyed the flagship, FROM = Tag that lost the flagship
+on_flagship_destroyed = {
+
+}
+
+# this = Released country, FROM = Releasing country
+on_country_released = {
+
+}

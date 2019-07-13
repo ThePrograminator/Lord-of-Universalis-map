@@ -1,0 +1,148 @@
+#Country Name: Please see filename.
+graphical_culture = inuitgfx
+
+color = { 0 245 255 }
+
+historical_idea_groups = {
+	offensive_ideas
+	diplomatic_ideas
+	defensive_ideas
+	innovativeness_ideas
+	administrative_ideas
+	quantity_ideas
+	economic_ideas
+	aristocracy_ideas
+}
+
+historical_units = {
+	lotr_snowmen_harpoon_fishers_1
+	lotr_snowmen_winter_coats_2
+	lotr_snowmen_whale_hunters_3
+
+	lotr_snowmen_wolf_sled_ambushers_1
+}
+
+monarch_names = {
+	"Ággi" = 10 
+	"Áigesárri" = 10 
+	"Áilu" = 10 
+	"Ámmot" = 10 
+	"Ára" = 10
+	"Árrajuoksa" = 10 
+	"Ásllat" = 10 
+	"Èoavvá" = 10 
+	"Ahkemiella" = 10 
+	"Algebaeivi" = 10 
+	"Baeivi" = 10 
+	"Baeivvet" = 10 
+	"Biejan" = 10 
+	"Bijás" = 10 
+	"Bilzi" = 10 
+	"Dávgon" = 10 
+	"Duttá" = 10 
+	"Gáivvas" = 10
+	"Gáktu" = 10 
+	"Henes" = 10 
+	"Járre" = 10 
+	"Jeansa" = 10 
+	"Juvven" = 10 
+	"John" = 10 
+	"Lágon" = 10 
+	"Lávrrohas" = 10 
+	"Leammá" = 10 
+	"Mellet" = 10 
+	"Mihka" = 10 
+	"Mohkku" = 10 
+	"Mokci" = 10 
+	"Náhkol" = 10 
+	"Náinnas" = 10 
+	"Njulgu" = 10 
+	"Oaván" = 10 
+	"Orddot" = 10 
+	"Rástos" = 10 
+	"Riibma" = 10 
+	"Ruigi" = 10
+	"Sárra" = 10 
+	"Speaidna" = 10 
+	"Viggu" = 10 
+	"Alik" = 10 
+	"Hasaba" = 10 
+	"Kako" = 10 
+	"Kharuchi" = 10 
+	"Kolik" = 10 
+	"Mandak" = 10 
+	"Nabtiko" = 10 
+	"Nenyts" = 10 
+	"Nga" = 10 
+	"Ngënoh" = 10 
+	"Noumea" = 10 
+	"Num" = 10 
+	"Nyalku" = 10 
+	"Panay" = 10 
+	"Pudak" = 10 
+	"Salinder" = 10 
+	"Samatu" = 10 
+	"Sarak" = 10 
+	"Sirtya" = 10
+	"Somatu" = 10 
+	"Syudbya" = 10 
+	"Tatva" = 10 
+	"Tolik" = 10 
+	"Vesei" = 10 
+	"Wayngachi" = 10 
+	"Xëryuchi" = 10 
+	"Yadne" = 10 
+	"Yapti" = 10 
+	"Yar" = 10 
+	"Yavlad" = 10 
+	"YurakAndyamo" = 10 
+	"Chichayka" = 10 
+	"Chumbulat" = 10 
+	"Dergun" = 10 
+	"Deryab" = 10 
+	"Dobrinya" = 10 
+	"Erziya" = 10 
+	"Inzhay" = 10
+	"Kezhapa" = 10 
+	"Kezhay" = 10 
+	"Kezhedey" = 10 
+	"Kezhevat" = 10 
+	"Kichay" = 10 
+	"Kubrat" = 10 
+	"Malyaka" = 10 
+	"Malyy" = 10 
+	"Meltsayka" = 10 
+	"Mordvinko" = 10 
+	"Moksha" = 10
+	"Nalka" = 10 
+	"Nuyaksha" = 10 
+	"Nuyanza" = 10 
+	"Nuyat" = 10 
+	"Pakstyan" = 10 
+	"Paksyay"  = 10 
+	"Paksyut" = 10 
+	"Parush" = 10 
+	"Pivtsay" = 10 
+	"Pokshayka" = 10 
+	"Putyayka" = 10 
+	"Shindyay" = 10 
+	"Shoksha" = 10 
+	"Syrka" = 10 
+	"Tikshayka" = 10
+}
+
+leader_names = {
+	
+}
+
+ship_names = {
+	
+}
+
+army_names = {
+	"Regiment of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}

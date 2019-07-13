@@ -1,0 +1,110 @@
+# For specific government types
+# Will pick the first valid one it finds in list
+
+gov_lotr_orc_clan = {
+	rank = {
+		1 = ORC_TRIBE
+		2 = ORC_CLAN
+		3 = ORC_HORDE
+	}
+
+	ruler_male = {
+		1 = ORC_CHEIF
+		2 = ORC_CHEIF
+		3 = ORC_CHEIF
+	}
+	
+	trigger = {
+		has_reform = lotr_orc_clan_reform
+	}
+}
+
+gov_lotr_orc_federation_clan = {
+	rank = {
+		1 = ORC_BAND
+		2 = ORC_FEDERATION
+		3 = ORC_FACTION
+	}
+
+	ruler_male = {
+		1 = ORC_CHEIF
+		2 = ORC_CHEIF
+		3 = ORC_CHEIF
+	}
+	
+	trigger = {
+		has_reform = lotr_orc_clan_federation_reform
+	}
+}
+
+gov_lotr_orc_kingdom_clan = {
+	rank = {
+		1 = ORC_TRIBE
+		2 = ORC_REALM
+		3 = ORC_KINGDOM
+	}
+
+	ruler_male = {
+		1 = ORC_KING
+		2 = ORC_KING
+		3 = ORC_KING
+	}
+	
+	trigger = {
+		has_reform = lotr_orc_kingdom_reform
+	}
+}
+
+gov_lotr_nazgul = {
+	rank = {
+		1 = NAZGUL_OUTPOST
+		2 = NAZGUL_DOMAIN
+		3 = NAZGUL_KINGDOM
+	}
+
+	ruler_male = {
+		1 = NAZGUL
+		2 = NAZGUL
+		3 = NAZGUL
+	}
+	
+	trigger = {
+		has_reform = lotr_nazgul_reform
+	}
+}
+
+gov_lotr_isengard = {
+	rank = {
+		1 = ISENGARD
+		2 = ISENGARD
+		3 = ISENGARD
+	}
+
+	ruler_male = {
+		1 = ISENGARD_RULER
+		2 = ISENGARD_RULER
+		3 = ISENGARD_RULER
+	}
+	
+	trigger = {
+		has_reform = lotr_isengard_reform
+	}
+}
+
+gov_lotr_mordor = {
+	rank = {
+		1 = MORDOR
+		2 = MORDOR
+		3 = MORDOR
+	}
+
+	ruler_male = {
+		1 = MORDOR_RULER
+		2 = MORDOR_RULER
+		3 = MORDOR_RULER
+	}
+	
+	trigger = {
+		has_reform = lotr_mordor_reform
+	}
+}

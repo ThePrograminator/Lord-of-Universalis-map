@@ -1,0 +1,15 @@
+# Easterling Horse Archers
+type = cavalry
+unit_type = lotr_easterling
+
+maneuver = 2
+offensive_morale = 5
+defensive_morale = 5
+offensive_fire = 0
+defensive_fire = 0
+offensive_shock = 5
+defensive_shock = 3
+
+trigger = {
+	culture_group = culture_group_ioriags
+}

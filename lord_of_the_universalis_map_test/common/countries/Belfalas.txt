@@ -1,0 +1,158 @@
+#Country Name: Please see filename.
+
+graphical_culture = lotr_gondorian_gfx
+
+color = { 15  75  140 }
+
+historical_idea_groups = {
+	aristocracy_ideas
+	diplomatic_ideas
+	offensive_ideas
+	economic_ideas
+	trade_ideas
+	quality_ideas
+	humanist_ideas
+	defensive_ideas
+}
+
+historical_units = {
+	lotr_dunedain_militia_1
+	lotr_dunedain_pelargir_spears_2
+	lotr_dunedain_gondor_spears_3
+	lotr_dunedain_fountain_spear_4
+	lotr_dunedain_osgiliath_guard_5
+
+	lotr_dunedain_militia_cavalry_1
+	lotr_dunedain_heavy_cavalry_2
+	lotr_dunedain_swan_cavalry_3
+}
+
+monarch_names = {
+	"Théoden  #1" = 10
+	
+	"Adrahil #0" = 10
+    "Amlaith #0" = 10
+    "Anardil #0" = 10
+    "Anárion #0" = 10
+    "Anborn #0" = 10
+    "Angbor #0" = 10
+    "Arador #0" = 10
+    "Arag #0" = 10
+    "Aragorn #0" = 10
+    "Aragost #0" = 10
+    "Arahad #0" = 10
+    "Arahael #0" = 10
+    "Aranarth #0" = 10
+    "Arannel #0" = 10
+    "Aranuir #0" = 10
+    "Araphant #0" = 10
+    "Araphor #0" = 10
+    "Arassuil #0" = 10
+    "Arathorn #0" = 10
+    "Araval #0" = 10
+    "Aravir #0" = 10
+    "Aravorn #0" = 10
+    "Argeleb #0" = 10
+    "Argonui #0" = 10
+    "Arvedui #0" = 10
+    "Arvegil #0" = 10
+    "Arve #0" = 10
+    "Baranor #0" = 10
+    "Belecthor #0" = 10
+    "Beleg #0" = 10
+    "Belegorn #0" = 10
+    "Beregond #0" = 10
+    "Beren #0" = 10
+    "Bergil #0" = 10
+    "Boromir #0" = 10
+    "Celepharn #0" = 10
+    "Cirion #0" = 10
+    "Damrod #0" = 10
+    "Denethor #0" = 10
+    "Derufin #0" = 10
+    "Dervorin #0" = 10
+    "Dírhael #0" = 10
+    "Duilin #0" = 10
+    "Duinhir #0" = 10
+    "Ecthelion #0" = 10
+    "Egalmoth #0" = 10
+    "Eldacar #0" = 10
+    "Eradan #0" = 10
+    "Faramir #0" = 10
+    "Findegil #0" = 10
+    "Finduilas #0" = 10
+    "Forlong #0" = 10
+    "Golasgil #0" = 10
+    "Halbarad #0" = 10
+    "Hallas #0" = 10
+    "Hirgon #0" = 10
+    "Hirluin #0" = 10
+    "Húrin #0" = 10
+    "Ingold #0" = 10
+    "Iorlas #0" = 10
+    "Mablung #0" = 10
+    "Malbeth #0" = 10
+    "Malvegil #0" = 10
+    "Ohtar #0" = 10
+    "Orodreth #0" = 10
+    "Orondir #0" = 10
+    "Orongil #0" = 10
+    "Turgon #0" = 10
+
+    "Gilraen #0" = -10
+    "Ioreth #0" = -10
+    "Ivorwen #0" = -10
+    "Lothíriel #0" = -10
+    "Morwen #0" = -10
+}
+
+leader_names = {
+	
+}
+
+ship_names = {
+	Eagletree
+	Feathersun
+	Lowtree
+	Distantblade
+	Pineweaver
+	Oceanfang
+	Humbleripper
+	Wiseblood
+	Sunmantle
+	Grandpunch
+	Pyrefollower
+	Hawkfall
+	Heartsteam
+	Stonestrength
+	Mastertide
+	Gloomsworn
+	Redfist
+	Riverwinds
+	Skyspire
+	Fireclaw
+	Lunapike
+	Whitbane
+	Tarrensnow
+	Leafroot
+	Softswallow
+	Peacereaper
+	Stagarm
+	Monsterfury
+	Horsebinder
+	Strongmoon
+	Moltenmourn
+	Skymight
+	Covenstriker
+	Glowstrider
+	Farwatcher
+	Fallendown
+	Tarrengem
+	Stonestar
+	Fernstriker
+	Roughheart
+}
+
+army_names = {
+	"Men of $PROVINCE$" 
+}

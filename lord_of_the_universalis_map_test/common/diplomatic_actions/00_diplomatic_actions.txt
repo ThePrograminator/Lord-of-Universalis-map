@@ -1,0 +1,980 @@
+# INSTRUCTIONS:
+#
+# condition				A diplomatic action can have any number of condition blocks, each with its own
+#						tooltip, potential and allow section
+#
+# 	tooltip					Sets a custom text string similar to the hardcoded limits
+# 							If no tooltip is scripted, the tooltip for the actual trigger will be shown
+#							Note that the custom tooltip is only shown if the allow trigger is NOT met
+#
+# 	potential				Determines if the trigger is applicable or not
+# 	allow					Determines if the action is valid or not
+#
+# effect				A diplomatic action can only have one effect block
+
+# ROOT					actor
+# FROM					target
+
+########################################
+# DIPLOMATIC ACTIONS
+########################################
+# royal_marriage
+# declarewar
+# requestpeace
+# support_independence_action
+# allianceaction
+# embargoaction
+# annexationaction
+# integrationaction
+# vassalaction
+# guaranteeaction
+# warningaction
+# threaten_war
+# milaccess
+# fleet_access
+# offer_fleet_access
+# offermilaccess
+# insultaction
+# giftaction
+# claimaction
+# callaction
+# offerloan
+# warsubsidy
+# sellprov
+# imperial_relations_action
+# religious_unity_action
+# grant_electorate
+# remove_electorate
+# grant_freecity
+# remove_freecity
+# demand_unlawful_territory_action
+# call_crusade_action
+# excommunicate_action
+# enforce_peace
+# improve_relation
+# fabricate_claim
+# justify_trade_conflict
+# transfer_trade_power
+# infiltrate_administration
+# sabotage_reputation
+# support_rebels
+# sow_discontent
+# study_technology
+# agitate_for_liberty
+# form_coalition
+# request_to_join_federation
+# invite_to_federation
+# support_heir
+# break_marriage
+# designate_march
+# ask_for_march
+# sell_ships_action
+# counterespionage
+# abandon_union_action
+
+# religion_group_melkor cannot be diplomatic with non-religion_group_melkor
+
+declarewar = {
+	condition = {
+		tooltip = DECLARE_WAR
+		potential = {
+		}
+		allow = {
+			NOT = { tag = X13
+					tag = Z51
+					tag = Z52}
+		}
+	}
+}
+
+royal_marriage = {
+	condition = {
+		tooltip = MARWAR
+		potential = {
+		}
+		allow = {
+			NOT = { war_with = FROM }
+		}
+	}
+	
+	condition = {
+		tooltip = MELKOR_BAN
+		potential = {
+			religion_group = religion_group_melkor
+		}
+		allow = {
+			FROM = {
+				religion_group = religion_group_melkor
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = OPP_MELKOR_BAN
+		potential = {
+			NOT = { religion_group = religion_group_melkor }
+		}
+		allow = {
+			FROM = {
+				NOT = { religion_group = religion_group_melkor }
+			}
+		}
+	}
+}
+
+guaranteeaction = {
+	condition = {
+		tooltip = MELKOR_BAN
+		potential = {
+			religion_group = religion_group_melkor
+		}
+		allow = {
+			OR = {
+				FROM = {
+					religion_group = religion_group_melkor
+				}
+				FROM = {
+					religion_group = religion_group_hildor
+				}
+				FROM = {
+					religion = religion_nurning
+				}
+				FROM = {
+					religion = religion_daen
+				}
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = OPP_MELKOR_BAN
+		potential = {
+			NOT = { religion_group = religion_group_melkor }
+			NOT = { religion_group = religion_group_hildor }
+			NOT = { religion = religion_nurning }
+			NOT = { religion = religion_daen }
+		}
+		allow = {
+			FROM = {
+				NOT = { religion_group = religion_group_melkor }
+			}
+		}
+	}
+}
+
+giftaction = {
+	condition = {
+		tooltip = MELKOR_BAN
+		potential = {
+			religion_group = religion_group_melkor
+		}
+		allow = {
+			OR = {
+				FROM = {
+					religion_group = religion_group_melkor
+				}
+				FROM = {
+					religion_group = religion_group_hildor
+				}
+				FROM = {
+					religion = religion_nurning
+				}
+				FROM = {
+					religion = religion_daen
+				}
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = OPP_MELKOR_BAN
+		potential = {
+			NOT = { religion_group = religion_group_melkor }
+			NOT = { religion_group = religion_group_hildor }
+			NOT = { religion = religion_nurning }
+			NOT = { religion = religion_daen }
+		}
+		allow = {
+			FROM = {
+				NOT = { religion_group = religion_group_melkor }
+			}
+		}
+	}
+}
+support_independence_action = {
+	condition = {
+		tooltip = MELKOR_BAN
+		potential = {
+			religion_group = religion_group_melkor
+		}
+		allow = {
+			OR = {
+				FROM = {
+					religion_group = religion_group_melkor
+				}
+				FROM = {
+					religion_group = religion_group_hildor
+				}
+				FROM = {
+					religion = religion_nurning
+				}
+				FROM = {
+					religion = religion_daen
+				}
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = OPP_MELKOR_BAN
+		potential = {
+			NOT = { religion_group = religion_group_melkor }
+			NOT = { religion_group = religion_group_hildor }
+			NOT = { religion = religion_nurning }
+			NOT = { religion = religion_daen }
+		}
+		allow = {
+			FROM = {
+				NOT = { religion_group = religion_group_melkor }
+			}
+		}
+	}
+}
+
+milaccess = {
+	condition = {
+		tooltip = MELKOR_BAN
+		potential = {
+			religion_group = religion_group_melkor
+		}
+		allow = {
+			OR = {
+				FROM = {
+					religion_group = religion_group_melkor
+				}
+				FROM = {
+					religion_group = religion_group_hildor
+				}
+				FROM = {
+					religion = religion_nurning
+				}
+				FROM = {
+					religion = religion_daen
+				}
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = OPP_MELKOR_BAN
+		potential = {
+			NOT = { religion_group = religion_group_melkor }
+			NOT = { religion_group = religion_group_hildor }
+			NOT = { religion = religion_nurning }
+			NOT = { religion = religion_daen }
+		}
+		allow = {
+			FROM = {
+				NOT = { religion_group = religion_group_melkor }
+			}
+		}
+	}
+}
+
+fleet_access = {
+	condition = {
+		tooltip = MELKOR_BAN
+		potential = {
+			religion_group = religion_group_melkor
+		}
+		allow = {
+			OR = {
+				FROM = {
+					religion_group = religion_group_melkor
+				}
+				FROM = {
+					religion_group = religion_group_hildor
+				}
+				FROM = {
+					religion = religion_nurning
+				}
+				FROM = {
+					religion = religion_daen
+				}
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = OPP_MELKOR_BAN
+		potential = {
+			NOT = { religion_group = religion_group_melkor }
+			NOT = { religion_group = religion_group_hildor }
+			NOT = { religion = religion_nurning }
+			NOT = { religion = religion_daen }
+		}
+		allow = {
+			FROM = {
+				NOT = { religion_group = religion_group_melkor }
+			}
+		}
+	}
+}	
+
+offer_fleet_access = {
+	condition = {
+		tooltip = MELKOR_BAN
+		potential = {
+			religion_group = religion_group_melkor
+		}
+		allow = {
+			OR = {
+				FROM = {
+					religion_group = religion_group_melkor
+				}
+				FROM = {
+					religion_group = religion_group_hildor
+				}
+				FROM = {
+					religion = religion_nurning
+				}
+				FROM = {
+					religion = religion_daen
+				}
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = OPP_MELKOR_BAN
+		potential = {
+			NOT = { religion_group = religion_group_melkor }
+			NOT = { religion_group = religion_group_hildor }
+			NOT = { religion = religion_nurning }
+			NOT = { religion = religion_daen }
+		}
+		allow = {
+			FROM = {
+				NOT = { religion_group = religion_group_melkor }
+			}
+		}
+	}
+}
+
+offermilaccess = {
+	condition = {
+		tooltip = MELKOR_BAN
+		potential = {
+			religion_group = religion_group_melkor
+		}
+		allow = {
+			OR = {
+				FROM = {
+					religion_group = religion_group_melkor
+				}
+				FROM = {
+					religion_group = religion_group_hildor
+				}
+				FROM = {
+					religion = religion_nurning
+				}
+				FROM = {
+					religion = religion_daen
+				}
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = OPP_MELKOR_BAN
+		potential = {
+			NOT = { religion_group = religion_group_melkor }
+			NOT = { religion_group = religion_group_hildor }
+			NOT = { religion = religion_nurning }
+			NOT = { religion = religion_daen }
+		}
+		allow = {
+			FROM = {
+				NOT = { religion_group = religion_group_melkor }
+			}
+		}
+	}
+}
+
+offerloan = {
+	condition = {
+		tooltip = MELKOR_BAN
+		potential = {
+			religion_group = religion_group_melkor
+		}
+		allow = {
+			OR = {
+				FROM = {
+					religion_group = religion_group_melkor
+				}
+				FROM = {
+					religion_group = religion_group_hildor
+				}
+				FROM = {
+					religion = religion_nurning
+				}
+				FROM = {
+					religion = religion_daen
+				}
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = OPP_MELKOR_BAN
+		potential = {
+			NOT = { religion_group = religion_group_melkor }
+			NOT = { religion_group = religion_group_hildor }
+			NOT = { religion = religion_nurning }
+			NOT = { religion = religion_daen }
+		}
+		allow = {
+			FROM = {
+				NOT = { religion_group = religion_group_melkor }
+			}
+		}
+	}
+}
+
+warsubsidy = {
+	condition = {
+		tooltip = MELKOR_BAN
+		potential = {
+			religion_group = religion_group_melkor
+		}
+		allow = {
+			FROM = {
+				religion_group = religion_group_melkor
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = OPP_MELKOR_BAN
+		potential = {
+			NOT = { religion_group = religion_group_melkor }
+		}
+		allow = {
+			FROM = {
+				NOT = { religion_group = religion_group_melkor }
+			}
+		}
+	}
+}
+
+sellprov = {
+	condition = {
+		tooltip = MELKOR_BAN
+		potential = {
+			religion_group = religion_group_melkor
+		}
+		allow = {
+			OR = {
+				FROM = {
+					religion_group = religion_group_melkor
+				}
+				FROM = {
+					religion_group = religion_group_hildor
+				}
+				FROM = {
+					religion = religion_nurning
+				}
+				FROM = {
+					religion = religion_daen
+				}
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = OPP_MELKOR_BAN
+		potential = {
+			NOT = { religion_group = religion_group_melkor }
+			NOT = { religion_group = religion_group_hildor }
+			NOT = { religion = religion_nurning }
+			NOT = { religion = religion_daen }
+		}
+		allow = {
+			FROM = {
+				NOT = { religion_group = religion_group_melkor }
+			}
+		}
+	}
+}
+
+enforce_peace = {
+	condition = {
+		tooltip = MELKOR_BAN
+		potential = {
+			religion_group = religion_group_melkor
+		}
+		allow = {
+			OR = {
+				FROM = {
+					religion_group = religion_group_melkor
+				}
+				FROM = {
+					religion_group = religion_group_hildor
+				}
+				FROM = {
+					religion = religion_nurning
+				}
+				FROM = {
+					religion = religion_daen
+				}
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = OPP_MELKOR_BAN
+		potential = {
+			NOT = { religion_group = religion_group_melkor }
+			NOT = { religion_group = religion_group_hildor }
+			NOT = { religion = religion_nurning }
+			NOT = { religion = religion_daen }
+		}
+		allow = {
+			FROM = {
+				NOT = { religion_group = religion_group_melkor }
+			}
+		}
+	}
+}
+
+improve_relation = {
+	condition = {
+		tooltip = MELKOR_BAN
+		potential = {
+			religion_group = religion_group_melkor
+		}
+		allow = {
+			OR = {
+				FROM = {
+					religion_group = religion_group_melkor
+				}
+				FROM = {
+					religion_group = religion_group_hildor
+				}
+				FROM = {
+					religion = religion_nurning
+				}
+				FROM = {
+					religion = religion_daen
+				}
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = OPP_MELKOR_BAN
+		potential = {
+			NOT = { religion_group = religion_group_melkor }
+			NOT = { religion_group = religion_group_hildor }
+			NOT = { religion = religion_nurning }
+			NOT = { religion = religion_daen }
+		}
+		allow = {
+			FROM = {
+				NOT = { religion_group = religion_group_melkor }
+			}
+		}
+	}
+}
+
+transfer_trade_power = {
+	condition = {
+		tooltip = MELKOR_BAN
+		potential = {
+			religion_group = religion_group_melkor
+		}
+		allow = {
+			OR = {
+				FROM = {
+					religion_group = religion_group_melkor
+				}
+				FROM = {
+					religion_group = religion_group_hildor
+				}
+				FROM = {
+					religion = religion_nurning
+				}
+				FROM = {
+					religion = religion_daen
+				}
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = OPP_MELKOR_BAN
+		potential = {
+			NOT = { religion_group = religion_group_melkor }
+			NOT = { religion_group = religion_group_hildor }
+			NOT = { religion = religion_nurning }
+			NOT = { religion = religion_daen }
+		}
+		allow = {
+			FROM = {
+				NOT = { religion_group = religion_group_melkor }
+			}
+		}
+	}
+}
+
+allianceaction = {
+	condition = {
+		tooltip = MELKOR_BAN
+		potential = {
+			religion_group = religion_group_melkor
+		}
+		allow = {
+			OR = {
+				FROM = {
+					religion_group = religion_group_melkor
+				}
+				FROM = {
+					religion_group = religion_group_hildor
+				}
+				FROM = {
+					religion = religion_nurning
+				}
+				FROM = {
+					religion = religion_daen
+				}
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = OPP_MELKOR_BAN
+		potential = {
+			NOT = { religion_group = religion_group_melkor }
+			NOT = { religion_group = religion_group_hildor }
+			NOT = { religion = religion_nurning }
+			NOT = { religion = religion_daen }
+		}
+		allow = {
+			FROM = {
+				NOT = { religion_group = religion_group_melkor }
+			}
+		}
+	}
+}
+
+
+annexationaction = {
+	condition = {
+		tooltip = ANNEX_TOO_LOW
+		potential = {
+			FROM = {
+				vassal_of = ROOT
+			}
+		}
+		allow = {
+			FROM = {
+				has_opinion = {
+					who = ROOT
+					value = 190
+				}
+			}
+		}
+	}
+	condition = {
+		tooltip = MELKOR_BAN
+		potential = {
+			religion_group = religion_group_melkor
+		}
+		allow = {
+			OR = {
+				FROM = {
+					religion_group = religion_group_melkor
+				}
+				FROM = {
+					religion_group = religion_group_hildor
+				}
+				FROM = {
+					religion = religion_nurning
+				}
+				FROM = {
+					religion = religion_daen
+				}
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = OPP_MELKOR_BAN
+		potential = {
+			NOT = { religion_group = religion_group_melkor }
+			NOT = { religion_group = religion_group_hildor }
+			NOT = { religion = religion_nurning }
+			NOT = { religion = religion_daen }
+		}
+		allow = {
+			FROM = {
+				NOT = { religion_group = religion_group_melkor }
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = SAURON_BLOCK
+		potential = {
+			tag = X16
+		}
+		allow = {
+			has_country_flag = sauron_power_level_3
+		}
+	}
+}
+
+integrationaction = {
+	condition = {
+		tooltip = INTEGRATETOOLOWDESC
+		potential = {
+			senior_union_with = FROM
+		}
+		allow = {
+			FROM = {
+				has_opinion = {
+					who = ROOT
+					value = 190
+				}
+			}
+		}
+	}
+	condition = {
+		tooltip = MELKOR_BAN
+		potential = {
+			religion_group = religion_group_melkor
+		}
+		allow = {
+			OR = {
+				FROM = {
+					religion_group = religion_group_melkor
+				}
+				FROM = {
+					religion_group = religion_group_hildor
+				}
+				FROM = {
+					religion = religion_nurning
+				}
+				FROM = {
+					religion = religion_daen
+				}
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = OPP_MELKOR_BAN
+		potential = {
+			NOT = { religion_group = religion_group_melkor }
+			NOT = { religion_group = religion_group_hildor }
+			NOT = { religion = religion_nurning }
+			NOT = { religion = religion_daen }
+		}
+		allow = {
+			FROM = {
+				NOT = { religion_group = religion_group_melkor }
+			}
+		}
+	}
+}
+
+vassalaction = {
+	condition = {
+		tooltip = VASSALINVALID
+		potential = {
+		}
+		allow = {
+			alliance_with = FROM
+			FROM = {
+				has_opinion = {
+					who = ROOT
+					value = 190
+				}
+			}
+			FROM = { is_at_war = no }
+		}
+	}
+	condition = {
+		tooltip = MELKOR_BAN
+		potential = {
+			religion_group = religion_group_melkor
+		}
+		allow = {
+			OR = {
+				FROM = {
+					religion_group = religion_group_melkor
+				}
+				FROM = {
+					religion_group = religion_group_hildor
+				}
+				FROM = {
+					religion = religion_nurning
+				}
+				FROM = {
+					religion = religion_daen
+				}
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = OPP_MELKOR_BAN
+		potential = {
+			NOT = { religion_group = religion_group_melkor }
+			NOT = { religion_group = religion_group_hildor }
+			NOT = { religion = religion_nurning }
+			NOT = { religion = religion_daen }
+		}
+		allow = {
+			FROM = {
+				NOT = { religion_group = religion_group_melkor }
+			}
+		}
+	}
+}
+
+form_coalition = {
+	condition = {
+		tooltip = MINAGGRESSIVEEXPANSION
+		potential = {	
+		}
+		allow = {
+			has_opinion_modifier = {
+				modifier = aggressive_expansion
+				who = FROM
+			}		
+			NOT = {
+				has_opinion_modifier = {
+					modifier = aggressive_expansion
+					who = FROM
+					value = -50
+				}
+			}
+		}
+	}
+}
+
+call_crusade_action = {
+	condition = {
+		tooltip = CALL_CRUSADE
+		potential = {
+			is_papal_controller = yes
+		}
+		allow = {
+			is_papal_controller = yes
+			
+			NOT = { 
+				war_with = FROM
+				FROM = {
+					religion_group = religion_group_hildor
+				}
+				border_distance = {
+				who = FROM
+				distance = 300
+				}
+			}
+			FROM = {
+				#num_of_cities = 20
+				num_of_cities = ROOT
+			}
+		}
+	}
+	effect = {
+		#country_event = { id = flavor_harad.1 days = 32 }
+		country_event = { id = flavor_harad.1}
+		#add_adm_power = 50
+		FROM = {
+			set_country_flag = Invasion_called
+		}
+	}
+}
+
+sell_ships_action = {
+	condition = {
+		tooltip = MELKOR_BAN
+		potential = {
+			religion_group = religion_group_melkor
+		}
+		allow = {
+			OR = {
+				FROM = {
+					religion_group = religion_group_melkor
+				}
+				FROM = {
+					religion_group = religion_group_hildor
+				}
+				FROM = {
+					religion = religion_nurning
+				}
+				FROM = {
+					religion = religion_daen
+				}
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = OPP_MELKOR_BAN
+		potential = {
+			NOT = { religion_group = religion_group_melkor }
+			NOT = { religion_group = religion_group_hildor }
+			NOT = { religion = religion_nurning }
+			NOT = { religion = religion_daen }
+		}
+		allow = {
+			FROM = {
+				NOT = { religion_group = religion_group_melkor }
+			}
+		}
+	}
+}
+
+condottieri_action = {
+	condition = {
+		tooltip = MELKOR_BAN
+		potential = {
+			religion_group = religion_group_melkor
+		}
+		allow = {
+			OR = {
+				FROM = {
+					religion_group = religion_group_melkor
+				}
+				FROM = {
+					religion_group = religion_group_hildor
+				}
+				FROM = {
+					religion = religion_nurning
+				}
+				FROM = {
+					religion = religion_daen
+				}
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = OPP_MELKOR_BAN
+		potential = {
+			NOT = { religion_group = religion_group_melkor }
+			NOT = { religion_group = religion_group_hildor }
+			NOT = { religion = religion_nurning }
+			NOT = { religion = religion_daen }
+		}
+		allow = {
+			FROM = {
+				NOT = { religion_group = religion_group_melkor }
+			}
+		}
+	}
+}

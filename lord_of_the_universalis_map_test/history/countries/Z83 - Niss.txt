@@ -1,0 +1,8 @@
+mercantilism = 0.1
+government = monarchy
+add_government_reform = feudalism_reform
+
+primary_culture = culture_nissians
+religion = religion_easterlings
+technology_group = lotr_easterling 
+capital = 517

@@ -1,0 +1,15 @@
+# Mounted Clans Guard
+type = cavalry
+unit_type = lotr_daen
+
+maneuver = 2
+offensive_morale = 4
+defensive_morale = 0
+offensive_fire = 2
+defensive_fire = 0
+offensive_shock = 4
+defensive_shock = 0
+
+trigger = {
+	culture_group = culture_group_borians
+}

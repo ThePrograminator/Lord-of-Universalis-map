@@ -1,0 +1,477 @@
+########################################
+# Events for Harad Countries
+#
+#
+########################################
+
+namespace = flavor_harad
+normal_or_historical_nations = yes
+
+#Invasion recieved (victim)
+country_event = {
+	id = flavor_harad.1
+	title = "invasion_called.1.title"
+	desc = "invasion_called.1.desc"
+	picture = CONQUEST_eventPicture
+	
+	trigger = {
+		has_country_flag = Invasion_called
+		NOT = {
+			has_country_flag = Invasion_called_response
+		}
+	}
+
+	option = {
+		name = "invasion_called.1.a"
+		
+		hidden_effect = {
+			country_event = {
+				id = flavor_harad.2
+				days = 365
+			}
+		}
+		
+		set_country_flag = Invasion_called_response
+	}			
+}
+
+#Invasion starts (victim)
+country_event = {
+	id = flavor_harad.2
+	title = "flavor_harad.2.title"
+	desc = "flavor_harad.2.desc"
+	picture = CONQUEST_eventPicture
+	is_triggered_only = yes
+	
+	major = yes
+	
+	trigger = {
+		has_country_flag = Invasion_called
+		has_country_flag = Invasion_called_response
+	}
+	
+	immediate = {
+		add_casus_belli = {
+			target = ROOT
+			type = cb_harad_invasion
+			months = 36
+		}
+	}
+
+	option = {
+		name = "flavor_harad.2.a"
+		
+		set_country_flag = Invasion_called_response
+		
+		every_country = {
+			limit = {
+				religion = religion_southron
+			}
+			
+			form_coalition_against = ROOT
+			
+			if = {
+				limit = {
+					religion = religion_southron
+					is_papal_controller = yes
+				}
+				
+				set_country_flag = Invasion_Warlord
+				
+				if = {
+					limit = {
+						tag = X01
+					}
+					set_country_flag = Invasion_Warlord_Gondor
+				}
+			}
+			
+			country_event = {
+				id = flavor_harad.3
+				days = 1
+			}
+		}
+	}			
+}
+
+#Invasion Starts! (Warlord)
+country_event = {
+	id = flavor_harad.3
+	title = "flavor_harad.3.title"
+	desc = "flavor_harad.3.desc"
+	picture = CONQUEST_eventPicture
+	is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+			has_country_flag = Invasion_Warlord
+			has_country_flag = Invasion_Warlord_Gondor
+		}
+		is_papal_controller = yes
+	}
+	
+	immediate = {
+		declare_war_with_cb = {
+			who =  FROM
+			casus_belli = cb_harad_invasion
+		}
+	}
+
+	option = {
+		name = "flavor_harad.3.a"
+		
+		trigger = {
+			has_country_flag = Invasion_Warlord
+		}
+		
+		every_country = {
+			limit = {
+				religion = religion_southron
+			}
+			
+			add_opinion = {
+				who = ROOT
+				modifier = harad_invasion_started_invasion
+				years = 10
+			}
+		}
+		
+		add_country_modifier = {
+			name = harad_warlord_invasion_war
+			duration = 2232
+		}
+		
+		set_country_flag = Invasion_declared_war_any_nation
+	}	
+	
+	option = {
+		name = "flavor_harad.3.b"
+		
+		trigger = {
+			has_country_flag = Invasion_Warlord_Gondor
+		}
+		
+		every_country = {
+			limit = {
+				religion = religion_southron
+			}
+			
+			add_opinion = {
+				who = ROOT
+				modifier = harad_invasion_started_invasion
+				years = 10
+			}
+		}
+		
+		add_country_modifier = {
+			name = harad_warlord_invasion_war_gondor
+			duration = 2232
+		}
+		
+		set_country_flag = Invasion_declared_war_gondor
+	}
+}
+
+#Not Declaring invasion against Gondor
+country_event = {
+	id = flavor_harad.4
+	title = "invasion.4.title"
+	desc = "invasion.4.desc"
+	picture = CONQUEST_eventPicture
+	
+	trigger = {
+			exists = X01
+			X01 = {
+				num_of_cities = ROOT
+			
+				NOT = {
+					has_country_flag = Invasion_called_response
+				}
+			}
+			
+			is_papal_controller = yes
+			
+			NOT = {
+				has_country_flag = Invasion_Warlord
+				has_country_flag = Invasion_Warlord_didnt_start_invasion
+				has_country_flag = Invasion_declared_war_any_nation
+				has_country_flag = Invasion_declared_war_gondor
+				has_country_flag = Invasion_Promise
+				has_country_modifier = harad_invasion_not_declaring
+				has_country_modifier = harad_invasion_didnt_keep_promise
+				truce_with = X01
+			}
+	}
+	
+	mean_time_to_happen = {
+		days = 21900
+	}
+
+	#Declaring Invasion
+	option = {
+		trigger = {
+			NOT = {
+				ai = yes
+			}
+		}
+		name = "invasion.4.a"
+		custom_tooltip = invasion_started.3_text
+		ai_chance = { factor = 75 }
+		
+		set_country_flag = Invasion_Promise
+	}
+
+	#Not Declaring Invasion
+	option = {
+		name = "invasion.4.b"
+		ai_chance = { factor = 15 }
+		add_stability = -1
+		add_prestige = -25
+		add_legitimacy = -25
+			
+		every_country = {
+			limit = {
+				religion = religion_southron
+			}
+			
+			add_opinion = {
+				who = ROOT
+				modifier = harad_invasion_didnt_start_invasion
+				years = 10
+			}
+		}
+			
+		hidden_effect = {
+			add_country_modifier = {
+				name = harad_invasion_not_declaring
+				duration = 3650
+			}
+		}
+	}	
+	
+	option = {
+		trigger = {
+			ai = yes
+		}
+		name = "invasion.4.c"
+		custom_tooltip = invasion_started.3_text
+		ai_chance = { factor = 75 }
+		
+		if = {
+			limit = {
+				ai = yes
+			}
+			
+			X01 = {
+				set_country_flag = Invasion_called
+			}
+			country_event = { id = flavor_harad.1}
+		}
+	}
+}
+
+#promised invasion but didnt do it!
+country_event = {
+	id = flavor_harad.5
+	title = "invasion.5.title"
+	desc = "invasion.5.desc"
+	picture = CONQUEST_eventPicture
+	
+	trigger = {
+		is_papal_controller = yes
+		#has_country_flag = Invasion_Promise
+		had_country_flag = {
+			flag = Invasion_Promise
+			days = 365 
+		}
+		
+		X01 = {
+			NOT = {
+				has_country_flag = Invasion_called
+			}
+		}
+		
+		NOT = {
+			has_country_flag = Invasion_Warlord
+			has_country_flag = Invasion_Warlord_Gondor
+			has_country_flag = Invasion_Warlord_didnt_start_invasion
+			has_country_flag = Invasion_declared_war_any_nation
+			has_country_flag = Invasion_declared_war_gondor
+			has_country_modifier = harad_invasion_not_declaring
+		}
+	}
+
+	#Didnt declare invasion
+	option = {
+		name = "invasion.5.a"
+		add_stability = -2
+		add_prestige = -50
+		add_legitimacy = -25
+		
+		every_country = {
+			limit = {
+				religion = religion_southron
+			}
+			
+			add_opinion = {
+				who = ROOT
+				modifier = harad_invasion_didnt_declare_invasion
+				years = 10
+			}
+		}
+		
+		hidden_effect = {
+			add_country_modifier = {
+				name = harad_invasion_not_declaring
+				duration = 3650
+			}
+		}
+		
+		clr_country_flag = Invasion_Promise
+	}	
+}
+
+#Invasion Over!
+country_event = {
+	id = flavor_harad.6
+	title = "invasion.6.title"
+	desc = "invasion.6.desc"
+	picture = CONQUEST_eventPicture
+	hidden = yes
+	
+	trigger = {
+		OR = {
+			has_country_flag = Invasion_Warlord
+			has_country_flag = Invasion_Warlord_Gondor
+		}
+		
+		OR = {
+			has_country_flag = Invasion_declared_war_any_nation
+			has_country_flag = Invasion_declared_war_gondor
+		}
+		
+		OR = {
+			AND = {
+				X01 = {
+					has_country_flag = Invasion_called_response
+				}
+				NOT = { war_with = X01 }
+			}
+			
+			AND = {
+				any_country = {
+					has_truce = ROOT
+					has_country_flag = Invasion_called_response
+					NOT = { war_with = PREV }
+				}
+			}
+		}
+	}
+
+	#Gondor
+	option = {
+		name = "invasion.6.a"
+		
+		trigger = {
+			X01 = {
+				has_country_flag = Invasion_called_response
+			}
+		
+			has_truce = X01
+			NOT = { war_with = X01 }
+			
+			OR = {
+				has_country_flag = Invasion_Warlord_Gondor
+				has_country_flag = Invasion_declared_war_gondor
+			}
+		}
+		
+		clr_country_flag = Invasion_Promise
+		clr_country_flag = Invasion_Warlord
+		clr_country_flag = Invasion_Warlord_Gondor
+		clr_country_flag = Invasion_declared_war_any_nation
+		clr_country_flag = Invasion_declared_war_gondor
+		clr_country_flag = Invasion_Warlord_didnt_start_invasion
+		remove_country_modifier = harad_warlord_invasion_war
+		remove_country_modifier = harad_warlord_invasion_war_gondor
+		
+		X01 = {
+				clr_country_flag = Invasion_called_response
+				clr_country_flag = Invasion_called
+		}
+		
+		hidden_effect = {
+			add_country_modifier = {
+			name = harad_invasion_not_declaring
+			duration = 10950
+			}
+		}
+		
+		remove_casus_belli = {
+		  type = cb_harad_invasion
+		}
+	}
+
+	#any nation
+	option = {
+		name = "invasion_started.4.b"
+		
+		trigger = {
+			OR = {
+				has_country_flag = Invasion_Warlord
+				has_country_flag = Invasion_declared_war_any_nation
+			}
+		
+			any_country = {
+				has_country_flag = Invasion_called_response
+			}
+		}
+		
+		clr_country_flag = Invasion_Promise
+		clr_country_flag = Invasion_Warlord
+		clr_country_flag = Invasion_Warlord_Gondor
+		clr_country_flag = Invasion_declared_war_any_nation
+		clr_country_flag = Invasion_declared_war_gondor
+		clr_country_flag = Invasion_Warlord_didnt_start_invasion
+		remove_country_modifier = harad_warlord_invasion_war
+		remove_country_modifier = harad_warlord_invasion_war_gondor
+		
+		every_country = {
+			limit = {
+				has_country_flag = Invasion_called_response
+			}
+			
+			clr_country_flag = Invasion_called_response
+			clr_country_flag = Invasion_called
+			
+			remove_casus_belli = {
+			  type = cb_harad_invasion
+			  #target = PREV
+			}
+		}
+		
+		#hidden_effect = {
+			add_country_modifier = {
+			name = harad_invasion_not_declaring
+			duration = 3650
+			}
+		#}
+	}
+}
+
+#Invasion Over!
+#country_event = {
+#	id = flavor_harad.7
+#	title = "invasion.7.title"
+#	desc = "invasion.7.desc"
+#	picture = CONQUEST_eventPicture
+#	
+#	trigger = {
+#		
+#	}
+#
+#	option = {
+#		name = "invasion.7.a"
+#		
+#	}
+#}

@@ -1,0 +1,9 @@
+bookmark =
+{
+    # Smoke rises from the North
+	name = "LOTR_3_NAME"
+	desc = "LOTR_3_DESC"
+	date = 2769.1.1
+	
+	country = Z05
+}

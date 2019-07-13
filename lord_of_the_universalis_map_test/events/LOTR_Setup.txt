@@ -1,0 +1,61 @@
+namespace = lotr_setup
+
+# Add global start-up stuff here
+country_event = {
+	id = lotr_setup.1
+	title = lotr_setup.1.title
+	desc = lotr_setup.1.desc
+	picture = ASSASSINATION_eventPicture
+	
+    hidden = yes
+    is_triggered_only = yes
+
+    trigger = {
+        NOT = { has_global_flag = completed_lotr_setup }
+    }
+
+    immediate = {
+        set_global_flag = completed_lotr_setup
+    }
+
+    option = {
+        name = lotr_setup.1.option.a
+        
+        # --- Logging flags
+        #   Comment these for release builds
+        #   Enabling these will spam the game.log
+        set_global_flag = enable_onaction_logging
+        set_global_flag = enable_event_logging
+        
+        # Power system flag
+        # set_global_flag = power_enabled
+
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - Global lotr_setup" }
+    }  
+}
+
+# Add country-specific start-up stuff here
+country_event = {
+	id = lotr_setup.2
+	title = lotr_setup.1.title
+	desc = lotr_setup.1.desc
+	picture = ASSASSINATION_eventPicture
+	
+    hidden = yes
+    is_triggered_only = yes
+
+    trigger = {
+        NOT = { has_country_flag = completed_country_lotr_setup }
+    }
+
+    immediate = {
+        set_country_flag = completed_country_lotr_setup
+    }
+
+    option = {
+        name = lotr_setup.1.option.a
+
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - Start lotr_setup" }
+        
+    }  
+}

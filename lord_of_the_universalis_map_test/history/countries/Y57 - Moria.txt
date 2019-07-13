@@ -1,0 +1,7 @@
+mercantilism = 0.1
+government = orc_gov
+add_government_reform = lotr_orc_kingdom_reform
+primary_culture = culture_goblin
+religion = religion_goblin
+technology_group = lotr_goblin
+capital = 624

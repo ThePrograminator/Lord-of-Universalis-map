@@ -1,0 +1,15 @@
+﻿l_english:
+ # Tradenodes
+ node_pelargir: "Pelargir"
+ node_minas_tirith: "Minas Tirith"
+ node_linhir: "Linhir"
+ node_calembel: "Calembel"
+ node_annulond: "Annúlond"
+ node_dol_amroth: "Dol Amroth"
+ node_lond_angren: "Lond Angren"
+ node_gap_of_rohan: "Gap of Rohan"
+ node_edoras: "Edoras"
+ 
+ 
+ hinder_fellowships: "Hinder and Find Fellowships"
+ hinder_fellowships_desc: "Search for the different Fellowships and kill them! They will be cautious so they will slow down their progress. (Findind The Fellowship of The Ring will give you the One Ring)"

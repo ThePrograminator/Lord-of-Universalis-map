@@ -1,0 +1,8 @@
+mercantilism = 0.1
+government = monarchy
+add_government_reform = feudalism_reform
+
+primary_culture = culture_tarturaki
+religion = religion_black_numenorean
+technology_group = lotr_black_numenorean
+capital = 430

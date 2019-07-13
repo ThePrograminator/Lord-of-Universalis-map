@@ -1,0 +1,185 @@
+#Country Name: Please see filename.
+graphical_culture = lotr_rohan_gfx
+
+color = { 45 155 50 }
+
+historical_idea_groups = {
+	offensive_ideas
+	diplomatic_ideas
+	defensive_ideas
+	innovativeness_ideas
+	administrative_ideas
+	quantity_ideas
+	economic_ideas
+	aristocracy_ideas
+}
+
+historical_units = {
+	lotr_rohirrim_eorling_militia_axe_1
+	lotr_rohirrim_eorling_sword_2
+	lotr_rohirrim_riddermark_axemen_3
+	lotr_rohirrim_eored_axe_4
+	lotr_rohirrim_royal_guard_sword_5
+
+	lotr_rohirrim_scouts_1
+	lotr_rohirrim_riders_2
+	lotr_rohirrim_eored_horse_archers_3
+	lotr_rohirrim_riders_fold_archers_4
+	lotr_rohirrim_royal_guard_horse_archer_5
+}
+
+monarch_names = {
+	"Aldor" = 10 
+	"Arod" = 10 
+	"Baldor" = 10 
+	"Béma" = 10
+	"Brego" = 10
+	"Brimlad" = 10
+	"Bucca" = 10
+	"Ceorl" = 10
+	"Déagol" = 10
+	"Déor" = 10
+	"Déorwine" = 10
+	"Dernhelm" = 10
+	"Dúnhere" = 10
+	"Elfhelm" = 10
+	"Éoaden" = 10
+	"Eofor" = 10
+	"Éomer" = 10
+	"Éomund" = 10
+	"Eorl" = 10
+	"Eorlbold" = 10
+	"Éothain" = 10
+	"Erkenbrand" = 10
+	"Fastred" = 10
+	"Felaróf" = 10
+	"Fengel" = 10
+	"Folca" = 10
+	"Folcred" = 10
+	"Folcwine" = 10
+	"Fram" = 10
+	"Fréa" = 10
+	"Fréaláf" = 10 
+	"Fréawine" = 10
+	"Freca" = 10
+	"Frumgar" = 10
+	"Gálmód" = 10
+	"Gamling" = 10
+	"Gárulf" = 10
+	"Gléowine" = 10
+	"Goldwine" = 10
+	"Gram" = 10
+	"Grim" = 10
+	"Gríma" = 10
+	"Grimbold" = 10
+	"Guthláf" = 10
+	"Guthwine" = 10
+	"Haleth" = 10
+	"Háma" = 10
+	"Harding" = 10
+	"Hasufel" = 10
+	"Helm" = 10
+	"Helming" = 10
+	"Herefara" = 10
+	"Herubrand" = 10
+	"Horn" = 10
+	"Léod" = 10
+	"Scatha" = 10
+	"Stybba" = 10
+	"Thengel" = 10
+	"Théoden" = 10
+	"Théodred" = 10
+	"Walda" = 10
+	"Wídfara" = 10
+	"Wídfor" = 10
+	"Wídred" = 10
+	"Windfola" = 10	
+	"Fród" = 10
+	"Herugrim" = 10
+	"Láthspell" = 10
+	"Searuman" = 10 
+	"Isengar" = 10
+	"Ferdigar" = 10 
+	"Fredegar" = 10 
+	"Filibert" = 10
+	"Fastwulf" = 10
+	"Fastolph" = 10 
+	"Ferdibrand" = 10
+	"Ferdinand" = 10
+	"Horthgar" = 10 
+	"Roger" = 10 
+	"Sigmund" = 10 
+	"Sigismond" = 10 
+	"Wilibold" = 10 
+	"Wilibald" = 10
+	"Béortláf" = 10
+	"Béortming" = 10
+	"Béortred" = 10
+	"Cynebold" = 10
+	"Cuthbold" = 10
+	"Cuthbrand" = 10
+	"Cuthric" = 10
+	"Dernbold" = 10
+	"Dernhere" = 10
+	"Dernred" = 10
+	"Dernric" = 10	
+	"Dernwine" = 10
+ 	"Dúnbold" = 10
+	"Dúnbrand" = 10
+	"Dúnhelm" = 10
+}
+
+leader_names = {
+	
+}
+
+ship_names = {
+	Eagletree
+	Feathersun
+	Lowtree
+	Distantblade
+	Pineweaver
+	Oceanfang
+	Humbleripper
+	Wiseblood
+	Sunmantle
+	Grandpunch
+	Pyrefollower
+	Hawkfall
+	Heartsteam
+	Stonestrength
+	Mastertide
+	Gloomsworn
+	Redfist
+	Riverwinds
+	Skyspire
+	Fireclaw
+	Lunapike
+	Whitbane
+	Tarrensnow
+	Leafroot
+	Softswallow
+	Peacereaper
+	Stagarm
+	Monsterfury
+	Horsebinder
+	Strongmoon
+	Moltenmourn
+	Skymight
+	Covenstriker
+	Glowstrider
+	Farwatcher
+	Fallendown
+	Tarrengem
+	Stonestar
+	Fernstriker
+	Roughheart
+}
+
+army_names = {
+	"Regiment of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}

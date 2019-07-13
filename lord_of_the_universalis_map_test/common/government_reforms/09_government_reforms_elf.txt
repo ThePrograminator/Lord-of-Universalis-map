@@ -1,0 +1,98 @@
+elf_gov_mechanic = {
+	monarchy = yes
+	heir = yes
+	queen = yes
+	basic_reform = yes # = invisible/does not take up a slot
+	valid_for_nation_designer = no
+	custom_attributes = {
+		enables_aristocratic_idea_group = yes
+	}
+}
+
+lordship_elf_reform = {
+	icon = "elf_lordship"
+	allow_normal_conversion = yes
+	legacy_equivalent = lotr_lordship_elf_legacy
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	
+	potential = {
+		technology_group = lotr_elven
+	}
+	
+	modifiers = {
+		idea_cost = -0.05
+	}
+}
+
+kingdom_elf_reform = {
+	icon = "elf_king"
+	allow_normal_conversion = yes
+	legacy_equivalent = lotr_kingdom_elf_legacy
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	
+	potential = {
+		technology_group = lotr_elven
+	}
+	
+	modifiers = {
+		stability_cost_modifier = -0.25
+	}
+}
+
+principality_elf_reform = {
+	icon = "elf_prince"
+	allow_normal_conversion = yes
+	legacy_equivalent = lotr_principality_elf_legacy
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	
+	potential = {
+		technology_group = lotr_elven
+		have_had_reform = principality_elf_reform
+	}
+	
+	modifiers = {
+		same_culture_advisor_cost = -0.25
+	}
+}
+
+#####################
+#Internal vs External Mission#
+####################
+
+##########
+#Bureaucracy#
+#########
+
+############
+#Elven Cause#
+############
+
+regaining_lost_artifacts_reform = {
+	icon = "castle"
+	allow_normal_conversion = yes
+	modifiers = {
+		prestige = 1
+		legitimacy = 1
+	}
+}
+
+reconquer_our_lands_reform = {
+	icon = "map_2"
+	allow_normal_conversion = yes
+	modifiers = {
+		land_morale = 0.1
+		war_exhaustion = -0.2
+	}
+}
+
+peace_keepers_reform = {
+	icon = "nayankara_system"
+	allow_normal_conversion = yes
+	modifiers = {
+		diplomatic_reputation = 2
+		diplomatic_annexation_cost = -0.35
+	}
+}

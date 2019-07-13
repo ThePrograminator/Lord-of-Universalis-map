@@ -1,0 +1,8 @@
+mercantilism = 0.1
+government = monarchy
+
+add_government_reform = principality_reform
+primary_culture = culture_koanoze
+religion = religion_apysani_beduins
+technology_group = lotr_sand_men
+capital = 2064

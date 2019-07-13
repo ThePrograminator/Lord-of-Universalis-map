@@ -1,0 +1,49 @@
+# Battle of Middle Earth
+
+# Gondor and Dol Amroth
+union = {
+	first = X01
+	second = X11
+	start_date = 2758.10.10
+	end_date = 9651.1.1
+}
+
+# Gondor and Rohan
+alliance = {
+	first = X01
+	second = X16
+	start_date = 2758.10.10
+	end_date = 9651.1.1
+}
+
+# Gondor and Andrast
+march = {
+	first = X01
+	second = X02
+	start_date = 2758.10.10
+	end_date = 3500.1.1
+}
+
+#Dunedain of Arnor and Colwich
+vassal = {
+	first = Z06
+	second = Z12
+	start_date = 2758.10.10
+	end_date = 3500.1.1
+}
+
+#Dunedain of Arnor and Thorenhad
+vassal = {
+	first = Z06
+	second = Z08
+	start_date = 2758.10.10
+	end_date = 3500.1.1
+}
+
+#Anarike and Acaana
+vassal = {
+	first = X41
+	second = Z85
+	start_date = 2758.10.10
+	end_date = 3500.1.1
+}

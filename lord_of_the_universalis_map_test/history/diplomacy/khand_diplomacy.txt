@@ -1,0 +1,58 @@
+# Battle of Middle Earth
+
+# Khaganate Vassals
+#Itakh Clan and Lugalin
+#vassal = {
+#	first = X80
+#	second = V24
+#	start_date = 2758.1.1
+#	end_date = 3500.1.1
+#}
+
+#Itakh Clan and Udo Clan
+vassal = {
+	first = X80
+	second = X78
+	start_date = 2758.10.10
+	end_date = 3500.1.1
+}
+
+#Itakh Clan and Ito Clan
+vassal = {
+	first = X80
+	second = X79
+	start_date = 2758.10.10
+	end_date = 3500.1.1
+}
+
+#Itakh Clan and Achef Clan
+vassal = {
+	first = X80
+	second = X81
+	start_date = 2758.10.10
+	end_date = 3500.1.1
+}
+
+#Itakh Clan and Urpov Clan
+vassal = {
+	first = X80
+	second = X82
+	start_date = 2758.10.10
+	end_date = 3500.1.1
+}
+
+#Itakh Clan and Olena Clan
+vassal = {
+	first = X80
+	second = X83
+	start_date = 2758.10.10
+	end_date = 3500.1.1
+}
+
+#Itakh Clan and Irbo Clan
+vassal = {
+	first = X80
+	second = X84
+	start_date = 2758.10.10
+	end_date = 3500.1.1
+}

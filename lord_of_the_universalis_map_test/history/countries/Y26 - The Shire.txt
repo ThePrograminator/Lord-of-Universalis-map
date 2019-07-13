@@ -1,0 +1,7 @@
+mercantilism = 0.1
+government = republic
+add_government_reform = mayorship_reform
+primary_culture = culture_shirefolk
+religion = religion_perian
+technology_group = lotr_hobbit
+capital = 95

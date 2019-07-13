@@ -1,0 +1,7 @@
+mercantilism = 0.1
+government = republic
+add_government_reform = oligarchy_reform
+primary_culture = culture_chy
+religion = religion_chailuza
+technology_group = lotr_chyan
+capital = 517

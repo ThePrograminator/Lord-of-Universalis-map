@@ -1,0 +1,525 @@
+#---------------------------
+# Areas
+#---------------------------
+
+#---------------------------
+# Rivers
+#---------------------------
+
+north_anduin_river_area = {
+	1968 2184 2187 2483 2484 2485 2486
+}
+
+south_anduin_river_area = {
+	2200 2220 2481 2482
+}
+
+celduin_river_area = {
+	2185 2498 2499 2500
+}
+
+sea_of_rhun_area = {
+	2186
+}
+
+angren_river_area = {
+	2383 2487 2488
+}
+
+gwatlo_river_area = {
+	2384 2489 2490 2491 2492
+}
+
+baranduin_river_area = {
+	2170 2387 2493 2494 2495 2496 2497
+}
+
+river_place_river_area = {
+	2579 2580 2581 2582 2583 2584 2585 2586 2587 2588 2589 2590
+}
+
+#---------------------------
+# Western Coast Ocean
+#---------------------------
+
+sea_of_tol_falas_area = {
+	2197 2198 2199
+}
+
+gulf_of_linhir_area = {
+	2201 2202
+}
+
+coast_of_belfalas_area = {
+	2203 2207
+}
+
+coast_of_anfalas_area = {
+	2208 2209
+}
+
+cap_of_andrast_area = {
+	2210 2215
+}
+
+coast_of_parth_laur_area = {
+	2221 2382
+}
+
+coast_of_harondor_area = {
+	2188 2196
+}
+
+coast_of_glinfalas_area = {
+	2189 2190 2204
+}
+
+bay_of_umbar_area = {
+	2191 2192
+}
+
+coast_of_mardrauk_area = {
+	2193 2194 2224
+}
+
+sea_of_tol_uialgaer_area = {
+	2195
+}
+
+bay_of_belfalas_area = {
+	2205 2206 2211 2212 2213 2214 2218 2219 2216 2217 2219 2222 2223
+}
+
+sea_of_enedwaith_area = {
+	2365 2471 2472 2473 2474 2475
+}
+
+sea_of_eriador_area = {
+	2461 2462 2463 2464 2465 2466 2476 2477 2478 2479 2480
+}
+
+sea_of_forodwaith_area = {
+	2428 2429 2430 2432 2434 2435 2436 2437 2438 2439 2441 2442 2443 2444 2445 2446 2456 2457 2458
+}
+
+sea_of_lonely_islands_area = {
+	2339
+}
+
+bay_of_falaya_area = {
+	2225 2226 2227 2228
+}
+
+coast_of_kulijar_area = {
+	2229 2230 2231
+}
+
+bay_of_tulwang_area = {
+	2232 2233 2234 2235 2236 2237 2238
+}
+
+strait_of_bishra_area = {
+	2239 2242 2243
+}
+
+gulf_of_nashar_area = {
+	2240 2241
+}
+
+gulf_of_forondir_area = {
+	2385 2386 2470
+}
+
+sea_of_tel_firn_i_guinar_area = {
+	2389 2467 2468 2469
+}
+
+coast_of_harlindon_area = {
+	2388 2390 2391
+}
+
+gulf_of_lhun_area = {
+	2392 2393 2394
+}
+
+coast_of_forlindon_area = {
+	2395 2396 2397 2398 2399
+}
+
+coast_of_lothlann_area = {
+	2399 2406 2407
+}
+
+sea_of_tol_fuin_area = {
+	2400 2401 2402 2403 2404 2440 2447 2448 2449 2450 2451 2452
+}
+
+sea_of_tol_morwen_area = {
+	2405 2455 2454 2453
+}
+
+bay_of_forochel_area = {
+	2409 2408 2433
+}
+
+gulf_of_helcharaes_area = {
+	2410 2411 2412
+}
+
+coast_of_jarvamaa_area = {
+	2413 2414 2415 2418
+}
+
+coast_of_rast_lornaeth_area = {
+	2416 2417 2419 2420
+}
+
+coast_of_aanaar_area = {
+	2421 2431
+}
+
+coast_of_minheldolath_area = {
+	2422 2423 2424
+}
+
+coast_of_achrond_area = {
+	2425 2426 2427
+}
+
+north_sea_of_belegaer_area = {
+	2370 2371 2372 2373 2374 2375 2376 2377 2378 2379 2380 2381 2459 2460
+}
+
+central_sea_of_belegaer_area = {
+	2251 2350  2353 2354 2355 2356 2358 2359 2360 2361 2362 2363 2364 2366 2367 2368 2369 2476 2754
+}
+
+south_sea_of_belegaer_area = {
+	2244 2245 2246 2247 2248 2249 2250 2252 2253 2254 2255 2256 2340 2341 2342 2343 2344 2345 2346 2347 2348 2351 2352 
+}
+
+#---------------------------
+# Helkeaar Sea
+#---------------------------
+helkeaar_sea_area = {
+	2715 2716 2719 2720 2721 2722 2723 2724 2725
+}
+
+coast_of_ukal_sej_area = {
+	2684 2685 2686
+}
+
+gulf_of_unknown_area = {
+	2701 2702 2703 2703 2704 2705 2706 2707
+}
+
+sea_of_solitude_area = {
+	2687 2688 2689 2690 2691 2692 2717 
+}
+
+sea_of_storms_area = {
+	2699 2700 2714 2718 2755
+}
+
+sea_of_havens_area = {
+	2693 2694 2695 2696 2697 2698 2708 2709 2710 2711 2712 2713
+}
+
+#---------------------------
+# Ormal Sea
+#---------------------------
+
+bay_of_chy_area = {
+	2501 2502 2503 2504 2505 2506 2507 2508 2509 2510
+	2511 2512 2513 2514 2515 2516 2517 2518 2519
+	2521 2522 2523 2524 2525 2526 2527 2528 2529
+}
+
+sea_of_codya_area = {
+	2531 2532 2533 2534 2535 2536 2537 2538 2539 2540
+	2541 2542 2543 2544 2545 2546 2547 2548
+}
+
+bay_of_sakalan_area = {
+	2557 2558 2559 2560 2561 2562 2563 2564 2565
+	2566 2567 2568 2569 2570 2571 2572 2573 2574
+	2575 2576 2577 2578 2591 2592 2598 2600 2601
+	2602
+}
+
+sea_of_ormal_area = {
+	2520 2530 2549 2550 2551 2552 2553 2554 2555
+	2556 2598 2600 2601 2602
+}
+
+bay_of_shay_area = {
+	2593 2594 2595 2596 2599  
+}
+
+#---------------------------
+# Eastern Sea
+#---------------------------
+
+sea_of_lochas_druz_area = {
+	2597 2603 2604 2605
+	2606 2607 2608 2609 2610  2612 2613 2623
+	2624 2625 2626 2627 2628 2629 2630 2631 2632
+	2633 2634 2635 2636 2637 2638 2639 
+}
+
+sea_of_ka_ish_area = {
+	2611 2614 2615 2643 2644 2645 2649 2650 2675
+}
+
+bay_of_ang_sigmorig_area = {
+	2616 2617 2618 2619 2620
+}
+
+sea_of_ruuriik_area = {
+	2621 2622 2658 2659 2660 2671 2672 2673 2674
+}
+
+bay_of_kendarca_area = {
+	2661 2662 2663 2664 2665 2666 2667 2668 2669 2670
+}
+
+eastern_sea_area = {
+	2640 2641 2642 2646 2647 2648
+	2651 2652 2653 2654 2655 2656 2676 2677 2678 2679
+}
+
+#---------------------------
+# Bay of Illuin
+#---------------------------
+
+#---------------------------
+# Gondor (Gondor)
+#---------------------------
+
+anorien_area = {
+	2 3 4 5 6 8 44 67 68 69 
+}
+
+minas_tirith_area = {
+	1 413 
+}
+
+osgiliath_area = {
+	418 419 
+}
+
+lossarnach_area = {
+	9 10 11 12 
+}
+
+forithilien_area = {
+	46 47 49 50 51 52 53 
+}
+
+harithilien_area = {
+	56 57 58 59 60 61 62 63 996 998 
+}
+
+pelargir_area = {
+	17 1218 
+}
+
+linhir_area = {
+	25 32 2163 
+}
+
+gilrain_area = {
+	21 29 30 31 2169 
+}
+
+arnach_area = {
+	13 14 15 16 
+}
+
+celosien_area = {
+	18 19 20 22 2162 
+}
+
+lebenninivet_area = {
+	23 24 26 27 28 995 2158 2160 2161 
+}
+
+lamedon_area = {
+	216 217 218 219 220 222 992 
+}
+
+mornan_area = {
+	197 209 212 213 215 990 991 
+}
+
+pinnath_gelin_area = {
+	199 204 205 206 207 211 214 985 989 
+}
+
+anfalas_area = {
+	193 194 195 196 198 208 986 987 2166 
+}
+
+dol_amroth_area = {
+	38 39 40 641 
+}
+
+edhellond_area = {
+	221 420 988 2165 
+}
+
+tol_falas_area = {
+	66 360 963 994 2159 
+}
+
+belfalas_area = {
+	33 34 35 36 37 65 1426 
+}
+
+andrast_area = {
+	176 178 181 187 978 979 982 2167 
+}
+
+nan_lefnui_area = {
+	185 186 200 201 983 
+}
+
+nindalf_area = {
+	45 48 574 
+}
+
+tarlang_area = {
+	993 1302 1303 1304 
+}
+
+nan-i-feryth_area = {
+	202 203 1032 1306 
+}
+
+daningweth_area = {
+	210 1305 
+}
+
+ethir_anduin_area = {
+	122 997 
+}
+
+emyn_arnen_area = {
+	54 55 
+}
+
+dor-en-ernil_area = {
+	41 42 43 361 1425 
+}
+
+cair_andros_area = {
+	7 1002 
+}
+
+tawar-in-druedain_area = {
+	655 2164 
+}
+
+#---------------------------
+# Old Pukel Land (Eriador)
+#---------------------------
+
+parth_laur_area = {
+	177 179 180 
+}
+
+druwaith_laur_area = {
+	229 981 1313 1314 1315 1316 1421 
+}
+
+balorn_area = {
+	182 183 184 
+}
+
+#---------------------------
+# Rohan (Rohan)
+#---------------------------
+
+west_march_area = {
+	120 225 228 980 2168 
+}
+
+westemnet_area = {
+	189 190 192 1046 
+}
+
+westfold_area = {
+	117 118 121 1025 
+}
+
+white_mountains_area = {
+	654 1026 
+}
+
+kings_land_area = {
+	111 114 115 
+}
+
+eastfold_area = {
+	109 110 112 113 116 274 1044 
+}
+
+eastemnet_area = {
+	191 1024 1048 
+}
+
+entwade_area = {
+	272 273 
+}
+
+the_wold_area = {
+	270 278 1001 1049 1642 
+}
+
+parth_galen_area = {
+	271 661 1043 1045 
+}
+
+#---------------------------
+# Mordor(Mordor)
+#---------------------------
+
+minas_ithil_area = {
+	417 999 1000
+}
+
+#---------------------------
+# Shire (Eriador)
+#---------------------------
+
+north_farthing_area = {
+	77  89 90 91 
+}
+
+south_farthing_area = {
+	72 80 81 82
+}
+
+east_farthing_area = {
+	73 74 75 76 93 670 1804 
+}
+
+west_farthing_area = {
+	83 84 85 86 88 92 94 643
+}
+
+westmarch_area = {
+	87 648 649
+}
+
+buckland_area = {
+	96 259 299
+}
+
+#---------------------------
+# Other
+#---------------------------
+
+fangorn_area = {
+	64 70 188 279 1042
+}

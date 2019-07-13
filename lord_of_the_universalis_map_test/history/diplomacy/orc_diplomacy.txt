@@ -1,0 +1,72 @@
+# Battle of Middle Earth
+
+# Mordor and Minas Morgul
+march = {
+	first = V17
+	second = V18
+	start_date = 2942.1.1
+	end_date = 3500.1.1
+}
+# Mordor and Dol Guldur
+march = {
+	first = V17
+	second = V19
+	start_date = 2942.1.1
+	end_date = 3500.1.1
+}
+
+# Dol Guldur and Shadow of Mirkwood
+march = {
+	first = V19
+	second = V20
+	start_date = 2758.10.10
+	end_date = 3500.1.1
+}
+
+# Dol Guldur and Emyn-nu-fuin
+march = {
+	first = V19
+	second = V41
+	start_date = 2758.10.10
+	end_date = 3500.1.1
+}
+
+# Gundabad and Uruk-Erag
+vassal = {
+	first = Y63
+	second = Y32
+	start_date = 2758.10.10
+	end_date = 3500.1.1
+}
+
+# Shapol Udun and Sled-Horde
+vassal = {
+	first = Y36
+	second = Y37
+	start_date = 2758.10.10
+	end_date = 3500.1.1
+}
+
+#Carn Dum and Zarak-Dum
+vassal = {
+	first = Y52
+	second = Y42
+	start_date = 2758.10.10
+	end_date = 3500.1.1
+}
+
+#Moria and Barz-Thugrim
+vassal = {
+	first = Y57
+	second = Y59
+	start_date = 2758.10.10
+	end_date = 3500.1.1
+}
+
+#Gram and Uruk-Lugat
+vassal = {
+	first = Y43
+	second = Y61
+	start_date = 2758.10.10
+	end_date = 3500.1.1
+}

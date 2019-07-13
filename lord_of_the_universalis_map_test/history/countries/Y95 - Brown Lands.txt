@@ -1,0 +1,9 @@
+mercantilism = 0.1
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = culture_grimburz
+religion = religion_nenedain
+technology_group = lotr_northmen
+capital = 404
+
+government_rank = 1

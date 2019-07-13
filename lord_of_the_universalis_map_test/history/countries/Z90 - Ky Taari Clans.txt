@@ -1,0 +1,9 @@
+mercantilism = 0.1
+government = monarchy
+add_government_reform = principality_reform
+primary_culture = culture_ky_taari
+religion = religion_daen
+technology_group = lotr_daen
+capital = 156
+
+government_rank = 1

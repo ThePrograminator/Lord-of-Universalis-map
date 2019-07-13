@@ -1,0 +1,7 @@
+mercantilism = 0.1
+government = republic
+add_government_reform = oligarchy_reform
+primary_culture = culture_haruze
+religion = religion_haruzani
+technology_group = lotr_haradrim
+capital = 895

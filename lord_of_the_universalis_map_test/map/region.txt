@@ -1,0 +1,248 @@
+# A province can belong to several regions.
+random_new_world_region = {
+
+}
+
+#---------------------------
+# Western Ocean Regions                    
+#---------------------------
+
+anduin_river_region = {
+	areas = {
+		north_anduin_river_area
+		south_anduin_river_area
+	}
+}
+
+angren_river_region = {
+	areas = {
+		angren_river_area
+	}
+}
+
+gwathlo_river_region = {
+	areas = {
+		gwatlo_river_area
+	}
+}
+
+baranduin_river_region = {
+	areas = {
+		baranduin_river_area
+	}
+}
+
+sea_of_rhun_region = {
+	areas = {
+		celduin_river_area
+		sea_of_rhun_area
+	}
+}
+
+river_place_region = {
+	areas = {
+		river_place_river_area
+	}
+}
+
+bay_of_belfalas_region = {
+	areas = {
+		sea_of_tol_falas_area
+		gulf_of_linhir_area
+		coast_of_belfalas_area
+		coast_of_anfalas_area
+		cap_of_andrast_area
+		coast_of_harondor_area
+		coast_of_glinfalas_area
+		bay_of_umbar_area
+		coast_of_mardrauk_area
+		sea_of_tol_uialgaer_area
+		bay_of_belfalas_area
+	}
+}
+
+sea_of_belegaer_region = {
+	areas = {
+		north_sea_of_belegaer_area
+		central_sea_of_belegaer_area
+		south_sea_of_belegaer_area
+		sea_of_lonely_islands_area
+	}
+}
+
+sea_of_harad_region = {
+	areas = {
+		bay_of_falaya_area
+		coast_of_kulijar_area
+		bay_of_tulwang_area
+		strait_of_bishra_area
+		gulf_of_nashar_area
+	}
+}
+
+sea_of_enedwaith_region = {
+	areas = {
+		sea_of_enedwaith_area
+		coast_of_parth_laur_area
+	}
+}
+
+sea_of_eriador_region = {
+	areas = {
+		gulf_of_forondir_area
+		sea_of_tel_firn_i_guinar_area
+		coast_of_harlindon_area
+		gulf_of_lhun_area
+		coast_of_forlindon_area
+		coast_of_lothlann_area
+		sea_of_tol_fuin_area
+		sea_of_tol_morwen_area
+		sea_of_eriador_area
+	}
+}
+
+sea_of_forodwaith_region = {
+	areas = {
+		sea_of_forodwaith_area
+		coast_of_aanaar_area
+		coast_of_minheldolath_area
+		coast_of_achrond_area
+	}
+}
+
+bay_of_beriannen_region = {
+	areas = {
+		bay_of_forochel_area
+		gulf_of_helcharaes_area
+		coast_of_jarvamaa_area
+		coast_of_rast_lornaeth_area
+	}
+}
+
+#---------------------------
+# Helkeaar Sea             
+#---------------------------
+
+helkeaar_sea_region = {
+	areas = {
+		helkeaar_sea_area
+		coast_of_ukal_sej_area
+		gulf_of_unknown_area
+	}
+}
+
+bay_of_utum_region = {
+	areas = {
+		sea_of_solitude_area
+		sea_of_storms_area
+		sea_of_havens_area
+	}
+}
+
+#---------------------------
+# Ormal Sea
+#---------------------------
+
+ormal_sea_region = {
+	areas = {
+		bay_of_chy_area
+		sea_of_codya_area
+		sea_of_ormal_area
+		bay_of_shay_area
+		bay_of_sakalan_area
+	}
+}
+
+#---------------------------
+# Eastern Sea
+#---------------------------
+
+eastern_sea_region = {
+	areas = {
+		sea_of_lochas_druz_area
+		sea_of_ka_ish_area
+		bay_of_ang_sigmorig_area
+		sea_of_ruuriik_area
+		bay_of_kendarca_area
+		eastern_sea_area
+	}
+}
+
+#---------------------------
+# Middlearth                           
+#---------------------------
+gondor_region = {
+	areas = {
+		anorien_area
+		minas_tirith_area
+		osgiliath_area
+		lossarnach_area
+		forithilien_area
+		harithilien_area
+		pelargir_area
+		linhir_area
+		gilrain_area
+		arnach_area
+		celosien_area
+		lebenninivet_area
+		lamedon_area
+		mornan_area
+		pinnath_gelin_area
+		anfalas_area
+		dol_amroth_area
+		edhellond_area
+		tol_falas_area
+		belfalas_area
+		andrast_area
+		nan_lefnui_area
+		nindalf_area
+		tarlang_area
+		nan-i-feryth_area
+		daningweth_area
+		ethir_anduin_area
+		emyn_arnen_area
+		dor-en-ernil_area
+		cair_andros_area
+		tawar-in-druedain_area
+	}
+}
+
+old_pukel_land_region = {
+	areas = {
+		parth_laur_area
+		druwaith_laur_area
+		balorn_area
+	}
+}
+
+rohan_region = {
+	areas = {
+		west_march_area
+		westemnet_area
+		westfold_area
+		white_mountains_area
+		kings_land_area
+		eastfold_area
+		eastemnet_area
+		entwade_area
+		the_wold_area
+		parth_galen_area
+	}
+}
+
+mordor_region = {
+	areas = {
+		minas_ithil_area
+	}
+}
+
+shire_region = {
+	areas = {
+		north_farthing_area
+		south_farthing_area
+		east_farthing_area
+		west_farthing_area
+		westmarch_area
+		buckland_area
+	}
+}

@@ -1,0 +1,1274 @@
+########################################
+# Events for Erebor
+#
+#
+########################################
+
+namespace = flavor_ere
+normal_or_historical_nations = yes
+
+# Spawn Smaug
+country_event = {
+	id = flavor_ere.1
+	title = desolation_of_smaug.1.t
+	desc = desolation_of_smaug.1.d
+	picture = DESOLATION_OF_SMAUG_eventPicture
+	
+	major = yes
+	fire_only_once = yes
+	
+	trigger = {
+		AND = {
+			is_year = 2770
+			287 = {
+				is_core = PREV
+			}
+			NOT = {
+				has_country_flag = desolation_of_smaug
+				has_country_flag = desolation_of_smaug_lost
+				has_country_flag = desolation_of_smaug_won
+				has_country_flag = desolation_of_enforced
+				is_year = 2771
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {		# Event fired
+		name = "desolation_of_smaug.1.a"
+
+		set_country_flag = desolation_of_smaug
+		hidden_effect = {
+		country_event = {
+				id = flavor_ere.6
+				days = 10
+			}
+		}
+		287 = {
+			spawn_rebels = {
+				type = smaug_rebels
+				size = 1
+				leader = "Smaug The Terrible"
+			}
+		}  
+	}  
+}
+
+country_event = {
+	id = flavor_ere.2
+	title = "desolation_of_smaug.2.t"
+	desc = "desolation_of_smaug.2.d"
+	picture = SIEGE_eventPicture
+	
+	major = yes
+	fire_only_once = yes
+	
+	trigger = {
+		has_country_flag = desolation_of_smaug
+		technology_group = lotr_dwarven
+		overlord_of = Y23
+		NOT = { 
+			has_country_flag = desolation_of_smaug_won	
+		}
+		OR = { 
+			has_country_flag = desolation_of_smaug_enforced
+			287 = {
+				controlled_by = smaug_rebels
+			}
+		}
+	}
+	
+	option = {
+		name = "desolation_of_smaug.2.a"
+		custom_tooltip = desolation_of_smaug_text_1
+		hidden_effect = {
+			if = { 
+				limit = {
+					528 = {
+						owned_by = Y94
+					}
+				}
+				Y94 = {
+					change_tag = V51
+					set_capital = 528
+					change_primary_culture = culture_barding
+				}
+			}
+			set_country_flag = desolation_of_smaug_lost
+			clr_country_flag = desolation_of_smaug
+			clr_country_flag = desolation_of_smaug_enforced
+			disband_rebels = smaug_rebels
+			remove_accepted_culture = culture_dragons
+			country_event = {
+				id = flavor_ere.5
+				days = 3
+			}
+			287 = {
+				cede_province = ---
+				change_culture = culture_dragons
+				change_religion = religion_dragons
+				add_province_modifier = {
+					name = ruins_debuff
+					duration = -1
+				}
+			}
+			527 = {
+				cede_province = ---
+				change_culture = culture_wilderness
+				change_religion = religion_wilderness
+				add_province_modifier = {
+					name = ruins_debuff
+					duration = -1
+				}
+			}
+		}		
+	}
+}
+
+country_event = {
+	id = flavor_ere.3
+	title = "desolation_of_smaug.2.t"
+	desc = "desolation_of_smaug.3.d"
+	picture = ACCUSATION_eventPicture
+	
+	major = yes
+	fire_only_once = yes
+	
+	trigger = {
+		has_country_flag = desolation_of_smaug
+		NOT = { 
+			has_country_flag = desolation_of_smaug_won
+			technology_group = lotr_dwarven
+		}
+		OR = { 
+			has_country_flag = desolation_of_smaug_enforced
+			287 = {
+				controlled_by = smaug_rebels
+			}
+		}
+	}
+
+	option = {
+		name = "desolation_of_smaug.3.b"
+		custom_tooltip = desolation_of_smaug_text_2
+		trigger = {
+			tag = Y94
+		}
+		hidden_effect = {
+			if = { 
+				limit = {
+					528 = {
+						owned_by = Y94
+					}
+				}
+				Y94 = {
+					change_tag = V51
+					set_capital = 528
+					change_primary_culture = culture_barding
+				}
+			}
+			set_country_flag = desolation_of_smaug_lost
+			clr_country_flag = desolation_of_smaug
+			clr_country_flag = desolation_of_smaug_enforced
+			disband_rebels = smaug_rebels
+			
+			remove_accepted_culture = culture_dragons
+			country_event = {
+				id = flavor_ere.5
+				days = 3
+			}
+			287 = {
+				cede_province = ---
+				change_culture = culture_dragons
+				change_religion = religion_dragons
+				add_province_modifier = {
+					name = ruins_debuff
+					duration = -1
+				}
+			}
+			527 = {
+				cede_province = ---
+				change_culture = culture_wilderness
+				change_religion = religion_wilderness
+				add_province_modifier = {
+					name = ruins_debuff
+					duration = -1
+				}
+			}
+			683 = {
+				cede_province = ---
+				change_culture = culture_wilderness
+				change_religion = religion_wilderness
+				add_province_modifier = {
+					name = wilderness_debuff
+					duration = -1
+				}
+			}
+			684 = {
+				cede_province = ---
+				change_culture = culture_wilderness
+				change_religion = religion_wilderness
+				add_province_modifier = {
+					name = wilderness_debuff
+					duration = -1
+				}
+			}
+		}
+	}
+		
+	option = {
+		name = "desolation_of_smaug.3.a"
+		custom_tooltip = desolation_of_smaug_text_3
+		trigger = {
+			NOT = { tag = Y94 }
+		}
+		hidden_effect = {
+			if = { 
+				limit = {
+					528 = {
+						owned_by = Y94
+					}
+				}
+				Y94 = {
+					change_tag = V51
+					set_capital = 528
+					change_primary_culture = culture_barding
+				}
+			}
+			
+			set_country_flag = desolation_of_smaug_lost
+			clr_country_flag = desolation_of_smaug
+			clr_country_flag = desolation_of_smaug_enforced
+			disband_rebels = smaug_rebels
+			
+			remove_accepted_culture = culture_dragons
+			country_event = {
+				id = flavor_ere.5
+				days = 3
+			}
+			
+			287 = {
+			cede_province = ---
+			change_culture = culture_dragons
+			change_religion = religion_dragons
+			add_province_modifier = {
+				name = ruins_debuff
+						duration = -1
+				}
+			}
+			
+			527 = {
+			cede_province = ---
+			change_culture = culture_wilderness
+			change_religion = religion_wilderness
+			add_province_modifier = {
+				name = ruins_debuff
+						duration = -1
+				}
+			}
+			
+			683 = {
+			cede_province = ---
+			change_culture = culture_wilderness
+			change_religion = religion_wilderness
+			add_province_modifier = {
+				name = wilderness_debuff
+						duration = -1
+				}
+			}
+			
+			684 = {
+			cede_province = ---
+			change_culture = culture_wilderness
+			change_religion = religion_wilderness
+			add_province_modifier = {
+				name = wilderness_debuff
+						duration = -1
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = flavor_ere.4
+	title = "desolation_of_smaug.4.t"
+	desc = "desolation_of_smaug.4.d"
+	picture = SIEGE_eventPicture
+	
+	major = yes
+	fire_only_once = yes
+	
+	trigger = {
+			AND = {
+				has_country_flag = desolation_of_smaug
+			NOT = {
+				has_country_flag = desolation_of_smaug_lost
+				has_country_flag = desolation_of_smaug_enforced
+				has_country_flag = desolation_of_smaug_won
+				lonely_mountain_area = {
+					num_of_units_in_province = {
+						who = REB
+						type = smaug_rebels
+						amount = 1
+					}
+					num_of_rebel_controlled_provinces = 0
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "desolation_of_smaug.4.a"
+		add_stability = 2
+		add_prestige = 50
+		set_country_flag = desolation_of_smaug_won
+		clr_country_flag = desolation_of_smaug
+		hidden_effect = {
+			every_province = {
+				kill_units = {
+					who = ROOT
+					type = lotr_elven_silvan_poachers_3
+					amount = 1000
+				}
+				kill_units = {
+					who = ROOT
+					type = lotr_elven_silvan_mounted_sentinels_2
+					amount = 1000
+				}
+			}
+		}
+	}	
+		
+	option = {
+		name = "desolation_of_smaug.4.b"
+		add_stability = 2
+		add_legitimacy = 25
+		set_country_flag = desolation_of_smaug_won
+		clr_country_flag = desolation_of_smaug
+		add_country_modifier = {
+			name = honoured_the_dead_debuff
+			duration = 3650
+		}
+		hidden_effect = {
+			every_province = {
+				kill_units = {
+					who = ROOT
+					type = lotr_elven_silvan_poachers_3
+					amount = 1000
+				}
+				kill_units = {
+					who = ROOT
+					type = lotr_elven_silvan_mounted_sentinels_2
+					amount = 1000
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = flavor_ere.5
+	title = "excile.1.t"
+	desc = "excile.1.d"
+	picture = SIEGE_eventPicture
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		AND = {
+			has_country_flag = desolation_of_smaug_lost
+			technology_group = lotr_dwarven
+			NOT = {
+				has_country_flag = desolation_of_smaug
+				has_country_flag = desolation_of_smaug_enforced
+				has_country_flag = desolation_of_smaug_won
+				
+			}
+			NOT = {
+				any_core_province = {has_terrain = mountain}
+				any_core_province = {has_terrain = unique_pass}
+				any_core_province = {has_terrain = unique_goblintown}
+				any_core_province = {has_terrain = unique_dolguldur}
+				any_core_province = {has_terrain = unique_moria}
+				num_of_cities = 7
+			}
+		}
+	}
+
+	option = {
+		name = "excile.1.a"
+		custom_tooltip = excile_text_1
+		trigger = {
+			OR = {
+				tag = Y22
+			}
+		}
+		hidden_effect = {
+			if = { 
+				limit = {
+					overlord_of = Y23
+				}
+				release_all_subjects = yes
+			}
+			if = { 
+				limit = {
+					senior_union_with = V51
+				}
+				break_union = V51
+			}
+			
+			change_tag = V52
+			set_capital = 559
+			set_country_flag = dwarves_excile
+			559 = {
+				cede_province = V52
+				add_core = V52
+				change_culture = culture_longbeard
+				change_religion = religion_mahal
+				change_trade_goods = silver
+				add_province_modifier = {
+					name = constructing_capital_debuff
+					duration = 364
+				}
+			}
+			881 = {
+				cede_province = V52
+				add_core = V52
+				change_trade_goods = stone
+			}
+			683 = {
+				cede_province = ---
+				change_culture = culture_wilderness
+				change_religion = religion_wilderness
+				add_province_modifier = {
+					name = wilderness_debuff
+					duration = -1
+				}
+			}
+			684 = {
+				cede_province = ---
+				change_culture = culture_wilderness
+				change_religion = religion_wilderness
+				add_province_modifier = {
+					name = wilderness_debuff
+					duration = -1
+				}
+			}
+			every_province = {
+				kill_units = {
+					who = ROOT
+					amount = 1000
+				}
+			}
+			infantry = 559
+			infantry = 559
+			infantry = 559
+			infantry = 559
+			infantry = 559
+			infantry = 559
+			cavalry = 559
+			artillery = 559
+		}
+	}
+	
+	option = {
+		name = "excile.1.b"
+		custom_tooltip = excile_text_2
+		trigger = {
+			tag = Y23
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					tag = Y22
+					Y22 = {
+						ai = yes
+					}
+				}
+				Y22 = {
+					change_tag = Y04
+					set_capital = 239
+				}
+			}
+				
+			if = {
+				limit = {
+					tag = Y22
+					Y22 = {
+						ai = no
+					}
+				}
+				Y22 = {
+					switch_tag = Y04
+					set_capital = 239
+				}
+			}
+		
+			set_country_flag = iron_hills_excile
+			683 = {
+				cede_province = ---
+				change_culture = culture_wilderness
+				change_religion = religion_wilderness
+				add_province_modifier = {
+					name = ruins_debuff
+					duration = -1
+				}
+			}
+			684 = {
+				cede_province = ---
+				change_culture = culture_wilderness
+				change_religion = religion_wilderness
+				add_province_modifier = {
+					name = ruins_debuff
+					duration = -1
+				}
+			}
+			287 = {
+				kill_units = {
+					who = ROOT
+					amount = 1000
+				}
+			}
+			527 = {
+				kill_units = {
+					who = ROOT
+					amount = 1000
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = flavor_ere.6
+	title = "desolation_of_smaug.5.t"
+	desc = "desolation_of_smaug.5.d"
+	picture = CONQUEST_eventPicture
+	
+	hidden = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		AND = {
+			has_country_flag = desolation_of_smaug
+			technology_group = lotr_dwarven
+			alliance_with = Y67
+			287 = { 
+				controlled_by = ROOT
+			}
+			316 = { 
+				controlled_by = Y67
+				culture = culture_silvan
+				religion = religion_moriquendi
+			}
+			NOT = {
+				has_country_flag = desolation_of_smaug_lost
+				has_country_flag = desolation_of_smaug_enforced
+				has_country_flag = desolation_of_smaug_won
+				has_country_flag = desolation_of_smaug_elves
+				has_country_flag = desolation_of_smaug_no_aid
+				has_country_flag = desolation_of_smaug_aid
+			}
+		}
+	}
+
+	option = {
+		name = "desolation_of_smaug.5.a"
+		random_list = {
+			20 = {
+				country_event = {
+					id = flavor_ere.7
+					days = 1
+				}
+			}
+			80 = {
+				country_event = {
+					id = flavor_ere.8
+					days = 1
+				}
+			}
+		}
+		set_country_flag = desolation_of_smaug_elves
+	}			
+}
+
+country_event = {
+	id = flavor_ere.7
+	title = "desolation_of_smaug.6.t"
+	desc = "desolation_of_smaug.6.d"
+	picture = CONQUEST_eventPicture
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		AND = {
+			has_country_flag = desolation_of_smaug_elves
+			has_country_flag = desolation_of_smaug
+			technology_group = lotr_dwarven
+			alliance_with = Y67
+			287 = { 
+				controlled_by = ROOT
+			}
+			316 = { 
+				controlled_by = Y67
+				culture = culture_silvan
+				religion = religion_moriquendi
+			}
+			NOT = {
+				has_country_flag = desolation_of_smaug_lost
+				has_country_flag = desolation_of_smaug_enforced
+				has_country_flag = desolation_of_smaug_won
+				has_country_flag = desolation_of_smaug_no_aid
+				has_country_flag = desolation_of_smaug_aid
+			}
+		}
+	}
+
+	option = {
+		name = "desolation_of_smaug.6.a"
+		add_historical_friend = Y67
+		
+		Y67 = {
+			add_historical_friend = Y22
+			add_opinion = {
+				who = ROOT
+				modifier = thandruil_helped_ally
+				years = 100
+			}
+		}
+		Y22 = {
+			add_historical_friend = Y67
+		}
+		add_opinion = {
+			who = Y67
+			modifier = thandruil_helped
+			years = 100
+		}
+		hidden_effect = {
+			lotr_elven_silvan_poachers_3 = 527
+			lotr_elven_silvan_poachers_3 = 527
+			lotr_elven_silvan_poachers_3 = 527
+			lotr_elven_silvan_poachers_3 = 527
+			lotr_elven_silvan_mounted_sentinels_2 = 527
+			set_country_flag = desolation_of_smaug_aid
+			clr_country_flag = desolation_of_smaug_elves
+		}
+	}			
+}
+
+country_event = {
+	id = flavor_ere.8
+	title = "desolation_of_smaug.7.t"
+	desc = "desolation_of_smaug.7.d"
+	picture = CONQUEST_eventPicture
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		AND = {
+			has_country_flag = desolation_of_smaug_elves
+			has_country_flag = desolation_of_smaug
+			technology_group = lotr_dwarven
+			alliance_with = Y67
+			287 = { 
+				controlled_by = ROOT
+			}
+			316 = { 
+				controlled_by = Y67
+				culture = culture_silvan
+				religion = religion_moriquendi
+			}
+			NOT = {
+				has_country_flag = desolation_of_smaug_lost
+				has_country_flag = desolation_of_smaug_enforced
+				has_country_flag = desolation_of_smaug_won
+				has_country_flag = desolation_of_smaug_no_aid
+				has_country_flag = desolation_of_smaug_aid
+			}
+		}
+	}
+
+	option = {
+		name = "desolation_of_smaug.7.a"
+		Y67 = {
+			add_opinion = {
+				who = ROOT
+				modifier = thandruil_left_ally
+				years = 200
+			}
+		}
+		add_opinion = {
+			who = Y67
+			modifier = thandruil_left
+			years = 200
+		}
+		if = { 
+			limit = {
+				marriage_with = Y67
+			}
+			break_marriage = Y67
+		}
+		set_country_flag = desolation_of_smaug_no_aid
+		clr_country_flag = desolation_of_smaug_elves
+	}			
+}
+
+country_event = {
+	id = flavor_ere.9
+	title = "war_of_the_dwarves_and_orcs.1.t"
+	desc = "war_of_the_dwarves_and_orcs.1.d"
+	picture = CONQUEST_eventPicture
+	
+	major = yes
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 2793
+		has_country_flag = desolation_of_smaug_lost
+		tag = V52
+		exists = Y57
+		is_neighbor_of = Y57
+		882 = {
+			owned_by = Y57
+		}
+		285 = {
+			owned_by = Y57
+		}
+		NOT = { 
+			exists = V53 
+			owns_core_province = 882
+			owns_core_province = 285
+			has_country_flag = war_of_the_dwarves_and_orcs
+			has_country_flag = war_of_the_dwarves_and_orcs_starts
+			has_country_flag = war_of_the_dwarves_and_orcs_lost
+			has_country_flag = war_of_the_dwarves_and_orcs_wins
+		}
+	}
+
+	option = {
+		name = "war_of_the_dwarves_and_orcs.1.a"
+		custom_tooltip = war_of_the_dwarves_and_orcs_text_1
+		V52 = {
+			kill_heir = yes
+			define_heir = {
+				claim = 100
+				dynasty = ROOT
+				name = "Thorin Bit Durin"
+				adm = 4
+				dip = 3
+				mil = 4
+				age = 15
+			}
+			form_coalition_against = Y57
+			add_core = 882
+			add_core = 285
+			add_core = 676
+			add_core = 888
+		}
+		set_country_flag = war_of_the_dwarves_and_orcs
+		hidden_effect = {
+			country_event = {
+				id = flavor_ere.10
+				days = 30
+			}
+			country_event = {
+				id = flavor_ere.11
+				days = 60
+			}
+			country_event = {
+				id = flavor_ere.12
+				days = 90
+			}
+			add_country_modifier = {
+				name = war_of_dwarves_and_orcs
+				duration = 2548
+			}
+			Y57 = {
+			create_alliance = Y44
+			create_alliance = Y63
+			add_opinion = {
+					who = Y63
+					modifier = unite_goblins
+					years = 7
+				}
+				add_country_modifier = {
+					name = unite_goblins
+					duration = 2548
+				}
+			}
+			Y63 = {
+			add_opinion = {
+					who = Y57
+					modifier = unite_goblins
+					years = 7
+				}
+			}
+			Y44 = {
+			add_opinion = {
+					who = Y57
+					modifier = unite_goblins
+					years = 7
+				}
+			}
+			Y04 = {
+				form_coalition_against = Y57
+			}
+			Y05 = {
+				form_coalition_against = Y57
+			}
+			Y23 = {
+				form_coalition_against = Y57
+			}
+			Y18 = {
+				form_coalition_against = Y57
+			}
+			X43 = {
+				form_coalition_against = Y57
+			}
+			Y57 = {
+				add_historical_rival = V52
+			}
+			add_historical_rival = Y57
+		}
+	}			
+}
+
+country_event = {
+	id = flavor_ere.10
+	title = "war_of_the_dwarves_and_orcs.2.t"
+	desc = "war_of_the_dwarves_and_orcs.2.d"
+	picture = CONQUEST_eventPicture
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		#is_year = 2793
+		has_country_flag = desolation_of_smaug_lost
+		has_country_flag = war_of_the_dwarves_and_orcs
+		tag = V52
+		exists = Y57
+		is_neighbor_of = Y57
+		NOT = { 
+			exists = V53 
+			owns_core_province = 882
+			owns_core_province = 285
+			has_country_flag = war_of_the_dwarves_and_orcs_blacklocks
+		}
+	}
+
+	option = {
+		name = "war_of_the_dwarves_and_orcs.2.a"
+		infantry = 559
+		infantry = 559
+		set_country_flag = war_of_the_dwarves_and_orcs_blacklocks
+	}			
+}
+
+country_event = {
+	id = flavor_ere.11
+	title = "war_of_the_dwarves_and_orcs.3.t"
+	desc = "war_of_the_dwarves_and_orcs.3.d"
+	picture = CONQUEST_eventPicture
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		#is_year = 2793
+		has_country_flag = desolation_of_smaug_lost
+		has_country_flag = war_of_the_dwarves_and_orcs
+		tag = V52
+		exists = Y57
+		is_neighbor_of = Y57
+		NOT = { 
+			exists = V53 
+			owns_core_province = 882
+			owns_core_province = 285
+			has_country_flag = war_of_the_dwarves_and_orcs_stonefoots
+		}
+	}
+
+	option = {
+		name = "war_of_the_dwarves_and_orcs.3.a"
+		infantry = 559
+		set_country_flag = war_of_the_dwarves_and_orcs_stonefoots
+	}			
+}
+
+country_event = {
+	id = flavor_ere.12
+	title = "war_of_the_dwarves_and_orcs.4.t"
+	desc = "war_of_the_dwarves_and_orcs.4.d"
+	picture = CONQUEST_eventPicture
+	
+	is_triggered_only = yes
+	major = yes
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 2793
+		has_country_flag = desolation_of_smaug_lost
+		has_country_flag = war_of_the_dwarves_and_orcs
+		tag = V52
+		exists = Y57
+		is_neighbor_of = Y57
+		882 = {
+			owned_by = Y57
+		}
+		285 = {
+			owned_by = Y57
+		}
+		NOT = { 
+			exists = V53 
+			owns_core_province = 882
+			owns_core_province = 285
+			war_with = Y57
+			has_country_flag = war_of_the_dwarves_and_orcs_starts
+			has_country_flag = war_of_the_dwarves_and_orcs_lost
+			has_country_flag = war_of_the_dwarves_and_orcs_wins
+		}
+	}
+
+	option = {
+		name = "war_of_the_dwarves_and_orcs.4.a"
+		declare_war_with_cb = {
+			who = Y57
+			casus_belli = cb_war_of_the_dwarves_and_orcs
+		}
+
+		set_country_flag = war_of_the_dwarves_and_orcs_starts
+	}			
+}
+
+country_event = {
+	id = flavor_ere.13
+	title = "war_of_the_dwarves_and_orcs.5.t"
+	desc = "war_of_the_dwarves_and_orcs.5.d"
+	picture = CONQUEST_eventPicture
+	
+	major = yes
+	fire_only_once = yes
+	
+	trigger = {
+		has_country_flag = desolation_of_smaug_lost
+		has_country_flag = war_of_the_dwarves_and_orcs
+		has_country_flag = war_of_the_dwarves_and_orcs_starts
+		tag = V52
+		882 = {
+			owned_by = V52
+		}
+		285 = {
+			owned_by = V52
+		}
+		676 = {
+			owned_by = V52
+		}
+		had_recent_war = 0.1
+		NOT = { 
+			exists = V53 	
+			has_country_flag = war_of_the_dwarves_and_orcs_lost
+		}
+	}
+
+	option = {
+		name = "war_of_the_dwarves_and_orcs.5.a"
+		change_tag = V53
+		add_stability = 2
+		add_prestige = 50
+		add_legitimacy = 25
+		set_country_flag = war_of_the_dwarves_and_orcs_wins
+		clr_country_flag = war_of_the_dwarves_and_orcs_starts
+		clr_country_flag = war_of_the_dwarves_and_orcs
+		hidden_effect = {
+			remove_accepted_culture = culture_goblins
+			882 = {
+				change_culture = culture_longbeard
+				change_religion = religion_mahal
+			}
+			285 = {
+				change_culture = culture_longbeard
+				change_religion = religion_mahal
+			}
+			888 = {
+				change_culture = culture_wilderness
+				change_religion = religion_wilderness
+			}
+			676 = {
+				change_culture = culture_wilderness
+				change_religion = religion_wilderness
+			}
+		}
+	}			
+}
+
+country_event = {
+	id = flavor_ere.14
+	title = "war_of_the_dwarves_and_orcs.6.t"
+	desc = "war_of_the_dwarves_and_orcs.6.d"
+	picture = CONQUEST_eventPicture
+	
+	major = yes
+	fire_only_once = yes
+	
+	trigger = {
+		has_country_flag = desolation_of_smaug_lost
+		has_country_flag = war_of_the_dwarves_and_orcs
+		has_country_flag = war_of_the_dwarves_and_orcs_starts
+		tag = V52
+		war_with = Y57
+		882 = {
+			owned_by = Y57
+		}
+		285 = {
+			owned_by = Y57
+		}
+		676 = {
+			owned_by = Y57
+		}
+		559 = {
+			controlled_by = Y57
+		}
+		881 = {
+			controlled_by = Y57
+		}
+		NOT = {  	
+			has_country_flag = war_of_the_dwarves_and_orcs_lost
+			has_country_flag = war_of_the_dwarves_and_orcs_wins
+			any_province = {
+				num_of_units_in_province = {
+					who = V52
+					amount = 1
+				}
+			}		
+		}
+	}
+
+	immediate = {
+		white_peace = Y57
+	}
+
+	option = {
+		name = "war_of_the_dwarves_and_orcs.6.a"
+		custom_tooltip = war_of_the_dwarves_and_orcs_text_2
+		add_prestige = -50
+		set_country_flag = war_of_the_dwarves_and_orcs_lost
+		clr_country_flag = war_of_the_dwarves_and_orcs_starts
+		clr_country_flag = war_of_the_dwarves_and_orcs
+		hidden_effect = {
+			if = { 
+				limit = {
+					Y04 = {
+						ai = yes
+					}
+				}
+				239 = {
+					cede_province = Y04
+					add_core = Y04
+					change_culture = culture_longbeard
+					change_religion = religion_mahal
+					change_trade_goods = gold
+					add_province_modifier = {
+						name = constructing_capital_debuff
+						duration = 364
+					}
+				}
+				666 = {
+					cede_province = Y04
+					add_core = Y04
+					change_culture = culture_longbeard
+					change_religion = religion_mahal
+					change_trade_goods = iron
+				}
+				if = {
+					limit = {
+						tag = V52
+						V52 = {
+							ai = yes
+						}
+					}
+					V52 = {
+						change_tag = Y04
+						set_capital = 239
+					}
+				}
+				
+				if = {
+					limit = {
+						tag = V52
+						V52 = {
+							ai = no
+						}
+					}
+					V52 = {
+						switch_tag = Y04
+						set_capital = 239
+					}
+				}
+				
+				Y04 = {
+					set_country_flag = war_of_the_dwarves_and_orcs_lost
+					set_country_flag = desolation_of_smaug_lost
+				}
+			}
+			if = { 
+				limit = {
+					Y04 = {
+						ai = no
+					}
+				}
+				239 = {
+					cede_province = Z75
+					add_core = Z75
+					change_culture = culture_longbeard
+					change_religion = religion_mahal
+					change_trade_goods = gold
+					add_province_modifier = {
+						name = constructing_capital_debuff
+						duration = 364
+					}
+				}
+				666 = {
+					cede_province = Z75
+					add_core = Z75
+					change_culture = culture_longbeard
+					change_religion = religion_mahal
+					change_trade_goods = iron
+				}
+				V52 = {
+					change_tag = Z75
+					set_capital = 239
+				}
+			}
+			#all_province = {
+			#	limit = {
+			#		owned_by = V52
+			#	}
+			#	remove_core = V52
+			#}
+			country_event = {
+				id = flavor_ere.15
+				days = 1
+			}
+		}
+	}			
+}
+		
+country_event = {
+	id = flavor_ere.15
+	title = "war_of_the_dwarves_and_orcs.7.t"
+	desc = "war_of_the_dwarves_and_orcs.7.d"
+	picture = CONQUEST_eventPicture
+	
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		has_country_flag = desolation_of_smaug_lost
+		has_country_flag = war_of_the_dwarves_and_orcs_lost
+		tag = Y04
+		559 = {
+			owned_by = V52
+		}
+		881 = {
+			owned_by = V52
+		}
+	}
+
+	option = {
+		name = "war_of_the_dwarves_and_orcs.7.a"
+		559 = {
+			cede_province = ---
+			change_culture = culture_wilderness
+			change_religion = religion_wilderness
+			remove_core = V52
+			add_province_modifier = {
+				name = wilderness_debuff
+				duration = -1
+			}
+		}
+		881 = {
+			cede_province = ---
+			change_culture = culture_wilderness
+			change_religion = religion_wilderness
+			remove_core = V52
+			add_province_modifier = {
+				name = wilderness_debuff
+				duration = -1
+			}
+		}
+		hidden_effect = {
+			every_province = {
+				kill_units = {
+					who = V52
+					amount = 1000
+				}
+			}
+		}
+	}			
+}
+	
+country_event = {
+	id = flavor_ere.16
+	title = "war_of_the_dwarves_and_orcs.8.t"
+	desc = "war_of_the_dwarves_and_orcs.8.d"
+	picture = CONQUEST_eventPicture
+	
+	is_triggered_only = yes
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 2793
+		tag = V52
+		exists = Y57
+		war_with = Y57
+		is_neighbor_of = Y57
+		882 = {
+			owned_by = Y57
+		}
+		285 = {
+			owned_by = Y57
+		}
+		NOT = { 
+			exists = V53 
+			owns_core_province = 882
+			owns_core_province = 285
+			has_country_flag = war_of_the_dwarves_and_orcs_lost
+			has_country_flag = war_of_the_dwarves_and_orcs_wins
+			has_country_flag = war_of_the_dwarves_and_orcs
+			has_country_flag = war_of_the_dwarves_and_starts
+			has_country_flag = desolation_of_smaug_lost
+		}
+	}
+
+	option = {
+		name = "war_of_the_dwarves_and_orcs.8.a"
+		set_country_flag = desolation_of_smaug_lost
+		set_country_flag = war_of_the_dwarves_and_orcs
+		set_country_flag = war_of_the_dwarves_and_orcs_starts
+		infantry = 559
+		infantry = 559
+		infantry = 559
+		add_country_modifier = {
+			name = war_of_dwarves_and_orcs
+			duration = 2548
+		}
+	}			
+}
+		
+#V51 = Laketown
+#V52 = Thrors Company
+#Y04 - Khagolabbad
+#Y05 - Khagolabbad Faraku
+#Y18 - Nurunkhizdin
+#X43 - Zirakdum
+#V53 - Moria(Dwarf)

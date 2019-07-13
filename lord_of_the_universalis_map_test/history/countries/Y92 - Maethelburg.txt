@@ -1,0 +1,10 @@
+mercantilism = 0.1
+government = monarchy
+add_government_reform = feudalism_reform
+
+primary_culture = culture_maethelburgers
+religion = religion_nenedain
+technology_group = lotr_northmen
+capital = 404
+
+government_rank = 1

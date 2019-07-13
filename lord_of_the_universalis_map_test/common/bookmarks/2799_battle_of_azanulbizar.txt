@@ -1,0 +1,12 @@
+bookmark =
+{
+    # Battle of Azanulbizar
+	name = "LOTR_5_NAME"
+	desc = "LOTR_5_DESC"
+	date = 2799.1.1
+	
+	country = Z71
+	country = Z06
+	country = X09
+	country = Z64
+}

@@ -1,0 +1,347 @@
+########################################
+# Events for Dol Amroth
+#
+#
+########################################
+
+namespace = flavor_dol_amroth
+normal_or_historical_nations = yes
+
+# Donate to a district
+country_event = {
+	id = flavor_dol_amroth.1
+	title = flavor_dol_amroth.1.t
+	desc = flavor_dol_amroth.1.d
+	picture = CITY_VIEW_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			tag = X11
+		}
+		NOT = {
+			has_country_modifier = dol_amroth_harpers_donated
+			has_country_modifier = dol_amroth_scholar_donated
+			has_country_modifier = dol_amroth_mason_donated
+		}
+		656 = {
+			owned_by = root
+		}
+	}
+	
+	#mean_time_to_happen = {
+	#
+	#}
+	
+	#Harper District
+	option = {
+		name = "flavor_dol_amroth.1.a"
+		
+		add_treasury = -50
+		
+		add_country_modifier = {
+			name = dol_amroth_harpers_donated
+			duration = 3650
+		}
+	}  
+	
+	#Scholar Court
+	option = {
+		name = "flavor_dol_amroth.1.b"
+		
+		add_treasury = -50
+		
+		add_country_modifier = {
+			name = dol_amroth_scholar_donated
+			duration = 3650
+		}
+	} 
+	
+	#Mason Court
+	option = {
+		name = "flavor_dol_amroth.1.c"
+		
+		add_treasury = -50
+		
+		add_country_modifier = {
+			name = dol_amroth_mason_donated
+			duration = 3650
+		}
+	} 
+}
+
+# Prioritise Military
+country_event = {
+	id = flavor_dol_amroth.2
+	title = flavor_dol_amroth.2.t
+	desc = flavor_dol_amroth.2.d
+	picture = INVENTION_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			tag = X11
+		}
+		NOT = {
+			has_country_modifier = dol_amroth_cavalry_bonus
+			has_country_modifier = dol_amroth_infantry_bonus
+			has_country_modifier = dol_amroth_galley_bonus
+		}
+	}
+	
+	#The Swan Knights
+	option = {
+		name = "flavor_dol_amroth.2.a"
+		
+		add_country_modifier = {
+			name = dol_amroth_cavalry_bonus
+			duration = 3650
+		}
+	}  
+	
+	#Infantry
+	option = {
+		name = "flavor_dol_amroth.2.b"
+		
+		add_country_modifier = {
+			name = dol_amroth_infantry_bonus
+			duration = 3650
+		}
+	} 
+	
+	#Galleys
+	option = {
+		name = "flavor_dol_amroth.2.c"
+		
+		add_country_modifier = {
+			name = dol_amroth_galley_bonus
+			duration = 3650
+		}
+	} 
+}
+
+# Gondor calls for Men
+country_event = {
+	id = flavor_dol_amroth.3
+	title = flavor_dol_amroth.3.t
+	desc = flavor_dol_amroth.3.d
+	picture = MILITARY_CAMP_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			tag = X11
+			X01 = {
+				exists = yes
+				overlord_of  = ROOT
+			}
+		}
+	}
+	
+	#Low
+	option = {
+		name = "flavor_dol_amroth.3.a"
+		
+		add_treasury = 25
+		add_manpower = -2
+		
+		X01 = {
+			set_country_flag = low_manpower
+		}
+	}  
+	
+	#Medium
+	option = {
+		name = "flavor_dol_amroth.3.b"
+		
+		add_treasury = 50
+		add_manpower = -4
+		
+		X01 = {
+			set_country_flag = medium_manpower
+		}
+	} 
+	
+	#High
+	option = {
+		name = "flavor_dol_amroth.3.c"
+		
+		add_treasury = 100
+		add_manpower = -6
+		
+		X01 = {
+			set_country_flag = high_manpower
+		}
+		
+		country_event = {
+			id = flavor_dol_amroth.4 
+		}
+	} 
+}
+
+# Gondor calls for Men (Gondor)
+country_event = {
+	id = flavor_dol_amroth.4
+	title = flavor_dol_amroth.4.t
+	desc = flavor_dol_amroth.4.d
+	picture = MILITARY_CAMP_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			tag = X01
+		}
+		OR = {
+			has_country_flag = low_manpower
+			has_country_flag = medium_manpower
+			has_country_flag = high_manpower
+		}
+	}
+	
+	#Response
+	option = {
+		name = "flavor_dol_amroth.4.a"
+		
+		if = {
+			limit = {
+				has_country_flag = low_manpower
+			}
+			
+			add_treasury = -25
+			add_manpower = 2
+			clr_country_flag = low_manpower
+			
+			add_opinion = {
+				who = X11
+				modifier = dol_amroth_send_low_men
+				years = 25
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = medium_manpower
+			}
+		
+			add_treasury = -50
+			add_manpower = 4
+			clr_country_flag = medium_manpower
+			
+			add_opinion = {
+				who = X11
+				modifier = dol_amroth_send_med_men
+				years = 25
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = high_manpower
+			}
+		
+			add_treasury = -100
+			add_manpower = 6
+			clr_country_flag = high_manpower
+			
+			add_opinion = {
+				who = X11
+				modifier = dol_amroth_send_high_men
+				years = 25
+			}
+		}
+	}  
+}
+
+# Land of the Princes
+country_event = {
+	id = flavor_dol_amroth.5
+	title = flavor_dol_amroth.5.t
+	desc = flavor_dol_amroth.5.d
+	picture = GOOD_WITH_MONARCH_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			tag = X11
+		}
+	}
+	
+	#GOood
+	option = {
+		name = "flavor_dol_amroth.5.a"
+		
+		add_stability = 1
+		add_adm_power = 100
+		add_patriarch_authority = 0.05
+	}  
+}
+
+# Corsair Raid
+country_event = {
+	id = flavor_dol_amroth.6
+	title = flavor_dol_amroth.6.t
+	desc = flavor_dol_amroth.6.d
+	picture = BORDER_TENSION_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			tag = X11
+		}
+		NOT = {
+			any_owned_province = {
+				has_port = yes
+				owned_by = ROOT
+				is_core = ROOT
+				OR = {
+					area = dol_amroth_area
+					area = belfalas_area
+					area = tol_falas_area
+					area = edhellond_area
+				}
+				has_province_modifier = province_dol_amroth_coast_raided
+			}
+		}
+		
+	}
+	
+	#BADDDD
+	option = {
+		name = "flavor_dol_amroth.6.a"
+		
+		add_stability = -1
+		add_patriarch_authority = -0.05
+		
+		custom_tooltip = dol_amroth_coast_raided
+		
+		tooltip = {
+			add_province_modifier = {
+				name = province_dol_amroth_coast_raided 
+				duration = 1095
+			}
+		}
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_port = yes
+					owned_by = ROOT
+					is_core = ROOT
+					OR = {
+						area = dol_amroth_area
+						area = belfalas_area
+						area = tol_falas_area
+						area = edhellond_area
+					}
+				}
+				add_province_modifier = {
+					name = province_dol_amroth_coast_raided 
+					duration = 1095
+				}
+			}
+		}
+	}  
+}

@@ -1,0 +1,11 @@
+# Gondorian Archers
+type = infantry
+unit_type = lotr_dunedain
+
+maneuver = 1
+offensive_morale = 0
+defensive_morale = 2
+offensive_fire = 1
+defensive_fire = 1
+offensive_shock = 0
+defensive_shock = 1

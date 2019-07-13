@@ -1,0 +1,206 @@
+orc_gov_mechanic = {
+	
+	monarchy = yes
+	heir = no
+	queen = no
+	royal_marriage = no
+	basic_reform = yes # = invisible/does not take up a slot
+	valid_for_nation_designer = no
+	custom_attributes = {
+		enables_aristocratic_idea_group = yes
+	}
+}
+
+lotr_orc_clan_reform = {
+	icon = "orc_clan"
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	legacy_equivalent = lotr_orc_clan_legacy
+	
+	potential = {
+		OR = {
+			technology_group = lotr_uruk_hai    
+			technology_group = lotr_orc   
+			technology_group = lotr_half_orc  
+			technology_group = lotr_goblin 
+		}
+	}
+	
+	modifiers = {
+		max_states = 2
+		tolerance_own = 2
+		tolerance_heretic = -2
+		global_autonomy = -0.05
+	}
+}
+
+lotr_orc_clan_federation_reform = {
+	icon = "orc_federation"
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	legacy_equivalent = lotr_orc_clan_federation_legacy
+	
+	potential = {
+		OR = {
+			technology_group = lotr_uruk_hai    
+			technology_group = lotr_orc   
+			technology_group = lotr_half_orc  
+			technology_group = lotr_goblin 
+		}
+	}
+
+	modifiers = {
+		max_states = 2
+		tolerance_own = 2
+		tolerance_heretic = -2
+		global_autonomy = -0.05
+	}
+}
+
+lotr_orc_kingdom_reform = {
+	icon = "orc_kingdom"
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	legacy_equivalent = lotr_orc_kingdom_legacy
+	
+	potential = {
+		OR = {
+			technology_group = lotr_uruk_hai    
+			technology_group = lotr_orc   
+			technology_group = lotr_half_orc  
+			technology_group = lotr_goblin 
+		}
+	}
+
+	modifiers = {
+		max_states = 2
+		tolerance_own = 2
+		tolerance_heretic = -2
+		global_autonomy = -0.05
+	}
+}
+
+lotr_nazgul_reform = {
+	icon = "nazgul_domain"
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	legacy_equivalent = lotr_nazgul_legacy
+	lock_level_when_selected = yes
+	
+	potential = {
+		OR = {
+			tag = V18
+			tag = V19
+		}
+	}
+	
+	modifiers = {
+		max_states = 2
+		tolerance_own = 2
+		tolerance_heretic = -2
+		global_autonomy = -0.05
+	}
+	
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+lotr_isengard_reform = {
+	icon = "isengard"
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	legacy_equivalent = lotr_isengard_legacy
+	lock_level_when_selected = yes
+	
+	potential = {
+		tag = V49
+	}
+	
+	modifiers = {
+		max_states = 2
+		tolerance_own = 2
+		tolerance_heretic = -2
+		global_autonomy = -0.05
+	}
+	
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+lotr_mordor_reform = {
+	icon = "mordor"
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	legacy_equivalent = lotr_mordor_legacy
+	lock_level_when_selected = yes
+	
+	potential = {
+		tag = V17
+	}
+	
+	modifiers = {
+		max_states = 2
+		tolerance_own = 2
+		tolerance_heretic = -2
+		global_autonomy = -0.05
+	}
+	
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+####################
+#Concentration of Production#
+####################
+
+food_production_reform = {
+	icon = "landscape"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_supply_limit_modifier = 0.25
+		land_forcelimit_modifier = 0.1
+	}
+}
+
+weapons_production_reform = {
+	icon = "smugglers_haven"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_regiment_cost = -0.10
+		land_maintenance_modifier = -0.1
+	}
+}
+
+machinery_production_reform = {
+	icon = "compass"
+	allow_normal_conversion = yes
+	modifiers = {
+		war_exhaustion = -0.15
+		build_cost = -0.15
+	}
+}
+
+############
+#Orc Cause#
+############
+
+total_dominance_reform = {
+	icon = "fist_in_air"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_unrest = -1
+		years_of_nationalism = -10
+	}
+}
+
+total_destruction_reform = {
+	icon = "rioting_burning_2"
+	allow_normal_conversion = yes
+	modifiers = {
+		ae_impact = -0.2
+		province_warscore_cost = -0.2
+	}
+}

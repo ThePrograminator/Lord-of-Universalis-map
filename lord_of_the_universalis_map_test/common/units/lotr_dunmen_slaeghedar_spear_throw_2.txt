@@ -1,0 +1,18 @@
+# Rohirrim Swordsmen
+type = infantry
+unit_type = lotr_daen
+
+maneuver = 1
+offensive_morale = 2
+defensive_morale = 0
+offensive_fire = 3
+defensive_fire = 0
+offensive_shock = 2
+defensive_shock = 1
+
+trigger = {
+	OR= {
+		culture_group = culture_group_daen_lintis
+		culture_group = culture_group_daen_of_gondor
+	}
+}

@@ -1,0 +1,414 @@
+﻿l_german:
+ #----------------------------
+ # Event/Decision
+ #----------------------------
+ purifying_the_realm: "Purify the Realm"
+ desc_purifying_the_realm: "Purify our realm, expelling all of those whom are of a different race."
+ 
+ cleansing_population: "Cleansing our population"
+ desc_cleansing_population: "We are currently cleansing our population."
+ 
+ consulted_elders: "Consulted Elders"
+ desc_consulted_elders: "Our elders often have valuable advice relevant to our current predicaments, but we must listen to them first, else lose their valuable experience."
+ 
+ constructed_monuments: "New Monuments"
+ desc_constructed_monuments: "The glory of our ruler must be displayed across our realm."
+ 
+ grand_painting: "Grand Painting"
+ desc_grand_painting: "The beauty of our rulers must be captured in the brushstrokes of a legendary artist. Commission one of our realm's artists to produce this masterpiece."
+ 
+ sin_tax: "Sin Tax"
+ desc_sin_tax: "Our people revel and party continously! We must curb this by instituting a sin tax. This will also help fill our coffers."
+ 
+ happy_poor: "Happy People"
+ desc_happy_poor: "The poorest in our realm require help to live fufilled lives. If we invest some of our wealth and help bring up the poorest in our realm, we will improve the realm's stability."
+
+ debts_settled: "Debts Settled"
+ desc_debts_settled: "If we settle our debts early, other nobles will be more willing to lend money to us."
+ 
+ purified_land: "Purified Land"
+ desc_purified_land: "Our realm must be cleansed! Force people to follow our traditions or 'send' them away."
+ 
+ councils: "Local Councils"
+ desc_councils: "Our realm is large, and without local councils our administration will falter."
+ 
+ province_troll_debuff: "Trolls Roam The Land"
+ desc_province_troll_debuff: "Trolls are strong and vicious, but generally dim-witted and stupid at best. Some were described as being able to speak, while others appear to be as irrational as animals. They seem to be fond of meat, and will eat almost any animal or being they come across. They also have very disgusting manners."
+ 
+ province_wight_debuff: "Wights Roam The Land"
+ desc_province_wight_debuff: "The Barrow-wights were shape-shifting beings of darkness, similar in circumstance to Wraiths, who dwelt in dark places of Eriador such as the Barrow-downs.  They were put there by sorcerers of Angmar who corrupted the souls of the inhabitants of the Barrow-downs. The sorcerers were sent by the Witch-king of Angmar who wished to keep the Dúnedain away from there."
+ 
+ province_huorn_debuff: "Huorns Roam The Land"
+ desc_province_huorn_debuff: "Huorns were the dreadful, living race of ancient, slow-moving trees, whom the Ents cared for and tended to in the Second and Third Ages. The Huorns mostly stood as dark trees in the deepest forests, gnarled and unmoving, yet watchful. When aroused in wrath they moved swiftly as if wrapped in shadows, falling on foes with deadly and merciless strength."
+ 
+ center_of_trade_modifier: "Coastal Center of Trade"
+ desc_center_of_trade_modifier: "The importance of this province as a Center of Trade will help control trade in the region."
+ inland_center_of_trade_modifier: "Inland Center of Trade"
+ desc_inland_center_of_trade_modifier: "The importance of this province as a Center of Trade will help control trade in the region."
+ important_natural_harbor: "Important Natural Harbor"
+ desc_important_natural_harbor: "This province is naturally suited to become a local Center of Trade and controlling it will help control trade in the region."
+ river_estuary_modifier: "River Estuary"
+ desc_river_estuary_modifier: "Controlling the important river estuary strengthens our hold of the trade in the region."
+ harsh_winter_h: "Harsh Winter"
+ desc_harsh_winter_h: "The latest winter was especially harsh for the bees this year, this will result in a smaller production of honey."
+ wargs_captured: "Captured Wargs"
+ desc_wargs_captured: "One of your hunting parties have captured and returned a large quantity of wargs. This has resulted in a abumdant of wargs for our troops."
+ iron_problems: "Iron ore quality problems"
+ desc_iron_problems: "Our iron mines' deposit have run into some poor quality iron which cannot be used for weapons or armor."
+ wilderness_debuff: "Wilderness"
+ desc_wilderness_debuff: "No one lives in this province. To change this, change the religion and culture of the province"
+ ruins_debuff: "Province Capital in Ruins"
+ desc_ruins_debuff: "Your province capital is in ruins. This has resulted in a depleation of the population. To rebuild your capital, go to the buildings and use the action option to do so."
+ constructing_capital_debuff: "Constructing Capital"
+ desc_constructing_capital_debuff: "Your people have just arrived to Dunland Mountains, and have started build the capital"
+ honoured_the_dead_debuff: "Honoured the Dead"
+ desc_honoured_the_dead_debuff: "Your Allies are amazed by your acomplishment"
+ war_of_dwarves_and_orcs: "War of the Dwarves and Orcs"
+ desc_war_of_dwarves_and_orcs: "Your nation is very war focused"
+ unite_goblins: "United Goblins"
+ desc_unite_goblins: "Your nation is very war focused"
+ human_buff: "Human"
+ desc_human_buff: "The race of Men is the second race of beings created by the supreme God, Ilúvatar. Men bear the Gift of Men, which is mortality, and therefore they age and die when their time comes, and are susceptible to illness and disease."
+ dwarf_buff: "Dwarf"
+ desc_dwarf_buff: "Dwarves were a race in Middle-earth also called Khazad, the Naugrim, meaning Stunted People, and Gonnhirrim, meaning Masters of Stone.  .Dwarves were a short, stocky race, a little taller than hobbits but much broader and heavier. Most Dwarves had thick, luxuriant beards in which they took great pride, and often forked or braided them and tucked them into their belts."
+ elf_buff: "Elf"
+ desc_elf_buff: "The Elves were the first and eldest of the Children of Ilúvatar and are considered to be the fairest and wisest race of Arda given sapience by him. The Elves are not subject to disease or physical aging, though they could be killed by violence or by wasting away and losing the will to live. They were otherwise immortal."
+ hobbit_buff: "Hobbit"
+ desc_hobbit_buff: "Hobbits, also known as Halflings, were an ancient mortal race. Although their exact origins are unknown, they were initially found in the northern parts of Middle-earth and below the Vales of Anduin. At the beginning of the Third Age, Hobbits moved north and west. Most of their race eventually founded the land of the Shire in about the year TA 1601, though a type of Hobbit called Stoor still live in the Anduin Vale (the type of Hobbit Sméagol was, or was related to)."
+ ents_buff: "Ent"
+ desc_ents_buff: "Ents, called Onodrim (Tree-host) by the elves, are a very old race that appeared in Middle-earth at the same time that the elves did. Ents were envisioned as Shepherds of the Huorns, to protect the forests from orcs and other perils. The Elves have tales of teaching the trees and the Ents to talk: although the Ents were sentient beings at the time, they did not know how to speak until the Elves taught them."
+ beornings_buff: "Beorning"
+ desc_beornings_buff: "Beornings also known as Skin-changers were a race of large Men. The origins of Beornings are not known, save that they dwelt in the Vales of Anduin between Mirkwood and the Great River in the late Third Age. Unlike other Men, they had the ability to change into bears. They were named after Beorn, their patriarch."
+ orc_buff: "Orc"
+ desc_orc_buff: "Orcs are a race of sentient beings bred by the evil Vala Melkor during the time of the Great Darkness. The Dark Lord Sauron, also bred them and used them, and later the wizard Saruman, as soldiers and henchmen to do various evil deeds across Middle-earth. Wise Elves of Eressëa believed that Melkor had created the orcs before the First Age by breeding Elves he had captured and corrupted, by means of torture and mutilation."
+ goblin_buff: "Goblin"
+ desc_goblin_buff: "Their kingdoms spread throughout many mountains of Middle-earth; notable cities include Goblin-town near the High Pass above Rivendell, the Goblin-capital at Mount Gundabad, and the former Dwarf-kingdom of Moria, as well as those in the service of Isengard and Mordor."
+ uruk_hai_buff: "Uruk-Hai"
+ desc_uruk_hai_buff: "The Uruk-Hai, are a powerful race similar to and mainly composed of orc blood. They were created by Saruman after being instructed to create an army worthy of Mordor. The Uruk-hai are faster than normal Orcs and could travel during the day without being weakened by the sun. They are significantly more muscular and not quite so bow-legged as Orcs, and often stood six feet tall, notably larger than Orcs but still shorter than most men."
+ troll_buff: "Troll"
+ desc_troll_buff: "Trolls are a very large and monstrous, and for the most part unintelligent humanoid race inhabiting Middle-earth. Melkor created Trolls before the First Age. Trolls were very strong, but they turned to stone in sunlight. Many Trolls died in the War of Wrath, but some survived and joined the forces of Sauron, the greatest surviving servant of Morgoth."
+ spider_buff: "Spider"
+ desc_spider_buff: "The Great Spiders, also known as the Spawn of Ungoliant, were a race of oversized and sentient arachnids that lived in Middle-Earth, particularly in dark and perilous places affected by the power of the Shadow.  Like Orcs and Goblins, Great Spiders were known to detest light, yet they thirsted for it and sought to devour it."
+ 
+ harad_warlord_invasion_war: "Leader of Invasion"
+ desc_harad_warlord_invasion_war: "The People of the Haradrim, under your banner join the invasion force"
+ 
+ harad_warlord_invasion_war_gondor: "Leader of Invasion against Gondor"
+ desc_harad_warlord_invasion_war_gondor: "The People of the Haradrim, will gladly join the invasion against their hated enermy!"
+ 
+ capture_mummakill_southron_religion: "Hunt and Capture Mummakill"
+ desc_capture_mummakill_southron_religion: "The People of the Haradrim talk of your exploits going on a hunt to capture a Mummakill."
+ 
+ hold_a_race_southron_religion: "Hold a Race"
+ desc_hold_a_race_southron_religion: "Your people and warriors are impressed and thrilled by a desert race arranged by you."
+ 
+ hold_a_feast_southron_religion: "Hold a Feast"
+ desc_hold_a_feast_southron_religion: "You have invited the warchiefs of the Haradrim. Those who came have enjoyed their stay and are impressed by you."
+ 
+ challenge_to_a_duel_southron_religion: "Challenge to a Duel"
+ desc_challenge_to_a_duel_southron_religion: "You have a great warrior to a duel, maybe because of his influence and ambitions."
+ 
+ train_troops_southron_religion: "Train Troops"
+ desc_train_troops_southron_religion: "You issue an order to all your garrisons to increase their training time."
+ 
+ prepare_for_war_southron_religion: "Prepare for War"
+ desc_prepare_for_war_southron_religion: "You take the neccesary acts of increasing the taxes before you plan to go down the path of war."
+ 
+ encourage_trade_imports_southron_religion: "Encourage Trade Imports"
+ desc_encourage_trade_imports_southron_religion: "Spices, Silk and Ivory from Mummakill are all exotic items of which you seek to enter your lands."
+ 
+ display_might_southron_religion: "Display Might"
+ desc_display_might_southron_religion: "To make sure your people never forget your rule or your might, you build statues, castles and building to commerate the memmory of you."
+ 
+ #----------------------------
+ # Mordor
+ #----------------------------
+ #rebuilding_barad_dur: "Rebuilding Barad-Dûr"
+ #desc_rebuilding_barad_dur: "Rebuilding Barad-Dûr is dangerous work and will cost orc lives."
+ 
+ #barad_dur_buildt: "Barad-Dûr Rebuild"
+ #desc_barad_dur_buildt: "With Barad-Dûr rebuild, Saurons Might cannot be Contested."
+ 
+ #building_saurons_road: "Building Saurons Road"
+ #desc_building_saurons_road: "Building Saurons Road is dangerous work and will cost orc lives."
+ 
+ #province_saurons_road: "Sauron's Road"
+ #desc_province_saurons_road: "Sauron's Road runs throught this province, increasing production."
+ 
+ #mordor_sent_nazgul: "Sent Nazgûl"
+ #desc_mordor_sent_nazgul: "A province's Orcs have been causing trouble for the local Overseers, causing chaotic brawling, fighting and not working. We sent a Nazgûl to deal with it."
+ 
+ #mordor_didnt_sent_nazgul: "Didn't Send Nazgûl"
+ #desc_mordor_didnt_sent_nazgul: "A province's Orcs have been causing trouble for the local Overseers, causing chaotic brawling, fighting and not working. We didn't do anything against it."
+ 
+ #mordor_control_province: "Controls The Province"
+ #desc_mordor_control_province: "Provine is under control by one of the Nazgûl."
+ 
+ #mordor_dont_control_province: "Province Out Of Control"
+ #desc_mordor_dont_control_province: "Province is out of control causing chaotic brawling, fighting and not works laying down their tools."
+ 
+ #mordor_reinforce_border_fort_province: "Reinforced Border Forts"
+ #desc_mordor_reinforce_border_fort_province: "As we have not found the one ring, Sauron is still vunerable. This fort has been reinforced to avoid intrutions"
+ 
+ #mordor_reinforce_border: "Reinforced Borders"
+ #desc_mordor_reinforce_border: "As we have not found the one ring, Sauron is still vunerable. We have increased our border protection."
+ 
+ #mordor_didnt_reinforce_border: "Didn't Reinforce Borders"
+ #desc_mordor_didnt_reinforce_border: "As we have not found the one ring, Sauron is still vunerable. We do not protect our borders as well as we should."
+ 
+ #mordor_build_structures: "Build Structures"
+ #desc_mordor_build_structures: "We are focusing constructing buildings."
+ 
+ #mordor_improve_provinces: "Improve Provinces"
+ #desc_mordor_improve_provinces: "We are focusing improving development of provinces."
+ 
+ #mordor_create_workers: "Make Them Workers"
+ #desc_mordor_create_workers: "Lately a larger amount of Orcs have sprung out of the Spawning Pools, we made them into workers."
+ 
+ #mordor_create_warriors: "Make Them Warriors"
+ #desc_mordor_create_warriors: "Lately a larger amount of Orcs have sprung out of the Spawning Pools, we made them into warriors."
+ 
+ #mordor_starving_province_helped: "Starving Province Helped"
+ #desc_mordor_starving_province_helped: "This province was helped by its neighbor provinces on the starvation problem. Minimizing the damage caused by the lack of food."
+ 
+ #mordor_neighbor_provinces_send_food: "Helped Starving Province"
+ #desc_mordor_neighbor_provinces_send_food: "This province has helped a neighbor province on a starvation problem. Minimizing the damage for that province, but now also causing minor problems with this province."
+ 
+ #mordor_starving_province_starves: "Province Starving"
+ #desc_mordor_starving_province_starves: "This province was left to starve."
+ 
+ mordor_nurn_subject: "Nurn Submissive"
+ desc_mordor_nurn_subject: "Nurn is Submissive towards Mordor"
+ 
+ #----------------------------
+ # Gondor
+ #----------------------------
+ 
+ province_increased_autonomy: "Increased Autonomy"
+ desc_province_increased_autonomy: "We have granted for a period increased autonomy, which has increased the hapiness of the people."
+ province_didnt_increased_autonomy: "Didn't Increase Autonomy"
+ desc_province_didnt_increased_autonomy: "As we didnt increase autonomy to the area, the people have become sceptical of our rule."
+ province_increased_garrison: "Increased Defences"
+ desc_province_increased_garrison: "The $MONARCHTITLE$ saw fit that we bolster our defenses along the Anduin River."
+ province_ithilien_rangers: "Ithilien Rangers"
+ desc_province_ithilien_rangers: "Ithilien Rangers have been deployed in Ithilien to counter enermy movement and supplies using guerilla tactics."
+ province_lowered_development_cost: "Area Is Prosperous"
+ desc_province_lowered_development_cost: "This area is seeing a growth in population and work. Developing this province could be benitfitial."
+ province_increased_taxes: "Increased Taxes"
+ desc_province_increased_taxes: "This area is seeing a growth in population and work. But instead of developing the area, you demanded higher taxes, which angered the people."
+ gondor_hope_arises: "Hope Has Risen"
+ desc_gondor_hope_arises: "A rise of hope has swept the lands of gondor and a new will to fight has surfaced!"
+ 
+ #----------------------------
+ # Dunedain
+ #----------------------------
+ 
+ dunedain_naval_prioritise: "Naval Prioritise"
+ desc_dunedain_naval_prioritise: "Our Nation has chosen to Prioritise Naval construction."
+ 
+ dunedain_didnt_naval_prioritise: "Naval Technology"
+ desc_dunedain_didnt_naval_prioritise: "Our Nation has chosen to Prioritise Naval techonology."
+ 
+ dunedain_trade_flows: "Southern Trade"
+ desc_dunedain_trade_flows: "A large amount of traders from the south travels to our land. But it is also a safty risk."
+ 
+ province_dunedain_increased_production: "Increased Mining Activity"
+ desc_province_dunedain_increased_production: "We have supported mining activities in this province."
+ 
+ dunedain_purchase_rohan_horses: "Purchased Rohan Horses"
+ desc_dunedain_purchase_rohan_horses: "We have bought excellent Rohan horses."
+ 
+ dunedain_close_advisor: "Close Advisors"
+ desc_dunedain_close_advisor: "We want to place close relatives as advisors"
+ 
+ dunedain_taking_gandalfs_advise: "Gandalf's Advise"
+ desc_dunedain_taking_gandalfs_advise: "We took Gandalf's advise to attack our enermies first."
+ 
+ dunedain_not_taking_gandalfs_advise: "We Chose Defends"
+ desc_dunedain_not_taking_gandalfs_advise: "We chose to defend our lands rather than attack others."
+ 
+ dunedain_united_cause: "United Cause"
+ desc_dunedain_united_cause: "Our people have a feeling of a united cause."
+ 
+ dol_amroth_harpers_donated: "Harper's District Donated"
+ desc_dol_amroth_harpers_donated: "Our people are happy with the donation for music and theatre."
+ 
+ dol_amroth_scholar_donated: "Scholar's District Donated"
+ desc_dol_amroth_scholar_donated: "Our Scholars can work with the money we donated."
+ 
+ dol_amroth_mason_donated: "Mason's District Donated"
+ desc_dol_amroth_mason_donated: "Our Mason's can build bigger and grander buildings we our donation."
+ 
+ dol_amroth_cavalry_bonus: "Cavalry Focus"
+ desc_dol_amroth_cavalry_bonus: "We chose to focus on cavalry and horses."
+ 
+ dol_amroth_infantry_bonus: "Infantry Focus"
+ desc_dol_amroth_cavalry_bonus: "We chose to focus on infantry"
+ 
+ dol_amroth_galley_bonus: "Galley Focus"
+ desc_dol_amroth_galley_bonus: "We chose to focus on Galley"
+ 
+ province_dol_amroth_coast_raided: "Coastline Raided"
+ desc_province_dol_amroth_coast_raided: "Our Coastline has been raided."
+
+ #----------------------------
+ # Dol Guldur
+ #----------------------------
+ 
+ dol_guldur_thrain_captured: "Dwarven Rings Of Power"
+ desc_dol_guldur_thrain_captured: "Regaining all Dwarven Rings of Power is a great achievement for our master."
+ 
+ dol_guldur_gandalf_discovered: "Discovered"
+ desc_dol_guldur_gandalf_discovered: "Gandalf The Grey has discovered the presence of the Dark Lord."
+ 
+ dol_guldur_shrouded_mystery: "Shrouded In Mystery"
+ desc_dol_guldur_shrouded_mystery: "Our Dark Lord is regenerating his strength, but inorder to not be found by the peoples of middle earth he must use some of his powers to hide his presence and the presence of orcs in and around Dol Guldur."
+ 
+ dol_guldur_province_spider_patrol: "Spider Patrols"
+ desc_dol_guldur_province_spider_patrol: "The Giant Spiders of Mirkwood have long been present, but since the arival of orcs and especially the Dark Lord, their numbers have grown significantly. We have send out the spiders to patrol Mirkwood."
+ 
+ dol_guldur_ask_guldurim_troops: "Demanded Troops"
+ desc_dol_guldur_ask_guldurim_troops: "The Guldurim, a tribe of Easterlings have lived in the shadows of Mirkwood of a long time before the orcs settled at Dol Guldur. They are loyal to The Dark Lord, as they have hated the elves battling for Southern Mirkwood. We forced their troops to join our ranks."
+ 
+ dol_guldur_orcs_missing_meat: "Orcs Missing Meat"
+ desc_dol_guldur_orcs_missing_meat: "Our Orcs hunger for meat, they are angry!"
+ 
+ mordor_dol_guldur_subject: "Dol Guldur Subject"
+ desc_mordor_dol_guldur_subject: "Dol Guldur is merely controlled by one of the Nazgûl"
+ 
+ #----------------------------
+ # Orc Religion
+ #----------------------------
+ orc_religion_punish_survivers: "Punished Survivers"
+ orc_religion_reward_victors: "Rewared The Victors"
+ 
+ orc_religion_dont_give_meat: "Gave Maggoty Bread"
+ orc_religion_give_meat: "Bought The Meat"
+ 
+ orc_religion_force_train: "Forced Trained"
+ orc_religion_loose_formation: "Encourage Chaos On The Battle Field"
+ 
+ orc_religion_prepare_for_war: "Preparing For War"
+ orc_religion_promise_war: "Encourage Chaos On The Battle Field"
+ 
+ orc_religion_raided_neighbour_province: "Raided Province"
+ orc_religion_stopped_raid: "Stopped The Raiding Party"
+ 
+ #----------------------------
+ # Mordor
+ #----------------------------
+ 
+ mordor_sent_nazgul: "Sent Nazgûl"
+ desc_mordor_sent_nazgul: "Since the Orc overseers were having trouble keeping control of the orcs in the province, we sent one of the Nazgûl. But this has taken his work and time better spend leading the armies of Mordor."
+ mordor_didnt_sent_nazgul: "Didn't Sent Nazgûl"
+ desc_mordor_didnt_sent_nazgul: "We didn't sent one of the Nazgûl to get the province back in order. This has given the asumption that disobedience is tolerated, and therefore all the Orcs are thinking in disobedient ways."
+ mordor_control_province: "Controlling Province"
+ desc_mordor_control_province: "Since the Orc overseers were having trouble keeping control of the orcs in the province, we sent one of the Nazgûl. Because every Orc fear them too much to be up to no good."
+ mordor_dont_control_province: "Uncontrolled Province"
+ desc_mordor_dont_control_province: "We didn't sent one of the Nazgûl to get the province back in order. So now the local orcs are wrecking havock across the lands."
+ mordor_reinforce_border_fort_province: "Reinforced Fort"
+ desc_mordor_reinforce_border_fort_province: "We must secure the borders of Mordor, if we are to be sure that no spies of any kind wanders the lands of the Dark lord."
+ mordor_reinforce_border: "Reinforced Border"
+ desc_mordor_reinforce_border: "We must secure the borders of Mordor, if we are to be sure that no spies of any kind wanders the lands of the Dark lord."
+ mordor_didnt_reinforce_border: "Didn't Reinforce Border"
+ desc_mordor_didnt_reinforce_border: "We didn't secure the borders of Mordor, and therefore the protection of our lands are in danger."
+ mordor_build_structures: "Build Structures"
+ desc_mordor_build_structures: "We must bring our focus to build industry and structures that will help us defeat Middle-Earth."
+ mordor_improve_provinces: "Improve Provinces"
+ desc_mordor_improve_provinces: "We must bring our focus to advancing our provinces if we are to defeat Middle-Earth."
+ mordor_create_workers: "Made Workers"
+ desc_mordor_create_workers: "With a surplus of Orcs in the spawning pools, we made them into Workers which will benefit our production immensely."
+ mordor_create_warriors: "Made Warriors"
+ desc_mordor_create_warriors: "With a surplus of Orcs in the spawning pools, we made them into Warriors which will benefit our army immensely."
+ mordor_starving_province_helped: "Starving Province Helped"
+ desc_mordor_starving_province_helped: "This province was on the brink of starving a great deal of the Orcs. In responce, we then transfered food from the nearby provinces."
+ mordor_neighbor_provinces_send_food: "Sent Food"
+ desc_mordor_neighbor_provinces_send_food: "This province has send food to a nearby starving province. This has helped the starving province, but this has affected this province also because of a reduction of food."
+ mordor_starving_province_starves: "Starving Province"
+ desc_mordor_starving_province_starves: "This Province is starving, orcs are dying and work has almost completely stopped."
+ mordor_poor_equipment: "Poor Equipment"
+ desc_mordor_poor_equipment: "A combination of poor quality minerals and lousy work by the craftsmen. Have resulted in a reduction in the overall quality of our equipment to our warriors."
+ mordor_blood_lust: "Blood Lust"
+ desc_mordor_blood_lust: "Our Orcs thirst for battle and war, we shall give it to them."
+ mordor_fear_of_mordor: "Fear of Mordor"
+ desc_mordor_fear_of_mordor: "Our people fear Mordor and the Darklord"
+ mordor_province_over_consumption: "Behind Consumption Needs"
+ desc_mordor_province_over_consumption: "With a period of over consumption, the provinces producing food have are working behind trying to catch up to the demand of food."
+ mordor_nurn_subject: "Nurn Submissive"
+ desc_mordor_nurn_subject: "Nurn is Submissive towards Mordor"
+
+ #----------------------------
+ # Orcs Race
+ #----------------------------
+ stronger_orc_troops: "Stronger Orc Warriors"
+ desc_stronger_orc_troops: "By letting our orcs kill eachother, they will gain training in warfare."
+ reinforce_orc_troops: "More Orcs join your army"
+ desc_reinforce_orc_troops: "We broke up the fighting, since we need as many warriors we can get."
+ orc_food_bonus: "Succesful Hunt"
+ desc_orc_food_bonus: "A large hunting party has come back with lots of meat for our orcs."
+ orc_send_warg_scouts: "Sent Warg Scouts"
+ desc_orc_send_warg_scouts: "By sending our scouts we have greater understanding of our enermies."
+ orc_wood_to_industry: "Wood For Industry"
+ desc_orc_wood_to_industry: "We have come across an abundance of wood and decided to use it for industry."
+ orc_wood_to_campfires: "Wood For War Camps"
+ desc_orc_wood_to_campfires: "We have come across an abundance of wood and decided to use it for our war camps."
+ orc_offended_nation: "Offended Another Orc Nation"
+ desc_orc_offended_nation: "We have offended another orc nation damaging our reputation."
+ 
+ #----------------------------
+ # Province Events
+ #----------------------------
+ 
+ province_ruined_by_mount_doom: "Ruined By Mount Doom"
+ desc_province_ruined_by_mount_doom: "Mount Doom is an uncontrollable force with create destructive power. This province is bordering the huge vulcano, and it eruptes frequently. This time however, mountain has brought a great destruction to the province."
+ 
+ #----------------------------
+ # Opinion
+ #----------------------------
+ mordor_union: "Enlavement"
+ mordor_negative: "Stole ally"
+ mordor_declined: "War is eminent"
+ isg_union: "Joined Forces"
+ isg_negative: "Stole ally"
+ isg_declined: "War is eminent"
+ race_hates: "Hatred"
+ race_love: "Friendly"
+ thandruil_helped: "Aided against Smaug"
+ thandruil_helped_ally: "Aided Erebor"
+ thandruil_left: "Never Thrust an Elf!"
+ thandruil_left_ally: "Abbandoned Erebor"
+ unite_goblins: "United Goblins"
+ 
+ harad_invasion_didnt_start_invasion: "Didn't start Invasion"
+ harad_invasion_started_invasion: "Started Invasion"
+ harad_invasion_didnt_declare_invasion: "Didn't Declare Invasion"
+ gondor_aided_rohan: "Rohan Was Aided"
+ gondor_didnt_aid_rohan: "Rohan Was Not Aided"
+ dol_amroth_send_low_men: "Dol Amroth Send Small Unit"
+ dol_amroth_send_med_men: "Dol Amroth Send Medium Unit"
+ dol_amroth_send_high_men: "Dol Amroth Send Large Unit"
+ dol_guldur_servant: "Servant"
+ mordor_master: "Master"
+ orc_raided_province: "Raided Province"
+ orc_killed_merchants: "No Comepentation"
+ orc_religion_chaos_rebels: "Choas Spreads"
+ orc_religion_enlisted_overseers: "Enlisted Overseers"
+ orc_religion_leave_them_be: "Didn't Enlist Overseers"
+ orc_religion_keep_the_grip: "Keeping The Grip"
+ orc_religion_loosen_the_grip: "Loosen The Grip"
+ orc_religion_deserted_orcs: "Deserting Orcs"
+ mordor_improved_relations: "Improved Relations By Mordor"
+ 
+ orc_payed_tribute_to_mordor: "Payed Tribute"
+ orc_didnt_pay_tribute_to_mordor: "Did't Pay Tribute"
+ orc_offended_orc_nation: "Offended"
+ 
+ #----------------------------
+ # Triggered
+ #----------------------------
+ fall_of_arnor: "Fall of Arnor"
+ desc_fall_of_arnor: "The once great kingdom of Arnor has split into three seperate kingdoms, all three vying for control over the realm. This civil war has left the people of Arnor weak and it's land sparse."
+ 
+ crusader: "Invader"
+ desc_crusader: "The people are with us in this invasion. The morale and satisfaction of the people has been increased with the war effort."
+ 

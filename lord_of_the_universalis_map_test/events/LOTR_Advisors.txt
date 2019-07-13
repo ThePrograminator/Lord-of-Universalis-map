@@ -1,0 +1,172 @@
+namespace = lotr_advisors
+
+#title: The Value of Administration
+#desc: Thanks to [Root.Monarch.GetHerHis] advisor, [Root.Monarch.GetName] has learnt the value of administration, allowing [Root.Monarch.GetHerHim] to better administrate [Root.Monarch.GetHerHis] realm.
+#1: Wonderful!
+country_event = {
+	id = lotr_advisors.1
+	title = "lotr_advisors.1t"
+	desc = "lotr_advisors.1d"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		OR = {
+			advisor = philosopher
+			advisor = natural_scientist
+			advisor = artist
+			advisor = treasurer
+			advisor = theologian
+			advisor = master_of_mint
+			advisor = inquisitor
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 420
+
+		modifier = {
+			factor = 1.1
+			NOT = { stability = 0 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { stability = -1 }
+		}
+		modifier = {
+			factor = 2
+			NOT = { stability = -2 }
+		}
+		modifier = {
+			factor = 0.9
+			stability = 1
+		}
+		modifier = {
+			factor = 0.9
+			stability = 2
+		}
+		modifier = {
+			factor = 0.9
+			stability = 3
+		}
+	}
+	
+	option = {
+		name = "lotr_advisors.1a"
+		
+		add_adm_power = 100
+	}
+}
+
+#title: The Value of Diplomacy
+#desc: Thanks to [Root.Monarch.GetHerHis] advisor, [Root.Monarch.GetName] has learnt the value of diplomacy, allowing [Root.Monarch.GetHerHim] to mantain better diplomatic relations, securing [Root.Monarch.GetHerHis] realm.
+#1: Wonderful!
+country_event = {
+	id = lotr_advisors.2
+	title = "lotr_advisors.2t"
+	desc = "lotr_advisors.2d"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		OR = {
+			advisor = statesman
+			advisor = naval_reformer
+			advisor = trader
+			advisor = spymaster
+			advisor = colonial_governor
+			advisor = diplomat
+			advisor = navigator
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 420
+
+		modifier = {
+			factor = 1.1
+			NOT = { stability = 0 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { stability = -1 }
+		}
+		modifier = {
+			factor = 2
+			NOT = { stability = -2 }
+		}
+		modifier = {
+			factor = 0.9
+			stability = 1
+		}
+		modifier = {
+			factor = 0.9
+			stability = 2
+		}
+		modifier = {
+			factor = 0.9
+			stability = 3
+		}
+	}
+	
+	option = {
+		name = "lotr_advisors.2a"
+		
+		add_dip_power = 100
+	}
+}
+
+#title: The Value of Military Thought
+#desc: Thanks to [Root.Monarch.GetHerHis] advisor, [Root.Monarch.GetName] has learnt the value of the military, allowing [Root.Monarch.GetHerHim] to better lead the armies of [Root.Monarch.GetHerHis] realm.
+#1: Wonderful!
+country_event = {
+	id = lotr_advisors.3
+	title = "lotr_advisors.3t"
+	desc = "lotr_advisors.3d"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		OR = {
+			advisor = army_reformer
+			advisor = army_organiser
+			advisor = commandant
+			advisor = quartermaster
+			advisor = recruitmaster
+			advisor = fortification_expert
+			advisor = grand_captain
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 420
+
+		modifier = {
+			factor = 1.1
+			NOT = { stability = 0 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { stability = -1 }
+		}
+		modifier = {
+			factor = 2
+			NOT = { stability = -2 }
+		}
+		modifier = {
+			factor = 0.9
+			stability = 1
+		}
+		modifier = {
+			factor = 0.9
+			stability = 2
+		}
+		modifier = {
+			factor = 0.9
+			stability = 3
+		}
+	}
+	
+	option = {
+		name = "lotr_advisors.3a"
+		
+		add_mil_power = 100
+	}
+}

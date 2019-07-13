@@ -1,0 +1,2091 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new buildings, make sure they are uniquely named.
+
+# cost = x #==> cost in $ to build (subject to other modifiers)
+# time = x #==> number of months to build.
+# modifier = m # a modifier on the province that the building gives
+# trigger = t # an and trigger that needs to be fullfilled to build and keep the building
+# one_per_country = yes/no # if yes, only one of these can exist in a country
+# manufactory = { trade_good trade_good } # list of trade goods that get a production bonus
+# onmap = yes/no # show as a sprite on the map
+
+# FROM = owner
+# ROOT = province
+
+# Building AI is now mainly hard-coded. The AI will estimate how much it gains yearly from each building,
+# convert the value to ducats, and take the building with biggest yearly return as a percentage of the build cost.
+# If lower than 1%, the AI will not consider the yearly return worth it.
+# It will also require higher yearly return if the economy in not in prime shape.
+# Forts' value also get converted to a yearly return based on terrain and strategic position, as well as available budget for fort maintenance.
+
+# AI can still be modded though; it will multiply the yearly return with the value of ai_will_do.
+# If you don't want the AI to build a building at all, make ai_will_do become 0.
+# AI will consider each building to be worth 0.01 ducats per year as a base, so making ai_will_do above cost will have them build it at some point.
+# It will still check whether it can afford a building before doing so though, but may save up to it.
+
+
+################################################
+# Main Buildings
+################################################
+
+noble_residence_elf_building = {
+	cost = 50
+	time = 12
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_elven
+		}
+		province_is_buildable = yes
+		province_elf_has_city_buildings = no
+		province_elf_has_fortress_buildings = no
+		province_elf_has_capital_buildings = no
+	}
+	
+	modifier = {
+		local_build_cost = -0.10
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_elven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			development = 5
+		}
+		
+		modifier = {
+			factor = 3
+			development = 10
+		}
+		
+		modifier = {
+			factor = 5
+			development = 15
+		}
+	}
+}
+
+################################################
+# Main Buildings (City)
+################################################
+
+town_1_elf_building = {
+	cost = 100
+	time = 18
+	make_obsolete = noble_residence_elf_building
+	
+	trigger = {
+		development = 5
+		is_capital = no
+		owner = {
+			technology_group = lotr_elven
+		}
+		province_is_buildable = yes
+		province_elf_has_fortress_buildings = no
+		province_elf_has_capital_buildings = no
+	}
+	
+	modifier = {
+		local_development_cost = -0.1
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_elven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			development = 5
+		}
+		
+		modifier = {
+			factor = 3
+			development = 10
+		}
+		
+		modifier = {
+			factor = 5
+			development = 15
+		}
+	}
+}
+
+town_2_elf_building = {
+	cost = 200
+	time = 24
+	make_obsolete = town_1_elf_building
+	
+	trigger = {
+		development = 10
+		is_capital = no
+		owner = {
+			technology_group = lotr_elven
+		}
+		province_is_buildable = yes
+		province_elf_has_fortress_buildings = no
+		province_elf_has_capital_buildings = no
+	}
+	
+	modifier = {
+		local_development_cost = -0.2
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_elven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			development = 5
+		}
+		
+		modifier = {
+			factor = 3
+			development = 10
+		}
+		
+		modifier = {
+			factor = 5
+			development = 15
+		}
+	}
+}
+
+town_3_elf_building = {
+	cost = 300
+	time = 30
+	make_obsolete = town_2_elf_building
+	
+	trigger = {
+		development = 15
+		is_capital = no
+		owner = {
+			technology_group = lotr_elven
+		}
+		province_is_buildable = yes
+		province_elf_has_fortress_buildings = no
+		province_elf_has_capital_buildings = no
+	}
+	
+	modifier = {
+		local_development_cost = -0.3
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_elven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			development = 5
+		}
+		
+		modifier = {
+			factor = 3
+			development = 10
+		}
+		
+		modifier = {
+			factor = 5
+			development = 15
+		}
+	}
+}
+
+################################################
+# Main Buildings (Fortress)
+################################################
+
+fort_1_elf_building = {
+	cost = 100
+	time = 18
+	make_obsolete = noble_residence_elf_building
+	
+	trigger = {
+		development = 5
+		is_capital = no
+		owner = {
+			technology_group = lotr_elven
+		}
+		province_is_buildable = yes
+		province_elf_has_city_buildings = no
+		province_elf_has_capital_buildings = no
+	}
+	
+	modifier = {
+		local_unrest = -0.5
+		local_manpower_modifier = 0.1
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_elven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			development = 5
+		}
+		
+		modifier = {
+			factor = 3
+			development = 10
+		}
+		
+		modifier = {
+			factor = 5
+			development = 15
+		}
+	}
+}
+
+fort_2_elf_building = {
+	cost = 200
+	time = 24
+	make_obsolete = fort_1_elf_building
+	
+	trigger = {
+		development = 10
+		is_capital = no
+		owner = {
+			technology_group = lotr_elven
+		}
+		province_is_buildable = yes
+		province_elf_has_city_buildings = no
+		province_elf_has_capital_buildings = no
+	}
+	
+	modifier = {
+		local_unrest = -1
+		local_manpower_modifier = 0.2
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_elven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			development = 5
+		}
+		
+		modifier = {
+			factor = 3
+			development = 10
+		}
+		
+		modifier = {
+			factor = 5
+			development = 15
+		}
+	}
+}
+
+fort_3_elf_building = {
+	cost = 300
+	time = 30
+	make_obsolete = fort_2_elf_building
+	
+	trigger = {
+		development = 15
+		is_capital = no
+		owner = {
+			technology_group = lotr_elven
+		}
+		province_is_buildable = yes
+		province_elf_has_city_buildings = no
+		province_elf_has_capital_buildings = no
+	}
+	
+	modifier = {
+		local_unrest = -1.5
+		local_manpower_modifier = 0.3
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_elven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			development = 5
+		}
+		
+		modifier = {
+			factor = 3
+			development = 10
+		}
+		
+		modifier = {
+			factor = 5
+			development = 15
+		}
+	}
+}
+
+################################################
+# Main Buildings (Capital)
+################################################
+
+capital_1_elf_building = {
+	cost = 100
+	time = 18
+	make_obsolete = noble_residence_elf_building
+	
+	trigger = {
+		development = 5
+		is_capital = yes
+		owner = {
+			technology_group = lotr_elven
+		}
+		province_is_buildable = yes
+		province_elf_has_city_buildings = no
+		province_elf_has_fortress_buildings = no
+	}
+	
+	modifier = {
+		local_development_cost = -0.1
+		local_unrest = -0.5
+		local_manpower_modifier = 0.1
+		local_state_maintenance_modifier = -0.1
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_elven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			OR = {
+				development = 5
+				is_capital = yes
+			}
+		}
+		
+		modifier = {
+			factor = 3
+			OR = {
+				development = 10
+				is_capital = yes
+			}
+		}
+		
+		modifier = {
+			factor = 5
+			OR = {
+				development = 15
+				is_capital = yes
+			}
+		}
+	}
+}
+
+capital_2_elf_building = {
+	cost = 200
+	time = 24
+	make_obsolete = capital_1_elf_building
+	
+	trigger = {
+		development = 10
+		is_capital = yes
+		owner = {
+			technology_group = lotr_elven
+		}
+		province_is_buildable = yes
+		province_elf_has_city_buildings = no
+		province_elf_has_fortress_buildings = no
+	}
+	
+	modifier = {
+		local_development_cost = -0.2
+		local_unrest = -1
+		local_manpower_modifier = 0.2
+		local_state_maintenance_modifier = -0.2
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_elven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			OR = {
+				development = 5
+				is_capital = yes
+			}
+		}
+		
+		modifier = {
+			factor = 3
+			OR = {
+				development = 10
+				is_capital = yes
+			}
+		}
+		
+		modifier = {
+			factor = 5
+			OR = {
+				development = 15
+				is_capital = yes
+			}
+		}
+	}
+}
+
+capital_3_elf_building = {
+	cost = 300
+	time = 30
+	make_obsolete = capital_2_elf_building
+	
+	trigger = {
+		development = 15
+		is_capital = yes
+		owner = {
+			technology_group = lotr_elven
+		}
+		province_is_buildable = yes
+		province_elf_has_city_buildings = no
+		province_elf_has_fortress_buildings = no
+	}
+	
+	modifier = {
+		local_development_cost = -0.3
+		local_unrest = -1.5
+		local_manpower_modifier = 0.3
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_elven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			OR = {
+				development = 5
+				is_capital = yes
+			}
+		}
+		
+		modifier = {
+			factor = 3
+			OR = {
+				development = 10
+				is_capital = yes
+			}
+		}
+		
+		modifier = {
+			factor = 5
+			OR = {
+				development = 15
+				is_capital = yes
+			}
+		}
+	}
+}
+
+################################################
+# Trade Buildings
+################################################
+
+elven_fairground_elf_building = {
+	cost = 50
+	time = 12
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_elven
+		}
+		province_is_buildable = yes
+		province_elf_has_main_building_tier_2 = yes
+	}
+	
+	modifier = {
+		province_trade_power_modifier = 0.25
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_elven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 3
+			province_trade_power = 5
+		}
+		
+		modifier = {
+			factor = 4.5
+			province_trade_power = 10
+		}
+		
+		modifier = {
+			factor = 6.5
+			province_trade_power = 15
+		}
+		
+		modifier = {
+			factor = 6.5
+			OR = {
+				is_capital = yes
+				has_port = yes
+			}
+		}
+	}
+}
+
+craftsmen_plaza_elf_building = {
+	cost = 100
+	time = 18
+	
+	make_obsolete = elven_fairground_elf_building
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_elven
+		}
+		province_is_buildable = yes
+		province_elf_has_city_building_tier_3 = yes
+	}
+	
+	modifier = {
+		province_trade_power_modifier = 0.50
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_elven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 3
+			province_trade_power = 5
+		}
+		
+		modifier = {
+			factor = 4.5
+			province_trade_power = 10
+		}
+		
+		modifier = {
+			factor = 6.5
+			province_trade_power = 15
+		}
+		
+		modifier = {
+			factor = 6.5
+			OR = {
+				is_capital = yes
+				has_port = yes
+			}
+		}
+	}
+}
+
+exotic_wares_market_elf_building = {
+	cost = 200
+	time = 24
+	
+	make_obsolete = craftsmen_plaza_elf_building
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_elven
+		}
+		province_is_buildable = yes
+		province_elf_has_city_building_tier_4 = yes
+	}
+	
+	modifier = {
+		province_trade_power_modifier = 0.75
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_elven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 3
+			province_trade_power = 5
+		}
+		
+		modifier = {
+			factor = 4.5
+			province_trade_power = 10
+		}
+		
+		modifier = {
+			factor = 6.5
+			province_trade_power = 15
+		}
+		
+		modifier = {
+			factor = 6.5
+			OR = {
+				is_capital = yes
+				has_port = yes
+			}
+		}
+	}
+}
+
+################################################
+# Taxation Buildings
+################################################
+
+temple_elf_building = {
+	cost = 50
+	time = 12
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_elven
+		}
+		province_is_buildable = yes
+		province_elf_has_main_building_tier_2 = yes
+	}
+	
+	modifier = {
+		local_tax_modifier = 0.25
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_elven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			development = 5
+		}
+		
+		modifier = {
+			factor = 3
+			development = 10
+		}
+		
+		modifier = {
+			factor = 5
+			development = 15
+		}
+	}
+}
+
+theatre_elf_building = {
+	cost = 100
+	time = 18
+	make_obsolete = temple_elf_building
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_elven
+		}
+		province_is_buildable = yes
+		province_elf_has_city_building_tier_3 = yes
+	}
+	
+	modifier = {
+		local_tax_modifier = 0.5
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_elven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			development = 5
+		}
+		
+		modifier = {
+			factor = 3
+			development = 10
+		}
+		
+		modifier = {
+			factor = 5
+			development = 15
+		}
+	}
+}
+
+amphitheatre_elf_building = {
+	cost = 200
+	time = 24
+	make_obsolete = theatre_elf_building
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_elven
+		}
+		province_is_buildable = yes
+		province_elf_has_city_building_tier_4 = yes
+	}
+	
+	modifier = {
+		local_tax_modifier = 0.75
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_elven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			development = 5
+		}
+		
+		modifier = {
+			factor = 3
+			development = 10
+		}
+		
+		modifier = {
+			factor = 5
+			development = 15
+		}
+	}
+}
+
+################################################
+# Production Buildings
+################################################
+
+workshop_elf_building = {
+	cost = 50
+	time = 12
+	allow_in_gold_provinces = no
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_elven
+		}
+		province_is_buildable = yes
+		province_elf_has_main_building_tier_2 = yes
+	}
+	
+	modifier = {
+		local_production_efficiency = 0.25
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_elven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			development = 5
+		}
+		
+		modifier = {
+			factor = 3
+			development = 10
+		}
+		
+		modifier = {
+			factor = 5
+			development = 15
+		}
+	}
+}
+
+elven_forge_elf_building = {
+	cost = 100
+	time = 18
+	make_obsolete = workshop_elf_building
+	allow_in_gold_provinces = no
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_elven
+		}
+		province_is_buildable = yes
+		province_elf_has_city_building_tier_3 = yes
+	}
+	
+	modifier = {
+		local_production_efficiency = 0.5
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_elven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			development = 5
+		}
+		
+		modifier = {
+			factor = 3
+			development = 10
+		}
+		
+		modifier = {
+			factor = 5
+			development = 15
+		}
+	}
+}
+
+grand_forge_elf_building = {
+	cost = 200
+	time = 24
+	make_obsolete = elven_forge_elf_building
+	allow_in_gold_provinces = no
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_elven
+		}
+		province_is_buildable = yes
+		province_elf_has_city_building_tier_4 = yes
+	}
+	
+	modifier = {
+		local_production_efficiency = 0.75
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_elven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			development = 5
+		}
+		
+		modifier = {
+			factor = 3
+			development = 10
+		}
+		
+		modifier = {
+			factor = 5
+			development = 15
+		}
+	}
+}
+
+################################################
+# Army
+################################################
+
+warriors_gallery_building = {
+	cost = 100
+	time = 12
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_elven
+		}
+		province_is_buildable = yes
+		province_elf_has_main_building_tier_2 = yes
+	}
+	
+	modifier = {
+		local_manpower_modifier = 0.25
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_elven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			base_manpower = 5
+		}
+		
+		modifier = {
+			factor = 3
+			base_manpower = 10
+		}
+		
+		modifier = {
+			factor = 5
+			base_manpower = 15
+		}
+	}
+}
+
+heros_shrine_building = {
+	cost = 200
+	time = 18
+	make_obsolete = warriors_gallery_building
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_elven
+		}
+		province_is_buildable = yes
+		province_elf_has_fortress_building_tier_3 = yes
+	}
+	
+	modifier = {
+		local_manpower_modifier = 0.5
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_elven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			base_manpower = 5
+		}
+		
+		modifier = {
+			factor = 3
+			base_manpower = 10
+		}
+		
+		modifier = {
+			factor = 5
+			base_manpower = 15
+		}
+	}
+}
+
+green_pastures_elf_building = {
+	cost = 100
+	time = 12
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_elven
+		}
+		province_is_buildable = yes
+		province_elf_has_main_building_tier_2 = yes
+	}
+	
+	modifier = {
+		local_regiment_cost = -0.25
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_elven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			base_manpower = 5
+		}
+		
+		modifier = {
+			factor = 3
+			base_manpower = 10
+		}
+		
+		modifier = {
+			factor = 5
+			base_manpower = 15
+		}
+	}
+}
+
+grand_stables_elf_building = {
+	cost = 200
+	time = 18
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_elven
+		}
+		province_is_buildable = yes
+		province_elf_has_fortress_building_tier_3 = yes
+	}
+	
+	modifier = {
+		local_regiment_cost = -0.50
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_elven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			base_manpower = 5
+		}
+		
+		modifier = {
+			factor = 3
+			base_manpower = 10
+		}
+		
+		modifier = {
+			factor = 5
+			base_manpower = 15
+		}
+	}
+}
+
+################################################
+# Navy Buildings
+################################################
+
+port_elf_building = {
+	cost = 100
+	time = 12
+	
+	trigger = {
+		has_port = yes
+		owner = {
+			technology_group = lotr_elven
+		}
+		province_is_buildable = yes
+		province_elf_has_city_buildings = yes
+		province_elf_has_capital_buildings = yes
+	}
+	
+	modifier = {
+		local_sailors_modifier = 0.15
+		province_trade_power_modifier = 0.15
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 5 # Little above build cost
+			FROM = { navy_size_percentage = 0.95 }
+		}
+		
+		modifier = {
+			factor = 1.1
+			local_autonomy = 50
+		}
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_elven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			development = 5
+		}
+		
+		modifier = {
+			factor = 3
+			development = 10
+		}
+		
+		modifier = {
+			factor = 4.5
+			development = 15
+		}
+		
+		modifier = {
+			factor = 6
+			development = 20
+		}
+	}
+}
+
+seaport_elf_building = {
+	cost = 200
+	time = 18
+	
+	trigger = {
+		has_port = yes
+		owner = {
+			technology_group = lotr_elven
+		}
+		province_is_buildable = yes
+		province_elf_has_city_building_tier_3 = yes
+	}
+	
+	modifier = {
+		local_sailors_modifier = 0.15
+		province_trade_power_modifier = 0.15
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 5 # Little above build cost
+			FROM = { navy_size_percentage = 0.95 }
+		}
+		
+		modifier = {
+			factor = 1.1
+			local_autonomy = 50
+		}
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_elven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			development = 5
+		}
+		
+		modifier = {
+			factor = 3
+			development = 10
+		}
+		
+		modifier = {
+			factor = 4.5
+			development = 15
+		}
+		
+		modifier = {
+			factor = 6
+			development = 20
+		}
+	}
+}
+
+harbour_elf_building = {
+	cost = 100
+	time = 12
+	
+	trigger = {
+		has_port = yes
+		owner = {
+			technology_group = lotr_elven
+		}
+		province_is_buildable = yes
+		province_elf_has_fortress_buildings = yes
+		province_elf_has_capital_buildings = yes
+	}
+	
+	modifier = {
+		local_ship_cost = -0.15
+		local_ship_repair = 0.15
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 5 # Little above build cost
+			FROM = { navy_size_percentage = 0.95 }
+		}
+		
+		modifier = {
+			factor = 1.1
+			local_autonomy = 50
+		}
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_elven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			development = 5
+		}
+		
+		modifier = {
+			factor = 3
+			development = 10
+		}
+		
+		modifier = {
+			factor = 4.5
+			development = 15
+		}
+		
+		modifier = {
+			factor = 6
+			development = 20
+		}
+	}
+}
+
+haven_elf_building = {
+	cost = 200
+	time = 18
+	
+	trigger = {
+		has_port = yes
+		owner = {
+			technology_group = lotr_elven
+		}
+		province_is_buildable = yes
+		province_elf_has_fortress_building_tier_3 = yes
+	}
+	
+	modifier = {
+		local_ship_cost = -0.30
+		local_ship_repair = 0.15
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 5 # Little above build cost
+			FROM = { navy_size_percentage = 0.95 }
+		}
+		
+		modifier = {
+			factor = 1.1
+			local_autonomy = 50
+		}
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_elven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			development = 5
+		}
+		
+		modifier = {
+			factor = 3
+			development = 10
+		}
+		
+		modifier = {
+			factor = 4.5
+			development = 15
+		}
+		
+		modifier = {
+			factor = 6
+			development = 20
+		}
+	}
+}
+
+################################################
+# Fortifications
+################################################
+
+fort_low_walls_elf_building = {
+	cost = 100
+	time = 18
+	
+	onmap = no
+	influencing_fort = yes
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_elven
+		}
+		province_is_buildable = yes
+		province_elf_has_main_building_tier_2 = yes
+	}
+	
+	modifier = {
+		fort_level = 1
+	}
+	
+	ai_will_do = {
+		factor = 1000 #Lots of logic in code instead, that multiplies with this value
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_elven
+				}
+			}
+		}
+			
+		modifier = {
+			factor = 0
+			any_neighbor_province = {
+				owned_by = ROOT
+				OR = {
+					has_building = fort_low_walls_elf_building
+					has_building = fort_high_walls_elf_building
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 0.5
+			NOT = {
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+				}
+			}
+		}			
+		modifier = {
+			factor = 2.0
+			any_neighbor_province = {
+				NOT = { owned_by = ROOT }
+			}
+		}	
+		modifier = {
+			factor = 0.1
+			is_overseas = yes
+		}
+		
+		modifier = {
+			factor = 20
+			province_elf_has_fortress_buildings = yes
+		}
+	} 
+}
+
+fort_high_walls_elf_building = {
+	cost = 200
+	time = 36
+	make_obsolete = fort_low_walls_elf_building
+	onmap = no
+	influencing_fort = yes
+	
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_elven
+		}
+		province_is_buildable = yes
+		province_elf_has_main_building_tier_3 = yes
+	}
+	
+	modifier = {
+		fort_level = 2
+	}
+	
+	ai_will_do = {
+		factor = 1000 #Lots of logic in code instead, that multiplies with this value
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_elven
+				}
+			}
+		}
+			
+		modifier = {
+			factor = 0
+			any_neighbor_province = {
+				owned_by = ROOT
+				OR = {
+					has_building = fort_low_walls_elf_building
+					has_building = fort_high_walls_elf_building
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 0.5
+			NOT = {
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+				}
+			}
+		}			
+		modifier = {
+			factor = 2.0
+			any_neighbor_province = {
+				NOT = { owned_by = ROOT }
+			}
+		}	
+		modifier = {
+			factor = 0.1
+			is_overseas = yes
+		}
+		
+		modifier = {
+			factor = 20
+			province_elf_has_fortress_buildings = yes
+		}
+	} 
+}
+
+################################################
+# Defences
+################################################
+
+moat_elf_building = {
+	cost = 100
+	time = 12
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_elven
+		}
+		province_is_buildable = yes
+		province_elf_has_main_building_tier_2 = yes
+		OR = {
+			has_building = fort_low_walls_elf_building
+			has_building = fort_high_walls_elf_building
+		}
+	}
+	
+	modifier = {
+		local_defensiveness = 0.15
+	}
+	
+	ai_will_do = {
+		factor = 1000 #Lots of logic in code instead, that multiplies with this value
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_elven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 20
+			province_elf_has_fortress_buildings = yes
+			OR = {
+				has_building = fort_low_walls_elf_building
+				has_building = fort_high_walls_elf_building
+			}
+		}
+	}
+}
+
+wall_bastions_elf_building = {
+	cost = 200
+	time = 18
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_elven
+		}
+		province_is_buildable = yes
+		province_elf_has_main_building_tier_3 = yes
+		OR = {
+			has_building = fort_low_walls_elf_building
+			has_building = fort_high_walls_elf_building
+		}
+	}
+	
+	modifier = {
+		local_defensiveness = 0.30
+	}
+	
+	ai_will_do = {
+		factor = 1000 #Lots of logic in code instead, that multiplies with this value
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_elven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 20
+			province_elf_has_fortress_buildings = yes
+			OR = {
+				has_building = fort_low_walls_elf_building
+				has_building = fort_high_walls_elf_building
+			}
+		}
+	}
+}
+
+################################################
+# Special Buildings
+################################################
+
+mallorn_tree_elf_building = {
+	cost = 500
+	time = 30
+	one_per_country = yes
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_elven
+		}
+		province_is_buildable = yes
+		province_elf_has_main_building_tier_4 = yes
+	}
+	
+	modifier = {
+		stability_cost_modifier = -0.25
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_elven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			OR = {
+				development = 5
+				is_capital = yes
+			}
+		}
+		
+		modifier = {
+			factor = 3
+			OR = {
+				development = 10
+				is_capital = yes
+			}
+		}
+		
+		modifier = {
+			factor = 5
+			OR = {
+				development = 15
+				is_capital = yes
+			}
+		}
+	}
+}
+
+statue_of_the_elders_elf_building = {
+	cost = 500
+	time = 30
+	one_per_country = yes
+	make_obsolete = elven_fairground_elf_building
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_elven
+		}
+		province_is_buildable = yes
+		province_elf_has_main_building_tier_4 = yes
+	}
+	
+	modifier = {
+		land_morale = 0.1
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_elven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			OR = {
+				development = 5
+				is_capital = yes
+			}
+		}
+		
+		modifier = {
+			factor = 3
+			OR = {
+				development = 10
+				is_capital = yes
+			}
+		}
+		
+		modifier = {
+			factor = 5
+			OR = {
+				development = 15
+				is_capital = yes
+			}
+		}
+	}
+}
+
+mirror_fountain_elf_building = {
+	cost = 500
+	time = 30
+	one_per_country = yes
+	make_obsolete = craftsmen_plaza_elf_building
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_elven
+		}
+		province_is_buildable = yes
+		province_elf_has_main_building_tier_4 = yes
+	}
+	
+	modifier = {
+		global_tax_modifier = 0.25
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_elven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			OR = {
+				development = 5
+				is_capital = yes
+			}
+		}
+		
+		modifier = {
+			factor = 3
+			OR = {
+				development = 10
+				is_capital = yes
+			}
+		}
+		
+		modifier = {
+			factor = 5
+			OR = {
+				development = 15
+				is_capital = yes
+			}
+		}
+	}
+}
+
+star_of_earendil_shrine_elf_building = {
+	cost = 500
+	time = 30
+	one_per_country = yes
+	make_obsolete = craftsmen_plaza_elf_building
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_elven
+		}
+		province_is_buildable = yes
+		province_elf_has_main_building_tier_4 = yes
+	}
+	
+	modifier = {
+		legitimacy = 1
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_elven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			OR = {
+				development = 5
+				is_capital = yes
+			}
+		}
+		
+		modifier = {
+			factor = 3
+			OR = {
+				development = 10
+				is_capital = yes
+			}
+		}
+		
+		modifier = {
+			factor = 5
+			OR = {
+				development = 15
+				is_capital = yes
+			}
+		}
+	}
+}

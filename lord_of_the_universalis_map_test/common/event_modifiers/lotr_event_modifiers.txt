@@ -1,0 +1,970 @@
+# Provinces
+minas_tirith = {
+	local_defensiveness = 1.0
+	fort_level = 5
+}
+
+barad_dur = {
+	local_defensiveness = 1.0
+	fort_level = 5
+}
+
+osgiliath = {
+	local_defensiveness = 1.0
+	fort_level = 5
+}
+
+helmsdeep = {
+	local_defensiveness = 1.0
+	fort_level = 5
+}
+
+# General
+overthrow_evil = {
+	land_morale = 0.2
+	discipline = 0.05
+}
+
+overthrow_good = {
+	land_morale = 0.2
+	discipline = 0.05
+}
+
+# Events
+meduseld = {
+	prestige = 1
+}
+
+raided_by_someone = {
+	global_unrest = 1
+}
+
+# Decisions
+purifying_the_realm = {
+	global_missionary_strength = 0.04
+	global_unrest = 1
+}
+
+cleansing_population = {
+	culture_conversion_cost = -0.15
+	global_unrest = 1
+}
+
+border_garrisons = {
+	years_of_nationalism = -5
+	global_unrest = 1
+}
+
+# Advisor Decisions
+# ADM
+consulted_elders = {
+	idea_cost = -0.05
+}
+
+constructed_monuments = {
+	prestige = 1
+}
+
+grand_painting = {
+	legitimacy = 1
+	republican_tradition = 0.01
+}
+
+sin_tax = {
+	global_tax_modifier = 0.15
+}
+
+happy_poor = {
+	global_unrest = -2
+}
+
+debts_settled = {
+	interest = -1
+}
+
+purified_land = {
+	missionaries = 1
+}
+
+# DIP
+councils = {
+	advisor_pool = 1
+}
+
+reinforced_ships = {
+	ship_durability = 0.1
+}
+
+diversified_trade = {
+	global_trade_power = 0.15
+}
+
+infiltrated_enemies = {
+	spy_offence = 0.33
+}
+
+expanded_settlements = {
+	global_colonial_growth = 25
+}
+
+diplomatic_gifts = {
+	ae_impact = -0.1
+}
+
+exploring_seas = {
+	naval_attrition = -0.25
+}
+
+# MIL
+corporal_punishment = {
+	discipline = 0.025
+}
+
+organised_army = {
+	siege_ability = 0.05
+}
+
+incited_hatred = {
+	hostile_attrition = 1
+}
+
+war_supplies = {
+	recover_army_morale_speed = 0.05
+}
+
+more_mercenaries = {
+	possible_mercenaries = 0.5
+}
+
+garrisoned_forts = {
+	reinforce_speed = 0.2
+}
+
+supply_caravans = {
+	global_manpower_modifier = 0.15
+}
+
+# Battle
+depopulate = {
+	local_tax_modifier = -0.9
+	local_manpower_modifier = -0.9
+}
+
+hostile_population = {
+	local_unrest = 5
+}
+
+# Harsh Winter Honey
+harsh_winter_h = {
+	trade_goods_size_modifier = -0.5
+}
+
+# Poor iron quality
+iron_problems = {
+	cavalry_cost = 0.2
+	infantry_cost = 0.2
+}
+
+# Wargs Captured
+wargs_captured = {
+	cavalry_cost = -0.25
+}
+
+wilderness_debuff = {
+	local_manpower_modifier = -1.0
+	local_autonomy = 100.0
+	local_build_cost = 1000.0
+	local_production_efficiency = -1.0
+	local_tax_modifier = -1.0
+	local_development_cost = 1000.0
+	local_missionary_strength = 0.06
+	culture_conversion_cost = -0.25
+	local_unrest = -10000
+	allowed_num_of_buildings = -1
+}
+
+ruins_debuff = {
+	local_manpower_modifier = -0.50
+	local_production_efficiency = -0.50
+	local_tax_modifier = -0.50
+	local_development_cost = 1000.0
+	allowed_num_of_buildings = 0
+}
+
+constructing_capital_debuff = {
+	local_manpower_modifier = -0.25
+	local_production_efficiency = -0.25
+	local_build_cost = 1000.0
+	local_tax_modifier = -0.25
+	local_development_cost = 1000.0
+	allowed_num_of_buildings = 0
+}
+
+honoured_the_dead_debuff = {
+	diplomatic_reputation = 3
+}
+
+unite_goblins = {
+	diplomatic_upkeep = 2
+	land_forcelimit = 5
+	land_maintenance_modifier = -0.30
+}
+
+war_of_dwarves_and_orcs = {
+	land_forcelimit = 5
+	land_maintenance_modifier = -0.30
+}
+
+# Human Buff/Debuff
+human_buff = {
+	stability_cost_modifier = 0.25
+	infantry_power = 0.1
+	infantry_cost = 0.25
+	cavalry_power = 0.1
+	global_tax_modifier = 0.05
+	global_trade_power = 0.1
+	artillery_power = 0.15
+	picture = "estuary_icon"
+}
+
+dwarf_buff = {
+	land_forcelimit_modifier = -0.25
+	manpower_recovery_speed = -0.10
+	inflation_reduction = 0.2
+	production_efficiency = 0.25
+	global_unrest = -2
+	defensiveness = 0.25
+	fort_maintenance_modifier = -0.20
+}
+
+elf_buff = {
+	land_forcelimit_modifier = -0.40
+	manpower_recovery_speed = -0.15
+	diplomatic_reputation = 3
+	advisor_cost = -0.5
+	tolerance_own = 3
+	discipline = 0.15
+	prestige = 1
+}
+
+hobbit_buff = {
+	land_forcelimit_modifier = -0.75
+	manpower_recovery_speed = -0.10
+	possible_mercenaries = 1.0
+	merc_maintenance_modifier = -0.50
+	tolerance_own = 2
+	tolerance_heretic = 2
+	trade_efficiency = 0.15
+}
+
+ents_buff = {
+	land_forcelimit_modifier = -0.75
+	infantry_power = 0.6
+	infantry_cost = 0.5
+	land_morale = 1.0
+	discipline = 0.15
+	siege_ability = 0.6
+	artillery_power = 0.4
+	artillery_cost = 0.5
+	manpower_recovery_speed = -0.35
+}
+
+beornings_buff = {
+	land_forcelimit_modifier = -0.65
+	infantry_power = 0.3
+	infantry_cost = 0.3
+	tolerance_own = 5
+	defensiveness = 0.10
+	hostile_attrition = 2
+	manpower_recovery_speed = -0.25
+}
+
+orc_buff = {
+	land_forcelimit_modifier = 0.50
+	infantry_power = -0.1
+	unjustified_demands = -0.25
+	tolerance_own = 1
+	tolerance_heathen = -2
+	tolerance_heretic = -2
+	global_missionary_strength = 0.05
+	culture_conversion_cost = -0.35
+	missionaries = 2
+	manpower_recovery_speed = 0.25
+	land_maintenance_modifier = -0.25
+}
+
+goblin_buff = {
+	land_forcelimit_modifier = 0.75
+	infantry_power = -0.20
+	land_morale = -0.10
+	unjustified_demands = -0.25
+	tolerance_own = 1
+	tolerance_heathen = -2
+	tolerance_heretic = -2
+	global_missionary_strength = 0.05
+	culture_conversion_cost = -0.35
+	missionaries = 2
+	manpower_recovery_speed = 0.35
+	land_maintenance_modifier = -0.50
+}
+
+uruk_hai_buff = {
+	discipline = 0.10
+	land_morale = 0.15
+	production_efficiency = 0.15
+	unjustified_demands = -0.25
+	army_tradition = 1
+	tolerance_own = 1
+	tolerance_heathen = -2
+	tolerance_heretic = -2
+	global_missionary_strength = 0.05
+	culture_conversion_cost = -0.35
+	missionaries = 2
+	land_maintenance_modifier = 0.25
+}
+
+# Troll Buff/Debuff
+troll_buff = {
+	land_forcelimit_modifier = -0.65
+	infantry_power = 0.5
+	infantry_cost = 0.5
+	siege_ability = 0.5
+	artillery_power = 0.3
+	artillery_cost = 0.5
+	manpower_recovery_speed = -0.25
+}
+
+# Spider Buff/Debuff
+spider_buff = {
+	land_forcelimit_modifier = -0.35
+	infantry_power = 0.1
+	infantry_cost = 0.25
+	hostile_attrition = 1
+	land_morale = -0.10
+	manpower_recovery_speed = -0.10
+	discipline = -0.25
+}
+
+spawn_orc_raider_timer = {
+
+}
+
+harad_warlord_invasion_war = {
+	land_forcelimit = 10
+	land_maintenance_modifier = -0.25
+	tolerance_own = 1
+}
+
+harad_warlord_invasion_war_gondor = {
+	land_forcelimit = 15
+	land_maintenance_modifier = -0.30
+	tolerance_own = 1
+}
+
+harad_invasion_not_declaring = {
+
+}
+
+harad_invasion_didnt_keep_promise = {
+
+}
+
+capture_mummakill_southron_religion = {
+	prestige = 1
+}
+
+hold_a_race_southron_religion = {
+	global_unrest = -1
+}
+
+hold_a_feast_southron_religion = {
+	legitimacy = 1
+}
+
+challenge_to_a_duel_southron_religion = {
+	land_morale = 0.10
+}
+
+train_troops_southron_religion = {
+	discipline = 0.05
+}
+
+prepare_for_war_southron_religion = {
+	global_tax_modifier = 0.15
+}
+
+encourage_trade_imports_southron_religion = {
+	global_trade_power = 0.15
+}
+
+display_might_southron_religion = {
+	build_cost = -0.25
+	development_cost = -0.25
+}
+
+elven_event_citizens_left = {
+
+}
+
+rebuilding_barad_dur = {
+	global_manpower_modifier = -0.15
+	land_maintenance_modifier = 0.15
+}
+
+barad_dur_buildt = {
+	prestige = 1
+	army_tradition = 1
+	ae_impact = -0.10
+}
+
+building_saurons_road = {
+	global_manpower_modifier = -0.15
+	land_maintenance_modifier = 0.15
+}
+
+province_saurons_road = {
+	supply_limit_modifier = 0.25
+	local_production_efficiency = 0.25
+	local_state_maintenance_modifier = -0.25
+}
+
+province_wight_debuff = {
+	local_manpower_modifier = -1.0
+	local_autonomy = 100.0
+	local_build_cost = 1000.0
+	local_production_efficiency = -1.0
+	local_tax_modifier = -1.0
+	local_development_cost = 1000.0
+	allowed_num_of_buildings = -1
+	local_missionary_strength = 0.02
+	culture_conversion_cost = -0.15
+}
+
+province_troll_debuff = {
+	local_manpower_modifier = -0.75
+	local_autonomy = 75.0
+	local_build_cost = 1000.0
+	local_production_efficiency = -0.75
+	local_tax_modifier = -0.75
+	local_development_cost = 1000.0
+	allowed_num_of_buildings = -1
+	local_missionary_strength = 0.01
+	culture_conversion_cost = -0.10
+}
+
+province_huorn_debuff = {
+	local_manpower_modifier = -1.0
+	local_autonomy = 100.0
+	local_build_cost = 1000.0
+	local_production_efficiency = -1.0
+	local_tax_modifier = -1.0
+	local_development_cost = 1000.0
+	allowed_num_of_buildings = -1
+	local_missionary_strength = 0.01
+	culture_conversion_cost = -0.10
+}
+
+province_increased_autonomy = {
+	local_unrest = -1
+}
+
+province_didnt_increased_autonomy = {
+	local_unrest = 2
+}
+
+province_increased_garrison = {
+	local_defensiveness = 0.25
+}
+
+province_ithilien_rangers = {
+	local_hostile_attrition = 2
+}
+
+province_lowered_development_cost = {
+	local_development_cost = -0.15
+}
+
+province_increased_taxes = {
+	local_tax_modifier = 0.10
+	local_unrest = 1
+}
+
+gondor_hope_arises = {
+	land_morale = 0.10
+}
+
+gondorian_naval_prioritise = {
+	galley_cost = -0.25
+	heavy_ship_cost = -0.25
+	naval_maintenance_modifier = -0.10
+	dip_tech_cost_modifier = 0.2
+}
+
+gondorian_didnt_naval_prioritise = {
+	galley_cost = 0.25
+	heavy_ship_cost = 0.25
+	naval_maintenance_modifier = 0.10
+	dip_tech_cost_modifier = -0.20
+}
+
+gondorian_trade_flows = {
+	trade_efficiency = 0.05
+	global_spy_defence = -0.25
+}
+
+province_gondorian_increased_production = {
+	trade_goods_size_modifier = 0.10
+	local_defensiveness = 0.05
+}
+
+gondorian_purchase_rohan_horses = {
+	cavalry_power = 0.10
+	cavalry_flanking = 0.10
+	land_maintenance_modifier = 0.15
+}
+
+gondorian_close_advisor = {
+	advisor_cost = -0.10
+}
+
+gondorian_taking_gandalfs_advise = {
+	ae_impact = -0.05
+	unjustified_demands = -0.25
+}
+
+gondorian_not_taking_gandalfs_advise = {
+	fort_maintenance_modifier = -0.1
+	defensiveness = 0.10
+	garrison_size = 0.10
+}
+
+gondorian_united_cause = {
+	land_morale = 0.10
+	land_maintenance_modifier = -0.20
+}
+
+gondorian_spawn_umbar_raider_timer = {
+
+}
+
+dol_amroth_harpers_donated = {
+	global_unrest = -1
+	stability_cost_modifier = -0.25
+}
+
+dol_amroth_scholar_donated = {
+	technology_cost = -0.05
+}
+
+dol_amroth_mason_donated = {
+	build_cost = -0.1
+	build_time = -0.10
+}
+
+dol_amroth_cavalry_bonus = {
+	cavalry_power = 0.15
+	infantry_cost = 0.25
+	galley_cost = 0.25
+}
+
+dol_amroth_infantry_bonus = {
+	infantry_power = 0.15
+	cavalry_cost = 0.25
+	galley_cost = 0.25
+}
+
+dol_amroth_galley_bonus = {
+	galley_power = 0.15
+	infantry_cost = 0.25
+	cavalry_cost = 0.25
+}
+
+province_dol_amroth_coast_raided = {
+	local_tax_modifier = -0.25
+	local_production_efficiency = -0.25
+	local_manpower = -0.25
+	local_state_maintenance_modifier = 0.25
+}
+
+dunedain_failed_harvest = {
+	global_tax_modifier = -0.10
+	global_manpower_modifier = -0.15
+	global_unrest = 1
+}
+
+dunedain_recruite_young_people = {
+	global_manpower_modifier = 0.15
+	global_unrest = 1
+}
+
+dunedain_slacken_uniforms = {
+	land_morale = -0.10
+
+	land_maintenance_modifier = -0.25
+}
+
+dunedain_increase_uniforms = {
+	global_regiment_cost = 0.25
+		
+	land_maintenance_modifier = 0.1
+}
+
+province_dunedain_defend_province = {
+	local_defensiveness = 0.1
+	local_hostile_attrition = 1
+}
+
+dudedain_harvest_timer = {
+
+}
+
+dudedain_won_war_timer = {
+
+}
+
+dudedain_long_war_timer = {
+
+}
+
+dudedain_battle_lost_timer = {
+
+}
+
+dudedain_lost_hope_timer = {
+
+}
+
+dol_guldur_thrain_captured = {
+	prestige = 1.0
+	legitimacy = 1
+}
+
+dol_guldur_gandalf_discovered = {
+	global_spy_defence = -0.5
+}
+
+dol_guldur_shrouded_mystery = {
+	global_spy_defence = 0.5
+}
+
+dol_guldur_province_spider_patrol = {
+	local_defensiveness = 0.1
+	local_hostile_attrition = 1
+}
+
+dol_guldur_ask_guldurim_troops = {
+	global_unrest = 1
+}
+
+dol_guldur_orcs_missing_meat = {
+	global_unrest = 1
+}
+
+orc_religion_punish_survivers = {
+	tolerance_own = -1
+	discipline = 0.05
+}
+
+orc_religion_reward_victors = {
+	tolerance_own = 1
+	global_autonomy = 0.05
+}
+
+orc_religion_give_meat = {
+	production_efficiency = 0.05
+}
+
+orc_religion_dont_give_meat = {
+	tolerance_own = -1
+	production_efficiency = -0.1
+}
+
+orc_religion_force_train = {
+	tolerance_own = -1
+	shock_damage_received = -0.25
+}
+
+orc_religion_loose_formation = {
+	shock_damage = 0.25
+	movement_speed = 0.15
+}
+
+orc_religion_prepare_for_war = {
+	tolerance_own = -1
+	global_regiment_cost = -0.15
+	land_maintenance_modifier = -0.15
+	mil_tech_cost_modifier = -0.05
+	production_efficiency = 0.05
+}
+
+orc_religion_promise_war = {
+	tolerance_own = 1
+	stability_cost_modifier = -0.25
+	war_exhaustion = -0.25
+}
+
+orc_religion_promise_war_but_didnt = {
+	tolerance_own = -2
+	land_maintenance_modifier = 0.05
+	production_efficiency = -0.05
+}
+
+orc_religion_raided_neighbour_province = {
+	local_unrest = 2
+}
+
+orc_religion_stopped_raid = {
+	land_morale = -0.05
+	tolerance_own = -1
+}
+
+orc_religion_frighten_traders = {
+	global_trade_power = -0.1
+}
+
+orc_religion_dont_compensate = {
+	ae_impact = 0.1
+	diplomatic_reputation = -2
+}
+
+orc_religion_compensate = {
+	ae_impact = 0.1
+	diplomatic_reputation = -2
+}
+
+orc_religion_chaos_rebels = {
+	tolerance_own = -1
+	global_autonomy = 0.05
+}
+
+orc_religion_enlisted_overseers = {
+	tolerance_own = -2
+	drill_gain_modifier = 0.1
+	production_efficiency = 0.05
+}
+
+orc_religion_leave_them_be = {
+	tolerance_own = 1
+	discipline = -0.05
+	army_tradition_decay = -0.1
+}
+
+orc_religion_keep_the_grip = {
+	army_tradition = 1
+	development_cost = -0.1
+	build_cost = -0.1
+}
+
+orc_religion_loosen_the_grip = {
+	tolerance_own = 1
+	production_efficiency = -0.1
+	discipline = -0.05
+}
+
+orc_religion_deserted_orcs = {
+	tolerance_own = -1
+	global_manpower_modifier = -0.25
+}
+
+mordor_sent_nazgul = {
+	army_tradition = -1.0
+}
+
+mordor_didnt_sent_nazgul = {
+	global_unrest = 1
+}
+
+mordor_control_province = {
+	local_unrest = -1
+	local_autonomy = -0.1
+	local_tax_modifier = 0.1
+	local_production_efficiency = 0.1
+}
+
+mordor_dont_control_province = {
+	local_unrest = 1
+	local_autonomy = 0.1
+	local_tax_modifier = -0.1
+	local_production_efficiency = -0.1
+}
+
+mordor_reinforce_border_fort_province = {
+	defensiveness = 0.25
+}
+
+mordor_reinforce_border = {
+	global_spy_defence = 0.25
+	fort_maintenance_modifier = -0.1
+}
+
+mordor_didnt_reinforce_border = {
+	global_spy_defence = -0.25
+}
+
+mordor_build_structures = {
+	build_cost = -0.2
+	build_time = -0.2
+}
+
+mordor_improve_provinces = {
+	development_cost = -0.2
+}
+
+mordor_create_workers = {
+	global_tax_modifier = 0.05
+	production_efficiency = 0.05
+}
+
+mordor_create_warriors = {
+	manpower_recovery_speed = 0.1
+}
+
+mordor_starving_province_helped = {
+	local_tax_modifier = -0.25
+	local_manpower_modifier = -0.25
+	local_production_efficiency = -0.25
+}
+
+mordor_neighbor_provinces_send_food = {
+	local_tax_modifier = -0.1
+	local_manpower_modifier = -0.1
+	local_production_efficiency = -0.1
+}
+
+mordor_starving_province_starves = {
+	local_unrest = 2
+	local_autonomy = 0.05
+	local_monthly_devastation = 0.1
+	local_tax_modifier = -0.75
+	local_manpower_modifier = -0.75
+	local_production_efficiency = -0.75
+}
+
+mordor_poor_equipment = {
+	army_tradition = -1
+	land_morale = -0.05
+	discipline = -0.05
+}
+
+mordor_blood_lust = {
+	infantry_power = 0.15
+	shock_damage = 0.25
+}
+
+mordor_fear_of_mordor = {
+	land_morale = -0.05
+}
+
+mordor_province_over_consumption = {
+	local_production_efficiency = -0.25
+	trade_goods_size_modifier = -0.25
+}
+
+province_ruined_by_mount_doom = {
+	local_monthly_devastation = 0.1
+	local_tax_modifier = -0.75
+	local_manpower_modifier = -0.75
+	local_production_efficiency = -0.75
+}
+
+#Orc Event modifiers
+
+orc_stronger_orc_troops = {
+	infantry_power = 0.5
+	manpower_recovery_speed = -0.10
+}
+
+orc_reinforce_orc_troops = {
+	manpower_recovery_speed = 0.10
+	infantry_power = -0.05
+}
+
+orc_food_bonus = {
+	attrition = -1
+	supply_limit_modifier = 0.25
+	trade_goods_size_modifier = 0.25
+}
+
+orc_send_warg_scouts = {
+	spy_offence = 0.25
+}
+
+orc_wood_to_industry = {
+	production_efficiency = 0.05
+}
+
+orc_wood_to_campfires = {
+	land_attrition = -0.2
+}
+
+orc_offended_nation = {
+	diplomatic_reputation = -2
+}
+
+mordor_nurn_subject = {
+	liberty_desire = -25
+}
+
+mordor_dol_guldur_subject = {
+	liberty_desire = -100
+}
+
+thorin_position = {
+	attrition = 5
+}
+
+thorin_passed = {
+	attrition = -5
+}
+
+fellowship_position = {
+	attrition = 5
+}
+
+fellowship_passed = {
+	attrition = -5
+}
+
+iron_hills_subject = {
+	liberty_desire = -50
+}
+
+the_one_ring_not_mordor = {
+	
+}
+
+the_one_ring_mordor = {
+	army_tradition = 1.0
+	discipline = 0.15
+	land_morale = 0.15
+	siege_ability = 0.15
+	land_maintenance_modifier = -0.25
+	prestige = 1.0
+	stability_cost_modifier = -0.5
+	tolerance_own = 3
+	tolerance_heretic = 3
+	yearly_corruption = -0.1
+	war_exhaustion = -0.25
+	core_creation = -0.25
+	province_warscore_cost = -0.25
+	technology_cost = -0.05
+	idea_cost = -0.05
+}
+
+#Estates
+
+higher_kvota_mining_guild = {
+	production_efficiency = 0.25
+}
+
+grant_mining_rights_mining_guild = {
+	local_tax_modifier = -0.25
+}
+
+change_maintenance_terms_smithies_guild = {
+	land_maintenance_modifier = -0.1
+}
+
+grant_export_rights_smithies_guild = {
+	global_regiment_cost = 0.40
+}

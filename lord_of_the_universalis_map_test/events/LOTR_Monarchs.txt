@@ -1,0 +1,85 @@
+namespace = lotr_monarch
+
+country_event = {
+	id = lotr_monarch.1
+	title = "lotr_monarch.1t"
+	desc = "lotr_monarch.1d"
+	picture = KING_SICK_IN_BED_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		OR = {
+			government = lotr_kingship
+			government = lotr_stewardship
+			government = lotr_clan
+			government = lotr_hand_of_angmar
+			government = lotr_hand_of_isengard
+			government = lotr_hand_of_mordor
+		}
+		has_regency = no
+	}
+	
+	mean_time_to_happen = {
+		months = 12000
+
+		modifier = {
+			factor = 0.9
+			ruler_age = 40
+		}
+		modifier = {
+			factor = 0.8
+			ruler_age = 50
+		}
+		modifier = {
+			factor = 0.7
+			ruler_age = 60
+		}
+		modifier = {
+			factor = 0.6
+			ruler_age = 70
+		}
+		modifier = {
+			factor = 0.3
+			ruler_age = 80
+		}
+		modifier = {
+			factor = 0.2
+			ruler_age = 90
+		}
+		modifier = {
+			factor = 0.1
+			ruler_age = 100
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { stability = 0 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { stability = -1 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { stability = -2 }
+		}
+		modifier = {
+			factor = 1.1
+			stability = 1
+		}
+		modifier = {
+			factor = 1.1
+			stability = 2
+		}
+		modifier = {
+			factor = 1.1
+			stability = 3
+		}
+	}
+	
+	option = {
+		name = "lotr_monarch.1a"
+		
+		kill_ruler = yes
+	}
+}

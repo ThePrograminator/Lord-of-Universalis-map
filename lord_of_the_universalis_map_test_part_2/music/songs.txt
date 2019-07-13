@@ -1,0 +1,175 @@
+song = {
+	name = "maintheme"
+	
+	chance = {
+		modifier = {
+			factor = 0			#only played in mainscreen.
+		}		
+	}
+}
+
+song = {
+	name = "realm_of_gondor"
+	
+	chance = {
+		modifier = {
+			factor = 1.25
+		}		
+	}
+}
+
+
+song = {
+	name = "samwise_the_brave"
+	
+	chance = {
+		modifier = {
+			factor = 1.25
+		}		
+	}
+}
+
+
+song = {
+	name = "uruk_hai"
+	
+	chance = {
+		modifier = {
+			factor = 1.25
+		}		
+	}
+}
+
+song = {
+	name = "bridge_of_khazaddum"
+	
+	chance = {
+		modifier = {
+			factor = 0.75
+		}		
+	}
+}
+
+song = {
+	name = "council_of_elrond"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+
+song = {
+	name = "concerning_hobbits"
+	
+	chance = {
+		modifier = {
+			factor = 1.5
+		}		
+	}
+}
+
+
+song = {
+	name = "treason_of_isengard"
+	
+	chance = {
+		modifier = {
+			factor = 1.5
+		}			
+	}
+}
+
+song = {
+	name = "grey_havens"
+	
+	chance = {
+		modifier = {
+			factor = 1.5
+		}		
+	}
+}
+
+song = {
+	name = "misty_mountains_cold"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+
+song = {
+	name = "ganduril"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+
+song = {
+	name = "fields_of_pelenno"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+
+song = {
+	name = "return_of_the_king"
+	
+	chance = {
+		modifier = {
+			factor = 1.5
+			num_of_colonists = 1
+		}		
+	}
+}
+
+song = {
+	name = "horn_burg"
+	
+	chance = {
+		modifier = {
+			factor = 1.25
+		}		
+	}
+}
+
+song = {
+	name = "riders_of_rohan"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+
+song = {
+	name = "helms_deep"
+	
+	chance = {
+		modifier = {
+			factor = 1.25
+			is_at_war = yes
+		}		
+	}
+}
+
+
+song = {
+	name = "tree_beard"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}

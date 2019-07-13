@@ -1,0 +1,12 @@
+bookmark =
+{
+    # War of the Dwarves and Orcs
+	name = "LOTR_4_NAME"
+	desc = "LOTR_4_DESC"
+	date = 2793.1.1
+	
+	country = Z71
+	country = Z06
+	country = X09
+	country = Z64
+}

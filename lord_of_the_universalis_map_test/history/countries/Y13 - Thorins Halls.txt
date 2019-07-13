@@ -1,0 +1,7 @@
+mercantilism = 0.1
+government = dwarf_gov
+add_government_reform = lordship_dwarf_reform
+primary_culture = culture_longbeard
+religion = religion_mahal
+technology_group = lotr_dwarven
+capital = 292

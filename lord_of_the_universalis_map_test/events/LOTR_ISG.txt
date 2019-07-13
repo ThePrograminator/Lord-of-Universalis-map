@@ -1,0 +1,207 @@
+########################################
+# Events for Isengard
+#
+#
+########################################
+
+namespace = flavor_isg
+normal_or_historical_nations = yes
+
+# Spawn Isengard
+province_event = {
+	id = flavor_isg.1
+	title = flavor_isg.1.t
+	desc = flavor_isg.1.d
+	picture = BORDER_TENSION_eventPicture
+	fire_only_once = yes
+	
+	major = yes
+
+	trigger = {
+		NOT = { 
+			exists = V49 
+		}
+		is_year = 3018
+		isengard_area = {
+			is_empty = yes
+		}
+	}
+	option = { 
+		name = flavor_isg.1.a
+		isengard_area = {
+			add_core = V49
+		}		
+		
+		isengard_area = {
+			limit = {
+				is_empty = yes
+			}
+			cede_province = V49
+			223 = {
+				change_culture = culture_urukhai
+				change_religion = religion_uruk
+				change_trade_goods = iron
+			}
+			744 = {
+				change_culture = culture_urukhai
+				change_religion = religion_uruk
+				change_trade_goods = grain
+			}
+		}
+		
+		country_event = {
+			id = flavor_isg.2
+			days = 10
+		}
+	}
+}
+
+# Event to send to other province owners of the area when Isengard is formed.
+country_event = {
+	id = flavor_isg.2
+	title = flavor_isg.1.t
+	desc = flavor_isg.1.d
+	picture = BORDER_TENSION_eventPicture
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = {
+			tag = V49
+		}
+	}
+
+	option = { 
+		name = flavor_isg.2.a
+		tooltip = {
+			isengard_area = {
+				add_core = V49
+			}
+		}
+	}
+}
+
+country_event = {
+	id = flavor_isg.3
+	title = flavor_isg.3.t
+	desc = flavor_isg.3.d
+	picture = ANGRY_MOB_event_Picture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		is_year = 3018
+		exists = V49
+		OR = { 
+			exists = Z48 
+			exists = V09 
+		}
+	}
+
+	option = { 
+		name = flavor_isg.3.a
+		tooltip = {
+			isengard_area = {
+				add_core = V49
+			}
+		}
+	}
+}
+
+# Clans join Isengard
+country_event = {
+	id = flavor_isg.3
+	title = "flavor_isg.3.t"
+	desc = "flavor_isg.3.d"
+	picture = DIPLOMACY_eventPicture
+
+	major = yes
+	
+	fire_only_once = yes
+	
+	
+	trigger = {
+		tag = V49
+		is_year = 3018
+		is_subject = no
+		OR = {
+			Z48 = {
+				exists = yes
+				ai = yes
+				was_player = no
+				is_subject = no
+				is_neighbor_of = ROOT
+			}
+			V09 = {
+				exists = yes
+				ai = yes
+				was_player = no
+				is_subject = no
+				is_neighbor_of = ROOT
+			}
+			NOT = { war_with = Z48 }
+			NOT = { war_with = V09 }
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	
+	option = {		# gets a union
+		name = "flavor_isg.3.a"
+		ai_chance = { factor = 90 }
+		create_union = Z48
+		create_union = V09
+		add_opinion = {
+			who = Z48
+			modifier = isg_union
+		}
+		add_opinion = {
+			who = V09
+			modifier = isg_union
+		}
+		Z48 = {
+			add_opinion = {
+				who = ROOT
+				modifier = isg_union
+			}
+		}
+		V09 = {
+			add_opinion = {
+				who = ROOT
+				modifier = isg_union
+			}
+		}
+		every_known_country = {
+			limit = {
+				marriage_with = V09
+				marriage_with = Z48
+			}
+			add_opinion = {
+				who = ROOT
+				modifier = isg_negative
+			}
+		}
+	}
+	
+	option = {		# No 
+		name = "flavor_isg.3.b"
+		ai_chance = { factor = 10 }
+		add_stability = 1
+		Z48 = {
+			add_opinion = {
+				who = ROOT
+				modifier = isg_declined
+			}
+		}
+		V09 = {
+			add_opinion = {
+				who = ROOT
+				modifier = isg_declined
+			}
+		}
+	}
+}

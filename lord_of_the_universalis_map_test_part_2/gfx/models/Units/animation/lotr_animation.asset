@@ -1,0 +1,211 @@
+animation = {
+	name = "gondor_soldier_move_anim"
+	file = "gondor_soldier_move_anim.anim"
+}
+
+animation = {
+	name = "gondorattack_anim"
+	file = "gondorattack_anim.anim"
+}
+
+animation = {
+	name = "gondoridle_anim"
+	file = "gondoridle_anim.anim"
+}
+
+animation = {
+	name = "gondor_arti_idle_anim"
+	file = "gondor_arti_idle_anim.anim"
+}
+
+animation = {
+	name = "gondor_arti_move_anim"
+	file = "gondor_arti_move_anim.anim"
+}
+
+animation = {
+	name = "gondor_arti_thrust_anim"
+	file = "gondor_arti_thrust_anim.anim"
+}
+
+animation = {
+	name = "gondor_arti_thrust_strong_anim"
+	file = "gondor_arti_thrust_strong_anim.anim"
+}
+
+animation = {
+	name = "gondor_arti_thrust_upper_anim"
+	file = "gondor_arti_thrust_upper_anim.anim"
+}
+
+animation = {
+	name = "orc_move_anim"
+	file = "orc_move_anim.anim"
+}
+
+animation = {
+	name = "orc_attack_anim"
+	file = "orc_attack_anim.anim"
+}
+
+animation = {
+	name = "orc_idle_anim"
+	file = "orc_idle_anim.anim"
+}
+
+animation = {
+	name = "rohan_move_anim"
+	file = "rohan_move_anim.anim"
+}
+
+animation = {
+	name = "rohan1hd_attack_anim"
+	file = "rohan1hd_attack_anim.anim"
+}
+
+animation = {
+	name = "rohan_idle_anim"
+	file = "rohan_idle_anim.anim"
+}
+
+animation = {
+	name = "urukhai_move_anim"
+	file = "urukhai_move_anim.anim"
+}
+
+animation = {
+	name = "urukhai_attack_anim"
+	file = "urukhai_attack_anim.anim"
+}
+
+animation = {
+	name = "urukhai_idle_anim"
+	file = "urukhai_idle_anim.anim"
+}
+
+animation = {
+	name = "horse_troot_anim"
+	file = "horse_troot_anim.anim"
+}
+
+animation = {
+	name = "horse_charge_anim"
+	file = "horse_charge_anim.anim"
+}
+
+animation = {
+	name = "horse_idle_anim"
+	file = "horse_idle_anim.anim"
+}
+
+animation = {
+	name = "cavalryman_move_anim"
+	file = "cavalryman_move_anim.anim"
+}
+
+animation = {
+	name = "cavalryman_attack_lance_anim"
+	file = "cavalryman_attack_lance_anim.anim"
+}
+
+animation = {
+	name = "cavalryman_idle_anim"
+	file = "cavalryman_idle_anim.anim"
+}
+
+animation = {
+	name = "dwarf_move_anim"
+	file = "dwarf_move_anim.anim"
+}
+
+animation = {
+	name = "dwarf_attack_anim"
+	file = "dwarf_attack_anim.anim"
+}
+
+animation = {
+	name = "dwarf_idle_anim"
+	file = "dwarf_idle_anim.anim"
+}
+
+animation = {
+	name = "catapult_move_anim"
+	file = "catapult_move_anim.anim"
+}
+
+animation = {
+	name = "catapult_attack_anim"
+	file = "catapult_attack_anim.anim"
+}
+
+animation = {
+	name = "catapult_idle_anim"
+	file = "catapult_idle_anim.anim"
+}
+
+####################################
+
+animation = {
+	name = "elf_move_anim"
+	file = "elf_move_anim.anim"
+}
+
+animation = {
+	name = "elf_attack_slice_anim"
+	file = "elf_attack_slice_anim.anim"
+}
+
+animation = {
+	name = "elf_attack_thrust_anim"
+	file = "elf_attack_thrust_anim.anim"
+}
+
+animation = {
+	name = "elf_attack_uppercut_anim"
+	file = "elf_attack_uppercut_anim.anim"
+}
+
+animation = {
+	name = "elf_idle_1_anim"
+	file = "elf_idle_1_anim.anim"
+}
+
+animation = {
+	name = "elf_idle_2_anim"
+	file = "elf_idle_2_anim.anim"
+}
+
+animation = {
+	name = "elf_idle_3_anim"
+	file = "elf_idle_3_anim.anim"
+}
+
+animation = {
+	name = "trebuchet_attack_anim"
+	file = "trebuchet_attack_anim.anim"
+}
+
+animation = {
+	name = "trebuchet_idle_anim"
+	file = "trebuchet_idle_anim.anim"
+}
+
+animation = {
+	name = "warg_attack_anim"
+	file = "warg_attack_anim.anim"
+}
+
+animation = {
+	name = "warg_charge_alt_anim"
+	file = "warg_charge_alt_anim.anim"
+}
+
+animation = {
+	name = "warg_charge_anim"
+	file = "warg_charge_anim.anim"
+}
+
+animation = {
+	name = "warg_move_anim"
+	file = "warg_move_anim.anim"
+}
