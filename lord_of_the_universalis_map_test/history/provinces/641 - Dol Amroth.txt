@@ -12,9 +12,9 @@
 
 is_city = yes
 
-base_tax = 10
+base_tax = 11
 base_production = 10
-base_manpower = 8
+base_manpower = 13
 
 add_core = X01
 owner = X11
@@ -77,7 +77,7 @@ discovered_by = lotr_womarin
 discovered_by = lotr_woses
 discovered_by = lotr_wights
 
-2820.1.1 = {
+2760.1.1 = {
 	capital_2_building = yes
 	drydock_building = yes
 	barracks_building = yes

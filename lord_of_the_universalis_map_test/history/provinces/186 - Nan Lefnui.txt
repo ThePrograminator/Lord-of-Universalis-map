@@ -20,10 +20,11 @@ add_core = X13
 owner = X13
 controller = X13
 
+add_core = X01
 culture = culture_orodhbedrim
 religion = religion_daen
 
-trade_goods = copper
+trade_goods = livestock
 
 hre = no
 

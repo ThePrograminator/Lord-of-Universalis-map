@@ -4,4 +4,7 @@ add_government_reform = independent_khaganate_reform
 primary_culture = culture_nurniags
 religion = religion_ioriags
 technology_group = lotr_easterling
-capital = 624
+capital = 433
+
+historical_rival = X86
+historical_rival = V24

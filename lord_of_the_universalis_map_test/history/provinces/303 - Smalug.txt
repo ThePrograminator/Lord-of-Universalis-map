@@ -12,9 +12,9 @@
 
 is_city = yes
 
-base_tax = 2
-base_production = 4
-base_manpower = 2
+base_tax = 5
+base_production = 6
+base_manpower = 7
 
 add_core = V19
 owner = V19
@@ -23,9 +23,12 @@ controller = V19
 culture = culture_orkish
 religion = religion_orkish
 
-trade_goods = livestock
+trade_goods = tropical_wood
 
 hre = no
+
+fortress_1_orc_building=yes
+orc_pit_orc_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

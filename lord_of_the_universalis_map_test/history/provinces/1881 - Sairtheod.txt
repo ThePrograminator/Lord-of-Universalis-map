@@ -10,11 +10,11 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-is_city = no
+is_city = yes
 
-base_tax = 1
-base_production = 3
-base_manpower = 2
+base_tax = 3
+base_production = 5
+base_manpower = 4
 
 add_core = Z04
 owner = Z04
@@ -23,9 +23,12 @@ controller = Z04
 culture = culture_woodmen
 religion = religion_ullthiuda
 
-trade_goods = tropical_wood
+trade_goods = honey
 
 hre = no
+
+settlement_building=yes
+work_camp_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

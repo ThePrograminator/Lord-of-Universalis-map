@@ -12,8 +12,8 @@
 
 is_city = no
 
-base_tax = 1
-base_production = 2
+base_tax = 3
+base_production = 3
 base_manpower = 2
 
 add_core = Y93
@@ -23,7 +23,7 @@ controller = Y93
 culture = culture_mangeras
 religion = religion_nenedain
 
-trade_goods = livestock
+trade_goods = fur
 
 hre = no
 

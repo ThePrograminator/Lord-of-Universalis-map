@@ -14,7 +14,7 @@ is_city = no
 
 base_tax = 5
 base_production = 6
-base_manpower = 7
+base_manpower = 8
 
 add_core = X49
 owner = X49
@@ -23,7 +23,7 @@ controller = X49
 culture = culture_sorijans
 religion = religion_sea_peoples
 
-trade_goods = naval_supplies
+trade_goods = fish
 
 hre = no
 

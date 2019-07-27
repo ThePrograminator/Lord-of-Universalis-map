@@ -5,8 +5,30 @@ bookmark =
 	desc = "LOTR_5_DESC"
 	date = 2799.1.1
 	
-	country = Z71
-	country = Z06
-	country = X09
-	country = Z64
+    center = 290
+    country = Y57 
+	country = Y22
+	country = Y16
+	country = Y63
+	country = Y13
+	country = Y06
+	country = Y23
+    easy_country = Y23
+	easy_country = Y06
+    
+    default = no
+    
+    effect = {
+		X57 = {
+		add_manpower = 5
+		}
+		Y22 = {
+		add_manpower = 10
+		}
+		Y23 = {
+		add_manpower = 4
+		}
+		Y06 = {
+		add_manpower = 3
+		}
 }

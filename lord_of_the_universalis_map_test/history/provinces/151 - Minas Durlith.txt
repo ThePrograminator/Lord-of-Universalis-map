@@ -12,14 +12,14 @@
 
 is_city = yes
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 3
+base_production = 7
+base_manpower = 9
 
 culture = culture_wilderness
 religion = religion_wilderness
 
-trade_goods = grain
+trade_goods = iron
 
 hre = no
 
@@ -68,4 +68,12 @@ discovered_by = lotr_wights
 	controller = V17
 	culture = culture_orkish
 	religion = religion_orkish
+	fortress_1_orc_building=yes
+	fort_pallisade_orc_building=yes
+}
+
+2953.7.1 = {
+	fortress_2_orc_building=yes
+	orc_pit_orc_building=yes
+	fort_wooden_walls_orc_building=yes
 }

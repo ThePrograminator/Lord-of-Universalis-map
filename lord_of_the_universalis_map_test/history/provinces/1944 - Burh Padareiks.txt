@@ -12,9 +12,9 @@
 
 is_city = no
 
-base_tax = 2
-base_production = 1
-base_manpower = 2
+base_tax = 6
+base_production = 4
+base_manpower = 7
 
 add_core = V29
 owner = V29
@@ -26,6 +26,9 @@ religion = religion_aivathuida
 trade_goods = grain
 
 hre = no
+
+fortress_1_building=yes
+fort_pallisade_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
@@ -66,3 +69,8 @@ discovered_by = lotr_womarin
 discovered_by = lotr_woses
 discovered_by = lotr_wights
 
+2953.1.1 = { 
+	add_core = X90
+	owner = X90
+	controller = X90
+}

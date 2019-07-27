@@ -9,8 +9,29 @@ rohan_superregion= {
 	rohan_region
 }
 
+mordor_superregion= {
+	mordor_region
+}
+
+rhovanion_superregion= {
+	rhovanion_region
+	mirkwood_region
+	vales_of_anduin_region
+	dale_region
+}
+
+misty_mountains_superregion= {
+	misty_mountains_region
+}
+
 old_pukel_land_superregion= {
 	old_pukel_land_region
+}
+
+eriador_superregion= {
+	the_shire_region
+	enedhwaith_region
+	eregion_region
 }
 
 western_middle_earth_sea_superregion= {
@@ -26,6 +47,17 @@ western_middle_earth_sea_superregion= {
 	sea_of_eriador_region
 	sea_of_forodwaith_region
 	bay_of_beriannen_region
+}
+
+far_harad_superregion= {
+	raj_region
+	sud_sicanna_region
+	tulwang_region
+}
+
+haradwaith_superregion= {
+	harondor_region
+	nen_umbar_region
 }
 
 new_world_superregion ={

@@ -93,3 +93,19 @@
  #Other
  religion_group_wilderness: "Wilderness"
  religion_wilderness: "Wilderness"
+ 
+ #Eorlingas Ancestors
+ eorl_the_young_ancestor: "Eorl"
+ eorl_the_young_ancestor_desc: "Shiva is the god of transformation through destruction and the Lord of Dance."
+ 
+ brego_ancestor: "Brego"
+ brego_ancestor_desc: "Shiva is the god of transformation through destruction and the Lord of Dance."
+ 
+ aldor_the_old_ancestor: "Aldor"
+ aldor_the_old_ancestor_desc: "Shiva is the god of transformation through destruction and the Lord of Dance."
+ 
+ helm_hammerhand_ancestor: "Helm"
+ helm_hammerhand_ancestor_desc: "Shiva is the god of transformation through destruction and the Lord of Dance."
+ 
+ folcwine_ancestor: "Folcwine"
+ folcwine_ancestor_desc: "Shiva is the god of transformation through destruction and the Lord of Dance."

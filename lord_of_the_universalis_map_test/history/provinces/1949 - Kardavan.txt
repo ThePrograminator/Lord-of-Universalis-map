@@ -12,9 +12,9 @@
 
 is_city = no
 
-base_tax = 2
-base_production = 1
-base_manpower = 1
+base_tax = 6
+base_production = 7
+base_manpower = 5
 
 add_core = Z03
 owner = Z03
@@ -23,9 +23,14 @@ controller = Z03
 culture = culture_dorwinrim
 religion = religion_daen
 
-trade_goods = fish
+trade_goods = paper
 
 hre = no
+
+city_2_building=yes
+outpost_building=yes
+work_camp_building=yes
+trade_outpost_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

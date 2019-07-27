@@ -12,18 +12,18 @@
 
 is_city = no
 
-base_tax = 1
-base_production = 8
-base_manpower = 1
+base_tax = 3
+base_production = 6
+base_manpower = 3
 
-add_core = Y01
-owner = Y01
-controller = Y01
+add_core = X93
+owner = X93
+controller = X93
 
 culture = culture_kugath
 religion = religion_ulgath
 
-trade_goods = gold
+trade_goods = grain
 
 hre = no
 

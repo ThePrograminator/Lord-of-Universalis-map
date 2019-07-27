@@ -3,18 +3,30 @@ bookmark =
     # Expedition to Moria
 	name = "LOTR_8_NAME"
 	desc = "LOTR_8_DESC"
-	date = 2989.1.1
+	date = 2989.4.1
 	
-	country = X12
-	country = X84
-	country = X78
-	country = X70
-	country = Z73
-	
-	effect = {
-		X12 = {
-			add_stability = -1
-			add_prestige = -50
+    center = 740
+    country = V53
+	country = Y57
+	country = Y22
+	country = Y68
+    easy_country = Y68
+    
+    default = no
+    
+    effect = {
+		V53 = {
+		add_prestige = 10
+		add_manpower = 3
 		}
-	}
+		Y57 = {
+		add_stability = -1
+		add_prestige = -20
+		add_manpower = 1
+		}
+		Y22 = {
+		add_stability = -1
+		add_prestige = 10
+		add_manpower = -3
+		}
 }

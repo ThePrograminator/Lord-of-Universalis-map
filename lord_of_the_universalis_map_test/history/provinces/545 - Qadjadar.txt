@@ -12,9 +12,9 @@
 
 is_city = no
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 8
+base_production = 6
+base_manpower = 4
 
 add_core = X86
 owner = X86
@@ -23,9 +23,12 @@ controller = X86
 culture = culture_nurniags
 religion = religion_ioriags
 
-trade_goods = fish
+trade_goods = glass
 
 hre = no
+
+fortress_1_building=yes
+fort_pallisade_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

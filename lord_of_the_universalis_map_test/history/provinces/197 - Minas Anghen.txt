@@ -10,9 +10,9 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-base_tax = 1
+base_tax = 3
 base_production = 5
-base_manpower = 2
+base_manpower = 4
 
 add_core = X01
 owner = X01
@@ -21,7 +21,7 @@ controller = X01
 culture = culture_gondor_middlemen
 religion = religion_daen
 
-trade_goods = copper
+trade_goods = iron
 
 fortress_1_building=yes
 

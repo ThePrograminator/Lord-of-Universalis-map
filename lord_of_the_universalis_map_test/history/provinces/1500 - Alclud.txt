@@ -12,9 +12,9 @@
 
 is_city = yes
 
-base_tax = 3
-base_production = 4
-base_manpower = 3
+base_tax = 7
+base_production = 6
+base_manpower = 5
 
 add_core = Z43
 owner = Z43
@@ -23,9 +23,14 @@ controller = Z43
 culture = culture_clansmen
 religion = religion_daen
 
-trade_goods = iron
+trade_goods = naval_supplies
 
 hre = no
+
+city_1_building=yes
+work_camp_building=yes
+temple_building=yes
+outpost_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

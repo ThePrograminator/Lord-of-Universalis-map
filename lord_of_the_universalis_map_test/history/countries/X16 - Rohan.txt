@@ -8,14 +8,47 @@ technology_group = lotr_rohirrim
 capital = 114
 
 historical_friend = X01
+historical_friend = X02
+historical_friend = X11
+historical_friend = Y91
+historical_friend = Y92
+historical_friend = V30
+historical_friend = Z04
+historical_friend = Y93
+historical_rival = Z48
+historical_rival = V09
+historical_rival = V08
+historical_rival = Z47
+historical_rival = Z49
+historical_rival = Z50
+historical_rival = Z57
+historical_rival = Z51
+historical_rival = Z52
+historical_rival = Z54
+historical_rival = Z53
+historical_rival = Z56
+historical_rival = Z55
+historical_rival = Z58
+historical_rival = Z60
+historical_rival = Z61
+historical_rival = Z59
+historical_rival = X15
+historical_rival = Y57
+historical_rival = X99
+historical_rival = X87
+historical_rival = X90
+historical_rival = V39
+historical_rival = V17
+historical_rival = V19
+historical_rival = V49
 
 2510.1.1 = {
 	monarch = {
 		name = "Eorl the Young"
 		dynasty = "House of Eorl"
-		adm = 4
-		dip = 4
-		mil = 6
+		adm = 5
+		dip = 6
+		mil = 7
 		birth_date = 2485.1.1		# 182
 	}
 }
@@ -339,9 +372,9 @@ historical_friend = X01
 		birth_date = 2870.1.1		# 182
 		death_date = 2953.1.1 
 		claim = 95
-		adm = 1
-		dip = 1
-		mil = 2
+		adm = 4
+		dip = 2
+		mil = 3
 	}
 }
 
@@ -349,9 +382,9 @@ historical_friend = X01
 	monarch = {
 		name = "Fengel"
 		dynasty = "House of Hildeson"
-		adm = 1
-		dip = 1
-		mil = 2
+		adm = 4
+		dip = 2
+		mil = 3
 		birth_date = 2870.1.1		# 182
 	}
 }
@@ -366,7 +399,7 @@ historical_friend = X01
 		claim = 95
 		adm = 2
 		dip = 2
-		mil = 2
+		mil = 3
 	}
 }
 
@@ -376,7 +409,7 @@ historical_friend = X01
 		monarch_name = "Théoden"
 		dynasty = "House of Hildeson"
 		birth_date = 2948.1.1		# 182
-		death_date = 3019.1.1 
+		death_date = 3019.3.1 
 		claim = 95
 		adm = 4
 		dip = 3
@@ -390,7 +423,7 @@ historical_friend = X01
 		dynasty = "House of Hildeson"
 		adm = 2
 		dip = 2
-		mil = 2
+		mil = 3
 		birth_date = 2905.1.1		# 182
 	}
 }

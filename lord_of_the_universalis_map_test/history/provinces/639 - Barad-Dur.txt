@@ -12,14 +12,14 @@
 
 is_city = yes
 
-base_tax = 5
-base_production = 5
-base_manpower = 5
+base_tax = 13
+base_production = 13
+base_manpower = 18
 
 culture = culture_wilderness
 religion = religion_wilderness
 
-trade_goods = grain
+trade_goods = iron
 
 hre = no
 
@@ -78,4 +78,22 @@ discovered_by = lotr_wights
 	controller = V17
 	culture = culture_orkish
 	religion = religion_orkish
+}
+
+2952.1.1 = {
+	remove_province_modifier = ruins_debuff
+	capital_2_orc_building = yes
+	small_arena_building = yes
+	orc_fissure_orc_building=yes
+}
+2953.1.1 = {
+	fort_wooden_walls_orc_building=yes
+}
+
+3000.1.1 = {
+	capital_3_orc_building = yes
+	fort_orc_stronghold_orc_building=yes
+	army_garrison_orc_building=yes
+	tortur_chambers_orc_building=yes
+	overseer_tower_orc_building=yes
 }

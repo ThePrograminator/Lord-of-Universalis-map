@@ -12,7 +12,7 @@
 
 is_city = no
 
-base_tax = 1
+base_tax = 2
 base_production = 3
 base_manpower = 2
 
@@ -26,6 +26,8 @@ religion = religion_drughu
 trade_goods = stone
 
 hre = no
+
+settlement_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

@@ -12,9 +12,9 @@
 
 is_city = yes
 
-base_tax = 2
-base_production = 5
-base_manpower = 2
+base_tax = 6
+base_production = 8
+base_manpower = 7
 
 culture = culture_wilderness
 religion = religion_wilderness
@@ -22,6 +22,12 @@ religion = religion_wilderness
 trade_goods = honey
 
 hre = no
+
+capital_1_building=yes
+trade_outpost_building=yes
+work_camp_building=yes
+fort_pallisade_building=yes
+army_camp_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

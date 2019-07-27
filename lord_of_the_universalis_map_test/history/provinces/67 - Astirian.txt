@@ -13,7 +13,7 @@
 is_city = yes
 
 base_tax = 2
-base_production = 1
+base_production = 3
 base_manpower = 2
 
 add_core = X01
@@ -23,7 +23,7 @@ controller = X01
 culture = culture_dunedain_of_gondor
 religion = religion_dunedain
 
-trade_goods = grain
+trade_goods = fish
 
 hre = no
 

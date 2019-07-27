@@ -247,7 +247,7 @@ religion_group_eriedain = {
 			tolerance_own = 1
 		}
 		
-		fervor = yes
+		personal_deity = yes
 	}
 	
 	religion_eriadorian_northmen = {

@@ -12,9 +12,9 @@
 
 is_city = no
 
-base_tax = 1
-base_production = 2
-base_manpower = 2
+base_tax = 5
+base_production = 5
+base_manpower = 4
 
 add_core = X99
 owner = X99
@@ -23,7 +23,7 @@ controller = X99
 culture = culture_sagath
 religion = religion_ulgath
 
-trade_goods = herbs
+trade_goods = livestock
 
 hre = no
 

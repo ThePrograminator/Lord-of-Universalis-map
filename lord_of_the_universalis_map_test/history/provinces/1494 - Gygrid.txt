@@ -12,9 +12,9 @@
 
 is_city = yes
 
-base_tax = 3
-base_production = 4
-base_manpower = 4
+base_tax = 7
+base_production = 7
+base_manpower = 8
 
 add_core = V15
 owner = V15
@@ -23,9 +23,15 @@ controller = V15
 culture = culture_clansmen
 religion = religion_daen
 
-trade_goods = wine
+trade_goods = glass
 
 hre = no
+
+city_2_building=yes
+fort_pallisade_building=yes
+army_camp_building=yes
+trade_outpost_building=yes
+tax_office_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

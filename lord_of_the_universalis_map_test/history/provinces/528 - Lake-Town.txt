@@ -10,11 +10,11 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-is_city = no
+is_city = yes
 
-base_tax = 2
-base_production = 3
-base_manpower = 3
+base_tax = 10
+base_production = 11
+base_manpower = 7
 
 add_core = Y94
 owner = Y94
@@ -26,6 +26,13 @@ religion = religion_nenedain
 trade_goods = fish
 
 hre = no
+
+city_2_building=yes
+trade_depot_building=yes
+tax_office_building=yes
+warehouse_building=yes
+outpost_building=yes
+seaport_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
@@ -70,6 +77,9 @@ discovered_by = lotr_wights
 	add_core = V51
 	controller = V51
 	owner = V51
+	add_base_tax = -5
+	add_base_production = -5
+	add_base_manpower = -5
 }
 
 2941.11.23 = {
@@ -78,13 +88,14 @@ discovered_by = lotr_wights
 	owner = Y94
 	culture = culture_bardings
 	religion = religion_rhovanion
-	add_province_modifier = {
-		name = ruins_debuff
-		duration = -1
-	}
 }
 
-2960.1.1 = {
-	remove_province_modifier = ruins_debuff
+2944.2.23 = {
+	add_base_tax = 5
+	add_base_production = 5
+	add_base_manpower = 5
 }
+
+
+
 

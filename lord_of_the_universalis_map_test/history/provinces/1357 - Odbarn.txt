@@ -13,8 +13,8 @@
 is_city = yes
 
 base_tax = 3
-base_production = 7
-base_manpower = 5
+base_production = 4
+base_manpower = 3
 
 add_core = Z54
 owner = Z54

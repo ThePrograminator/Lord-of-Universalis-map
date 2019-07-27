@@ -4,5 +4,13 @@ add_government_reform = tribal_kingdom
 primary_culture = culture_druedain
 religion = religion_drughu
 technology_group = lotr_woses
-capital = 229
+capital = 182
 government_rank = 1
+
+historical_friend = Y89
+historical_friend = Y85
+historical_rival = X01
+historical_rival = X02
+historical_rival = X16
+historical_rival = Z44
+historical_rival = Z46

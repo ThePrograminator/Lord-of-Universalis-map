@@ -1,0 +1,37 @@
+Dúnedain 		X
+Hobbit			X
+Elves			X
+Dwarves			X
+Northmen		(X)
+Rohirrim		X
+Dale			X
+Woses			X
+Rivermen
+Eriadorians
+Daen			X
+Forodrim
+
+Ents			X
+Great Eagles		X
+Giants			X
+
+Dragons			X
+Great Spiders		X
+Orc			X
+Goblin			X
+Uruk-hai		X
+Trolls			X
+Wights			X
+
+Southrons		X
+Easterlings		X
+King's Men		X
+Bellakarni
+Chyans
+Ahar			X
+Wômarin
+Urdic Men
+Lynîr			X
+
+Wilderness		X
+

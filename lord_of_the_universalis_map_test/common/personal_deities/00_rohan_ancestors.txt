@@ -7,7 +7,7 @@ eorl_the_young_ancestor =
 	ae_impact = -0.05
 	core_creation = -0.10
 	
-	allow = { religion = religion_rohirrim }
+	allow = { religion = religion_eorlingas }
 	sprite = 1
 	
 	ai_will_do = {
@@ -29,7 +29,7 @@ brego_ancestor =
 	diplomatic_reputation = 1
 	improve_relation_modifier = 0.20
 	
-	allow = { religion = religion_rohirrim }
+	allow = { religion = religion_eorlingas }
 	sprite = 2
 	
 	ai_will_do = {
@@ -51,7 +51,7 @@ aldor_the_old_ancestor =
 	global_tax_modifier = 0.10
 	trade_efficiency = 0.10
 	
-	allow = { religion = religion_rohirrim }
+	allow = { religion = religion_eorlingas }
 	sprite = 3
 	
 	ai_will_do = {
@@ -67,14 +67,36 @@ aldor_the_old_ancestor =
 	}	
 }
 
-deor_ancestor = 
+helm_hammerhand_ancestor = 
+{ 
+	#(Agressive) 
+	siege_ability = 0.05
+	discipline = 0.05
+	
+	allow = { religion = religion_eorlingas }
+	sprite = 4
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			personality = ai_militarist
+		}	
+		modifier = {
+			factor = 0.5
+			personality = ai_diplomat
+		}		
+	}	
+}
+
+folcwine_ancestor = 
 {
 	#(Economic - Savings)
 	interest = -0.25
 	build_cost = -0.10
 	
-	allow = { religion = religion_rohirrim }
-	sprite = 4
+	allow = { religion = religion_eorlingas }
+	sprite = 5
 	
 	ai_will_do = {
 		factor = 1
@@ -89,24 +111,4 @@ deor_ancestor =
 	}	
 }
 
-helm_hammerhand_ancestor = 
-{ 
-	#(Agressive) 
-	siege_ability = 0.05
-	discipline = 0.05
-	
-	allow = { religion = religion_rohirrim }
-	sprite = 5
-	
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 2
-			personality = ai_militarist
-		}	
-		modifier = {
-			factor = 0.5
-			personality = ai_diplomat
-		}		
-	}	
-}
+

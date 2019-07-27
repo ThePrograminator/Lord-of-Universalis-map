@@ -4,4 +4,16 @@ add_government_reform = lotr_spider_government_reform
 primary_culture = culture_spider
 religion = religion_spider
 technology_group = lotr_great_spider
-capital = 624
+capital = 1913
+
+historical_friend = V19
+historical_friend = V17
+historical_friend = Y49
+historical_friend = V41
+historical_friend = Y44
+historical_friend = Y63
+historical_rival = Z04
+historical_rival = Y94
+historical_rival = Y67
+historical_rival = Y96
+historical_rival = V25

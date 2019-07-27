@@ -12,9 +12,9 @@
 
 is_city = yes
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 7
+base_production = 6
+base_manpower = 6
 
 add_core = Y67
 owner = Y67
@@ -23,9 +23,14 @@ controller = Y67
 culture = culture_silvan
 religion = religion_umanyar
 
-trade_goods = fur
+trade_goods = wine
 
 hre = no
+
+town_2_elf_building=yes
+green_pastures_elf_building=yes
+wall_bastions_elf_building=yes
+elven_forge_elf_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

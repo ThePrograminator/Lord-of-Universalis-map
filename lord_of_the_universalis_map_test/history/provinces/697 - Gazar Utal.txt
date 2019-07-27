@@ -12,16 +12,16 @@
 
 base_tax = 2
 base_production = 2
-base_manpower = 1
+base_manpower = 3
 
-add_core = X92
-owner = X92
-controller = X92
+add_core = X93
+owner = X93
+controller = X93
 
 culture = culture_logath
 religion = religion_ulgath
 
-trade_goods = grain
+trade_goods = stone
 
 hre = no
 

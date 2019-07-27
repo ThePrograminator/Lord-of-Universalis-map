@@ -12,8 +12,8 @@
 
 is_city = no
 
-base_tax = 2
-base_production = 2
+base_tax = 4
+base_production = 5
 base_manpower = 2
 
 add_core = Z03
@@ -23,9 +23,12 @@ controller = Z03
 culture = culture_dorwinrim
 religion = religion_daen
 
-trade_goods = naval_supplies
+trade_goods = iron
 
 hre = no
+
+settlement_building=yes
+work_camp_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

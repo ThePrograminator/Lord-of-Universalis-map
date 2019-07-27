@@ -2,7 +2,7 @@
 
 graphical_culture = northamericagfx
 
-color = { 25  80  25 }
+color = { 20  80  25 }
 
 historical_idea_groups = {
 	aristocracy_ideas

@@ -12,18 +12,18 @@
 
 is_city = no
 
-base_tax = 10
-base_production = 1
-base_manpower = 7
+base_tax = 5
+base_production = 4
+base_manpower = 3
 
 add_core = X86
 owner = X86
 controller = X86
 
-culture = culture_nurniags
-religion = religion_ioriags
+culture = culture_orkish
+religion = religion_orkish
 
-trade_goods = copper
+trade_goods = stone
 
 hre = no
 
@@ -72,3 +72,8 @@ discovered_by = lotr_wights
 	controller = V23
 }
 
+3000.1.1 = {
+	add_core = V17
+	owner = V17
+	controller = V17
+}

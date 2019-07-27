@@ -10,11 +10,11 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-is_city = no
+is_city = yes
 
-base_tax = 5
-base_production = 4
-base_manpower = 7
+base_tax = 12
+base_production = 12
+base_manpower = 8
 
 add_core = X16
 owner = X16
@@ -23,9 +23,21 @@ controller = X16
 culture = culture_eorlingas
 religion = religion_eorlingas
 
-trade_goods = grain
+trade_goods = paper
 
 hre = no
+
+add_permanent_province_modifier = {
+	name = trade_post_modifier
+	duration = -1
+}
+
+capital_2_building=yes
+trade_outpost_building=yes
+tax_office_building=yes
+workshop_building=yes
+fort_pallisade_building=yes
+army_camp_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

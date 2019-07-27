@@ -12,9 +12,9 @@
 
 is_city = yes
 
-base_tax = 6
-base_production = 4
-base_manpower = 6
+base_tax = 14
+base_production = 15
+base_manpower = 14
 
 add_core = Y67
 owner = Y67
@@ -26,6 +26,21 @@ religion = religion_umanyar
 trade_goods = silk
 
 hre = no
+
+add_permanent_province_modifier = {
+	name = trade_post_modifier
+	duration = -1
+}
+
+capital_3_elf_building=yes
+craftsmen_plaza_elf_building=yes
+amphitheatre_elf_building=yes
+grand_forge_elf_building=yes
+heros_shrine_building=yes
+grand_stables_elf_building=yes
+fort_high_walls_elf_building=yes
+wall_bastions_elf_building=yes
+statue_of_the_elders_elf_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
@@ -66,4 +81,8 @@ discovered_by = lotr_womarin
 discovered_by = lotr_woses
 discovered_by = lotr_wights
 
-
+2944.3.1 = {
+	moat_elf_building=yes
+	exotic_wares_market_elf_building=yes
+	craftsmen_plaza_elf_building=no
+}

@@ -7,3 +7,35 @@ vassal = {
 	start_date = 2758.10.10
 	end_date = 3500.1.1
 }
+
+#Erebor & Iron Hills
+union = {
+	first = Y22
+	second = Y23
+	start_date = 2941.11.23
+	end_date = 2989.4.1
+}
+
+#Erebor & Iron hills
+alliance = {
+	first = Y22
+	second = Y23
+	start_date = 2590.10.10
+	end_date = 2941.11.23
+}
+
+#Thorin's Halls & Buzdûm-Mazar
+alliance = {
+	first = Y13
+	second = Y04
+	start_date = 2758.1.1
+	end_date = 3500.1.1
+}
+
+#Thorin's Halls & Khazad-Zahar
+alliance = {
+	first = Y13
+	second = Y05
+	start_date = 2758.1.1
+	end_date = 3500.1.1
+}

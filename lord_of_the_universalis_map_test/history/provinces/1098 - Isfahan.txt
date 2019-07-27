@@ -12,8 +12,8 @@
 
 is_city = no
 
-base_tax = 2
-base_production = 9
+base_tax = 4
+base_production = 4
 base_manpower = 3
 
 add_core = X38
@@ -23,7 +23,7 @@ controller = X38
 culture = culture_gusar
 religion = religion_apysani_beduins
 
-trade_goods = gold
+trade_goods = stone
 
 hre = no
 

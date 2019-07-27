@@ -4,6 +4,19 @@ add_government_reform = tribal_kingdom
 primary_culture = culture_ibnothiuda
 religion = religion_aivathuida
 technology_group = lotr_northmen
-capital = 404
+capital = 568
 
 government_rank = 1
+
+historical_friend = Y97
+historical_friend = V26
+historical_friend = V29
+historical_friend = V30
+historical_friend = Y18
+historical_rival = X99
+historical_rival = X90
+historical_rival = X87
+historical_rival = V39
+historical_rival = Y48
+historical_rival = Y98
+historical_rival = V27

@@ -12,13 +12,13 @@
 
 is_city = no
 
-base_tax = 3
+base_tax = 8
 base_production = 9
-base_manpower = 3
+base_manpower = 13
 
-add_core = X49
-owner = X49
-controller = X49
+add_core = X51
+owner = X51
+controller = X51
 
 culture = culture_sorijans
 religion = religion_sea_peoples

@@ -12,9 +12,9 @@
 
 is_city = yes
 
-base_tax = 1
+base_tax = 3
 base_production = 3
-base_manpower = 2
+base_manpower = 3
 
 add_core = Z57
 owner = Z57
@@ -23,9 +23,12 @@ controller = Z57
 culture = culture_dunlendings
 religion = religion_daen
 
-trade_goods = copper
+trade_goods = herbs
 
 hre = no
+
+settlement_building=yes
+outpost_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

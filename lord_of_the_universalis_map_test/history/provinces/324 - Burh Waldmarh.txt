@@ -12,9 +12,9 @@
 
 is_city = no
 
-base_tax = 3
-base_production = 3
-base_manpower = 3
+base_tax = 7
+base_production = 5
+base_manpower = 8
 
 add_core = Y96
 owner = Y96
@@ -23,9 +23,14 @@ controller = Y96
 culture = culture_waldingas
 religion = religion_aivathuida
 
-trade_goods = cloth
+trade_goods = fur
 
 hre = no
+
+fortress_1_building=yes
+temple_building=yes
+army_camp_building=yes
+fort_pallisade_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

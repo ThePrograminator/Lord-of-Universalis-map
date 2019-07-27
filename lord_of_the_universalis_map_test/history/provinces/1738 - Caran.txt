@@ -27,6 +27,8 @@ trade_goods = fur
 
 hre = no
 
+city_1_building=yes
+
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
 discovered_by = lotr_black_numenorean
@@ -66,3 +68,8 @@ discovered_by = lotr_womarin
 discovered_by = lotr_woses
 discovered_by = lotr_wights
 
+3000.1.1 = {
+	add_core = V23
+	owner = V23
+	controller = V23
+}

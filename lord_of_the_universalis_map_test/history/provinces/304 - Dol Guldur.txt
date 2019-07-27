@@ -12,9 +12,9 @@
 
 is_city = yes
 
-base_tax = 4
+base_tax = 7
 base_production = 5
-base_manpower = 4
+base_manpower = 10
 
 add_core = V19
 owner = V19
@@ -76,4 +76,95 @@ discovered_by = lotr_womarin
 discovered_by = lotr_woses
 discovered_by = lotr_wights
 
+2770.1.1 = {
+	remove_province_modifier = ruins_debuff
+	capital_2_orc_building = yes
+	fort_wooden_walls_orc_building=yes
+	small_arena_building = yes
+	orc_fissure_orc_building=yes
+	add_base_tax = 3
+	add_base_manpower = 3
+	add_base_production = 3
+}
 
+2841.1.1 = {
+	capital_3_orc_building = yes
+	fort_orc_stronghold_orc_building=yes
+	large_arena_building=yes
+	orc_fissure_orc_building=yes
+	workshop_orc_building=yes
+	overseer_station_orc_building=yes
+	blacksmith_orc_building=yes
+}
+2845.1.1 = {
+	orc_fissure_orc_building=no
+	metal_works_orc_building=yes
+	army_garrison_orc_building=yes
+	warg_arena_orc_building=yes
+	tortur_chambers_orc_building=yes
+	add_base_tax = 2
+	add_base_manpower = 2
+	add_base_production = 2
+}
+
+2939.1.1 = {
+	workshop_orc_building=no
+	overseer_tower_orc_building=yes
+	dark_iron_forge_orc_building=yes
+	siege_works_orc_building=yes
+	add_base_tax = 1
+	add_base_manpower = 1
+	add_base_production = 1
+}
+
+2941.10.13 = {
+	add_province_modifier = {
+	name = ruins_debuff
+	duration = -1
+	}
+	capital_3_orc_building = no
+	add_base_tax = -10
+	add_base_manpower = -10
+	add_base_production = -10
+	culture = culture_wilderness
+	religion = religion_wilderness
+}
+
+2951.5.1 = {
+	remove_province_modifier = ruins_debuff
+	culture = culture_orkish
+	religion = religion_orkish
+	capital_3_orc_building = yes
+	fort_wooden_walls_orc_building=yes
+	orc_pit_orc_building=yes
+	blacksmith_orc_building=yes
+	add_base_tax = 5
+	add_base_manpower = 5
+	add_base_production = 5
+}
+
+2953.6.15 = {
+	orc_pit_orc_building=no
+	overseer_station_orc_building=yes
+	metal_works_orc_building=yes
+	orc_fissure_orc_building=yes
+	warg_arena_orc_building=yes
+	siege_works_orc_building=yes
+	fort_orc_stronghold_orc_building=yes
+	prisoner_cage_orc_building=yes
+	add_base_tax = 1
+	add_base_manpower = 1
+	add_base_production = 1
+}
+
+3000.1.1 = {
+	siege_works_orc_building=no
+	orc_fissure_orc_building=no
+	overseer_tower_orc_building=yes
+	dark_iron_forge_orc_building=yes
+	army_garrison_orc_building=yes
+	great_siege_works_orc_building=yes
+	add_base_tax = 4
+	add_base_manpower = 4
+	add_base_production = 4
+}

@@ -12,9 +12,9 @@
 
 is_city = no
 
-base_tax = 1
+base_tax = 3
 base_production = 4
-base_manpower = 3
+base_manpower = 5
 
 add_core = X15
 owner = X15
@@ -23,7 +23,7 @@ controller = X15
 culture = culture_druedain
 religion = religion_drughu
 
-trade_goods = fruit
+trade_goods = stone
 
 hre = no
 

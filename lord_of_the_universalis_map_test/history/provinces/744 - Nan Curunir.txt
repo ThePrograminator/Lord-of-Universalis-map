@@ -12,9 +12,9 @@
 
 is_city = yes
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 3
+base_production = 4
+base_manpower = 3
 
 culture = culture_wilderness
 religion = religion_wilderness
@@ -62,17 +62,15 @@ discovered_by = lotr_womarin
 discovered_by = lotr_woses
 discovered_by = lotr_wights
 
-3018.1.1 = { 
+2953.1.1 = { 
 	culture = culture_urukhai 
 	religion = religion_uruk 
 	add_core = V49
 	owner = V49
 	controller = V49
 }
-
-3019.4.2 = {
-	owner = ---
-	controller = ---
-	culture = culture_entish
-	religion = religion_enyd
+3000.1.1 = { 
+	add_base_tax = 3
+	add_base_production = 3
+	add_base_manpower = 3
 }

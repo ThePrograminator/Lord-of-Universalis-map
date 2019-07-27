@@ -12,9 +12,9 @@
 
 is_city = yes
 
-base_tax = 7
+base_tax = 4
 base_production = 4
-base_manpower = 1
+base_manpower = 2
 
 add_core = V16
 owner = V16
@@ -23,9 +23,11 @@ controller = V16
 culture = culture_clansmen
 religion = religion_daen
 
-trade_goods = naval_supplies
+trade_goods = fish
 
 hre = no
+
+settlement_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

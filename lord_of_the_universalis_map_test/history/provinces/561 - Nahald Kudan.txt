@@ -10,7 +10,7 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-is_city = yes
+is_city = no
 
 base_tax = 4
 base_production = 4
@@ -23,7 +23,7 @@ controller = Y22
 culture = culture_longbeard
 religion = religion_mahal
 
-trade_goods = iron
+trade_goods = mushrooms
 
 hre = no
 
@@ -67,24 +67,12 @@ discovered_by = lotr_woses
 discovered_by = lotr_wights
 
 2770.1.1 = {
-	owner = ---
-	controller = ---
-	culture = culture_wilderness
-	religion = religion_wilderness
-	add_province_modifier = {
-		name = ruins_debuff
-		duration = -1
-	}
+	owner = Y23
+	controller = Y23
 }
 
 2941.11.23 = {
 	add_core = Y22
 	owner = Y22
 	controller = Y22
-	culture = culture_longbeard
-	religion = religion_mahal
-}
-
-2943.1.1 = {
-	remove_province_modifier = ruins_debuff
 }

@@ -27,8 +27,12 @@ trade_goods = wine
 
 hre = no
 
-city_1_building=yes
+add_permanent_province_modifier = {
+	name = trade_post_modifier
+	duration = -1
+}
 
+city_1_building=yes
 trade_outpost_building=yes
 
 discovered_by = lotr_ahar

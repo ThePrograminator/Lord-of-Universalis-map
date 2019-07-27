@@ -12,9 +12,9 @@
 
 is_city = yes
 
-base_tax = 7
-base_production = 1
-base_manpower = 5
+base_tax = 3
+base_production = 3
+base_manpower = 3
 
 add_core = Z21
 owner = Z21

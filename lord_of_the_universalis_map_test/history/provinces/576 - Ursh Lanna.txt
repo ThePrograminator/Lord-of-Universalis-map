@@ -13,8 +13,8 @@
 is_city = no
 
 base_tax = 3
-base_production = 3
-base_manpower = 3
+base_production = 6
+base_manpower = 6
 
 add_core = X99
 owner = X99
@@ -23,9 +23,13 @@ controller = X99
 culture = culture_sagath
 religion = religion_ulgath
 
-trade_goods = copper
+trade_goods = wool
 
 hre = no
+
+settlement_building=yes
+temple_building=yes
+outpost_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

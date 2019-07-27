@@ -13,7 +13,7 @@
 is_city = yes
 
 base_tax = 4
-base_production = 9
+base_production = 4
 base_manpower = 3
 
 add_core = Z53
@@ -23,7 +23,7 @@ controller = Z53
 culture = culture_dunlendings
 religion = religion_daen
 
-trade_goods = cloth
+trade_goods = tropical_wood
 
 hre = no
 

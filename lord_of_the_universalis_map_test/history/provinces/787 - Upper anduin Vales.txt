@@ -10,14 +10,14 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 2
+base_production = 3
+base_manpower = 3
 
 culture = culture_wilderness
 religion = religion_wilderness
 
-trade_goods = naval_supplies
+trade_goods = grain
 
 hre = no
 

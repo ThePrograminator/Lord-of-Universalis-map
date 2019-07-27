@@ -10,11 +10,11 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-is_city = no
+is_city = yes
 
-base_tax = 2
-base_production = 2
-base_manpower = 2
+base_tax = 6
+base_production = 4
+base_manpower = 6
 
 add_core = X86
 owner = X86
@@ -23,9 +23,13 @@ controller = X86
 culture = culture_nurniags
 religion = religion_ioriags
 
-trade_goods = fish
+trade_goods = grain
 
 hre = no
+
+fortress_1_building=yes
+
+fort_pallisade_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
@@ -70,5 +74,7 @@ discovered_by = lotr_wights
 	add_core = V23
 	owner = V23
 	controller = V23
+	fortress_1_building=yes
+	fort_pallisade_building=yes
 }
 

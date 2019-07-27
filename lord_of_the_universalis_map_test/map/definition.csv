@@ -1605,7 +1605,7 @@ province;red;green;blue;x;x
 1604;226;125;228;Fenfenen;x
 1605;39;199;130;Nunahar;x
 1606;145;157;136;Virk-Ulgath;x
-1607;236;14;242;Nargil Vale;x
+1607;236;14;242;Nan Nargil;x
 1608;45;67;128;Alduryaknar;x
 1609;158;162;126;Loakna;x
 1610;248;2;164;Uda-Khand;x
@@ -1658,7 +1658,7 @@ province;red;green;blue;x;x
 1657;208;97;5;Subi-Khand;x
 1658;90;88;144;Zemlja Vojny;x
 1659;144;94;216;Larkar;x
-1660;76;250;36;Thulornar;x
+1660;76;250;36;Thûrlomar;x
 1661;34;153;148;Dalpygis;x
 1662;23;203;227;Bozorgana;x
 1663;91;149;29;Asdriagien Litto;x
@@ -2005,7 +2005,7 @@ province;red;green;blue;x;x
 2004;190;100;100;Khazad-Madur;x
 2005;190;190;100;Durwaw;x
 2006;190;190;190;Ruuriik;x
-2007;200;200;200;Radimbragaz;x
+2007;7;8;8;Radimbragaz;x
 2008;200;100;100;Brul Falindukum;x
 2009;210;200;200;Falindukum Vale;x
 2010;210;210;200;Fullagrod;x
@@ -2322,10 +2322,10 @@ province;red;green;blue;x;x
 2321;0;130;145;Temp Sea;x
 2322;250;45;70;Waste Land 2;x
 2323;250;40;70;Waste Land 3;x
-2324;250;35;70;Waste Land 4;x
+2324;250;35;70;Valdyr;x
 2325;250;30;70;Waste Land 5;x
 2326;250;25;70;Waste Land 6;x
-2327;250;20;70;Waste Land 7;x
+2327;250;20;70;Taur Rycolis;x
 2328;250;15;70;Waste Land 8;x
 2329;250;10;70;Waste Land 9;x
 2330;250;5;70;Waste Land 10;x
@@ -2337,7 +2337,7 @@ province;red;green;blue;x;x
 2336;250;0;45;Waste Land 16;x
 2337;110;130;190;Waste Land 17;x
 2338;20;75;250;Temp Sea;x
-2339;0;0;250;Sea of Belegaer 29;x
+2339;0;0;250;Sea of Kirithâni;x
 2340;0;0;245;Sea of Belegaer 30;x
 2341;0;0;240;Sea of Belegaer 31;x
 2342;0;0;235;Sea of Belegaer 32;x
@@ -2724,7 +2724,7 @@ province;red;green;blue;x;x
 2723;25;0;220;Sea of Helkeaar 15;x
 2724;25;0;225;Sea of Helkeaar 16;x
 2725;25;0;230;Sea of Helkeaar 17;x
-2726;25;0;235;The White Sea;x
+2726;25;0;235;Thorenaer;x
 2727;25;0;240;Lakes of Lindalf;x
 2728;25;0;245;Lakes of Jarvamaa;x
 2729;25;0;250;Lake Emyn Helig;x
@@ -2755,3 +2755,462 @@ province;red;green;blue;x;x
 2754;5;5;160;Sea of Belegaer 126;x
 2755;30;0;150;Sea of Helkeaar 18;x
 2756;19;46;14;Kun;x
+2757;138;178;198;Everhir Vale;x
+2758;99;34;98;Thaurung;x
+2759;176;97;127;Gondladwen;x
+2760;176;125;92;Siida;x
+2761;176;195;92;Forrammas Formen;x
+2762;31;143;97;Mount Ûdunanca;x
+2763;142;224;190;Heleqfalas;x
+2764;154;152;186;Forod Engrin;x
+2765;210;40;108;Heleqhlug;x
+2766;74;184;113;Durganla;x
+2767;74;58;113;Aiatar;x
+2768;152;202;74;Âlk Gâth;x
+2769;188;25;40;A-Tykâr;x
+2770;188;118;40;A-Anâr;x
+2771;41;188;75;Brya Sug;x
+2772;188;41;148;Itarân;x
+2773;93;142;124;Kaldarâk-Vâr;x
+2774;91;70;219;Taurkytâl;x
+2775;75;59;44;Var Ukâg;x
+2776;75;204;44;Kyvinâr;x
+2777;116;42;91;Mur Brya;x
+2778;116;42;181;Yalg Kusir;x
+2779;206;88;168;Vog Mur;x
+2780;46;88;168;Talirân;x
+2781;47;197;139;Zyeth Hýd;x
+2782;164;157;213;Wasyclax;x
+2783;164;157;42;Ukasur;x
+2784;81;78;21;Vorganis Cas;x
+2785;106;12;21;Foryardyr;x
+2786;106;12;116;Pazar;x
+2787;106;183;116;Cüce;x
+2788;183;121;106;Agnikuyak;x
+2789;213;69;35;Chmabrûkh;x
+2790;35;104;69;Miscroni;x
+2791;35;104;213;Taurimorn;x
+2792;83;153;166;Taur Sasir;x
+2793;183;153;166;Tatagar;x
+2794;29;39;31;Urdic Highlands;x
+2795;70;205;64;Tutpil;x
+2796;64;120;205;Forest of Dír;x
+2797;64;120;44;Brúkhar;x
+2798;238;6;107;Igetkûk Vale;x
+2799;230;238;6;Hills of Khandax;x
+2800;230;100;6;Uig;x
+2801;230;100;165;Laset;x
+2802;63;100;165;Ukur;x
+2803;109;183;73;Khutar;x
+2804;183;73;175;Ukrur;x
+2805;183;166;73;Khibkhutt;x
+2806;39;166;73;Pini Pár;x
+2807;183;39;31;Lake Urdaka;x
+2808;183;161;160;Takhar;x
+2809;183;161;95;Firat;x
+2810;183;161;230;Kehûrl Forest;x
+2811;225;82;82;Angryth;x
+2812;247;82;82;Avikangsdar;x
+2813;176;52;212;Hûlonê;x
+2814;176;232;212;Hiswailin;x
+2815;176;232;49;Kybrisil;x
+2816;49;232;172;Amboi Paith;x
+2817;211;232;172;Kiris Lemorel;x
+2818;29;82;82;Urgûk Vale;x
+2819;52;210;212;Annon Luin;x
+2820;211;232;16;Iskahú;x
+2821;16;232;55;Sufkupik;x
+2822;232;16;143;Iskanor;x
+2823;150;16;143;Tyrnalt;x
+2824;150;111;143;Manaril;x
+2825;111;89;88;Myr;x
+2826;66;88;88;Parth Myr;x
+2827;186;57;23;Daldunair Hills;x
+2828;208;187;181;Xâtal;x
+2829;30;181;181;Urm Tyra;x
+2830;206;100;44;Langarna;x
+2831;76;100;100;Lú Tyr Sû;x
+2832;206;100;213;Kharukthalad;x
+2833;126;99;213;Dôm Fálesh;x
+2834;93;227;108;Daldunair Forest;x
+2835;176;153;115;Mikko;x
+2836;176;49;115;Linimér;x
+2837;66;186;119;Uul;x
+2838;186;142;66;Hills of Ûl;x
+2839;239;207;150;Sharthax;x
+2840;44;207;150;Shartha Isle;x
+2841;44;74;150;Harsharthax;x
+2842;40;53;85;Aeareryn;x
+2843;40;55;85;Cudaw;x
+2844;206;55;85;Wern Draic;x
+2845;55;116;206;Forest of Búrt;x
+2846;194;206;55;Sêd Fields;x
+2847;61;206;55;Kûbor Sêd;x
+2848;183;21;48;Illuin hills;x
+2849;85;10;22;Illuin Woods;x
+2850;85;227;22;Rûbor;x
+2851;85;227;213;Nad Halmâsiri;x
+2852;20;44;2;Oriz;x
+2853;44;2;30;Zetta;x
+2854;170;202;210;Garrothold;x
+2855;207;62;157;Tharsitaur;x
+2856;27;68;78;Aigvalg;x
+2857;27;181;78;Haen;x
+2858;222;152;187;Blackhorn Pass;x
+2859;24;126;39;Gabilzahar;x
+2860;111;245;12;Ezra;x
+2861;154;167;167;Rûbor Highlands;x
+2862;24;183;39;Rast Haen;x
+2863;24;32;183;Lyak;x
+2864;143;24;183;Archen;x
+2865;164;139;53;Ruvak;x
+2866;253;224;122;Gabilfaham-dûm;x
+2867;224;156;161;Haenac Tatawêr;x
+2868;63;36;44;Forest of Durakhan;x
+2869;253;72;122;Gimnîn-Ajzurgund;x
+2870;94;84;32;Cirith Ruin;x
+2871;58;118;18;Neân-Tán;x
+2872;157;229;109;Kael;x
+2873;241;106;53;Astôs;x
+2874;66;59;56;Wômaw Reach;x
+2875;94;84;33;Amrillar;x
+2876;123;117;115;Kael Ûrd;x
+2877;190;65;16;Shenin;x
+2878;167;65;201;Alimaine;x
+2879;13;128;67;Merisia;x
+2880;14;249;158;Terisonen;x
+2881;227;215;21;Machren;x
+2882;207;79;34;Katchere;x
+2883;10;128;65;Ezran;x
+2884;30;13;155;Prîth-an-Iryst;x
+2885;155;147;220;Helcarth;x
+2886;41;167;106;Nan Cuivisîr;x
+2887;126;43;84;Moinarlin;x
+2888;236;168;201;Annon Aur;x
+2889;3;207;32;Zorian Wastes;x
+2890;90;38;31;Vorganím Plains;x
+2891;90;38;134;Jardan;x
+2892;34;106;203;Bar D'mallo;x
+2893;47;75;57;Lûrs Vorganís;x
+2894;32;32;140;Barad Aelifuin;x
+2895;35;246;109;Skad Forest;x
+2896;32;216;140;Jendi Plains;x
+2897;210;251;245;Lygar Kraw;x
+2898;98;62;104;Lygar Kraw Forest;x
+2899;36;106;20;Hills of Lygar Kraw;x
+2900;36;106;181;Amon Rávasta;x
+2901;85;85;62;Kehndral;x
+2902;211;213;3;Kô-sang;x
+2903;160;36;11;Lygar Marshes;x
+2904;234;108;58;Rómkendarca;x
+2905;48;78;102;Banshûr Vale;x
+2906;195;78;102;Jelhad;x
+2907;145;5;35;Yól Ôburâ;x
+2908;5;145;58;Yól Usta;x
+2909;218;145;58;Fararyn;x
+2910;58;186;218;Ayanghat;x
+2911;114;209;106;Ayta Denûly;x
+2912;209;167;107;Chaman;x
+2913;152;27;51;Acaadôky Marshes;x
+2914;42;25;28;Astoban;x
+2915;231;28;114;Lower Lhûd;x
+2916;231;28;49;Shayidat;x
+2917;231;153;49;Pelplû Vale;x
+2918;124;13;140;Zarinûsha;x
+2919;231;153;216;Sarhad;x
+2920;97;16;81;Abdi;x
+2921;1;236;230;Peltawar;x
+2922;1;236;84;Loeg Morlad;x
+2923;1;27;26;Khabburj;x
+2924;36;44;44;Ardvisura Vale;x
+2925;68;90;89;Paband;x
+2926;35;83;19;Puran;x
+2927;167;14;144;Forest of Arnaz;x
+2928;63;97;69;Nazban;x
+2929;92;12;54;Aca Lands;x
+2930;231;66;151;Geraming;x
+2931;13;61;49;Acadeh;x
+2932;51;192;107;Shajidad;x
+2933;152;8;8;Abanâsard Vale;x
+2934;50;14;167;Spitamarod Vale;x
+2935;78;36;57;Saêná Vale;x
+2936;74;126;73;Forest of Pishanâ;x
+2937;160;2;19;Forest of Lylia;x
+2938;160;2;153;Asanâbar;x
+2939;123;167;213;Sarvâsher;x
+2940;17;68;126;Mahdat;x
+2941;32;8;37;Delshad Vale;x
+2942;230;3;27;Simbar;x
+2943;31;88;253;Meherafrin;x
+2944;29;24;24;Pass of Dreams;x
+2945;8;6;104;Faredun;x
+2946;243;209;21;Haxât Mount;x
+2947;46;145;58;Hormdôky Vale;x
+2948;109;230;231;Tomb of Haxâmanish;x
+2949;247;26;96;Indara;x
+2950;255;220;29;Murdahzar;x
+2951;147;20;23;Bhantrif;x
+2952;147;181;23;Rusht;x
+2953;155;57;130;Ahnvîr Vale;x
+2954;78;12;62;Akhzamazâr;x
+2955;78;167;62;Tomb of Gushnasp;x
+2956;78;162;62;Gashtaham;x
+2957;90;13;22;Nalronorth Mount;x
+2958;199;13;22;Bakhtavar;x
+2959;63;246;231;Forest of Mahzarin;x
+2960;6;46;12;Clyan plateau;x
+2961;142;249;157;Shaiharod Vale;x
+2962;58;113;155;Kala-Naga;x
+2963;7;9;10;Kala-Kargur;x
+2964;7;9;174;Kala-Garbark;x
+2965;7;9;120;Pashimakan;x
+2966;82;18;26;Surkhazhdar;x
+2967;83;57;92;Zarin;x
+2968;48;18;176;Yól Ôratâ;x
+2969;50;20;176;Yôrath;x
+2970;104;7;7;Estergârth;x
+2971;222;30;174;Lokhuzôr-zayân;x
+2972;172;5;5;Lokhuzôr Batîna;x
+2973;172;5;174;Azra-Zâin;x
+2974;116;14;24;Sakal-Kadar;x
+2975;116;151;24;Phurut-Azar;x
+2976;96;246;237;Dolgûzayân;x
+2977;45;128;123;Urîd an-Batîna;x
+2978;100;0;5;Naragthâni;x
+2979;249;25;36;Nimrîthâni;x
+2980;30;254;195;Urîd an-Nâlu;x
+2981;6;1;5;Kallabânêth;x
+2982;223;128;123;Pharazêth;x
+2983;82;74;74;Dolguêth;x
+2984;21;148;96;Gimilêth;x
+2985;21;12;96;Inzilêth;x
+2986;4;2;13;Bârânaêth;x
+2987;188;158;13;Tudêth;x
+2988;56;61;57;Urud an-Zarâni;x
+2989;55;60;57;Azûlada-brad;x
+2990;94;5;3;Zarâni an-Zayân;x
+2991;160;160;100;Ohanpohak;x
+2992;120;40;133;Wôl Forest;x
+2993;54;12;12;Ered Treddas;x
+2994;55;12;12;Lôc Raf;x
+2995;55;220;12;Tsinaw;x
+2996;220;169;12;Aishan;x
+2997;244;34;108;Lower Idûrak;x
+2998;244;35;108;Hij Vale;x
+2999;65;138;86;Achaj;x
+3000;3;23;9;Laywun;x
+3001;5;25;9;Wum Raf;x
+3002;40;54;155;Lów Pazac;x
+3003;237;55;149;Thawan Napai;x
+3004;237;141;55;Hirsh Pûl;x
+3005;117;227;187;Siuyú;x
+3006;176;1;30;Lomithâni;x
+3007;13;167;239;Lo Canza Yuan;x
+3008;13;165;239;Mokaw;x
+3009;89;110;119;Eshayl;x
+3010;14;142;101;Naijin;x
+3011;200;200;200;Orocarni;x
+3012;44;154;44;Kala-Fauthum;x
+3013;11;164;72;Mount Arysis;x
+3014;82;5;81;Ered Engrin;x
+3015;83;5;81;Mithiaint;x
+3016;85;5;81;Khandax;x
+3017;84;5;81;Northern Illuin Woods;x
+3018;84;5;82;Vexclar;x
+3019;84;5;83;Abrâzan;x
+3020;85;5;83;Lug Wrasfotak;x
+3021;85;5;84;Lag-Malmabúsh;x
+3022;86;5;84;Kûl-Tarkorûl;x
+3023;86;6;84;Bár-Dúath;x
+3024;86;6;85;Nan Gurthrant;x
+3025;86;6;86;Luglurak;x
+3026;86;7;86;Búrkh Núrn;x
+3027;87;6;87;Lugshar;x
+3028;90;2;90;Lag-Fhauga;x
+3029;3;102;13;Lag-Uyakdagûl;x
+3030;3;103;13;Kogoruhn;x
+3031;4;103;13;Mormaegon;x
+3032;5;103;13;Tirith Nindor;x
+3033;5;105;13;Rustrond;x
+3034;15;50;40;Guruth;x
+3035;15;51;41;Kurgan;x
+3036;50;51;41;Mandân;x
+3037;14;51;41;Mausur;x
+3038;231;63;95;Kermandûr;x
+3039;52;7;126;Môrgurth;x
+3040;106;2;2;Gordûl;x
+3041;74;248;238;Gôrlith;x
+3042;2;100;5;Dûgôr;x
+3043;75;248;238;Biridaswa;x
+3044;3;100;5;Nan Lammoth;x
+3045;3;180;5;Orod Dhôl;x
+3046;3;120;5;Garmagoum;x
+3047;3;120;50;Barad Perras;x
+3048;11;17;14;Katund-Akûl;x
+3049;110;17;14;Gul-Nórui;x
+3050;110;19;14;Gaeros;x
+3051;26;32;70;Calenhad;x
+3052;26;32;71;Arandal;x
+3053;26;32;72;Bar Tawar;x
+3054;157;50;2;Larnach;x
+3055;18;7;3;Pen-Arduin;x
+3056;234;38;23;Veriladen;x
+3057;34;26;25;Tirnel;x
+3058;177;1;1;Ladrengil;x
+3059;176;1;1;Porosîr;x
+3060;10;10;9;Trenas;x
+3061;94;5;70;Tinnen;x
+3062;19;251;133;Anwarbad;x
+3063;124;18;4;Tir Obel;x
+3064;142;40;8;Harlond;x
+3065;9;11;9;Bar Novond;x
+3066;42;11;14;Pellas;x
+3067;20;160;37;Minas Arnach;x
+3068;17;61;23;Lebinor;x
+3069;219;45;192;Din-Lamedon;x
+3070;106;105;99;Tir Edrain;x
+3071;208;177;7;Gilcúdor;x
+3072;78;69;16;Tharas;x
+3073;18;16;7;Daningweth;x
+3074;104;10;94;Dol Maldring;x
+3075;104;10;95;Caborlad;x
+3076;255;52;238;Gwaerost;x
+3077;169;24;25;Annon Drúin;x
+3078;89;91;92;Caraghir;x
+3079;45;194;237;Adavalinda;x
+3080;168;3;198;Bar Nevedui;x
+3081;168;3;200;Morthondost;x
+3082;246;232;249;Aerlin;x
+3083;136;55;59;Diniath;x
+3084;249;30;41;Thônfalas;x
+3085;191;109;49;Sarlond;x
+3086;61;57;54;Andram;x
+3087;181;34;65;Ostara;x
+3088;1;86;103;Annon Rain;x
+3089;219;241;203;Dol Mithren;x
+3090;77;169;9;Tir Bellas;x
+3091;128;179;236;Ethir Rijesha;x
+3092;57;85;54;Tol Dínen;x
+3093;57;85;53;Tol Dannenwen;x
+3094;57;85;52;Tol Cîr;x
+3095;57;85;51;Ûlond;x
+3096;57;85;50;Ethir Gondeithel;x
+3097;57;85;49;Tol Glingal;x
+3098;57;85;48;Tol Dynn;x
+3099;15;4;14;Ilfaduk;x
+3100;15;4;13;Badharkân;x
+3101;54;51;51;Sakal an-Phâzan;x
+3102;148;253;146;Kes Isarn;x
+3103;149;253;146;Sakal an-Bawîba;x
+3104;27;80;147;Mârdanath;x
+3105;27;81;147;Ajadak Vale;x
+3106;12;16;20;Dalgen;x
+3107;160;16;20;Ajadakêth;x
+3108;244;63;63;Thôn an-Khârlôkh;x
+3109;244;63;62;Zaimbar an-Kadar;x
+3110;16;47;117;Tosith Vale;x
+3111;97;27;40;Annabûn an-Zâyan;x
+3112;97;27;48;Sakal an-Filha;x
+3113;204;40;251;Arthâni;x
+3114;154;40;45;Khibil an-Nîlu;x
+3115;13;179;146;Auz Balkuthâni;x
+3116;13;179;52;Auz Azûl;x
+3117;22;34;27;Agat-Thâni;x
+3118;22;33;27;Zimragunud;x
+3119;71;70;252;Batân an-Sakal;x
+3120;75;3;15;Mûrathôr an-Zadan;x
+3121;76;3;15;Inzilkhâd an-Zadan;x
+3122;77;3;15;Urdubârêth;x
+3123;171;169;6;Dol Êruzor;x
+3124;171;169;5;Bârthâni;x
+3125;59;40;40;Imrathôr an-Zadan;x
+3126;32;26;231;Inzilthâni;x
+3127;32;26;232;Erdegil;x
+3128;40;201;97;Bar Adorn;x
+3129;51;66;56;Adornas;x
+3130;51;66;153;Beldwin;x
+3131;51;66;154;Tilmendir;x
+3132;133;66;154;Amon Roch;x
+3133;17;3;22;Gineard;x
+3134;40;200;97;Gramburg;x
+3135;18;3;22;Underharrow;x
+3136;41;200;97;Upbourn;x
+3137;22;176;152;Grimsburg;x
+3138;27;46;43;Witeberg;x
+3139;77;119;113;Garsfeld;x
+3140;11;34;30;Walstow;x
+3141;17;47;34;Stangard;x
+3142;136;22;22;Etheberg;x
+3143;135;22;22;Cristhorn;x
+3144;134;22;22;Ornen;x
+3145;133;22;22;Gwalend;x
+3146;132;22;22;Mistham;x
+3147;25;10;10;Legrin;x
+3148;26;10;10;Elthengels;x
+3149;27;10;10;Audon;x
+3150;28;10;10;Larisa Toron;x
+3151;183;26;26;Marakai Vale;x
+3152;43;225;241;Sorna Vale;x
+3153;43;225;240;Aldena Toron;x
+3154;14;51;14;Annon Edhel;x
+3155;14;52;14;Nan Lanc;x
+3156;14;53;14;Tirnhirion;x
+3157;172;55;14;Krul Lugu;x
+3158;22;35;49;Barad Angol;x
+3159;21;114;38;Tangûlhad;x
+3160;14;54;14;Bar Beornan;x
+3161;14;55;14;Celon Glossgond;x
+3162;170;208;178;Tumsarna;x
+3163;62;215;170;Râdh Annon;x
+3164;162;201;176;Nan Taurduin;x
+3165;162;200;176;Tauraelin;x
+3166;87;20;67;Cerin Arhendhiri;x
+3167;88;20;68;Nan Gulduin;x
+3168;88;21;68;Dungirith;x
+3169;88;22;68;Buhr Sigric;x
+3170;88;23;68;Parth Hithrim;x
+3171;88;24;68;Bar Weatan;x
+3172;88;25;68;Canas Calenpîn;x
+3173;88;26;68;Dyn Odoric;x
+3174;90;8;8;Barazgund;x
+3175;91;8;8;Skessaholc;x
+3176;92;8;8;Bulor-Ilg;x
+3177;93;8;8;Dôm Goru;x
+3178;94;8;8;Kazlîn Gartazd;x
+3179;95;8;8;Aglâmbazar;x
+3180;186;160;172;Ghar-Umnûz;x
+3181;186;161;172;Thikil Gundu;x
+3182;31;61;136;Khagal-zigil;x
+3183;31;61;131;Gholtâl-Tharâkh;x
+3184;31;202;131;Urus-Fenjar;x
+3185;31;203;131;Meonid's Watch;x
+3186;148;24;138;Fenburg;x
+3187;148;25;138;Leodholt;x
+3188;148;26;138;Dernburg;x
+3189;148;27;138;E Gynd;x
+3190;148;28;138;Rindvind;x
+3191;148;29;138;Geann-a-Lish;x
+3192;148;30;138;Duntiran;x
+3193;30;30;138;Maroninach;x
+3194;30;30;137;Telwaen;x
+3195;30;30;136;Dacaith;x
+3196;30;30;135;Nen Hilith;x
+3197;30;30;134;Foros;x
+3198;30;30;133;Bar Baranorn;x
+3199;30;30;132;Dol Gormaen;x
+3200;30;30;131;Urgond;x
+3201;107;29;62;Aradhras;x
+3202;107;30;62;Edhelas;x
+3203;107;31;62;Tembrith;x
+3204;107;32;62;Lanthir;x
+3205;107;33;62;Chalnen;x
+3206;107;34;62;Dol Gorf;x
+3207;10;34;62;Barad Esher;x
+3208;10;33;62;Gwahilmoth;x
+3209;10;32;62;Sammar;x
+3210;10;31;62;Ningilras;x
+3211;60;40;40;Ost Doranor;x
+3212;60;141;40;Rûn;x
+3213;60;140;40;Raba;x
+3214;81;23;20;Folen;x
+3215;138;177;106;Anadûne;x

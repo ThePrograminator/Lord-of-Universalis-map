@@ -4,6 +4,12 @@ add_government_reform = tribal_kingdom
 primary_culture = culture_orodhbedrim
 religion = religion_daen
 technology_group = lotr_daen
-capital = 1753
+capital = 1306
 
 government_rank = 1
+
+historical_friend = X02
+historical_friend = X15
+historical_friend = X07
+historical_friend = X09
+historical_rival = X01

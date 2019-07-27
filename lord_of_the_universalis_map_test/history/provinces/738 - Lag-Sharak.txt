@@ -10,9 +10,9 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 6
+base_production = 5
+base_manpower = 6
 
 add_core = V07
 owner = V07
@@ -21,7 +21,7 @@ controller = V07
 culture = culture_orkish
 religion = religion_orkish
 
-trade_goods = stone
+trade_goods = copper
 
 hre = no
 
@@ -65,3 +65,8 @@ discovered_by = lotr_woses
 discovered_by = lotr_wights
 
 
+3000.1.1 = { 
+	add_core = V49
+	owner = V49
+	controller = V49
+}

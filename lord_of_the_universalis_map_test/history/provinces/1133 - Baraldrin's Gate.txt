@@ -12,9 +12,9 @@
 
 is_city = no
 
-base_tax = 1
-base_production = 5
-base_manpower = 8
+base_tax = 3
+base_production = 4
+base_manpower = 4
 
 add_core = Y90
 owner = Y90
@@ -23,9 +23,12 @@ controller = Y90
 culture = culture_ymirsfolk
 religion = religion_nenedain
 
-trade_goods = wine
+trade_goods = fur
 
 hre = no
+
+settlement_building=yes
+outpost_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

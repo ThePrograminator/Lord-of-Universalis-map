@@ -14,7 +14,7 @@ is_city = no
 
 base_tax = 2
 base_production = 3
-base_manpower = 1
+base_manpower = 3
 
 add_core = Y94
 owner = Y94
@@ -23,7 +23,7 @@ controller = Y94
 culture = culture_bardings
 religion = religion_nenedain
 
-trade_goods = wool
+trade_goods = cloth
 
 hre = no
 

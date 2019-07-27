@@ -10,11 +10,11 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-is_city = no
+is_city = yes
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 11
+base_production = 10
+base_manpower = 10
 
 add_core = Z03
 owner = Z03
@@ -23,9 +23,16 @@ controller = Z03
 culture = culture_dorwinrim
 religion = religion_daen
 
-trade_goods = grain
+trade_goods = naval_supplies
 
 hre = no
+
+capital_3_building=yes
+bank_building=yes
+garrison_building=yes
+fort_stronghold_building=yes
+grand_shipyard_building=yes
+forum_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

@@ -12,9 +12,9 @@
 
 is_city = yes
 
-base_tax = 4
-base_production = 7
-base_manpower = 6
+base_tax = 3
+base_production = 3
+base_manpower = 2
 
 add_core = Z56
 owner = Z56
@@ -23,9 +23,14 @@ controller = Z56
 culture = culture_dunlendings
 religion = religion_daen
 
-trade_goods = wool
+trade_goods = stone
 
 hre = no
+
+add_province_modifier = {
+	name = ruins_debuff
+	duration = -1
+}
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

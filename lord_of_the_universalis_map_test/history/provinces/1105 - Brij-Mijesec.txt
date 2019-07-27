@@ -13,8 +13,8 @@
 is_city = no
 
 base_tax = 5
-base_production = 10
-base_manpower = 5
+base_production = 3
+base_manpower = 7
 
 add_core = X51
 owner = X51
@@ -23,7 +23,7 @@ controller = X51
 culture = culture_bozishnarod
 religion = religion_sea_peoples
 
-trade_goods = fur
+trade_goods = stone
 
 hre = no
 

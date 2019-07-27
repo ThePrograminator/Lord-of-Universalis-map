@@ -14,7 +14,7 @@ is_city = yes
 
 base_tax = 3
 base_production = 3
-base_manpower = 6
+base_manpower = 3
 
 add_core = Z46
 owner = Z46
@@ -23,7 +23,7 @@ controller = Z46
 culture = culture_clansmen
 religion = religion_daen
 
-trade_goods = naval_supplies
+trade_goods = herbs
 
 hre = no
 

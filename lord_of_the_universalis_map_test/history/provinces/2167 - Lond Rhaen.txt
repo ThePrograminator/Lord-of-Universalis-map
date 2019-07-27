@@ -23,7 +23,7 @@ controller = X02
 culture = culture_gondor_middlemen
 religion = religion_daen
 
-trade_goods = grain
+trade_goods = naval_supplies
 
 hre = no
 

@@ -12,8 +12,8 @@
 
 is_city = yes
 
-base_tax = 3
-base_production = 9
+base_tax = 4
+base_production = 3
 base_manpower = 4
 
 add_core = Y18
@@ -23,7 +23,7 @@ controller = Y18
 culture = culture_ironfist
 religion = religion_mahal
 
-trade_goods = wool
+trade_goods = stone
 
 hre = no
 

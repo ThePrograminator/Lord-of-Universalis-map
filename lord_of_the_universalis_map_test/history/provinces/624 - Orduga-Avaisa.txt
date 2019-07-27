@@ -12,9 +12,9 @@
 
 is_city = no
 
-base_tax = 2
-base_production = 1
-base_manpower = 2
+base_tax = 4
+base_production = 4
+base_manpower = 4
 
 add_core = V24
 owner = V24
@@ -66,3 +66,8 @@ discovered_by = lotr_womarin
 discovered_by = lotr_woses
 discovered_by = lotr_wights
 
+3000.1.1 = {
+	add_core = X86
+	owner = X86
+	controller = X86
+}

@@ -12,8 +12,8 @@
 
 is_city = yes
 
-base_tax = 2
-base_production = 3
+base_tax = 5
+base_production = 5
 base_manpower = 2
 
 add_core = Y25
@@ -26,6 +26,11 @@ religion = religion_perian
 trade_goods = fish
 
 hre = no
+
+city_1_building=yes
+temple_building=yes
+work_camp_building=yes
+port_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

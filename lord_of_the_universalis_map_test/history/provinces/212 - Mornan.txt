@@ -12,7 +12,7 @@
 
 is_city = yes
 
-base_tax = 1
+base_tax = 2
 base_production = 3
 base_manpower = 3
 
@@ -23,7 +23,7 @@ controller = X01
 culture = culture_gondor_middlemen
 religion = religion_daen
 
-trade_goods = marble
+trade_goods = livestock
 
 hre = no
 

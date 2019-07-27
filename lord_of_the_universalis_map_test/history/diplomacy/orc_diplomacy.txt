@@ -8,13 +8,33 @@ march = {
 	end_date = 3500.1.1
 }
 # Mordor and Dol Guldur
-march = {
+union = {
 	first = V17
 	second = V19
 	start_date = 2942.1.1
 	end_date = 3500.1.1
 }
-
+# Mordor and Nurnoth
+vassal = {
+	first = V17
+	second = V23
+	start_date = 2951.1.1
+	end_date = 3500.1.1
+}
+# Mordor and Uruk-Burzmal
+vassal = {
+	first = V17
+	second = V40
+	start_date = 2951.1.1
+	end_date = 3500.1.1
+}
+# Mordor and Uruk-Ghashgigak
+vassal = {
+	first = V17
+	second = V28
+	start_date = 2951.1.1
+	end_date = 3500.1.1
+}
 # Dol Guldur and Shadow of Mirkwood
 march = {
 	first = V19
@@ -29,6 +49,14 @@ march = {
 	second = V41
 	start_date = 2758.10.10
 	end_date = 3500.1.1
+}
+
+# Isengard and Sharak-hai
+vassal = {
+	first = V49
+	second = V07
+	start_date = 2957.9.13
+	end_date = 30000.1.1
 }
 
 # Gundabad and Uruk-Erag

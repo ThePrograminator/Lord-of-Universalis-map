@@ -10,11 +10,11 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-is_city = yes
+is_city = no
 
-base_tax = 8
-base_production = 1
-base_manpower = 9
+base_tax = 2
+base_production = 5
+base_manpower = 2
 
 add_core = V16
 owner = V16
@@ -23,7 +23,7 @@ controller = V16
 culture = culture_clansmen
 religion = religion_daen
 
-trade_goods = naval_supplies
+trade_goods = tropical_wood
 
 hre = no
 

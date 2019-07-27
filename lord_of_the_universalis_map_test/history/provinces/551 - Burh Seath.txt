@@ -12,9 +12,9 @@
 
 is_city = no
 
-base_tax = 2
-base_production = 3
-base_manpower = 2
+base_tax = 5
+base_production = 6
+base_manpower = 4
 
 add_core = V26
 owner = V26
@@ -23,9 +23,12 @@ controller = V26
 culture = culture_eothraim
 religion = religion_aivathuida
 
-trade_goods = livestock
+trade_goods = grain
 
 hre = no
+
+city_1_building=yes
+work_camp_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

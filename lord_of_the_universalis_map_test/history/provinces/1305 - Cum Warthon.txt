@@ -12,9 +12,9 @@
 
 is_city = yes
 
-base_tax = 8
-base_production = 1
-base_manpower = 1
+base_tax = 4
+base_production = 2
+base_manpower = 2
 
 add_core = X13
 owner = X13
@@ -23,7 +23,7 @@ controller = X13
 culture = culture_orodhbedrim
 religion = religion_daen
 
-trade_goods = salt
+trade_goods = stone
 
 hre = no
 

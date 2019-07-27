@@ -266,9 +266,8 @@ country_event = {
 		NOT = {	has_country_modifier =  "goblin_buff" }
 		NOT = {	tag =  X16 }
 		OR = { 
-				technology_group = lotr_goblin
-				}
-		
+			technology_group = lotr_goblin
+		}
 	}
 
 	mean_time_to_happen = {
@@ -293,9 +292,8 @@ country_event = {
 	trigger = {
 		NOT = {	has_country_modifier =  "uruk_hai_buff" }
 		OR = { 
-				technology_group = lotr_uruk_hai
-				}
-		
+			technology_group = lotr_uruk_hai
+		}
 	}
 
 	mean_time_to_happen = {
@@ -320,9 +318,8 @@ country_event = {
 	trigger = {
 		NOT = {	has_country_modifier =  "troll_buff" }
 		OR = { 
-				technology_group = lotr_troll
-				}
-		
+			technology_group = lotr_troll
+		}
 	}
 
 	mean_time_to_happen = {
@@ -347,9 +344,8 @@ country_event = {
 	trigger = {
 		NOT = {	has_country_modifier =  "spider_buff" }
 		OR = { 
-				tag = X16
-				}
-		
+			technology_group = lotr_great_spider
+		}
 	}
 
 	mean_time_to_happen = {

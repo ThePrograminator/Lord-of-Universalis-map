@@ -12,9 +12,9 @@
 
 is_city = yes
 
-base_tax = 5
-base_production = 5
-base_manpower = 5
+base_tax = 11
+base_production = 13
+base_manpower = 15
 
 add_core = V18
 owner = V18

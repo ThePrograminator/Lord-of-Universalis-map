@@ -12,14 +12,14 @@
 
 is_city = yes
 
-base_tax = 2
-base_production = 3
-base_manpower = 6
+base_tax = 5
+base_production = 5
+base_manpower = 7
 
 culture = culture_wilderness
 religion = religion_wilderness
 
-trade_goods = livestock
+trade_goods = coal
 
 hre = no
 
@@ -73,4 +73,5 @@ discovered_by = lotr_wights
 	controller = V17
 	culture = culture_orkish
 	religion = religion_orkish
+	encampment_1_orc_building=yes
 }

@@ -23,7 +23,7 @@ controller = X01
 culture = culture_dunedain_of_gondor
 religion = religion_dunedain
 
-trade_goods = grain
+trade_goods = wool
 
 hre = no
 

@@ -14,7 +14,7 @@ is_city = no
 
 base_tax = 2
 base_production = 4
-base_manpower = 3
+base_manpower = 4
 
 add_core = Z93
 owner = Z93

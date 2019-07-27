@@ -10,11 +10,11 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-is_city = no
+is_city = yes
 
-base_tax = 2
-base_production = 3
-base_manpower = 2
+base_tax = 9
+base_production = 8
+base_manpower = 6
 
 add_core = Y94
 owner = Y94
@@ -23,9 +23,15 @@ controller = Y94
 culture = culture_bardings
 religion = religion_nenedain
 
-trade_goods = wool
+trade_goods = glass
 
 hre = no
+
+city_2_building=yes
+marketplace_building=yes
+provincial_office_building=yes
+workshop_building=yes
+outpost_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
@@ -78,13 +84,5 @@ discovered_by = lotr_wights
 	owner = Y94
 	culture = culture_bardings
 	religion = religion_rhovanion
-	add_province_modifier = {
-		name = ruins_debuff
-		duration = -1
-	}
-}
-
-2960.1.1 = {
-	remove_province_modifier = ruins_debuff
 }
 

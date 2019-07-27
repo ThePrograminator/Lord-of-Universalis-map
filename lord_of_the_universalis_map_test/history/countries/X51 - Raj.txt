@@ -1,8 +1,51 @@
 mercantilism = 0.1
 government = monarchy
 add_government_reform = feudalism_reform
-
 primary_culture = culture_bozishnarod
 religion = religion_sea_peoples
 technology_group = lotr_bellakarian
-capital = 517
+capital = 1107
+
+historical_friend = X58
+historical_friend = X38
+historical_rival = Y87
+historical_rival = X46
+historical_rival = X55
+
+2992.1.1 = {
+	monarch = {
+		name = "Ghanjupan"
+		dynasty = "Rijeshu"
+		adm = 4
+		dip = 4
+		mil = 2
+		birth_date = 2961.1.1
+	}
+	queen = {
+        country_of_origin = X51
+        name = "Chemuna"
+        dynasty = "Shelne" 
+        birth_date = 2966.1.1
+        death_date = 3018.3.14
+        female = yes
+        adm = 2
+        dip = 3
+        mil = 1
+    }
+	add_ruler_personality = naive_personality
+}
+
+3017.4.13 = {
+	heir = {
+		name = "Chalsaman"
+		monarch_name = "Chalsaman #2"
+		dynasty = "Rijeshu"
+		birth_date = 2989.1.1
+		death_date = 3100.2.26
+		claim = 91
+		adm = 2
+		dip = 4
+		mil = 6
+	}
+	add_heir_personality = inspiring_leader_personality
+}

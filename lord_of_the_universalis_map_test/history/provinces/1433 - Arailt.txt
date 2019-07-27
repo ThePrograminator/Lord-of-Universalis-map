@@ -12,9 +12,9 @@
 
 is_city = yes
 
-base_tax = 8
-base_production = 9
-base_manpower = 6
+base_tax = 5
+base_production = 5
+base_manpower = 7
 
 add_core = Z49
 owner = Z49
@@ -23,9 +23,15 @@ controller = Z49
 culture = culture_dunlendings
 religion = religion_daen
 
-trade_goods = wine
+trade_goods = copper
 
 hre = no
+
+city_1_building=yes
+fort_pallisade_building=yes
+workshop_building=yes
+army_camp_building=yes
+
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

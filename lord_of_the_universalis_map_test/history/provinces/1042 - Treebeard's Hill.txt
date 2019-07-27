@@ -12,8 +12,8 @@
 
 is_city = no
 
-base_tax = 5
-base_production = 8
+base_tax = 3
+base_production = 5
 base_manpower = 5
 
 add_core = Z93
@@ -23,7 +23,7 @@ controller = Z93
 culture = culture_ents
 religion = religion_ents
 
-trade_goods = cloth
+trade_goods = fruit
 
 hre = no
 

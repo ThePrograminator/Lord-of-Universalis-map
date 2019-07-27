@@ -12,12 +12,15 @@
 
 is_city = yes
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 2
+base_production = 2
+base_manpower = 2
 
-culture = culture_wilderness
-religion = religion_wilderness
+add_core = X99
+owner = X99
+controller = X99
+culture = culture_sagath
+religion = religion_ulgath
 
 trade_goods = stone
 
@@ -66,6 +69,7 @@ discovered_by = lotr_wights
 	add_core = V17
 	owner = V17
 	controller = V17
+	remove_core = X99
 	culture = culture_orkish
 	religion = religion_orkish
 }

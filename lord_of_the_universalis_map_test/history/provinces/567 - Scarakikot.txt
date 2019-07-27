@@ -12,9 +12,9 @@
 
 is_city = yes
 
-base_tax = 2
+base_tax = 3
 base_production = 4
-base_manpower = 2
+base_manpower = 3
 
 add_core = Y48
 owner = Y48
@@ -23,9 +23,11 @@ controller = Y48
 culture = culture_goblin
 religion = religion_goblin
 
-trade_goods = wine
+trade_goods = stone
 
 hre = no
+
+camp_orc_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

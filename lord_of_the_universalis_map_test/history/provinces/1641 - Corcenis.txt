@@ -12,9 +12,9 @@
 
 is_city = yes
 
-base_tax = 6
+base_tax = 3
 base_production = 3
-base_manpower = 5
+base_manpower = 3
 
 add_core = Z57
 owner = Z57
@@ -23,7 +23,7 @@ controller = Z57
 culture = culture_dunlendings
 religion = religion_daen
 
-trade_goods = wool
+trade_goods = grain
 
 hre = no
 

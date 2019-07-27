@@ -66,3 +66,9 @@ discovered_by = lotr_womarin
 discovered_by = lotr_woses
 discovered_by = lotr_wights
 
+3000.1.1 = {
+	add_core = X86
+	add_core = X78
+	owner = X78
+	controller = X78
+}

@@ -10,11 +10,11 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-is_city = no
+is_city = yes
 
-base_tax = 1
-base_production = 3
-base_manpower = 2
+base_tax = 4
+base_production = 5
+base_manpower = 4
 
 add_core = Y90
 owner = Y90
@@ -26,6 +26,10 @@ religion = religion_nenedain
 trade_goods = livestock
 
 hre = no
+
+settlement_building=yes
+work_camp_building=yes
+outpost_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

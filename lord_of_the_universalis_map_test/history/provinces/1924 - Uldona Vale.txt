@@ -12,8 +12,8 @@
 
 is_city = no
 
-base_tax = 2
-base_production = 1
+base_tax = 5
+base_production = 3
 base_manpower = 2
 
 add_core = Z03
@@ -23,7 +23,7 @@ controller = Z03
 culture = culture_dorwinrim
 religion = religion_daen
 
-trade_goods = wool
+trade_goods = grain
 
 hre = no
 

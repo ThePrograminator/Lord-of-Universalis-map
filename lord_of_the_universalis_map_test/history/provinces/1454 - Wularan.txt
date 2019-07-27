@@ -12,9 +12,9 @@
 
 is_city = yes
 
-base_tax = 5
-base_production = 1
-base_manpower = 3
+base_tax = 4
+base_production = 4
+base_manpower = 4
 
 add_core = Z51
 owner = Z51
@@ -23,9 +23,12 @@ controller = Z51
 culture = culture_dunlendings
 religion = religion_daen
 
-trade_goods = naval_supplies
+trade_goods = grain
 
 hre = no
+
+city_1_building=yes
+outpost_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

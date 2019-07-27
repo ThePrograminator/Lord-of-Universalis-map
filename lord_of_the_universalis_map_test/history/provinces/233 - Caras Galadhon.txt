@@ -12,9 +12,9 @@
 
 is_city = yes
 
-base_tax = 7
-base_production = 7
-base_manpower = 6
+base_tax = 16
+base_production = 15
+base_manpower = 14
 
 add_core = Y68
 owner = Y68
@@ -26,6 +26,19 @@ religion = religion_umanyar
 trade_goods = silk
 
 hre = no
+
+add_permanent_province_modifier = {
+	name = trade_post_modifier
+	duration = -1
+}
+
+capital_3_elf_building=yes
+amphitheatre_elf_building=yes
+heros_shrine_building=yes
+fort_high_walls_elf_building=yes
+wall_bastions_elf_building=yes
+mirror_fountain_elf_building=yes
+star_of_earendil_shrine_elf_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

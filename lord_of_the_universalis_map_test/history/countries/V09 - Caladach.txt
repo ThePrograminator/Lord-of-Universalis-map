@@ -4,6 +4,10 @@ add_government_reform = tribal_kingdom
 primary_culture = culture_clansmen
 religion = religion_daen
 technology_group = lotr_daen
-capital = 156
+capital = 380
 
 government_rank = 1
+
+historical_rival = V08
+historical_rival = X16
+historical_friend = Z44

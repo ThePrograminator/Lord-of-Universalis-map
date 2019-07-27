@@ -23,7 +23,7 @@ controller = Z59
 culture = culture_dunlendings
 religion = religion_daen
 
-trade_goods = tropical_wood
+trade_goods = herbs
 
 hre = no
 

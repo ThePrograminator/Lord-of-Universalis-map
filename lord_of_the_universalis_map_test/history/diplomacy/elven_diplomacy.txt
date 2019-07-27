@@ -4,7 +4,7 @@
 union = {
 	first = Y75
 	second = Y74
-	start_date = 2758.10.10
+	start_date = 2758.1.1
 	end_date = 9651.1.1
 }
 
@@ -12,7 +12,7 @@ union = {
 union = {
 	first = Y81
 	second = Y82
-	start_date = 2758.10.10
+	start_date = 2758.1.1
 	end_date = 9651.1.1
 }
 
@@ -20,7 +20,7 @@ union = {
 union = {
 	first = Y81
 	second = Y83
-	start_date = 2758.10.10
+	start_date = 2758.1.1
 	end_date = 9651.1.1
 }
 
@@ -28,6 +28,14 @@ union = {
 march = {
 	first = Y80
 	second = Y84
-	start_date = 2758.10.10
+	start_date = 2758.1.1
+	end_date = 9651.1.1
+}
+
+# Woodland Realm and Lothlorien
+alliance = {
+	first = Y67
+	second = Y68
+	start_date = 2758.1.1
 	end_date = 9651.1.1
 }

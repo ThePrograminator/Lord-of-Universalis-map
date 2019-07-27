@@ -12,7 +12,7 @@
 
 is_city = yes
 
-base_tax = 9
+base_tax = 8
 base_production = 9
 base_manpower = 8
 
@@ -23,9 +23,13 @@ controller = Y18
 culture = culture_ironfist
 religion = religion_mahal
 
-trade_goods = copper
+trade_goods = iron
 
 hre = no
+
+hold_1_dwarf_building=yes
+mining_network_dwarf_building=yes
+traders_guild_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

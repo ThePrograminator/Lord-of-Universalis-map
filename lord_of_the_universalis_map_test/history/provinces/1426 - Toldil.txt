@@ -12,9 +12,9 @@
 
 is_city = yes
 
-base_tax = 1
-base_production = 5
-base_manpower = 6
+base_tax = 3
+base_production = 3
+base_manpower = 3
 
 add_core = X01
 owner = X11
@@ -24,7 +24,7 @@ add_core = X11
 culture = culture_dunedain_of_gondor
 religion = religion_dunedain
 
-trade_goods = cloth
+trade_goods = salt
 
 hre = no
 

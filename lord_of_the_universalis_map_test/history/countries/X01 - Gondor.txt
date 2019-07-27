@@ -9,6 +9,21 @@ capital = 413
 
 historical_friend = X16
 historical_friend = X11
+historical_friend = X02
+historical_rival = V17
+historical_rival = V19
+historical_rival = V18
+historical_rival = X27
+historical_rival = X23
+historical_rival = X19
+historical_rival = X99
+historical_rival = X78
+historical_rival = X79
+historical_rival = X80
+historical_rival = X81
+historical_rival = X82
+historical_rival = X83
+historical_rival = X84
 
 2480.1.1 = {
 	heir = {

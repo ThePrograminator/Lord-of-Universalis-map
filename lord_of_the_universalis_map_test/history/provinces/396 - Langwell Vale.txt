@@ -12,9 +12,9 @@
 
 is_city = no
 
-base_tax = 1
+base_tax = 2
 base_production = 3
-base_manpower = 1
+base_manpower = 2
 
 add_core = Y91
 owner = Y91
@@ -23,7 +23,7 @@ controller = Y91
 culture = culture_estaravi
 religion = religion_nenedain
 
-trade_goods = iron
+trade_goods = livestock
 
 hre = no
 

@@ -12,8 +12,8 @@
 
 is_city = yes
 
-base_tax = 10
-base_production = 9
+base_tax = 5
+base_production = 4
 base_manpower = 2
 
 add_core = Z47
@@ -23,9 +23,12 @@ controller = Z47
 culture = culture_dunlendings
 religion = religion_daen
 
-trade_goods = naval_supplies
+trade_goods = grain
 
 hre = no
+
+settlement_building=yes
+work_camp_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

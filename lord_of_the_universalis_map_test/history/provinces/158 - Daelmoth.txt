@@ -12,8 +12,8 @@
 
 is_city = yes
 
-base_tax = 2
-base_production = 3
+base_tax = 3
+base_production = 4
 base_manpower = 3
 
 add_core = Z45
@@ -23,7 +23,7 @@ controller = Z45
 culture = culture_gwathuirim
 religion = religion_daen
 
-trade_goods = naval_supplies
+trade_goods = salt
 
 hre = no
 

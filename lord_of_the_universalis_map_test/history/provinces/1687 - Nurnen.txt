@@ -12,9 +12,9 @@
 
 is_city = no
 
-base_tax = 1
-base_production = 9
-base_manpower = 10
+base_tax = 3
+base_production = 5
+base_manpower = 3
 
 add_core = X86
 owner = X86
@@ -23,7 +23,7 @@ controller = X86
 culture = culture_nurniags
 religion = religion_ioriags
 
-trade_goods = gold
+trade_goods = salt
 
 hre = no
 

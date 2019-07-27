@@ -12,9 +12,9 @@
 
 is_city = yes
 
-base_tax = 7
-base_production = 7
-base_manpower = 6
+base_tax = 13
+base_production = 19
+base_manpower = 13
 
 add_core = Y22
 owner = Y22
@@ -31,6 +31,20 @@ add_permanent_province_modifier = {
 	name = inland_center_of_trade_modifier
 	duration = -1
 }
+
+capital_3_dwarf_building=yes
+fort_mountain_citidal_dwarf_building=yes
+ballista_towers_dwarf_building=yes
+smithies_guild_building=yes
+great_market_dwarf_building=yes
+traders_guild_building=yes
+arsenal_dwarf_building=yes
+acadamy_dwarf_building=yes
+hall_of_warriors_dwarf_building=yes
+warriors_guild_dwarf_building=yes
+materials_depot_building=yes
+miners_guild_dwarf_building=yes
+
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
@@ -92,6 +106,18 @@ discovered_by = lotr_wights
 
 2943.1.1 = {
 	remove_province_modifier = ruins_debuff
+	capital_3_dwarf_building=yes
+	fort_mountain_citidal_dwarf_building=yes
+	ballista_towers_dwarf_building=yes
+	smithies_guild_building=yes
+	great_market_dwarf_building=yes
+	traders_guild_building=yes
+	arsenal_dwarf_building=yes
+	acadamy_dwarf_building=yes
+	hall_of_warriors_dwarf_building=yes
+	warriors_guild_dwarf_building=yes
+	materials_depot_building=yes
+	miners_guild_dwarf_building=yes
 }
 
 

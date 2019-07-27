@@ -4,4 +4,8 @@ add_government_reform = lotr_orc_clan_reform
 primary_culture = culture_orkish
 religion = religion_orkish
 technology_group = lotr_orc
-capital = 624
+capital = 738
+
+historical_friend = V49
+historical_friend = Y57
+historical_rival = X16

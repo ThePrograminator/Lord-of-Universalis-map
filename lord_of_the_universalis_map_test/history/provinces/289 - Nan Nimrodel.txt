@@ -12,9 +12,9 @@
 
 is_city = yes
 
-base_tax = 2
-base_production = 3
-base_manpower = 3
+base_tax = 5
+base_production = 4
+base_manpower = 4
 
 add_core = Y68
 owner = Y68
@@ -26,6 +26,8 @@ religion = religion_umanyar
 trade_goods = herbs
 
 hre = no
+
+noble_residence_elf_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

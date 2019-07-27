@@ -12,9 +12,9 @@
 
 is_city = yes
 
-base_tax = 7
-base_production = 8
-base_manpower = 9
+base_tax = 4
+base_production = 3
+base_manpower = 3
 
 add_core = Z44
 owner = Z44
@@ -23,7 +23,7 @@ controller = Z44
 culture = culture_clansmen
 religion = religion_daen
 
-trade_goods = gold
+trade_goods = herbs
 
 hre = no
 

@@ -1,7 +1,7 @@
 #Country Name: Please see filename.
 graphical_culture = northamericagfx
 
-color = { 125 50 0 }
+color = { 90 40 15 }
 
 historical_idea_groups = {
 	offensive_ideas

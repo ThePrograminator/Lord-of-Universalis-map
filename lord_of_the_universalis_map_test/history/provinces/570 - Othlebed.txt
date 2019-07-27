@@ -12,9 +12,9 @@
 
 is_city = no
 
-base_tax = 2
-base_production = 4
-base_manpower = 2
+base_tax = 8
+base_production = 6
+base_manpower = 9
 
 add_core = Y97
 owner = Y97
@@ -26,6 +26,11 @@ religion = religion_aivathuida
 trade_goods = wine
 
 hre = no
+
+capital_2_building=yes
+tax_office_building=yes
+fort_castle_building=yes
+army_camp_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

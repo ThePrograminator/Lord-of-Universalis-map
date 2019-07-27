@@ -12,9 +12,9 @@
 
 is_city = no
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 10
+base_production = 11
+base_manpower = 9
 
 add_core = Z02
 owner = Z02
@@ -23,9 +23,21 @@ controller = Z02
 culture = culture_gargath
 religion = religion_daen
 
-trade_goods = grain
+trade_goods = dyes
 
 hre = no
+
+add_permanent_province_modifier = {
+	name = trade_post_modifier
+	duration = -1
+}
+
+capital_2_building=yes
+fort_castle_building=yes
+barracks_building=yes
+trade_depot_building=yes
+workshop_building=yes
+provincial_office_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

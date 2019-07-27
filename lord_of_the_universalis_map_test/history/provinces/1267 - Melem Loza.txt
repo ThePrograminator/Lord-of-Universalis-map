@@ -12,13 +12,13 @@
 
 is_city = no
 
-base_tax = 2
-base_production = 9
-base_manpower = 7
+base_tax = 5
+base_production = 7
+base_manpower = 6
 
-add_core = X50
-owner = X50
-controller = X50
+add_core = X51
+owner = X51
+controller = X51
 
 culture = culture_bozishnarod
 religion = religion_sea_peoples

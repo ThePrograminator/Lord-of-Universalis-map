@@ -14,7 +14,7 @@ is_city = yes
 
 base_tax = 3
 base_production = 4
-base_manpower = 1
+base_manpower = 4
 
 add_core = X01
 owner = X11
@@ -27,6 +27,10 @@ religion = religion_dunedain
 trade_goods = iron
 
 hre = no
+
+settlement_building=yes
+
+outpost_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

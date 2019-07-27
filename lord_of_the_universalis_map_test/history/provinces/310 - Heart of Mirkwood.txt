@@ -12,9 +12,9 @@
 
 is_city = yes
 
-base_tax = 2
+base_tax = 3
 base_production = 3
-base_manpower = 2
+base_manpower = 3
 
 add_core = V20
 owner = V20
@@ -23,7 +23,7 @@ controller = V20
 culture = culture_spider
 religion = religion_spider
 
-trade_goods = fur
+trade_goods = herbs
 
 hre = no
 

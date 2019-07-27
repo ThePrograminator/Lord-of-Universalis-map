@@ -27,6 +27,8 @@ trade_goods = grain
 
 hre = no
 
+settlement_building=yes
+
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
 discovered_by = lotr_black_numenorean

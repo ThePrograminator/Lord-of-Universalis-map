@@ -12,9 +12,9 @@
 
 is_city = no
 
-base_tax = 1
-base_production = 1
-base_manpower = 2
+base_tax = 5
+base_production = 5
+base_manpower = 8
 
 add_core = Y98
 owner = Y98
@@ -26,6 +26,10 @@ religion = religion_aivathuida
 trade_goods = cloth
 
 hre = no
+
+fortress_1_building=yes
+fort_pallisade_building=yes
+outpost_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

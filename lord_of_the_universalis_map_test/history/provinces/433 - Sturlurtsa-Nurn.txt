@@ -12,9 +12,9 @@
 
 is_city = no
 
-base_tax = 2
-base_production = 1
-base_manpower = 1
+base_tax = 6
+base_production = 11
+base_manpower = 10
 
 add_core = X86
 owner = X86
@@ -23,9 +23,13 @@ controller = X86
 culture = culture_nurniags
 religion = religion_ioriags
 
-trade_goods = fish
+trade_goods = slaves
 
 hre = no
+
+capital_2_building=yes
+temple_building=yes
+work_camp_building=yes
 
 add_permanent_province_modifier = {
 	name = trade_post_modifier

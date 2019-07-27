@@ -12,3 +12,18 @@ entity = {
 	name = "black_gate_monument"
 	pdxmesh = "black_gate_monument_mesh"
 }
+
+entity = {
+	name = "orthanc_monument"
+	pdxmesh = "orthanc_monument_mesh"
+}
+
+entity = {
+	name = "hornburg_monument"
+	pdxmesh = "hornburg_monument_mesh"
+}
+
+entity = {
+	name = "durins_tower_monument"
+	pdxmesh = "durins_tower_monument_mesh"
+}

@@ -12,7 +12,7 @@
 
 is_city = no
 
-base_tax = 3
+base_tax = 4
 base_production = 3
 base_manpower = 6
 
@@ -23,9 +23,12 @@ controller = X16
 culture = culture_eorlingas
 religion = religion_eorlingas
 
-trade_goods = livestock
+trade_goods = grain
 
 hre = no
+
+city_1_building=yes
+outpost_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

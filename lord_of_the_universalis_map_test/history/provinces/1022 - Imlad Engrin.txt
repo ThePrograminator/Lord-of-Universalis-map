@@ -10,21 +10,21 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-is_city = yes
+is_city = no
 
-base_tax = 9
-base_production = 8
+base_tax = 4
+base_production = 7
 base_manpower = 4
 
 add_core = Y33
 add_core = Y23
-owner = Y33
-controller = Y33
+owner = Y23
+controller = Y23
 
-culture = culture_orkish
-religion = religion_orkish
+culture = culture_longbeard
+religion = religion_mahal
 
-trade_goods = wine
+trade_goods = iron
 
 hre = no
 
@@ -67,3 +67,25 @@ discovered_by = lotr_womarin
 discovered_by = lotr_woses
 discovered_by = lotr_wights
 
+#culture = culture_orkish
+#religion = religion_orkish
+
+2770.1.1 = {
+	owner = Y33
+	controller = Y33
+	camp_orc_building=yes
+	orc_pit_orc_building=yes
+}
+
+2941.1.1 = {
+	owner = Y23
+	controller = Y23
+}
+
+2989.4.1 = {
+	add_core = Y22
+	owner = Y22
+	controller = Y22
+	culture = culture_longbeard
+	religion = religion_mahal
+}

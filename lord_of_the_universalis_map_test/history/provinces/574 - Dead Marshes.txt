@@ -13,12 +13,12 @@
 is_city = yes
 
 base_tax = 2
-base_production = 4
+base_production = 3
 base_manpower = 2
 
-add_core = X01
-owner = X01
-controller = X01
+add_core = X99
+owner = X99
+controller = X99
 
 culture = culture_wilderness
 religion = religion_wilderness
@@ -71,15 +71,9 @@ discovered_by = lotr_womarin
 discovered_by = lotr_woses
 discovered_by = lotr_wights
 
-2901.1.1 = {
-	add_core = V18
-	owner = V18
-	controller = V18
-}
-
 2942.1.1 = {
 	add_core = V17
 	owner = V17
 	controller = V17
-	remove_core = V18
+	remove_core = X99
 }

@@ -4,6 +4,21 @@ add_government_reform = tribal_kingdom
 primary_culture = culture_ymirsfolk
 religion = religion_nenedain
 technology_group = lotr_northmen
-capital = 404
+capital = 616
 
 government_rank = 1
+
+historical_friend = Z04
+historical_friend = Y92
+historical_friend = Y25
+historical_friend = Y93
+historical_friend = Y06
+historical_rival = Y44
+historical_rival = Y63
+historical_rival = Y30
+historical_rival = Y31
+historical_rival = Y34
+historical_rival = X96
+historical_rival = V41
+historical_rival = Y49 
+historical_rival = V19

@@ -14,7 +14,7 @@ is_city = no
 
 base_tax = 2
 base_production = 3
-base_manpower = 2
+base_manpower = 3
 
 add_core = Y95
 owner = Y95
@@ -23,7 +23,7 @@ controller = Y95
 culture = culture_grimburz
 religion = religion_nenedain
 
-trade_goods = tropical_wood
+trade_goods = livestock
 
 hre = no
 

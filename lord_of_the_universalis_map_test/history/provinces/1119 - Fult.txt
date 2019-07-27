@@ -23,7 +23,7 @@ controller = X49
 culture = culture_sorijans
 religion = religion_sea_peoples
 
-trade_goods = gold
+trade_goods = copper
 
 hre = no
 

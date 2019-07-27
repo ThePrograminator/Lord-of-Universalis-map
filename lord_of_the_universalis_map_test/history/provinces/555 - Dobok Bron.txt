@@ -12,9 +12,9 @@
 
 is_city = no
 
-base_tax = 2
-base_production = 3
-base_manpower = 1
+base_tax = 3
+base_production = 4
+base_manpower = 2
 
 add_core = Y97
 owner = Y97
@@ -23,7 +23,7 @@ controller = Y97
 culture = culture_eothraim
 religion = religion_aivathuida
 
-trade_goods = livestock
+trade_goods = copper
 
 hre = no
 

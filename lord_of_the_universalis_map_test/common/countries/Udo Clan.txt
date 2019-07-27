@@ -1,7 +1,7 @@
 #Country Name: Please see filename.
 graphical_culture = muslimgfx
 
-color = { 160 190 205 }
+color = { 160 70 80 }
 
 historical_idea_groups = {
 	offensive_ideas

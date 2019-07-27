@@ -12,9 +12,9 @@
 
 is_city = yes
 
-base_tax = 10
-base_production = 2
-base_manpower = 9
+base_tax = 5
+base_production = 7
+base_manpower = 4
 
 add_core = V07
 owner = V07
@@ -23,7 +23,7 @@ controller = V07
 culture = culture_orkish
 religion = religion_orkish
 
-trade_goods = grain
+trade_goods = iron
 
 hre = no
 
@@ -66,3 +66,10 @@ discovered_by = lotr_womarin
 discovered_by = lotr_woses
 discovered_by = lotr_wights
 
+3000.1.1 = { 
+	culture = culture_urukhai 
+	religion = religion_uruk 
+	add_core = V49
+	owner = V49
+	controller = V49
+}

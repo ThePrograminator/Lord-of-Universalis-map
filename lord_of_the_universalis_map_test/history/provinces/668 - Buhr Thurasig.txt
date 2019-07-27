@@ -10,22 +10,26 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-is_city = no
+is_city = yes
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 5
+base_production = 6
+base_manpower = 5
 
+add_core = Y22
+owner = Y22
+controller = Y22
 add_core = Y90
-owner = Y90
-controller = Y90
 
 culture = culture_ymirsfolk
 religion = religion_nenedain
 
-trade_goods = stone
+trade_goods = iron
 
 hre = no
+
+settlement_1_dwarf_building=yes
+mine_shaft_dwarf_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
@@ -66,3 +70,21 @@ discovered_by = lotr_womarin
 discovered_by = lotr_woses
 discovered_by = lotr_wights
 
+2770.1.1 = {
+	owner = Y90
+	controller = Y90
+	settlement_building=yes
+	work_camp_building=yes
+}
+
+2941.11.23 = {
+	add_core = Y22
+	owner = Y22
+	controller = Y22
+	culture = culture_longbeard
+	religion = religion_mahal
+	settlement_1_dwarf_building=yes
+	armoury_dwarf_building=yes
+	mine_shaft_dwarf_building=yes
+	fort_castle_dwarf_building=yes
+}

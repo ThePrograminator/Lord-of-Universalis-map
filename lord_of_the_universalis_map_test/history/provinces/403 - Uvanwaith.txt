@@ -12,9 +12,9 @@
 
 is_city = no
 
-base_tax = 2
+base_tax = 3
 base_production = 3
-base_manpower = 2
+base_manpower = 4
 
 add_core = V30
 owner = V30
@@ -23,7 +23,7 @@ controller = V30
 culture = culture_eothraim
 religion = religion_aivathuida
 
-trade_goods = cloth
+trade_goods = livestock
 
 hre = no
 
@@ -66,3 +66,8 @@ discovered_by = lotr_womarin
 discovered_by = lotr_woses
 discovered_by = lotr_wights
 
+3000.1.1 = {
+	add_core = X99
+	owner = X99
+	controller = X99
+}

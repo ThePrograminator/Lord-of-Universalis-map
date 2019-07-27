@@ -5,6 +5,26 @@ add_government_reform = feudalism_reform
 primary_culture = culture_woodmen
 religion = religion_ullthiuda
 technology_group = lotr_northmen
-capital = 404
+capital = 406
 
 government_rank = 1
+
+historical_friend = Y22
+historical_friend = Y67
+historical_friend = Y68
+historical_friend = Y25
+historical_friend = Y92
+historical_friend = Y94
+historical_friend = Y95
+historical_friend = Y96
+historical_friend = V26
+historical_friend = X16
+historical_rival = V17
+historical_rival = V19
+historical_rival = V20
+historical_rival = Y44
+historical_rival = Y49
+historical_rival = V41
+historical_rival = Y57
+historical_rival = Y63
+historical_rival = Y30

@@ -12,9 +12,9 @@
 
 is_city = no
 
-base_tax = 1
-base_production = 2
-base_manpower = 2
+base_tax = 4
+base_production = 5
+base_manpower = 5
 
 add_core = Y92
 owner = Y92
@@ -23,9 +23,13 @@ controller = Y92
 culture = culture_maethelburgers
 religion = religion_nenedain
 
-trade_goods = stone
+trade_goods = paper
 
 hre = no
+
+city_1_building=yes
+temple_building=yes
+outpost_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

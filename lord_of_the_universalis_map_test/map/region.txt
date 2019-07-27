@@ -169,7 +169,7 @@ eastern_sea_region = {
 }
 
 #---------------------------
-# Middlearth                           
+# Middle-earth                           
 #---------------------------
 gondor_region = {
 	areas = {
@@ -204,6 +204,12 @@ gondor_region = {
 		dor-en-ernil_area
 		cair_andros_area
 		tawar-in-druedain_area
+		athrad_poros_area
+		ithilien_area
+		methrast_area
+		emyn_tarnost_area
+		annulond_area
+		minas_ithil_area
 	}
 }
 
@@ -227,14 +233,119 @@ rohan_region = {
 		entwade_area
 		the_wold_area
 		parth_galen_area
+		fangorn_area
+		gap_of_rohan_area
+		nan_curunir_area
 	}
 }
 
 mordor_region = {
 	areas = {
-		minas_ithil_area
+		barad-dur_area
+		morannon_area 
+		carach_angren_area
+		morgai_area
+		cirith_ungol_area
+		gorgoroth_area
+		gaer_durlith_area
+		den_nurn_area
+		perth_ulmyn_area
+		lithlad_area
+		maegond_vale_area
+		cirith_nurn_area
+		cirith_nargil_area
+		thaurband_area
+		sturlurtsa_nurn_area
+		urlutsu_nurn_area
+		nurnen_area
 	}
 }
+
+rhovanion_region = {
+	areas = {
+		men-i-mordor_area
+		talath_harroch_area
+		sagathavuld_area
+		pinnon_rhun_area
+		cairn_angle_area
+		sekelavuld_area
+		ehwathrumavuld_area
+		east_bight_area
+		esgalabar_area
+		dorwinion_area
+		ilanin_area
+		emyn_muil_area
+		brown_lands_area
+		parta_rogartha_area
+		grey_foothills_area
+	}
+}
+
+mirkwood_region = {
+	areas = {
+		dol_guldur_area
+		ceber_fanuin_area
+		narrows_of_mirkwood_area
+		forest_gate_area
+		angalaladh_area
+		men-i-naugrim_area
+		emyn_nu_fuin_area
+		annon_edhel_area
+		thranduils_realm_area
+	}
+}
+
+dale_region = {
+	areas = {
+		gramavuld_area
+		long_lake_area
+	}
+}
+
+erebor_ironhills_region = {
+	areas = {
+		the_lonely_mountain_area
+		iron_hills_area
+		anglad_area
+		barren_wastes_area
+		cirith_auris_area
+	}
+}
+
+
+misty_mountains_region = {
+	areas = {
+		methedras_area
+		zudrugund_area
+		thrors_coomb_area
+		khazad_dum_area
+		zagh_kala_area
+		goblin_gate_area
+		valley_of_giants_area
+		eagles_eyrie_area
+		the_misty_mountains_area
+	}
+}
+
+vales_of_anduin_region = {
+	areas = {
+		parth_celebrant_area
+		lothlorien_area
+		forodrain_area
+		gladden_fields_area
+		glennen_area
+		carrock_vale_area
+		maethelburg_area
+		west_bight_area
+		ronen_in_anduin_area
+		greylin_vale_area
+		grey_foothills_area
+	}
+}
+
+#---------------------------
+# Eriador                           
+#---------------------------
 
 shire_region = {
 	areas = {
@@ -244,5 +355,105 @@ shire_region = {
 		west_farthing_area
 		westmarch_area
 		buckland_area
+	}
+}
+
+enedhwaith_region = {
+	areas = {
+	caladach_area
+	gyroth_area
+	arilthach_area
+	dor_wathui_area
+	angrast_area
+	ethir_gwathlo_area
+	morbet_area
+	talorgan_area
+	dunfearan_area
+	andhas_area
+	cairg_erp_area
+	fidach_area
+	tang_area
+	swanfleet_area
+	undrost_area
+	duncillien_area
+	bhainnan_area
+	nan_laeglin_area
+	fearachas_area
+	wredech_area
+	coit_cerdd_area
+	}
+}
+
+eregion_region = {
+	areas = {
+	rivendell_area
+	foreregion_area
+	hollin_ridge_area
+	hareregion_area
+	ost_in_edhil_area
+	fordirith_area
+	}
+}
+
+#---------------------------
+# Near Harad (Haradwaith)                          
+#---------------------------
+
+harondor_region = {
+	areas = {
+		laergaladrin_area
+		emyn_annun_area
+		gobel_mirlond_area
+		aegardh_area
+		imlad_carnen_area
+		emyn_imladrim_area
+		falai_area
+		hingren_area
+		emyn_gonngaran_area
+	}
+}
+
+nen_umbar_region = {
+	areas = {
+		umbar_area
+		ardumir_area
+		annabrith_area
+		sakal_an_dalajaf_area
+		pellardur_area
+		barazon_area
+		maros_area
+		eradas_area
+		caldur_area
+		dat_akhor_area
+		tol_uialgaer_area
+		kirithani_area
+	}
+}
+
+#---------------------------
+# Far Harad                           
+#---------------------------
+
+raj_region = {
+	areas = {
+		bozisha-miraz_area
+		gaj_area
+		tresti-polozaj_area
+		suza_rij_area
+		rijesha_vale_area
+		brij-mijesec_area
+	}
+}
+
+sud_sicanna_region = {
+	areas = {
+		isfahan_area
+		sud_sicanna_area
+	}
+}
+
+tulwang_region = {
+	areas = {
+		raishoul_area
 	}
 }

@@ -10,11 +10,11 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-is_city = no
+is_city = yes
 
-base_tax = 4
-base_production = 5
-base_manpower = 5
+base_tax = 11
+base_production = 11
+base_manpower = 11
 
 add_core = Y94
 owner = Y94
@@ -26,6 +26,19 @@ religion = religion_nenedain
 trade_goods = silk
 
 hre = no
+
+capital_3_building=yes
+forum_building=yes
+bank_building=yes
+warehouse_building=yes
+forge_building=yes
+fort_stronghold_building=yes
+garrison_building=yes
+
+add_permanent_province_modifier = {
+	name = trade_post_modifier
+	duration = -1
+}
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
@@ -71,6 +84,9 @@ discovered_by = lotr_wights
 	controller = ---
 	culture = culture_wilderness
 	religion = religion_wilderness
+	add_base_tax = -8
+	add_base_production = -8
+	add_base_manpower = -8
 	add_province_modifier = {
 		name = wilderness_debuff
 		duration = -1
@@ -92,4 +108,17 @@ discovered_by = lotr_wights
 	capital_1_building= yes
 	fort_castle_building= yes
 }
+
+2944.2.23 = {
+	capital_3_building=yes
+	forum_building=yes
+	bank_building=yes
+	warehouse_building=yes
+	forge_building=yes
+	fort_stronghold_building=yes
+	garrison_building=yes
+	capital_1_building= no
+	fort_castle_building= no
+}
+
 

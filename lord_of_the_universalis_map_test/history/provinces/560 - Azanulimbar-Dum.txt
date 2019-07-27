@@ -12,9 +12,9 @@
 
 is_city = yes
 
-base_tax = 2
-base_production = 4
-base_manpower = 3
+base_tax = 10
+base_production = 11
+base_manpower = 10
 
 add_core = Y23
 owner = Y23
@@ -23,9 +23,18 @@ controller = Y23
 culture = culture_longbeard
 religion = religion_mahal
 
-trade_goods = iron
+trade_goods = gold
 
 hre = no
+
+capital_2_dwarf_building=yes
+great_market_dwarf_building=yes
+arsenal_dwarf_building=yes
+research_office_dwarf_building=yes
+hall_of_warriors_dwarf_building=yes
+materials_depot_building=yes
+fort_mountain_fortress_dwarf_building=yes
+narrow_bridge_dwarf_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
@@ -66,4 +75,8 @@ discovered_by = lotr_womarin
 discovered_by = lotr_woses
 discovered_by = lotr_wights
 
-
+2989.4.1 = {
+	add_core = Y22
+	owner = Y22
+	controller = Y22
+}

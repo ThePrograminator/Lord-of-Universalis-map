@@ -12,9 +12,9 @@
 
 is_city = no
 
-base_tax = 1
-base_production = 2
-base_manpower = 1
+base_tax = 9
+base_production = 8
+base_manpower = 6
 
 add_core = V24
 owner = V24
@@ -23,9 +23,12 @@ controller = V24
 culture = culture_variags
 religion = religion_ioriags
 
-trade_goods = fur
+trade_goods = salt
 
 hre = no
+
+capital_1_building=yes
+outpost_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
@@ -66,3 +69,8 @@ discovered_by = lotr_womarin
 discovered_by = lotr_woses
 discovered_by = lotr_wights
 
+3000.1.1 = {
+	add_core = V23
+	owner = V23
+	controller = V23
+}

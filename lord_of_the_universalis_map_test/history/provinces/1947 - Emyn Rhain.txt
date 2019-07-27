@@ -12,9 +12,9 @@
 
 is_city = no
 
-base_tax = 1
-base_production = 1
-base_manpower = 2
+base_tax = 2
+base_production = 5
+base_manpower = 3
 
 add_core = Y98
 owner = Y98
@@ -23,7 +23,7 @@ controller = Y98
 culture = culture_gadrauhts
 religion = religion_aivathuida
 
-trade_goods = herbs
+trade_goods = copper
 
 hre = no
 

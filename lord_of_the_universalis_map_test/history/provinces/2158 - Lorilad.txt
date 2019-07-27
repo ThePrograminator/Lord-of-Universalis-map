@@ -12,8 +12,8 @@
 
 is_city = yes
 
-base_tax = 3
-base_production = 9
+base_tax = 5
+base_production = 6
 base_manpower = 3
 
 add_core = X01
@@ -26,6 +26,10 @@ religion = religion_dunedain
 trade_goods = glass
 
 hre = no
+
+settlement_building=yes
+
+port_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

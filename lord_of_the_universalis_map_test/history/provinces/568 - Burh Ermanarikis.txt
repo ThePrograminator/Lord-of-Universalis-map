@@ -10,11 +10,11 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-is_city = no
+is_city = yes
 
-base_tax = 2
-base_production = 5
-base_manpower = 2
+base_tax = 5
+base_production = 6
+base_manpower = 7
 
 add_core = Z05
 owner = Z05
@@ -26,6 +26,11 @@ religion = religion_eastern_northmen
 trade_goods = wine
 
 hre = no
+
+fortress_1_building=yes
+fort_pallisade_building=yes
+outpost_building=yes
+temple_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

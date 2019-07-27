@@ -12,14 +12,14 @@
 
 is_city = yes
 
-base_tax = 10
+base_tax = 4
 base_production = 4
-base_manpower = 8
+base_manpower = 4
 
 culture = culture_wilderness
 religion = religion_wilderness
 
-trade_goods = wine
+trade_goods = cloth
 
 hre = no
 

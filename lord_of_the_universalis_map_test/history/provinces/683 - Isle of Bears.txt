@@ -10,18 +10,22 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-is_city = yes
+is_city = no
 
-base_tax = 1
-base_production = 3
-base_manpower = 2
+base_tax = 3
+base_production = 4
+base_manpower = 5
 
 culture = culture_wilderness
 religion = religion_wilderness
 
-trade_goods = marble
+trade_goods = honey
 
 hre = no
+
+settlement_building=yes
+outpost_building=yes
+work_camp_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

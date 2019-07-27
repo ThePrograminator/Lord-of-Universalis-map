@@ -12,9 +12,9 @@
 
 is_city = no
 
-base_tax = 2
-base_production = 3
-base_manpower = 2
+base_tax = 8
+base_production = 8
+base_manpower = 6
 
 add_core = X86
 owner = X86
@@ -23,9 +23,12 @@ controller = X86
 culture = culture_nurniags
 religion = religion_ioriags
 
-trade_goods = copper
+trade_goods = grain
 
 hre = no
+
+city_2_building=yes
+temple_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

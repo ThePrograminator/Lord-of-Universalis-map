@@ -4,4 +4,11 @@ add_government_reform = tribal_kingdom
 primary_culture = culture_eothraim
 religion = religion_aivathuida
 technology_group = lotr_northmen
-capital = 624
+capital = 403
+
+historical_friend = X16
+historical_friend = Y97
+historical_friend = V25
+historical_friend = V29
+historical_rival = X99
+historical_rival = X90

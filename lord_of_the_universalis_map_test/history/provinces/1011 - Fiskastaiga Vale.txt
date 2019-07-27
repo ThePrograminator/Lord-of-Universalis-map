@@ -12,9 +12,9 @@
 
 is_city = no
 
-base_tax = 6
-base_production = 2
-base_manpower = 4
+base_tax = 4
+base_production = 4
+base_manpower = 2
 
 add_core = Z05
 owner = Z05
@@ -23,7 +23,7 @@ controller = Z05
 culture = culture_ibnothiuda
 religion = religion_eastern_northmen
 
-trade_goods = naval_supplies
+trade_goods = fish
 
 hre = no
 

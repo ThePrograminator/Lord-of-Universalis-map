@@ -12,13 +12,14 @@
 
 is_city = yes
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 3
+base_production = 3
+base_manpower = 5
 
 add_core = Z48
 owner = Z48
 controller = Z48
+add_core = X16
 
 culture = culture_dunlendings
 religion = religion_daen
@@ -71,4 +72,8 @@ discovered_by = lotr_womarin
 discovered_by = lotr_woses
 discovered_by = lotr_wights
 
-
+3000.1.1 = {
+	add_core = V49
+	owner = V49
+	controller = V49
+}

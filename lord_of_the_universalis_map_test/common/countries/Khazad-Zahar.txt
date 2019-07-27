@@ -1,7 +1,7 @@
 #Country Name: Please see filename.
 graphical_culture = lotr_dwarf_gfx
 
-color = { 35 40 250 }
+color = { 255 210 0 }
 
 historical_idea_groups = {
 	offensive_ideas

@@ -12,9 +12,9 @@
 
 is_city = no
 
-base_tax = 1
-base_production = 2
-base_manpower = 2
+base_tax = 5
+base_production = 5
+base_manpower = 4
 
 add_core = Y97
 owner = Y97

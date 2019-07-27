@@ -23,7 +23,7 @@ controller = Y48
 culture = culture_goblin
 religion = religion_goblin
 
-trade_goods = wine
+trade_goods = copper
 
 hre = no
 

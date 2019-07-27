@@ -23,7 +23,7 @@ controller = Z02
 culture = culture_gargath
 religion = religion_daen
 
-trade_goods = grain
+trade_goods = tropical_wood
 
 hre = no
 

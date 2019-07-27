@@ -47,3 +47,11 @@ vassal = {
 	start_date = 2758.10.10
 	end_date = 3500.1.1
 }
+
+# Dale and Erebor
+alliance = {
+	first = Y94
+	second = Y22
+	start_date = 2758.10.10
+	end_date = 9651.1.1
+}

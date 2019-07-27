@@ -12,9 +12,9 @@
 
 is_city = no
 
-base_tax = 3
-base_production = 1
-base_manpower = 11
+base_tax = 11
+base_production = 7
+base_manpower = 6
 
 add_core = X16
 owner = X16
@@ -23,9 +23,19 @@ controller = X16
 culture = culture_eorlingas
 religion = religion_eorlingas
 
-trade_goods = livestock
+trade_goods = glass
 
 hre = no
+
+add_permanent_province_modifier = {
+	name = trade_post_modifier
+	duration = -1
+}
+
+city_2_building=yes
+marketplace_building=yes
+workshop_building=yes
+tax_office_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

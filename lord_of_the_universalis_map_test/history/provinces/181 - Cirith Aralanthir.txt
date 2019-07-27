@@ -23,7 +23,7 @@ controller = X02
 culture = culture_dunir
 religion = religion_daen
 
-trade_goods = grain
+trade_goods = iron
 
 hre = no
 

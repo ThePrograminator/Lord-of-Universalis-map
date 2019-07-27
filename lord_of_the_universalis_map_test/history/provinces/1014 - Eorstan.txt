@@ -12,9 +12,9 @@
 
 is_city = no
 
-base_tax = 8
+base_tax = 5
 base_production = 3
-base_manpower = 8
+base_manpower = 4
 
 add_core = Y97
 owner = Y97
@@ -23,9 +23,11 @@ controller = Y97
 culture = culture_eothraim
 religion = religion_aivathuida
 
-trade_goods = iron
+trade_goods = livestock
 
 hre = no
+
+settlement_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

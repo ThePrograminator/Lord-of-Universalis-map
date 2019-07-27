@@ -13,7 +13,7 @@
 is_city = yes
 
 base_tax = 5
-base_production = 9
+base_production = 4
 base_manpower = 4
 
 add_core = Z60
@@ -23,9 +23,13 @@ controller = Z60
 culture = culture_dunlendings
 religion = religion_daen
 
-trade_goods = wool
+trade_goods = mushrooms
 
 hre = no
+
+city_1_building=yes
+tax_office_building=yes
+outpost_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

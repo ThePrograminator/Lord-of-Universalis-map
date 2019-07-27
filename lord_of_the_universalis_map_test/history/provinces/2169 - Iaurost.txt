@@ -12,9 +12,9 @@
 
 is_city = yes
 
-base_tax = 3
+base_tax = 2
 base_production = 3
-base_manpower = 1
+base_manpower = 6
 
 add_core = X01
 owner = X01
@@ -23,7 +23,7 @@ controller = X01
 culture = culture_gondor_middlemen
 religion = religion_daen
 
-trade_goods = tobacco
+trade_goods = copper
 
 hre = no
 

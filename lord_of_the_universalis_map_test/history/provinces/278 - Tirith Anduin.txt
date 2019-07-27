@@ -12,9 +12,9 @@
 
 is_city = no
 
-base_tax = 4
-base_production = 1
-base_manpower = 3
+base_tax = 6
+base_production = 5
+base_manpower = 9
 
 add_core = X16
 owner = X16
@@ -26,6 +26,10 @@ religion = religion_eorlingas
 trade_goods = cloth
 
 hre = no
+
+fortress_1_building=yes
+fort_pallisade_building=yes
+outpost_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

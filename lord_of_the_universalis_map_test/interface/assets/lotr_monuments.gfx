@@ -29,4 +29,22 @@ objectTypes = {
 		file = "gfx/models/Mapitems/black_gate.mesh"		
 		scale = 1.0
 	}
+	
+	pdxmesh = {
+		name = "orthanc_monument_mesh"
+		file = "gfx/models/Mapitems/orthanc.mesh"		
+		scale = 1.0
+	}
+	
+	pdxmesh = {
+		name = "hornburg_monument_mesh"
+		file = "gfx/models/Mapitems/HelmsDeep.mesh"		
+		scale = 1.0
+	}
+	
+	pdxmesh = {
+		name = "durins_tower_monument_mesh"
+		file = "gfx/models/Mapitems/durins_tower.mesh"		
+		scale = 1.0
+	}
 }

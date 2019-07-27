@@ -23,6 +23,9 @@ trade_goods = iron
 
 hre = no
 
+capital_1_orc_building=yes
+fort_wooden_walls_orc_building=yes
+
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
 discovered_by = lotr_black_numenorean
@@ -62,17 +65,31 @@ discovered_by = lotr_womarin
 discovered_by = lotr_woses
 discovered_by = lotr_wights
 
-3018.1.1 = { 
+2953.1.1 = { 
 	culture = culture_urukhai 
 	religion = religion_uruk 
 	add_core = V49
 	owner = V49
 	controller = V49
+	add_historical_rival = X01
+	add_historical_rival  = X16
+	add_truce_with = X16
 }
 
-3019.4.2 = {
-	owner = ---
-	controller = ---
-	culture = culture_entish
-	religion = religion_enyd
+2957.1.1 = { 
+	capital_2_orc_building=yes
+	fort_orc_stronghold_orc_building=yes
+	orc_pit_orc_building=yes
 }
+
+3000.1.1 = { 
+	add_base_tax = 7
+	add_base_production = 10
+	add_base_manpower = 9
+	capital_3_orc_building=yes
+	dark_iron_forge_orc_building=yes
+	army_garrison_orc_building=yes
+	warg_arena_orc_building=yes
+	siege_works_orc_building=yes
+}
+

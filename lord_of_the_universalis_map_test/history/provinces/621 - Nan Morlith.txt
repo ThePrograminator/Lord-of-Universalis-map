@@ -12,9 +12,9 @@
 
 is_city = yes
 
-base_tax = 2
-base_production = 2
-base_manpower = 1
+base_tax = 6
+base_production = 4
+base_manpower = 3
 
 add_core = V28
 owner = V28
@@ -66,4 +66,8 @@ discovered_by = lotr_womarin
 discovered_by = lotr_woses
 discovered_by = lotr_wights
 
-
+3000.1.1 = {
+	add_core = V17
+	owner = V17
+	controller = V17
+}

@@ -12,9 +12,9 @@
 
 is_city = no
 
-base_tax = 1
-base_production = 1
-base_manpower = 6
+base_tax = 2
+base_production = 4
+base_manpower = 2
 
 add_core = X16
 owner = X16
@@ -26,6 +26,11 @@ religion = religion_eorlingas
 trade_goods = stone
 
 hre = no
+
+add_province_modifier = {
+	name = ruins_debuff
+	duration = -1
+}
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

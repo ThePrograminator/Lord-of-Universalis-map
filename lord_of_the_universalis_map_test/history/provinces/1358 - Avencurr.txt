@@ -12,9 +12,9 @@
 
 is_city = yes
 
-base_tax = 7
-base_production = 8
-base_manpower = 2
+base_tax = 5
+base_production = 3
+base_manpower = 4
 
 add_core = Z47
 owner = Z47
@@ -23,7 +23,7 @@ controller = Z47
 culture = culture_dunlendings
 religion = religion_daen
 
-trade_goods = wine
+trade_goods = livestock
 
 hre = no
 
@@ -66,3 +66,8 @@ discovered_by = lotr_womarin
 discovered_by = lotr_woses
 discovered_by = lotr_wights
 
+3000.1.1 = { 
+	add_core = V49
+	owner = V49
+	controller = V49
+}

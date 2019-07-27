@@ -14,12 +14,12 @@ is_city = yes
 
 base_tax = 10
 base_production = 10
-base_manpower = 1
+base_manpower = 2
 
 culture = culture_wilderness
 religion = religion_wilderness
 
-trade_goods = fur
+trade_goods = iron
 
 hre = no
 
@@ -68,4 +68,5 @@ discovered_by = lotr_wights
 	controller = V17
 	culture = culture_orkish
 	religion = religion_orkish
+	camp_orc_building=yes
 }

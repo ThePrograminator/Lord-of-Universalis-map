@@ -12,9 +12,9 @@
 
 is_city = no
 
-base_tax = 5
+base_tax = 2
 base_production = 2
-base_manpower = 1
+base_manpower = 2
 
 add_core = X01
 owner = X01
@@ -23,7 +23,7 @@ controller = X01
 culture = culture_donaen
 religion = religion_daen
 
-trade_goods = cloth
+trade_goods = herbs
 
 hre = no
 

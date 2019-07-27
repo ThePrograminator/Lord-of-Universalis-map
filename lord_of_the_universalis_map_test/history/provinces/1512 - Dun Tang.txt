@@ -12,8 +12,8 @@
 
 is_city = yes
 
-base_tax = 10
-base_production = 1
+base_tax = 5
+base_production = 5
 base_manpower = 6
 
 add_core = Z50
@@ -26,6 +26,10 @@ religion = religion_daen
 trade_goods = grain
 
 hre = no
+
+city_1_building=yes
+army_camp_building=yes
+workshop_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

@@ -12,9 +12,9 @@
 
 is_city = yes
 
-base_tax = 2
-base_production = 4
-base_manpower = 4
+base_tax = 6
+base_production = 5
+base_manpower = 14
 
 culture = culture_wilderness
 religion = religion_wilderness
@@ -68,4 +68,9 @@ discovered_by = lotr_wights
 	controller = V17
 	culture = culture_orkish
 	religion = religion_orkish
+}
+2953.7.1 = {
+	fortress_3_orc_building=yes
+	orc_fissure_orc_building=yes
+	blacksmith_orc_building=yes
 }

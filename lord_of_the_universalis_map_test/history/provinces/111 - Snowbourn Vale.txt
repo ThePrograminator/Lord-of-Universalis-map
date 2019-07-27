@@ -13,7 +13,7 @@
 is_city = no
 
 base_tax = 5
-base_production = 8
+base_production = 6
 base_manpower = 5
 
 add_core = X16
@@ -23,7 +23,7 @@ controller = X16
 culture = culture_eorlingas
 religion = religion_eorlingas
 
-trade_goods = paper
+trade_goods = grain
 
 hre = no
 

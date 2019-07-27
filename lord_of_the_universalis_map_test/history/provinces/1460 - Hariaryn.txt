@@ -12,9 +12,9 @@
 
 is_city = yes
 
-base_tax = 1
-base_production = 4
-base_manpower = 1
+base_tax = 2
+base_production = 3
+base_manpower = 3
 
 add_core = V09
 owner = V09
@@ -23,7 +23,7 @@ controller = V09
 culture = culture_clansmen
 religion = religion_daen
 
-trade_goods = iron
+trade_goods = fur
 
 hre = no
 
@@ -66,3 +66,8 @@ discovered_by = lotr_womarin
 discovered_by = lotr_woses
 discovered_by = lotr_wights
 
+3000.1.1 = { 
+	add_core = V49
+	owner = V49
+	controller = V49
+}
