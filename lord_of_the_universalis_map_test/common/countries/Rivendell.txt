@@ -1,7 +1,7 @@
 #Country Name: Please see filename.
 graphical_culture = lotr_elf_gfx
 
-color = { 40 130 0 }
+color = { 15 45 60 }
 
 historical_idea_groups = {
 	offensive_ideas
