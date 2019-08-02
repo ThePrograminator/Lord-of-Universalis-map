@@ -20,10 +20,17 @@ add_core = X25
 owner = X25
 controller = X25
 
+<<<<<<< HEAD
 culture = culture_donaen
 religion = religion_daen
 
 trade_goods = iron
+=======
+culture = culture_haruze
+religion = religion_haruzani
+
+trade_goods = wine
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 hre = no
 

@@ -3213,6 +3213,7 @@ province;red;green;blue;x;x
 3212;60;141;40;Rûn;x
 3213;60;140;40;Raba;x
 3214;81;23;20;Folen;x
+<<<<<<< HEAD
 3215;138;177;106;Anadûne;x
 3216;127;135;38;Scrandburg;x
 3217;126;135;38;Ceorstoc;x
@@ -3383,3 +3384,6 @@ province;red;green;blue;x;x
 3382;229;229;79;sumar-dar;x
 3383;79;224;229;karsunaj;x
 3384;67;179;102;raishanan;x
+=======
+3215;138;177;106;Anadûne;x
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba

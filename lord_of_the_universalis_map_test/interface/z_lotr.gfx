@@ -41,7 +41,11 @@ spriteTypes = {
 	#Default
 	spriteType = {
 		name = "GFX_holy_site_default"
+<<<<<<< HEAD
 		texturefile = "gfx//interface//holy_sites//Dwarven_Sacred_Site_Dains_Halls.dds"
+=======
+		texturefile = "gfx//interface//holy_sites//Dwarven_Sacred_Site_Erebor.dds"
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 	}
 
 	#Erebor (Vanilla: Aksum)
@@ -51,9 +55,15 @@ spriteTypes = {
 		loadType = "INGAME"
 	}	
 
+<<<<<<< HEAD
 	#Belegost (Vanilla: alexandria)
 	spriteType = {
 		name = "GFX_holy_site_1051"
+=======
+	#Dains Halls (Vanilla: alexandria)
+	spriteType = {
+		name = "GFX_holy_site_663"
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 		texturefile = "gfx//interface//holy_sites//Dwarven_Sacred_Site_Dains_Halls.dds"
 		loadType = "INGAME"
 	}	
@@ -65,12 +75,28 @@ spriteTypes = {
 		loadType = "INGAME"
 	}	
 
+<<<<<<< HEAD
 	#Moria (Vanilla: qasr_ibrim)
 	spriteType = {
 		name = "GFX_holy_site_740"
 		texturefile = "gfx//interface//holy_sites//Dwarven_Sacred_Site_Eastern_Moria.dds"
 		loadType = "INGAME"
 	}	
+=======
+	#Western Halls of Moria (Vanilla: qasr_ibrim)
+	spriteType = {
+		name = "GFX_holy_site_740"
+		texturefile = "gfx//interface//holy_sites//Dwarven_Sacred_Site_Western_Moria.dds"
+		loadType = "INGAME"
+	}	
+
+	#Eastern Halls of Moria (Vanilla: yerevan)
+	spriteType = {
+		name = "GFX_holy_site_285"
+		texturefile = "gfx//interface//holy_sites//Dwarven_Sacred_Site_Eastern_Moria.dds"
+		loadType = "INGAME"
+	}
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 	
 	spriteType = {
 		name = "GFX_menubar_floating_strip"

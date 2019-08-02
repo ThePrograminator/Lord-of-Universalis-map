@@ -1,7 +1,11 @@
 #Country Name: Please see filename.
 graphical_culture = indiangfx
 
+<<<<<<< HEAD
 color = { 230 220 190 }
+=======
+color = { 175 0 255 }
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 historical_idea_groups = {
 	offensive_ideas

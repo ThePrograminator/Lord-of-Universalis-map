@@ -16,8 +16,17 @@ base_tax = 4
 base_production = 6
 base_manpower = 5
 
+<<<<<<< HEAD
 culture = culture_wilderness
 religion = religion_wilderness
+=======
+add_core = X16
+owner = X16
+controller = X16
+
+culture = culture_eorlingas
+religion = religion_eorlingas
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 trade_goods = iron
 

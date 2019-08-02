@@ -16,6 +16,7 @@ base_tax = 6
 base_production = 8
 base_manpower = 9
 
+<<<<<<< HEAD
 add_core = X27
 owner = X27
 controller = X27
@@ -33,6 +34,19 @@ army_camp_building=yes
 port_building=yes
 workshop_building=yes
 
+=======
+add_core = X43
+owner = X43
+controller = X43
+
+culture = culture_bellakarani
+religion = religion_black_numenorean
+
+trade_goods = grain
+
+hre = no
+
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
 discovered_by = lotr_black_numenorean

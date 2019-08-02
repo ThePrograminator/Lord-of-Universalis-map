@@ -12,7 +12,11 @@
 
 is_city = yes
 
+<<<<<<< HEAD
 base_tax = 3
+=======
+base_tax = 2
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 base_production = 3
 base_manpower = 2
 

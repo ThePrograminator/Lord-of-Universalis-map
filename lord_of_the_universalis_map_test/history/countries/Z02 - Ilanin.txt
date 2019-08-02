@@ -24,6 +24,10 @@ historical_rival = X92
 historical_rival = X96
 historical_rival = X93
 historical_rival = X95
+<<<<<<< HEAD
+=======
+historical_rival = X95
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 historical_rival = Y01
 historical_rival = Y02
 historical_rival = V39

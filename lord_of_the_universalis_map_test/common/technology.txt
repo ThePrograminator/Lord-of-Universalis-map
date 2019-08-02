@@ -157,11 +157,14 @@ groups = {
 		start_level = 0
 	}
 	
+<<<<<<< HEAD
 	lotr_south_hildor = {
 		start_cost_modifier = 0
 		start_level = 0
 	}
 	
+=======
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 	lotr_troll = {
 		start_cost_modifier = 0
 		start_level = 0
@@ -182,11 +185,14 @@ groups = {
 		start_level = 0
 	}
 	
+<<<<<<< HEAD
 	lotr_vulmaw = {
 		start_cost_modifier = 0
 		start_level = 0
 	}
 	
+=======
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 	lotr_wizard = {
 		start_cost_modifier = 0
 		start_level = 0
@@ -207,11 +213,14 @@ groups = {
 		start_level = 0
 	}
 	
+<<<<<<< HEAD
 	lotr_zorians = {
 		start_cost_modifier = 0
 		start_level = 0
 	}
 	
+=======
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 	# Original techs, work them out of the files when possible
 	western = {
 		start_level = 3

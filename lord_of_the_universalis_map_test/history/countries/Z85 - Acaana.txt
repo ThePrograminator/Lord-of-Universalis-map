@@ -2,6 +2,11 @@ mercantilism = 0.1
 government = tribal
 add_government_reform = steppe_horde
 primary_culture = culture_aca-folk
+<<<<<<< HEAD
 religion = religion_ivabi
 technology_group = lotr_south_hildor
+=======
+religion = religion_easterlings
+technology_group = lotr_easterling 
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 capital = 517

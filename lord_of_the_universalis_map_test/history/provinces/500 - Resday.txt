@@ -10,10 +10,17 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
+<<<<<<< HEAD
 is_city = yes
 
 base_tax = 6
 base_production = 6
+=======
+is_city = no
+
+base_tax = 2
+base_production = 1
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 base_manpower = 3
 
 add_core = X80
@@ -23,6 +30,7 @@ controller = X80
 culture = culture_variags
 religion = religion_ioriags
 
+<<<<<<< HEAD
 trade_goods = glass
 
 hre = no
@@ -33,6 +41,12 @@ tax_office_building=yes
 workshop_building=yes
 outpost_building=yes
 
+=======
+trade_goods = cloth
+
+hre = no
+
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
 discovered_by = lotr_black_numenorean

@@ -12,9 +12,15 @@
 
 is_city = yes
 
+<<<<<<< HEAD
 base_tax = 3
 base_production = 4
 base_manpower = 3
+=======
+base_tax = 7
+base_production = 8
+base_manpower = 4
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 add_core = Y57
 owner = Y57
@@ -23,7 +29,11 @@ controller = Y57
 culture = culture_goblin
 religion = religion_goblin
 
+<<<<<<< HEAD
 trade_goods = iron
+=======
+trade_goods = copper
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 hre = no
 

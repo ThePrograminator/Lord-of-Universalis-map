@@ -2023,6 +2023,7 @@ culture_group_mornerim = {
 		}
 	}
 	
+<<<<<<< HEAD
 	culture_iskahr = {
 		male_names = {
 
@@ -2034,6 +2035,8 @@ culture_group_mornerim = {
 		}
 	}
 	
+=======
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 	dynasty_names = {
 		"mornerim 1" "mornerim 2" "mornerim 3" "mornerim 4" "mornerim 5"
 		"mornerim 6" "mornerim 7" "mornerim 8" "mornerim 9" "mornerim 10"
@@ -3056,6 +3059,7 @@ culture_group_womaw  = {
 		}
 	}
 	
+<<<<<<< HEAD
 	culture_surk_kaelan = {
 		male_names = {
 
@@ -3067,6 +3071,8 @@ culture_group_womaw  = {
 		}
 	}
 	
+=======
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 	dynasty_names = {
 		"womaw 1" "womaw 2" "womaw 3" "womaw 4" "womaw 5" "womaw 6" "womaw 7" "womaw 8" "womaw 9"
 	}

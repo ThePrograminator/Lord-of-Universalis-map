@@ -709,6 +709,7 @@
  V53: "Moria"
  V53_ADJ: "Longbeards"
  V54: "Bâr-Shûal"
+<<<<<<< HEAD
  V54_ADJ: "Ironfists"
  V55: "Balin's Expedition"
  V55_ADJ: "Longbeards"
@@ -797,3 +798,6 @@
  V96_ADJ: "Wights"
  V97: "Wôm Shryak"
  V97_ADJ: "Wôm"
+=======
+ V54_ADJ: "Ironfists"
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba

@@ -11,6 +11,10 @@ government_rank = 1
 historical_friend = X16
 historical_friend = Z05
 historical_friend = V25
+<<<<<<< HEAD
+=======
+historical_friend = Z05
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 historical_friend = V30
 historical_friend = Y18
 historical_rival = Y48

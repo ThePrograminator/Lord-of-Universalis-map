@@ -10,17 +10,29 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
+<<<<<<< HEAD
 is_city = yes
 
 base_tax = 5
 base_production = 6
 base_manpower = 4
+=======
+is_city = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 1
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 add_core = X25
 owner = X25
 controller = X25
 
+<<<<<<< HEAD
 culture = culture_sakalai
+=======
+culture = culture_haruze
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 religion = religion_haruzani
 
 trade_goods = wine

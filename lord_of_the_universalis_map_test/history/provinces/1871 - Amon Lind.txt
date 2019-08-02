@@ -12,9 +12,15 @@
 
 is_city = yes
 
+<<<<<<< HEAD
 base_tax = 5
 base_production = 4
 base_manpower = 5
+=======
+base_tax = 1
+base_production = 4
+base_manpower = 1
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 add_core = Y84
 owner = Y84
@@ -23,6 +29,7 @@ controller = Y84
 culture = culture_noldor
 religion = religion_calaquendi
 
+<<<<<<< HEAD
 trade_goods = iron
 
 hre = no
@@ -33,6 +40,12 @@ moat_elf_building=yes
 warriors_gallery_building=yes
 workshop_elf_building=yes
 
+=======
+trade_goods = tropical_wood
+
+hre = no
+
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
 discovered_by = lotr_black_numenorean

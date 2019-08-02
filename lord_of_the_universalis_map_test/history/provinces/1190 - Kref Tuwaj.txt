@@ -12,9 +12,15 @@
 
 is_city = no
 
+<<<<<<< HEAD
 base_tax = 3
 base_production = 4
 base_manpower = 3
+=======
+base_tax = 10
+base_production = 4
+base_manpower = 10
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 add_core = X33
 owner = X33
@@ -23,7 +29,11 @@ controller = X33
 culture = culture_jelut_nomads
 religion = religion_haruzani
 
+<<<<<<< HEAD
 trade_goods = coppper
+=======
+trade_goods = wine
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 hre = no
 

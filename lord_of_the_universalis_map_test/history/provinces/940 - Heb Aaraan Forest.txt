@@ -20,7 +20,11 @@ add_core = Y74
 owner = Y74
 controller = Y74
 
+<<<<<<< HEAD
 culture = culture_hisildi
+=======
+culture = culture_nelyarin
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 religion = religion_moriquendi
 
 trade_goods = gold

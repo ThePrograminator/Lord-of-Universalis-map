@@ -12,9 +12,15 @@
 
 is_city = yes
 
+<<<<<<< HEAD
 base_tax = 8
 base_production = 8
 base_manpower = 8
+=======
+base_tax = 1
+base_production = 3
+base_manpower = 2
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 add_core = Z43
 owner = Z43
@@ -23,7 +29,11 @@ controller = Z43
 culture = culture_clansmen
 religion = religion_daen
 
+<<<<<<< HEAD
 trade_goods = naval_supplies
+=======
+trade_goods = salt
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 hre = no
 

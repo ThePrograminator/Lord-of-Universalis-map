@@ -4,12 +4,17 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
+<<<<<<< HEAD
 add_core = V93
 owner = V93
 controller = V93
 
 culture = culture_chyan_hill-men
 religion = religion_chailuza
+=======
+culture = culture_wilderness
+religion = religion_wilderness
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 trade_goods = grain
 

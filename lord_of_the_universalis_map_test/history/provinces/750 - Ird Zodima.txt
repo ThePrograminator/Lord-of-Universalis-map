@@ -13,7 +13,11 @@
 is_city = no
 
 base_tax = 3
+<<<<<<< HEAD
 base_production = 4
+=======
+base_production = 3
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 base_manpower = 3
 
 add_core = X26
@@ -23,7 +27,11 @@ controller = X26
 culture = culture_haruze
 religion = religion_haruzani
 
+<<<<<<< HEAD
 trade_goods = iron
+=======
+trade_goods = spices
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 hre = no
 

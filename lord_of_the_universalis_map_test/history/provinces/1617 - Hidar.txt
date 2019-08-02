@@ -10,11 +10,19 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
+<<<<<<< HEAD
 is_city = yes
 
 base_tax = 5
 base_production = 4
 base_manpower = 6
+=======
+is_city = no
+
+base_tax = 2
+base_production = 4
+base_manpower = 1
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 add_core = X31
 owner = X31
@@ -23,6 +31,7 @@ controller = X31
 culture = culture_koanoze
 religion = religion_apysani_beduins
 
+<<<<<<< HEAD
 trade_goods = iron
 
 hre = no
@@ -34,6 +43,12 @@ tax_office_building=yes
 army_camp_building=yes
 work_camp_building=yes
 
+=======
+trade_goods = naval_supplies
+
+hre = no
+
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
 discovered_by = lotr_black_numenorean

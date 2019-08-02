@@ -10,6 +10,7 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
+<<<<<<< HEAD
 is_city = yes
 
 base_tax = 4
@@ -19,10 +20,22 @@ base_manpower = 5
 add_core = X27
 owner = X27
 controller = X27
+=======
+is_city = no
+
+base_tax = 10
+base_production = 8
+base_manpower = 8
+
+add_core = X33
+owner = X33
+controller = X33
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 culture = culture_jelut_nomads
 religion = religion_haruzani
 
+<<<<<<< HEAD
 trade_goods = gold
 
 hre = no
@@ -30,6 +43,12 @@ hre = no
 settlement_building=yes
 work_camp_building=yes
 
+=======
+trade_goods = grain
+
+hre = no
+
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
 discovered_by = lotr_black_numenorean

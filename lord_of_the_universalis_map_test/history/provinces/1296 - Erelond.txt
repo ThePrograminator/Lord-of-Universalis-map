@@ -23,6 +23,7 @@ controller = X27
 culture = culture_umbareans
 religion = religion_black_numenorean
 
+<<<<<<< HEAD
 trade_goods = naval_supplies
 
 hre = no
@@ -32,6 +33,12 @@ seaport_building=yes
 army_camp_building=yes
 workshop_building=yes
 
+=======
+trade_goods = gold
+
+hre = no
+
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
 discovered_by = lotr_black_numenorean

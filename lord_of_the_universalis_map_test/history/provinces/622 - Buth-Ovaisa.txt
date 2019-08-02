@@ -71,5 +71,8 @@ discovered_by = lotr_wights
 	add_core = X78
 	owner = X78
 	controller = X78
+<<<<<<< HEAD
 	}
+=======
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 }

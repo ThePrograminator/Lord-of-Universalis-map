@@ -10,16 +10,28 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
+<<<<<<< HEAD
 is_city = no
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
+=======
+is_city = yes
+
+base_tax = 4
+base_production = 9
+base_manpower = 5
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 culture = culture_wilderness
 religion = religion_wilderness
 
+<<<<<<< HEAD
 trade_goods = copper
+=======
+trade_goods = gold
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 hre = no
 

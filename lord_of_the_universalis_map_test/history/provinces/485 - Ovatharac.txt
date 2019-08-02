@@ -10,11 +10,19 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
+<<<<<<< HEAD
 is_city = yes
 
 base_tax = 8
 base_production = 9
 base_manpower = 11
+=======
+is_city = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 add_core = X83
 owner = X83
@@ -23,6 +31,7 @@ controller = X83
 culture = culture_variags
 religion = religion_ioriags
 
+<<<<<<< HEAD
 trade_goods = spices
 
 hre = no
@@ -35,6 +44,12 @@ warehouse_building=yes
 fort_stronghold_building=yes
 barracks_building=yes
 
+=======
+trade_goods = fur
+
+hre = no
+
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
 discovered_by = lotr_black_numenorean

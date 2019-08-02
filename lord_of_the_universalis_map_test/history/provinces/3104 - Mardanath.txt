@@ -1,5 +1,6 @@
 is_city = yes
 
+<<<<<<< HEAD
 base_tax = 5
 base_production = 5
 base_manpower = 5
@@ -19,6 +20,19 @@ fortress_1_building=yes
 fort_pallisade_building=yes
 outpost_building=yes
 
+=======
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = culture_wilderness
+religion = religion_wilderness
+
+trade_goods = grain
+
+hre = no
+
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
 discovered_by = lotr_black_numenorean

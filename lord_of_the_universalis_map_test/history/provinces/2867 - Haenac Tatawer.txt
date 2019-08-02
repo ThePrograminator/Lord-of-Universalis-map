@@ -4,12 +4,17 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
+<<<<<<< HEAD
 add_core = V81
 owner = V81
 controller = V81
 
 culture = culture_sulini
 religion = religion_avaradan
+=======
+culture = culture_wilderness
+religion = religion_wilderness
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 trade_goods = grain
 

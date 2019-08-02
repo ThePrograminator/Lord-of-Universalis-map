@@ -16,12 +16,17 @@ base_tax = 3
 base_production = 2
 base_manpower = 6
 
+<<<<<<< HEAD
 add_core = V85
 owner = V85
 controller = V85
 
 culture = culture_vulmav
 religion = religion_cuivac
+=======
+culture = culture_wilderness
+religion = religion_wilderness
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 trade_goods = grain
 

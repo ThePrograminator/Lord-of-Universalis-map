@@ -70,5 +70,8 @@ discovered_by = lotr_wights
 	add_core = X99
 	owner = X99
 	controller = X99
+<<<<<<< HEAD
 	}
+=======
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 }

@@ -11,7 +11,11 @@ controller = X27
 culture = culture_umbareans
 religion = religion_black_numenorean
 
+<<<<<<< HEAD
 trade_goods = tropical_wood
+=======
+trade_goods = naval_supplies
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 hre = no
 

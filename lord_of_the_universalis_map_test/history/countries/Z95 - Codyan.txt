@@ -4,5 +4,9 @@ add_government_reform = feudalism_reform
 
 primary_culture = culture_codyan
 religion = religion_cuivac
+<<<<<<< HEAD
 technology_group = lotr_vulmaw
+=======
+technology_group = lotr_easterling 
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 capital = 517

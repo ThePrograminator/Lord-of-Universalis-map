@@ -12,9 +12,15 @@
 
 is_city = yes
 
+<<<<<<< HEAD
 base_tax = 2
 base_production = 3
 base_manpower = 2
+=======
+base_tax = 7
+base_production = 4
+base_manpower = 1
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 add_core = V38
 owner = V38
@@ -23,7 +29,11 @@ controller = V38
 culture = culture_feotari
 religion = religion_eriadorians
 
+<<<<<<< HEAD
 trade_goods = wool
+=======
+trade_goods = naval_supplies
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 hre = no
 

@@ -12,9 +12,15 @@
 
 is_city = no
 
+<<<<<<< HEAD
 base_tax = 3
 base_production = 4
 base_manpower = 3
+=======
+base_tax = 9
+base_production = 8
+base_manpower = 6
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 add_core = X80
 owner = X80
@@ -23,7 +29,11 @@ controller = X80
 culture = culture_variags
 religion = religion_ioriags
 
+<<<<<<< HEAD
 trade_goods = stone
+=======
+trade_goods = fur
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 hre = no
 

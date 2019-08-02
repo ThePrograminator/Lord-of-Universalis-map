@@ -12,9 +12,15 @@
 
 is_city = yes
 
+<<<<<<< HEAD
 base_tax = 14
 base_production = 14
 base_manpower = 17
+=======
+base_tax = 6
+base_production = 8
+base_manpower = 2
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 add_core = Y80
 owner = Y80
@@ -27,6 +33,7 @@ trade_goods = silk
 
 hre = no
 
+<<<<<<< HEAD
 add_permanent_province_modifier = {
 	name = trade_post_modifier
 	duration = -1
@@ -44,6 +51,8 @@ statue_of_the_elders_elf_building=yes
 mirror_fountain_elf_building=yes
 star_of_earendil_shrine_elf_building=yes
 
+=======
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
 discovered_by = lotr_black_numenorean

@@ -4,12 +4,17 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
+<<<<<<< HEAD
 add_core = V87
 owner = V87
 controller = V87
 
 culture = culture_wight
 religion = religion_wight
+=======
+culture = culture_wilderness
+religion = religion_wilderness
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 trade_goods = grain
 

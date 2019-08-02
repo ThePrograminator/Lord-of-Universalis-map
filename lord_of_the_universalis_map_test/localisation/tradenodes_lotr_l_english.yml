@@ -1,5 +1,6 @@
 ﻿l_english:
  # Tradenodes
+<<<<<<< HEAD
  node_metraith: "Metraith"
  node_khazad_zahar: "Khazad-Zahar"
  node_annon_baran: "Annon Baran"
@@ -83,13 +84,22 @@
  node_caras_galadhon: "Caras Galadhon"
  node_burh_ermanarikis: "Burh Ermanarikis"
  node_mistrand: "Mistrand"
+=======
+ node_pelargir: "Pelargir"
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
  node_minas_tirith: "Minas Tirith"
  node_linhir: "Linhir"
  node_calembel: "Calembel"
  node_annulond: "Annúlond"
  node_dol_amroth: "Dol Amroth"
+<<<<<<< HEAD
 
 
+=======
+ node_lond_angren: "Lond Angren"
+ node_gap_of_rohan: "Gap of Rohan"
+ node_edoras: "Edoras"
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
  
  
  hinder_fellowships: "Hinder and Find Fellowships"

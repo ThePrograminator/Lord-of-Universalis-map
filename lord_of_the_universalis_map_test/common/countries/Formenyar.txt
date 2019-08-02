@@ -1,7 +1,11 @@
 #Country Name: Please see filename.
 graphical_culture = easterngfx
 
+<<<<<<< HEAD
 color = { 200 200 200 }
+=======
+color = { 70 255 80 }
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 historical_idea_groups = {
 	offensive_ideas

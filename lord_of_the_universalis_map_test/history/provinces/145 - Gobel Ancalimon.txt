@@ -10,11 +10,19 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
+<<<<<<< HEAD
 is_city = yes
 
 base_tax = 11
 base_production = 11
 base_manpower = 12
+=======
+is_city = no
+
+base_tax = 4
+base_production = 6
+base_manpower = 4
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 add_core = X23
 owner = X23
@@ -27,6 +35,7 @@ trade_goods = silk
 
 hre = no
 
+<<<<<<< HEAD
 center_of_trade = 2
 
 capital_3_building=yes
@@ -36,6 +45,12 @@ foundry_building=yes
 stockpile_building=yes
 fort_stronghold_building=yes
 garrison_building=yes
+=======
+add_permanent_province_modifier = {
+	name = center_of_trade_modifier
+	duration = -1
+}
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

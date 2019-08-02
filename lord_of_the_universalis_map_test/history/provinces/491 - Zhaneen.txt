@@ -10,11 +10,19 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
+<<<<<<< HEAD
 is_city = yes
 
 base_tax = 6
 base_production = 7
 base_manpower = 4
+=======
+is_city = no
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 add_core = X21
 owner = X21
@@ -23,6 +31,7 @@ controller = X21
 culture = culture_haludji
 religion = religion_haruzani
 
+<<<<<<< HEAD
 trade_goods = dyes
 
 hre = no
@@ -32,6 +41,12 @@ marketplace_building=yes
 tax_office_building=yes
 workshop_building=yes
 
+=======
+trade_goods = cloth
+
+hre = no
+
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
 discovered_by = lotr_black_numenorean

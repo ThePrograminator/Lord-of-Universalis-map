@@ -12,14 +12,21 @@
 
 is_city = no
 
+<<<<<<< HEAD
 base_tax = 5
 base_production = 5
 base_manpower = 6
+=======
+base_tax = 2
+base_production = 3
+base_manpower = 1
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 add_core = X25
 owner = X25
 controller = X25
 
+<<<<<<< HEAD
 culture = culture_sakalai
 religion = religion_daen
 
@@ -31,6 +38,15 @@ fortress_1_building=yes
 fort_castle_building=yes
 army_camp_building=yes
 
+=======
+culture = culture_haruze
+religion = religion_haruzani
+
+trade_goods = fish
+
+hre = no
+
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
 discovered_by = lotr_black_numenorean
@@ -70,8 +86,11 @@ discovered_by = lotr_womarin
 discovered_by = lotr_woses
 discovered_by = lotr_wights
 
+<<<<<<< HEAD
 2886.1.1 = {
 	add_core = V14
 	owner = V14
 	controller = V14
 }
+=======
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba

@@ -12,14 +12,21 @@
 
 is_city = yes
 
+<<<<<<< HEAD
 base_tax = 2
 base_production = 3
 base_manpower = 3
+=======
+base_tax = 6
+base_production = 6
+base_manpower = 10
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 add_core = Y80
 owner = Y80
 controller = Y80
 
+<<<<<<< HEAD
 culture = culture_wilderness
 religion = religion_wilderness
 
@@ -32,6 +39,15 @@ add_province_modifier = {
 	duration = -1
 }
 
+=======
+culture = culture_noldor
+religion = religion_calaquendi
+
+trade_goods = gold
+
+hre = no
+
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
 discovered_by = lotr_black_numenorean

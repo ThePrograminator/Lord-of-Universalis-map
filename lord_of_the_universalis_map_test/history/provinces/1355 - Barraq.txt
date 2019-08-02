@@ -10,10 +10,17 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
+<<<<<<< HEAD
 is_city = yes
 
 base_tax = 3
 base_production = 3
+=======
+is_city = no
+
+base_tax = 2
+base_production = 1
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 base_manpower = 5
 
 add_core = X80

@@ -67,19 +67,33 @@ discovered_by = lotr_womarin
 discovered_by = lotr_woses
 discovered_by = lotr_wights
 
+<<<<<<< HEAD
 culture = culture_orkish
 religion = religion_orkish
 
 2770.1.1 = {
 	add_owner = Y33
 	add_controller = Y33
+=======
+#culture = culture_orkish
+#religion = religion_orkish
+
+2770.1.1 = {
+	owner = Y33
+	controller = Y33
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 	camp_orc_building=yes
 	orc_pit_orc_building=yes
 }
 
 2941.1.1 = {
+<<<<<<< HEAD
 	add_owner = Y23
 	add_controller = Y23
+=======
+	owner = Y23
+	controller = Y23
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 }
 
 2989.4.1 = {

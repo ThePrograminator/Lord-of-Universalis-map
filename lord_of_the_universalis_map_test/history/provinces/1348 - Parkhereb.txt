@@ -10,6 +10,7 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
+<<<<<<< HEAD
 is_city = yes
 
 base_tax = 7
@@ -22,14 +23,31 @@ controller = X20
 
 culture = culture_haruze
 religion = religion_haruzani
+=======
+is_city = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 7
+
+add_core = X83
+owner = X83
+controller = X83
+
+culture = culture_variags
+religion = religion_ioriags
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 trade_goods = copper
 
 hre = no
 
+<<<<<<< HEAD
 city_1_building=yes
 workshop_building=yes
 
+=======
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
 discovered_by = lotr_black_numenorean

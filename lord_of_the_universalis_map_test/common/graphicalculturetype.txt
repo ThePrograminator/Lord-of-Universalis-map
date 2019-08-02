@@ -13,4 +13,7 @@ lotr_rohan_gfx
 lotr_isengard_gfx
 lotr_dwarf_gfx
 lotr_elf_gfx
+<<<<<<< HEAD
 lotr_rhun_gfx
+=======
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba

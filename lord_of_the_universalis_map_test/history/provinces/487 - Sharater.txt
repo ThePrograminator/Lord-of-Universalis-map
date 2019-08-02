@@ -10,7 +10,11 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
+<<<<<<< HEAD
 is_city = yes
+=======
+is_city = no
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 base_tax = 3
 base_production = 4
@@ -23,7 +27,11 @@ controller = X80
 culture = culture_variags
 religion = religion_ioriags
 
+<<<<<<< HEAD
 trade_goods = grain
+=======
+trade_goods = wine
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 hre = no
 

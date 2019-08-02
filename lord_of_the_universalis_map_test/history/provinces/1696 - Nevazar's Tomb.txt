@@ -16,12 +16,21 @@ base_tax = 10
 base_production = 2
 base_manpower = 1
 
+<<<<<<< HEAD
 add_core = V94
 owner = V94
 controller = V94
 
 culture = culture_wight
 religion = religion_wight
+=======
+add_core = Y41
+owner = Y41
+controller = Y41
+
+culture = culture_orkish
+religion = religion_orkish
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 trade_goods = naval_supplies
 

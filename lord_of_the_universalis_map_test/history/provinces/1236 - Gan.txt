@@ -14,7 +14,11 @@ is_city = no
 
 base_tax = 5
 base_production = 5
+<<<<<<< HEAD
 base_manpower = 5
+=======
+base_manpower = 2
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 add_core = X61
 owner = X61
@@ -23,7 +27,11 @@ controller = X61
 culture = culture_ganim
 religion = religion_kir
 
+<<<<<<< HEAD
 trade_goods = ivory
+=======
+trade_goods = fur
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 hre = no
 

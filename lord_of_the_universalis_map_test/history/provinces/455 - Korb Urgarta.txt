@@ -10,16 +10,25 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
+<<<<<<< HEAD
 is_city = yes
 
 base_tax = 5
 base_production = 7
 base_manpower = 7
+=======
+is_city = no
+
+base_tax = 3
+base_production = 5
+base_manpower = 2
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 add_core = X25
 owner = X25
 controller = X25
 
+<<<<<<< HEAD
 culture = culture_sakalai
 religion = religion_haruzani
 
@@ -30,6 +39,15 @@ hre = no
 fortress_1_building=yes
 army_camp_building=yes
 
+=======
+culture = culture_haruze
+religion = religion_haruzani
+
+trade_goods = silk
+
+hre = no
+
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
 discovered_by = lotr_black_numenorean

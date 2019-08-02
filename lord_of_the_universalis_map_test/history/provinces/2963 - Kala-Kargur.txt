@@ -4,12 +4,17 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
+<<<<<<< HEAD
 add_core = V91
 owner = V91
 controller = V91
 
 culture = culture_goblin
 religion = religion_goblin
+=======
+culture = culture_wilderness
+religion = religion_wilderness
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 trade_goods = grain
 

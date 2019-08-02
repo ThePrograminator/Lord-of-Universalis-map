@@ -1,7 +1,11 @@
 #Country Name: Please see filename.
 graphical_culture = africangfx
 
+<<<<<<< HEAD
 color = { 40 65 50 }
+=======
+color = { 0 125 15 }
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 historical_idea_groups = {
 	offensive_ideas

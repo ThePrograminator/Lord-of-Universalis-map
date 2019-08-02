@@ -23,7 +23,11 @@ controller = X01
 culture = culture_donaen
 religion = religion_daen
 
+<<<<<<< HEAD
 trade_goods = grain
+=======
+trade_goods = cloth
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 hre = no
 

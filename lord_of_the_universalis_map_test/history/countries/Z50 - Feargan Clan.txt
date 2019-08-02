@@ -4,6 +4,7 @@ add_government_reform = tribal_kingdom
 primary_culture = culture_dunlendings
 religion = religion_daen
 technology_group = lotr_daen
+<<<<<<< HEAD
 capital = 1861
 
 government_rank = 1
@@ -21,3 +22,8 @@ historical_rival = X15
 historical_rival = Z21
 historical_rival = Z43
 historical_rival = Z46
+=======
+capital = 156
+
+government_rank = 1
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba

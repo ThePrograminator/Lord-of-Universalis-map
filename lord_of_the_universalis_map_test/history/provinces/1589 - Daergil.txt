@@ -23,6 +23,7 @@ controller = Y80
 culture = culture_noldor
 religion = religion_calaquendi
 
+<<<<<<< HEAD
 trade_goods = wine
 
 hre = no
@@ -33,6 +34,12 @@ moat_elf_building=yes
 warriors_gallery_building=yes
 temple_elf_building=yes
 
+=======
+trade_goods = naval_supplies
+
+hre = no
+
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
 discovered_by = lotr_black_numenorean

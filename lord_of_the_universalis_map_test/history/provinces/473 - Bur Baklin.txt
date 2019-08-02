@@ -12,6 +12,7 @@
 
 is_city = no
 
+<<<<<<< HEAD
 base_tax = 4
 base_production = 3
 base_manpower = 3
@@ -24,6 +25,20 @@ culture = culture_umbareans
 religion = religion_black_numenorean
 
 trade_goods = grain
+=======
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+add_core = V48
+owner = V48
+controller = V48
+
+culture = culture_haruze
+religion = religion_haruzani
+
+trade_goods = wool
+>>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 hre = no
 
