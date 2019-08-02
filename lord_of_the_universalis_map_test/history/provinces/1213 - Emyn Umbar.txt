@@ -12,15 +12,9 @@
 
 is_city = yes
 
-<<<<<<< HEAD
 base_tax = 3
 base_production = 6
 base_manpower = 3
-=======
-base_tax = 1
-base_production = 8
-base_manpower = 5
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 add_core = X27
 owner = X27
@@ -29,7 +23,6 @@ controller = X27
 culture = culture_umbareans
 religion = religion_black_numenorean
 
-<<<<<<< HEAD
 trade_goods = iron
 
 hre = no
@@ -37,12 +30,6 @@ hre = no
 settlement_building=yes
 work_camp_building=yes
 
-=======
-trade_goods = fur
-
-hre = no
-
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
 discovered_by = lotr_black_numenorean

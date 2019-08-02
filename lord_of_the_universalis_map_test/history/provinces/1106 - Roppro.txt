@@ -13,13 +13,8 @@
 is_city = no
 
 base_tax = 8
-<<<<<<< HEAD
 base_production = 8
 base_manpower = 9
-=======
-base_production = 9
-base_manpower = 13
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 add_core = X51
 owner = X51

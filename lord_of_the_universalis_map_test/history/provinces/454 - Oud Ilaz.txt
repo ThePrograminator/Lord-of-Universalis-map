@@ -23,7 +23,6 @@ controller = X17
 culture = culture_haruze
 religion = religion_haruzani
 
-<<<<<<< HEAD
 trade_goods = glass
 
 hre = no
@@ -34,12 +33,6 @@ provincial_office_building=yes
 warehouse_building=yes	
 army_camp_building=yes
 
-=======
-trade_goods = silk
-
-hre = no
-
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
 discovered_by = lotr_black_numenorean

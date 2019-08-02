@@ -23,11 +23,7 @@ controller = X51
 culture = culture_bozishnarod
 religion = religion_sea_peoples
 
-<<<<<<< HEAD
 trade_goods = naval supplies
-=======
-trade_goods = naval_supplies
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 hre = no
 

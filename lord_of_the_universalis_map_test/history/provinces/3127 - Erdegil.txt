@@ -1,6 +1,5 @@
 is_city = yes
 
-<<<<<<< HEAD
 base_tax = 3
 base_production = 3
 base_manpower = 3
@@ -13,16 +12,6 @@ culture = culture_sakalai
 religion = religion_haruzani
 
 trade_goods = naval_supplies
-=======
-base_tax = 1
-base_production = 1
-base_manpower = 1
-
-culture = culture_wilderness
-religion = religion_wilderness
-
-trade_goods = grain
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 hre = no
 

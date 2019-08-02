@@ -13,13 +13,8 @@
 is_city = no
 
 base_tax = 2
-<<<<<<< HEAD
 base_production = 4
 base_manpower = 2
-=======
-base_production = 2
-base_manpower = 5
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 add_core = X28
 owner = X28
@@ -28,11 +23,7 @@ controller = X28
 culture = culture_jelut_nomads
 religion = religion_haruzani
 
-<<<<<<< HEAD
 trade_goods = stone
-=======
-trade_goods = iron
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 hre = no
 

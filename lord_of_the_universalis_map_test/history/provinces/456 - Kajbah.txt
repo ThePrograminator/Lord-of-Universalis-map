@@ -12,13 +12,8 @@
 
 is_city = no
 
-<<<<<<< HEAD
 base_tax = 3
 base_production = 5
-=======
-base_tax = 1
-base_production = 3
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 base_manpower = 3
 
 add_core = X17

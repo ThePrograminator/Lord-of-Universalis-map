@@ -12,24 +12,14 @@
 
 is_city = yes
 
-<<<<<<< HEAD
 base_tax = 2
 base_production = 3
 base_manpower = 2
-=======
-base_tax = 4
-base_production = 5
-base_manpower = 7
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 culture = culture_wilderness
 religion = religion_wilderness
 
-<<<<<<< HEAD
 trade_goods = marble
-=======
-trade_goods = wool
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 hre = no
 

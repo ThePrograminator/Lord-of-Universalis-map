@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 is_city = no
 
 base_tax = 3
@@ -13,18 +12,6 @@ culture = culture_haludji
 religion = religion_haruzani
 
 trade_goods = gold
-=======
-is_city = yes
-
-base_tax = 1
-base_production = 1
-base_manpower = 1
-
-culture = culture_wilderness
-religion = religion_wilderness
-
-trade_goods = grain
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 hre = no
 

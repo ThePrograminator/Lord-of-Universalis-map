@@ -103,11 +103,7 @@ guiTypes = {
 			
 		guiButtonType = {
 			name = "close_button"
-<<<<<<< HEAD
 			position = { x=296 y =760}
-=======
-			position = { x=296 y =660}
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 			quadTextureSprite ="button_type_1"	
 			tooltip = ""
 			tooltipText =""
@@ -216,40 +212,24 @@ guiTypes = {
 			text = ""	
 			format = left
 		}
-<<<<<<< HEAD
 		#164
-=======
-		
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 		instantTextBoxType= {
 			position = { x = 218 y = 32}
 			name = "control"
 			font = "vic_16"
 			borderSize = {x = 0 y = 0}	
-<<<<<<< HEAD
 			maxWidth = 200
-=======
-			maxWidth = 164
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 			maxHeight = 20
 			text = "Controlled by Polandball"	
 			format = left
 		}
-<<<<<<< HEAD
 		#164
-=======
-		
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 		instantTextBoxType= {
 			position = { x = 218 y = 52}
 			name = "religion"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
-<<<<<<< HEAD
 			maxWidth = 200
-=======
-			maxWidth = 164
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 			maxHeight = 20
 			text = "Pastafarian"	
 			format = left

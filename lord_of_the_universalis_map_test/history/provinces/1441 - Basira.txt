@@ -12,15 +12,9 @@
 
 is_city = yes
 
-<<<<<<< HEAD
 base_tax = 4
 base_production = 4
 base_manpower = 5
-=======
-base_tax = 2
-base_production = 8
-base_manpower = 8
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 add_core = X21
 owner = X21
@@ -29,7 +23,6 @@ controller = X21
 culture = culture_haludji
 religion = religion_haruzani
 
-<<<<<<< HEAD
 trade_goods = livestock
 
 hre = no
@@ -37,12 +30,6 @@ hre = no
 settlement_building=yes
 trade_outpost_building=yes
 
-=======
-trade_goods = naval_supplies
-
-hre = no
-
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
 discovered_by = lotr_black_numenorean

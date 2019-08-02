@@ -12,15 +12,9 @@
 
 is_city = yes
 
-<<<<<<< HEAD
 base_tax = 4
 base_production = 4
 base_manpower = 3
-=======
-base_tax = 1
-base_production = 1
-base_manpower = 1
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 add_core = X27
 owner = X27

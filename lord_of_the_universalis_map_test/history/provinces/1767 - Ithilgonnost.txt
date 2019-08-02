@@ -10,25 +10,16 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-<<<<<<< HEAD
 is_city = yes
 
 base_tax = 6
 base_production = 7
 base_manpower = 9
-=======
-is_city = no
-
-base_tax = 3
-base_production = 3
-base_manpower = 1
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 add_core = V48
 owner = V48
 controller = V48
 
-<<<<<<< HEAD
 culture = culture_umbareans
 religion = religion_haruzani
 
@@ -42,15 +33,6 @@ barracks_building=yes
 workshop_building=yes
 port_building=yes
 
-=======
-culture = culture_haruze
-religion = religion_haruzani
-
-trade_goods = fish
-
-hre = no
-
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
 discovered_by = lotr_black_numenorean

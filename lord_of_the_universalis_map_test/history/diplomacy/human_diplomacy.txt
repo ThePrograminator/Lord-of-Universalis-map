@@ -54,7 +54,6 @@ alliance = {
 	second = Y22
 	start_date = 2758.10.10
 	end_date = 9651.1.1
-<<<<<<< HEAD
 }
 
 # Arailt & Madoc Clans
@@ -71,6 +70,4 @@ alliance = {
 	second = Z54
 	start_date = 2758.10.10
 	end_date = 9651.1.1
-=======
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 }

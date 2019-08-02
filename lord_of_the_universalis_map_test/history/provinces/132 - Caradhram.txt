@@ -12,15 +12,9 @@
 
 is_city = no
 
-<<<<<<< HEAD
 base_tax = 3
 base_production = 5
 base_manpower = 3
-=======
-base_tax = 2
-base_production = 4
-base_manpower = 2
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 add_core = X01
 owner = X01
@@ -29,7 +23,6 @@ controller = X01
 culture = culture_donan
 religion = religion_daen
 
-<<<<<<< HEAD
 trade_goods = iron
 
 hre = no
@@ -37,12 +30,6 @@ hre = no
 settlement_building=yes
 work_camp_building=yes
 
-=======
-trade_goods = gold
-
-hre = no
-
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
 discovered_by = lotr_black_numenorean

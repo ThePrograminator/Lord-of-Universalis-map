@@ -12,15 +12,9 @@
 
 is_city = yes
 
-<<<<<<< HEAD
 base_tax = 3
 base_production = 3
 base_manpower = 2
-=======
-base_tax = 1
-base_production = 1
-base_manpower = 1
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 add_core = Y84
 owner = Y84
@@ -29,11 +23,7 @@ controller = Y84
 culture = culture_noldor
 religion = religion_calaquendi
 
-<<<<<<< HEAD
 trade_goods = stone
-=======
-trade_goods = wool
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 hre = no
 

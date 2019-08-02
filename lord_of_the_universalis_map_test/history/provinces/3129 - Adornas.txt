@@ -12,10 +12,7 @@ culture = culture_eorlingas
 religion = religion_eorlingas
 
 trade_goods = grain
-<<<<<<< HEAD
 trade_goods = grain
-=======
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 hre = no
 

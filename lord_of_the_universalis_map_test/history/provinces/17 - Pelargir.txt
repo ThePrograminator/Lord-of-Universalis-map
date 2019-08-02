@@ -28,19 +28,9 @@ trade_goods = silk
 hre = no
 
 city_1_building=yes
-<<<<<<< HEAD
 fort_castle_building=yes
 workshop_building=yes
 marketplace_building=yes
-=======
-
-fort_castle_building=yes
-
-workshop_building=yes
-
-marketplace_building=yes
-
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 dock_building=yes
 
 center_of_trade = 2

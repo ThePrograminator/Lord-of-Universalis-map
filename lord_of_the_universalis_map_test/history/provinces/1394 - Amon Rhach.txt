@@ -13,13 +13,8 @@
 is_city = yes
 
 base_tax = 3
-<<<<<<< HEAD
 base_production = 4
 base_manpower = 3
-=======
-base_production = 7
-base_manpower = 8
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 add_core = Y80
 owner = Y80
@@ -28,7 +23,6 @@ controller = Y80
 culture = culture_noldor
 religion = religion_calaquendi
 
-<<<<<<< HEAD
 trade_goods = iron
 
 hre = no
@@ -36,12 +30,6 @@ hre = no
 noble_residence_elf_building=yes
 workshop_elf_building=yes
 
-=======
-trade_goods = gold
-
-hre = no
-
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
 discovered_by = lotr_black_numenorean

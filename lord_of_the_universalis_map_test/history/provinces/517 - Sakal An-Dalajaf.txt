@@ -10,7 +10,6 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-<<<<<<< HEAD
 is_city = no
 
 base_tax = 4
@@ -25,22 +24,6 @@ culture = culture_umbareans
 religion = religion_black_numenorean
 
 trade_goods = copper
-=======
-is_city = yes
-
-base_tax = 4
-base_production = 3
-base_manpower = 2
-
-add_core = X43
-owner = X43
-controller = X43
-
-culture = culture_bellakarani
-religion = religion_black_numenorean
-
-trade_goods = slaves
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 hre = no
 

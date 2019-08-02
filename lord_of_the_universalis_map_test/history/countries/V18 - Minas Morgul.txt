@@ -4,7 +4,6 @@ add_government_reform = lotr_nazgul_reform
 primary_culture = culture_orkish
 religion = religion_orkish
 technology_group = lotr_orc
-<<<<<<< HEAD
 capital = 417
 
 historical_friend = V17
@@ -13,6 +12,3 @@ historical_friend = Y57
 historical_rival = X01
 historical_rival = X11
 historical_rival = X16
-=======
-capital = 624
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba

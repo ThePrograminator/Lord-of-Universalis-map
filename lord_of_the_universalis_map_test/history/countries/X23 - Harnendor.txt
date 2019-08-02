@@ -5,7 +5,6 @@ add_government_reform = principality_reform
 primary_culture = culture_haruze
 religion = religion_haruzani
 technology_group = lotr_haradrim
-<<<<<<< HEAD
 capital = 145
 
 historical_friend = X19
@@ -21,6 +20,3 @@ historical_rival = X26
 historical_rival = V48
 historical_rival = X24
 historical_rival = V12
-=======
-capital = 146
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba

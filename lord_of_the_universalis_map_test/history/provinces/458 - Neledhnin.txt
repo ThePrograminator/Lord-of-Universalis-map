@@ -10,7 +10,6 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-<<<<<<< HEAD
 is_city = yes
 
 base_tax = 6
@@ -20,13 +19,6 @@ base_manpower = 5
 add_core = X24
 owner = X24
 controller = X24
-=======
-is_city = no
-
-base_tax = 2
-base_production = 3
-base_manpower = 2
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 add_core = X24
 owner = X24
@@ -39,13 +31,10 @@ trade_goods = cloth
 
 hre = no
 
-<<<<<<< HEAD
 city_1_building=yes
 work_camp_building=yes
 trade_outpost_building=yes
 
-=======
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
 discovered_by = lotr_black_numenorean

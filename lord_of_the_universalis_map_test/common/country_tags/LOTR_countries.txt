@@ -407,7 +407,6 @@ V51= "countries/Laketown.txt"
 V52= "countries/Thrors Company.txt"
 V53= "countries/Moria Dwarf.txt"
 V54= "countries/Bar-Shual.txt"
-<<<<<<< HEAD
 V55= "countries/Balins Expedition.txt"
 ##
 V56= "countries/Hermit Kingdom.txt"
@@ -452,6 +451,3 @@ V94= "countries/Kharpana.txt"
 V95= "countries/Adornland.txt"
 V96= "countries/Akalai-Zaj.txt"
 V97= "countries/Wom Shryak.txt"
-=======
-V55= "countries/Balins Expedition.txt"
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba

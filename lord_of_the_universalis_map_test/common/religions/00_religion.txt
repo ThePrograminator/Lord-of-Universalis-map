@@ -710,7 +710,6 @@ religion_group_avarim = {
 	}
 }
 
-<<<<<<< HEAD
 religion_group_people_of_the_southeast = {
 	defender_of_faith = no
 	can_form_personal_unions = yes
@@ -751,8 +750,6 @@ religion_group_people_of_the_southeast = {
 
 }
 
-=======
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 religion_group_talatherim = {
 	defender_of_faith = no
 	can_form_personal_unions = yes
@@ -886,11 +883,7 @@ religion_group_khazad = {
 			tolerance_own = 1
 		}
 		
-<<<<<<< HEAD
 		holy_sites = { 287 1051 628 740 1206 630 2004 2019 1569 786 }
-=======
-		holy_sites = { 292 679 642 882 285 }
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 		
 		blessings = {
 			dwarven_blessing_send_traders
@@ -901,7 +894,6 @@ religion_group_khazad = {
 		}
 		
 		#Erebor = 292
-<<<<<<< HEAD
 		#Belegost = 1051
 		#Gundabad = 628
 		#Moria = 740
@@ -911,12 +903,6 @@ religion_group_khazad = {
 		#Baraz-Iagil = 2019
 		#Murthunin = 1569
 		#Kheledhkihizdin = 786
-=======
-		#Dains Hall = 679
-		#Gundabad = 642
-		#Western Halls of Moria = 882
-		#Eastern Halls of Moria = 285
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 	}
 }
 

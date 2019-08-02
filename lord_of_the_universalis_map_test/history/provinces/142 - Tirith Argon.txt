@@ -10,19 +10,11 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-<<<<<<< HEAD
 is_city = yes
 
 base_tax = 9
 base_production = 9
 base_manpower = 9
-=======
-is_city = no
-
-base_tax = 2
-base_production = 4
-base_manpower = 3
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 add_core = X19
 owner = X19
@@ -35,7 +27,6 @@ trade_goods = silk
 
 hre = no
 
-<<<<<<< HEAD
 fortress_3_building=yes
 fort_castle_building=yes
 garrison_building=yes
@@ -43,8 +34,6 @@ forge_building=yes
 marketplace_building=yes
 provincial_office_building=yes
 
-=======
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
 discovered_by = lotr_black_numenorean

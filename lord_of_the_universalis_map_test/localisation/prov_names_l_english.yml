@@ -240,11 +240,7 @@
  PROV239: "Minas Hyarrómenyaron"
  PROV240: "Rond Hyarr"
  PROV241: "Firaen"
-<<<<<<< HEAD
  PROV242: "Linladwen"
-=======
- PROV242: "Dol Gormaen"
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
  PROV243: "Caras Celairnen"
  PROV244: "Lelmoth"
  PROV245: "Minas Ongoth"
@@ -2432,15 +2428,9 @@
  PROV2427: "Thangorodrim"
  PROV2428: "Sea of Belegaer 73"
  PROV2429: "Sea of Belegaer 74"
-<<<<<<< HEAD
  PROV2430: "Rast Morag"
  PROV2431: "Hûb Lostas"
  PROV2432: "Hûb-in-Uinin"
-=======
- PROV2430: "Sea of Belegaer 75"
- PROV2431: "Hûb Lostas"
- PROV2432: "Sea of Belegaer 77"
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
  PROV2433: "Hûb Helcharaes"
  PROV2434: "Sea of Belegaer 79"
  PROV2435: "Sea of Belegaer 80"
@@ -2567,13 +2557,8 @@
  PROV2556: "Eastern Sea 14"
  PROV2557: "Coast of Teluy"
  PROV2558: "Coast of Flojim"
-<<<<<<< HEAD
  PROV2559: "Nen Celedril"
  PROV2560: "Coast of Jojojopo"
-=======
- PROV2559: "South Coast of Jojojopa"
- PROV2560: "North Coast of Jojojopa"
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
  PROV2561: "Coast of Nirshat"
  PROV2562: "Coast of Shenn"
  PROV2563: "Coast of Belzayan"
@@ -3228,7 +3213,6 @@
  PROV3212: "Rûn"
  PROV3213: "Raba"
  PROV3214: "Folen"
-<<<<<<< HEAD
  PROV3215: "Anadûne"
  PROV3216: "Scrandburg"
  PROV3217: "Ceorstoc"
@@ -3399,6 +3383,3 @@
  PROV3382: "Sumar-Dar"
  PROV3383: "Kârsunaj"
  PROV3384: "Raishanân"
-=======
- PROV3215: "Anadûne"
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba

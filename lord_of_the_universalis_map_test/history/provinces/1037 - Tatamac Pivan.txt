@@ -16,17 +16,12 @@ base_tax = 6
 base_production = 6
 base_manpower = 8
 
-<<<<<<< HEAD
 add_core = V84
 owner = V84
 controller = V84
 
 culture = culture_rulurk
 religion = religion_avaradan
-=======
-culture = culture_wilderness
-religion = religion_wilderness
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 trade_goods = wool
 

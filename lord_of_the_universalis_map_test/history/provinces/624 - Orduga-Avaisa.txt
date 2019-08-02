@@ -70,8 +70,5 @@ discovered_by = lotr_wights
 	add_core = X86
 	owner = X86
 	controller = X86
-<<<<<<< HEAD
 	}
-=======
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 }

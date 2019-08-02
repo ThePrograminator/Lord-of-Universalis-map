@@ -13,13 +13,8 @@
 is_city = no
 
 base_tax = 3
-<<<<<<< HEAD
 base_production = 3
 base_manpower = 3
-=======
-base_production = 4
-base_manpower = 10
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 add_core = X31
 owner = X31
@@ -28,11 +23,7 @@ controller = X31
 culture = culture_koanoze
 religion = religion_apysani_beduins
 
-<<<<<<< HEAD
 trade_goods = stone
-=======
-trade_goods = gold
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 hre = no
 

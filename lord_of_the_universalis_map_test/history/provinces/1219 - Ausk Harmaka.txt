@@ -13,13 +13,8 @@
 is_city = no
 
 base_tax = 2
-<<<<<<< HEAD
 base_production = 6
 base_manpower = 2
-=======
-base_production = 8
-base_manpower = 1
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 add_core = X24
 owner = X24
@@ -28,11 +23,7 @@ controller = X24
 culture = culture_donaen
 religion = religion_daen
 
-<<<<<<< HEAD
 trade_goods = wine
-=======
-trade_goods = gold
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 hre = no
 

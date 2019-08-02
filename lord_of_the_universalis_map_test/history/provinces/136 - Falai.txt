@@ -14,23 +14,14 @@ is_city = no
 
 base_tax = 3
 base_production = 3
-<<<<<<< HEAD
 base_manpower = 2
-=======
-base_manpower = 3
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 add_core = X25
 owner = X25
 controller = X25
 
-<<<<<<< HEAD
 culture = culture_sakalai
 religion = religion_daen
-=======
-culture = culture_haruze
-religion = religion_haruzani
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 trade_goods = cloth
 

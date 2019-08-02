@@ -12,15 +12,9 @@
 
 is_city = yes
 
-<<<<<<< HEAD
 base_tax = 5
 base_production = 5
 base_manpower = 6
-=======
-base_tax = 8
-base_production = 2
-base_manpower = 8
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 add_core = Y59
 owner = Y59
@@ -33,14 +27,11 @@ trade_goods = iron
 
 hre = no
 
-<<<<<<< HEAD
 encampment_1_orc_building=yes
 orc_fissure_orc_building=yes
 enforcer_camp_orc_building=yes
 blacksmith_orc_building=yes
 
-=======
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
 discovered_by = lotr_black_numenorean

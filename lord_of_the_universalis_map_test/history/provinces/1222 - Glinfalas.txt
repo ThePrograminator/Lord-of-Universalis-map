@@ -12,25 +12,15 @@
 
 is_city = no
 
-<<<<<<< HEAD
 base_tax = 4
 base_production = 4
 base_manpower = 4
-=======
-base_tax = 8
-base_production = 2
-base_manpower = 5
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 add_core = V48
 owner = V48
 controller = V48
 
-<<<<<<< HEAD
 culture = culture_umbareans
-=======
-culture = culture_haruze
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 religion = religion_haruzani
 
 trade_goods = grain

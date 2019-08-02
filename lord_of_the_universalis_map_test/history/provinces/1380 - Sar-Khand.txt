@@ -12,15 +12,9 @@
 
 is_city = no
 
-<<<<<<< HEAD
 base_tax = 3
 base_production = 3
 base_manpower = 4
-=======
-base_tax = 5
-base_production = 10
-base_manpower = 8
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 add_core = X83
 owner = X83
@@ -33,12 +27,9 @@ trade_goods = fur
 
 hre = no
 
-<<<<<<< HEAD
 settlement_building=yes
 outpost_building=yes
 
-=======
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
 discovered_by = lotr_black_numenorean

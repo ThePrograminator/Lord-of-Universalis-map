@@ -17,23 +17,14 @@ base_production = 3
 base_manpower = 3
 
 add_core = X25
-<<<<<<< HEAD
 add_core = X26
 owner = X26
 controller = X26
-=======
-owner = X25
-controller = X25
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 culture = culture_haruze
 religion = religion_haruzani
 
-<<<<<<< HEAD
 trade_goods = slaves
-=======
-trade_goods = spices
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 hre = no
 

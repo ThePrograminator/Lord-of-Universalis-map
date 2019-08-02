@@ -13,11 +13,7 @@
 is_city = yes
 
 base_tax = 1
-<<<<<<< HEAD
 base_production = 2
-=======
-base_production = 3
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 base_manpower = 2
 
 add_core = Y56
@@ -27,7 +23,6 @@ controller = Y56
 culture = culture_orkish
 religion = religion_orkish
 
-<<<<<<< HEAD
 trade_goods = herbs
 
 hre = no
@@ -37,12 +32,6 @@ add_province_modifier = {
 	duration = -1
 }
 
-=======
-trade_goods = grain
-
-hre = no
-
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
 discovered_by = lotr_black_numenorean

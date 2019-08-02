@@ -12,15 +12,9 @@
 
 is_city = yes
 
-<<<<<<< HEAD
 base_tax = 5
 base_production = 5
 base_manpower = 5
-=======
-base_tax = 2
-base_production = 2
-base_manpower = 2
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 add_core = Y16
 owner = Y16
@@ -33,15 +27,12 @@ trade_goods = iron
 
 hre = no
 
-<<<<<<< HEAD
 hold_1_dwarf_building=yes
 fort_small_gatehouse_dwarf_building=yes
 armoury_dwarf_building=yes
 mustering_hall_dwarf_building=yes
 mining_network_dwarf_building=yes
 
-=======
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
 discovered_by = lotr_black_numenorean

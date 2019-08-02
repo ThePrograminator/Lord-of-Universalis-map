@@ -76,8 +76,5 @@ discovered_by = lotr_wights
 	add_core = V49
 	owner = V49
 	controller = V49
-<<<<<<< HEAD
 	}
-=======
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 }

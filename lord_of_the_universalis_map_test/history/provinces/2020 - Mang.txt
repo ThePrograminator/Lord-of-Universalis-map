@@ -12,15 +12,9 @@
 
 is_city = yes
 
-<<<<<<< HEAD
 base_tax = 5
 base_production = 5
 base_manpower = 5
-=======
-base_tax = 1
-base_production = 1
-base_manpower = 1
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 add_core = Y64
 owner = Y64
@@ -29,11 +23,7 @@ controller = Y64
 culture = culture_orkish
 religion = religion_orkish
 
-<<<<<<< HEAD
 trade_goods = iron
-=======
-trade_goods = grain
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 hre = no
 

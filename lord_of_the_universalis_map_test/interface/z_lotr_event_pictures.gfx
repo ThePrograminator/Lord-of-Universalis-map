@@ -38,7 +38,6 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/THE_FOURTH_AGE_eventPicture.dds"
 		allwaystransparent = yes
 	}
-<<<<<<< HEAD
 	
 	#-------------------------------------------------------------------------------------
 	# Dwarven Event Pictures
@@ -174,6 +173,4 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/event_pictures_REPLACEMENTS/DWARVES/WOUNDED_SOLDIERS_eventPicture_dwarves.dds"
 	}
 
-=======
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 }

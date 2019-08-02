@@ -124,13 +124,10 @@
  misty_mountains_region_name: "The Misty Mountains"
  misty_mountains_region_adj: "Misty Mountains"
  
-<<<<<<< HEAD
  grey_mountains_region: "The Grey Mountains"
  grey_mountains_region_name: "The Grey Mountains"
  grey_mountains_region_adj: "The Grey Mountains"
  
-=======
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
  shire_region: "The Shire"
  shire_region_name: "The Shire"
  shire_region_adj: "The Shire"
@@ -147,7 +144,6 @@
  harondor_region_name: "Harondor"
  harondor_region_adj: "Harondor"
  
-<<<<<<< HEAD
  harnendor_region: "Harnendor"
  harnendor_region_name: "Harnendor"
  harnendor_region_adj: "Harnendor"
@@ -176,13 +172,10 @@
  siakan_region_name: "Siakan"
  siakan_region_adj: "Siakan"
  
-=======
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
  nen_umbar_region: "Nen Umbar"
  nen_umbar_region_name: "Nen Umbar"
  nen_umbar_region_adj: "Nen Umbar"
  
-<<<<<<< HEAD
  urdwaith_region: "Urdwaith"
  urdwaith_region_name: "Urdwaith"
  urdwaith_region_adj: "Urdwaith"
@@ -199,8 +192,6 @@
  bellakar_region_name: "Bellakar"
  bellakar_region_adj: "Bellakar"
  
-=======
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
  raj_region: "Raj"
  raj_region_name: "Raj"
  raj_region_adj: "Raj"
@@ -213,13 +204,10 @@
  tulwang_name: "Tulwang"
  tulwang_adj: "Tulwang"
  
-<<<<<<< HEAD
  thani_hazad_region: "Thâni-Hazâd"
  thani_hazad_name: "Thâni-Hazâd"
  thani_hazad_adj: "Thâni-Hazâd"
  
-=======
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
  #-----------------------------
  # Sea/Ocean/River
  #-----------------------------
@@ -286,13 +274,6 @@
  helkeaar_sea_region_name: "Helkeäar Sea"
  helkeaar_sea_region_adj: "Helkeäar Sea"
  
-<<<<<<< HEAD
-=======
- bay_of_utum_region: "Bay of Utum"
- bay_of_utum_region_name: "Bay of Utum"
- bay_of_utum_region_adj: "Bay of Utum"
- 
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
  #-----------------------------
  # Ormal Sea
  #-----------------------------
@@ -650,7 +631,6 @@
  cirith_auris_adj: "Cirith Auris"
  
  #-----------------------------
-<<<<<<< HEAD
  # Grey Mountains 
  #-----------------------------
  
@@ -686,8 +666,6 @@
  withered_heath_adj: "Withered Heath"
  
  #-----------------------------
-=======
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
  # Vales of Anduin 
  #----------------------------- 
  
@@ -876,7 +854,6 @@
  ###########################
  
  #-----------------------------
-<<<<<<< HEAD
  # Harondor
  #-----------------------------
  
@@ -1060,8 +1037,6 @@
  eluzan_area_adj: "Êluzan"
  
  #-----------------------------
-=======
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
  # Nen Umbar
  #-----------------------------
  
@@ -1103,7 +1078,6 @@
  kirithani_area_adj: "Kirithâni"
  
  #-----------------------------
-<<<<<<< HEAD
  # Dune Sea
  #-----------------------------
  
@@ -1115,8 +1089,6 @@
  fire_plains_area_adj: "Fire Plains"
  
  #-----------------------------
-=======
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
  # Raj
  #-----------------------------
  bozisha-miraz_area: "Bozisha-Miraz"
@@ -1208,52 +1180,6 @@
  #-----------------------------
  # Western Ocean Area
  #-----------------------------
-<<<<<<< HEAD
-=======
- sea_of_tol_falas_area: "Sea of Tol Falas"
- sea_of_tol_falas_area_name: "Sea of Tol Falas"
- sea_of_tol_falas_area_adj: "Sea of Tol Falas"
- 
- gulf_of_linhir_area: "Gulf of Linhir"
- gulf_of_linhir_area_name: "Gulf of Linhir"
- gulf_of_linhir_area_adj: "Gulf of Linhir"
- 
- coast_of_belfalas_area: "Coast of Belfalas"
- coast_of_belfalas_area_name: "Coast of Belfalas"
- coast_of_belfalas_area_adj: "Coast of Belfalas"
- 
- coast_of_anfalas_area: "Coast of Anfalas"
- coast_of_anfalas_area_name: "Coast of Anfalas"
- coast_of_anfalas_area_adj: "Coast of Anfalas"
- 
- cap_of_andrast_area: "Cap of Anfalas"
- cap_of_andrast_area_name: "Cap of Anfalas"
- cap_of_andrast_area_adj: "Cap of Anfalas"
- 
- coast_of_parth_laur_area: "Coast of Parth Laur"
- coast_of_parth_laur_area_name: "Coast of Parth Laur"
- coast_of_parth_laur_area_adj: "Coast of Parth Laur"
- 
- coast_of_harondor_area: "Coast of Harondor"
- coast_of_harondor_area_name: "Coast of Harondor"
- coast_of_harondor_area_adj: "Coast of Harondor"
- 
- coast_of_glinfalas_area: "Coast of Glinfalas"
- coast_of_glinfalas_area_name: "Coast of Glinfalas"
- coast_of_glinfalas_area_adj: "Coast of Glinfalas"
- 
- bay_of_umbar_area: "Gulf of Umbar"
- bay_of_umbar_area_name: "Gulf of Umbar"
- bay_of_umbar_area_adj: "Gulf of Umbar"
- 
- coast_of_mardrauk_area: "Coast of Mardrauk"
- coast_of_mardrauk_area_name: "Coast of Mardrauk"
- coast_of_mardrauk_area_adj: "Coast of Mardrauk"
- 
- sea_of_tol_uialgaer_area: "Sea of Tol Uialgaer"
- sea_of_tol_uialgaer_area_name: "Sea of Tol Uialgaer"
- sea_of_tol_uialgaer_area_adj: "Sea of Tol Uialgaer"
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
  
  bay_of_belfalas_area: "Bay of Belfalas"
  bay_of_belfalas_area_name: "Bay of Belfalas"
@@ -1271,99 +1197,14 @@
  sea_of_forodwaith_area_name: "Sea of Forodwaith"
  sea_of_forodwaith_area_adj: "Sea of Forodwaith"
  
-<<<<<<< HEAD
-=======
- sea_of_lonely_islands_area: "Sea of The Lonely Islands"
- sea_of_lonely_islands_area_name: "Sea of The Lonely Islands"
- sea_of_lonely_islands_area_adj: "Sea of The Lonely Islands"
- 
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
  bay_of_falaya_area: "Bay of Falaya"
  bay_of_falaya_area_name: "Bay of Falaya"
  bay_of_falaya_area_adj: "Bay of Falaya"
  
-<<<<<<< HEAD
-=======
- coast_of_kulijar_area: "Coast of Kulijar"
- coast_of_kulijar_area_name: "Coast of Kulijar"
- coast_of_kulijar_area_adj: "Coast of Kulijar"
- 
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
  bay_of_tulwang_area: "Bay of Tulwang"
  bay_of_tulwang_area_name: "Bay of Tulwang"
  bay_of_tulwang_area_adj: "Bay of Tulwang"
  
-<<<<<<< HEAD
-=======
- strait_of_bishra_area: "Strait of Bishra"
- strait_of_bishra_area_name: "Strait of Bishra"
- strait_of_bishra_area_adj: "Strait of Bishra"
- 
- gulf_of_nashar_area: "Gulf of Nashar"
- gulf_of_nashar_area_name: "Gulf of Nashar"
- gulf_of_nashar_area_adj: "Gulf of Nashar"
- 
- gulf_of_forondir_area: "Gulf of Forondir"
- gulf_of_forondir_area_name: "Gulf of Forondir"
- gulf_of_forondir_area_adj: "Gulf of Forondir"
- 
- sea_of_tel_firn_i_guinar_area: "Sea of Tel Firn-i-Guinar"
- sea_of_tel_firn_i_guinar_area_name: "Sea of Tel Firn-i-Guinar"
- sea_of_tel_firn_i_guinar_area_adj: "Sea of Tel Firn-i-Guinar"
- 
- coast_of_harlindon_area: "Coast of Harlindon"
- coast_of_harlindon_area_name: "Coast of Harlindon"
- coast_of_harlindon_area_adj: "Coast of Harlindon"
- 
- gulf_of_lhun_area: "Gulf of Lhun"
- gulf_of_lhun_area_name: "Gulf of Lhun"
- gulf_of_lhun_area_adj: "Gulf of Lhun"
- 
- coast_of_forlindon_area: "Coast of Forlindon"
- coast_of_forlindon_area_name: "Coast of Forlindon"
- coast_of_forlindon_area_adj: "Coast of Forlindon"
- 
- coast_of_lothlann_area: "Coast of Lothlann"
- coast_of_lothlann_area_name: "Coast of Lothlann"
- coast_of_lothlann_area_adj: "Coast of Lothlann"
- 
- sea_of_tol_fuin_area: "Sea of Tol Fuin"
- sea_of_tol_fuin_area_name: "Sea of Tol Fuin"
- sea_of_tol_fuin_area_adj: "Sea of Tol Fuin"
- 
- sea_of_tol_morwen_area: "Sea of Tol Morwen"
- sea_of_tol_morwen_area_name: "Sea of Tol Morwen"
- sea_of_tol_morwen_area_adj: "Sea of Tol Morwen"
- 
- bay_of_forochel_area: "Bay of Forochel"
- bay_of_forochel_area_name: "Bay of Forochel"
- bay_of_forochel_area_adj: "Bay of Forochel"
- 
- gulf_of_helcharaes_area: "Gulf of Helcharaes"
- gulf_of_helcharaes_area_name: "Gulf of Helcharaes"
- gulf_of_helcharaes_area_adj: "Gulf of Helcharaes"
- 
- coast_of_jarvamaa_area: "Coast of Jarvamaa"
- coast_of_jarvamaa_area_name: "Coast of Jarvamaa"
- coast_of_jarvamaa_area_adj: "Coast of Jarvamaa"
- 
- coast_of_rast_lornaeth_area: "Coast of Rast Lornaeth"
- coast_of_rast_lornaeth_area_name: "Coast of Rast Lornaeth"
- coast_of_rast_lornaeth_area_adj: "Coast of Rast Lornaeth"
- 
- coast_of_aanaar_area: "Coast of Aanaar"
- coast_of_aanaar_area_name: "Coast of Aanaar"
- coast_of_aanaar_area_adj: "Coast of Aanaar"
- 
- coast_of_minheldolath_area: "Coast of Minheldolath"
- coast_of_minheldolath_area_name: "Coast of Minheldolath"
- coast_of_minheldolath_area_adj: "Coast of Minheldolath"
- 
- coast_of_achrond_area: "Coast of Achrond"
- coast_of_achrond_area_name: "Coast of Achrond"
- coast_of_achrond_area_adj: "Coast of Achrond"
- 
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
  north_sea_of_belegaer_area: "North Sea of Belegaer"
  north_sea_of_belegaer_area_name: "North Sea of Belegaer"
  north_sea_of_belegaer_area_adj: "North Sea of Belegaer"
@@ -1380,35 +1221,9 @@
  # Helkeaar Sea
  #-----------------------------
  
-<<<<<<< HEAD
  bay_of_utum_area: "Bay of Utum"
  bay_of_utum_area_name: "Bay of Utum"
  bay_of_utum_area_adj: "Bay of Utum"
-=======
- helkeaar_sea_area: "Helkaer Sea"
- helkeaar_sea_area_name: "Helkaer Sea"
- helkeaar_sea_area_adj: "Helkaer Sea"
- 
- coast_of_ukal_sej_area: "Coast of Ukal Sej"
- coast_of_ukal_sej_area_name: "Coast of Ukal Sej"
- coast_of_ukal_sej_area_adj: "Coast of Ukal Sej"
- 
- gulf_of_unknown_area: "Gulf of Unknown"
- gulf_of_unknown_area_name: "Gulf of Unknown"
- gulf_of_unknown_area_adj: "Gulf of Unknown"
- 
- sea_of_solitude_area: "Sea of Solitude"
- sea_of_solitude_area_name: "Sea of Solitude"
- sea_of_solitude_area_adj: "Sea of Solitude"
- 
- sea_of_storms_area: "Sea of Storms"
- sea_of_storms_area_name: "Sea of Storms"
- sea_of_storms_area_adj: "Sea of Storms"
- 
- sea_of_havens_area: "Sea of Havens"
- sea_of_havens_area_name: "Sea of Havens"
- sea_of_havens_area_adj: "Sea of Havens"
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
  
 #---------------------------
 # Ormal Sea
@@ -1426,17 +1241,6 @@
  bay_of_sakalan_area_name: "Bay of Sakalan"
  bay_of_sakalan_area_adj: "Bay of Sakalan"
  
-<<<<<<< HEAD
-=======
- sea_of_ormal_area: "Sea of Ormal"
- sea_of_ormal_area_name: "Sea of Ormal"
- sea_of_ormal_area_adj: "Sea of Ormal"
- 
- bay_of_shay_area: "Bay of Shay"
- bay_of_shay_area_name: "Bay of Shay"
- bay_of_shay_area_adj: "Bay of Shay"
- 
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
  #---------------------------
 # Eastern Sea
 #---------------------------

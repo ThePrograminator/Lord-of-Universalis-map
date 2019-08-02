@@ -12,15 +12,9 @@
 
 is_city = yes
 
-<<<<<<< HEAD
 base_tax = 8
 base_production = 8
 base_manpower = 6
-=======
-base_tax = 2
-base_production = 1
-base_manpower = 3
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 add_core = X27
 owner = X27
@@ -33,14 +27,11 @@ trade_goods = salt
 
 hre = no
 
-<<<<<<< HEAD
 city_2_building=yes
 seaport_building=yes
 army_camp_building=yes
 tax_office_building=yes
 
-=======
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
 discovered_by = lotr_black_numenorean

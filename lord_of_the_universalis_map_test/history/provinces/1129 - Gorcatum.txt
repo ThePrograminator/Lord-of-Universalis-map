@@ -12,15 +12,9 @@
 
 is_city = yes
 
-<<<<<<< HEAD
 base_tax = 4
 base_production = 6
 base_manpower = 6
-=======
-base_tax = 2
-base_production = 9
-base_manpower = 1
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 add_core = Y44
 owner = Y44
@@ -29,7 +23,6 @@ controller = Y44
 culture = culture_goblin
 religion = religion_goblin
 
-<<<<<<< HEAD
 trade_goods = salt
 
 hre = no
@@ -39,12 +32,6 @@ enforcer_camp_orc_building=yes
 blacksmith_orc_building=yes
 orc_pit_orc_building=yes
 
-=======
-trade_goods = gold
-
-hre = no
-
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
 discovered_by = lotr_black_numenorean

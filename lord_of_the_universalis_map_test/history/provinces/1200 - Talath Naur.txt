@@ -10,19 +10,11 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-<<<<<<< HEAD
 is_city = no
 
 base_tax = 2
 base_production = 3
 base_manpower = 2
-=======
-is_city = yes
-
-base_tax = 8
-base_production = 4
-base_manpower = 8
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 add_core = X27
 owner = X27
@@ -31,11 +23,7 @@ controller = X27
 culture = culture_umbareans
 religion = religion_black_numenorean
 
-<<<<<<< HEAD
 trade_goods = stone
-=======
-trade_goods = wool
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 hre = no
 

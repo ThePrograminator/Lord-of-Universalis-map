@@ -1,13 +1,7 @@
 #Country Name: Please see filename.
-<<<<<<< HEAD
 graphical_culture = lotr_rhun_gfx
 
 color = { 190 160 120 }
-=======
-graphical_culture = muslimgfx
-
-color = { 190 165 125 }
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 historical_idea_groups = {
 	offensive_ideas

@@ -1,11 +1,7 @@
 #Country Name: Please see filename.
 graphical_culture = lotr_orc_gfx
 
-<<<<<<< HEAD
 color = { 200 45 45 }
-=======
-color = { 255 0 0 }
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 historical_idea_groups = {
 	offensive_ideas

@@ -10,19 +10,11 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-<<<<<<< HEAD
 is_city = yes
 
 base_tax = 5
 base_production = 6
 base_manpower = 5
-=======
-is_city = no
-
-base_tax = 1
-base_production = 1
-base_manpower = 1
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 add_core = X28
 owner = X28
@@ -31,7 +23,6 @@ controller = X28
 culture = culture_jelut_nomads
 religion = religion_haruzani
 
-<<<<<<< HEAD
 trade_goods = ivory
 
 hre = no
@@ -42,12 +33,6 @@ tax_office_building=yes
 workshop_building=yes
 army_camp_building=yes
 
-=======
-trade_goods = livestock
-
-hre = no
-
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
 discovered_by = lotr_black_numenorean

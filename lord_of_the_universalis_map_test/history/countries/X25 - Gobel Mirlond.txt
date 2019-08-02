@@ -2,7 +2,6 @@ mercantilism = 0.1
 government = monarchy
 
 add_government_reform = principality_reform
-<<<<<<< HEAD
 primary_culture = culture_sakalai
 religion = religion_haruzani
 technology_group = lotr_haradrim
@@ -20,9 +19,3 @@ historical_rival = X02
 historical_rival = X11
 historical_rival = X16
 historical_rival = V48
-=======
-primary_culture = culture_haruze
-religion = religion_haruzani
-technology_group = lotr_haradrim
-capital = 131
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba

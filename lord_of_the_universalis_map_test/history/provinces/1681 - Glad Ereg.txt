@@ -10,44 +10,28 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-<<<<<<< HEAD
 is_city = no
 
 base_tax = 2
 base_production = 3
 base_manpower = 2
-=======
-is_city = yes
-
-base_tax = 8
-base_production = 9
-base_manpower = 7
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 add_core = Y80
 owner = Y80
 controller = Y80
 
-<<<<<<< HEAD
 culture = culture_wilderness
 religion = religion_wilderness
-=======
-culture = culture_noldor
-religion = religion_calaquendi
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 trade_goods = copper
 
 hre = no
 
-<<<<<<< HEAD
 add_province_modifier = {
 	name = ruins_debuff
 	duration = -1
 }
 
-=======
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
 discovered_by = lotr_black_numenorean

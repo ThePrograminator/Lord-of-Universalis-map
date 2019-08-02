@@ -16,21 +16,12 @@ base_tax = 6
 base_production = 6
 base_manpower = 2
 
-<<<<<<< HEAD
 add_core = V96
 owner = V96
 controller = V96
 
 culture = culture_wight
 religion = religion_wight
-=======
-add_core = Z85
-owner = Z85
-controller = Z85
-
-culture = culture_aca-folk
-religion = religion_easterlings
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 
 trade_goods = iron
 

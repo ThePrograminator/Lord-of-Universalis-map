@@ -45,89 +45,17 @@ river_place_region = {
 	}
 }
 
-<<<<<<< HEAD
-=======
-bay_of_belfalas_region = {
-	areas = {
-		sea_of_tol_falas_area
-		gulf_of_linhir_area
-		coast_of_belfalas_area
-		coast_of_anfalas_area
-		cap_of_andrast_area
-		coast_of_harondor_area
-		coast_of_glinfalas_area
-		bay_of_umbar_area
-		coast_of_mardrauk_area
-		sea_of_tol_uialgaer_area
-		bay_of_belfalas_area
-	}
-}
-
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 sea_of_belegaer_region = {
 	areas = {
 		north_sea_of_belegaer_area
 		central_sea_of_belegaer_area
 		south_sea_of_belegaer_area
-<<<<<<< HEAD
 		bay_of_belfalas_area
 		bay_of_falaya_area
 		bay_of_tulwang_area
 		sea_of_enedwaith_area
 		sea_of_eriador_area
 		sea_of_forodwaith_area
-=======
-		sea_of_lonely_islands_area
-	}
-}
-
-sea_of_harad_region = {
-	areas = {
-		bay_of_falaya_area
-		coast_of_kulijar_area
-		bay_of_tulwang_area
-		strait_of_bishra_area
-		gulf_of_nashar_area
-	}
-}
-
-sea_of_enedwaith_region = {
-	areas = {
-		sea_of_enedwaith_area
-		coast_of_parth_laur_area
-	}
-}
-
-sea_of_eriador_region = {
-	areas = {
-		gulf_of_forondir_area
-		sea_of_tel_firn_i_guinar_area
-		coast_of_harlindon_area
-		gulf_of_lhun_area
-		coast_of_forlindon_area
-		coast_of_lothlann_area
-		sea_of_tol_fuin_area
-		sea_of_tol_morwen_area
-		sea_of_eriador_area
-	}
-}
-
-sea_of_forodwaith_region = {
-	areas = {
-		sea_of_forodwaith_area
-		coast_of_aanaar_area
-		coast_of_minheldolath_area
-		coast_of_achrond_area
-	}
-}
-
-bay_of_beriannen_region = {
-	areas = {
-		bay_of_forochel_area
-		gulf_of_helcharaes_area
-		coast_of_jarvamaa_area
-		coast_of_rast_lornaeth_area
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 	}
 }
 
@@ -137,21 +65,7 @@ bay_of_beriannen_region = {
 
 helkeaar_sea_region = {
 	areas = {
-<<<<<<< HEAD
 		bay_of_utum_area
-=======
-		helkeaar_sea_area
-		coast_of_ukal_sej_area
-		gulf_of_unknown_area
-	}
-}
-
-bay_of_utum_region = {
-	areas = {
-		sea_of_solitude_area
-		sea_of_storms_area
-		sea_of_havens_area
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 	}
 }
 
@@ -163,11 +77,6 @@ ormal_sea_region = {
 	areas = {
 		bay_of_chy_area
 		sea_of_codya_area
-<<<<<<< HEAD
-=======
-		sea_of_ormal_area
-		bay_of_shay_area
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 		bay_of_sakalan_area
 	}
 }
@@ -237,10 +146,7 @@ old_pukel_land_region = {
 		parth_laur_area
 		druwaith_laur_area
 		balorn_area
-<<<<<<< HEAD
 		nan_angren_area
-=======
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 	}
 }
 
@@ -259,10 +165,7 @@ rohan_region = {
 		fangorn_area
 		gap_of_rohan_area
 		nan_curunir_area
-<<<<<<< HEAD
 		fenmark_area
-=======
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 	}
 }
 
@@ -370,7 +273,6 @@ vales_of_anduin_region = {
 	}
 }
 
-<<<<<<< HEAD
 grey_mountains_region = {
 	areas = {
 		grey_mountains_area
@@ -387,8 +289,6 @@ grey_mountains_region = {
 	}
 }
 
-=======
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 #---------------------------
 # Eriador                           
 #---------------------------
@@ -448,7 +348,6 @@ eregion_region = {
 harondor_region = {
 	areas = {
 		laergaladrin_area
-<<<<<<< HEAD
 		eredtir_area
 		emyn_gonngaran_area
 		carnentir_area
@@ -521,16 +420,6 @@ siakan_region = {
 		ankruz_area
 		kopanzke_area
 		eluzan_area
-=======
-		emyn_annun_area
-		gobel_mirlond_area
-		aegardh_area
-		imlad_carnen_area
-		emyn_imladrim_area
-		falai_area
-		hingren_area
-		emyn_gonngaran_area
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 	}
 }
 
@@ -551,7 +440,6 @@ nen_umbar_region = {
 	}
 }
 
-<<<<<<< HEAD
 urdwaith_region = {
 	areas = {
 		urdwaith_area
@@ -603,13 +491,10 @@ bellakar_region = {
 	}
 }
 
-=======
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 #---------------------------
 # Far Harad                           
 #---------------------------
 
-<<<<<<< HEAD
 dune_sea_region = {
 	areas = {
 		dune_sea_area
@@ -622,8 +507,6 @@ fire_plains_region = {
 	}
 }
 
-=======
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 raj_region = {
 	areas = {
 		bozisha-miraz_area
@@ -632,10 +515,7 @@ raj_region = {
 		suza_rij_area
 		rijesha_vale_area
 		brij-mijesec_area
-<<<<<<< HEAD
 		suza_sumar_area
-=======
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
 	}
 }
 
@@ -649,7 +529,6 @@ sud_sicanna_region = {
 tulwang_region = {
 	areas = {
 		raishoul_area
-<<<<<<< HEAD
 		bishra_area
 		kanjar_area
 		tulwang_area
@@ -666,7 +545,3 @@ thani_hazad_region = {
 		ciryatandor_area
 	}
 }
-=======
-	}
-}
->>>>>>> e4bc48e570b87b2d25299aa32302ae7fda9749ba
