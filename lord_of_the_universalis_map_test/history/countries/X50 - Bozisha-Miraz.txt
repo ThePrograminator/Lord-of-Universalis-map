@@ -1,0 +1,8 @@
+mercantilism = 0.1
+government = monarchy
+add_government_reform = feudalism_reform
+
+primary_culture = culture_bozishnarod
+religion = religion_sea_peoples
+technology_group = lotr_bellakarian
+capital = 517

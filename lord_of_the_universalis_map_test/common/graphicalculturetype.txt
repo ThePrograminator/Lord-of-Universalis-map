@@ -1,0 +1,16 @@
+westerngfx
+easterngfx
+muslimgfx
+indiangfx
+asiangfx
+africangfx
+northamericagfx
+southamericagfx
+inuitgfx
+lotr_gondorian_gfx
+lotr_orc_gfx
+lotr_rohan_gfx
+lotr_isengard_gfx
+lotr_dwarf_gfx
+lotr_elf_gfx
+lotr_rhun_gfx

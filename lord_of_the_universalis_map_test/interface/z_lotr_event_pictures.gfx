@@ -1,0 +1,176 @@
+spriteTypes = {
+	#-------------------------------------------------------------------------------------
+	# Event Pictures
+	#-------------------------------------------------------------------------------------
+	
+	spriteType = {
+		name = "DESOLATION_OF_SMAUG_eventPicture"
+		texturefile = "gfx/event_pictures/DESOLATION_OF_SMAUG_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "WAR_OF_THE_DWARVES_AND_ORCS_eventPicture"
+		texturefile = "gfx/event_pictures/WAR_OF_THE_DWARVES_AND_ORCS_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "CORUPTION_OF_DOL_GULDUR_eventPicture"
+		texturefile = "gfx/event_pictures/CORUPTION_OF_DOL_GULDUR_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "UMBAR_RISING_POWER_eventPicture"
+		texturefile = "gfx/event_pictures/UMBAR_RISING_POWER_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "BATTLE_OF_MIDDLE_EARTH_eventPicture"
+		texturefile = "gfx/event_pictures/BATTLE_OF_MIDDLE_EARTH_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "THE_FOURTH_AGE_eventPicture"
+		texturefile = "gfx/event_pictures/THE_FOURTH_AGE_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	#-------------------------------------------------------------------------------------
+	# Dwarven Event Pictures
+	#-------------------------------------------------------------------------------------
+	
+	spriteType = {
+		name = "lotr_dwarf_gfx_ARTWORK_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_REPLACEMENTS/DWARVES/ARTWORK_eventPicture_dwarves.dds"
+	}
+	
+	spriteType = {
+		name = "lotr_dwarf_gfx_BAD_WITH_MONARCH_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_REPLACEMENTS/DWARVES/BAD_WITH_MONARCH_eventPicture_dwarves.dds"
+	}
+	
+	spriteType = {
+		name = "lotr_dwarf_gfx_BANKRUPTCY_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_REPLACEMENTS/DWARVES/BANKRUPTCY_eventPicture_dwarves.dds"
+	}
+	
+	spriteType = {
+		name = "lotr_dwarf_gfx_BATTLE_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_REPLACEMENTS/DWARVES/BATTLE_eventPicture_dwarves.dds"
+	}
+	
+	spriteType = {
+		name = "lotr_dwarf_gfx_CITY_DEVELOPMENT_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_REPLACEMENTS/DWARVES/CITY_DEVELOPMENT_eventPicture_dwarves.dds"
+	}
+	
+	spriteType = {
+		name = "lotr_dwarf_gfx_CITY_VIEW_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_REPLACEMENTS/DWARVES/CITY_VIEW_eventPicture_dwarves.dds"
+	}
+	
+	spriteType = {
+		name = "lotr_dwarf_gfx_COLONIZATION_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_REPLACEMENTS/DWARVES/COLONIZATION_eventPicture_dwarves.dds"
+	}
+	
+	spriteType = {
+		name = "lotr_dwarf_gfx_CONQUEST_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_REPLACEMENTS/DWARVES/CONQUEST_eventPicture_dwarves.dds"
+	}
+	
+	spriteType = {
+		name = "lotr_dwarf_gfx_CORRUPTION_eventPicture_dwarves"
+		texturefile = "gfx/event_pictures/event_pictures_REPLACEMENTS/DWARVES/CORRUPTION_eventPicture_dwarves.dds"
+	}
+	
+	spriteType = {
+		name = "lotr_dwarf_gfx_COUNTRY_COLLAPSE_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_REPLACEMENTS/DWARVES/COUNTRY_COLLAPSE_eventPicture_dwarves.dds"
+	}
+	
+	spriteType = {
+		name = "lotr_dwarf_gfx_COURT_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_REPLACEMENTS/DWARVES/COURT_eventPicture_dwarves.dds"
+	}
+	
+	spriteType = {
+		name = "lotr_dwarf_gfx_CULTURE_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_REPLACEMENTS/DWARVES/CULTURE_eventPicture_dwarves.dds"
+	}
+	
+	spriteType = {
+		name = "lotr_dwarf_gfx_DIPLOMACY_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_REPLACEMENTS/DWARVES/DIPLOMACY_eventPicture_dwarves.dds"
+	}
+	
+	spriteType = {
+		name = "lotr_dwarf_gfx_ELECTION_REPUBLICAN_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_REPLACEMENTS/DWARVES/ELECTION_REPUBLICAN_eventPicture_dwarves.dds"
+	}
+	
+	spriteType = {
+		name = "lotr_dwarf_gfx_EXPLORERS_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_REPLACEMENTS/DWARVES/EXPLORERS_eventPicture_dwarves.dds"
+	}
+	
+	spriteType = {
+		name = "lotr_dwarf_gfx_FARMING_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_REPLACEMENTS/DWARVES/FARMING_eventPicture_dwarves.dds"
+	}
+	
+	spriteType = {
+		name = "lotr_dwarf_gfx_FEAST_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_REPLACEMENTS/DWARVES/FEAST_eventPicture_dwarves.dds"
+	}
+	
+	spriteType = {
+		name = "lotr_dwarf_gfx_GOOD_WITH_MONARCH_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_REPLACEMENTS/DWARVES/GOOD_WITH_MONARCH_eventPicture_dwarves.dds"
+	}
+	
+	spriteType = {
+		name = "lotr_dwarf_gfx_GREAT_BUILDING_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_REPLACEMENTS/DWARVES/GREAT_BUILDING_eventPicture_dwarves.dds"
+	}
+	
+	spriteType = {
+		name = "lotr_dwarf_gfx_INVENTION_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_REPLACEMENTS/DWARVES/INVENTION_eventPicture_dwarves.dds"
+	}
+	
+	spriteType = {
+		name = "lotr_dwarf_gfx_KING_SICK_IN_BED_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_REPLACEMENTS/DWARVES/KING_SICK_IN_BED_eventPicture_dwarves.dds"
+	}
+	
+	spriteType = {
+		name = "lotr_dwarf_gfx_NEW_HEIR_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_REPLACEMENTS/DWARVES/NEW_HEIR_eventPicture_dwarves.dds"
+	}
+	
+	spriteType = {
+		name = "lotr_dwarf_gfx_OVEREXTENSION_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_REPLACEMENTS/DWARVES/OVEREXTENSION_eventPicture_dwarves.dds"
+	}
+	
+	spriteType = {
+		name = "lotr_dwarf_gfx_PRAYING_eventPicture_dwarves"
+		texturefile = "gfx/event_pictures/event_pictures_REPLACEMENTS/DWARVES/PRAYING_eventPicture_dwarves.dds"
+	}
+	
+	spriteType = {
+		name = "lotr_dwarf_gfx_SIEGE_eventPicture_dwarves"
+		texturefile = "gfx/event_pictures/event_pictures_REPLACEMENTS/DWARVES/SIEGE_eventPicture_dwarves.dds"
+	}
+	
+	spriteType = {
+		name = "lotr_dwarf_gfx_WOUNDED_SOLDIERS_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_REPLACEMENTS/DWARVES/WOUNDED_SOLDIERS_eventPicture_dwarves.dds"
+	}
+
+}

@@ -1,0 +1,8 @@
+#Cog
+type = galley
+
+hull_size = 20
+base_cannons = 5
+sail_speed = 5
+
+sprite_level = 1

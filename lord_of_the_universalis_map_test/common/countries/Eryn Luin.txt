@@ -1,0 +1,102 @@
+#Country Name: Please see filename.
+graphical_culture = africangfx
+
+color = { 0 125 15 }
+
+historical_idea_groups = {
+	offensive_ideas
+	diplomatic_ideas
+	defensive_ideas
+	innovativeness_ideas
+	administrative_ideas
+	quantity_ideas
+	economic_ideas
+	aristocracy_ideas
+}
+
+historical_units = {
+	lotr_ent_big_ents
+}
+
+monarch_names = {
+	"Beechbone" = 10
+	"Leaflock" = 10
+	"Quickbeam" = 10
+	"Skinbark" = 10
+	"Treebeard" = 10
+	"Oldpine" = 10
+	"Greenoak" = 10
+	"Lindenbump" = 10
+	"Poplarward" = 10
+	"Chestnuts" = 10
+	"Derndingle" = 10
+	"Gnarlstump" = 10
+	"Longbough" = 10
+	"Ashlimb" = 10
+	"Baillas" = 10
+	"Baldbark" = 10
+	"Greenroot" = 10
+	"Oldheart" = 10
+	"Wisewood" = 10
+	"Barallas" = 10
+	"Mossbeard" = 10
+	"Stonecliff" = 10
+	"Duskleaf" = 10
+	
+	"Wandlimb" = -10
+}
+
+leader_names = {
+	
+}
+
+ship_names = {
+	Eagletree
+	Feathersun
+	Lowtree
+	Distantblade
+	Pineweaver
+	Oceanfang
+	Humbleripper
+	Wiseblood
+	Sunmantle
+	Grandpunch
+	Pyrefollower
+	Hawkfall
+	Heartsteam
+	Stonestrength
+	Mastertide
+	Gloomsworn
+	Redfist
+	Riverwinds
+	Skyspire
+	Fireclaw
+	Lunapike
+	Whitbane
+	Tarrensnow
+	Leafroot
+	Softswallow
+	Peacereaper
+	Stagarm
+	Monsterfury
+	Horsebinder
+	Strongmoon
+	Moltenmourn
+	Skymight
+	Covenstriker
+	Glowstrider
+	Farwatcher
+	Fallendown
+	Tarrengem
+	Stonestar
+	Fernstriker
+	Roughheart
+}
+
+army_names = {
+	"Regiment of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}

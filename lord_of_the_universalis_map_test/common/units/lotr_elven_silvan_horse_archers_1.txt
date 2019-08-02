@@ -1,0 +1,18 @@
+# Elven Horse Archers
+type = cavalry
+unit_type = lotr_elven
+
+maneuver = 2
+offensive_morale = 0
+defensive_morale = 0
+offensive_fire = 2
+defensive_fire = 2
+offensive_shock = 2
+defensive_shock = 0
+
+trigger = {
+	OR= {
+		culture_group = culture_group_nandor
+		culture_group = culture_group_avari
+	}
+}

@@ -1,0 +1,2045 @@
+########################################
+# Events for Mordor
+#
+#
+########################################
+
+namespace = flavor_mordor
+normal_or_historical_nations = yes
+
+# Spawn Mordor
+province_event = {
+	id = flavor_mordor.1
+	title = flavor_mordor.1.t
+	desc = flavor_mordor.1.d
+	picture = BORDER_TENSION_eventPicture
+	fire_only_once = yes
+	
+	major = yes
+
+	trigger = {
+		
+		NOT = {
+			exists = V17 
+			has_global_flag = mordor_spawned
+		}
+		
+		is_year = 2942
+		
+		NOT = {
+			is_year = 2943
+		}
+		
+		mordor_region = {
+			is_empty = yes
+		}
+	}
+	option = { 
+		name = flavor_mordor.1.a
+		
+		mordor_region = {
+			add_core = V17
+		}
+		
+		mordor_region = {
+			limit = {
+				is_empty = yes
+			}
+			
+			cede_province = V17
+			#set_capital = 639
+			
+			691 = {
+				change_culture = culture_orkish
+				change_religion = religion_orkish
+				change_trade_goods = stone
+				
+				add_province_modifier = {
+					name = ruins_debuff 
+					duration = 1095
+				}
+			}
+				
+			72 = {
+				change_culture = culture_orkish
+				change_religion = religion_orkish
+				change_trade_goods = livestock
+			}
+				
+			662 = {
+				change_culture = culture_orkish
+				change_religion = religion_orkish
+				change_trade_goods = iron
+			}
+				
+			147 = {
+				change_culture = culture_orkish
+				change_religion = religion_orkish
+				change_trade_goods = iron
+			}
+
+			150 = {
+				change_culture = culture_orkish
+				change_religion = religion_orkish
+				change_trade_goods = livestock
+			}
+
+			151 = {
+				change_culture = culture_orkish
+				change_religion = religion_orkish
+				change_trade_goods = stone
+			}
+			
+			148 = {
+				change_culture = culture_orkish
+				change_religion = religion_orkish
+				change_trade_goods = stone
+			}
+
+			639 = {
+				change_culture = culture_orkish
+				change_religion = religion_orkish
+				change_trade_goods = livestock
+				
+				add_province_modifier = {
+						name = ruins_debuff 
+						duration = 1095
+					}
+				}
+			149 = {
+				change_culture = culture_orkish
+				change_religion = religion_orkish
+				change_trade_goods = stone
+				}
+			233 = {
+				change_culture = culture_orkish
+				change_religion = religion_orkish
+				change_trade_goods = livestock
+				}
+			332 = {
+				change_culture = culture_orkish
+				change_religion = religion_orkish
+				change_trade_goods = livestock
+				}
+			152 = {
+				change_culture = culture_orkish
+				change_religion = religion_orkish
+				change_trade_goods = copper
+				}
+			334 = {
+				change_culture = culture_orkish
+				change_religion = religion_orkish
+				change_trade_goods = livestock
+				}
+			109 = {
+				change_culture = culture_orkish
+				change_religion = religion_orkish
+				change_trade_goods = copper
+				}
+			333 = {
+				change_culture = culture_orkish
+				change_religion = religion_orkish
+				change_trade_goods = livestock
+				}
+		}
+		
+		gondor_region = {
+			limit = {
+				is_empty = yes
+			}
+			
+			cede_province = V17
+			417 = {
+				change_culture = culture_orkish
+				change_religion = religion_orkish
+				change_trade_goods = iron
+			}
+		}
+		
+		V17 = {
+			create_march = V19
+		}
+		
+		V17 = {
+			add_opinion = {
+				who = V19
+				modifier = dol_guldur_servant
+				years = 500
+			}
+		}
+		
+		V19 = {
+			add_opinion = {
+				who = V17
+				modifier = mordor_master
+				years = 500
+			}
+		}
+		
+		hidden_effect = {
+			set_capital = 639
+		}
+		
+		#country_event = {
+		#	id = flavor_mordor.3
+		#	days = 30
+		#}
+	}
+}
+
+# Nurn join Mordor
+country_event = {
+	id = flavor_mordor.3
+	title = "flavor_mordor.3.t"
+	desc = "flavor_mordor.3.d"
+	picture = DIPLOMACY_eventPicture
+
+	major = yes
+	
+	#is_triggered_only = yes
+	fire_only_once = yes
+	
+	
+	trigger = {
+	
+		AND = { 
+			tag = V17
+			exists = V17
+			is_subject = no
+		}
+		
+		OR = {
+			X20 = {
+				exists = yes
+				ai = yes
+				was_player = no
+				is_subject = no
+				is_neighbor_of = ROOT
+			}
+		}
+		NOT = { war_with = X20 }
+	}
+
+	#mean_time_to_happen = {
+	#	months = 1
+	#}
+	
+	option = {		# gets a union
+		name = "flavor_mordor.3.a"
+		
+		ai_chance = { factor = 90 }
+		
+		create_union = X20
+		
+		add_opinion = {
+			who = X20
+			modifier = mordor_union
+		}
+		
+		X20 = {
+			add_opinion = {
+				who = ROOT
+				modifier = mordor_union
+			}
+			add_country_modifier = {
+				name = mordor_nurn_subject
+				duration = 10950
+			}
+		}
+		
+		every_known_country = {
+			limit = {
+				marriage_with = X20
+			}
+			add_opinion = {
+				who = ROOT
+				modifier = mordor_negative
+			}
+		}
+	}
+	
+	option = {		# No 
+		name = "flavor_mordor.3.b"
+		
+		ai_chance = { factor = 10 }
+		
+		add_stability = 1
+		
+		X20 = {
+			add_opinion = {
+				who = ROOT
+				modifier = mordor_declined
+			}
+		}
+	}
+}
+
+#Starts rebuilding Barad Dur
+country_event = {
+	id = flavor_mordor.4
+	title = flavor_mordor.4.t
+	desc = flavor_mordor.4.d
+	picture = COUNTRY_COLLAPSE_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = V17
+		owns_core_province = 639
+	}
+	
+	immediate = {
+		set_country_flag = rebuilding_barad_dur_flag
+	}
+	
+	option = { 
+		name = flavor_mordor.4.a
+		custom_tooltip = rebuilding_barad_dur_stage_start
+		
+		
+		hidden_effect = {
+			country_event = {
+				id = flavor_mordor.5
+				days = 1095
+			}
+		}
+	}
+}
+
+#Barad Dur Foundations in place
+country_event = {
+	id = flavor_mordor.5
+	title = flavor_mordor.5.t
+	desc = flavor_mordor.5.d
+	picture = COUNTRY_COLLAPSE_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = V17
+		owns_core_province = 639
+		has_country_flag = rebuilding_barad_dur_flag
+	}
+	
+	immediate = {
+		set_country_flag = rebuilding_barad_dur_stage_1_flag
+	}
+	
+	option = { 
+		name = flavor_mordor.5.a
+		
+		639 = {
+			add_base_manpower = 3
+			add_base_production = 3
+			add_base_tax = 3
+		}
+		
+		random_list = {
+			25 = {
+				add_manpower = -1
+			}
+			25 = {
+				add_manpower = -2
+			}
+			25 = {
+				add_manpower = -3
+			}
+			25 = {
+				add_manpower = -4
+			}
+		}
+
+		hidden_effect = {
+			country_event = {
+				id = flavor_mordor.6
+				days = 1095
+			}
+		}
+	}
+}
+
+#Barad Dur Middle part in place
+country_event = {
+	id = flavor_mordor.6
+	title = flavor_mordor.6.t
+	desc = flavor_mordor.6.d
+	picture = COUNTRY_COLLAPSE_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = V17
+		owns_core_province = 639
+		has_country_flag = rebuilding_barad_dur_flag
+	}
+	
+	immediate = {
+		set_country_flag = rebuilding_barad_dur_stage_2_flag
+	}
+	
+	option = { 
+		name = flavor_mordor.6.a
+		
+		639 = {
+			add_base_manpower = 4
+			add_base_production = 4
+			add_base_tax = 4
+		}
+		
+		random_list = {
+			25 = {
+				add_manpower = -1
+			}
+			25 = {
+				add_manpower = -2
+			}
+			25 = {
+				add_manpower = -3
+			}
+			25 = {
+				add_manpower = -4
+			}
+		}
+		
+		hidden_effect = {
+			country_event = {
+				id = flavor_mordor.7
+				days = 1095
+			}
+		}
+	}
+}
+
+#Barad Dur is Finished
+country_event = {
+	id = flavor_mordor.7
+	title = flavor_mordor.7.t
+	desc = flavor_mordor.7.d
+	picture = COUNTRY_COLLAPSE_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = V17
+		owns_core_province = 639
+		has_country_flag = rebuilding_barad_dur_flag
+	}
+	
+	immediate = {
+		set_country_flag = rebuilding_barad_dur_finished_flag
+		clr_country_flag = rebuilding_barad_dur_stage_1_flag
+		clr_country_flag = rebuilding_barad_dur_stage_2_flag
+	}
+	
+	option = { 
+		name = flavor_mordor.7.a
+		
+		639 = {
+			add_base_manpower = 3
+			add_base_production = 3
+			add_base_tax = 3
+			remove_province_modifier = ruins_debuff
+			remove_building = resettlement_action
+			add_building = capital_3_orc_building
+			add_building = fort_large_orc_stronghold_orc_building
+		}
+		
+		remove_country_modifier = rebuilding_barad_dur
+		
+		random_list = {
+			25 = {
+				add_manpower = -1
+			}
+			25 = {
+				add_manpower = -2
+			}
+			25 = {
+				add_manpower = -3
+			}
+			25 = {
+				add_manpower = -4
+			}
+		}
+		
+		add_adm_power = 200
+		add_dip_power = 200
+		add_mil_power = 200
+		add_stability = 1
+		
+		
+		
+		add_country_modifier = {
+			name = "barad_dur_buildt"
+			duration = -1
+		}
+	}
+}
+
+#Barad Dur is lost while rebuilding
+country_event = {
+	id = flavor_mordor.8
+	title = flavor_mordor.8.t
+	desc = flavor_mordor.8.d
+	picture = BORDER_TENSION_eventPicture
+
+	trigger = {
+		tag = V17
+		
+		OR = {
+			has_country_flag = rebuilding_barad_dur_flag
+			has_country_flag = rebuilding_barad_dur_stage_1_flag
+			has_country_flag = rebuilding_barad_dur_stage_2_flag
+		}
+		
+		
+		NOT = {
+			owns_core_province = 639
+			has_country_flag = rebuilding_barad_dur_finished_flag
+		}
+	}
+	
+	option = { 
+		name = flavor_mordor.8.a
+		
+		if = {
+			limit = {
+				has_country_flag = rebuilding_barad_dur_stage_1_flag
+			}
+			
+			639 = {
+				add_base_manpower = -3
+				add_base_production = -3
+				add_base_tax = -3
+			}
+			clr_country_flag = rebuilding_barad_dur_stage_1_flag
+		}
+		
+		if = {
+			limit = {
+				has_country_flag = rebuilding_barad_dur_stage_2_flag
+			}
+			
+			639 = {
+				add_base_manpower = -4
+				add_base_production = -4
+				add_base_tax = -4
+			}
+			clr_country_flag = rebuilding_barad_dur_stage_2_flag
+		}
+		
+		clr_country_flag = rebuilding_barad_dur_flag
+		
+		add_stability = -1
+	}
+}
+
+#Starts building Saurons Road
+country_event = {
+	id = flavor_mordor.9
+	title = flavor_mordor.9.t
+	desc = flavor_mordor.9.d
+	picture = MILITARY_CAMP_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = V17
+		owns_core_province = 639
+	}
+	
+	immediate = {
+		set_country_flag = building_saurons_road_flag
+	}
+	
+	option = { 
+		name = flavor_mordor.9.a
+		custom_tooltip = building_saurons_road_start
+		
+		
+		hidden_effect = {
+			country_event = {
+				id = flavor_mordor.10
+				days = 182
+			}
+		}
+	}
+}
+
+#Saurons Road Barad Dur
+country_event = {
+	id = flavor_mordor.10
+	title = flavor_mordor.10.t
+	desc = flavor_mordor.10.d
+	picture = MILITARY_CAMP_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = V17
+		owns_core_province = 639
+		
+		OR = {
+			has_country_flag = building_saurons_road_flag
+		}
+		
+		#NOT = {
+		#	num_of_owned_provinces_with = {
+		#		value = 6
+		#		has_province_modifier = province_saurons_road
+		#	}
+		#}
+	}
+	
+	option = { 
+		name = flavor_mordor.10.a
+		trigger = {
+			639 = {
+				NOT = {
+					has_province_modifier = province_saurons_road
+				}
+			}
+		}
+		
+		639 = {
+			add_base_production = 2
+			add_permanent_province_modifier = {
+				name = province_saurons_road
+				duration = -1
+			}
+		}
+		
+		random_list = {
+			50 = {
+				add_manpower = -1
+			}
+			50 = {
+				add_manpower = -2
+			}
+		}
+		
+		hidden_effect = {
+			country_event = {
+				id = flavor_mordor.11
+				days = 1095
+			}
+		}
+	}
+	
+	option = { 
+		name = flavor_mordor.10.b
+		trigger = {
+			639 = {
+				has_province_modifier = province_saurons_road
+			}
+		}
+		
+		hidden_effect = {
+			country_event = {
+				id = flavor_mordor.11
+			}
+		}
+	}
+}
+
+#Saurons Road Carach Angren
+country_event = {
+	id = flavor_mordor.11
+	title = flavor_mordor.11.t
+	desc = flavor_mordor.11.d
+	picture = MILITARY_CAMP_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = V17
+		owns_core_province = 150
+		
+		OR = {
+			has_country_flag = building_saurons_road_flag
+		}
+	}
+	
+	option = { 
+		name = flavor_mordor.11.a
+		trigger = {
+			150 = {
+				NOT = {
+					has_province_modifier = province_saurons_road
+				}
+			}
+		}
+		
+		150 = {
+			add_base_production = 2
+			add_permanent_province_modifier = {
+				name = province_saurons_road
+				duration = -1
+			}
+		}
+		
+		random_list = {
+			50 = {
+				add_manpower = -1
+			}
+			50 = {
+				add_manpower = -2
+			}
+		}
+		
+		hidden_effect = {
+			country_event = {
+				id = flavor_mordor.12
+				days = 1095
+			}
+		}
+	}
+	
+	option = { 
+		name = flavor_mordor.11.b
+		trigger = {
+			150 = {
+				has_province_modifier = province_saurons_road
+			}
+		}
+		
+		hidden_effect = {
+			country_event = {
+				id = flavor_mordor.12
+			}
+		}
+	}
+}
+
+#Saurons Road Udun
+country_event = {
+	id = flavor_mordor.12
+	title = flavor_mordor.12.t
+	desc = flavor_mordor.12.d
+	picture = MILITARY_CAMP_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = V17
+		owns_core_province = 72
+		
+		OR = {
+			has_country_flag = building_saurons_road_flag
+		}
+	}
+	
+	option = { 
+		name = flavor_mordor.12.a
+		trigger = {
+			72 = {
+				NOT = {
+					has_province_modifier = province_saurons_road
+				}
+			}
+		}
+		
+		72 = {
+			add_base_production = 2
+			add_permanent_province_modifier = {
+				name = province_saurons_road
+				duration = -1
+			}
+		}
+		
+		random_list = {
+			50 = {
+				add_manpower = -1
+			}
+			50 = {
+				add_manpower = -2
+			}
+		}
+		
+		hidden_effect = {
+			country_event = {
+				id = flavor_mordor.13
+				days = 1095
+			}
+		}
+	}
+	
+	option = { 
+		name = flavor_mordor.13.b
+		trigger = {
+			72 = {
+				has_province_modifier = province_saurons_road
+			}
+		}
+		
+		hidden_effect = {
+			country_event = {
+				id = flavor_mordor.13
+			}
+		}
+	}
+}
+
+#Saurons Road Morannon
+country_event = {
+	id = flavor_mordor.13
+	title = flavor_mordor.13.t
+	desc = flavor_mordor.13.d
+	picture = MILITARY_CAMP_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = V17
+		owns_core_province = 691
+		
+		OR = {
+			has_country_flag = building_saurons_road_flag
+		}
+	}
+	
+	option = { 
+		name = flavor_mordor.13.a
+		trigger = {
+			691 = {
+				NOT = {
+					has_province_modifier = province_saurons_road
+				}
+			}
+		}
+		
+		691 = {
+			add_base_production = 2
+			add_permanent_province_modifier = {
+				name = province_saurons_road
+				duration = -1
+			}
+		}
+		
+		random_list = {
+			50 = {
+				add_manpower = -1
+			}
+			50 = {
+				add_manpower = -2
+			}
+		}
+		
+		hidden_effect = {
+			country_event = {
+				id = flavor_mordor.14
+				days = 1095
+			}
+		}
+	}
+	
+	option = { 
+		name = flavor_mordor.13.b
+		trigger = {
+			691 = {
+				has_province_modifier = province_saurons_road
+			}
+		}
+		
+		hidden_effect = {
+			country_event = {
+				id = flavor_mordor.14
+			}
+		}
+	}
+}
+
+#Saurons Road Morgal
+country_event = {
+	id = flavor_mordor.14
+	title = flavor_mordor.14.t
+	desc = flavor_mordor.14.d
+	picture = MILITARY_CAMP_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = V17
+		owns_core_province = 147
+		
+		OR = {
+			has_country_flag = building_saurons_road_flag
+		}
+	}
+	
+	option = { 
+		name = flavor_mordor.14.a
+		trigger = {
+			147 = {
+				has_province_modifier = province_saurons_road
+			}
+		}
+		
+		147 = {
+			add_base_production = 2
+			add_permanent_province_modifier = {
+				name = province_saurons_road
+				duration = -1
+			}
+		}
+		
+		random_list = {
+			50 = {
+				add_manpower = -1
+			}
+			50 = {
+				add_manpower = -2
+			}
+		}
+		
+		hidden_effect = {
+			country_event = {
+				id = flavor_mordor.15
+				days = 1095
+			}
+		}
+	}
+	
+	option = { 
+		name = flavor_mordor.14.b
+		trigger = {
+			147 = {
+				NOT = {
+					has_province_modifier = province_saurons_road
+				}
+			}
+		}
+		
+		hidden_effect = {
+			country_event = {
+				id = flavor_mordor.15
+			}
+		}
+	}
+}
+
+#Saurons Road Cirith Ungol (Finished)
+country_event = {
+	id = flavor_mordor.15
+	title = flavor_mordor.15.t
+	desc = flavor_mordor.15.d
+	picture = MILITARY_CAMP_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = V17
+		owns_core_province = 149
+		
+		OR = {
+			has_country_flag = building_saurons_road_flag
+		}
+	}
+	
+	option = { 
+		name = flavor_mordor.15.a
+		
+		clr_country_flag = building_saurons_road_flag
+		set_country_flag = building_saurons_road_finished_flag
+		
+		149 = {
+			add_base_production = 2
+			add_permanent_province_modifier = {
+				name = province_saurons_road
+				duration = -1
+			}
+		}
+		
+		remove_country_modifier = building_saurons_road
+		
+		random_list = {
+			50 = {
+				add_manpower = -1
+			}
+			50 = {
+				add_manpower = -2
+			}
+		}
+		
+		add_adm_power = 200
+		add_dip_power = 200
+		add_mil_power = 200
+		add_stability = 1
+
+	}
+}
+
+#Lost one of the provinces while building Saurons Road
+country_event = {
+	id = flavor_mordor.16
+	title = flavor_mordor.16.t
+	desc = flavor_mordor.16.d
+	picture = MILITARY_CAMP_eventPicture
+
+	trigger = {
+		tag = V17
+		has_country_flag = building_saurons_road_flag
+		
+		
+		NOT = {
+			OR = {
+				owns_core_province = 72
+				owns_core_province = 147
+				owns_core_province = 149
+				owns_core_province = 150
+				owns_core_province = 639
+				owns_core_province = 691
+			}
+			
+			has_country_flag = building_saurons_road_finished_flag
+		}
+	}
+	
+	option = { 
+		name = flavor_mordor.16.a
+		
+		clr_country_flag = building_saurons_road_flag
+		
+		add_stability = -1
+	}
+}
+
+#Overseers in a province are having trouble
+country_event = {
+	id = flavor_mordor.17
+	title = flavor_mordor.17.t
+	desc = flavor_mordor.17.d
+	picture = ANGRY_MOB_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = V17
+		NOT = {
+			has_country_modifier = mordor_sent_nazgul
+			has_country_modifier = mordor_didnt_sent_nazgul
+		}
+
+		NOT = {
+			local_autonomy = 50
+			controlled_by = REB
+		}
+		
+		any_owned_province = {
+			NOT = {
+				has_province_modifier = mordor_control_province
+				has_province_modifier = mordor_dont_control_province
+			}
+		}
+	}
+	
+	#Send The Nazgul
+	option = { 
+		name = flavor_mordor.17.a
+		
+		add_country_modifier = {
+			name = mordor_sent_nazgul
+			duration = 3650
+		}
+		
+		random_owned_province = {
+			limit = {
+				has_owner_culture = yes
+				has_owner_religion = yes
+				NOT = {
+					has_province_modifier = mordor_control_province
+					has_province_modifier = mordor_dont_control_province
+				}
+			}
+			
+			add_province_modifier = {
+				name = mordor_control_province 
+				duration = 3650
+			}
+		}
+	}
+	
+	#Don't Do anything
+	option = { 
+		name = flavor_mordor.17.b
+		
+		add_country_modifier = {
+			name = mordor_didnt_sent_nazgul
+			duration = 3650
+		}
+		
+		random_owned_province = {
+			limit = {
+				has_owner_culture = yes
+				has_owner_religion = yes
+				NOT = {
+					has_province_modifier = mordor_control_province
+					has_province_modifier = mordor_dont_control_province
+				}
+			}
+			
+			add_province_modifier = {
+				name = mordor_dont_control_province 
+				duration = 3650
+			}
+		}
+	}
+}
+
+#Reinforce The Borders to Mordor
+country_event = {
+	id = flavor_mordor.18
+	title = flavor_mordor.18.t
+	desc = flavor_mordor.18.d
+	picture = FORT_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = V17
+
+		NOT = {
+			has_country_modifier = mordor_reinforce_border
+			has_country_modifier = mordor_didnt_reinforce_border
+		}
+		
+		any_owned_province = {
+			has_influencing_fort = yes
+			has_owner_culture = yes
+			has_owner_religion = yes
+			controlled_by = ROOT
+			OR ={
+				area = mordor_area
+				area = west_nurn_area
+				area = east_nurn_area
+				417 = {
+					has_influencing_fort = yes
+					owned_by = V17
+				}
+			}
+			NOT = {
+				has_province_modifier = mordor_reinforce_border_fort_province
+			}
+		}
+	}
+	
+	#Defend the Borders
+	option = { 
+		name = flavor_mordor.18.a
+		
+		mordor_area = {
+			limit = {
+				has_influencing_fort = yes
+				has_owner_culture = yes
+				has_owner_religion = yes
+				controlled_by = ROOT
+			}
+			
+			add_province_modifier = {
+				name = mordor_reinforce_border_fort_province 
+				duration = 3650
+			}
+		}
+		
+		west_nurn_area = {
+			limit = {
+				has_influencing_fort = yes
+				has_owner_culture = yes
+				has_owner_religion = yes
+				controlled_by = ROOT
+			}
+			
+			add_province_modifier = {
+				name = mordor_reinforce_border_fort_province 
+				duration = 3650
+			}
+		}
+		
+		east_nurn_area = {
+			limit = {
+				has_influencing_fort = yes
+				has_owner_culture = yes
+				has_owner_religion = yes
+				controlled_by = ROOT
+			}
+			
+			add_province_modifier = {
+				name = mordor_reinforce_border_fort_province 
+				duration = 3650
+			}
+		}
+		
+		if = {
+			limit = {
+				417 = {
+					has_influencing_fort = yes
+					has_owner_culture = yes
+					has_owner_religion = yes
+					controlled_by = ROOT
+					owned_by = V17
+				}
+			}
+			
+			417 = {
+				add_province_modifier = {
+					name = mordor_reinforce_border_fort_province 
+					duration = 3650
+				}
+			}
+		}
+		
+		add_country_modifier = {
+			name = mordor_reinforce_border
+			duration = 3650
+		}
+	}
+	
+	#Don't Do anything
+	option = { 
+		name = flavor_mordor.18.b
+		
+		add_country_modifier = {
+			name = mordor_didnt_reinforce_border
+			duration = 3650
+		}
+	}
+}
+
+#Build The Strength Of Mordor
+country_event = {
+	id = flavor_mordor.19
+	title = flavor_mordor.19.t
+	desc = flavor_mordor.19.d
+	picture = CITY_DEVELOPMENT_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = V17
+
+		NOT = {
+			has_country_modifier = mordor_build_structures
+			has_country_modifier = mordor_improve_provinces
+		}
+	}
+	
+	#Cheaper Buildings
+	option = { 
+		name = flavor_mordor.19.a
+		
+		add_country_modifier = {
+			name = mordor_build_structures
+			duration = 3650
+		}
+	}
+	
+	#Cheaper Development
+	option = { 
+		name = flavor_mordor.19.b
+		
+		add_country_modifier = {
+			name = mordor_improve_provinces
+			duration = 3650
+		}
+	}
+}
+
+#Spawning Pools
+country_event = {
+	id = flavor_mordor.20
+	title = flavor_mordor.20.t
+	desc = flavor_mordor.20.d
+	picture = ECONOMY_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = V17
+
+		NOT = {
+			has_country_modifier = mordor_create_workers
+			has_country_modifier = mordor_create_warriors
+		}
+	}
+	
+	#Make Them Workers
+	option = { 
+		name = flavor_mordor.20.a
+		
+		add_country_modifier = {
+			name = mordor_create_workers
+			duration = 3650
+		}
+	}
+	
+	#Make Them Warriors
+	option = { 
+		name = flavor_mordor.20.b
+		
+		add_country_modifier = {
+			name = mordor_create_warriors
+			duration = 3650
+		}
+	}
+}
+
+#Starving Province
+country_event = {
+	id = flavor_mordor.21
+	title = flavor_mordor.21.t
+	desc = flavor_mordor.21.d
+	picture = FAMINE_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = V17
+		
+		any_owned_province = {
+			has_owner_culture = yes
+			has_owner_religion = yes
+			controlled_by = ROOT
+			
+			NOT = { 
+				has_province_modifier = mordor_starving_province_helped
+				has_province_modifier = mordor_starving_province_starves
+			}
+			
+			any_neighbor_province = {
+				owned_by = ROOT
+				has_owner_culture = yes
+				has_owner_religion = yes
+				controlled_by = ROOT
+				
+				NOT = { 
+					has_province_modifier = mordor_neighbor_provinces_send_food
+				}
+			}
+		}
+	}
+	
+	#immediate = {
+	#	hidden_effect = {
+	#		random_owned_province = {
+	#			limit = {
+	#				has_owner_culture = yes
+	#				has_owner_religion = yes
+	#				controlled_by = ROOT
+	#				
+	#				NOT = { 
+	#					has_province_modifier = mordor_starving_province_helped
+	#					has_province_modifier = mordor_starving_province_starves
+	#				}
+	#				
+	#				any_neighbor_province = {
+	#					owned_by = ROOT
+	#					has_owner_culture = yes
+	#					has_owner_religion = yes
+	#					controlled_by = ROOT
+	#				
+	#					NOT = { 
+	#						has_province_modifier = mordor_neighbor_provinces_send_food
+	#					}
+	#				}
+	#			}
+	#			all_neighbor_province = {
+	#				limit = {
+	#					owned_by = ROOT
+	#					has_owner_culture = yes
+	#					has_owner_religion = yes
+	#					controlled_by = ROOT
+	#					
+	#					NOT = { 
+	#						has_province_modifier = mordor_neighbor_provinces_send_food
+	#					}
+	#				}
+	#			}
+	#			set_province_flag = starving_province_flag
+	#		}
+	#	}
+	#}
+	
+	#Send Meat from other provinces
+	option = { 
+		name = flavor_mordor.21.a
+		
+		random_owned_province = {
+			limit = {
+				has_owner_culture = yes
+				has_owner_religion = yes
+				controlled_by = ROOT
+				
+				NOT = { 
+					has_province_modifier = mordor_starving_province_helped
+					has_province_modifier = mordor_starving_province_starves
+				}
+				
+				any_neighbor_province = {
+					owned_by = ROOT
+					has_owner_culture = yes
+					has_owner_religion = yes
+					controlled_by = ROOT
+				
+					NOT = { 
+						has_province_modifier = mordor_neighbor_provinces_send_food
+					}
+				}
+			}
+			every_neighbor_province = {
+				limit = {
+					owned_by = ROOT
+					has_owner_culture = yes
+					has_owner_religion = yes
+					controlled_by = ROOT
+					
+					NOT = { 
+						has_province_modifier = mordor_neighbor_provinces_send_food
+					}
+				}
+				add_province_modifier = {
+					name = mordor_neighbor_provinces_send_food 
+					duration = 3650
+				}
+			}
+			add_province_modifier = {
+				name = mordor_starving_province_helped 
+				duration = 3650
+			}
+		}
+		
+		#clr_province_flag = starving_province_flag
+	}
+	
+	#let them starve
+	option = { 
+		name = flavor_mordor.21.b
+		
+		random_owned_province = {
+			limit = {
+				has_owner_culture = yes
+				has_owner_religion = yes
+				controlled_by = ROOT
+				
+				NOT = { 
+					has_province_modifier = mordor_starving_province_helped
+					has_province_modifier = mordor_starving_province_starves
+				}
+				
+				any_neighbor_province = {
+					owned_by = ROOT
+					has_owner_culture = yes
+					has_owner_religion = yes
+					controlled_by = ROOT
+				
+					NOT = { 
+						has_province_modifier = mordor_neighbor_provinces_send_food
+					}
+				}
+			}
+			add_province_modifier = {
+				name = mordor_starving_province_starves 
+				duration = 3650
+			}
+		}
+		
+		#clr_province_flag = starving_province_flag
+	}
+}
+
+#Mouth of Sauron Sent out
+country_event = {
+	id = flavor_mordor.22
+	title = flavor_mordor.22.t
+	desc = flavor_mordor.22.d
+	picture = ADVISOR_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = V17
+
+		any_neighbor_country = {
+			NOT = {
+				primary_culture = culture_group_numenorean
+				primary_culture = culture_group_middlemen
+				primary_culture = culture_group_halfling
+				primary_culture = culture_group_dwarves
+				primary_culture = culture_group_amanyar
+				primary_culture = culture_group_umanyar
+				primary_culture = culture_group_moriquendi
+				primary_culture = culture_group_onodrim
+				primary_culture = culture_group_sun
+				religion_group = religion_group_edain
+				religion_group = religion_group_periannath
+				religion_group = religion_group_eldar
+				religion_group = religion_group_khazad
+				religion_group = religion_group_sun
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = embraced_absolutism
+				}
+				has_country_flag = mordor_got_men_from_us
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+
+		modifier = {
+			factor = 0.6
+			OR = {
+				NOT = { stability = -2 }
+				AND = { war_exhaustion = 8}
+			}
+		}
+		modifier = {
+			factor = 0.7
+			OR = {
+				NOT = { stability = -1 }
+				AND = { war_exhaustion = 6}
+			}
+		}
+		modifier = {
+			factor = 0.8
+			OR = {
+				NOT = { stability = 0 }
+				AND = { war_exhaustion = 4}
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				NOT = { stability = 1 }
+				AND = { war_exhaustion = 2}
+			}
+		}
+		modifier = {
+			factor = 1.0
+			OR = {
+				NOT = { stability = 2 }
+				AND = { war_exhaustion = 0}
+			}
+		}
+		modifier = {
+			factor = 1.0
+			OR = {
+				NOT = { stability = 3 }
+				AND = { war_exhaustion = 0}
+			}
+		}
+	}
+	
+	#Improve Relations
+	option = { 
+		name = flavor_mordor.22.a
+		
+		random_neighbor_country = {
+			limit = {
+				NOT = {
+					primary_culture = culture_group_numenorean
+					primary_culture = culture_group_middlemen
+					primary_culture = culture_group_halfling
+					primary_culture = culture_group_dwarves
+					primary_culture = culture_group_amanyar
+					primary_culture = culture_group_umanyar
+					primary_culture = culture_group_moriquendi
+					primary_culture = culture_group_onodrim
+					primary_culture = culture_group_sun
+					religion_group = religion_group_edain
+					religion_group = religion_group_periannath
+					religion_group = religion_group_eldar
+					religion_group = religion_group_khazad
+					religion_group = religion_group_sun
+					has_opinion_modifier = {
+						who = ROOT
+						modifier = mordor_improved_relations
+					}
+					has_country_flag = mordor_got_men_from_us
+				}
+			}
+			
+			add_opinion = {
+				who = ROOT
+				modifier = mordor_improved_relations
+			}
+		}
+	}
+	
+	#Import men
+	option = { 
+		name = flavor_mordor.22.b
+		
+		add_mil_power = 50
+		add_manpower = 3
+		
+		random_neighbor_country = {
+			limit = {
+				NOT = {
+					primary_culture = culture_group_numenorean
+					primary_culture = culture_group_middlemen
+					primary_culture = culture_group_halfling
+					primary_culture = culture_group_dwarves
+					primary_culture = culture_group_amanyar
+					primary_culture = culture_group_umanyar
+					primary_culture = culture_group_moriquendi
+					primary_culture = culture_group_onodrim
+					primary_culture = culture_group_sun
+					religion_group = religion_group_edain
+					religion_group = religion_group_periannath
+					religion_group = religion_group_eldar
+					religion_group = religion_group_khazad
+					religion_group = religion_group_sun
+					has_opinion_modifier = {
+						who = ROOT
+						modifier = mordor_improved_relations
+					}
+					has_country_flag = mordor_got_men_from_us
+				}
+			}
+			set_country_flag = mordor_got_men_from_us
+			hidden_effect = {
+				country_event = {
+					id = flavor_mordor.28
+					days = 3650
+				}
+			}
+		}
+	}
+}
+
+#Poor equipment
+country_event = {
+	id = flavor_mordor.23
+	title = flavor_mordor.23.t
+	desc = flavor_mordor.23.d
+	picture = MILITARY_CAMP_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = V17
+
+		NOT = {
+			has_country_modifier = mordor_poor_equipment
+			has_country_modifier = mordor_blood_lust
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+
+		modifier = {
+			factor = 0.6
+			OR = {
+				NOT = { stability = -2 }
+				AND = { war_exhaustion = 8}
+			}
+		}
+		modifier = {
+			factor = 0.7
+			OR = {
+				NOT = { stability = -1 }
+				AND = { war_exhaustion = 6}
+			}
+		}
+		modifier = {
+			factor = 0.8
+			OR = {
+				NOT = { stability = 0 }
+				AND = { war_exhaustion = 4}
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				NOT = { stability = 1 }
+				AND = { war_exhaustion = 2}
+			}
+		}
+		modifier = {
+			factor = 1.0
+			OR = {
+				NOT = { stability = 2 }
+				AND = { war_exhaustion = 0}
+			}
+		}
+		modifier = {
+			factor = 1.0
+			OR = {
+				NOT = { stability = 3 }
+				AND = { war_exhaustion = 0}
+			}
+		}
+	}
+	
+	#doest matter
+	option = { 
+		name = flavor_mordor.23.a
+		
+		add_country_modifier = {
+			name = mordor_poor_equipment
+			duration = 3650
+		}
+	}
+}
+
+#Over Consumption
+country_event = {
+	id = flavor_mordor.24
+	title = flavor_mordor.24.t
+	desc = flavor_mordor.24.d
+	picture = FARMING_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = V17
+
+		any_owned_province = {
+			owned_by = ROOT
+			controlled_by = ROOT
+			has_owner_culture = yes
+			has_owner_religion = yes
+		
+			OR = {
+				trade_goods = livestock
+				trade_goods = grain
+				trade_goods = fish
+			}
+			
+			NOT = { 
+				has_province_modifier = mordor_province_over_consumption
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+
+		modifier = {
+			factor = 0.6
+			OR = {
+				NOT = { stability = -2 }
+				AND = { war_exhaustion = 8}
+			}
+		}
+		modifier = {
+			factor = 0.7
+			OR = {
+				NOT = { stability = -1 }
+				AND = { war_exhaustion = 6}
+			}
+		}
+		modifier = {
+			factor = 0.8
+			OR = {
+				NOT = { stability = 0 }
+				AND = { war_exhaustion = 4}
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				NOT = { stability = 1 }
+				AND = { war_exhaustion = 2}
+			}
+		}
+		modifier = {
+			factor = 1.0
+			OR = {
+				NOT = { stability = 2 }
+				AND = { war_exhaustion = 0}
+			}
+		}
+		modifier = {
+			factor = 1.0
+			OR = {
+				NOT = { stability = 3 }
+				AND = { war_exhaustion = 0}
+			}
+		}
+	}
+	
+	#OH no!
+	option = { 
+		name = flavor_mordor.24.a
+		
+		every_owned_province = {
+			limit = {
+				owned_by = ROOT
+				controlled_by = ROOT
+				has_owner_culture = yes
+				has_owner_religion = yes
+			
+				OR = {
+					trade_goods = livestock
+					trade_goods = grain
+					trade_goods = fish
+				}
+				NOT = { 
+					has_province_modifier = mordor_province_over_consumption
+				}
+			}
+			add_province_modifier = {
+				name = mordor_province_over_consumption 
+				duration = 3650
+			}
+		}
+	}
+}
+
+#Entice Bloodlust
+country_event = {
+	id = flavor_mordor.25
+	title = flavor_mordor.25.t
+	desc = flavor_mordor.25.d
+	picture = BATTLE_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = V17
+
+		NOT = {
+			has_country_modifier = mordor_poor_equipment
+			has_country_modifier = mordor_blood_lust
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+
+		modifier = {
+			factor = 1.0
+			OR = {
+				NOT = { stability = -2 }
+				AND = { war_exhaustion = 8}
+			}
+		}
+		modifier = {
+			factor = 1.0
+			OR = {
+				NOT = { stability = -1 }
+				AND = { war_exhaustion = 6}
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				NOT = { stability = 0 }
+				AND = { war_exhaustion = 4}
+			}
+		}
+		modifier = {
+			factor = 0.8
+			OR = {
+				NOT = { stability = 1 }
+				AND = { war_exhaustion = 2}
+			}
+		}
+		modifier = {
+			factor = 0.7
+			OR = {
+				NOT = { stability = 2 }
+				AND = { war_exhaustion = 0}
+			}
+		}
+		modifier = {
+			factor = 0.6
+			OR = {
+				NOT = { stability = 3 }
+				AND = { war_exhaustion = 0}
+			}
+		}
+	}
+	
+	#Yes
+	option = { 
+		name = flavor_mordor.25.a
+		
+		add_country_modifier = {
+			name = mordor_blood_lust
+			duration = 3650
+		}
+	}
+}
+
+#Entice Fear
+country_event = {
+	id = flavor_mordor.26
+	title = flavor_mordor.26.t
+	desc = flavor_mordor.26.d
+	picture = BATTLE_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = V17
+		
+		NOT = {
+			has_country_flag = mordor_enticed_fear
+		}
+		
+		any_neighbor_country = {
+			NOT = {
+				alliance_with = ROOT
+				is_subject_of = ROOT
+				overlord_of = ROOT
+				has_country_modifier = mordor_fear_of_mordor
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+
+		modifier = {
+			factor = 1.0
+			OR = {
+				NOT = { stability = -2 }
+				AND = { war_exhaustion = 8}
+			}
+		}
+		modifier = {
+			factor = 1.0
+			OR = {
+				NOT = { stability = -1 }
+				AND = { war_exhaustion = 6}
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				NOT = { stability = 0 }
+				AND = { war_exhaustion = 4}
+			}
+		}
+		modifier = {
+			factor = 0.8
+			OR = {
+				NOT = { stability = 1 }
+				AND = { war_exhaustion = 2}
+			}
+		}
+		modifier = {
+			factor = 0.7
+			OR = {
+				NOT = { stability = 2 }
+				AND = { war_exhaustion = 0}
+			}
+		}
+		modifier = {
+			factor = 0.6
+			OR = {
+				NOT = { stability = 3 }
+				AND = { war_exhaustion = 0}
+			}
+		}
+	}
+	
+	#Yes
+	option = { 
+		name = flavor_mordor.26.a
+		
+		random_neighbor_country = {
+			limit = {
+				NOT = {
+					alliance_with = ROOT
+					is_subject_of = ROOT
+					overlord_of = ROOT
+					has_country_modifier = mordor_fear_of_mordor
+				}
+			}
+			
+			add_country_modifier = {
+				name = mordor_fear_of_mordor
+				duration = 3650
+			}
+			
+			hidden_effect = {
+				country_event = {
+					id = flavor_mordor.29
+				}
+			}
+		}
+		
+		set_country_flag = mordor_enticed_fear
+		
+		hidden_effect = {
+			country_event = {
+				id = flavor_mordor.28
+				days = 3650
+			}
+		}
+	}
+}
+
+#Clean Up Event flavor_mordor.22
+country_event = {
+	id = flavor_mordor.27
+	title = flavor_mordor.27.t
+	desc = flavor_mordor.27.d
+	picture = MILITARY_CAMP_eventPicture
+
+	is_triggered_only = yes
+	hidden = yes
+	
+	trigger = {
+		tag = ROOT
+		has_country_flag = mordor_got_men_from_us
+	}
+	
+	#doest matter
+	option = { 
+		name = flavor_mordor.27.a
+		clr_country_flag = mordor_got_men_from_us
+	}
+}
+
+#Clean Up Event flavor_mordor.26
+country_event = {
+	id = flavor_mordor.28
+	title = flavor_mordor.28.t
+	desc = flavor_mordor.28.d
+	picture = MILITARY_CAMP_eventPicture
+
+	is_triggered_only = yes
+	hidden = yes
+	
+	trigger = {
+		tag = FROM
+		has_country_flag = mordor_enticed_fear
+	}
+	
+	#doest matter
+	option = { 
+		name = flavor_mordor.28.a
+		clr_country_flag = mordor_enticed_fear
+	}
+}
+
+#Got Enticed Fear
+country_event = {
+	id = flavor_mordor.29
+	title = flavor_mordor.29.t
+	desc = flavor_mordor.29.d
+	picture = MILITARY_CAMP_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		
+	}
+	
+	#oh no!
+	option = { 
+		name = flavor_mordor.29.a
+		
+		tooltip = {
+			add_country_modifier = {
+				name = mordor_fear_of_mordor
+				duration = 3650
+			}
+		}
+	}
+}

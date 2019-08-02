@@ -1,0 +1,49 @@
+bookmark =
+{
+    # The Long Winter
+	name = "LOTR_2_NAME"
+	desc = "LOTR_2_DESC"
+	date = 2758.9.15
+    
+    center = 114
+    country = X16 
+	country = Z50 
+	country = X27 
+	country = X23 
+	country = X99 
+	country = X01
+    easy_country = X01
+    
+    default = no
+    
+    effect = {
+        X16 = {
+		add_stability = -1
+		add_prestige = -50
+		add_manpower = -10
+		}
+		X01 = {
+		add_prestige = -20
+		add_manpower = -25
+		}
+		Z50 = {
+		add_stability = 1
+		add_prestige = 25
+		add_manpower = 10
+		}
+		X27 = {
+		add_stability = 1
+		add_prestige = 20
+		add_manpower = 8
+		add_sailor = 900
+		}
+		X23 = {
+		add_stability = 1
+		add_manpower = 3
+		add_prestige = 10
+		}
+		X99 = {
+		add_manpower = 3
+		}
+    }
+}

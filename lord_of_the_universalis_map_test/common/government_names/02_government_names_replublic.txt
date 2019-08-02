@@ -1,0 +1,50 @@
+# For specific government types
+# Will pick the first valid one it finds in list
+
+gov_lotr_mayorship = {
+	rank = {
+		1 = MAYORSHIP
+		2 = GRAND_MAYORSHIP
+		3 = GREAT_MAYORSHIP
+	}
+
+	ruler_male = {
+		1 = MAYOR
+		2 = MAYOR
+		3 = MAYOR
+	}
+
+	ruler_female = {
+		1 = MAYOR
+		2 = MAYOR
+		3 = MAYOR
+	}
+	
+	trigger = {
+		has_reform = mayorship_reform
+	}
+}
+
+gov_lotr_thainship = {
+	rank = {
+		1 = THAINSHIP
+		2 = GRAND_THAINSHIP
+		3 = GREAT_THAINSHIP
+	}
+
+	ruler_male = {
+		1 = THAIN
+		2 = THAIN
+		3 = THAIN
+	}
+
+	ruler_female = {
+		1 = THAIN
+		2 = THAIN
+		3 = THAIN
+	}
+	
+	trigger = {
+		has_reform = thainship_reform
+	}
+}

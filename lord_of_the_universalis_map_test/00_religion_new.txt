@@ -1,0 +1,1134 @@
+# If you add religions, and use those tags, do not change them without changing everywhere they are used.
+
+# Uses all 'modifiers' possible thats exported as a Modifier.
+
+###############
+#Human Races#
+###############
+
+religion_group_arhunerim = {
+	defender_of_faith = no
+	can_form_personal_unions = yes
+	flags_with_emblem_percentage = 33 # default == 0
+	flag_emblem_index_range = { 1 18 }
+	
+	religion_daen = {
+		icon = 1
+		color = { 0.70 0.82 0.81 }
+		
+		country = {
+			stability_cost_modifier = -0.1
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+	
+	religion_baradhrim = {
+		icon = 1
+		color = { 0.70 0.82 0.81 }
+		
+		country = {
+			stability_cost_modifier = -0.1
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+	
+	religion_urnfield = {
+		icon = 1
+		color = { 0.70 0.82 0.81 }
+		
+		country = {
+			stability_cost_modifier = -0.1
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+	
+	religion_nadhrim = {
+		icon = 1
+		color = { 0.70 0.82 0.81 }
+		
+		country = {
+			stability_cost_modifier = -0.1
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+	
+	religion_drughu = {
+		icon = 1
+		color = { 0.70 0.82 0.81 }
+		
+		country = {
+			stability_cost_modifier = -0.1
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+	
+	religion_forodwaith = {
+		icon = 1
+		color = { 0.70 0.82 0.81 }
+		
+		country = {
+			stability_cost_modifier = -0.1
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+}
+
+religion_group_numenorean = {
+	defender_of_faith = no
+	can_form_personal_unions = yes
+	flags_with_emblem_percentage = 33 # default == 0
+	flag_emblem_index_range = { 1 18 }
+	
+	religion_dunedain = {
+		icon = 1
+		color = { 0.29 0.47 0.68 }
+		
+		country = {
+			tolerance_heretic = 1
+			embracement_cost = -0.25
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		has_patriarchs = yes		# Uses patriarch authority
+	}
+	
+	religion_black_numenorean = {
+		icon = 1
+		color = { 0.14 0.16 0.83 }
+		
+		country = {
+			leader_naval_fire = 1
+			leader_naval_shock = 1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+}
+
+religion_group_eriedain = {
+	defender_of_faith = no
+	can_form_personal_unions = yes
+	flags_with_emblem_percentage = 33 # default == 0
+	flag_emblem_index_range = { 1 18 }
+	
+	religion_eriadorians = {
+		icon = 1
+		color = { 0.70 0.82 0.81 }
+		
+		country = {
+			stability_cost_modifier = -0.1
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+	
+	religion_nenedain = {
+		icon = 1
+		color = { 0.70 0.82 0.81 }
+		
+		country = {
+			stability_cost_modifier = -0.1
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+	
+	religion_eastern_northmen = {
+		icon = 1
+		color = { 0.70 0.82 0.81 }
+		
+		country = {
+			stability_cost_modifier = -0.1
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+	
+	religion_ullthiuda = {
+		icon = 1
+		color = { 0.70 0.82 0.81 }
+		
+		country = {
+			stability_cost_modifier = -0.1
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+	
+	religion_aivathuida = {
+		icon = 1
+		color = { 0.70 0.82 0.81 }
+		
+		country = {
+			stability_cost_modifier = -0.1
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+	
+	religion_eorlingas = {
+		icon = 1
+		color = { 0.70 0.82 0.81 }
+		
+		country = {
+			stability_cost_modifier = -0.1
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+	
+	religion_eriadorian_northmen = {
+		icon = 1
+		color = { 0.70 0.82 0.81 }
+		
+		country = {
+			stability_cost_modifier = -0.1
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+}
+
+religion_group_haradrim = {
+	defender_of_faith = no
+	can_form_personal_unions = yes
+	flags_with_emblem_percentage = 33 # default == 0
+	flag_emblem_index_range = { 1 18 }
+	
+	religion_haruzani = {
+		icon = 2
+		color = { 1.0 1.0 0.2 }
+		
+		country = {
+			hostile_attrition = 1
+			heir_chance = 0.5
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		papacy = {
+			papal_tag = X31
+			election_cost = 5
+			seat_of_papacy = 131 # Gobel Mirlond
+			
+			levy_church_tax = {
+				cost = 50
+				potential = {
+					#NOT = { tag = PAP }
+				}
+				allow = {
+					NOT = { has_country_modifier = capture_mummakill_southron_religion }
+				}
+				effect = {
+					add_country_modifier = {
+						name = "capture_mummakill_southron_religion"
+						duration = 7300
+					}
+				}
+				ai_will_do = {
+					factor = 1
+				}				
+			}			
+			bless_monarch = {
+				cost = 50
+				potential = {
+					#NOT = { tag = PAP }
+				}
+				allow = {
+					NOT = { has_country_modifier = hold_a_race_southron_religion }
+				}
+				effect = {
+					add_country_modifier = {
+						name = "hold_a_race_southron_religion"
+						duration = 7300
+					}
+				}
+				ai_will_do = {
+					factor = 1
+				}
+			}
+			indulgence_for_sins = {
+				cost = 50
+				potential = {
+					government = monarchy
+					#NOT = { tag = PAP }
+				}
+				allow = {
+					#NOT = { war_with = PAP }
+					NOT = { legitimacy = 100 }
+					NOT = { has_country_modifier = hold_a_feast_southron_religion }
+				}
+				effect = {
+					add_country_modifier = {
+						name = "hold_a_feast_southron_religion"
+						duration = 7300
+					}
+				}
+				ai_will_do = {
+					factor = 1
+				}
+			}	
+			local_saint = {
+				cost = 100
+				potential = {
+					#NOT = { tag = PAP }
+				}
+				allow = {
+					NOT = { has_country_modifier = challenge_to_a_duel_southron_religion }
+				}
+				effect = {
+					add_country_modifier = {
+						name = "challenge_to_a_duel_southron_religion"
+						duration = 7300
+					}
+				}
+				ai_will_do = {
+					factor = 1
+				}
+			}
+			forgiveness_for_usury = {
+				cost = 50
+				potential = {
+					#NOT = { tag = PAP }
+				}
+				allow = {
+					NOT = { has_country_modifier = train_troops_southron_religion }
+				}
+				effect = {
+					add_country_modifier = {
+						name = "train_troops_southron_religion"
+						duration = 7300
+					}
+				}
+				ai_will_do = {
+					factor = 1
+				}
+			}			
+			proclaim_holy_war = {
+				cost = 50
+				potential = {
+					#NOT = { tag = PAP }
+				}
+				allow = {
+					NOT = { has_country_modifier = prepare_for_war_southron_religion }
+				}
+				effect = {
+					add_country_modifier = {
+						name = "prepare_for_war_southron_religion"
+						duration = 7300
+					}
+				}
+				ai_will_do = {
+					factor = 1
+				}
+			}
+			send_papal_legate = {
+				cost = 50
+				potential = {
+					#NOT = { tag = PAP }
+				}
+				allow = {
+					NOT = { has_country_modifier = encourage_trade_imports_southron_religion }
+				}
+				effect = {
+					add_country_modifier = {
+						name = "encourage_trade_imports_southron_religion"
+						duration = 7300
+					}
+				}
+				ai_will_do = {
+					factor = 1
+				}
+			}	
+			sanction_commercial_monopoly = {
+				cost = 50
+				potential = {
+					#NOT = { tag = PAP }
+				}
+				allow = {
+					NOT = { has_country_modifier = display_might_southron_religion }
+				}
+				effect = {
+					add_country_modifier = {
+						name = "display_might_southron_religion"
+						duration = 7300
+					}
+				}
+				ai_will_do = {
+					factor = 1
+				}
+			}			
+		}
+	}
+	
+	religion_apysani_beduins = {
+		icon = 1
+		color = { 0.70 0.82 0.81 }
+		
+		country = {
+			stability_cost_modifier = -0.1
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+	
+	religion_sea_peoples = {
+		icon = 1
+		color = { 0.70 0.82 0.81 }
+		
+		country = {
+			stability_cost_modifier = -0.1
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+}
+
+religion_group_mornerim = {
+	defender_of_faith = no
+	can_form_personal_unions = yes
+	flags_with_emblem_percentage = 33 # default == 0
+	flag_emblem_index_range = { 1 18 }
+	
+	religion_umli = {
+		icon = 1
+		color = { 0.70 0.82 0.81 }
+		
+		country = {
+			stability_cost_modifier = -0.1
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+	
+	religion_eastern_snowmen = {
+		icon = 1
+		color = { 0.70 0.82 0.81 }
+		
+		country = {
+			stability_cost_modifier = -0.1
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+}
+
+religion_group_eastern_black_peoples = {
+	defender_of_faith = no
+	can_form_personal_unions = yes
+	flags_with_emblem_percentage = 33 # default == 0
+	flag_emblem_index_range = { 1 18 }
+	
+	religion_eastern_black_peoples = {
+		icon = 1
+		color = { 0.70 0.82 0.81 }
+		
+		country = {
+			stability_cost_modifier = -0.1
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+}
+
+religion_group_mornedain = {
+	defender_of_faith = no
+	can_form_personal_unions = yes
+	flags_with_emblem_percentage = 33 # default == 0
+	flag_emblem_index_range = { 1 18 }
+	
+	religion_mornedain = {
+		icon = 1
+		color = { 0.70 0.82 0.81 }
+		
+		country = {
+			stability_cost_modifier = -0.1
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+	
+	religion_kir = {
+		icon = 1
+		color = { 0.70 0.82 0.81 }
+		
+		country = {
+			stability_cost_modifier = -0.1
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+	
+	religion_akanli = {
+		icon = 1
+		color = { 0.70 0.82 0.81 }
+		
+		country = {
+			stability_cost_modifier = -0.1
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+	
+	religion_mumakani = {
+		icon = 1
+		color = { 0.70 0.82 0.81 }
+		
+		country = {
+			stability_cost_modifier = -0.1
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+}
+
+religion_group_avarim = {
+	defender_of_faith = no
+	can_form_personal_unions = yes
+	flags_with_emblem_percentage = 33 # default == 0
+	flag_emblem_index_range = { 1 18 }
+	
+	religion_avaradan = {
+		icon = 1
+		color = { 0.70 0.82 0.81 }
+		
+		country = {
+			stability_cost_modifier = -0.1
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+	
+	religion_cuivac = {
+		icon = 1
+		color = { 0.70 0.82 0.81 }
+		
+		country = {
+			stability_cost_modifier = -0.1
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+	
+	religion_woodmen_of_the_far_east = {
+		icon = 1
+		color = { 0.70 0.82 0.81 }
+		
+		country = {
+			stability_cost_modifier = -0.1
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+	
+	religion_men_of_the_orocarni = {
+		icon = 1
+		color = { 0.70 0.82 0.81 }
+		
+		country = {
+			stability_cost_modifier = -0.1
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+	
+	religion_other_eastern_peoples = {
+		icon = 1
+		color = { 0.70 0.82 0.81 }
+		
+		country = {
+			stability_cost_modifier = -0.1
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+	
+	religion_lakhab = {
+		icon = 1
+		color = { 0.70 0.82 0.81 }
+		
+		country = {
+			stability_cost_modifier = -0.1
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+}
+
+religion_group_talatherim = {
+	defender_of_faith = no
+	can_form_personal_unions = yes
+	flags_with_emblem_percentage = 33 # default == 0
+	flag_emblem_index_range = { 1 18 }
+	
+	religion_ioriags = {
+		icon = 1
+		color = { 0.70 0.82 0.81 }
+		
+		country = {
+			stability_cost_modifier = -0.1
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+	
+	religion_ulgath = {
+		icon = 1
+		color = { 0.70 0.82 0.81 }
+		
+		country = {
+			stability_cost_modifier = -0.1
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+	
+	religion_chailuza = {
+		icon = 1
+		color = { 0.70 0.82 0.81 }
+		
+		country = {
+			stability_cost_modifier = -0.1
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+	
+	religion_tyr = {
+		icon = 1
+		color = { 0.70 0.82 0.81 }
+		
+		country = {
+			stability_cost_modifier = -0.1
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+	
+	religion_ahar = {
+		icon = 1
+		color = { 0.70 0.82 0.81 }
+		
+		country = {
+			stability_cost_modifier = -0.1
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+}
+
+###############
+#Fantasy Races#
+###############
+
+religion_group_periannath = {
+	defender_of_faith = no
+	can_form_personal_unions = yes
+	flags_with_emblem_percentage = 33 # default == 0
+	flag_emblem_index_range = { 1 18 }
+	
+	religion_perian = {
+		icon = 1
+		color = { 0.69 1 0.39 }
+		
+		country = {
+			production_efficiency = 0.1
+			core_creation = -0.5
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+}
+
+religion_group_khazad = {
+	defender_of_faith = no
+	can_form_personal_unions = yes
+	flags_with_emblem_percentage = 33 # default == 0
+	flag_emblem_index_range = { 1 18 }
+	
+	religion_mahal = {
+		icon = 1
+		color = { 0.57 0.72 0.96 }
+		
+		country = {
+			build_cost = -0.25
+			advisor_cost = -0.10
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		holy_sites = { 292 679 642 882 285 }
+		
+		blessings = {
+			dwarven_blessing_send_traders
+			dwarven_blessing_send_smithies
+			dwarven_blessing_send_miners
+			dwarven_blessing_send_warriors
+			dwarven_blessing_send_advisors
+		}
+		
+		#Erebor = 292
+		#Dains Hall = 679
+		#Gundabad = 642
+		#Western Halls of Moria = 882
+		#Eastern Halls of Moria = 285
+	}
+}
+
+religion_group_eldar = {
+	defender_of_faith = no
+	can_form_personal_unions = yes
+	flags_with_emblem_percentage = 33 # default == 0
+	flag_emblem_index_range = { 1 18 }
+	
+	religion_moriquendi = {
+		icon = 1
+		color = { 0.81 0.63 0.90 }
+		
+		country = {
+			technology_cost = -0.05
+			tolerance_heretic = 2
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		uses_karma = yes
+	}
+	
+	religion_umanyar = {
+		icon = 1
+		color = { 0.27 0.33 0.08 }
+		
+		country = {
+			leader_land_fire = 2	
+			hostile_attrition = 1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		uses_karma = yes
+	}
+	
+	religion_calaquendi = {
+		icon = 1
+		color = { 0.54 0.99 0.98 }
+		
+		country = {
+			hostile_attrition = 1
+			defensiveness = 0.25
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		uses_karma = yes
+	}
+}
+
+religion_group_children_of_iluvatar = {
+	defender_of_faith = no
+	can_form_personal_unions = no
+	flags_with_emblem_percentage = 33 # default == 0
+	flag_emblem_index_range = { 1 18 }
+	
+	religion_ents = {
+		icon = 1
+		color = { 0.69 1 0.39 }
+		
+		country = {
+			production_efficiency = 0.1
+			core_creation = -0.5
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+	
+	religion_great_eagles = {
+		icon = 1
+		color = { 0.69 1 0.39 }
+		
+		country = {
+			production_efficiency = 0.1
+			core_creation = -0.5
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+	
+	religion_giants = {
+		icon = 1
+		color = { 0.69 1 0.39 }
+		
+		country = {
+			production_efficiency = 0.1
+			core_creation = -0.5
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+}
+
+religion_group_melkor = {
+	defender_of_faith = no
+	can_form_personal_unions = no
+	flags_with_emblem_percentage = 33 # default == 0
+	flag_emblem_index_range = { 1 18 }
+	
+	religion_wight = {
+		icon = 2
+		color = { 0.80 0.25 0.25 }
+		
+		country = {
+			hostile_attrition = 2
+			recover_army_morale_speed = 0.25
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+	
+	religion_olog = {
+		icon = 2
+		color = { 0.83 0.10 0.5 }
+		
+		country = {
+			war_exhaustion = -0.25
+			heir_chance = 1.0
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+	
+	religion_orkish = {
+		icon = 2
+		color = { 0.9 0.0 0.2 }
+		
+		country = {
+			war_exhaustion = -0.25
+			reinforce_cost_modifier = -0.50
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		uses_piety = yes
+	}
+	
+	religion_goblin = {
+		icon = 2
+		color = { 0.16 0.31 0.15 }
+		
+		country = {
+			leader_land_shock = 1
+			land_attrition = -0.25
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+	
+	religion_uruk = {
+		icon = 2
+		color = { 0.83 0.10 0.5 }
+		
+		country = {
+			mil_tech_cost_modifier = -0.1
+			province_warscore_cost = -0.25
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+	
+	religion_dragons = {
+		icon = 2
+		color = { 0.83 0.10 0.5 }
+		
+		country = {
+			loot_amount = 1.0
+			tolerance_own = 3
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+	
+	religion_spider = {
+		icon = 2
+		color = { 0.83 0.10 0.5 }
+		
+		country = {
+			movement_speed = 0.15
+			hostile_attrition = 2
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+	
+	religion_burz_uruk = {
+		icon = 2
+		color = { 0.74 0.27 0.09 }
+		
+		country = {
+			war_exhaustion = -0.25
+			reinforce_cost_modifier = -0.50
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		uses_piety = yes
+		
+		#authority = yes
+		#religious_reforms = yes
+		#reform_tooltip = INTI_REFORM_TOOLTIP
+	}
+}
+
+religion_group_wilderness = {
+	defender_of_faith = no
+	can_form_personal_unions = no
+	flags_with_emblem_percentage = 33 # default == 0
+	flag_emblem_index_range = { 1 18 }
+	
+	religion_wilderness = {
+		icon = 1
+		color = { 0.59 0.48 0.46 }
+		
+		country = {
+			stability_cost_modifier = -0.1
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+}

@@ -1,0 +1,80 @@
+# Province ID : 114
+# Province Name : Edoras
+# Province RGB : (0, 167, 20)
+# Province Area : King's Land
+# Province Region : Rohan
+# Province Super Region : Rohan
+# Province Continent : Middle Earth
+# Province Tradenode : Edoras
+# Province Climate : Mild_winter
+# Province is not Sea/Lake Province
+# Province Contents : 
+
+is_city = yes
+
+base_tax = 12
+base_production = 12
+base_manpower = 8
+
+add_core = X16
+owner = X16
+controller = X16
+
+culture = culture_eorlingas
+religion = religion_eorlingas
+
+trade_goods = paper
+
+hre = no
+
+add_permanent_province_modifier = {
+	name = trade_post_modifier
+	duration = -1
+}
+
+capital_2_building=yes
+trade_outpost_building=yes
+tax_office_building=yes
+workshop_building=yes
+fort_pallisade_building=yes
+army_camp_building=yes
+
+discovered_by = lotr_ahar
+discovered_by = lotr_bellakarian
+discovered_by = lotr_black_numenorean
+discovered_by = lotr_chyan
+discovered_by = lotr_daen
+discovered_by = lotr_dunedain
+discovered_by = lotr_dwarven
+discovered_by = lotr_dragon
+discovered_by = lotr_easterling
+discovered_by = lotr_elven
+discovered_by = lotr_eriadorian
+discovered_by = lotr_ent
+discovered_by = lotr_goblin
+discovered_by = lotr_giant
+discovered_by = lotr_great_spider
+discovered_by = lotr_half_dwarf
+discovered_by = lotr_hobbit
+discovered_by = lotr_half_orc
+discovered_by = lotr_haradrim
+discovered_by = lotr_linerim
+discovered_by = lotr_lochans
+discovered_by = lotr_lynerians
+discovered_by = lotr_northmen
+discovered_by = lotr_orc
+discovered_by = lotr_rohirrim
+discovered_by = lotr_sand_men
+discovered_by = lotr_shelflanders
+discovered_by = lotr_siranians
+discovered_by = lotr_snow_men
+discovered_by = lotr_swarthy_men
+discovered_by = lotr_troll
+discovered_by = lotr_ts_balla
+discovered_by = lotr_urdic_men
+discovered_by = lotr_uruk_hai
+discovered_by = lotr_wizard
+discovered_by = lotr_womarin
+discovered_by = lotr_woses
+discovered_by = lotr_wights
+

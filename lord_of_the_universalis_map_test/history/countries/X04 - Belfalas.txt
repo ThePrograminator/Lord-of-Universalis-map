@@ -1,0 +1,9 @@
+government = monarchy
+add_government_reform = feudalism_reform
+mercantilism = 0.1
+primary_culture = culture_dunedain_of_gondor
+religion = religion_dunedain
+technology_group = lotr_dunedain
+capital = 656
+
+government_rank = 1

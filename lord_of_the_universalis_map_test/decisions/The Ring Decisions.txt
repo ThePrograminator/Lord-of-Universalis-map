@@ -1,0 +1,62 @@
+country_decisions = {
+	
+	return_ring_to_sauron = {
+		potential = {
+			has_country_modifier = the_one_ring_not_mordor
+			exists = X84
+			NOT = {
+				tag = X84
+			}
+			is_good_race = no
+		}
+		allow = {
+			exists = X84
+			has_country_modifier = the_one_ring_not_mordor
+			is_good_race = no
+		}
+		effect = {	
+			remove_country_modifier = the_one_ring_not_mordor
+			
+			if = {
+				limit = {
+					ruler_has_personality = carries_ring_personality
+				}
+				remove_ruler_personality = carries_ring_personality
+			}
+			country_event = { id = fellowship_of_ring_events.28 }
+			
+			X84 = {
+				country_event = { id = fellowship_of_ring_events.25 }
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				
+				is_bad_race = yes
+			}
+			modifier = {
+				factor = 0
+				
+				is_good_race = yes
+			}
+			
+			modifier = {
+				factor = 0.5
+				
+				is_neutral_race = yes
+			}
+			
+			modifier = {
+				factor = 0
+				
+				OR = {
+					is_enemy = X84
+					is_rival = X84
+					war_with = X84
+				}
+			}
+		}
+	}
+}

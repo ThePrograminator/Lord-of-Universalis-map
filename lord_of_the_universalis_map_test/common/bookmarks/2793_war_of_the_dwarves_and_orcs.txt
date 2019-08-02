@@ -1,0 +1,42 @@
+bookmark =
+{
+    # War of the Dwarves and Orcs
+	name = "LOTR_4_NAME"
+	desc = "LOTR_4_DESC"
+	date = 2793.3.1
+	
+    center = 290
+    country = Y57 
+	country = Y22
+	country = Y16
+	country = Y63
+	country = Y13
+	country = Y06
+	country = Y23
+    easy_country = Y23
+	easy_country = Y06
+    
+    default = no
+    
+    effect = {
+		X57 = {
+		add_stability = 1
+		add_prestige = 50
+		add_manpower = 3
+		}
+		Y22 = {
+		add_stability = -1
+		add_prestige = -35
+		add_manpower = 15
+		}
+		Y23 = {
+		add_stability = -1
+		add_prestige = -15
+		add_manpower = 6
+		}
+		Y06 = {
+		add_stability = -1
+		add_prestige = -20
+		add_manpower = 4
+		}
+}

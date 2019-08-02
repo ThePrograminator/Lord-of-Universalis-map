@@ -1,0 +1,111 @@
+﻿l_english:
+ # Religions
+ 
+ #Humans
+ religion_group_arhunerim: "Arhûnerim"
+ religion_daen: "Daen"
+ religion_baradhrim: "Baradhrim"
+ religion_urnfield: "Urnfield"
+ religion_nadhrim: "Nadhrim"
+ religion_drughu: "Drûghu"
+ religion_forodwaith: "Forodwaith"
+ 
+ religion_group_numenorean: "Númenórean"
+ religion_dunedain: "Dúnedain"
+ religion_black_numenorean: "Black Númenóreans"
+ 
+ religion_group_eriedain: "Eriedain"
+ religion_eriadorians: "Eriadorians"
+ religion_nenedain: "Nenedain"
+ religion_eastern_northmen: "Eastern Northmen"
+ religion_ullthiuda: "Ullthiuda"
+ religion_aivathuida: "Aivathuida"
+ religion_eorlingas: "Eorlingas"
+ religion_eriadorian_northmen: "Eriadorian Northmen"
+ 
+ religion_group_haradrim: "Haradrim"
+ religion_haruzani: "Haruzani"
+ religion_apysani_beduins: "Apysani Beduins"
+ religion_sea_peoples: "Sea Peoples"
+ 
+ religion_group_mornerim: "Mornerim"
+ religion_umli: "Umli"
+ religion_eastern_snowmen: "Eastern Snowmen"
+ 
+ religion_group_eastern_black_peoples: "Eastern Black Peoples"
+ religion_eastern_black_peoples: "Eastern Black Peoples"
+ 
+ religion_group_mornedain: "Mornedain"
+ religion_mornedain: "Mornedain"
+ religion_kir: "Kîr"
+ religion_akanli: "Akanli"
+ religion_mumakani: "Mûmakani"
+ 
+ religion_group_avarim: "Avarim"
+ religion_avaradan: "Avaradan"
+ religion_cuivac: "Cuivac"
+ religion_woodmen_of_the_far_east: "Woodmen of the Far East"
+ religion_men_of_the_orocarni: "Men of the Orocarni"
+ religion_other_eastern_peoples: "Other Eastern Peoples"
+ religion_lakhab: "Lakhab"
+ 
+ religion_group_talatherim: "Talatherim"
+ religion_ioriags: "Ioriags"
+ religion_ulgath: "Ulgath"
+ religion_chailuza: "Chailûza"
+ religion_tyr: "Tyr"
+ religion_ahar: "Ahar"
+ 
+ #Fantasy Races
+ 
+ #Hobbit
+ religion_group_periannath: "Periannath"
+ religion_perian: "Perian"
+ 
+ #Dwarves
+ religion_group_khazad: "Khazâd"
+ religion_mahal: "Dwarves"
+ 
+ #Eldar
+ religion_group_eldar: "Eldar"
+ religion_moriquendi: "Moriquendi"
+ religion_umanyar: "Úmanyar"
+ religion_calaquendi: "Calaquendi"
+ 
+ #Children of Iluvatar
+ religion_group_children_of_iluvatar: "Children of Iluvatar"
+ religion_ents: "Ents"
+ religion_great_eagles: "Great Eagles"
+ religion_giants: "Giants"
+ 
+ religion_group_melkor: "Creatures of Melkor"
+ religion_wight: "Wight"
+ religion_olog: "Troll"
+ religion_orkish: "Orcs"
+ religion_goblin: "Goblin"
+ religion_uruk: "Uruk"
+ religion_dragons: "Dragon"
+ religion_spider: "Spider"
+ religion_burz_uruk: "Burz Uruk"
+
+ #Other
+ 
+ #Other
+ religion_group_wilderness: "Wilderness"
+ religion_wilderness: "Wilderness"
+ 
+ #Eorlingas Ancestors
+ eorl_the_young_ancestor: "Eorl"
+ eorl_the_young_ancestor_desc: "Shiva is the god of transformation through destruction and the Lord of Dance."
+ 
+ brego_ancestor: "Brego"
+ brego_ancestor_desc: "Shiva is the god of transformation through destruction and the Lord of Dance."
+ 
+ aldor_the_old_ancestor: "Aldor"
+ aldor_the_old_ancestor_desc: "Shiva is the god of transformation through destruction and the Lord of Dance."
+ 
+ helm_hammerhand_ancestor: "Helm"
+ helm_hammerhand_ancestor_desc: "Shiva is the god of transformation through destruction and the Lord of Dance."
+ 
+ folcwine_ancestor: "Folcwine"
+ folcwine_ancestor_desc: "Shiva is the god of transformation through destruction and the Lord of Dance."

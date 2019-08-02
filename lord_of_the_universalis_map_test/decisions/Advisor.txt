@@ -1,0 +1,551 @@
+country_decisions = {
+	
+	# ADM
+	consult_the_elders = {
+		potential = {
+			NOT = { has_country_modifier = consulted_elders }
+			advisor = philosopher
+		}
+		allow = {
+			years_of_income = 0.25
+			advisor = philosopher
+		}
+		effect = {	
+			add_years_of_income = -0.25
+			
+			add_country_modifier = {
+				name = consulted_elders
+				duration = 1825
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				stability = 3
+			}
+		}
+	}
+	
+	construct_monuments = {
+		potential = {
+			NOT = { has_country_modifier = constructed_monuments }
+			advisor = natural_scientist
+		}
+		allow = {
+			years_of_income = 0.25
+			advisor = natural_scientist
+		}
+		effect = {	
+			add_years_of_income = -0.25
+			
+			add_country_modifier = {
+				name = constructed_monuments
+				duration = 1825
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				stability = 3
+			}
+		}
+	}
+	
+	commission_grand_painting = {
+		potential = {
+			NOT = { has_country_modifier = grand_painting }
+			advisor = artist
+		}
+		allow = {
+			years_of_income = 0.25
+			advisor = artist
+		}
+		effect = {	
+			add_years_of_income = -0.25
+			
+			add_country_modifier = {
+				name = grand_painting
+				duration = 1825
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				stability = 3
+			}
+		}
+	}
+	
+	institute_sin_tax = {
+		potential = {
+			NOT = { has_country_modifier = sin_tax }
+			advisor = treasurer
+		}
+		allow = {
+			years_of_income = 0.25
+			advisor = treasurer
+		}
+		effect = {	
+			add_years_of_income = -0.25
+			
+			add_country_modifier = {
+				name = sin_tax
+				duration = 1825
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				stability = 3
+			}
+		}
+	}
+	
+	support_the_poor = {
+		potential = {
+			NOT = { has_country_modifier = happy_poor }
+			advisor = theologian
+		}
+		allow = {
+			years_of_income = 0.25
+			advisor = theologian
+		}
+		effect = {	
+			add_years_of_income = -0.25
+			
+			add_country_modifier = {
+				name = happy_poor
+				duration = 1825
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				stability = 3
+			}
+		}
+	}
+	
+	settle_debts = {
+		potential = {
+			NOT = { has_country_modifier = debts_settled }
+			advisor = master_of_mint
+		}
+		allow = {
+			years_of_income = 0.25
+			advisor = master_of_mint
+		}
+		effect = {	
+			add_years_of_income = -0.25
+			
+			add_country_modifier = {
+				name = debts_settled
+				duration = 1825
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				stability = 3
+			}
+		}
+	}
+	
+	purify_land = {
+		potential = {
+			NOT = { has_country_modifier = purified_land }
+			advisor = inquisitor
+		}
+		allow = {
+			years_of_income = 0.25
+			advisor = inquisitor
+		}
+		effect = {	
+			add_years_of_income = -0.25
+			
+			add_country_modifier = {
+				name = purified_land
+				duration = 1825
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				stability = 3
+			}
+		}
+	}
+	
+	# DIP
+	call_a_council = {
+		potential = {
+			NOT = { has_country_modifier = councils }
+			advisor = statesman
+		}
+		allow = {
+			years_of_income = 0.25
+			advisor = statesman
+		}
+		effect = {	
+			add_years_of_income = -0.25
+			
+			add_country_modifier = {
+				name = councils
+				duration = 1825
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				stability = 3
+			}
+		}
+	}
+	
+	reinforce_ships = {
+		potential = {
+			NOT = { has_country_modifier = reinforced_ships }
+			advisor = naval_reformer
+		}
+		allow = {
+			years_of_income = 0.25
+			advisor = naval_reformer
+		}
+		effect = {	
+			add_years_of_income = -0.25
+			
+			add_country_modifier = {
+				name = reinforced_ships
+				duration = 1825
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				stability = 3
+			}
+		}
+	}
+	
+	diversify_trade = {
+		potential = {
+			NOT = { has_country_modifier = diversified_trade }
+			advisor = trader
+		}
+		allow = {
+			years_of_income = 0.25
+			advisor = trader
+		}
+		effect = {	
+			add_years_of_income = -0.25
+			
+			add_country_modifier = {
+				name = diversified_trade
+				duration = 1825
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				stability = 3
+			}
+		}
+	}
+	
+	infiltrate_enemies = {
+		potential = {
+			NOT = { has_country_modifier = infiltrated_enemies }
+			advisor = spymaster
+		}
+		allow = {
+			years_of_income = 0.25
+			advisor = spymaster
+		}
+		effect = {	
+			add_years_of_income = -0.25
+			
+			add_country_modifier = {
+				name = infiltrated_enemies
+				duration = 1825
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				stability = 3
+			}
+		}
+	}
+	
+	expand_settlements = {
+		potential = {
+			NOT = { has_country_modifier = expanded_settlements }
+			advisor = colonial_governor
+		}
+		allow = {
+			years_of_income = 0.25
+			advisor = colonial_governor
+		}
+		effect = {	
+			add_years_of_income = -0.25
+			
+			add_country_modifier = {
+				name = expanded_settlements
+				duration = 1825
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				stability = 3
+			}
+		}
+	}
+	
+	give_diplomatic_gifts = {
+		potential = {
+			NOT = { has_country_modifier = diplomatic_gifts }
+			advisor = diplomat
+		}
+		allow = {
+			years_of_income = 0.25
+			advisor = diplomat
+		}
+		effect = {	
+			add_years_of_income = -0.25
+			
+			add_country_modifier = {
+				name = diplomatic_gifts
+				duration = 1825
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				stability = 3
+			}
+		}
+	}
+	
+	explore_the_seas = {
+		potential = {
+			NOT = { has_country_modifier = exploring_seas }
+			advisor = navigator
+		}
+		allow = {
+			years_of_income = 0.25
+			advisor = navigator
+		}
+		effect = {	
+			add_years_of_income = -0.25
+			
+			add_country_modifier = {
+				name = exploring_seas
+				duration = 1825
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				stability = 3
+			}
+		}
+	}
+	
+	# MIL
+	institute_corporal_punishment = {
+		potential = {
+			NOT = { has_country_modifier = corporal_punishment }
+			advisor = army_reformer
+		}
+		allow = {
+			years_of_income = 0.25
+			advisor = army_reformer
+		}
+		effect = {	
+			add_years_of_income = -0.25
+			
+			add_country_modifier = {
+				name = corporal_punishment
+				duration = 1825
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				stability = 3
+			}
+		}
+	}
+	
+	reorganise_army = {
+		potential = {
+			NOT = { has_country_modifier = organised_army }
+			advisor = army_organiser
+		}
+		allow = {
+			years_of_income = 0.25
+			advisor = army_organiser
+		}
+		effect = {	
+			add_years_of_income = -0.25
+			
+			add_country_modifier = {
+				name = organised_army
+				duration = 1825
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				stability = 3
+			}
+		}
+	}
+	
+	incite_hatred = {
+		potential = {
+			NOT = { has_country_modifier = incited_hatred }
+			advisor = commandant
+		}
+		allow = {
+			years_of_income = 0.25
+			advisor = commandant
+		}
+		effect = {	
+			add_years_of_income = -0.25
+			
+			add_country_modifier = {
+				name = incited_hatred
+				duration = 1825
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				stability = 3
+			}
+		}
+	}
+	
+	restore_war_supplies = {
+		potential = {
+			NOT = { has_country_modifier = war_supplies }
+			advisor = quartermaster
+		}
+		allow = {
+			years_of_income = 0.25
+			advisor = quartermaster
+		}
+		effect = {	
+			add_years_of_income = -0.25
+			
+			add_country_modifier = {
+				name = war_supplies
+				duration = 1825
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				stability = 3
+			}
+		}
+	}
+	
+	recruit_mercenaries = {
+		potential = {
+			NOT = { has_country_modifier = more_mercenaries }
+			advisor = recruitmaster
+		}
+		allow = {
+			years_of_income = 0.25
+			advisor = recruitmaster
+		}
+		effect = {	
+			add_years_of_income = -0.25
+			
+			add_country_modifier = {
+				name = more_mercenaries
+				duration = 1825
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				stability = 3
+			}
+		}
+	}
+	
+	garrison_forts = {
+		potential = {
+			NOT = { has_country_modifier = garrisoned_forts }
+			advisor = fortification_expert
+		}
+		allow = {
+			years_of_income = 0.25
+			advisor = fortification_expert
+		}
+		effect = {	
+			add_years_of_income = -0.25
+			
+			add_country_modifier = {
+				name = garrisoned_forts
+				duration = 1825
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				stability = 3
+			}
+		}
+	}
+	
+	utilise_supply_caravans = {
+		potential = {
+			NOT = { has_country_modifier = supply_caravans }
+			advisor = grand_captain
+		}
+		allow = {
+			years_of_income = 0.25
+			advisor = grand_captain
+		}
+		effect = {	
+			add_years_of_income = -0.25
+			
+			add_country_modifier = {
+				name = supply_caravans
+				duration = 1825
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				stability = 3
+			}
+		}
+	}
+}

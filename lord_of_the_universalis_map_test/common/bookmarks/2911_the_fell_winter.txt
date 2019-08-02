@@ -1,0 +1,25 @@
+bookmark =
+{
+    # The Fell Winter
+	name = "LOTR_12_NAME"
+	desc = "LOTR_12_DESC"
+	date = 2911.8.1
+    
+    center = 83
+	country = Y26
+	country = Z06
+	country = Z16
+	country = V31
+	country = Y80
+	country = Z21
+    
+    default = no
+    
+    effect = {
+	Y26 = {
+	add_stability = -2
+	}
+	V31 = {
+	add_manpower = 3
+	}
+}

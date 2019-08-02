@@ -1,0 +1,27 @@
+mercantilism = 0.1
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = culture_waldingas
+religion = religion_aivathuida
+technology_group = lotr_northmen
+capital = 324
+
+government_rank = 1
+
+historical_friend = V27
+historical_friend = Z04
+historical_friend = Z02
+historical_friend = Y98
+historical_friend = Y95
+historical_friend = V29
+historical_rival = V26
+historical_rival = V25
+historical_rival = V20
+historical_rival = V17
+historical_rival = V19
+historical_rival = Y49
+historical_rival = V41
+historical_rival = X99
+historical_rival = X90
+historical_rival = X87
+historical_rival = V30

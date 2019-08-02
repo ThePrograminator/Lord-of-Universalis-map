@@ -1,0 +1,16 @@
+mercantilism = 0.1
+government = elf_gov
+
+add_government_reform = principality_elf_reform
+primary_culture = culture_hwenti
+religion = religion_moriquendi
+technology_group = lotr_elven
+capital = 557
+
+historical_friend = Z03
+historical_friend = Y69
+historical_friend = Y67
+historical_rival = Y48
+historical_rival = V39
+historical_rival = Y01
+historical_rival = Y02

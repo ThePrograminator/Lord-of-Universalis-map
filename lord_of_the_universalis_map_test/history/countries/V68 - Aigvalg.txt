@@ -1,0 +1,7 @@
+mercantilism = 0.1
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = culture_aigar
+religion = religion_eastern_snowmen
+technology_group = lotr_snow_men
+capital = 624

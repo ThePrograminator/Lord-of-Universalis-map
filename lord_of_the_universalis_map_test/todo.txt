@@ -1,0 +1,24 @@
+Finish areas
+Finish regions -> base upon kingdoms from wiki/map
+Rename areas + province to map names (in important locations)
+Heightmap first pass
+Heightmap second pass
+Terrain map first pass
+
+: (Good)
+Men = free_leader_pool = 1
+Arnor_Men (Eriador) = num_accepted_cultures = 1 
+Northron = cavalry_power = 0.1
+Dwarves = build_time = -0.25
+Elves = idea_cost = -0.1
+Hobbit = trade_efficiency = 0.10
+
+(Evil)
+Orcs = war_exhaustion = -0.15
+Goblins = reinforce_cost_modifier = -0.50
+Haradrim = mercenary_cost = -0.20
+Easterling = max_states = 2
+Uruk-Hai = discipline = 0.05
+
+(Neutral (Kinda))
+Wildmen = loot_amount = 0.25

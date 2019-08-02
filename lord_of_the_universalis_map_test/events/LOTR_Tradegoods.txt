@@ -1,0 +1,139 @@
+namespace = LOTR_Tradegoods
+
+province_event = {
+	id = LOTR_Tradegoods.1
+	title = "LOTR_Tradegoods.1t"
+	desc = "LOTR_Tradegoods.1d"
+	picture = TRADEGOOD_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		trade_goods = unknown
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "LOTR_Tradegoods.1a"
+		
+		random_list = {
+			25 = {
+				change_trade_goods = slaves
+			}
+			25 = {
+				change_trade_goods = ivory
+			}
+			25 = {
+				change_trade_goods = spices
+			}
+			25 = {
+				change_trade_goods = silk
+			}
+			25 = {
+				change_trade_goods = tropical_wood
+			}
+			25 = {
+				change_trade_goods = dyes
+			}
+			25 = {
+				change_trade_goods = grain
+			}
+		}
+	}
+}
+
+# Harsh Winter Honey
+country_event = {
+	id = LOTR_Tradegoods.2
+	title = "LOTR_HONEY.1t"
+	desc = "LOTR_HONEY.1d"
+	picture = FARMING_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		honey = 1
+		is_month = december
+		NOT = { has_province_modifier = harsh_winter_h }
+	}
+
+	mean_time_to_happen = {
+		days = 5000
+	}
+
+	option = {
+		name = "LOTR_HONEY.1a"
+		
+		random_owned_province = {
+			limit = {
+				trade_goods = honey
+			}
+			add_province_modifier = {
+				name = "harsh_winter_h"
+				duration = 360
+			}			
+		}		
+	}
+}
+
+# Iron Ore Quality problems
+country_event = {
+	id = LOTR_Tradegoods.3
+	title = "LOTR_IRON.1t"
+	desc = "LOTR_IRON.1d"
+	picture = FARMING_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		iron = 1
+		NOT = { has_province_modifier = iron_problems }
+	}
+
+	mean_time_to_happen = {
+		days = 5000
+	}
+
+	option = {
+		name = "LOTR_IRON.1a"
+		add_country_modifier = {
+				name = "iron_problems"
+				duration = 3650
+			}			
+		}		
+	}
+	
+# Captured Wargs
+country_event = {
+	id = LOTR_Tradegoods.4
+	title = "LOTR_WARGS.1t"
+	desc = "LOTR_WARGS.1d"
+	picture = MILITARY_CAMP_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = {	has_country_modifier =  "wargs_captured" }
+		OR = { 
+				tag = X71
+				tag = X84
+				tag = X09
+				tag = X08}
+		
+	}
+
+	mean_time_to_happen = {
+		days = 5000
+	}
+
+	option = {
+		name = "LOTR_WARGS.1a"
+		add_country_modifier = {
+			name = "wargs_captured"
+			duration = 3650
+			}
+		}
+	}

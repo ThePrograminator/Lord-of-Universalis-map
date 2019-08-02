@@ -1,0 +1,1270 @@
+﻿l_english:
+ #-----------------------------
+ # Terrain
+ #-----------------------------
+ unique_minas_tirith: "Minas Tirith"
+ unique_helmsdeep: "Helm's Deep"
+ unique_mountdoom: "Orodriun"
+ unique_osgilliath: "Osgilliath"
+ unique_dolguldur: "Dol Guldur"
+ unique_erebor: "Erebor"
+ unique_dale: "Dale"
+ unique_laketown: "Laketown"
+ unique_isengard: "Isengard"
+ unique_Edoras: "Edoras"
+ unique_rivendell: "Rivendell"
+ unique_hobbitton: "Hobbitton"
+ unique_moria: "Moria"
+ unique_umbar: "Umbar"
+ unique_blackgate: "The Black Gate"
+ unique_fangorn: "Fangorn Forrest"
+ unique_lothloria: "Lothlorien"
+ unique_thalls: "Halls of Thranduil"
+ unique_gundabad: "Gundabad"
+ unique_goblintown: "Goblintown"
+ unique_greyhavens: "Greyhavens"
+ unique_baraddur: "Barad Dûr"
+ unique_dolamroth: "Dol Amroth"
+ unique_pass: "Caradhras Pass"
+ unique_shire: "The Shire"
+ unique_rohan: "Rohan"
+ unique_mordor: "Mordor"
+ unique_bree: "Bree"
+ unique_carndum: "Carn Dûm"
+ unique_cirithungol: "Cirith Ungol"
+ unique_minasmorgul: "Minas Ithil"
+ unique_ithilien: "Ithilien"
+ unique_harad_river: "Desert River"
+ 
+ #-----------------------------
+ # Continent
+ #-----------------------------
+ middle_earth: "Middle Earth"
+ other: "Other"
+ 
+ #-----------------------------
+ # Superregion
+ #-----------------------------
+ gondor_superregion: "Gondor"
+ gondor_superregion_name: "Gondor"
+ gondor_superregion_adj: "Gondor"
+ 
+ rohan_superregion: "Rohan"
+ rohan_superregion_name: "Rohan"
+ rohan_superregion_adj: "Rohan"
+ 
+ mordor_superregion: "Mordor"
+ mordor_superregion_name: "Mordor"
+ mordor_superregion_adj: "Mordor"
+ 
+ rhovanion_superregion: "Rhovanion"
+ rhovanion_superregion_name: "Rhovanion"
+ rhovanion_superregion_adj: "Rhovanion"
+ 
+ misty_mountains_superregion: "The Misty Mountains"
+ misty_mountains_superregion_name: "The Misty Mountains"
+ misty_mountains_superregion_adj: "The Misty Mountains"
+ 
+ old_pukel_land_superregion: "Old Pukel Land"
+ old_pukel_land_superregion_name: "Old Pukel Land"
+ old_pukel_land_superregion_adj: "Old Pukel Land"
+ 
+ western_middle_earth_sea_superregion: "Western Middle Earth Ocean"
+ western_middle_earth_sea_superregion_name: "Western Middle Earth Ocean"
+ western_middle_earth_sea_superregion_adj: "Western Middle Earth Ocean"
+ 
+ far_harad_superregion: "Far Harad"
+ far_harad_superregion_name: "Far Harad"
+ far_harad_superregion_adj: "Far Harad"
+ 
+ haradwaith_superregion: "Haradwaith"
+ haradwaith_superregion_name: "Haradwaith"
+ haradwaith_superregion_adj: "Haradwaith"
+ 
+ #-----------------------------
+ # Region
+ #-----------------------------
+ gondor_region: "Gondor"
+ gondor_region_name: "Gondor"
+ gondor_region_adj: "Gondor"
+ 
+ old_pukel_land_region: "Old Pukel Land"
+ old_pukel_land_region_name: "Old Pukel Land"
+ old_pukel_land_region_adj: "Old Pukel Land"
+ 
+ rohan_region: "Rohan"
+ rohan_region_name: "Rohan"
+ rohan_region_adj: "Rohan"
+ 
+ mordor_region: "Mordor"
+ mordor_region_name: "Mordor"
+ mordor_region_adj: "Mordor"
+ 
+ rhovanion_region: "Rhovanion"
+ rhovanion_region_name: "Rhovanion"
+ rhovanion_region_adj: "Rhovanion"
+ 
+ mirkwood_region: "Mirkwood"
+ mirkwood_region_name: "Mirkwood"
+ mirkwood_region_adj: "Mirkwood"
+ 
+ dale_region: "Dale"
+ dale_region_name: "Dale"
+ dale_region_adj: "Dale"
+ 
+ erebor_ironhills_region: "The Iron Hills & The Lonely Mountain"
+ erebor_ironhills_region_name: "The Iron Hills & The Lonely Mountain"
+ erebor_ironhills_region_adj: "The Iron Hills & The Lonely Mountain"
+ 
+ vales_of_anduin_region: "Vales of Anduin"
+ vales_of_anduin_region_name: "Vales of Anduin"
+ vales_of_anduin_region_adj: "Vales of Anduin"
+ 
+ misty_mountains_region: "The Misty Mountains"
+ misty_mountains_region_name: "The Misty Mountains"
+ misty_mountains_region_adj: "Misty Mountains"
+ 
+ grey_mountains_region: "The Grey Mountains"
+ grey_mountains_region_name: "The Grey Mountains"
+ grey_mountains_region_adj: "The Grey Mountains"
+ 
+ shire_region: "The Shire"
+ shire_region_name: "The Shire"
+ shire_region_adj: "The Shire"
+ 
+ enedhwaith_region: "Enedhwaith"
+ enedhwaith_region_name: "Enedhwaith"
+ enedhwaith_region_adj: "Enedhwaith"
+ 
+ eregion_region: "Eregion"
+ eregion_region_name: "Eregion"
+ eregion_region_adj: "Eregion"
+ 
+ harondor_region: "Harondor"
+ harondor_region_name: "Harondor"
+ harondor_region_adj: "Harondor"
+ 
+ harnendor_region: "Harnendor"
+ harnendor_region_name: "Harnendor"
+ harnendor_region_adj: "Harnendor"
+ 
+ haruzan_region: "Haruzan"
+ haruzan_region_name: "Haruzan"
+ haruzan_region_adj: "Haruzan"
+ 
+ chelkar_region: "Chelkar"
+ chelkar_region_name: "Chelkar"
+ chelkar_region_adj: "Chelkar"
+ 
+ pezarsan_region: "Pezarsan"
+ pezarsan_region_name: "Pezarsan"
+ pezarsan_region_adj: "Pezarsan"
+ 
+ lurmsakun_region: "Lurmsakûn"
+ lurmsakun_region_name: "Lurmsakûn"
+ lurmsakun_region_adj: "Lurmsakûn"
+ 
+ arysis_region: "Arysis"
+ arysis_region_name: "Arysis"
+ arysis_region_adj: "Arysis"
+ 
+ siakan_region: "Siakan"
+ siakan_region_name: "Siakan"
+ siakan_region_adj: "Siakan"
+ 
+ nen_umbar_region: "Nen Umbar"
+ nen_umbar_region_name: "Nen Umbar"
+ nen_umbar_region_adj: "Nen Umbar"
+ 
+ urdwaith_region: "Urdwaith"
+ urdwaith_region_name: "Urdwaith"
+ urdwaith_region_adj: "Urdwaith"
+ 
+ khand_region: "Khand"
+ khand_region_name: "Khand"
+ khand_region_adj: "Khand"
+ 
+ dune_sea_region: "The Dune Sea"
+ dune_sea_region_name: "The Dune Sea"
+ dune_sea_region_adj: "The Dune Sea"
+ 
+ bellakar_region: "Bellakar"
+ bellakar_region_name: "Bellakar"
+ bellakar_region_adj: "Bellakar"
+ 
+ raj_region: "Raj"
+ raj_region_name: "Raj"
+ raj_region_adj: "Raj"
+ 
+ sud_sicanna_region: "Sud Sicanna"
+ sud_sicanna_name: "Sud Sicanna"
+ sud_sicanna_adj: "Sud Sicanna"
+ 
+ tulwang_region: "Tulwang"
+ tulwang_name: "Tulwang"
+ tulwang_adj: "Tulwang"
+ 
+ thani_hazad_region: "Thâni-Hazâd"
+ thani_hazad_name: "Thâni-Hazâd"
+ thani_hazad_adj: "Thâni-Hazâd"
+ 
+ #-----------------------------
+ # Sea/Ocean/River
+ #-----------------------------
+ #-----------------------------
+ # /River
+ #-----------------------------
+ anduin_river_region: "Anduin River"
+ anduin_river_region_name: "Anduin River"
+ anduin_river_region_adj: "Anduin River"
+ 
+ angren_river_region: "Angren River"
+ angren_river_region_name: "Angren River"
+ angren_river_region_adj: "Angren River"
+ 
+ gwathlo_river_region: "Gwathlo River"
+ gwathlo_river_region_name: "Gwathlo River"
+ gwathlo_river_region_adj: "Gwathlo River"
+ 
+ baranduin_river_region: "Baranduin River"
+ baranduin_river_region_name: "Baranduin River"
+ baranduin_river_region_adj: "Baranduin River"
+ 
+ sea_of_rhun_region: "Sea of Rhun"
+ sea_of_rhun_region_name: "Sea of Rhun"
+ sea_of_rhun_region_adj: "Sea of Rhun"
+ 
+ #-----------------------------
+ # Belegaer Sea
+ #-----------------------------
+ 
+ bay_of_belfalas_region: "Bay of Belfalas"
+ bay_of_belfalas_region_name: "Bay of Belfalas"
+ bay_of_belfalas_region_adj: "Bay of Belfalas"
+ 
+ sea_of_belegaer_region: "Sea of Belegaer"
+ sea_of_belegaer_region_name: "Sea of Belegaer"
+ sea_of_belegaer_region_adj: "Sea of Belegaer"
+ 
+ sea_of_harad_region: "Sea of Harad"
+ sea_of_harad_region_name: "Sea of Harad"
+ sea_of_harad_region_adj: "Sea of Harad"
+ 
+ sea_of_enedwaith_region: "Sea of Enedwaith"
+ sea_of_enedwaith_region_name: "Sea of Enedwaith"
+ sea_of_enedwaith_region_adj: "Sea of Enedwaith"
+ 
+ sea_of_eriador_region: "Sea of Eriador"
+ sea_of_eriador_region_name: "Sea of Eriador"
+ sea_of_eriador_region_adj: "Sea of Eriador"
+ 
+ sea_of_forodwaith_region: "Sea of Forodwaith"
+ sea_of_forodwaith_region_name: "Sea of Forodwaith"
+ sea_of_forodwaith_region_adj: "Sea of Forodwaith"
+ 
+ bay_of_beriannen_region: "Bay of Beriannen"
+ bay_of_beriannen_region_name: "Bay of Beriannen"
+ bay_of_beriannen_region_adj: "Bay of Beriannen"
+ 
+ #-----------------------------
+ # Helkeaar Sea
+ #-----------------------------
+ 
+ helkeaar_sea_region: "Helkeäar Sea"
+ helkeaar_sea_region_name: "Helkeäar Sea"
+ helkeaar_sea_region_adj: "Helkeäar Sea"
+ 
+ #-----------------------------
+ # Ormal Sea
+ #-----------------------------
+ 
+ ormal_sea_region: "Ormal Sea"
+ ormal_sea_region_name: "Ormal Sea"
+ ormal_sea_region_adj: "Ormal Sea"
+ 
+ #-----------------------------
+ # Eastern Sea
+ #-----------------------------
+ 
+ eastern_sea_region: "Eastern Sea"
+ eastern_sea_region_name: "Eastern Sea"
+ eastern_sea_region_adj: "Eastern Sea"
+ 
+ #-----------------------------
+ # Area
+ #-----------------------------
+ 
+ #-----------------------------
+ # Gondor
+ #-----------------------------
+ anorien_area: "Anórien"
+ anorien_area_name: "Anórien"
+ anorien_area_adj: "Anórien"
+ minas_tirith_area: "Minas Tirith"
+ minas_tirith_area_name: "Minas Tirith"
+ minas_tirith_area_adj: "Minas Tirith"
+ osgiliath_area: "Osgiliath"
+ osgiliath_area_name: "Osgiliath"
+ osgiliath_area_adj: "Osgiliath"
+ lossarnach_area: "Lossarnach"
+ lossarnach_area_name: "Lossarnach"
+ lossarnach_area_adj: "Lossarnach"
+ forithilien_area: "Forithilien"
+ forithilien_area_name: "Forithilien"
+ forithilien_area_adj: "Forithilien"
+ harithilien_area: "Harithilien"
+ harithilien_area_name: "Harithilien"
+ harithilien_area_adj: "Harithilien"
+ pelargir_area: "Pelargir"
+ pelargir_area_name: "Pelargir"
+ pelargir_area_adj: "Pelargir"
+ linhir_area: "Linhir"
+ linhir_area_name: "Linhir"
+ linhir_area_adj: "Linhir"
+ gilrain_area: "Gilrain"
+ gilrain_area_name: "Gilrain"
+ gilrain_area_adj: "Gilrain"
+ arnach_area: "Arnach"
+ arnach_area_name: "Arnach"
+ arnach_area_adj: "Arnach"
+ celosien_area: "Celosien"
+ celosien_area_name: "Celosien"
+ celosien_area_adj: "Celosien"
+ lebenninivet_area: "Lebenninivet"
+ lebenninivet_area_name: "Lebenninivet"
+ lebenninivet_area_adj: "Lebenninivet"
+ lamedon_area: "Lamedon"
+ lamedon_area_name: "Lamedon"
+ lamedon_area_adj: "Lamedon"
+ mornan_area: "Mornan"
+ mornan_area_name: "Mornan"
+ mornan_area_adj: "Mornan"
+ pinnath_gelin_area: "Pinnath Gelin"
+ pinnath_gelin_area_name: "Pinnath Gelin"
+ pinnath_gelin_area_adj: "Pinnath Gelin"
+ anfalas_area: "Anfalas"
+ anfalas_area_name: "Anfalas"
+ anfalas_area_adj: "Anfalas"
+ dol_amroth_area: "Dol Amroth"
+ dol_amroth_area_name: "Dol Amroth"
+ dol_amroth_area_adj: "Dol Amroth"
+ edhellond_area: "Edhellond"
+ edhellond_area_name: "Edhellond"
+ edhellond_area_adj: "Edhellond"
+ tol_falas_area: "Tolfalas"
+ tol_falas_area_name: "Tolfalas"
+ tol_falas_area_adj: "Tolfalas"
+ belfalas_area: "Belfalas"
+ belfalas_area_name: "Belfalas"
+ belfalas_area_adj: "Belfalas"
+ andrast_area: "Andrast"
+ andrast_area_name: "Andrast"
+ andrast_area_adj: "Andrast"
+ nan_lefnui_area: "Nan Lefnui"
+ nan_lefnui_area_name: "Nan Lefnui"
+ nan_lefnui_area_adj: "Nan Lefnui"
+ nindalf_area: "Nindalf"
+ nindalf_area_name: "Nindalf"
+ nindalf_area_adj: "Nindalf"
+ tarlang_area: "Tarlang"
+ tarlang_area_name: "Tarlang"
+ tarlang_area_adj: "Tarlang"
+ nan-i-feryth_area: "Nan-i-Feryth"
+ nan-i-feryth_area_name: "Nan-i-Feryth"
+ nan-i-feryth_area_adj: "Nan-i-Feryth"
+ daningweth_area: "Danningweth"
+ daningweth_area_name: "Danningweth"
+ daningweth_area_adj: "Danningweth"
+ ethir_anduin_area: "Ethir Anduin"
+ ethir_anduin_area_name: "Ethir Anduin"
+ ethir_anduin_area_adj: "Ethir Anduin"
+ emyn_arnen_area: "Emyn Arnen"
+ emyn_arnen_area_name: "Emyn Arnen"
+ emyn_arnen_area_adj: "Emyn Arnen"
+ dor-en-ernil_area: "Dor-en-Ernil"
+ dor-en-ernil_area_name: "Dor-en-Ernil"
+ dor-en-ernil_area_adj: "Dor-en-Ernil"
+ cair_andros_area: "Cair Andros"
+ cair_andros_area_name: "Cair Andros"
+ cair_andros_area_adj: "Cair Andros"
+ tawar-in-druedain_area: "Tawar-in-Drúedain"
+ tawar-in-druedain_area_name: "Tawar-in-Drúedain"
+ tawar-in-druedain_area_adj: "Tawar-in-Drúedain"
+ athrad_poros_area: "Athrad Poros"
+ athrad_poros_area_name: "Athrad Poros"
+ athrad_poros_area_adj: "Athrad Poros"
+ ithilien_area: "Ithilien"
+ ithilien_area_name: "Ithilien"
+ ithilien_area_adj: "Ithilien"
+ methrast_area: "Methrast"
+ methrast_area_name: "Methrast"
+ methrast_area_adj: "Methrast"
+ emyn_tarnost_area: "Emyn Tarnost"
+ emyn_tarnost_area_name: "Emyn Tarnost"
+ emyn_tarnost_area_adj: "Emyn Tarnost"
+ annulond_area: "Annulond"
+ annulond_area_name: "Annulond"
+ annulond_area_adj: "Annulond"
+ minas_ithil_area: "Minas Ithil"
+ minas_ithil_name: "Minas Ithil"
+ minas_ithil_adj: "Minas Ithil"
+ ###########################
+ 
+ 
+ #-----------------------------
+ # Old Pukel Land
+ #-----------------------------
+ parth_laur_area: "Parth Laur"
+ parth_laur_area_name: "Parth Laur"
+ parth_laur_area_adj: "Parth Laur"
+ druwaith_laur_area: "Drúwaith Laur"
+ druwaith_laur_area_name: "Drúwaith Laur"
+ druwaith_laur_area_adj: "Drúwaith Laur"
+ balorn_area: "Balorn"
+ balorn_area_name: "Balorn"
+ balorn_area_adj: "Balorn"
+ ###########################
+ 
+ #-----------------------------
+ # Rohan
+ #-----------------------------
+ west_march_area: "West-March"
+ west_march_area_name: "West-March"
+ west_march_area_adj: "West-March"
+ westemnet_area: "West-Emnet"
+ westemnet_area_name: "West-Emnet"
+ westemnet_area_adj: "West-Emnet"
+ westfold_area: "Westfold"
+ westfold_area_name: "Westfold"
+ westfold_area_adj: "Westfold"
+ white_mountains_area: "White Mountains"
+ white_mountains_area_name: "White Mountains"
+ white_mountains_area_adj: "White Mountains"
+ kings_land_area: "King's Land"
+ kings_land_area_name: "King's Land"
+ kings_land_area_adj: "King's Land"
+ eastfold_area: "Eastfold"
+ eastfold_area_name: "Eastfold"
+ eastfold_area_adj: "Eastfold"
+ eastemnet_area: "East-Emnet"
+ eastemnet_area_name: "East-Emnet"
+ eastemnet_area_adj: "East-Emnet"
+ entwade_area: "Mouths of Entwade"
+ entwade_area_name: "Mouths of Entwade"
+ entwade_area_adj: "Mouths of Entwade"
+ the_wold_area: "The Wold"
+ the_wold_area_name: "The Wold"
+ the_wold_area_adj: "The Wold"
+ parth_galen_area: "Parth Galen"
+ parth_galen_area_name: "Parth Galen"
+ parth_galen_area_adj: "Parth Galen"
+ fangorn_area: "Fangorn"
+ fangorn_area_name: "Fangorn"
+ fangorn_area_adj: "Fangorn"
+ nan_curunir_area: "Nan Curunir"
+ nan_curunir_name: "Nan Curunir"
+ nan_curunir_adj: "Nan Curunir"
+ gap_of_rohan_area: "Gap of Rohan"
+ gap_of_rohan_area_name: "Gap of Rohan"
+ gap_of_rohan_area_adj: "Gap of Rohan"
+ ###########################
+ 
+ #-----------------------------
+ # Mordor
+ #-----------------------------
+ barad-dur_area: "Barad-Dûr"
+ barad-dur_name: "Barad-Dûr"
+ barad-dur_adj: "Barad-Dûr"
+ morannon_area: "Morannon"
+ morannon_name: "Morannon"
+ morannon_adj: "Morannon"
+ carach_angren_area: "Carach Angren"
+ carach_angren_name: "Carach Angren"
+ carach_angren_adj: "Carach Angren"
+ morgai_area: "Morgai"
+ morgai_name: "Morgai"
+ morgai_adj: "Morgai"
+ cirith_ungol_area: "Cirith Ungol"
+ cirith_ungol: "Cirith Ungol"
+ cirith_ungol_adj: "Cirith Ungol"
+ gorgoroth_area: "Gorgoroth"
+ gorgoroth_name: "Gorgoroth"
+ gorgoroth_adj: "Gorgoroth"
+ gaer_durlith_area: "Gaer Dûrlith"
+ gaer_durlith_name: "Gaer Dûrlith"
+ gaer_durlith_adj: "Gaer Dûrlith"
+ den_nurn_area: "Den Nurn"
+ den_nurn_name: "Den Nurn"
+ den_nurn_adj: "Den Nurn"
+ perth_ulmyn_area: "Perth Ülmyn"
+ perth_ulmyn_name: "Perth Ülmyn"
+ perth_ulmyn_adj: "Perth Ülmyn"
+ lithlad_area: "Lithlad"
+ lithlad_name: "Lithlad"
+ lithlad_adj: "Lithlad"
+ maegond_vale_area: "Maegond Vale"
+ maegond_vale_name: "Maegond Vale"
+ maegond_vale_adj: "Maegond Vale"
+ cirith_nurn_area: "Cirith Nurn"
+ cirith_nurn_name: "Cirith Nurn"
+ cirith_nurn_adj: "Cirith Nurn"
+ cirith_nargil_area: "Cirith Nargil"
+ cirith_nargil_name: "Cirith Nargil"
+ cirith_nargil_adj: "Cirith Nargil"
+ thaurband_area: "Thaurband"
+ thaurband_name: "Thaurband"
+ thaurband_adj: "Thaurband"
+ sturlurtsa_nurn_area: "Sturlurtsa Nurn"
+ sturlurtsa_nurn_name: "Sturlurtsa Nurn"
+ sturlurtsa_nurn_adj: "Sturlurtsa Nurn"
+ urlutsu_nurn_area: "Urlutsu Nurn"
+ urlutsu_nurn_name: "Urlutsu Nurn"
+ urlutsu_nurn_adj: "Urlutsu Nurn"
+ nurnen_area: "Núrnen"
+ nurnen_name: "Núrnen"
+ nurnen_adj: "Núrnen"
+ 
+ ###########################
+ #-----------------------------
+ # Rhovanion
+ #-----------------------------
+ men-i-mordor_area: "Men-i-Mordor"
+ men-i-mordor_area_name: "Men-i-Mordor"
+ men-i-mordor_area_adj: "Men-i-Mordor"
+ talath_harroch_area: "Talath Harroch"
+ talath_harroch_name: "Talath Harroch"
+ talath_harroch_adj: "Talath Harroch"
+ sagathavuld_area: "Sagathavuld"
+ sagathavuld_name: "Sagathavuld"
+ sagathavuld_adj: "Sagathavuld"
+ cairn_angle_area: "Cairn Angle"
+ cairn_angle_name: "Cairn Angle"
+ cairn_angle_adj: "Cairn Angle"
+ sekelavuld_area: "Sekelavuld"
+ sekelavuld_name: "Sekelavuld"
+ sekelavuld_adj: "Sekelavuld"
+ ehwathrumavuld_area: "Ehwathrumavuld"
+ ehwathrumavuld_name: "Ehwathrumavuld"
+ ehwathrumavuld_adj: "Ehwathrumavuld"
+ ilanin_area: "Ilanin"
+ ilanin_name: "Ilanin"
+ ilanin_adj: "Ilanin"
+ east_bight_area: "East Bight"
+ east_bight_name: "East Bight"
+ east_bight_adj: "East Bight" 
+ esgalabar_area: "Esgalabar"
+ esgalabar_name: "Esgalabar"
+ esgalabar_adj: "Esgalabar"
+ pinnon_rhun_area: "Pinnon Rhûn"
+ pinnon_rhun_name: "Pinnon Rhûn"
+ pinnon_rhun_adj: "Pinnon Rhûn"
+ dorwinion_area: "Dorwinion"
+ dorwinion_name: "Dorwinion"
+ dorwinion_adj: "Dorwinion"
+ brown_lands_area: "Brown Lands"
+ brown_lands_name: "Brown Lands"
+ brown_lands_adj: "Brown Lands"
+ emyn_muil_area: "Emyn Muil"
+ emyn_muil_name: "Emyn Muil"
+ emyn_muil_adj: "Emyn Muil"
+ parta_rogartha_area: "Parta Rogartha"
+ parta_rogartha_name: "Parta Rogartha"
+ parta_rogartha_adj: "Parta Rogartha"
+ 
+ #-----------------------------
+ # Mirkwood
+ #-----------------------------
+ dol_guldur_area: "Dol Guldur"
+ dol_guldur_name: "Dol Guldur"
+ dol_guldur_adj: "Dol Guldur"
+ ceber_fanuin_area: "Ceber Fanuin"
+ ceber_fanuin_name: "Ceber Fanuin"
+ ceber_fanuin_adj: "Ceber Fanuin"
+ narrows_of_mirkwood_area: "Narrows of Mirkwood"
+ narrows_of_mirkwood_name: "Narrows of Mirkwood"
+ narrows_of_mirkwood_adj: "Narrows of Mirkwood"
+ angalaladh_area: "Angálaladh"
+ angalaladh_name: "Angálaladh"
+ angalaladh_adj: "Angálaladh"
+ men-i-naugrim_area: "Men-i-Naugrim"
+ men-i-naugrim_name: "Men-i-Naugrim"
+ men-i-naugrim_adj: "Men-i-Naugrim"
+ emyn_nu_fuin_area: "Emyn-nu-Fuin"
+ emyn_nu_fuin_name: "Emyn-nu-Fuin"
+ emyn_nu_fuin_adj: "Emyn-nu-Fuin"
+ annon_edhel_area: "Annon Edhel"
+ annon_edhel_name: "Annon Edhel"
+ annon_edhel_adj: "Annon Edhel"
+ thranduils_realm_area: "Thranduil's Realm"
+ thranduils_realm_name: "Thranduil's Realm"
+ thranduils_realm_adj: "Thranduil's Realm"
+ 
+ #-----------------------------
+ # Dale 
+ #----------------------------- 
+ 
+ gramavuld_area: "Gramavuld"
+ gramavuld_name: "Gramavuld"
+ gramavuld_adj: "Gramavuld"
+ long_lake_area: "Realm of Dale"
+ long_lake_name: "Realm of Dale"
+ long_lake_adj: "Realm of Dale"
+ 
+ #-----------------------------
+ # Erebor & Iron Hills 
+ #----------------------------- 
+ 
+ the_lonely_mountain_area: "The Lonely Mountain"
+ the_lonely_mountain_name: "The Lonely Mountain"
+ the_lonely_mountain_adj: "The Lonely Mountain"
+ anglad_area: "Anglad"
+ anglad_name: "Anglad"
+ anglad_adj: "Anglad"
+ iron_hills_area: "Iron Hills"
+ iron_hills_name: "Iron Hills"
+ iron_hills_adj: "Iron Hills"
+ barren_wastes_area: "Barren Wastes"
+ barren_wastes_name: "Barren Wastes"
+ barren_wastes_adj: "Barren Wastes"
+ cirith_auris_area: "Cirith Auris"
+ cirith_auris_name: "Cirith Auris"
+ cirith_auris_adj: "Cirith Auris"
+ 
+ #-----------------------------
+ # Grey Mountains 
+ #-----------------------------
+ 
+ grey_mountains_area: "The Grey Mountains"
+ grey_mountains_name: "The Grey Mountains"
+ grey_mountains_adj: "The Grey Mountains"
+ norr_dum_area: "Norr-Dûm"
+ norr_dum_name: "Norr-Dûm"
+ norr_dum_adj: "Norr-Dûm"
+ gathol_zigil_area: "Gathol-Zigil"
+ gathol_zigil_name: "Gathol-Zigil"
+ gathol_zigil_adj: "Gathol-Zigil"
+ gondmaeglorn_area: "Gondmaeglorn"
+ gondmaeglorn_name: "Gondmaeglorn"
+ gondmaeglorn_adj: "Gondmaeglorn"
+ uthrael_beoac_area: "Uthrael Béoac"
+ uthrael_beoac_name: "Uthrael Béoac"
+ uthrael_beoac_adj: "Uthrael Béoac"
+ dains_halls_area: "Dáin's Halls"
+ dains_halls_name: "Dáin's Halls"
+ dains_halls_adj: "Dáin's Halls"
+ nordinbad_area: "Nordinbad"
+ nordinbad_name: "Nordinbad"
+ nordinbad_adj: "Nordinbad"
+ udrabax_area: "Udrabax"
+ udrabax_name: "Udrabax"
+ udrabax_adj: "Udrabax"
+ anvilmount_area: "Anvilmount"
+ anvilmount_name: "Anvilmount"
+ anvilmount_adj: "Anvilmount"
+ withered_heath_area: "Withered Heath"
+ withered_heath_name: "Withered Heath"
+ withered_heath_adj: "Withered Heath"
+ 
+ #-----------------------------
+ # Vales of Anduin 
+ #----------------------------- 
+ 
+ parth_celebrant_area: "Parth Celebrant"
+ parth_celebrant_name: "Parth Celebrant"
+ parth_celebrant_adj: "Parth Celebrant"
+ lothlorien_area: "Lothlórien"
+ lothlorien_name: "Lothlórien"
+ lothlorien_adj: "Lothlórien"
+ forodrain_area: "Forodrain"
+ forodrain_name: "Forodrain"
+ forodrain_adj: "Forodrain"
+ gladden_fields_area: "Gladden Fields"
+ gladden_fields_name: "Gladden Fields"
+ gladden_fields_adj: "Gladden Fields"
+ glennen_area: "Glennen"
+ glennen_name: "Glennen"
+ glennen_adj: "Glennen"
+ carrock_vale_area: "Carrock Vale"
+ carrock_vale_name: "Carrock Vale"
+ carrock_vale_adj: "Carrock Vale"
+ maethelburg_area: "Maethelburg"
+ maethelburg_name: "Maethelburg"
+ maethelburg_adj: "Maethelburg"
+ west_bight_area: "West Bight"
+ west_bight_name: "West Bight"
+ west_bight_adj: "West Bight"
+ greylin_vale_area: "Greylin Vale"
+ greylin_vale_name: "Greylin Vale"
+ greylin_vale_adj: "Greylin Vale"
+ ronen_in_anduin_area: "Rónen-in-Anduin"
+ ronen_in_anduin_name: "Rónen-in-Anduin"
+ ronen_in_anduin_adj: "Rónen-in-Anduin"
+ grey_foothills_area: "Grey Foothills"
+ grey_foothills_name: "Grey Foothills"
+ grey_foothills_adj: "Grey Foothills"
+ 
+ #-----------------------------
+ # Misty Mountains 
+ #----------------------------- 
+ methedras_area: "Methedras"
+ methedras_name: "Methedras"
+ methedras_adj: "Methedras"
+ khazad_dum_area: "Khazad-Dûm"
+ khazad_dum_name: "Khazad-Dûm"
+ khazad_dum_adj: "Khazad-Dûm"
+ zudrugund_area: "Zudrugund"
+ zudrugund_name: "Zudrugund"
+ zudrugund_adj: "Zudrugund"
+ thrors_coomb_area: "Thrór's Coomb"
+ thrors_coomb_name: "Thrór's Coomb"
+ thrors_coomb_adj: "Thrór's Coomb"
+ zagh_kala_area: "Zagh Kala"
+ zagh_kala_name: "Zagh Kala"
+ zagh_kala_adj: "Zagh Kala"
+ goblin_gate_area: "Goblin-Gate"
+ goblin_gate_name: "Goblin-Gate"
+ goblin_gate_adj: "Goblin-Gate"
+ valley_of_giants_area: "Valley of Giants"
+ valley_of_giants_name: "Valley of Giants"
+ valley_of_giants_adj: "Valley of Giants"
+ eagles_eyrie_area: "Eagles' Eyrie"
+ eagles_eyrie_name: "Eagles' Eyrie"
+ eagles_eyrie_adj: "Eagles' Eyrie"
+ 
+ 
+ ###########################
+ #-----------------------------
+ # Enedhwaith
+ #-----------------------------
+ 
+ caladach_area: "Caladach"
+ caladach_area_name: "Caladach"
+ caladach_area_adj: "Caladach"
+ gyroth_area: "Gyroth"
+ gyroth_area_name: "Gyroth"
+ gyroth_area_adj: "Gyroth"
+ arilthach_area: "Arilthach"
+ arilthach_area_name: "Arilthach"
+ arilthach_area_adj: "Arilthach"
+ dor_wathui_area: "Dor Wathui"
+ dor_wathui_area_name: "Dor Wathui"
+ dor_wathui_area_adj: "Dor Wathui"
+ angrast_area: "Angrast"
+ angrast_area_name: "Angrast"
+ angrast_area_adj: "Angrast"
+ ethir_gwathlo_area: "Ethir Gwathló"
+ ethir_gwathlo_area_name: "Ethir Gwathló"
+ ethir_gwathlo_area_adj: "Ethir Gwathló"
+ cairg_erp_area: "Cairg Erp"
+ cairg_erp_area_name: "Cairg Erp"
+ cairg_erp_area_adj: "Cairg Erp"
+ coit_cerdd_area: "Coit Cerdd"
+ coit_cerdd_area_name: "Coit Cerdd"
+ coit_cerdd_area_adj: "Coit Cerdd"
+ talorgan_area: "Talorgan"
+ talorgan_area_name: "Talorgan"
+ talorgan_area_adj: "Talorgan"
+ andhas_area: "Andhas"
+ andhas_area_name: "Andhas"
+ andhas_area_adj: "Andhas"
+ morbet_area: "Morbet"
+ morbet_area_name: "Morbet"
+ morbet_area_adj: "Morbet"
+ tang_area: "Tang"
+ tang_area_name: "Tang"
+ tang_area_adj: "Tang"
+ wredech_area: "Wredech"
+ wredech_area_name: "Wredech"
+ wredech_area_adj: "Wredech"
+ swanfleet_area: "Swanfleet"
+ swanfleet_area_name: "Swanfleet"
+ swanfleet_area_adj: "Swanfleet"
+ fidach_area: "Fidach"
+ fidach_area_name: "Fidach"
+ fidach_area_adj: "Fidach"
+ undrost_area: "Undrost"
+ undrost_area_name: "Undrost"
+ undrost_area_adj: "Undrost"
+ duncillien_area: "Duncillien"
+ duncillien_area_name: "Duncillien"
+ duncillien_area_adj: "Duncillien"
+ fearachas_area: "Fearachas"
+ fearachas_area_name: "Fearachas"
+ fearachas_area_adj: "Fearachas"
+ dunfearan_area: "Dunfearan"
+ dunfearan_area_name: "Dunfearan"
+ dunfearan_area_adj: "Dunfearan"
+ bhainnan_area: "Bhainnan"
+ bhainnan_area_name: "Bhainnan"
+ bhainnan_area_adj: "Bhainnan"
+ nan_laeglin_area: "Nan Laeglin"
+ nan_laeglin_area_name: "Nan Laeglin"
+ nan_laeglin_area_adj: "Nan Laeglin"
+ 
+ #-----------------------------
+ # Eregion
+ #-----------------------------
+ 
+ rivendell_area: "Rivendell"
+ rivendell_area_name: "Rivendell"
+ rivendell_area_adj: "Rivendell"
+ foreregion_area: "Foreregion"
+ foreregion_area_name: "Foreregion"
+ foreregion_area_adj: "Foreregion"
+ hollin_ridge_area: "Hollin Ridge"
+ hollin_ridge_area_name: "Hollin Ridge"
+ hollin_ridge_area_adj: "Hollin Ridge"
+ hareregion_area: "Hareregion"
+ hareregion_area_name: "Hareregion"
+ hareregion_area_adj: "Hareregion"
+ ost_in_edhil_area: "Ost-in-Edhil"
+ ost_in_edhil_area_name: "Ost-in-Edhil"
+ ost_in_edhil_area_adj: "Ost-in-Edhil"
+ fordirith_area: "Fordirith"
+ fordirith_area_name: "Fordirith"
+ fordirith_area_adj: "Fordirith"
+ 
+ #-----------------------------
+ # The Shire
+ #-----------------------------
+ north_farthing_area: "North Farthing"
+ north_farthing_area_name: "North Farthing"
+ north_farthing_area_adj: "North Farthing"
+ 
+ south_farthing_area: "South Farthing"
+ south_farthing_area_name: "South Farthing"
+ south_farthing_area_adj: "South Farthing"
+ 
+ east_farthing_area: "East Farthing"
+ east_farthing_area_name: "East Farthing"
+ east_farthing_area_adj: "East Farthing"
+ 
+ west_farthing_area: "West Farthing"
+ west_farthing_area_name: "West Farthing"
+ west_farthing_area_adj: "West Farthing"
+ 
+ westmarch_area: "Westmarch"
+ westmarch_area_name: "Westmarch"
+ westmarch_area_adj: "Westmarch"
+ 
+ buckland_area: "Buckland"
+ buckland_area_name: "Buckland"
+ buckland_area_adj: "Buckland"
+ 
+ ###########################
+ 
+ #-----------------------------
+ # Harondor
+ #-----------------------------
+ 
+ eredtir_area: "Eredtir"
+ eredtir_area_name: "Eredtir"
+ eredtir_area_adj: "Eredtir"
+ laergaladrin_area: "Laergaladrín"
+ laergaladrin_area_name: "Laergaladrín"
+ laergaladrin_area_adj: "Laergaladrín"
+ emyn_laer_area: "Emyn Laer"
+ emyn_laer_area_name: "Emyn Laer"
+ emyn_laer_area_adj: "Emyn Laer"
+ methir_area: "Methir"
+ methir_area_name: "Methir"
+ methir_area_adj: "Methir"
+ aegthelion_area: "Aegthelion"
+ aegthelion_area_name: "Aegthelion"
+ aegthelion_area_adj: "Aegthelion"
+ harfalas_area: "Harfalas"
+ harfalas_area_name: "Harfalas"
+ harfalas_area_adj: "Harfalas"
+ forethir_area: "Forethir"
+ forethir_area_name: "Forethir"
+ forethir_area_adj: "Forethir"
+ emyn_annun_area: "Emyn Annûn"
+ emyn_annun_area_name: "Emyn Annûn"
+ emyn_annun_area_adj: "Emyn Annûn"
+ aegardh_area: "Aegardh"
+ aegardh_area_name: "Aegardh"
+ aegardh_area_adj: "Aegardh"
+ emyn_imladrim_area: "Emyn Imladrim"
+ emyn_imladrim_area_name: "Emyn Imladrim"
+ emyn_imladrim_area_adj: "Emyn Imladrim"
+ emyn_gonngaran_area: "Emyn Gonngaran"
+ emyn_gonngaran_area_name: "Emyn Gonngaran"
+ emyn_gonngaran_area_adj: "Emyn Gonngaran"
+ carnentir_area: "Carnentir"
+ carnentir_area_name: "Carnentir"
+ carnentir_area_adj: "Carnentir"
+ harmaka_area: "Harmaka"
+ harmaka_area_name: "Harmaka"
+ harmaka_area_adj: "Harmaka"
+ ausk_dobat_area: "Ausk Dobat"
+ ausk_dobat_area_name: "Ausk Dobat"
+ ausk_dobat_area_adj: "Ausk Dobat"
+ pin_hingren_area: "Pin Hingren"
+ pin_hingren_area_name: "Pin Hingren"
+ pin_hingren_area_adj: "Pin Hingren"
+ doriant_area: "Doriant"
+ doriant_area_name: "Doriant"
+ doriant_area_adj: "Doriant"
+ 
+ #-----------------------------
+ # Harnendor
+ #-----------------------------
+ 
+ ethir_harnen_area: "Ethir Harnen"
+ ethir_harnen_area_name: "Ethir Harnen"
+ ethir_harnen_area_adj: "Ethir Harnen"
+ harethir_area: "Harethir"
+ harethir_area_name: "Harethir"
+ harethir_area_adj: "Harethir"
+ glinfalas_area: "Glinfalas"
+ glinfalas_area_name: "Glinfalas"
+ glinfalas_area_adj: "Glinfalas"
+ ruilin_area: "Ruilin"
+ ruilin_area_name: "Ruilin"
+ ruilin_area_adj: "Ruilin"
+ harnendor_area: "Harnendor"
+ harnendor_area_name: "Harnendor"
+ harnendor_area_adj: "Harnendor"
+ arat_agmir_area: "Arat Agmir"
+ arat_agmir_area_name: "Arat Agmir"
+ arat_agmir_area_adj: "Arat Agmir"
+ 
+ #-----------------------------
+ # Haruzan
+ #-----------------------------
+ 
+ haruzan_area: "Haruzan"
+ haruzan_area_name: "Haruzan"
+ haruzan_area_adj: "Haruzan"
+ abrakan_area: "Abrakân"
+ abrakan_area_name: "Abrakân"
+ abrakan_area_adj: "Abrakân"
+ hidar_area: "Hidar"
+ hidar_area_name: "Hidar"
+ hidar_area_adj: "Hidar"
+ 
+ #-----------------------------
+ # Chelkar
+ #-----------------------------
+ 
+ ode_kupsha_area: "Ode Kupsha"
+ ode_kupsha_area_name: "Ode Kupsha"
+ ode_kupsha_area_adj: "Ode Kupsha"
+ chelkar_area: "Chelkar"
+ chelkar_area_name: "Chelkar"
+ chelkar_area_adj: "Chelkar"
+ kajbah_area: "Kajbah"
+ kajbah_area_name: "Kajbah"
+ kajbah_area_adj: "Kajbah"
+ auchel_area: "Auchel"
+ auchel_area_name: "Auchel"
+ auchel_area_adj: "Auchel"
+ 
+ #-----------------------------
+ # Pezarsan
+ #-----------------------------
+ 
+ al_amrun_area: "Al-Amrûn"
+ al_amrun_area_name: "Al-Amrûn"
+ al_amrun_area_adj: "Al-Amrûn"
+ korondaj_area: "Korondaj"
+ korondaj_area_name: "Korondaj"
+ korondaj_area_adj: "Korondaj"
+ nun_gazir_area: "Nun Gazir"
+ nun_gazir_area_name: "Nun Gazir"
+ nun_gazir_area_adj: "Nun Gazir"
+ enmahadah_area: "Enmahadah"
+ enmahadah_area_name: "Enmahadah"
+ enmahadah_area_adj: "Enmahadah"
+ 
+ #-----------------------------
+ # Lurmsakûn
+ #-----------------------------
+ 
+ mikarin_peh_area: "Mikarin Peh"
+ mikarin_peh_area_name: "Mikarin Peh"
+ mikarin_peh_area_adj: "Mikarin Peh"
+ ovatharac_area: "Ovatharac"
+ ovatharac_area_name: "Ovatharac"
+ ovatharac_area_adj: "Ovatharac"
+ 
+ #-----------------------------
+ # Khand
+ #-----------------------------
+ 
+ lower_khand_area: "Lower Khand"
+ lower_khand_area_name: "Lower Khand"
+ lower_khand_area_adj: "Lower Khand"
+ greater_khand_area: "Greater Khand"
+ greater_khand_area_name: "Greater Khand"
+ greater_khand_area_adj: "Greater Khand"
+ upper_khand_area: "Upper Khand"
+ upper_khand_area_name: "Upper Khand"
+ upper_khand_area_adj: "Upper Khand"
+ gap_of_khand_area: "Gap of Khand"
+ gap_of_khand_area_name: "Gap of Khand"
+ gap_of_khand_area_adj: "Gap of Khand"
+ neburkha_area: "Nebûrkha"
+ neburkha_area_name: "Nebûrkha"
+ neburkha_area_adj: "Nebûrkha"
+ 
+ #-----------------------------
+ # Arysis
+ #-----------------------------
+ 
+ maresh_area: "Maresh"
+ maresh_area_name: "Maresh"
+ maresh_area_adj: "Maresh"
+ zhaneen_area: "Zhaneen"
+ zhaneen_area_name: "Zhaneen"
+ zhaneen_area_adj: "Zhaneen"
+ sudu_cull_area: "Sudu Cull"
+ sudu_cull_area_name: "Sudu Cull"
+ sudu_cull_area_adj: "Sudu Cull"
+ 
+ #-----------------------------
+ # Siakan
+ #-----------------------------
+ 
+ ankruz_area: "Ankruz"
+ ankruz_area_name: "Ankruz"
+ ankruz_area_adj: "Ankruz"
+ kopanzke_area: "Kopanzke"
+ kopanzke_area_name: "Kopanzke"
+ kopanzke_area_adj: "Kopanzke"
+ eluzan_area: "Êluzan"
+ eluzan_area_name: "Êluzan"
+ eluzan_area_adj: "Êluzan"
+ 
+ #-----------------------------
+ # Nen Umbar
+ #-----------------------------
+ 
+ umbar_area: "Umbar"
+ umbar_area_name: "Umbar"
+ umbar_area_adj: "Umbar"
+ sakal_an_dalajaf_area: "Sakal-an-Dalajaf"
+ sakal_an_dalajaf_area_name: "Sakal-an-Dalajaf"
+ sakal_an_dalajaf_area_adj: "Sakal-an-Dalajaf"
+ annabrith_area: "Annabrith"
+ annabrith_area_name: "Annabrith"
+ annabrith_area_adj: "Annabrith"
+ ardumir_area: "Ardûmir"
+ ardumir_area_name: "Ardûmir"
+ ardumir_area_adj: "Ardûmir"
+ pellardur_area: "Pellardur"
+ pellardur_area_name: "Pellardur"
+ pellardur_area_adj: "Pellardur"
+ maros_area: "Marös"
+ maros_area_name: "Marös"
+ maros_area_adj: "Marös"
+ barazon_area: "Barazôn"
+ barazon_area_name: "Barazôn"
+ barazon_area_adj: "Barazôn"
+ eradas_area: "Erädas"
+ eradas_area_name: "Erädas"
+ eradas_area_adj: "Erädas"
+ caldur_area: "Caldûr"
+ caldur_area_name: "Caldûr"
+ caldur_area_adj: "Caldûr"
+ dat_akhor_area: "Dat Akhôr"
+ dat_akhor_area_name: "Dat Akhôr"
+ dat_akhor_area_adj: "Dat Akhôr"
+ tol_uialgaer_area: "Tol Uialgaer"
+ tol_uialgaer_area_name: "Tol Uialgaer"
+ tol_uialgaer_area_adj: "Tol Uialgaer"
+ kirithani_area: "Kirithâni"
+ kirithani_area_name: "Kirithâni"
+ kirithani_area_adj: "Kirithâni"
+ 
+ #-----------------------------
+ # Dune Sea
+ #-----------------------------
+ 
+ dune_sea_area: "The Dune Sea"
+ dune_sea_area_name: "The Dune Sea"
+ dune_sea_area_adj: "The Dune Sea"
+ fire_plains_area: "Fire Plains"
+ fire_plains_area_name: "Fire Plains"
+ fire_plains_area_adj: "Fire Plains"
+ 
+ #-----------------------------
+ # Raj
+ #-----------------------------
+ bozisha-miraz_area: "Bozisha-Miraz"
+ bozisha-miraz_area_name: "Bozisha-Miraz"
+ bozisha-miraz_area_adj: "Bozisha-Miraz"
+ 
+ gaj_area: "Gaj"
+ gaj_area_name: "Gaj"
+ gaj_area_adj: "Gaj"
+ 
+ tresti-polozaj_area: "Tresti-Polozaj"
+ tresti-polozaj_area_name: "Tresti-Polozaj"
+ tresti-polozaj_area_adj: "Tresti-Polozaj"
+ 
+ suza_rij_area: "Suza Rij"
+ suza_rij_area_name: "Suza Rij"
+ suza_rij_area_adj: "Suza Rij"
+ 
+ rijesha_vale_area: "Rijesha Vale"
+ rijesha_vale_area_name: "Rijesha Vale"
+ rijesha_vale_area_adj: "Rijesha Vale"
+ 
+ brij-mijesec_area: "Brij-Mijesec"
+ brij-mijesec_area_name: "Brij-Mijesec"
+ brij-mijesec_area_adj: "Brij-Mijesec"
+ 
+ ###########################
+ 
+ #-----------------------------
+ # Sud Sicanna
+ #-----------------------------
+ sud_sicanna_area: "Sud Sicanna"
+ sud_sicanna_area_name: "Sud Sicanna"
+ sud_sicanna_adj: "Sud Sicanna"
+ 
+ isfahan_area: "Isfahan"
+ isfahan_area_name: "Isfahan"
+ isfahan_adj: "Isfahan"
+ 
+ ###########################
+ 
+ #-----------------------------
+ # Tulwang
+ #-----------------------------
+ raishoul_area: "Raishoul"
+ raishoul_name: "Raishoul"
+ raishoul_adj: "Raishoul"
+ 
+ ###########################
+ 
+ #-----------------------------
+ # Sea/Ocean/River Area
+ #-----------------------------
+ #-----------------------------
+ # River Area
+ #-----------------------------
+ north_anduin_river_area: "North Anduin River"
+ north_anduin_river_area_name: "North Anduin River"
+ north_anduin_river_area_adj: "North Anduin River"
+ 
+ south_anduin_river_area: "South Anduin River"
+ south_anduin_river_area_name: "South Anduin River"
+ south_anduin_river_area_adj: "South Anduin River"
+ 
+ celduin_river_area: "Celduin River"
+ celduin_river_area_name: "Celduin River"
+ celduin_river_area_adj: "Celduin River"
+ 
+ sea_of_rhun_area: "Sea of Rhun"
+ sea_of_rhun_area_name: "Sea of Rhun"
+ sea_of_rhun_area_adj: "Sea of Rhun"
+ 
+ angren_river_area: "Angren River"
+ angren_river_area_name: "Angren River"
+ angren_river_area_adj: "Angren River"
+ 
+ gwatlo_river_area: "Gwathlo River"
+ gwatlo_river_area_name: "Gwathlo River"
+ gwatlo_river_area_adj: "Gwathlo River"
+ 
+ baranduin_river_area: "Baranduin River"
+ baranduin_river_area_name: "Baranduin River"
+ baranduin_river_area_adj: "Baranduin River"
+ 
+ river_place_river_area: "River Place River"
+ river_place_river_area_name: "River Place River"
+ river_place_river_area_adj: "River Place River"
+ 
+ #-----------------------------
+ # Western Ocean Area
+ #-----------------------------
+ 
+ bay_of_belfalas_area: "Bay of Belfalas"
+ bay_of_belfalas_area_name: "Bay of Belfalas"
+ bay_of_belfalas_area_adj: "Bay of Belfalas"
+ 
+ sea_of_enedwaith_area: "Sea of Enedwaith"
+ sea_of_enedwaith_area_name: "Sea of Enedwaith"
+ sea_of_enedwaith_area_adj: "Sea of Enedwaith"
+ 
+ sea_of_eriador_area: "Sea of Eriador"
+ sea_of_eriador_area_name: "Sea of Eriador"
+ sea_of_eriador_area_adj: "Sea of Eriador"
+ 
+ sea_of_forodwaith_area: "Sea of Forodwaith"
+ sea_of_forodwaith_area_name: "Sea of Forodwaith"
+ sea_of_forodwaith_area_adj: "Sea of Forodwaith"
+ 
+ bay_of_falaya_area: "Bay of Falaya"
+ bay_of_falaya_area_name: "Bay of Falaya"
+ bay_of_falaya_area_adj: "Bay of Falaya"
+ 
+ bay_of_tulwang_area: "Bay of Tulwang"
+ bay_of_tulwang_area_name: "Bay of Tulwang"
+ bay_of_tulwang_area_adj: "Bay of Tulwang"
+ 
+ north_sea_of_belegaer_area: "North Sea of Belegaer"
+ north_sea_of_belegaer_area_name: "North Sea of Belegaer"
+ north_sea_of_belegaer_area_adj: "North Sea of Belegaer"
+ 
+ central_sea_of_belegaer_area: "Central Sea of Belegaer"
+ central_sea_of_belegaer_area_name: "Central Sea of Belegaer"
+ central_sea_of_belegaer_area_adj: "Central Sea of Belegaer"
+ 
+ south_sea_of_belegaer_area: "South Sea of Belegaer"
+ south_sea_of_belegaer_area_name: "South Sea of Belegaer"
+ south_sea_of_belegaer_area_adj: "South Sea of Belegaer"
+ 
+ #-----------------------------
+ # Helkeaar Sea
+ #-----------------------------
+ 
+ bay_of_utum_area: "Bay of Utum"
+ bay_of_utum_area_name: "Bay of Utum"
+ bay_of_utum_area_adj: "Bay of Utum"
+ 
+#---------------------------
+# Ormal Sea
+#---------------------------
+
+ bay_of_chy_area: "Bay of Chy"
+ bay_of_chy_area_name: "Bay of Chy"
+ bay_of_chy_area_adj: "Bay of Chy"
+ 
+ sea_of_codya_area: "Sea of Codya"
+ sea_of_codya_area_name: "Sea of Codya"
+ sea_of_codya_area_adj: "Sea of Codya"
+ 
+ bay_of_sakalan_area: "Bay of Sakalan"
+ bay_of_sakalan_area_name: "Bay of Sakalan"
+ bay_of_sakalan_area_adj: "Bay of Sakalan"
+ 
+ #---------------------------
+# Eastern Sea
+#---------------------------
+
+ sea_of_lochas_druz_area: "Sea of Lochas Druz"
+ sea_of_lochas_druz_area_name: "Sea of Lochas Druz"
+ sea_of_lochas_druz_area_adj: "Sea of Lochas Druz"
+ 
+ sea_of_ka_ish_area: "Sea of Ka'ish"
+ sea_of_ka_ish_area_name: "Sea of Ka'ish"
+ sea_of_ka_ish_area_adj: "Sea of Ka'ish"
+ 
+ bay_of_ang_sigmorig_area: "Bay of Ang Simorig"
+ bay_of_ang_sigmorig_area_name: "Bay of Ang Simorig"
+ bay_of_ang_sigmorig_area_adj: "Bay of Ang Simorig"
+ 
+ sea_of_ruuriik_area: "Sea of Ruuriik"
+ sea_of_ruuriik_area_name: "Sea of Ruuriik"
+ sea_of_ruuriik_area_adj: "Sea of Ruuriik"
+ 
+ bay_of_kendarca_area: "Bay of Kendarca"
+ bay_of_kendarca_area_name: "Bay of Kendarca"
+ bay_of_kendarca_area_adj: "Bay of Kendarca"
+ 
+ eastern_sea_area: "Eastern Sea"
+ eastern_sea_area_name: "Eastern Sea"
+ eastern_sea_area_adj: "Eastern Sea"

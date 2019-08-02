@@ -1,0 +1,8 @@
+mercantilism = 0.1
+government = monarchy
+add_government_reform = feudalism_reform
+
+primary_culture = culture_brodim
+religion = religion_lakhab
+technology_group = lotr_shelflanders 
+capital = 517

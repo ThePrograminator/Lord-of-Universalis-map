@@ -1,0 +1,1102 @@
+spriteTypes = {
+    
+	#----------------------------------------------
+    # Human Buildings
+    #----------------------------------------------
+	#----------------------------------------------
+    # Human Main Buildings
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_settlement_building"
+		texturefile = "gfx//interface//buildings//GFX_human_settlement_building.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Human Main Buildings (City)
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_city_1_building"
+		texturefile = "gfx//interface//buildings//GFX_human_city_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_city_2_building"
+		texturefile = "gfx//interface//buildings//GFX_human_city_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_city_3_building"
+		texturefile = "gfx//interface//buildings//GFX_human_city_building.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Human Main Buildings (Fortress)
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_fortress_1_building"
+		texturefile = "gfx//interface//buildings//GFX_human_fortress_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_fortress_2_building"
+		texturefile = "gfx//interface//buildings//GFX_human_fortress_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_fortress_3_building"
+		texturefile = "gfx//interface//buildings//GFX_human_fortress_building.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Human Main Buildings (Capital)
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_capital_1_building"
+		texturefile = "gfx//interface//buildings//GFX_human_capital_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_capital_2_building"
+		texturefile = "gfx//interface//buildings//GFX_human_capital_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_capital_3_building"
+		texturefile = "gfx//interface//buildings//GFX_human_capital_building.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Human Trade Buildings
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_trade_outpost_building"
+		texturefile = "gfx//interface//buildings//GFX_human_trade_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_marketplace_building"
+		texturefile = "gfx//interface//buildings//GFX_human_trade_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_trade_depot_building"
+		texturefile = "gfx//interface//buildings//GFX_human_trade_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_forum_building"
+		texturefile = "gfx//interface//buildings//GFX_human_trade_building.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Human Taxation Buildings
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_temple_building"
+		texturefile = "gfx//interface//buildings//GFX_human_taxation_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_tax_office_building"
+		texturefile = "gfx//interface//buildings//GFX_human_taxation_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_provincial_office_building"
+		texturefile = "gfx//interface//buildings//GFX_human_taxation_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_bank_building"
+		texturefile = "gfx//interface//buildings//GFX_human_taxation_building.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Human Production Buildings
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_work_camp_building"
+		texturefile = "gfx//interface//buildings//GFX_human_production_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_workshop_building"
+		texturefile = "gfx//interface//buildings//GFX_human_production_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_warehouse_building"
+		texturefile = "gfx//interface//buildings//GFX_human_production_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_stockpile_building"
+		texturefile = "gfx//interface//buildings//GFX_human_production_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_forge_building"
+		texturefile = "gfx//interface//buildings//GFX_human_production_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_foundry_building"
+		texturefile = "gfx//interface//buildings//GFX_human_production_building.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Human Fortifications Buildings
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_fort_pallisade_building"
+		texturefile = "gfx//interface//buildings//GFX_human_fortification_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_fort_castle_building"
+		texturefile = "gfx//interface//buildings//GFX_human_fortification_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_fort_stronghold_building"
+		texturefile = "gfx//interface//buildings//GFX_human_fortification_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_fort_citidal_building"
+		texturefile = "gfx//interface//buildings//GFX_human_fortification_building.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Human Army Buildings
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_outpost_building"
+		texturefile = "gfx//interface//buildings//GFX_human_army_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_army_camp_building"
+		texturefile = "gfx//interface//buildings//GFX_human_army_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_barracks_building"
+		texturefile = "gfx//interface//buildings//GFX_human_army_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_garrison_building"
+		texturefile = "gfx//interface//buildings//GFX_human_army_building.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Human Navy Buildings
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_port_building"
+		texturefile = "gfx//interface//buildings//GFX_human_navy_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_dock_building"
+		texturefile = "gfx//interface//buildings//GFX_human_navy_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_seaport_building"
+		texturefile = "gfx//interface//buildings//GFX_human_navy_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_dockyard_building"
+		texturefile = "gfx//interface//buildings//GFX_human_navy_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_drydock_building"
+		texturefile = "gfx//interface//buildings//GFX_human_navy_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_grand_shipyard_building"
+		texturefile = "gfx//interface//buildings//GFX_human_navy_building.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Dwarf Buildings
+    #----------------------------------------------
+	#----------------------------------------------
+    # Dwarf Main Buildings
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_colony_outpost_dwarf_building"
+		texturefile = "gfx//interface//buildings//GFX_dwarf_colony_building.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Dwarf Main Buildings (City)
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_settlement_1_dwarf_building"
+		texturefile = "gfx//interface//buildings//GFX_dwarf_city_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_2_dwarf_building"
+		texturefile = "gfx//interface//buildings//GFX_dwarf_city_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_3_dwarf_building"
+		texturefile = "gfx//interface//buildings//GFX_dwarf_city_building.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Dwarf Main Buildings (Fortress)
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_hold_1_dwarf_building"
+		texturefile = "gfx//interface//buildings//GFX_dwarf_fortress_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_hold_2_dwarf_building"
+		texturefile = "gfx//interface//buildings//GFX_dwarf_fortress_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_hold_3_dwarf_building"
+		texturefile = "gfx//interface//buildings//GFX_dwarf_fortress_building.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Dwarf Main Buildings (Capital)
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_capital_1_dwarf_building"
+		texturefile = "gfx//interface//buildings//GFX_dwarf_capital_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_capital_2_dwarf_building"
+		texturefile = "gfx//interface//buildings//GFX_dwarf_capital_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_capital_3_dwarf_building"
+		texturefile = "gfx//interface//buildings//GFX_dwarf_capital_building.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Dwarf Trade Buildings
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_material_exchance_dwarf_building"
+		texturefile = "gfx//interface//buildings//GFX_dwarf_trade_buildings.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_fairground_dwarf_building"
+		texturefile = "gfx//interface//buildings//GFX_dwarf_trade_buildings.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_great_market_dwarf_building"
+		texturefile = "gfx//interface//buildings//GFX_dwarf_trade_buildings.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_traders_guild_building"
+		texturefile = "gfx//interface//buildings//GFX_dwarf_trade_buildings.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Dwarf Taxation Buildings
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_armoury_dwarf_building"
+		texturefile = "gfx//interface//buildings//GFX_dwarf_taxation_buildings.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_forge_dwarf_building"
+		texturefile = "gfx//interface//buildings//GFX_dwarf_taxation_buildings.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_arsenal_dwarf_building"
+		texturefile = "gfx//interface//buildings//GFX_dwarf_taxation_buildings.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_smithies_guild_building"
+		texturefile = "gfx//interface//buildings//GFX_dwarf_taxation_buildings.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Dwarf State Buildings
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_libary_dwarf_building"
+		texturefile = "gfx//interface//buildings//GFX_dwarf_state_buildings.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_research_office_dwarf_building"
+		texturefile = "gfx//interface//buildings//GFX_dwarf_state_buildings.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_acadamy_dwarf_building"
+		texturefile = "gfx//interface//buildings//GFX_dwarf_state_buildings.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_guild_dwarf_building"
+		texturefile = "gfx//interface//buildings//GFX_dwarf_state_buildings.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Dwarf Army Buildings
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_mustering_hall_dwarf_building"
+		texturefile = "gfx//interface//buildings//GFX_dwarf_army_buildings.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_training_hall_dwarf_building"
+		texturefile = "gfx//interface//buildings//GFX_dwarf_army_buildings.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_hall_of_warriors_dwarf_building"
+		texturefile = "gfx//interface//buildings//GFX_dwarf_army_buildings.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_warriors_guild_dwarf_building"
+		texturefile = "gfx//interface//buildings//GFX_dwarf_army_buildings.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Dwarf Production Buildings
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_mine_shaft_dwarf_building"
+		texturefile = "gfx//interface//buildings//GFX_dwarf_production_buildings.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_mining_network_dwarf_building"
+		texturefile = "gfx//interface//buildings//GFX_dwarf_production_buildings.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_materials_depot_building"
+		texturefile = "gfx//interface//buildings//GFX_dwarf_production_buildings.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_miners_guild_dwarf_building"
+		texturefile = "gfx//interface//buildings//GFX_dwarf_production_buildings.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Dwarf Fortifications Buildings (Hold Only)
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_fort_small_gatehouse_dwarf_building"
+		texturefile = "gfx//interface//buildings//GFX_dwarf_fortification_hold_buildings.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_fort_great_gatehouse_dwarf_building"
+		texturefile = "gfx//interface//buildings//GFX_dwarf_fortification_hold_buildings.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_fort_mountain_fortress_dwarf_building"
+		texturefile = "gfx//interface//buildings//GFX_dwarf_fortification_hold_buildings.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_fort_mountain_citidal_dwarf_building"
+		texturefile = "gfx//interface//buildings//GFX_dwarf_fortification_hold_buildings.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Dwarf Fortifications Buildings (Settlement Only)
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_fort_pallisade_dwarf_building"
+		texturefile = "gfx//interface//buildings//GFX_dwarf_fortification_settlement_buildings.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_fort_castle_dwarf_building"
+		texturefile = "gfx//interface//buildings//GFX_dwarf_fortification_settlement_buildings.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Dwarf Defences Buildings(Hold Only)
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_rune_door_dwarf_building"
+		texturefile = "gfx//interface//buildings//GFX_dwarf_defensive_buildings.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_narrow_bridge_dwarf_building"
+		texturefile = "gfx//interface//buildings//GFX_dwarf_defensive_buildings.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_moat_dwarf_building"
+		texturefile = "gfx//interface//buildings//GFX_dwarf_defensive_buildings.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_ballista_towers_dwarf_building"
+		texturefile = "gfx//interface//buildings//GFX_dwarf_defensive_buildings.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Elf Buildings
+    #----------------------------------------------
+	#----------------------------------------------
+    # Elf Main Buildings
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_noble_residence_elf_building"
+		texturefile = "gfx//interface//buildings//GFX_elf_settlement_building.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Elf Main Buildings (City)
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_town_1_elf_building"
+		texturefile = "gfx//interface//buildings//GFX_elf_city_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_town_2_elf_building"
+		texturefile = "gfx//interface//buildings//GFX_elf_city_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_town_3_elf_building"
+		texturefile = "gfx//interface//buildings//GFX_elf_city_building.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Elf Main Buildings (Fortress)
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_fort_1_elf_building"
+		texturefile = "gfx//interface//buildings//GFX_elf_fortress_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_fort_2_elf_building"
+		texturefile = "gfx//interface//buildings//GFX_elf_fortress_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_fort_3_elf_building"
+		texturefile = "gfx//interface//buildings//GFX_elf_fortress_building.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Elf Main Buildings (Capital)
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_capital_1_elf_building"
+		texturefile = "gfx//interface//buildings//GFX_elf_capital_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_capital_2_elf_building"
+		texturefile = "gfx//interface//buildings//GFX_elf_capital_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_capital_3_elf_building"
+		texturefile = "gfx//interface//buildings//GFX_elf_capital_building.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Elf Trade Buildings
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_elven_fairground_elf_building"
+		texturefile = "gfx//interface//buildings//GFX_elf_trade_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_craftsmen_plaza_elf_building"
+		texturefile = "gfx//interface//buildings//GFX_elf_trade_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_exotic_wares_market_elf_building"
+		texturefile = "gfx//interface//buildings//GFX_elf_trade_building.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Elf Taxation Buildings
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_temple_elf_building"
+		texturefile = "gfx//interface//buildings//GFX_elf_taxation_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_theatre_elf_building"
+		texturefile = "gfx//interface//buildings//GFX_elf_taxation_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_amphitheatre_elf_building"
+		texturefile = "gfx//interface//buildings//GFX_elf_taxation_building.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Elf Production Buildings
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_workshop_elf_building"
+		texturefile = "gfx//interface//buildings//GFX_elf_production_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_elven_forge_elf_building"
+		texturefile = "gfx//interface//buildings//GFX_elf_production_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_grand_forge_elf_building"
+		texturefile = "gfx//interface//buildings//GFX_elf_production_building.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Elf Army Buildings
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_warriors_gallery_building"
+		texturefile = "gfx//interface//buildings//GFX_elf_army_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_heros_shrine_building"
+		texturefile = "gfx//interface//buildings//GFX_elf_army_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_green_pastures_elf_building"
+		texturefile = "gfx//interface//buildings//GFX_elf_army_cav_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_grand_stables_elf_building"
+		texturefile = "gfx//interface//buildings//GFX_elf_army_cav_building.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Elf Navy Buildings
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_port_elf_building"
+		texturefile = "gfx//interface//buildings//GFX_elf_navy_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_seaport_elf_building"
+		texturefile = "gfx//interface//buildings//GFX_elf_navy_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_harbour_elf_building"
+		texturefile = "gfx//interface//buildings//GFX_elf_navy_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_haven_elf_building"
+		texturefile = "gfx//interface//buildings//GFX_elf_navy_building.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Elf Fortifications Buildings
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_fort_low_walls_elf_building"
+		texturefile = "gfx//interface//buildings//GFX_elf_fortification_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_fort_high_walls_elf_building"
+		texturefile = "gfx//interface//buildings//GFX_elf_fortification_building.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Elf Defences Buildings
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_moat_elf_building"
+		texturefile = "gfx//interface//buildings//GFX_elf_defensive_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_wall_bastions_elf_building"
+		texturefile = "gfx//interface//buildings//GFX_elf_defensive_building.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Elf Special Buildings
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_mallorn_tree_elf_building"
+		texturefile = "gfx//interface//buildings//GFX_elf_malorn_special_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_statue_of_the_elders_elf_building"
+		texturefile = "gfx//interface//buildings//GFX_elf_statue_special_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_mirror_fountain_elf_building"
+		texturefile = "gfx//interface//buildings//GFX_elf_fountain_special_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_star_of_earendil_shrine_elf_building"
+		texturefile = "gfx//interface//buildings//GFX_elf_shrine_special_building.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Orc Buildings
+    #----------------------------------------------
+	#----------------------------------------------
+    # Orc Main Buildings
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_camp_orc_building"
+		texturefile = "gfx//interface//buildings//GFX_orc_settlement_building.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Orc Main Buildings (City)
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_encampment_1_orc_building"
+		texturefile = "gfx//interface//buildings//GFX_orc_city_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_encampment_2_orc_building"
+		texturefile = "gfx//interface//buildings//GFX_orc_city_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_encampment_3_orc_building"
+		texturefile = "gfx//interface//buildings//GFX_orc_city_building.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Orc Main Buildings (Fortress)
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_fortress_1_orc_building"
+		texturefile = "gfx//interface//buildings//GFX_orc_fortress_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_fortress_2_orc_building"
+		texturefile = "gfx//interface//buildings//GFX_orc_fortress_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_fortress_3_orc_building"
+		texturefile = "gfx//interface//buildings//GFX_orc_fortress_building.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Orc Main Buildings (Capital)
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_capital_1_orc_building"
+		texturefile = "gfx//interface//buildings//GFX_orc_capital_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_capital_2_orc_building"
+		texturefile = "gfx//interface//buildings//GFX_orc_capital_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_capital_3_orc_building"
+		texturefile = "gfx//interface//buildings//GFX_orc_capital_building.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Orc Trade Buildings
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_meat_depot_orc_building"
+		texturefile = "gfx//interface//buildings//GFX_orc_trade_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_treasure_trove_orc_building"
+		texturefile = "gfx//interface//buildings//GFX_orc_trade_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_stockpile_orc_building"
+		texturefile = "gfx//interface//buildings//GFX_orc_trade_building.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Orc Taxation Buildings
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_enforcer_camp_orc_building"
+		texturefile = "gfx//interface//buildings//GFX_orc_taxation_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_overseer_station_orc_building"
+		texturefile = "gfx//interface//buildings//GFX_orc_taxation_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_overseer_tower_orc_building"
+		texturefile = "gfx//interface//buildings//GFX_orc_taxation_building.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Orc Production Buildings
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_blacksmith_orc_building"
+		texturefile = "gfx//interface//buildings//GFX_orc_production_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_metal_works_orc_building"
+		texturefile = "gfx//interface//buildings//GFX_orc_production_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_dark_iron_forge_orc_building"
+		texturefile = "gfx//interface//buildings//GFX_orc_production_building.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Orc Army Buildings (Infantry)
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_orc_pit_orc_building"
+		texturefile = "gfx//interface//buildings//GFX_orc_army_infantry_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_orc_fissure_orc_building"
+		texturefile = "gfx//interface//buildings//GFX_orc_army_infantry_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_army_garrison_orc_building"
+		texturefile = "gfx//interface//buildings//GFX_orc_army_infantry_building.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Orc Army Buildings (Cav)
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_warg_pit_orc_building"
+		texturefile = "gfx//interface//buildings//GFX_orc_army_cav_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_warg_arena_orc_building"
+		texturefile = "gfx//interface//buildings//GFX_orc_army_cav_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_troll_cage_orc_building"
+		texturefile = "gfx//interface//buildings//GFX_orc_army_cav_building.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Orc Army Buildings (Arty)
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_workshop_orc_building"
+		texturefile = "gfx//interface//buildings//GFX_orc_army_arty_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_siege_works_orc_building"
+		texturefile = "gfx//interface//buildings//GFX_orc_army_arty_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_great_siege_works_orc_building"
+		texturefile = "gfx//interface//buildings//GFX_orc_army_arty_building.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Orc Fortifications Buildings
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_fort_pallisade_orc_building"
+		texturefile = "gfx//interface//buildings//GFX_orc_fortification_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_fort_wooden_walls_orc_building"
+		texturefile = "gfx//interface//buildings//GFX_orc_fortification_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_fort_orc_stronghold_orc_building"
+		texturefile = "gfx//interface//buildings//GFX_orc_fortification_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_fort_large_orc_stronghold_orc_building"
+		texturefile = "gfx//interface//buildings//GFX_orc_fortification_building.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Orc Unrest Buildings
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_small_arena_building"
+		texturefile = "gfx//interface//buildings//GFX_orc_arena_unrest_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_large_arena_building"
+		texturefile = "gfx//interface//buildings//GFX_orc_arena_unrest_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_prisoner_cage_orc_building"
+		texturefile = "gfx//interface//buildings//GFX_orc_prison_unrest_building.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_tortur_chambers_orc_building"
+		texturefile = "gfx//interface//buildings//GFX_orc_prison_unrest_building.tga"
+		loadType = "INGAME"
+	}
+	
+	#----------------------------------------------
+    # Actions
+    #----------------------------------------------
+	
+	spriteType = {
+		name = "GFX_resettlement_action"
+		texturefile = "gfx//interface//buildings//GFX_resettlment_action.tga"
+		loadType = "INGAME"
+	}
+}

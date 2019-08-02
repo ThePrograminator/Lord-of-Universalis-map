@@ -1,0 +1,877 @@
+#Unsorted Scripted effects:
+create_thorin_company_path = {
+	84 = {
+		set_province_flag = thorin_company_path
+	}
+	
+	74 = {
+		set_province_flag = thorin_company_path
+	}
+	
+	75 = {
+		set_province_flag = thorin_company_path
+	}
+	
+	299 = {
+		set_province_flag = thorin_company_path
+	}
+	
+	263 = {
+		set_province_flag = thorin_company_path
+	}
+	
+	173 = {
+		set_province_flag = thorin_company_path
+	}
+	
+	1817 = {
+		set_province_flag = thorin_company_path
+	}
+	
+	300 = {
+		set_province_flag = thorin_company_path
+	}
+	
+	296 = {
+		set_province_flag = thorin_company_path
+	}
+	
+	1442 = {
+		set_province_flag = thorin_company_path
+	}
+	
+	291 = {
+		set_province_flag = thorin_company_path
+	}
+	
+	364 = {
+		set_province_flag = thorin_company_path
+	}
+	#
+	384 = {
+		set_province_flag = thorin_company_path
+	}
+	
+	292 = {
+		set_province_flag = thorin_company_path
+	}
+	
+	232 = {
+		set_province_flag = thorin_company_path
+	}
+	
+	1875 = {
+		set_province_flag = thorin_company_path
+	}
+	
+	1127 = {
+		set_province_flag = thorin_company_path
+	}
+	
+	558 = {
+		set_province_flag = thorin_company_path
+	}
+	
+	1126 = {
+		set_province_flag = thorin_company_path
+	}
+	
+	685 = {
+		set_province_flag = thorin_company_path
+	}
+	
+	1887 = {
+		set_province_flag = thorin_company_path
+	}
+	
+	672 = {
+		set_province_flag = thorin_company_path
+	}
+	
+	673 = {
+		set_province_flag = thorin_company_path
+	}
+	
+	408 = {
+		set_province_flag = thorin_company_path
+	}
+	
+	314 = {
+		set_province_flag = thorin_company_path
+	}
+	
+	526 = {
+		set_province_flag = thorin_company_path
+	}
+	
+	1899 = {
+		set_province_flag = thorin_company_path
+	}
+	
+	1897 = {
+		set_province_flag = thorin_company_path
+	}
+	
+	316 = {
+		set_province_flag = thorin_company_path
+	}
+	
+	1901 = {
+		set_province_flag = thorin_company_path
+	}
+	#
+	1902 = {
+		set_province_flag = thorin_company_path
+	}
+	#
+	528 = {
+		set_province_flag = thorin_company_path
+	}
+	#
+	527 = {
+		set_province_flag = thorin_company_path
+	}
+	#
+	1903 = {
+		set_province_flag = thorin_company_path
+	}
+	#
+	287 = {
+		set_province_flag = thorin_company_path
+	}
+}
+
+create_fellowship_path = {
+	85 = {
+		set_province_flag = fellowship_path
+	}
+	
+	75 = {
+		set_province_flag = fellowship_path
+	}
+	
+	76 = {
+		set_province_flag = fellowship_path
+	}
+	
+	97 = {
+		set_province_flag = fellowship_path
+	}
+	
+	104 = {
+		set_province_flag = fellowship_path
+	}
+	
+	2545 = {
+		set_province_flag = fellowship_path
+	}
+
+	267 = {
+		set_province_flag = fellowship_path
+	}
+	
+	264 = {
+		set_province_flag = fellowship_path
+	}
+	
+	268 = {
+		set_province_flag = fellowship_path
+	}
+	
+	305 = {
+		set_province_flag = fellowship_path
+	}
+	
+	296 = {
+		set_province_flag = fellowship_path
+	}
+	
+	369 = {
+		set_province_flag = fellowship_path
+	}
+	
+	297 = {
+		set_province_flag = fellowship_path
+	}
+	
+	234 = {
+		set_province_flag = fellowship_path
+	}
+	
+	286 = {
+		set_province_flag = fellowship_path
+	}
+	
+	287 = {
+		set_province_flag = fellowship_path
+	}
+	
+	288 = {
+		set_province_flag = fellowship_path
+	}
+	
+	2582 = {
+		set_province_flag = fellowship_path
+	}
+	
+	290 = {
+		set_province_flag = fellowship_path
+	}
+	
+	776 = {
+		set_province_flag = fellowship_path
+	}
+	
+	676 = {
+		set_province_flag = fellowship_path
+	}
+	
+	882 = {
+		set_province_flag = fellowship_path
+	}
+	
+	285 = {
+		set_province_flag = fellowship_path
+	}
+	
+	888 = {
+		set_province_flag = fellowship_path
+	}
+	
+	295 = {
+		set_province_flag = fellowship_path
+	}
+	
+	2588 = {
+		set_province_flag = fellowship_path
+	}
+	
+	235 = {
+		set_province_flag = fellowship_path
+	}
+	
+	284 = {
+		set_province_flag = fellowship_path
+	}
+	
+	282 = {
+		set_province_flag = fellowship_path
+	}
+	
+	281 = {
+		set_province_flag = fellowship_path
+	}
+	
+	279 = {
+		set_province_flag = fellowship_path
+	}
+	
+	280 = {
+		set_province_flag = fellowship_path
+	}
+	
+	274 = {
+		set_province_flag = fellowship_path
+	}
+	
+	275 = {
+		set_province_flag = fellowship_path
+	}
+	
+	677 = {
+		set_province_flag = fellowship_path
+	}
+	
+	329 = {
+		set_province_flag = fellowship_path
+	}
+	
+	330 = {
+		set_province_flag = fellowship_path
+	}
+	
+	586 = {
+		set_province_flag = fellowship_path
+	}
+	
+	585 = {
+		set_province_flag = fellowship_path
+	}
+	
+	47 = {
+		set_province_flag = fellowship_path
+	}
+	
+	48 = {
+		set_province_flag = fellowship_path
+	}
+	
+	51 = {
+		set_province_flag = fellowship_path
+	}
+	
+	49 = {
+		set_province_flag = fellowship_path
+	}
+	
+	8 = {
+		set_province_flag = fellowship_path
+	}
+	
+	9 = {
+		set_province_flag = fellowship_path
+	}
+	
+	45 = {
+		set_province_flag = fellowship_path
+	}
+	
+	428 = {
+		set_province_flag = fellowship_path
+	}
+	
+	427 = {
+		set_province_flag = fellowship_path
+	}
+	
+	53 = {
+		set_province_flag = fellowship_path
+	}
+	
+	54 = {
+		set_province_flag = fellowship_path
+	}
+	
+	426 = {
+		set_province_flag = fellowship_path
+	}
+	
+	149 = {
+		set_province_flag = fellowship_path
+	}
+	
+	148 = {
+		set_province_flag = fellowship_path
+	}
+}
+
+give_minas_ithil_to_gondor = {
+	if = {
+		limit = {
+			426 = {
+				owned_by = X84
+			}
+			any_province = {
+				owned_by = X12
+				region = gondor_region
+			}
+		}
+		
+		426 = {
+			add_core = X12
+			cede_province = X12
+			culture = culture_wilderness
+			religion = religion_wilderness
+			remove_core = X84
+		}
+	}
+	
+	if = {
+		limit = {
+			426 = {
+				owned_by = X84
+			}
+			
+			NOT = {
+				any_province = {
+					owned_by = X12
+					region = gondor_region
+				}
+			}
+		}
+		
+		426 = {
+			add_core = Y10
+			cede_province = Y10
+			remove_core = X84
+		}
+	}
+}
+
+give_black_gate_to_gondor = {
+	if = {
+		limit = {
+			exists = X12
+			691 = {
+				owned_by = X84
+			}
+			any_province = {
+				owned_by = X12
+				region = gondor_region
+			}
+		}
+		
+		691 = {
+			add_core = X12
+			cede_province = X12
+			culture = culture_wilderness
+			religion = religion_wilderness
+			remove_core = X84
+		}
+	}
+	
+	if = {
+		limit = {
+			691 = {
+				owned_by = X84
+			}
+			
+			NOT = {
+				any_province = {
+					owned_by = X12
+					region = gondor_region
+				}
+			}
+		}
+		
+		691 = {
+			add_core = Y10
+			cede_province = Y10
+			remove_core = X84
+		}
+	}
+}
+
+give_dol_dagor_to_gondor = {
+	#Gondor exists and has a province in gondor region
+	if = {
+		limit = {
+			585 = {
+				owned_by = X84
+			}
+			any_province = {
+				owned_by = X12
+				region = gondor_region
+			}
+		}
+		
+		585 = {
+			add_core = X12
+			cede_province = X12
+			culture = culture_wilderness
+			religion = religion_wilderness
+			remove_core = X84
+		}
+	}
+	
+	#gondor does not have a province in gondor region, and neigbor province is not owned by sagath
+	if = {
+		limit = {
+			AND = {
+				585 = {
+					owned_by = X84
+				}
+				
+				NOT = {
+					any_province = {
+						owned_by = X12
+						region = gondor_region
+					}
+				}
+			}
+			NOT = {
+				any_neighbor_province = { 
+					NOT = {
+						owned_by = Z01
+					}
+				}
+			}
+			
+		}
+		
+		585 = {
+			add_core = Y10
+			cede_province = Y10
+			remove_core = X84
+		}
+	}
+	
+	#gondor does not have a province in gondor region, and neigbor province is owned by sagath
+	if = {
+		limit = {
+			AND = {
+				585 = {
+					owned_by = X84
+				}
+				
+				NOT = {
+					any_province = {
+						owned_by = X12
+						region = gondor_region
+					}
+				}
+			}
+			AND = {
+				any_neighbor_province = { 
+					owned_by = Z01
+				}
+			}
+			
+		}
+		
+		585 = {
+			add_core = Z01
+			cede_province = Z01
+			remove_core = X84
+		}
+	}
+}
+
+give_emyn_muil_area_to_gondor = {
+	if = {
+		limit = {
+			exists = X12
+			any_province = {
+				owned_by = X12
+				region = gondor_region
+			}
+		}
+		
+		emyn_muil_area = {
+			limit = {
+				owned_by = X84
+			}
+			
+			add_core = X12
+			cede_province = X12
+			culture = culture_wilderness
+			religion = religion_wilderness
+			remove_core = X84
+		}
+	}
+	
+	if = {
+		limit = {	
+			NOT = {
+				any_province = {
+					owned_by = X12
+					region = gondor_region
+				}
+			}
+		}
+		
+		emyn_muil_area = {
+			limit = {
+				owned_by = X84
+			}
+			
+			add_core = Y12
+			cede_province = Y12
+			remove_core = X84
+		}
+	}
+}
+
+give_gondor_region_to_gondor = {
+	if = {
+		limit = {
+			any_province = {
+				owned_by = X12
+				region = gondor_region
+			}
+		}
+		
+		gondor_region = {
+			limit = {
+				owned_by = X84
+			}
+			
+			add_core = X12
+			cede_province = X12
+			remove_core = X84
+		}
+	}
+	
+	if = {
+		limit = {
+			NOT = {
+				any_province = {
+					owned_by = X12
+					region = gondor_region
+				}
+			}
+		}
+		
+		gondor_region = {
+			limit = {
+				owned_by = X84
+			}
+			
+			add_core = Y07
+			cede_province = Y07
+			remove_core = X84
+		}
+	}
+}
+
+give_rohan_region_to_rohan = {
+	if = {
+		limit = {
+			any_province = {
+				owned_by = X70
+				region = rohan_region
+			}
+		}
+		
+		rohan_region = {
+			limit = {
+				owned_by = X84
+			}
+			
+			add_core = X70
+			cede_province = X70
+			remove_core = X84
+		}
+	}
+	
+	if = {
+		limit = {
+			NOT = {
+				any_province = {
+					owned_by = X70
+					region = rohan_region
+				}
+			}
+		}
+		
+		rohan_region = {
+			limit = {
+				owned_by = X84
+			}
+			
+			add_core = Y08
+			cede_province = Y08
+			remove_core = X84
+		}
+	}
+}
+
+set_mordor_region_empty = {
+
+	mordor_region = {
+		limit = {
+			owned_by = X84
+			NOT = {
+				province_id = 691
+				province_id = 426
+				area = south_nurn_area
+				area = north_nurn_area
+				area = west_nurn_area
+				area = east_nurn_area
+			}
+		}
+		
+		cede_province = XXX
+		culture = culture_wilderness
+		religion = religion_wilderness
+		remove_core = X84
+	}
+
+	if = {
+		limit = {
+			any_province = {
+				owned_by = X20
+				region = mordor_region
+			}
+		}
+		
+		south_nurn_area = {
+			limit = {
+				owned_by = X84
+			}
+			add_core = X20
+			cede_province = X20
+			remove_core = X84
+		}
+		
+		north_nurn_area = {
+			limit = {
+				owned_by = X84
+			}
+			add_core = X20
+			cede_province = X20
+			remove_core = X84
+		}
+		
+		west_nurn_area = {
+			limit = {
+				owned_by = X84
+			}
+			add_core = X20
+			cede_province = X20
+			remove_core = X84
+		}
+		
+		east_nurn_area = {
+			limit = {
+				owned_by = X84
+			}
+			add_core = X20
+			cede_province = X20
+			remove_core = X84
+		}
+	}
+	
+	if = {
+		limit = {
+			NOT = {
+				any_province = {
+					owned_by = X20
+					region = mordor_region
+				}
+			}
+		}
+		
+		south_nurn_area = {
+			limit = {
+				owned_by = X84
+			}
+			add_core = Y10
+			cede_province = Y10
+			culture = culture_wilderness
+			religion = religion_wilderness
+			remove_core = X84
+		}
+		
+		north_nurn_area = {
+			limit = {
+				owned_by = X84
+			}
+			add_core = Y10
+			cede_province = Y10
+			culture = culture_wilderness
+			religion = religion_wilderness
+			remove_core = X84
+		}
+		
+		west_nurn_area = {
+			limit = {
+				owned_by = X84
+			}
+			add_core = Y10
+			cede_province = Y10
+			culture = culture_wilderness
+			religion = religion_wilderness
+			remove_core = X84
+		}
+		
+		east_nurn_area = {
+			limit = {
+				owned_by = X84
+			}
+			add_core = Y10
+			cede_province = Y10
+			culture = culture_wilderness
+			religion = religion_wilderness
+			remove_core = X84
+		}
+	}
+}
+
+set_eriador_superregion_new_orc_nation = {
+	eriador_superregion = {
+		limit = {
+			owned_by = X84
+		}
+		add_core = Y06
+		cede_province = Y06
+		remove_core = X84
+	}
+}
+
+set_rhovanion_superregion_new_orc_nation = {
+	if = {
+		limit = {
+			any_province = {
+				owned_by = Z03
+				superregion = rhovanion_superregion
+			}
+		}
+		
+		rhovanion_superregion = {
+			limit = {
+				owned_by = X84
+				NOT = {
+					province_id = 585
+				}
+				NOT = {
+					region = rohan_region
+				}
+			}
+			
+			add_core = Z03
+			cede_province = Z03
+			remove_core = X84
+		}
+	}
+	
+	if = {
+		limit = {
+			NOT = {
+				any_province = {
+					owned_by = Z03
+					superregion = rhovanion_superregion
+				}
+			}
+		}
+		
+		rhovanion_superregion = {
+			limit = {
+				owned_by = X84
+				NOT = {
+					province_id = 585
+				}
+				NOT = {
+					region = rohan_region
+				}
+			}
+			
+			add_core = Y09
+			cede_province = Y09
+			remove_core = X84
+		}
+	}
+}
+
+set_harad_superregion_new_orc_nation = {
+	harad_superregion = {
+		limit = {
+			owned_by = X84
+		}
+		add_core = Y11
+		cede_province = Y11
+		remove_core = X84
+	}
+}
+
+set_rhun_superregion_new_orc_nation = {
+	rhun_superregion = {
+		limit = {
+			owned_by = X84
+		}
+		add_core = Y12
+		cede_province = Y12
+		remove_core = X84
+	}
+}
+
+set_forodwaith_superregion_new_orc_nation = {
+	forodwaith_superregion = {
+		limit = {
+			owned_by = X84
+		}
+		add_core = Y13
+		cede_province = Y13
+		remove_core = X84
+	}
+}

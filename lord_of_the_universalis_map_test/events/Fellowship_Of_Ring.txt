@@ -1,0 +1,2083 @@
+##################################################
+# Institutions 
+#
+# written by DKStranger
+##################################################
+
+
+namespace = fellowship_of_ring_events
+
+#Current position of fellowship(hidden)
+country_event = {
+	id = fellowship_of_ring_events.1
+	title = fellowship_of_ring_events.1.t
+	desc = fellowship_of_ring_events.1.d
+	picture = PAINTER_ARTIST_eventPicture
+
+	hidden = yes
+
+	trigger = {
+		NOT = {
+			has_global_flag = fellowship_lost
+		}
+		any_province = {
+			fellowship_of_ring = 100
+			NOT = {
+				province_id = 84
+				has_province_modifier = fellowship_passed
+				has_province_modifier = fellowship_position
+			}
+		}
+	}
+	
+	immediate = {
+		random_province = {
+			limit = {
+				fellowship_of_ring = 100
+				NOT = {
+					province_id = 84
+					has_province_modifier = fellowship_position
+					has_province_modifier = fellowship_passed
+				}
+			}
+
+			set_province_flag = thorin_set_position
+			add_province_modifier = {
+				name = "fellowship_position"
+				duration = -1
+				hidden = yes
+			}
+			save_event_target_as = fellowship_new_position
+		}
+	}
+
+	option = {
+		name = company_of_thorin_events.1.a
+		
+		every_province = {
+			limit = {
+				fellowship_of_ring = 100
+				has_province_modifier = fellowship_position
+				NOT = {
+					province_id = event_target:fellowship_new_position
+				}
+			}
+			add_province_modifier = {
+				name = "fellowship_passed"
+				duration = -1
+				hidden = yes
+			}
+			remove_province_modifier = thorin_position
+			clr_province_flag = thorin_set_position
+		}
+	}
+}
+
+#Old Man Willow(Hidden)
+country_event = {
+	id = fellowship_of_ring_events.2
+	title = fellowship_of_ring_events.2.t
+	desc = fellowship_of_ring_events.2.d
+	picture = WOUNDED_SOLDIERS_eventPicture
+
+	fire_only_once = yes
+	hidden = yes
+
+	trigger = {
+		#Old Forest
+		104 = {
+			fellowship_of_ring = 100
+			has_province_modifier = fellowship_position
+		}
+		NOT = {
+			has_global_flag = fellowship_lost
+			has_global_flag = fellowship_won
+			has_global_flag = fellowship_sur_willow
+			has_global_flag = fellowship_die_willow
+		}
+	}
+	
+	immediate = {
+		random_list = {
+			97 = {
+				set_global_flag = fellowship_sur_willow
+			}
+			3 = {
+				set_global_flag = fellowship_die_willow
+			}
+		}
+	}
+
+	#Survives
+	option = {
+		name = fellowship_of_ring_events.2.a
+		
+		trigger = {
+			has_global_flag = fellowship_sur_willow
+		}
+	}
+	
+	#Dies
+	option = {
+		name = fellowship_of_ring_events.2.b
+		
+		trigger = {
+			has_global_flag = fellowship_die_willow
+		}
+		
+		every_country = {
+			limit = {
+				ai = no
+				#NOT = { tag = ROOT }
+			}
+			country_event = { id = fellowship_of_ring_events.16 }
+		}
+		set_global_flag = fellowship_lost
+		
+		104 = {
+			set_province_flag = fellowship_ring_dropped
+		}
+	}
+}
+
+#Barrow-Wight(Hidden)
+country_event = {
+	id = fellowship_of_ring_events.3
+	title = fellowship_of_ring_events.3.t
+	desc = fellowship_of_ring_events.3.d
+	picture = WOUNDED_SOLDIERS_eventPicture
+
+	fire_only_once = yes
+	hidden = yes
+
+	trigger = {
+		#Nilenel
+		2545 = {
+			fellowship_of_ring = 100
+			has_province_modifier = fellowship_position
+		}
+		NOT = {
+			has_global_flag = fellowship_lost
+			has_global_flag = fellowship_won
+			has_global_flag = fellowship_sur_wight
+			has_global_flag = fellowship_die_wight
+		}
+	}
+	
+	immediate = {
+		random_list = {
+			95 = {
+				set_global_flag = fellowship_sur_wight
+			}
+			5 = {
+				set_global_flag = fellowship_die_wight
+			}
+		}
+	}
+
+	#Survives
+	option = {
+		name = fellowship_of_ring_events.3.a
+		
+		trigger = {
+			has_global_flag = fellowship_sur_wight
+		}
+	}
+	
+	#Dies
+	option = {
+		name = fellowship_of_ring_events.3.b
+		
+		trigger = {
+			has_global_flag = fellowship_die_wight
+		}
+		
+		every_country = {
+			limit = {
+				ai = no
+				#NOT = { tag = ROOT }
+			}
+			country_event = { id = fellowship_of_ring_events.16 }
+		}
+		set_global_flag = fellowship_lost
+		
+		2545 = {
+			set_province_flag = fellowship_ring_dropped
+		}
+	}
+}
+
+#Nazgúl(Hidden)
+country_event = {
+	id = fellowship_of_ring_events.4
+	title = fellowship_of_ring_events.4.t
+	desc = fellowship_of_ring_events.4.d
+	picture = WOUNDED_SOLDIERS_eventPicture
+
+	fire_only_once = yes
+	hidden = yes
+
+	trigger = {
+		#Midgewater Marshes
+		268 = {
+			fellowship_of_ring = 100
+			has_province_modifier = fellowship_position
+		}
+		NOT = {
+			has_global_flag = fellowship_lost
+			has_global_flag = fellowship_won
+			has_global_flag = fellowship_sur_nazgul
+			has_global_flag = fellowship_die_nazgul
+		}
+	}
+	
+	immediate = {
+		random_list = {
+			80 = {
+				set_global_flag = fellowship_sur_nazgul
+			}
+			20 = {
+				set_global_flag = fellowship_die_nazgul
+			}
+		}
+	}
+
+	#Survives
+	option = {
+		name = fellowship_of_ring_events.4.a
+		
+		trigger = {
+			has_global_flag = fellowship_sur_nazgul
+		}
+	}
+	
+	#Dies
+	option = {
+		name = fellowship_of_ring_events.4.b
+		
+		trigger = {
+			has_global_flag = fellowship_die_nazgul
+		}
+		
+		#Take the ring
+		if = {
+			limit = {
+				exists = X84
+			}
+			X84 = {
+				country_event = { id = fellowship_of_ring_events.24 }
+			}
+		}
+		else = {
+			268 = {
+				set_province_flag = fellowship_ring_dropped
+			}
+		}
+		
+		every_country = {
+			limit = {
+				ai = no
+				#NOT = { tag = ROOT }
+			}
+			country_event = { id = fellowship_of_ring_events.16 }
+		}
+		set_global_flag = fellowship_lost
+	}
+}
+
+#Red Horn Pass(Hidden)
+country_event = {
+	id = fellowship_of_ring_events.5
+	title = fellowship_of_ring_events.5.t
+	desc = fellowship_of_ring_events.5.d
+	picture = WOUNDED_SOLDIERS_eventPicture
+
+	fire_only_once = yes
+	hidden = yes
+
+	trigger = {
+		#Caradhras Pass
+		676 = {
+			fellowship_of_ring = 100
+			has_province_modifier = fellowship_position
+		}
+		NOT = {
+			has_global_flag = fellowship_lost
+			has_global_flag = fellowship_won
+			has_global_flag = fellowship_sur_red_horn
+			has_global_flag = fellowship_die_red_horn
+		}
+	}
+	
+	immediate = {
+		random_list = {
+			90 = {
+				set_global_flag = fellowship_sur_red_horn
+			}
+			10 = {
+				set_global_flag = fellowship_die_red_horn
+			}
+		}
+	}
+
+	#Survives
+	option = {
+		name = fellowship_of_ring_events.5.a
+		
+		trigger = {
+			has_global_flag = fellowship_sur_red_horn
+		}
+	}
+	
+	#Dies
+	option = {
+		name = fellowship_of_ring_events.5.b
+		
+		trigger = {
+			has_global_flag = fellowship_die_red_horn
+		}
+		
+		every_country = {
+			limit = {
+				ai = no
+				#NOT = { tag = ROOT }
+			}
+			country_event = { id = fellowship_of_ring_events.16 }
+		}
+		set_global_flag = fellowship_lost
+		
+		676 = {
+			set_province_flag = fellowship_ring_dropped
+		}
+	}
+}
+
+#West Moria Goblins(Hidden)
+country_event = {
+	id = fellowship_of_ring_events.6
+	title = fellowship_of_ring_events.6.t
+	desc = fellowship_of_ring_events.6.d
+	picture = WOUNDED_SOLDIERS_eventPicture
+
+	fire_only_once = yes
+	hidden = yes
+
+	trigger = {
+		#West Moria
+		882 = {
+			fellowship_of_ring = 100
+			has_province_modifier = fellowship_position
+		}
+		NOT = {
+			has_global_flag = fellowship_lost
+			has_global_flag = fellowship_won
+			has_global_flag = fellowship_sur_west_goblins
+			has_global_flag = fellowship_die_west_goblins
+		}
+	}
+	
+	immediate = {
+		random_list = {
+			85 = {
+				set_global_flag = fellowship_sur_west_goblins
+			}
+			15 = {
+				set_global_flag = fellowship_die_west_goblins
+			}
+		}
+	}
+
+	#Survives
+	option = {
+		name = fellowship_of_ring_events.6.a
+		
+		trigger = {
+			has_global_flag = fellowship_sur_west_goblins
+		}
+	}
+	
+	#Dies
+	option = {
+		name = fellowship_of_ring_events.6.b
+		
+		trigger = {
+			has_global_flag = fellowship_die_west_goblins
+		}
+		
+		every_country = {
+			limit = {
+				ai = no
+				#NOT = { tag = ROOT }
+			}
+			country_event = { id = fellowship_of_ring_events.16 }
+		}
+		set_global_flag = fellowship_lost
+		
+		882 = {
+			set_province_flag = fellowship_ring_dropped
+		}
+	}
+}
+
+#East Moria Balrok(Hidden)
+country_event = {
+	id = fellowship_of_ring_events.7
+	title = fellowship_of_ring_events.7.t
+	desc = fellowship_of_ring_events.7.d
+	picture = WOUNDED_SOLDIERS_eventPicture
+
+	fire_only_once = yes
+	hidden = yes
+
+	trigger = {
+		#East Moria
+		285 = {
+			fellowship_of_ring = 100
+			has_province_modifier = fellowship_position
+		}
+		NOT = {
+			has_global_flag = fellowship_lost
+			has_global_flag = fellowship_won
+			has_global_flag = fellowship_sur_east_balrok
+			has_global_flag = fellowship_die_east_balrok
+		}
+	}
+	
+	immediate = {
+		random_list = {
+			85 = {
+				set_global_flag = fellowship_sur_east_balrok
+			}
+			15 = {
+				set_global_flag = fellowship_die_east_balrok
+			}
+		}
+	}
+
+	#Survives
+	option = {
+		name = fellowship_of_ring_events.7.a
+		
+		trigger = {
+			has_global_flag = fellowship_sur_east_balrok
+		}
+	}
+	
+	#Dies
+	option = {
+		name = fellowship_of_ring_events.7.b
+		
+		trigger = {
+			has_global_flag = fellowship_die_east_balrok
+		}
+		
+		every_country = {
+			limit = {
+				ai = no
+				#NOT = { tag = ROOT }
+			}
+			country_event = { id = fellowship_of_ring_events.16 }
+		}
+		set_global_flag = fellowship_lost
+		
+		285 = {
+			set_province_flag = fellowship_ring_dropped
+		}
+	}
+}
+
+#Sailing Down The Anduin(Hidden)
+country_event = {
+	id = fellowship_of_ring_events.8
+	title = fellowship_of_ring_events.8.t
+	desc = fellowship_of_ring_events.8.d
+	picture = WOUNDED_SOLDIERS_eventPicture
+
+	fire_only_once = yes
+	hidden = yes
+
+	trigger = {
+		#Sarn Gebir
+		280 = {
+			fellowship_of_ring = 100
+			has_province_modifier = fellowship_position
+		}
+		NOT = {
+			has_global_flag = fellowship_lost
+			has_global_flag = fellowship_won
+			has_global_flag = fellowship_sur_anduin_river
+			has_global_flag = fellowship_die_anduin_river
+		}
+	}
+	
+	immediate = {
+		random_list = {
+			95 = {
+				set_global_flag = fellowship_sur_anduin_river
+			}
+			5 = {
+				set_global_flag = fellowship_die_anduin_river
+			}
+		}
+	}
+
+	#Survives
+	option = {
+		name = fellowship_of_ring_events.8.a
+		
+		trigger = {
+			has_global_flag = fellowship_sur_anduin_river
+		}
+	}
+	
+	#Dies
+	option = {
+		name = fellowship_of_ring_events.8.b
+		
+		trigger = {
+			has_global_flag = fellowship_die_anduin_river
+		}
+		
+		every_country = {
+			limit = {
+				ai = no
+				#NOT = { tag = ROOT }
+			}
+			country_event = { id = fellowship_of_ring_events.16 }
+		}
+		set_global_flag = fellowship_lost
+		
+		280 = {
+			set_province_flag = fellowship_ring_dropped
+		}
+	}
+}
+
+#Amon Hen Uruk-Hai(Hidden)
+country_event = {
+	id = fellowship_of_ring_events.9
+	title = fellowship_of_ring_events.9.t
+	desc = fellowship_of_ring_events.9.d
+	picture = WOUNDED_SOLDIERS_eventPicture
+
+	fire_only_once = yes
+	hidden = yes
+
+	trigger = {
+		#Amon Hen
+		677 = {
+			fellowship_of_ring = 100
+			has_province_modifier = fellowship_position
+		}
+		NOT = {
+			has_global_flag = fellowship_lost
+			has_global_flag = fellowship_won
+			has_global_flag = fellowship_sur_amon_hen
+			has_global_flag = fellowship_die_amon_hen
+		}
+	}
+	
+	immediate = {
+		random_list = {
+			80 = {
+				set_global_flag = fellowship_sur_amon_hen
+			}
+			20 = {
+				set_global_flag = fellowship_die_amon_hen
+			}
+		}
+	}
+
+	#Survives
+	option = {
+		name = fellowship_of_ring_events.9.a
+		
+		trigger = {
+			has_global_flag = fellowship_sur_amon_hen
+		}
+	}
+	
+	#Dies
+	option = {
+		name = fellowship_of_ring_events.9.b
+		
+		trigger = {
+			has_global_flag = fellowship_die_amon_hen
+		}
+		
+		#Take the ring, Isengard
+		if = {
+			limit = {
+				exists = X71
+			}
+			X71 = {
+				country_event = { id = fellowship_of_ring_events.24 }
+			}
+		}
+		else = {
+			585 = {
+				set_province_flag = fellowship_ring_dropped
+			}
+		}
+		
+		every_country = {
+			limit = {
+				ai = no
+				#NOT = { tag = ROOT }
+			}
+			country_event = { id = fellowship_of_ring_events.16 }
+		}
+		set_global_flag = fellowship_lost
+	}
+}
+
+#Dead Marshes Undead(Hidden)
+country_event = {
+	id = fellowship_of_ring_events.10
+	title = fellowship_of_ring_events.10.t
+	desc = fellowship_of_ring_events.10.d
+	picture = WOUNDED_SOLDIERS_eventPicture
+
+	fire_only_once = yes
+	hidden = yes
+
+	trigger = {
+		#Dead Marshes
+		586 = {
+			fellowship_of_ring = 100
+			has_province_modifier = fellowship_position
+		}
+		NOT = {
+			has_global_flag = fellowship_lost
+			has_global_flag = fellowship_won
+			has_global_flag = fellowship_sur_dead_marshes
+			has_global_flag = fellowship_die_dead_marshes
+		}
+	}
+	
+	immediate = {
+		random_list = {
+			95 = {
+				set_global_flag = fellowship_sur_dead_marshes
+			}
+			5 = {
+				set_global_flag = fellowship_die_dead_marshes
+			}
+		}
+	}
+
+	#Survives
+	option = {
+		name = fellowship_of_ring_events.10.a
+		
+		trigger = {
+			has_global_flag = fellowship_sur_dead_marshes
+		}
+	}
+	
+	#Dies
+	option = {
+		name = fellowship_of_ring_events.10.b
+		
+		trigger = {
+			has_global_flag = fellowship_die_dead_marshes
+		}
+		
+		every_country = {
+			limit = {
+				ai = no
+				#NOT = { tag = ROOT }
+			}
+			country_event = { id = fellowship_of_ring_events.16 }
+		}
+		set_global_flag = fellowship_lost
+		
+		586 = {
+			set_province_flag = fellowship_ring_dropped
+		}
+	}
+}
+
+#Discorvered Black Gate(Hidden)
+country_event = {
+	id = fellowship_of_ring_events.11
+	title = fellowship_of_ring_events.11.t
+	desc = fellowship_of_ring_events.11.d
+	picture = WOUNDED_SOLDIERS_eventPicture
+
+	fire_only_once = yes
+	hidden = yes
+
+	trigger = {
+		#Dagorlad
+		585 = {
+			fellowship_of_ring = 100
+			has_province_modifier = fellowship_position
+		}
+		NOT = {
+			has_global_flag = fellowship_lost
+			has_global_flag = fellowship_won
+			has_global_flag = fellowship_sur_black_gate
+			has_global_flag = fellowship_die_black_gate
+		}
+	}
+	
+	immediate = {
+		random_list = {
+			90 = {
+				set_global_flag = fellowship_sur_black_gate
+			}
+			10 = {
+				set_global_flag = fellowship_die_black_gate
+			}
+		}
+	}
+
+	#Survives
+	option = {
+		name = fellowship_of_ring_events.11.a
+		
+		trigger = {
+			has_global_flag = fellowship_sur_black_gate
+		}
+	}
+	
+	#Dies
+	option = {
+		name = fellowship_of_ring_events.11.b
+		
+		trigger = {
+			has_global_flag = fellowship_die_black_gate
+		}
+		
+		#Take the ring
+		if = {
+			limit = {
+				exists = X84
+			}
+			X84 = {
+				country_event = { id = fellowship_of_ring_events.24 }
+			}
+		}
+		else = {
+			585 = {
+				set_province_flag = fellowship_ring_dropped
+			}
+		}
+		
+		every_country = {
+			limit = {
+				ai = no
+				#NOT = { tag = ROOT }
+			}
+			country_event = { id = fellowship_of_ring_events.16 }
+		}
+		set_global_flag = fellowship_lost
+	}
+}
+
+#West Osgilliath(Hidden)
+country_event = {
+	id = fellowship_of_ring_events.12
+	title = fellowship_of_ring_events.12.t
+	desc = fellowship_of_ring_events.12.d
+	picture = WOUNDED_SOLDIERS_eventPicture
+
+	fire_only_once = yes
+	hidden = yes
+
+	trigger = {
+		#West Osgilliath
+		428 = {
+			fellowship_of_ring = 100
+			has_province_modifier = fellowship_position
+		}
+		NOT = {
+			has_global_flag = fellowship_lost
+			has_global_flag = fellowship_won
+			has_global_flag = fellowship_sur_west_osgilliath
+			has_global_flag = fellowship_die_west_osgilliath
+		}
+	}
+	
+	immediate = {
+		random_list = {
+			90 = {
+				set_global_flag = fellowship_sur_west_osgilliath
+			}
+			10 = {
+				set_global_flag = fellowship_die_west_osgilliath
+			}
+		}
+	}
+
+	#Survives
+	option = {
+		name = fellowship_of_ring_events.12.a
+		
+		trigger = {
+			has_global_flag = fellowship_sur_west_osgilliath
+		}
+	}
+	
+	#Dies
+	option = {
+		name = fellowship_of_ring_events.12.b
+		
+		trigger = {
+			has_global_flag = fellowship_die_west_osgilliath
+		}
+		
+		#Take the ring
+		if = {
+			limit = {
+				exists = X84
+			}
+			X84 = {
+				country_event = { id = fellowship_of_ring_events.24 }
+			}
+		}
+		else = {
+			428 = {
+				set_province_flag = fellowship_ring_dropped
+			}
+		}
+		
+		every_country = {
+			limit = {
+				ai = no
+				#NOT = { tag = ROOT }
+			}
+			country_event = { id = fellowship_of_ring_events.16 }
+		}
+		set_global_flag = fellowship_lost
+	}
+}
+
+#Shelob(Hidden)
+country_event = {
+	id = fellowship_of_ring_events.13
+	title = fellowship_of_ring_events.13.t
+	desc = fellowship_of_ring_events.13.d
+	picture = WOUNDED_SOLDIERS_eventPicture
+
+	fire_only_once = yes
+	hidden = yes
+
+	trigger = {
+		#Minas Ithil
+		426 = {
+			fellowship_of_ring = 100
+			has_province_modifier = fellowship_position
+		}
+		NOT = {
+			has_global_flag = fellowship_lost
+			has_global_flag = fellowship_won
+			has_global_flag = fellowship_sur_shelob
+			has_global_flag = fellowship_die_shelob
+		}
+	}
+	
+	immediate = {
+		random_list = {
+			80 = {
+				set_global_flag = fellowship_sur_shelob
+			}
+			20 = {
+				set_global_flag = fellowship_die_shelob
+			}
+		}
+	}
+
+	#Survives
+	option = {
+		name = fellowship_of_ring_events.13.a
+		
+		trigger = {
+			has_global_flag = fellowship_sur_shelob
+		}
+	}
+	
+	#Dies
+	option = {
+		name = fellowship_of_ring_events.13.b
+		
+		trigger = {
+			has_global_flag = fellowship_die_shelob
+		}
+		
+		every_country = {
+			limit = {
+				ai = no
+				#NOT = { tag = ROOT }
+			}
+			country_event = { id = fellowship_of_ring_events.16 }
+		}
+		set_global_flag = fellowship_lost
+		
+		426 = {
+			set_province_flag = fellowship_ring_dropped
+		}
+	}
+}
+
+#Cirith Ungol(Hidden)
+country_event = {
+	id = fellowship_of_ring_events.14
+	title = fellowship_of_ring_events.14.t
+	desc = fellowship_of_ring_events.14.d
+	picture = WOUNDED_SOLDIERS_eventPicture
+
+	fire_only_once = yes
+	hidden = yes
+
+	trigger = {
+		#Cirith Ungol
+		149 = {
+			fellowship_of_ring = 100
+			has_province_modifier = fellowship_position
+		}
+		NOT = {
+			has_global_flag = fellowship_lost
+			has_global_flag = fellowship_won
+			has_global_flag = fellowship_sur_cirith_ungol
+			has_global_flag = fellowship_die_cirith_ungol
+		}
+	}
+	
+	immediate = {
+		random_list = {
+			80 = {
+				set_global_flag = fellowship_sur_cirith_ungol
+			}
+			20 = {
+				set_global_flag = fellowship_die_cirith_ungol
+			}
+		}
+	}
+
+	#Survives
+	option = {
+		name = fellowship_of_ring_events.14.a
+		
+		trigger = {
+			has_global_flag = fellowship_sur_cirith_ungol
+		}
+	}
+	
+	#Dies
+	option = {
+		name = fellowship_of_ring_events.14.b
+		
+		trigger = {
+			has_global_flag = fellowship_die_cirith_ungol
+		}
+		
+		#Take the ring
+		if = {
+			limit = {
+				exists = X84
+			}
+			X84 = {
+				country_event = { id = fellowship_of_ring_events.24 }
+			}
+		}
+		else = {
+			149 = {
+				set_province_flag = fellowship_ring_dropped
+			}
+		}
+		
+		every_country = {
+			limit = {
+				ai = no
+				#NOT = { tag = ROOT }
+			}
+			country_event = { id = fellowship_of_ring_events.16 }
+		}
+		set_global_flag = fellowship_lost
+	}
+}
+
+#Mordor Area(Hidden)
+country_event = {
+	id = fellowship_of_ring_events.15
+	title = fellowship_of_ring_events.15.t
+	desc = fellowship_of_ring_events.15.d
+	picture = WOUNDED_SOLDIERS_eventPicture
+
+	hidden = yes
+
+	trigger = {
+		#Mordor Area
+		any_province = {
+			area = mordor_area
+			fellowship_of_ring = 100
+			has_province_modifier = fellowship_position
+		}
+		NOT = {
+			has_global_flag = fellowship_lost
+			has_global_flag = fellowship_won
+			has_global_flag = fellowship_sur_mordor
+			has_global_flag = fellowship_die_mordor
+		}
+	}
+	
+	immediate = {
+		random_list = {
+			75 = {
+				set_global_flag = fellowship_sur_mordor
+			}
+			15 = {
+				set_global_flag = fellowship_die_mordor
+			}
+		}
+	}
+
+	#Survives
+	option = {
+		name = fellowship_of_ring_events.15.a
+		
+		trigger = {
+			has_global_flag = fellowship_sur_mordor
+		}
+	}
+	
+	#Dies
+	option = {
+		name = fellowship_of_ring_events.15.b
+		
+		trigger = {
+			has_global_flag = fellowship_die_mordor
+		}
+		
+		#Take the ring
+		if = {
+			limit = {
+				exists = X84
+			}
+			X84 = {
+				country_event = { id = fellowship_of_ring_events.24 }
+			}
+		}
+		
+		every_country = {
+			limit = {
+				ai = no
+				#NOT = { tag = ROOT }
+			}
+			country_event = { id = fellowship_of_ring_events.16 }
+		}
+		set_global_flag = fellowship_lost
+	}
+}
+
+#############################
+#Fellowship Dies - Start#
+#############################
+
+country_event = {
+	id = fellowship_of_ring_events.16
+	title = fellowship_of_ring_events.16.t
+	desc = fellowship_of_ring_events.16.d
+	picture = DEATH_OF_HEIR_eventPicture
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+
+	}
+
+	#Old Man Willow Death
+	option = {
+		name = fellowship_of_ring_events.16.a
+		
+		trigger = {
+			has_global_flag = fellowship_die_willow
+		}
+	}
+	
+	#Barrow-Wight
+	option = {
+		name = fellowship_of_ring_events.16.b
+		
+		trigger = {
+			has_global_flag = fellowship_die_wight
+		}
+	}
+	
+	#Nazgúl
+	option = {
+		name = fellowship_of_ring_events.16.c
+		
+		trigger = {
+			has_global_flag = fellowship_die_nazgul
+		}
+	}
+	
+	#Caradhras Pass
+	option = {
+		name = fellowship_of_ring_events.16.d
+		
+		trigger = {
+			has_global_flag = fellowship_die_red_horn
+		}
+	}
+	
+	#West Moria Goblins
+	option = {
+		name = fellowship_of_ring_events.16.e
+		
+		trigger = {
+			has_global_flag = fellowship_die_west_goblins
+		}
+	}
+	
+	#East Moria Balrok
+	option = {
+		name = fellowship_of_ring_events.16.f
+		
+		trigger = {
+			has_global_flag = fellowship_die_east_balrok
+		}
+	}
+	
+	#Anduin River
+	option = {
+		name = fellowship_of_ring_events.16.g
+		
+		trigger = {
+			has_global_flag = fellowship_die_anduin_river
+		}
+	}
+	
+	#Amon Hen Uruk-Hai
+	option = {
+		name = fellowship_of_ring_events.16.h
+		
+		trigger = {
+			has_global_flag = fellowship_die_amon_hen
+		}
+	}
+	
+	#Dead Marshes Undead
+	option = {
+		name = fellowship_of_ring_events.16.i
+		
+		trigger = {
+			has_global_flag = fellowship_die_dead_marshes
+		}
+	}
+	
+	#Black Gate Discorvered
+	option = {
+		name = fellowship_of_ring_events.16.j
+		
+		trigger = {
+			has_global_flag = fellowship_die_black_gate
+		}
+	}
+	
+	#West Osgilliath
+	option = {
+		name = fellowship_of_ring_events.16.k
+		
+		trigger = {
+			has_global_flag = fellowship_die_west_osgilliath
+		}
+	}
+	
+	#Shelob
+	option = {
+		name = fellowship_of_ring_events.16.l
+		
+		trigger = {
+			has_global_flag = fellowship_die_shelob
+		}
+	}
+	
+	#Cirith Ungol
+	option = {
+		name = fellowship_of_ring_events.16.m
+		
+		trigger = {
+			has_global_flag = fellowship_die_cirith_ungol
+		}
+	}
+	
+	#Mordor Area
+	option = {
+		name = fellowship_of_ring_events.16.n
+		
+		trigger = {
+			has_global_flag = fellowship_die_mordor
+		}
+	}
+	
+	#Trade policy : Hinder Fellowship
+	option = {
+		name = fellowship_of_ring_events.16.n
+		
+		trigger = {
+			has_global_flag = fellowship_die_trade_policy
+		}
+	}
+}
+
+#Rivendell Lost
+country_event = {
+	id = fellowship_of_ring_events.17
+	title = fellowship_of_ring_events.17.t
+	desc = fellowship_of_ring_events.17.d
+	picture = SIEGE_eventPicture
+
+	fire_only_once = yes
+	hidden = yes
+
+	trigger = {
+		234 = {
+			NOT = {
+				fellowship_of_ring = 100
+			}
+			
+			is_bad_race_province = yes
+		}
+		NOT = {
+			has_global_flag = fellowship_lost
+			has_global_flag = fellowship_won
+			has_global_flag = fellowship_over
+		}
+	}
+	
+	#Fellowship Ends
+	option = {
+		name = fellowship_of_ring_events.17.a
+
+		set_global_flag = fellowship_lost
+		set_global_flag = fellowship_rivendell_lost
+		
+		every_country = {
+			limit = {
+				ai = no
+				#NOT = { tag = ROOT }
+			}
+			country_event = { id = fellowship_of_ring_events.19 }
+		}
+		
+		random_province = { 
+			limit = {
+				fellowship_of_ring = 100
+				has_province_modifier = fellowship_position
+			}
+			set_province_flag = fellowship_ring_dropped
+		}
+	}
+}
+
+#Gondor Lost
+country_event = {
+	id = fellowship_of_ring_events.18
+	title = fellowship_of_ring_events.18.t
+	desc = fellowship_of_ring_events.18.d
+	picture = SIEGE_eventPicture
+
+	fire_only_once = yes
+	hidden = yes
+
+	trigger = {
+		427 = {
+			NOT = {
+				fellowship_of_ring = 100
+			}
+		}
+		AND = {
+			osgiliath_area = {
+				is_bad_race_province = yes
+			}
+		}
+		422 = {
+			is_bad_race_province = yes
+		}
+		NOT = {
+			has_global_flag = fellowship_lost
+			has_global_flag = fellowship_won
+			has_global_flag = fellowship_over
+		}
+	}
+	
+	#Fellowship Ends
+	option = {
+		name = fellowship_of_ring_events.18.a
+
+		set_global_flag = fellowship_lost
+		set_global_flag = fellowship_gondor_lost
+		
+		every_country = {
+			limit = {
+				ai = no
+				#NOT = { tag = ROOT }
+			}
+			country_event = { id = fellowship_of_ring_events.19 }
+		}
+		
+		random_province = { 
+			limit = {
+				fellowship_of_ring = 100
+				has_province_modifier = fellowship_position
+			}
+			set_province_flag = fellowship_ring_dropped
+		}
+	}
+}
+
+#Fellowship Has ended
+country_event = {
+	id = fellowship_of_ring_events.19
+	title = fellowship_of_ring_events.19.t
+	desc = fellowship_of_ring_events.19.d
+	picture = WOUNDED_SOLDIERS_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		AND = {
+			osgiliath_area = {
+				is_bad_race_province = yes
+			}
+		}
+		422 = {
+			is_bad_race_province = yes
+		}
+		NOT = {
+			has_global_flag = fellowship_lost
+			has_global_flag = fellowship_won
+			has_global_flag = fellowship_over
+		}
+	}
+	
+	#Fellowship Ends, Rivendell
+	option = {
+		name = fellowship_of_ring_events.19.a
+		
+		trigger = {
+			has_global_flag = fellowship_rivendell_lost
+		}
+
+	}
+	
+	#Fellowship Ends, Gondor
+	option = {
+		name = fellowship_of_ring_events.19.b
+		
+		trigger = {
+			has_global_flag = fellowship_gondor_lost
+		}
+
+	}
+}
+
+###########################
+#Fellowship Dies - End#
+###########################
+
+#Succesfull, Mordor Explodes
+country_event = {
+	id = fellowship_of_ring_events.20
+	title = fellowship_of_ring_events.20.t
+	desc = fellowship_of_ring_events.20.d
+	picture = DEATH_OF_HEIR_eventPicture
+
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		OR = {
+			AND ={
+				NOT = {
+					has_global_flag = fellowship_lost
+				}
+				148 = {
+					fellowship_of_ring = 100
+				}
+			}
+			
+			AND = {
+				has_global_flag = fellowship_lost
+				FROM = {
+					has_country_modifier = the_one_ring_not_mordor
+					ruler_has_personality = carries_ring_personality
+					46 = {
+						has_ruler_leader_from = THIS
+						controlled_by = ROOT
+					}
+				}
+			}
+		}
+		exists = X84
+	}
+
+	#Mordor Explodes!
+	option = {
+		name = fellowship_of_ring_events.20.a
+		
+		give_minas_ithil_to_gondor = yes
+		give_black_gate_to_gondor = yes
+		give_dol_dagor_to_gondor = yes
+		give_emyn_muil_area_to_gondor = yes
+		give_gondor_region_to_gondor = yes
+		give_rohan_region_to_rohan = yes
+		set_mordor_region_empty = yes
+		set_eriador_superregion_new_orc_nation = yes
+		set_rhovanion_superregion_new_orc_nation = yes
+		set_harad_superregion_new_orc_nation = yes
+		set_rhun_superregion_new_orc_nation = yes
+		set_forodwaith_superregion_new_orc_nation = yes
+		
+		set_global_flag = fellowship_over
+		
+		if = {
+			limit = {
+				has_global_flag = fellowship_ring_destroyed
+			}
+			every_country = {
+				limit = {
+					ai = no
+					#NOT = { tag = ROOT }
+				}
+				country_event = { id = fellowship_of_ring_events.30 }
+			}
+		}
+		else = {
+			set_global_flag = fellowship_won
+			every_country = {
+				limit = {
+					ai = no
+					#NOT = { tag = ROOT }
+				}
+				country_event = { id = fellowship_of_ring_events.21 }
+			}
+		}
+	}
+}
+
+#Fellowship Has ended, won
+country_event = {
+	id = fellowship_of_ring_events.21
+	title = fellowship_of_ring_events.21.t
+	desc = fellowship_of_ring_events.21.d
+	picture = HRE_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		has_global_flag = fellowship_won
+	}
+	
+	#Fellowship Ends, won
+	option = {
+		name = fellowship_of_ring_events.21.a
+	}
+}
+
+#Searching for the fellowship
+country_event = {
+	id = fellowship_of_ring_events.22
+	title = fellowship_of_ring_events.22.t
+	desc = fellowship_of_ring_events.22.d
+	picture = WOUNDED_SOLDIERS_eventPicture
+
+	hidden = yes
+
+	trigger = {
+		is_institution_enabled = fellowship_of_ring
+		
+		#has_active_policy = hinder_fellowships
+		
+		any_active_trade_node = {
+			ROOT = {
+				trading_policy_in_node = {
+					node = PREV
+					policy = hinder_fellowships
+				}
+			}
+			any_trade_node_member_province = { 
+				fellowship_of_ring = 100
+				OR = {
+					has_province_modifier = fellowship_position
+					has_province_flag = fellowship_ring_dropped
+				}
+				NOT = {
+					province_id = 104
+					province_id = 2545
+					province_id = 268
+					province_id = 676
+					province_id = 882
+					province_id = 285
+					province_id = 280
+					province_id = 677
+					province_id = 586
+					province_id = 585
+					province_id = 428
+					province_id = 426
+					province_id = 149
+				}
+			}
+		}
+		
+		NOT = {
+			#has_global_flag = fellowship_lost
+			has_global_flag = fellowship_won
+			has_global_flag = fellowship_over
+			has_global_flag = fellowship_sur_timer
+		}
+	}
+	
+	immediate = {
+		random_list = {
+			98 = {
+				set_global_flag = fellowship_sur_trade_policy
+			}
+			2 = {
+				set_global_flag = fellowship_die_trade_policy
+			}
+		}
+	}
+
+	#Didnt find
+	option = {
+		name = fellowship_of_ring_events.22.a
+		
+		trigger = {
+			has_global_flag = fellowship_sur_trade_policy
+		}
+		
+		clr_global_flag = fellowship_sur_trade_policy
+		set_global_flag = fellowship_sur_timer
+		country_event = {
+			id = fellowship_of_ring_events.23
+			days = 30
+		}
+	}
+	
+	#Found the ring
+	option = {
+		name = fellowship_of_ring_events.22.b
+		
+		trigger = {
+			has_global_flag = fellowship_die_trade_policy
+		}
+		
+		if = {
+			limit = {
+				NOT = {
+					has_global_flag = fellowship_lost
+				}
+			}
+			
+			every_country = {
+				limit = {
+					ai = no
+					#NOT = { tag = ROOT }
+				}
+				country_event = { id = fellowship_of_ring_events.16 }
+			}
+			
+			country_event = { id = fellowship_of_ring_events.24 }
+			
+			save_global_event_target_as = nation_killed_fellowship
+			set_global_flag = fellowship_lost
+		}
+		else = {
+			country_event = { id = fellowship_of_ring_events.24 }
+		}
+	}
+}
+
+#Timer
+country_event = {
+	id = fellowship_of_ring_events.23
+	title = fellowship_of_ring_events.23.t
+	desc = fellowship_of_ring_events.23.d
+	picture = WOUNDED_SOLDIERS_eventPicture
+
+	is_triggered_only = yes
+	hidden = yes
+
+	trigger = {
+
+	}
+
+	#Survives
+	option = {
+		name = fellowship_of_ring_events.23.a
+		
+		clr_global_flag = fellowship_sur_timer
+	}
+}
+
+#Found the Ring
+country_event = {
+	id = fellowship_of_ring_events.24
+	title = fellowship_of_ring_events.24.t
+	desc = fellowship_of_ring_events.24.d
+	picture = BAD_WITH_MONARCH_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = {
+			has_global_flag = fellowship_lost
+			has_global_flag = fellowship_won
+			has_global_flag = fellowship_over
+		}
+	}
+
+	#Ring given to country Evil
+	option = {
+		name = fellowship_of_ring_events.24.a
+		
+		trigger = {
+			is_bad_race = yes
+		}
+		
+		if = {
+			limit = {
+				tag = X84
+			}
+			every_country = {
+				limit = {
+					ai = no
+					#NOT = { tag = ROOT }
+				}
+				country_event = { id = fellowship_of_ring_events.26 }
+			}
+			
+			add_country_modifier = {
+				name = the_one_ring_mordor
+				duration = -1
+			}
+			set_global_flag = fellowship_over
+		}
+		else = {
+			add_country_modifier = {
+				name = the_one_ring_not_mordor
+				duration = -1
+			}
+			country_event = { id = fellowship_of_ring_events.27 }
+		}
+	}
+	
+	#Ring given to country not evil
+	option = {
+		name = fellowship_of_ring_events.24.b
+		
+		trigger = {
+			is_bad_race = no
+		}
+		
+		if = {
+			limit = {
+				tag = X84
+			}
+			every_country = {
+				limit = {
+					ai = no
+					#NOT = { tag = ROOT }
+				}
+				country_event = { id = fellowship_of_ring_events.26 }
+			}
+			
+			add_country_modifier = {
+				name = the_one_ring_mordor
+				duration = -1
+			}
+			set_global_flag = fellowship_over
+		}
+		else = {
+			add_country_modifier = {
+				name = the_one_ring_not_mordor
+				duration = -1
+			}
+			country_event = { id = fellowship_of_ring_events.27 }
+		}
+	}
+}
+
+#Ring Given To Sauron
+country_event = {
+	id = fellowship_of_ring_events.25
+	title = fellowship_of_ring_events.25.t
+	desc = fellowship_of_ring_events.25.d
+	picture = BAD_WITH_MONARCH_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X84
+	}
+
+	#Ring given to Sauron
+	option = {
+		name = fellowship_of_ring_events.25.a
+		
+		add_country_modifier = {
+			name = the_one_ring_mordor
+			duration = -1
+		}
+		
+		every_country = {
+			limit = {
+				ai = no
+				#NOT = { tag = ROOT }
+			}
+			country_event = { id = fellowship_of_ring_events.26 }
+		}
+	}
+}
+
+#Sauron Has the Ring (Everyone)
+country_event = {
+	id = fellowship_of_ring_events.26
+	title = fellowship_of_ring_events.26.t
+	desc = fellowship_of_ring_events.26.d
+	picture = COURT_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+	}
+
+	#Ring given to Sauron
+	option = {
+		name = fellowship_of_ring_events.26.a
+		
+	}
+}
+
+#Ruler gains Ring
+country_event = {
+	id = fellowship_of_ring_events.27
+	title = fellowship_of_ring_events.27.t
+	desc = fellowship_of_ring_events.27.d
+	picture = COURT_eventPicture
+
+	trigger = {
+		has_country_modifier = the_one_ring_not_mordor
+		NOT = {
+			tag = X84
+			ruler_has_personality = carries_ring_personality
+		}
+	}
+
+	#Sets ring to ruler
+	option = {
+		name = fellowship_of_ring_events.27.a
+		
+		clear_scripted_personalities = yes
+		
+		add_ruler_personality = carries_ring_personality
+	}
+}
+
+#Ruler removes Ring
+country_event = {
+	id = fellowship_of_ring_events.28
+	title = fellowship_of_ring_events.28.t
+	desc = fellowship_of_ring_events.28.d
+	picture = COURT_eventPicture
+	
+	hidden = yes
+
+	trigger = {
+
+	}
+
+	#Remove ring to ruler
+	option = {
+		name = fellowship_of_ring_events.28.a
+		
+		remove_ruler_personality = carries_ring_personality
+	}
+}
+
+#Ring Thrown in Mount Doom By Ruler
+country_event = {
+	id = fellowship_of_ring_events.29
+	title = fellowship_of_ring_events.29.t
+	desc = fellowship_of_ring_events.29.d
+	picture = COMET_SIGHTED_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_modifier = the_one_ring_not_mordor
+		ruler_has_personality = carries_ring_personality
+		
+		#148 Mount Doom
+		148 = {
+			has_ruler_leader_from = ROOT
+			controlled_by = ROOT
+		}
+	}
+
+	#Sets ring to ruler
+	option = {
+		name = fellowship_of_ring_events.29.a
+		
+		set_global_flag = fellowship_ring_destroyed
+		
+		country_event = { id = fellowship_of_ring_events.20 }
+		
+		remove_ruler_personality = carries_ring_personality
+	}
+}
+
+#Ring has been destroyed, won
+country_event = {
+	id = fellowship_of_ring_events.30
+	title = fellowship_of_ring_events.30.t
+	desc = fellowship_of_ring_events.30.d
+	picture = COMET_SIGHTED_eventPicture
+
+	trigger = {
+		OR = {
+			has_global_flag = fellowship_won
+			has_global_flag = fellowship_ring_destroyed
+		}
+	}
+	
+	#Ring has been destroyed, won
+	option = {
+		name = fellowship_of_ring_events.30.a
+	}
+}
+
+#Ring searching province
+country_event = {
+	id = fellowship_of_ring_events.31
+	title = fellowship_of_ring_events.31.t
+	desc = fellowship_of_ring_events.31.d
+	picture = WOUNDED_SOLDIERS_eventPicture
+	
+	hidden = yes
+
+	trigger = {
+		is_institution_enabled = fellowship_of_ring
+		
+		any_owned_province = {
+			has_province_flag = fellowship_ring_dropped
+		}
+		has_global_flag = fellowship_lost
+		
+		NOT = {
+			has_global_flag = fellowship_over
+			has_global_flag = fellowship_found_ring
+			has_global_flag = fellowship_searching_timer
+		}
+	}
+	
+	immediate = {
+		random_list = {
+			98 = {
+				set_global_flag = fellowship_dint_f_ring
+			}
+			2 = {
+				set_global_flag = fellowship_found_ring
+			}
+		}
+	}
+
+	#Not Found
+	option = {
+		name = fellowship_of_ring_events.31.a
+		
+		trigger = {
+			has_global_flag = fellowship_dint_f_ring
+		}
+		
+		clr_global_flag = fellowship_dint_f_ring
+		set_global_flag = fellowship_searching_timer
+		country_event = {
+			id = fellowship_of_ring_events.32
+			days = 30
+		}
+	}
+	
+	#Found
+	option = {
+		name = fellowship_of_ring_events.31.b
+		
+		trigger = {
+			has_global_flag = fellowship_found_ring
+		}
+		
+		country_event = { id = fellowship_of_ring_events.24 }
+	}
+}
+
+#Timer
+country_event = {
+	id = fellowship_of_ring_events.32
+	title = fellowship_of_ring_events.32.t
+	desc = fellowship_of_ring_events.32.d
+	picture = WOUNDED_SOLDIERS_eventPicture
+
+	is_triggered_only = yes
+	hidden = yes
+
+	trigger = {
+
+	}
+
+	#Survives
+	option = {
+		name = fellowship_of_ring_events.32.a
+		
+		clr_global_flag = fellowship_searching_timer
+	}
+}
+
+#Ruler is getting worse from carring the ring
+country_event = {
+	id = fellowship_of_ring_events.33
+	title = fellowship_of_ring_events.33.t
+	desc = fellowship_of_ring_events.33.d
+	picture = BANKRUPTCY_eventPicture
+
+	trigger = {
+		has_country_modifier = the_one_ring_not_mordor
+		ruler_has_personality = carries_ring_personality
+		NOT = {
+			tag = X84
+			religion_group = religion_group_melkor
+			has_country_flag = fellowship_ruler_carring_timer
+			adm = 1
+			dip = 1
+			mil = 1
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 100
+
+	}
+
+	#Getting Worse
+	option = {
+		name = fellowship_of_ring_events.33.a
+		
+		random_list = {
+			33 = {
+				change_adm = -1
+			}
+			33 = {
+				change_dip = -1
+			}
+			33 = {
+				change_mil = -1
+			}
+		}
+		
+		hidden_effect = {
+			country_event = {
+				id = fellowship_of_ring_events.34
+				days = 1095
+			}
+		}
+	}
+}
+
+#Timer
+country_event = {
+	id = fellowship_of_ring_events.34
+	title = fellowship_of_ring_events.34.t
+	desc = fellowship_of_ring_events.34.d
+	picture = WOUNDED_SOLDIERS_eventPicture
+
+	is_triggered_only = yes
+	hidden = yes
+
+	trigger = {
+
+	}
+
+	#Survives
+	option = {
+		name = fellowship_of_ring_events.34.a
+		
+		clr_country_flag = fellowship_ruler_carring_timer
+	}
+}
+
+#Lost the ring in a war
+country_event = {
+	id = fellowship_of_ring_events.35
+	title = fellowship_of_ring_events.35.t
+	desc = fellowship_of_ring_events.35.d
+	picture = CONQUEST_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_modifier = the_one_ring_not_mordor
+		NOT = {
+			tag = X84
+		}
+	}
+
+	#Lost the ring
+	option = {
+		name = fellowship_of_ring_events.35.a
+		
+		remove_country_modifier = the_one_ring_not_mordor
+		remove_ruler_personality = carries_ring_personality
+		
+		FROM = {
+			if = {
+				limit = {
+					tag = X84
+				}
+				add_country_modifier = {
+					name = the_one_ring_mordor
+					duration = -1
+				}
+			}
+			else = {
+				add_country_modifier = {
+					name = the_one_ring_not_mordor
+					duration = -1
+				}
+				hidden_effect = {
+					country_event = {
+						id = fellowship_of_ring_events.27
+					}
+				}
+			}
+			country_event = {
+				id = fellowship_of_ring_events.36
+			}
+		}
+	}
+}
+
+#Take ring from war
+country_event = {
+	id = fellowship_of_ring_events.36
+	title = fellowship_of_ring_events.36.t
+	desc = fellowship_of_ring_events.36.d
+	picture = WOUNDED_SOLDIERS_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+
+	}
+
+	#yes
+	option = {
+		name = fellowship_of_ring_events.36.a
+		
+	}
+}

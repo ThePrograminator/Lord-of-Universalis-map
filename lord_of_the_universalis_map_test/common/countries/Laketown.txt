@@ -1,0 +1,749 @@
+#Country Name: Please see filename.
+graphical_culture = easterngfx
+
+color = { 135 100 70 }
+
+historical_idea_groups = {
+	offensive_ideas
+	diplomatic_ideas
+	defensive_ideas
+	innovativeness_ideas
+	administrative_ideas
+	quantity_ideas
+	economic_ideas
+	aristocracy_ideas
+}
+
+historical_units = {
+	lotr_dale_rivermen_1
+	lotr_dale_dalesmen_2
+	lotr_dale_winter_guard_3
+	lotr_dale_bardian_hird_4
+	lotr_dale_earls_guard_5
+
+	lotr_dale_yeomen_1
+	lotr_dale_aihwothiuda_horses_2
+	lotr_dale_earls_guard_knights_3
+}
+
+monarch_names = {
+	"Vinitharya" = 10
+	"Eldacar" = 10
+	"Marhari" = 10
+	"Marhwini" = 10
+	"Forthwini" = 10
+	"Aggailus" = 10
+	"Angel" = 10
+	"Agila" = 10
+	"Agustus" = 10
+	"August" = 10
+	"Awgustus" = 10
+	"August" = 10
+	"Aimileis" = 10
+	"Emil" = 10
+	"Airastus" = 10
+	"Erastus" = 10
+	"Airmanabairhts" = 10
+	"Irmbert" = 10
+	"Airmanafrithus" = 10
+	"Irmfried" = 10
+	"Airmanagilds" = 10
+	"Airmanareiks" = 10
+	"Ermenrich" = 10
+	"Airminabairhts" = 10
+	"Irmbert" = 10
+	"Airminafrithus" = 10
+	"Irmfried" = 10
+	"Airminagilds" = 10
+	"Ermenegild" = 10
+	"Airminareiks" = 10
+	"Ermenrich" = 10
+	"Aithika" = 10
+	"Edika" = 10
+	"Aithiwulfs" = 10
+	"Ediulf" = 10
+	"Aiwareiks" = 10
+	"Aiwawalds" = 10
+	"Ewald" = 10
+	"Alaiksandrus" = 10
+	"Alexander" = 10
+	"Alagilds" = 10
+	"Alamanna" = 10
+	"Alareiks" = 10
+	"Alarich" = 10
+	"Alathius" = 10
+	"Alaweiws" = 10
+	"Albeis" = 10
+	"Albila" = 10
+	"Albireiks" = 10
+	"Alberich" = 10
+	"Albireths" = 10
+	"Alfred" = 10
+	"Albiwini" = 10
+	"Alboin" = 10
+	"Alika" = 10
+	"Amadaius" = 10
+	"Amadeus" = 10
+	"Amalareiks" = 10
+	"Amalric" = 10
+	"Amandus" = 10
+	"Amantseis" = 10
+	"Amans" = 10
+	"Amatus" = 10
+	"Ambrauseis" = 10
+	"Ambrose" = 10
+	"Anastaseis" = 10
+	"Anastasius" = 10
+	"Andraias" = 10
+	"Andrew" = 10
+	"Ansibairhts" = 10
+	"Osbert" = 10
+	"Ansigais" = 10
+	"Ansgar" = 10
+	"Ansihilms" = 10
+	"Anselm" = 10
+	"Ansila" = 10
+	"Ansimers" = 10
+	"Osmar" = 10
+	"Ansimunds" = 10
+	"Osmond" = 10
+	"Ansireiks" = 10
+	"Osriuc" = 10
+	"Ansireths" = 10
+	"Osred" = 10
+	"Ansiwalds" = 10
+	"Oswald" = 10
+	"Ansiwini" = 10
+	"Oswine" = 10
+	"Antoneis" = 10
+	"Anthony" = 10
+	"Askalks" = 10
+	"Athafuns" = 10
+	"Alphonse" = 10
+	"Athalabairhts" = 10
+	"Albert" = 10
+	"Athalabalths" = 10
+	"Adalbert" = 10
+	"Athalabrands" = 10
+	"Adalbrand" = 10
+	"Athalafrithus" = 10
+	"Alfried" = 10
+	"Athalagais" = 10
+	"Adalger" = 10
+	"Athalahardus" = 10
+	"Adelhard" = 10
+	"Athalahari" = 10
+	"Adelar" = 10
+	"Athalahilms" = 10
+	"Adalhelm" = 10
+	"Athalamanna" = 10
+	"Adalmann" = 10
+	"Athalamers" = 10
+	"Adalmar" = 10
+	"Athalareiks" = 10
+	"Adalrich" = 10
+	"Athalawini" = 10
+	"Adalwin" = 10
+	"Athalawulfs" = 10
+	"Adolf" = 10
+	"Athanareiks" = 10
+	"Athanarich" = 10
+	"Athawulfs" = 10
+	"Adolf" = 10
+	"Audamunds" = 10
+	"Edmund" = 10
+	"Audathius" = 10
+	"Audawakrs" = 10
+	"Ottokar" = 10
+	"Audawards" = 10
+	"Edward" = 10
+	"Audawini" = 10
+	"Edwin" = 10
+	"Audawulfs" = 10
+	"Edwulf" = 10
+	"Audwakrs" = 10
+	"Ottokar" = 10
+	"Audwards" = 10
+	"Edward" = 10
+	"Audwini" = 10
+	"Edwin" = 10
+	"Audwulfs" = 10
+	"Edwulf" = 10
+	"Austraguta" = 10
+	"Ostrogotha" = 10
+	"Baduhari" = 10
+	"Badwila" = 10
+	"Bainaidiktus" = 10
+	"Benedict" = 10
+	"Bainiamein" = 10
+	"Benjamin" = 10
+	"Bairahardus" = 10
+	"Bernard" = 10
+	"Bairamoths" = 10
+	"Bairathius" = 10
+	"Bairhtafrithus" = 10
+	"Bertfried" = 10
+	"Bairhtahrabns" = 10
+	"Bertram" = 10
+	"Bairhtarandus" = 10
+	"Bertrand" = 10
+	"Bairhtawalds" = 10
+	"Berthold" = 10
+	"Bairhtawulfs" = 10
+	"Bertulf" = 10
+	"Bairika" = 10
+	"Bairnuhardus" = 10
+	"Bernard" = 10
+	"Bairnuhilms" = 10
+	"Bernold" = 10
+	"Bairnuwalds" = 10
+	"Bernold" = 10
+	"Bairnuwards" = 10
+	"bernward" = 10
+	"Balainteinus" = 10
+	"Valentine" = 10
+	"Baltasar" = 10
+	"Balthasar" = 10
+	"Balthabairhts" = 10
+	"Baldebert" = 10
+	"Balthamers" = 10
+	"Baldemar" = 10
+	"Balthareiks" = 10
+	"Balderich" = 10
+	"Balthareths" = 10
+	"Barnabas" = 10
+	"Barnaby" = 10
+	"Barteimaius" = 10
+	"Bartimeo" = 10
+	"Barthaulaumaius" = 10
+	"Bartholomew" = 10
+	"Baruk" = 10
+	"Baruch" = 10
+	"Basileius" = 10
+	"Basil" = 10
+	"Batja" = 10
+	"Biktur" = 10
+	"Viktor" = 10
+	"Biljafrithus" = 10
+	"Billfried" = 10
+	"Biljahardus" = 10
+	"Billhard" = 10
+	"Blaseis" = 10
+	"Blaise" = 10
+	"Brandawulfs" = 10
+	"Brandols" = 10
+	"Dagabairhts" = 10
+	"Dagobert" = 10
+	"Dagahari" = 10
+	"Dagalaifs" = 10
+	"Dagamers" = 10
+	"Dagomar" = 10
+	"Dagawalds" = 10
+	"Dagila" = 10
+	"Dagisthius" = 10
+	"Damianus" = 10
+	"Damian" = 10
+	"Dauminikus" = 10
+	"Dominic" = 10
+	"Daweid" = 10
+	"David" = 10
+	"Esaeias" = 10
+	"Isaias" = 10
+	"Filippus" = 10
+	"Philip" = 10
+	"Fragkiskus" = 10
+	"Francis" = 10
+	"Fritha" = 10
+	"Freda" = 10
+	"Frithugairns" = 10
+	"Frithunanths" = 10
+	"Ferdinand" = 10
+	"Frithureiks" = 10
+	"Frederick" = 10
+	"Frumagais" = 10
+	"Frumgar" = 10
+	"Frumagilds" = 10
+	"Frumahari" = 10
+	"Frumareiks" = 10
+	"Frumareths" = 10
+	"Fulkabairhts" = 10
+	"Fulbert" = 10
+	"Fulkahardus" = 10
+	"Volhard" = 10
+	"Fulkahari" = 10
+	"Volker" = 10
+	"Fulkamers" = 10
+	"Volkmar" = 10
+	"Fulkareths" = 10
+	"Volkrad" = 10
+	"Fulkawards" = 10
+	"Volkward" = 10
+	"Fulkawini" = 10
+	"Volkwin" = 10
+	"Gabriel" = 10
+	"Gaiorgeis" = 10
+	"Gaizabairhts" = 10
+	"Gerbert" = 10
+	"Gaizafrithus" = 10
+	"Gerfried" = 10
+	"Gaizahardus" = 10
+	"Gerard" = 10
+	"Gaizalaifs" = 10
+	"Gerleib" = 10
+	"Gaizalaiks" = 10
+	"Gaizamers" = 10
+	"Germar" = 10
+	"Gaizamunds" = 10
+	"Gaizanauths" = 10
+	"Gernot" = 10
+	"Gaizareiks" = 10
+	"Gaiserich" = 10
+	"Gaizawalds" = 10
+	"Gerald" = 10
+	"Gaizaweigs" = 10
+	"Gerwig" = 10
+	"Gaizawini" = 10
+	"Gerwin" = 10
+	"Gaizawulfs" = 10
+	"Gerolf" = 10
+	"Gallus" = 10
+	"Gall" = 10
+	"Gaujahari" = 10
+	"Gaujareiks" = 10
+	"Gauts" = 10
+	"Gawdaintseis" = 10
+	"Gaudence" = 10
+	"Gibahardus" = 10
+	"Gebhard" = 10
+	"Gibamers" = 10
+	"Gibamunds" = 10
+	"Gibareiks" = 10
+	"Gibawulthus" = 10
+	"Gibika" = 10
+	"Gibica" = 10
+	"Gregaureis" = 10
+	"Gregory" = 10
+	"Greimabairhts" = 10
+	"Grimbert" = 10
+	"Greimawalds" = 10
+	"Grimwald" = 10
+	"Gudabairhts" = 10
+	"Gottbert" = 10
+	"Gudafrithus" = 10
+	"Godfrey" = 10
+	"Gudahardus" = 10
+	"Gotthard" = 10
+	"Gumahari" = 10
+	"Gunthihari" = 10
+	"Gunther" = 10
+	"Gunthihrabns" = 10
+	"Guntram" = 10
+	"Gutastafs" = 10
+	"Gustavus" = 10
+	"Gutawini" = 10
+	"Godwin" = 10
+	"Haifstawulfs" = 10
+	"Haifstwulfs" = 10
+	"Haimareiks" = 10
+	"Henry" = 10
+	"Hanhahilms" = 10
+	"Hanhawalds" = 10
+	"Hanhawulfs" = 10
+	"Harjabairhts" = 10
+	"Herbert" = 10
+	"Harjawulfs" = 10
+	"Haribairhts" = 10
+	"Herbert" = 10
+	"Hariwulfs" = 10
+	"Helias" = 10
+	"Elias" = 10
+	"Herodes" = 10
+	"Hluthahari" = 10
+	"Lothair" = 10
+	"Hluthaweigs" = 10
+	"Louis" = 10
+	"Hrothabairhts" = 10
+	"Robert" = 10
+	"Hrothareiks" = 10
+	"Roderick" = 10
+	"Hugubairhts" = 10
+	"Hubert" = 10
+	"Hugubalths" = 10
+	"Hunibairhts" = 10
+	"Humbert" = 10
+	"Hunifrithus" = 10
+	"Humfrey" = 10
+	"Hunila" = 10
+	"Hunireiks" = 10
+	"Iairaimias" = 10
+	"Jeremy" = 10
+	"Iakobus" = 10
+	"Jacob" = 10
+	"Iaurdaneis" = 10
+	"Jordan" = 10
+	"Ibrahardus" = 10
+	"Eberhard" = 10
+	"Ibrahilms" = 10
+	"Eberhelm" = 10
+	"Ibramoths" = 10
+	"Ebermund" = 10
+	"Ibramunds" = 10
+	"Ebermund" = 10
+	"Ibrawini" = 10
+	"Eberwin" = 10
+	"Ibrawulfs" = 10
+	"Eberwolf" = 10
+	"Iesus" = 10
+	"Jesus" = 10
+	"Iggilds" = 10
+	"Inwilja" = 10
+	"Iohannes" = 10
+	"John" = 10
+	"Iosef" = 10
+	"Joseph" = 10
+	"Isak" = 10
+	"Isaac" = 10
+	"Iudas" = 10
+	"Judas" = 10
+	"Iuthareiks" = 10
+	"Jukundus" = 10
+	"Juleis" = 10
+	"Julius" = 10
+	"Julianus" = 10
+	"Julian" = 10
+	"Justeinus" = 10
+	"Justin" = 10
+	"Karaulus" = 10
+	"Charles" = 10
+	"Karlus" = 10
+	"Charles" = 10
+	"Kinthaswinths" = 10
+	"Kinthila" = 10
+	"Klemaintus" = 10
+	"Clement" = 10
+	"Kustantus" = 10
+	"Constant" = 10
+	"Kustanteinus" = 10
+	"Constantine" = 10
+	"Laiwweis" = 10
+	"Levi" = 10
+	"Lawraintseis" = 10
+	"Laurence" = 10
+	"Lazarus" = 10
+	"Liuba" = 10
+	"Liubageis" = 10
+	"Liubagilds" = 10
+	"Liubareiks" = 10
+	"Liubeis" = 10
+	"Liudibairhts" = 10
+	"Luitbert" = 10
+	"Liudibalths" = 10
+	"Leopold" = 10
+	"Liudibrands" = 10
+	"Luitbrand" = 10
+	"Liudifrithus" = 10
+	"Luitfried" = 10
+	"Liudigais" = 10
+	"Ludger" = 10
+	"Liudihardus" = 10
+	"Luithard" = 10
+	"Liudihari" = 10
+	"Liudiwini" = 10
+	"Luitwin" = 10
+	"Liudiwulfs" = 10
+	"Luitwulf" = 10
+	"Lukas" = 10
+	"Markus" = 10
+	"Marcus" = 10
+	"Matthaius" = 10
+	"Matthew" = 10
+	"Meikael" = 10
+	"Michael" = 10
+	"Nathanael" = 10
+	"Nathaniel" = 10
+	"Naudigais" = 10
+	"Notker" = 10
+	"Naurthrabairhts" = 10
+	"Norbert" = 10
+	"Naurthramanna" = 10
+	"Norman" = 10
+	"Neikaudemus" = 10
+	"Nicodemus" = 10
+	"Neikaulaus" = 10
+	"Nicholas" = 10
+	"Othalabairhts" = 10
+	"Olbert" = 10
+	"Othalafrithus" = 10
+	"Udalfried" = 10
+	"Othalareiks" = 10
+	"Ulrich" = 10
+	"Paitrus" = 10
+	"Peter" = 10
+	"Pawlus" = 10
+	"Paul" = 10
+	"Reikahardus" = 10
+	"Richard" = 10
+	"Saulaumon" = 10
+	"Solomon" = 10
+	"Seimon" = 10
+	"Simon" = 10
+	"Sigifrithus" = 10
+	"Siegfried" = 10
+	"Sigismunds" = 10
+	"Sigismund" = 10
+	"Staifanus" = 10
+	"Stephen" = 10
+	"Swmaion" = 10
+	"Simon" = 10
+	"Teimauthaius" = 10
+	"Timothy" = 10
+	"Teitus" = 10
+	"Titus" = 10
+	"Totila" = 10
+	"Triggwa" = 10
+	"Triggwila" = 10
+	"Thaurishari" = 10
+	"Thaurismoths" = 10
+	"Thorismund" = 10
+	"Theja" = 10
+	"Theja" = 10
+	"Thiuda" = 10
+	"Teoda" = 10
+	"Thiudabairhts" = 10
+	"Dietbert" = 10
+	"Thiudabalths" = 10
+	"Thibaud" = 10
+	"Thiudabrands" = 10
+	"Dietbrand" = 10
+	"Thiudafrithus" = 10
+	"Dietfried" = 10
+	"Thiudagais" = 10
+	"Dietger" = 10
+	"Thiudageisls" = 10
+	"Theudegisel" = 10
+	"Thiudahardus" = 10
+	"Diethard" = 10
+	"Thiudahari" = 10
+	"Diether" = 10
+	"Thiudahathus" = 10
+	"Thiudahilms" = 10
+	"Diethelm" = 10
+	"Thiudahrabns" = 10
+	"Dietram" = 10
+	"Thiudalaifs" = 10
+	"Thiudamunds" = 10
+	"Dietmund" = 10
+	"Thiudamers" = 10
+	"Dietmar" = 10
+	"Thiudamoths" = 10
+	"Dietmut" = 10
+	"Thiudareiks" = 10
+	"Theodoric" = 10
+	"Thiudareths" = 10
+	"Thiudawalds" = 10
+	"Dietwald" = 10
+	"Thiudawards" = 10
+	"Dietward" = 10
+	"Thiudeis" = 10
+	"Theudis" = 10
+	"Thiwalaifs" = 10
+	"Thomas" = 10
+	"Thomas" = 10
+	"Thrafstila" = 10
+	"Thrasamunds" = 10
+	"Thrasareiks" = 10
+	"Thuliwini" = 10
+	"Uftahari" = 10
+	"Uftila" = 10
+	"Valahrabns" = 10
+	"Walram" = 10
+	"Vidugavia" = 10
+	"Viliahilms" = 10
+	"William" = 10
+	"Visuwalds" = 10
+	"Wulfila" = 10
+	"Xristaufaurus" = 10
+	"Christopher" = 10
+	"Xristianus" = 10
+	"Christian" = 10
+	
+	"Vidumavi" = -10
+	"Galadwen" = -10
+	"Agatha" = -10
+	"Agatha" = -10
+	"Aggaila" = -10
+	"Aggailika" = -10
+	"Agnes" = -10
+	"Aileisabaith" = -10
+	"Aimilja" = -10
+	"Aiwneika" = -10
+	"Aiwwa" = -10
+	"Alaiksandra" = -10
+	"Alexandra" = -10
+	"Amalabairga" = -10
+	"Amalaswintha" = -10
+	"Amanda" = -10
+	"Amarwllis" = -10
+	"Amata" = -10
+	"Anastasia" = -10
+	"Anastasja" = -10
+	"Anastasia" = -10
+	"Anna" = -10
+	"Ansigardi" = -10
+	"Ansihilma" = -10
+	"Antonja" = -10
+	"Antonia" = -10
+	"Ariadna" = -10
+	"Athala" = -10
+	"Athalabairga" = -10
+	"Athalabairhta" = -10
+	"Athalabaurg" = -10
+	"Athalagunthi" = -10
+	"Athalahaithi" = -10
+	"Athalahildi" = -10
+	"Athalalinthi" = -10
+	"Athalamodi" = -10
+	"Athalaruna" = -10
+	"Athalathruthi" = -10
+	"Athawulfa" = -10
+	"Audafleda" = -10
+	"Austraguto" = -10
+	"Awgusta" = -10
+	"Balainteina" = -10
+	"Barbara" = -10
+	"Biktorja" = -10
+	"Biljahildi" = -10
+	"Brunihildi" = -10
+	"Brunhild" = -10
+	"Damiana" = -10
+	"Daniela" = -10
+	"Dauminika" = -10
+	"Eirena" = -10
+	"Irene" = -10
+	"Filippa" = -10
+	"Fragkiska" = -10
+	"Frithunantha" = -10
+	"Gabriela" = -10
+	"Gaizahildi" = -10
+	"Gaizathruthi" = -10
+	"Gaujaswintha" = -10
+	"Glorja" = -10
+	"Godaliuba" = -10
+	"Greimahildi" = -10
+	"Gunthiruna" = -10
+	"Hildibairhta" = -10
+	"Hildibaurg" = -10
+	"Hildigardi" = -10
+	"Hildigunthi" = -10
+	"Hildiruna" = -10
+	"Hildithruthi" = -10
+	"Hildiwara" = -10
+	"Hrothaswintha" = -10
+	"Hunibairhta" = -10
+	"Ibragardi" = -10
+	"Ibragunthi" = -10
+	"Ibrahildi" = -10
+	"Iohanna" = -10
+	"Iolantha" = -10
+	"Iosefa" = -10
+	"Iudeith" = -10
+	"Jukunda" = -10
+	"Juliana" = -10
+	"Julja" = -10
+	"Julia" = -10
+	"Justeina" = -10
+	"Karaula" = -10
+	"Karla" = -10
+	"Kathareina" = -10
+	"Kustanteina" = -10
+	"Kustantsja" = -10
+	"Lawraintsja" = -10
+	"Liudibairga" = -10
+	"Liudigardi" = -10
+	"Liudiwina" = -10
+	"Lwdia" = -10
+	"Lwdja" = -10
+	"Magdalena" = -10
+	"Magdalene" = -10
+	"Mahtiswintha" = -10
+	"Maria" = -10
+	"Mary" = -10
+	"Marja" = -10
+	"Mary" = -10
+	"Martha" = -10
+	"Othalareika" = -10
+	"Paitra" = -10
+	"Pawla" = -10
+	"Raibaikka" = -10
+	"Rakel" = -10
+	"Salome" = -10
+	"Sara" = -10
+	"Seimona" = -10
+	"Staifanja" = -10
+	"Susanna" = -10
+	"Thiudabairga" = -10
+	"Thiudagardi" = -10
+	"Thiudagunthi" = -10
+	"Thiudaguto" = -10
+	"Thiudahildi" = -10
+	"Thiudalinthi" = -10
+	"Thiudamodi" = -10
+	"Thiudanantha" = -10
+	"Thiudaruna" = -10
+	"Xristiana" = -10
+}
+
+leader_names = {
+	
+}
+
+ship_names = {
+	Eagletree
+	Feathersun
+	Lowtree
+	Distantblade
+	Pineweaver
+	Oceanfang
+	Humbleripper
+	Wiseblood
+	Sunmantle
+	Grandpunch
+	Pyrefollower
+	Hawkfall
+	Heartsteam
+	Stonestrength
+	Mastertide
+	Gloomsworn
+	Redfist
+	Riverwinds
+	Skyspire
+	Fireclaw
+	Lunapike
+	Whitbane
+	Tarrensnow
+	Leafroot
+	Softswallow
+	Peacereaper
+	Stagarm
+	Monsterfury
+	Horsebinder
+	Strongmoon
+	Moltenmourn
+	Skymight
+	Covenstriker
+	Glowstrider
+	Farwatcher
+	Fallendown
+	Tarrengem
+	Stonestar
+	Fernstriker
+	Roughheart
+}
+
+army_names = {
+	"Regiment of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}

@@ -1,0 +1,15 @@
+# Hillmen Tribes men
+type = infantry
+unit_type = lotr_daen
+
+maneuver = 1
+offensive_morale = 3
+defensive_morale = 0
+offensive_fire = 0
+defensive_fire = 0
+offensive_shock = 1
+defensive_shock = 0
+
+trigger = {
+	culture_group = culture_group_borians
+}

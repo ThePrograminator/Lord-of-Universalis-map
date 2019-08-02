@@ -1,0 +1,11 @@
+# Rohirrim Horse Archers
+type = cavalry
+unit_type = lotr_rohirrim
+
+maneuver = 2
+offensive_morale = 1
+defensive_morale = 0
+offensive_fire = 4
+defensive_fire = 0
+offensive_shock = 4
+defensive_shock = 2

@@ -1,0 +1,35 @@
+bookmark =
+{
+    # Treason of Saruman
+	name = "LOTR_14_NAME"
+	desc = "LOTR_14_DESC"
+	date = 2953.3.17
+	
+	center = 223
+	country = V49
+	country = X16
+	country = X01
+	country = V17
+	
+	effect = {
+		X16 = {
+		add_stability = -1
+		add_prestige = -15
+		add_manpower = -5
+		}
+		X01 = {
+		add_stability = -1
+		add_prestige = -10
+		add_manpower = -10
+		}
+		V49 = {
+		add_stability = 1
+		add_prestige = 15
+		add_manpower = 5
+		}
+		V17 = {
+		add_prestige = 5
+		add_manpower = 10
+		}
+	}
+}

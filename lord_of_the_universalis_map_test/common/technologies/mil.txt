@@ -1,0 +1,1063 @@
+monarch_power = MIL
+
+# applied when a country is ahead of time in this technology
+# no bonus for MIL currently
+# ahead_of_time = {
+# }
+
+#infantry_fire		= 0.25
+#infantry_shock		= 0.25
+#cavalry_shock		= 0.25
+#cavalry_fire		= 0.25
+#artillery_fire		= 0.25
+#artillery_shock	= 0.025
+
+#land_morale		= 0.05
+#combat_width		= 1.0
+#military_tactics	= 0.25
+#supply_limit		= 0.25
+#maneuver_value		= 0.15
+
+#barracks = yes
+#regimental_camp = yes
+#fort_16th = yes
+#training_fields = yes
+#conscription_center = yes
+#fort_17th = yes
+#fort_18th = yes
+
+# Pre-era techs
+technology = {
+	# Tech 0
+	year = 2750
+	
+	sprite_level = 1
+
+	infantry_fire		= 	0.25
+	infantry_shock 		= 	0.20	
+	cavalry_shock  		= 	0.8	
+	artillery_shock 	=	0.05
+	land_morale 		= 	2.0
+	
+	enable = lotr_dunedain_militia_1
+	enable = lotr_dunedain_axemen_1
+	enable = lotr_dunedain_militia_archers_1
+	enable = lotr_dunedain_militia_cavalry_1
+
+	enable = lotr_arnor_arnor_militia_1
+	enable = lotr_arnor_rangers_1
+
+	enable = lotr_dwarven_halberdmen_1
+	enable = lotr_dwarven_miners_1
+	enable = lotr_dwarven_dale_cavalry_1
+
+	enable = lotr_rohirrim_eorling_militia_axe_1
+	enable = lotr_rohirrim_eorling_militia_spear_1
+	enable = lotr_rohirrim_eorling_militia_archers_1
+	enable = lotr_rohirrim_scouts_1
+
+	enable = lotr_ent_big_ents
+	enable = lotr_ent_small_ents
+	enable = lotr_ent_rock_throwers
+	
+	enable = lotr_dale_heath_watchers_1
+	enable = lotr_dale_rivermen_1
+	enable = lotr_dale_yeomen_1
+
+	enable = lotr_dunmen_clansmen_1
+	enable = lotr_dunmen_warhounds_1
+
+	enable = lotr_wildmen_tribes_men_1
+	enable = lotr_wildmen_mounted_tribesmen_1
+	
+	enable = lotr_hillmen_hillmen_tribes_men_1
+	enable = lotr_hillmen_rhudaur_scouts_1
+
+	enable = lotr_snowmen_harpoon_fishers_1
+	enable = lotr_snowmen_wolf_sled_ambushers_1
+
+	enable = lotr_spider_giant_spider_1
+	enable = lotr_spider_spider_swarm_1
+
+	enable = lotr_eriador_lumbermen_1
+	enable = lotr_eriador_hunter_1
+	enable = lotr_eriador_greenway_sentries_1
+
+	enable = lotr_elven_quendi_bows_1
+	enable = lotr_elven_imladris_riders_1
+	
+	enable = lotr_elven_silvan_archers_1
+	enable = lotr_elven_silvan_horse_archers_1
+
+	enable = lotr_easterling_tribesmen_1
+	enable = lotr_easterling_horse_riders_1
+
+	enable = lotr_khand_variag_skirmishers_1
+	enable = lotr_khand_variag_axemen_1
+	enable = lotr_khand_camel_riders_1
+
+	enable = lotr_haradrim_spearmen_1
+	enable = lotr_haradrim_swordsmen_1
+	enable = lotr_haradrim_knights_1
+	enable = lotr_haradrim_horse_archers_1
+
+	enable = lotr_umbar_jackals_of_the_wharf_1
+	enable = lotr_umbar_black_sail_chariot_1
+
+	enable = lotr_northron_rhovanion_arms_1
+	enable = lotr_northron_rhovanion_riders_1
+
+	enable = lotr_nothron_beronings_1
+
+	enable = lotr_hobbit_in_arms_1
+	enable = lotr_hobbit_stone_tossers_1
+	enable = lotr_hobbit_pony_riders_1
+
+	enable = lotr_orc_snaga_stalkers_1
+	enable = lotr_orc_snaga_archers_1
+	enable = lotr_orc_warg_riders_1
+	
+	enable = lotr_orc_mordor_orc_bands_1
+	enable = lotr_orc_mordor_orc_scouts_1
+
+	enable = lotr_goblin_snaga_spears_1
+	enable = lotr_goblin_snaga_archers_1
+	enable = lotr_goblin_spider_riders_1
+
+	enable = lotr_troll_hill_1
+	enable = lotr_troll_stone_1
+	enable = lotr_troll_rock_thrower_1
+	
+	enable = lotr_uruk_hai_dunland_raider_1
+	enable = lotr_uruk_hai_reaver_1
+	
+	enable = lotr_uruk_hai_warg_1
+	
+	enable = lotr_siege_balista
+	
+	#Human Buildings
+	#Human Fortifications Buildings
+	fort_pallisade_building = yes
+	fort_castle_building = yes
+	
+	#Human Army Buildings
+	outpost_building = yes
+	army_camp_building = yes
+	
+	#Dwarf Buildings
+	#Dwarf Taxation Buildings
+	armoury_dwarf_building = yes
+	forge_dwarf_building = yes
+	
+	#Dwarf Army Buildings
+	mustering_hall_dwarf_building = yes
+	training_hall_dwarf_building = yes
+	
+	#Dwarf Fortification Buildings (Dwarf Hold Only)
+	fort_small_gatehouse_dwarf_building = yes
+	fort_great_gatehouse_dwarf_building = yes
+	
+	#Dwarf Fortification Buildings (Settlement Only)
+	fort_pallisade_dwarf_building = yes
+	fort_castle_dwarf_building = yes
+	
+	#Dwarf Defences Buildings (Dwarf Hold Only)
+	rune_door_dwarf_building = yes
+	narrow_bridge_dwarf_building = yes
+	
+	#Elf Buildings
+	#Elf Taxation Buildings
+	warriors_gallery_building = yes
+	green_pastures_elf_building = yes
+	
+	#Elf Fortification Buildings
+	fort_low_walls_elf_building = yes
+	
+	#Elf Defences Buildings
+	moat_elf_building = yes
+	
+	#Orc Buildings
+	#Orc Army Buildings (Infantry)
+	orc_pit_orc_building = yes
+	orc_fissure_orc_building = yes
+	army_garrison_orc_building = yes
+	
+	#Orc Army Buildings (Cav)
+	warg_pit_orc_building = yes
+	
+	#Orc Army Buildings (Arty)
+	workshop_orc_building = yes
+	
+	#Orc Fortifications Buildings
+	fort_pallisade_orc_building = yes
+	fort_wooden_walls_orc_building = yes
+}
+technology = {
+	# Tech 1
+	year = 2760
+
+	infantry_fire		= 0.25
+	infantry_shock		= 0.25
+	land_morale			= 0.25
+}
+
+technology = {
+	# Tech 2
+	year = 2770
+
+	cavalry_shock		= 0.25
+	cavalry_fire		= 0.25
+	maneuver_value		= 0.15
+}
+
+technology = {
+	# Tech 3
+	year = 2780
+
+	artillery_fire		= 0.25
+	artillery_shock		= 0.25
+	military_tactics	= 0.25
+}
+
+technology = {
+	# Tech 4
+	year = 2790
+	
+	combat_width		= 1.0
+	military_tactics	= 0.25
+	supply_limit		= 0.25
+}
+
+technology = {
+	# Tech 5
+	year = 2800
+
+	infantry_fire		= 0.25
+	infantry_shock		= 0.25
+	land_morale			= 0.25
+}
+
+technology = {
+	# Tech 6
+	year = 2810
+
+	cavalry_shock		= 0.25
+	cavalry_fire		= 0.25
+	maneuver_value		= 0.15
+	
+	enable = lotr_dunedain_pelargir_spears_2
+	enable = lotr_dunedain_pelargir_swords_2
+	enable = lotr_dunedain_blackroot_archers_2
+	
+	enable = lotr_dale_dalesmen_2
+	
+	enable = lotr_eriador_greenway_guards_2
+	enable = lotr_eriador_greenway_rangers_2
+
+	enable = lotr_northron_woodsmen_axes_2
+	enable = lotr_northron_woodsmen_archers_2
+	
+	enable = lotr_elven_noretirno_warriors_2
+	enable = lotr_elven_noretirno_cavalry_2
+	
+	enable = lotr_elven_silvan_sentinels_2
+	enable = lotr_elven_silvan_ambushers_2
+
+	enable = lotr_rohirrim_eorling_axe_2
+	enable = lotr_rohirrim_eorling_archers_2
+	enable = lotr_rohirrim_eorling_sword_2
+	enable = lotr_rohirrim_riders_2
+	enable = lotr_rohirrim_horse_archers_2
+
+	enable = lotr_haradrim_warband_spearmen_2
+	enable = lotr_haradrim_warband_swordsmen_2
+	enable = lotr_haradrim_southron_lancers_2
+	enable = lotr_haradrim_southron_horse_archer_2
+
+	enable = lotr_umbar_corsair_pillager_2
+	enable = lotr_umbar_corsair_archer_2
+
+	enable = lotr_easterling_clansmen_shields_2
+	enable = lotr_easterling_clansmen_slingers_2
+	enable = lotr_easterling_steppe_riders_2
+
+	enable = lotr_khand_khands_men_2
+	enable = lotr_khand_variag_slinger_2
+	enable = lotr_khand_khurs_lancers_2
+	enable = lotr_khand_khurs_skirmishers_2
+
+	enable = lotr_hobbit_sheriff_posse_2
+	enable = lotr_hobbit_sheriff_archers_2
+
+	enable = lotr_dwarven_axethrowers_2
+	enable = lotr_dwarven_polearm_2
+	enable = lotr_dwarven_warriors_2
+	
+	enable = lotr_orc_mordor_orc_maulers_2
+	enable = lotr_orc_mordor_orc_raider_2
+	enable = lotr_orc_mordor_orc_archers_2
+	
+	enable = lotr_orc_marauders_2
+	enable = lotr_orc_halberdiers_2
+
+	enable = lotr_troll_hill_2
+	enable = lotr_troll_stone_2
+	enable = lotr_troll_rock_thrower_2
+
+	enable = lotr_dunmen_slaeghedar_spear_2
+	enable = lotr_dunmen_slaeghedar_spear_throw_2
+
+	enable = lotr_wildmen_axe_raiders_2
+
+	enable = lotr_hillmen_rhudaur_axemen_2
+
+	enable = lotr_snowmen_winter_coats_2
+}
+
+technology = {
+	# Tech 7
+	year = 2820
+	
+	#Human Buildings
+	#Human Fortifications Buildings
+	fort_stronghold_building = yes
+	
+	#Human Army Buildings
+	barracks_building = yes
+	
+	#Dwarf Buildings
+	#Dwarf Taxation Buildings
+	smithies_guild_building = yes
+	
+	#Dwarf Army Buildings
+	warriors_guild_dwarf_building = yes
+	
+	#Dwarf Fortification Buildings (Dwarf Hold Only)
+	fort_mountain_fortress_dwarf_building = yes
+	
+	#Dwarf Defences Buildings (Dwarf Hold Only)
+	moat_dwarf_building = yes
+	
+	#Elf Buildings
+	#Elf Taxation Buildings
+	heros_shrine_building = yes
+	grand_stables_elf_building = yes
+	
+	#Elf Fortification Buildings
+	fort_high_walls_elf_building = yes
+	
+	#Elf Defences Buildings
+	wall_bastions_elf_building = yes
+	
+	#Orc Buildings
+	#Orc Army Buildings (Infantry)
+	orc_fissure_orc_building = yes
+	
+	#Orc Army Buildings (Cav)
+	warg_arena_orc_building = yes
+	
+	#Orc Army Buildings (Arty)
+	siege_works_orc_building = yes
+	
+	#Orc Fortifications Buildings
+	fort_orc_stronghold_orc_building = yes
+
+	artillery_fire		= 0.25
+	artillery_shock		= 0.25
+	military_tactics	= 0.25
+}
+
+technology = {
+	# Tech 8
+	year = 2830
+	
+	combat_width		= 1.0
+	military_tactics	= 0.25
+	supply_limit		= 0.25
+}
+
+technology = {
+	# Tech 9
+	year = 2840
+
+	infantry_fire		= 0.25
+	infantry_shock		= 0.25
+	land_morale			= 0.25
+}
+
+technology = {
+	# Tech 10
+	year = 2850
+	
+	cavalry_shock		= 0.25
+	cavalry_fire		= 0.25
+	maneuver_value		= 0.15
+}
+
+technology = {
+	# Tech 11
+	year = 2860
+
+	artillery_fire		= 0.25
+	artillery_shock		= 0.25
+	military_tactics	= 0.25
+}
+
+technology = {
+	# Tech 12
+	year = 2870
+	
+	combat_width		= 1.0
+	military_tactics	= 0.25
+	supply_limit		= 0.25
+	
+	enable = lotr_dunedain_gondor_archers_3
+	enable = lotr_dunedain_gondor_spears_3
+	enable = lotr_dunedain_gondor_sword_3
+	enable = lotr_dunedain_heavy_cavalry_2
+	
+	enable = lotr_dale_winter_guard_3
+	enable = lotr_dale_aihwothiuda_horses_2
+
+	enable = lotr_arnor_grey_company_3
+	enable = lotr_arnor_mounted_grey_company_2
+
+	enable = lotr_eriador_merchant_militia_3
+	enable = lotr_eriador_merchant_militia_archer_3
+	enable = lotr_eriador_bree_militia_3
+	enable = lotr_eriador_merchant_cavalry_2
+	
+	enable = lotr_elven_lindon_pikes_3
+	enable = lotr_elven_lindon_archer_3
+	
+	enable = lotr_elven_silvan_poachers_3
+	enable = lotr_elven_silvan_protecters_3
+	enable = lotr_elven_silvan_mounted_sentinels_2
+
+	enable = lotr_northron_rhovanion_spears_3
+	enable = lotr_northron_rhovanion_hunters_3
+	enable = lotr_northron_dorwinion_retainers_mounted_2
+
+	enable = lotr_rohirrim_riddermark_axemen_3
+	enable = lotr_rohirrim_riddermark_spear_3
+	enable = lotr_rohirrim_eored_horse_spears_3
+	enable = lotr_rohirrim_eored_horse_archers_3
+
+	enable = lotr_haradrim_muhad_tribesmen_3
+	enable = lotr_haradrim_troll_men_3
+	enable = lotr_haradrim_muhad_beastmasters_3
+	enable = lotr_haradrim_haradrim_raiders_3
+
+	enable = lotr_umbar_black_port_guard_3
+	enable = lotr_umbar_ampadis_hookmen_3
+	enable = lotr_umbar_morardai_barons_2
+
+	enable = lotr_easterling_golden_pikes_3
+	enable = lotr_easterling_golden_arrows_3
+	enable = lotr_easterling_loke_innas_rim_cavalry_3
+
+	enable = lotr_khand_khudriag_ata_guard_3
+	enable = lotr_khand_khurdriag_ata_shortbows_3
+	enable = lotr_khand_arsiyah_cavalry_3
+	enable = lotr_khand_variag_chariot_3
+
+	enable = lotr_hobbit_bandobras_followers_3
+	enable = lotr_hobbit_bandobras_archers_3
+	enable = lotr_hobbit_bandobras_riders_2
+
+	enable = lotr_dwarven_axelads_3
+	enable = lotr_dwarven_vault_keepers_3
+	enable = lotr_dwarven_boar_riders_2
+	
+	enable = lotr_orc_mordor_gorgoth_spawn_3
+	enable = lotr_orc_mordor_cirith_ungol_uruk_3
+	enable = lotr_orc_mountain_troll_2
+	
+	enable = lotr_orc_grey_mountain_orc_3
+	enable = lotr_orc_grey_mountain_spear_3
+	enable = lotr_orc_cave_troll_2
+
+	enable = lotr_goblin_goblin_raiders_2
+	enable = lotr_goblin_goblin_archers_2
+	enable = lotr_goblin_warg_riders_2
+
+	enable = lotr_dunmen_wolf_hunter_3
+	enable = lotr_dunmen_boar_hunter_3
+	enable = lotr_dunmen_bear_hunter_3
+	enable = lotr_dunmen_isenmarch_riders_2
+
+	enable = lotr_wildmen_heavy_axemen_3
+	enable = lotr_wildmen_mounted_axe_raiders_2
+
+	enable = lotr_hillmen_clans_guard_3
+	enable = lotr_hillmen_mounted_clans_guard_2
+
+	enable = lotr_snowmen_whale_hunters_3
+	
+	enable = lotr_siege_catapult
+	
+	enable = lotr_uruk_hai_pike_2
+	enable = lotr_uruk_hai_raider_2
+	enable = lotr_uruk_hai_archer_2
+}
+
+technology = {
+	# Tech 13
+	year = 2880
+
+	infantry_fire		= 0.25
+	infantry_shock		= 0.25
+	land_morale			= 0.25
+}
+
+technology = {
+	# Tech 14
+	year = 2890
+
+	cavalry_shock		= 0.25
+	cavalry_fire		= 0.25
+	maneuver_value		= 0.15
+}
+
+technology = {
+	# Tech 15
+	year = 2900
+	
+	#Human Buildings
+	#Human Fortifications Buildings
+	fort_citidal_building = yes
+	
+	#Human Army Buildings
+	garrison_building = yes
+	
+	#Dwarf Buildings
+	#Dwarf Taxation Buildings
+	arsenal_dwarf_building = yes
+	
+	#Dwarf Army Buildings
+	hall_of_warriors_dwarf_building = yes
+	
+	#Dwarf Fortification Buildings (Dwarf Hold Only)
+	fort_mountain_citidal_dwarf_building = yes
+	
+	#Dwarf Defences Buildings (Dwarf Hold Only)
+	ballista_towers_dwarf_building = yes
+	
+	#Orc Buildings
+	#Orc Army Buildings (Infantry)
+	army_garrison_orc_building = yes
+	
+	#Orc Army Buildings (Cav)
+	troll_cage_orc_building = yes
+	
+	#Orc Army Buildings (Arty)
+	great_siege_works_orc_building = yes
+	
+	#Orc Fortifications Buildings
+	fort_large_orc_stronghold_orc_building = yes
+
+	artillery_fire		= 0.25
+	artillery_shock		= 0.25
+	military_tactics	= 0.25
+}
+
+technology = {
+	# Tech 16
+	year = 2910
+	
+	combat_width		= 1.0
+	military_tactics	= 0.25
+	supply_limit		= 0.25
+}
+
+technology = {
+	# Tech 17
+	year = 2920
+
+	infantry_fire		= 0.25
+	infantry_shock		= 0.25
+	land_morale			= 0.25
+}
+
+technology = {
+	# Tech 18
+	year = 2930
+
+	cavalry_shock		= 0.25
+	cavalry_fire		= 0.25
+	maneuver_value		= 0.15
+	
+	enable = lotr_dunedain_citidal_archers_4
+	enable = lotr_dunedain_fountain_spear_4
+	enable = lotr_dunedain_citidal_sword_4
+	
+	enable = lotr_dale_bardian_hird_4
+	enable = lotr_dale_bardian_marksman_4
+
+	enable = lotr_arnor_dunedain_rangers_4
+	enable = lotr_arnor_mounted_dunedain_3
+
+	enable = lotr_eriador_greenleaf_pikes_4
+	enable = lotr_eriador_greenleaf_archer_4
+	enable = lotr_eriador_greenleaf_cavalry_3
+	
+	enable = lotr_elven_noble_swords_4
+	enable = lotr_elven_noble_archers_4
+	enable = lotr_elven_eldarinwe_lances_3
+	
+	enable = lotr_elven_silvan_guard_4
+	enable = lotr_elven_silvan_sentinel_4
+
+	enable = lotr_northron_dorwinion_retainers_4
+	enable = lotr_northron_dorwinion_archers_4
+
+	enable = lotr_rohirrim_eored_spear_4
+	enable = lotr_rohirrim_eored_axe_4
+	enable = lotr_rohirrim_helmingas_archers_4
+	enable = lotr_rohirrim_riders_fold_spear_4
+	enable = lotr_rohirrim_riders_fold_archers_4
+
+	enable = lotr_haradrim_southron_pike_4
+	enable = lotr_haradrim_muhad_veterans_4
+	enable = lotr_haradrim_serpent_horse_guard_4
+
+	enable = lotr_umbar_castamiri_kainuheen_4
+	enable = lotr_umbar_black_sail_boltermen_4
+
+	enable = lotr_easterling_clan_guard_4
+	enable = lotr_easterling_clan_warriors_4
+	enable = lotr_easterling_clan_crossbowmen_4
+	enable = lotr_easterling_vainrider_chariot_4
+
+	enable = lotr_khand_khandish_cavalry_4
+	enable = lotr_khand_steppe_shock_cavalry_4
+
+	enable = lotr_dwarven_iron_guard_4
+	enable = lotr_dwarven_iron_crossbows_4
+	
+	enable = lotr_orc_mordor_morannon_guard_4
+	enable = lotr_orc_mordor_morannon_archer_4
+	
+	enable = lotr_orc_fellers_4
+
+	enable = lotr_goblin_armoured_goblin_3
+	enable = lotr_goblin_armoured_halberd_3
+	enable = lotr_goblin_armoured_archer_3
+	enable = lotr_goblin_cave_troll_3
+
+	enable = lotr_dunmen_udmoraich_fanatics_4
+	enable = lotr_dunmen_highland_warriors_4
+}
+
+technology = {
+	# Tech 19
+	year = 2940
+
+	artillery_fire		= 0.25
+	artillery_shock		= 0.25
+	military_tactics	= 0.25
+}
+
+technology = {
+	# Tech 20
+	year = 2950
+	
+	combat_width		= 1.0
+	military_tactics	= 0.25
+	supply_limit		= 0.25
+}
+
+technology = {
+	# Tech 21
+	year = 2960
+
+	infantry_fire		= 0.25
+	infantry_shock		= 0.25
+	land_morale			= 0.25
+}
+
+technology = {
+	# Tech 22
+	year = 2970
+
+	cavalry_shock		= 0.25
+	cavalry_fire		= 0.25
+	maneuver_value		= 0.15
+}
+
+technology = {
+	# Tech 23
+	year = 2980
+
+	artillery_fire		= 0.25
+	artillery_shock		= 0.25
+	military_tactics	= 0.25
+}
+
+technology = {
+	# Tech 24
+	year = 2990
+	
+	combat_width		= 1.0
+	military_tactics	= 0.25
+	supply_limit		= 0.25
+	
+	enable = lotr_dunedain_ithilien_rangers_5
+	enable = lotr_dunedain_osgiliath_guard_5
+	enable = lotr_dunedain_swan_knights_5
+	enable = lotr_dunedain_swan_cavalry_3
+	
+	enable = lotr_dale_earls_guard_5
+	enable = lotr_dale_athala_rangers_5
+	enable = lotr_dale_earls_guard_knights_3
+
+	enable = lotr_arnor_arnorian_ancestreal_infantry_5
+	enable = lotr_arnor_arnorian_ancestreal_pikemen_5
+	enable = lotr_arnor_arnorian_ancestreal_bowmen_5
+	enable = lotr_arnor_knights_of_annuminas_4
+	
+	enable = lotr_elven_eldarinwe_swords_5
+	enable = lotr_elven_eldarinwe_spear_5
+	enable = lotr_elven_eldarinwe_archer_5
+	enable = lotr_elven_eldarinwe_nobles_4
+	
+	enable = lotr_elven_silvan_warriors_5
+	enable = lotr_elven_silvan_spears_5
+	enable = lotr_elven_silvan_archer_5
+	enable = lotr_elven_silvan_mounted_warriors_3
+	enable = lotr_elven_silvan_mounted_archers_3
+
+	enable = lotr_northron_rhovanion_gadraughts_5
+	enable = lotr_northron_rhovanion_gadraughts_knights_3
+
+	enable = lotr_rohirrim_royal_guard_spear_5
+	enable = lotr_rohirrim_royal_guard_sword_5
+	enable = lotr_rohirrim_royal_guard_archer_5
+	enable = lotr_rohirrim_royal_guard_horse_spear_5
+	enable = lotr_rohirrim_royal_guard_horse_archer_5
+
+	enable = lotr_haradrim_serpant_guard_5
+	enable = lotr_haradrim_hasnarii_5
+	enable = lotr_haradrim_southron_archers_5
+	enable = lotr_haradrim_amoured_mumakill_5
+
+	enable = lotr_umbar_warguard_of_umbar_5
+	enable = lotr_umbar_warguard_of_umbar_archer_5
+	enable = lotr_umbar_heirs_of_ar_pharazon_3
+
+	enable = lotr_easterling_loke_flag_gamp_spearmen_5
+	enable = lotr_easterling_loke_flag_rim_heavy_infantry_5
+	enable = lotr_easterling_loke_flag_nar_archer_5
+
+	enable = lotr_khand_khudriag_ata_riders_5
+	enable = lotr_khand_khudriag_ata_chariot_5
+	
+	enable = lotr_orc_mordor_uruk_halberds_5
+	enable = lotr_orc_mordor_uruk_archer_5
+	enable = lotr_orc_olog_hai_troll_3
+	
+	enable = lotr_orc_gundabaduul_halberds_5
+	enable = lotr_orc_gundabaduul_shortbows_5
+	enable = lotr_orc_carn_dun_guard_5
+	enable = lotr_orc_carn_dun_protecters_5
+	enable = lotr_orc_snow_troll_3
+	
+	enable = lotr_uruk_hai_infantry_3
+	enable = lotr_uruk_hai_berserkers_3
+	enable = lotr_uruk_hai_crossbow_3
+
+	enable = lotr_dwarven_dragonslayers_5
+	enable = lotr_dwarven_khazad_dum_protecters_5
+	enable = lotr_dwarven_ram_caveraly_3
+
+	enable = lotr_dunmen_saighedar_infantry_5
+	enable = lotr_dunmen_saighedar_archer_5
+	enable = lotr_dunmen_wolf_guard_5
+	enable = lotr_dunmen_mounted_saighedar_lancers_3
+	
+	enable = lotr_siege_trebuchet
+	enable = lotr_siege_troll_catapult_3
+	
+	enable = lotr_troll_hill_3
+	enable = lotr_troll_stone_3
+	enable = lotr_troll_rock_thrower_3
+}
+
+technology = {
+	# Tech 25
+	year = 3000
+	
+	infantry_fire		= 0.25
+	infantry_shock		= 0.25
+	land_morale			= 0.25
+}
+
+technology = {
+	# Tech 26
+	year = 3010
+
+	cavalry_shock		= 0.25
+	cavalry_fire		= 0.25
+	maneuver_value		= 0.15
+}
+
+technology = {
+	# Tech 27
+	year = 3020
+
+	artillery_fire		= 0.25
+	artillery_shock		= 0.25
+	military_tactics	= 0.25
+}
+
+technology = {
+	# Tech 28
+	year = 3030
+	
+	combat_width		= 1.0
+	military_tactics	= 0.25
+	supply_limit		= 0.25
+}
+
+technology = {
+	# Tech 29
+	year = 3040
+
+	infantry_fire		= 0.25
+	infantry_shock		= 0.25
+	land_morale			= 0.25
+}
+
+technology = {
+	# Tech 30
+	year = 3050
+
+	cavalry_shock		= 0.25
+	cavalry_fire		= 0.25
+	maneuver_value		= 0.15
+}
+
+technology = {
+	# Tech 31
+	year = 3060
+
+	artillery_fire		= 0.25
+	artillery_shock		= 0.25
+	military_tactics	= 0.25
+}
+
+technology = {
+	# Tech 32
+	year = 3070
+
+	combat_width		= 1.0
+	military_tactics	= 0.25
+	supply_limit		= 0.25
+}
+
+technology = {
+	# Tech 33
+	year = 3080
+	
+	infantry_fire		= 0.25
+	infantry_shock		= 0.25
+	land_morale			= 0.25
+}
+
+technology = {
+	# Tech 34
+	year = 3090
+
+	cavalry_shock		= 0.25
+	cavalry_fire		= 0.25
+	maneuver_value		= 0.15
+}
+
+technology = {
+	# Tech 35
+	year = 3100
+
+	artillery_fire		= 0.25
+	artillery_shock		= 0.25
+	military_tactics	= 0.25
+}
+
+technology = {
+	# Tech 36
+	year = 3110
+
+	combat_width		= 1.0
+	military_tactics	= 0.25
+	supply_limit		= 0.25
+}
+
+technology = {
+	# Tech 37
+	year = 3120
+	
+	infantry_fire		= 0.25
+	infantry_shock		= 0.25
+	land_morale			= 0.25
+}
+
+technology = {
+	# Tech 38
+	year = 3130
+
+	cavalry_shock		= 0.25
+	cavalry_fire		= 0.25
+	maneuver_value		= 0.15
+}
+
+technology = {
+	# Tech 39
+	year = 3140
+	
+	artillery_fire		= 0.25
+	artillery_shock		= 0.25
+	military_tactics	= 0.25
+}
+
+technology = {
+	# Tech 40
+	year = 3150
+	
+	combat_width		= 1.0
+	military_tactics	= 0.25
+	supply_limit		= 0.25
+}
+
+technology = {
+	# Tech 41
+	year = 3160
+	
+	infantry_fire		= 0.25
+	infantry_shock		= 0.25
+	land_morale			= 0.25
+}
+
+technology = {
+	# Tech 42
+	year = 3170
+
+	cavalry_shock		= 0.25
+	cavalry_fire		= 0.25
+	maneuver_value		= 0.15
+}
+
+technology = {
+	# Tech 43
+	year = 3180
+
+	artillery_fire		= 0.25
+	artillery_shock		= 0.25
+	military_tactics	= 0.25
+}
+
+technology = {
+	# Tech 44
+	year = 3190
+	
+	combat_width		= 1.0
+	military_tactics	= 0.25
+	supply_limit		= 0.25
+}
+
+technology = {
+	# Tech 45
+	year = 3200
+
+	infantry_fire		= 0.25
+	infantry_shock		= 0.25
+	land_morale			= 0.25
+}
+
+technology = {
+	# Tech 46
+	year = 3210
+
+	cavalry_shock		= 0.25
+	cavalry_fire		= 0.25
+	maneuver_value		= 0.15
+}
+
+technology = {
+	# Tech 47
+	year = 3220
+
+	artillery_fire		= 0.25
+	artillery_shock		= 0.25
+	military_tactics	= 0.25
+}
+
+technology = {
+	# Tech 48
+	year = 3230
+
+	combat_width		= 1.0
+	military_tactics	= 0.25
+	supply_limit		= 0.25
+}
+
+technology = {
+	# Tech 49
+	year = 3240
+
+	infantry_fire		= 0.25
+	infantry_shock		= 0.25
+	land_morale			= 0.25
+}
+
+technology = {
+	# Tech 50
+	year = 3250
+
+	cavalry_shock		= 0.25
+	cavalry_fire		= 0.25
+	maneuver_value		= 0.15
+}
+
+technology = {
+	# Tech 51
+	year = 3260
+
+	artillery_fire		= 0.25
+	artillery_shock		= 0.25
+	military_tactics	= 0.25
+}
+
+technology = {
+	# Tech 52
+	year = 3270
+
+	combat_width		= 1.0
+	military_tactics	= 0.25
+	supply_limit		= 0.25
+}
+
+technology = {
+	# Tech 53
+	year = 3280
+
+	infantry_fire		= 0.25
+	infantry_shock		= 0.25
+	land_morale			= 0.25
+}
+
+technology = {
+	# Tech 54
+	year = 3290
+
+	cavalry_shock		= 0.25
+	cavalry_fire		= 0.25
+	maneuver_value		= 0.15
+}
+
+technology = {
+	# Tech 55
+	year = 3300
+
+	artillery_fire		= 0.25
+	artillery_shock		= 0.25
+	military_tactics	= 0.25
+}

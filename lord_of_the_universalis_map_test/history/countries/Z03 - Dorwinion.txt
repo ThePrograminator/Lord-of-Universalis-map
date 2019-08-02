@@ -1,0 +1,37 @@
+mercantilism = 0.1
+government = monarchy
+add_government_reform = feudalism_reform
+
+primary_culture = culture_dorwinrim
+religion = religion_daen
+technology_group = lotr_northmen
+capital = 564
+
+government_rank = 1
+
+historical_friend = Y18
+historical_friend = Y22
+historical_friend = Y23
+historical_friend = Y94
+historical_friend = Z03
+historical_friend = V25
+historical_friend = Y97
+historical_friend = Y70
+historical_friend = Y69
+historical_friend = Y67
+historical_friend = Z04
+historical_rival = Y48
+historical_rival = X99
+historical_rival = X91
+historical_rival = X92
+historical_rival = X96
+historical_rival = X93
+historical_rival = X95
+historical_rival = Y01
+historical_rival = Y02
+historical_rival = V39
+historical_rival = X87
+historical_rival = X90
+historical_rival = V17
+historical_rival = V19
+historical_rival = V20

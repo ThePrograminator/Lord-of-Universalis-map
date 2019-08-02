@@ -1,0 +1,124 @@
+##################################################
+# Institutions 
+#
+# written by DKStranger
+##################################################
+
+
+namespace = help_events
+
+#Main Help Menu
+country_event = {
+	id = help_events.1
+	title = help_events.1.t
+	desc = help_events.1.d
+	picture = BIG_BOOK_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		ai = no
+	}
+
+	#Fellowship Mechanics
+	option = {
+		name = help_events.1.a
+		country_event = { id = help_events.2 }
+	}
+	
+	#Close
+	option = {
+		name = help_events.1.b
+
+	}
+}
+
+#Fellowship Menu
+country_event = {
+	id = help_events.2
+	title = help_events.2.t
+	desc = help_events.2.d
+	picture = BIG_BOOK_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		ai = no
+	}
+
+	#Company Of Thorin
+	option = {
+		name = help_events.2.a
+		country_event = { id = help_events.2 }
+	}
+	
+	#Fellowship of The Ring
+	option = {
+		name = help_events.2.b
+		country_event = { id = help_events.2 }
+	}
+	
+	#Back
+	option = {
+		name = help_events.2.c
+		country_event = { id = help_events.1 }
+	}
+	
+	#Close
+	option = {
+		name = help_events.1.b
+
+	}
+}
+
+#Company of Thorin
+country_event = {
+	id = help_events.3
+	title = help_events.3.t
+	desc = help_events.3.d
+	picture = BIG_BOOK_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		ai = no
+	}
+
+	#Back
+	option = {
+		name = help_events.2.c
+		country_event = { id = help_events.2 }
+	}
+	
+	#Close
+	option = {
+		name = help_events.1.b
+
+	}
+}
+
+#Fellowship of The Ring
+country_event = {
+	id = help_events.4
+	title = help_events.4.t
+	desc = help_events.4.d
+	picture = BIG_BOOK_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		ai = no
+	}
+
+	#Back
+	option = {
+		name = help_events.4.b
+		country_event = { id = help_events.2 }
+	}
+	
+	#Close
+	option = {
+		name = help_events.1.b
+
+	}
+}

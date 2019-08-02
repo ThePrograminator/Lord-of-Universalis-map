@@ -1,0 +1,108 @@
+bookmark =
+{
+    # War of The Ring
+	name = "LOTR_13_NAME"
+	desc = "LOTR_13_DESC"
+	date = 3000.1.1
+	
+    center = 413
+    country = X01
+	country = X16
+	country = Y26
+	country = V17
+	country = V49
+	country = Y22
+	country = Y67
+	country = Y68
+	country = Y80
+    easy_country = Y80
+    
+    default = yes
+    
+    effect = {
+		X01 = {
+		add_stability = -1
+		add_manpower = -15
+		add_sailor = -500
+		}
+		X16 = {
+		add_stability = -1
+		add_prestige = -10
+		add_manpower = -10
+		}
+		Y26 = {
+		add_stability = -1
+		add_prestige = 20
+		add_manpower = -2
+		}
+		V17 = {
+		add_stability = -1
+		add_prestige = -20
+		add_manpower = 35
+		}
+		V49 = {
+		add_stability = 1
+		add_prestige = 10
+		add_manpower = 12
+		}
+		Y22 = {
+		add_stability = -1
+		add_prestige = 5
+		add_manpower = -6
+		}
+		Y67 = {
+		add_stability = -1
+		add_prestige = 5
+		add_manpower = -8
+		}
+		Y68 = {
+		add_stability = -1
+		add_prestige = 5
+		add_manpower = -8
+		}
+		Y80 = {
+		add_stability = -2
+		add_prestige = 20
+		add_manpower = 2
+		}
+		X27 = {
+		add_manpower = 8
+		add_sailor = 5000
+		}
+		X99 = {
+		add_manpower = 5
+		}
+		Z50 = {
+		add_manpower = 3
+		}
+		X87 = {
+		add_manpower = 3
+		}
+		X90 = {
+		add_manpower = 3
+		}
+		X39 = {
+		add_manpower = 5
+		}
+		Y02 = {
+		add_manpower = 4
+		}
+		V19 = {
+		add_manpower = 8
+		}
+		V18 = {
+		add_manpower = 11
+		}
+		X23 = {
+		add_manpower = 10
+		}
+		X19 = {
+		add_manpower = 8
+		}
+		X18 = {
+		add_manpower = 7
+		}
+		Y57 = {
+		add_manpower = 4
+		}
+}

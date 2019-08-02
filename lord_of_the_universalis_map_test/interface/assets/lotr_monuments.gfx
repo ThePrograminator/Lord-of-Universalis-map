@@ -1,0 +1,50 @@
+objectTypes = {
+
+	#pdxmesh = {
+	#	name = "aow_reformation_centre_mesh"
+	#	file = "gfx/models/Mapitems/aow_reformation_centre.mesh"		
+	#	scale = 0.7
+	#}
+	
+	#pdxmesh = {
+	#	name = "aow_reformation_centre_broken_mesh"
+	#	file = "gfx/models/Mapitems/aow_reformation_centre_broken.mesh"		
+	#	scale = 0.7
+	#}
+	
+	pdxmesh = {
+		name = "minas_tirith_monument_mesh"
+		file = "gfx/models/Mapitems/minas_tirith.mesh"		
+		scale = 1.0
+	}
+	
+	pdxmesh = {
+		name = "barad_dur_monument_mesh"
+		file = "gfx/models/Mapitems/barad_dur.mesh"		
+		scale = 1.0
+	}
+	
+	pdxmesh = {
+		name = "black_gate_monument_mesh"
+		file = "gfx/models/Mapitems/black_gate.mesh"		
+		scale = 1.0
+	}
+	
+	pdxmesh = {
+		name = "orthanc_monument_mesh"
+		file = "gfx/models/Mapitems/orthanc.mesh"		
+		scale = 1.0
+	}
+	
+	pdxmesh = {
+		name = "hornburg_monument_mesh"
+		file = "gfx/models/Mapitems/HelmsDeep.mesh"		
+		scale = 1.0
+	}
+	
+	pdxmesh = {
+		name = "durins_tower_monument_mesh"
+		file = "gfx/models/Mapitems/durins_tower.mesh"		
+		scale = 1.0
+	}
+}

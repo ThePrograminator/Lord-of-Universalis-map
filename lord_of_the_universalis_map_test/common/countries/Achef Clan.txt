@@ -1,0 +1,687 @@
+#Country Name: Please see filename.
+graphical_culture = muslimgfx
+
+color = { 50 35 20 }
+
+historical_idea_groups = {
+	offensive_ideas
+	diplomatic_ideas
+	defensive_ideas
+	innovativeness_ideas
+	administrative_ideas
+	quantity_ideas
+	economic_ideas
+	aristocracy_ideas
+}
+
+historical_units = {
+	lotr_khand_variag_axemen_1
+	lotr_khand_variag_slinger_2
+	lotr_khand_khurdriag_ata_shortbows_3
+
+	lotr_khand_camel_riders_1
+	lotr_khand_khurs_skirmishers_2
+	lotr_khand_variag_chariot_3
+	lotr_khand_steppe_shock_cavalry_4
+	lotr_khand_khudriag_ata_chariot_5
+}
+
+monarch_names = {
+	"Abaziôn" = 10
+	"Abdarakos" = 10
+	"Abeacus" = 10
+	"Aboagos" = 10
+	"Abragos" = 10
+	"Abrozeos" = 10
+	"Adoês" = 10
+	"Akasas" = 10
+	"Akkas" = 10
+	"Aldis" = 10
+	"Alexarthos" = 10
+	"Amaeiakos" = 10
+	"Amôspados" = 10
+	"Andranakos" = 10
+	"Aphtheimakos" = 10
+	"Apsachos" = 10
+	"Araouêgos" = 10
+	"Ardagdakos" = 10
+	"Ardaros" = 10
+	"Argamênos" = 10
+	"Argouanagos" = 10
+	"Aroasios" = 10
+	"Arsaliôn" = 10
+	"Arsêoachos" = 10
+	"Arsêochos" = 10
+	"Arsêouachos" = 10
+	"Arthiemmanos" = 10
+	"Asanos" = 10
+	"Asaros" = 10
+	"Aspakos" = 10
+	"Aspamitharês" = 10
+	"Asphôrougos" = 10
+	"Aspourgos" = 10
+	"Attaces" = 10
+	"Auasis" = 10
+	"Aubadag" = 10
+	"Aunamos" = 10
+	"Aurazakos" = 10
+	"Azariôn" = 10
+	"Aziagos" = 10
+	"Azos" = 10
+	"Badagos" = 10
+	"Badakês" = 10
+	"Badas" = 10
+	"Bagdochos" = 10
+	"Bagdosauos" = 10
+	"Bagios" = 10
+	"Bagês" = 10
+	"Baioraspos" = 10
+	"Baiormaios" = 10
+	"Banas" = 10
+	"Bastakas" = 10
+	"Baxagos" = 10
+	"Bidakêss" = 10
+	"Bistês" = 10
+	"Boraspos" = 10
+	"Bradakos" = 10
+	"Bôrakos" = 10
+	"Bôrnôn" = 10
+	"Bôropsazos" = 10
+	"Chanakês" = 10
+	"Chardeis" = 10
+	"Chodainos" = 10
+	"Chodekios" = 10
+	"Chodiakios" = 10
+	"Chodios" = 10
+	"Chopharnos" = 10
+	"Chophrasmos" = 10
+	"Choroathos" = 10
+	"Chouarsazos" = 10
+	"Chounaros" = 10
+	"Chôdarzos" = 10
+	"Chôdonakos" = 10
+	"Dadagos" = 10
+	"Danarasmakos" = 10
+	"Dandaxarthos" = 10
+	"Didumoxarthos" = 10
+	"Dosumoxarthos" = 10
+	"Eisgoudios" = 10
+	"Eochar" = 10
+	"Eubarnakos" = 10
+	"Eunones" = 10
+	"Gadas" = 10
+	"Gadikios" = 10
+	"Gasteis" = 10
+	"Gochar" = 10
+	"Godosauos" = 10
+	"Gosôn" = 10
+	"Gôdigasos" = 10
+	"Gôsakos" = 10
+	"Iaphagos" = 10
+	"Iauakos" = 10
+	"Iezdagos" = 10
+	"Ininthimeus" = 10
+	"Insazagos" = 10
+	"Iramboustos" = 10
+	"Irauadis" = 10
+	"Irbis" = 10
+	"Irganos" = 10
+	"Iôdas" = 10
+	"Iôdesmagos" = 10
+	"Kainaxarthos" = 10
+	"Kamorsazês" = 10
+	"Karaxstos" = 10
+	"Karsas" = 10
+	"Karzoazos" = 10
+	"Kasagos" = 10
+	"Kasais" = 10
+	"Katokas" = 10
+	"Kopharnos" = 10
+	"Kossas" = 10
+	"Kouzaios" = 10
+	"Madakos" = 10
+	"Maiakos" = 10
+	"Maipharnos" = 10
+	"Maisês" = 10
+	"Maniagos" = 10
+	"Mardauos" = 10
+	"Masas" = 10
+	"Mastas" = 10
+	"Mazis" = 10
+	"Megis" = 10
+	"Meuakos" = 10
+	"Mordos" = 10
+	"Mourdagos" = 10
+	"Mêsakos" = 10
+	"Mêthakos" = 10
+	"Nabazos" = 10
+	"Namgênos" = 10
+	"Namouchos" = 10
+	"Nauagos" = 10
+	"Nauakos" = 10
+	"Ochôdiakos" = 10
+	"Olgasus" = 10
+	"Omrasmakos" = 10
+	"Orsiomichos" = 10
+	"Ouaras" = 10
+	"Ouarazakos" = 10
+	"Ouarzbalos" = 10
+	"Ouastobalos" = 10
+	"Ourbazos" = 10
+	"Ourgios" = 10
+	"Ousigasos" = 10
+	"Ousigos" = 10
+	"Oustanos" = 10
+	"Ouzia" = 10
+	"Oxardôzis" = 10
+	"Padagos" = 10
+	"Pagos" = 10
+	"Parspanakos" = 10
+	"Pateiros" = 10
+	"Pateis" = 10
+	"Patias" = 10
+	"Phadinamos" = 10
+	"Phadious" = 10
+	"Phaldaranos" = 10
+	"Phandarazos" = 10
+	"Pharnagos" = 10
+	"Pharnakiôn" = 10
+	"Pharnakês" = 10
+	"Pharnarnos" = 10
+	"Pharnoxarthos" = 10
+	"Pharnês" = 10
+	"Pharsanzes" = 10
+	"Phazinamos" = 10
+	"Phazious" = 10
+	"Phidas" = 10
+	"Phleimnagos" = 10
+	"Phlianos" = 10
+	"Phodakos" = 10
+	"Phorgabakos" = 10
+	"Phoriauos" = 10
+	"Phoros" = 10
+	"Phorêranos" = 10
+	"Phosakos" = 10
+	"Phourtas" = 10
+	"Pitopharnakês" = 10
+	"Pourthaios" = 10
+	"Pêrakos" = 10
+	"Radamasis" = 10
+	"Radameistos" = 10
+	"Radamophourtos" = 10
+	"Radamphôn" = 10
+	"Radampsôn" = 10
+	"Radamsadios" = 10
+	"Radanpsôn" = 10
+	"Raodmêos" = 10
+	"Rapakês" = 10
+	"Rathagôsos" = 10
+	"Respendial" = 10
+	"Rhadamsades" = 10
+	"Rhescuporis" = 10
+	"Sadimanos" = 10
+	"Saitapharnês" = 10
+	"Sambida" = 10
+	"Sanagos" = 10
+	"Sangiban" = 10
+	"Sarakos" = 10
+	"Saratos" = 10
+	"Saraxazos" = 10
+	"Sasas" = 10
+	"Sasôn" = 10
+	"Sattiôn" = 10
+	"Sauagas" = 10
+	"Sauagaskos" = 10
+	"Sauaiôsos" = 10
+	"Sauanôn" = 10
+	"Sauromates" = 10
+	"Seauagos" = 10
+	"Seimeikos" = 10
+	"Siauakos" = 10
+	"Siauask" = 10
+	"Siauos" = 10
+	"Siranos" = 10
+	"Siômachos" = 10
+	"Spadakos" = 10
+	"Sparophotos" = 10
+	"Spharobais" = 10
+	"Spithamês" = 10
+	"Stormais" = 10
+	"Stosarakos" = 10
+	"Sturanos" = 10
+	"Suarobais" = 10
+	"Synges" = 10
+	"Sênêkas" = 10
+	"Teiranes" = 10
+	"Teiranês" = 10
+	"Theothorses" = 10
+	"Thirthagos" = 10
+	"Thuloganos" = 10
+	"Tibês" = 10
+	"Tillês" = 10
+	"Tiranios" = 10
+	"Tiranês" = 10
+	"Toumbagos" = 10
+	"Toumibagos" = 10
+	"Xaiorsazês" = 10
+	"Xartamos" = 10
+	"Xarthanos" = 10
+	"Xiamphôkanos" = 10
+	"Xobas" = 10
+	"Xêgodis" = 10
+	"Zabagios" = 10
+	"Zabandos" = 10
+	"Zabargos" = 10
+	"Zosines" = 10
+	"Êlmanos" = 10
+	"Êrakas" = 10
+	"Abas" = 10
+	"Abirad" = 10
+	"Aboughamr" = 10
+	"Aboulgharib" = 10
+	"Aleksandr" = 10
+	"Alexander" = 10
+	"Artashes" = 10
+	"Artashir" = 10
+	"Ardeshir" = 10
+	"Artavazd" = 10
+	"Arsen" = 10
+	"Arshak" = 10
+	"Ashot" = 10
+	"Ashot" = 10
+	"Athom" = 10
+	"Atrnerseh" = 10
+	"Atrnerseh" = 10
+	"Avag" = 10
+	"Avedis" = 10
+	"Bagour" = 10
+	"Bagour" = 10
+	"Bagrat" = 10
+	"Bedros" = 10
+	"Peter" = 10
+	"Boghos" = 10
+	"Paul" = 10
+	"Davit" = 10
+	"David" = 10
+	"Eshkhan" = 10
+	"Gagik" = 10
+	"Gagik" = 10
+	"Gevorg" = 10
+	"George" = 10
+	"Gosdantin" = 10
+	"Constantine" = 10
+	"Grigor" = 10
+	"Gregory" = 10
+	"Gurgen" = 10
+	"Lupo" = 10
+	"Hagop" = 10
+	"Hamazasp" = 10
+	"Hethum" = 10
+	"Hovhannes" = 10
+	"John" = 10
+	"Hovsep" = 10
+	"Joseph" = 10
+	"Ishkhan" = 10
+	"Ishkhan" = 10
+	"Ivane" = 10
+	"Kapriel" = 10
+	"Gabriel" = 10
+	"Khachik" = 10
+	"Khosrov" = 10
+	"Khosrau" = 10
+	"Levon" = 10
+	"Leo" = 10
+	"Malkhas" = 10
+	"Malkhas" = 10
+	"Mamigon" = 10
+	"Manuel" = 10
+	"Manuel" = 10
+	"Margos" = 10
+	"Marcus" = 10
+	"Melek" = 10
+	"Mihrdat" = 10
+	"Mithridates" = 10
+	"Mikayel" = 10
+	"Michael" = 10
+	"Mleh" = 10
+	"Mushegh" = 10
+	"Mushel" = 10
+	"Mzhezh" = 10
+	"Nerseh" = 10
+	"Narses" = 10
+	"Oshin" = 10
+	"Roupen" = 10
+	"Reuben" = 10
+	"Sahag" = 10
+	"Isaac" = 10
+	"Sarkis" = 10
+	"Sergius" = 10
+	"Sevag" = 10
+	"Shahanshah" = 10
+	"Shahanshah" = 10
+	"Smbat" = 10
+	"Smbat" = 10
+	"Stepanos" = 10
+	"Stephen" = 10
+	"Tachat" = 10
+	"Taniel" = 10
+	"Daniel" = 10
+	"Tatoul" = 10
+	"Tigran" = 10
+	"Tornik" = 10
+	"Tornik" = 10
+	"Tovmas" = 10
+	"Thomas" = 10
+	"Thoros" = 10
+	"Theodore" = 10
+	"Trdat" = 10
+	"Vache" = 10
+	"Vachagan" = 10
+	"Vagharshak" = 10
+	"Vahag" = 10
+	"Vahan" = 10
+	"Vahram" = 10
+	"Vakhtank" = 10
+	"Varazdat" = 10
+	"Vartan" = 10
+	"Vassak" = 10
+	"Vesd" = 10
+	"Vrtanes" = 10
+	"Zakare" = 10
+	"Zarmihr" = 10
+	"Arnfast" = 10
+	"Bjarnar" = 10
+	"Bjórsteinn" = 10
+	"Bryachislav" = 10
+	"Báulfr" = 10
+	"Dobrynya" = 10
+	"Eilífr" = 10
+	"Eindriði" = 10
+	"Eysteinn" = 10
+	"Eysteinn" = 10
+	"Eyvindr" = 10
+	"Farleifr" = 10
+	"Farlo" = 10
+	"Farlof" = 10
+	"Farulfr" = 10
+	"Folkbjôrn" = 10
+	"Frelav" = 10
+	"Freygeirr" = 10
+	"Freysteinn" = 10
+	"Fréleifr" = 10
+	"Geirbjôrn" = 10
+	"Gerðarr" = 10
+	"Gleb" = 10
+	"Goudy" = 10
+	"Grímmundr" = 10
+	"Gulleifr" = 10
+	"Gunnarr" = 10
+	"Gunnleifr" = 10
+	"Guðmundar" = 10
+	"Gyði" = 10
+	"Halfdan" = 10
+	"Halldórr" = 10
+	"Haraldr" = 10
+	"Harold" = 10
+	"Helgi" = 10
+	"Helge" = 10
+	"Heðinn" = 10
+	"Hrolleifr" = 10
+	"Hróaldr" = 10
+	"Hróðgeirr" = 10
+	"Hróðleifr" = 10
+	"Hrœrekr" = 10
+	"Hámundar" = 10
+	"Húnrøðar" = 10
+	"Iaroslav" = 10
+	"Igor" = 10
+	"Inegeld" = 10
+	"Ingifastr" = 10
+	"Ingimundr" = 10
+	"Ingjaldr" = 10
+	"Ingvar" = 10
+	"Ingvarr" = 10
+	"Ingvar" = 10
+	"Iziaslav" = 10
+	"Izyaslav" = 10
+	"Jarizleifr" = 10
+	"Juli" = 10
+	"Kari" = 10
+	"Karl" = 10
+	"Karli" = 10
+	"Karly" = 10
+	"Kolskeggr" = 10
+	"Kári" = 10
+	"Lífeyjar" = 10
+	"Mstislav" = 10
+	"Mstislav" = 10
+	"Már" = 10
+	"Oddlaugr" = 10
+	"Oleg" = 10
+	"Helge" = 10
+	"Ormgeirr" = 10
+	"Ormika" = 10
+	"Ormr" = 10
+	"Ormulfr" = 10
+	"Ragnhild" = 10
+	"Ragnvaldr" = 10
+	"Riurik" = 10
+	"Roal" = 10
+	"Rogneda" = 10
+	"Rostislav" = 10
+	"Rouad" = 10
+	"Rulav" = 10
+	"Rurik" = 10
+	"Rørik" = 10
+	"Sfengus" = 10
+	"Skarði" = 10
+	"Slagvé" = 10
+	"Snorra" = 10
+	"Sphengos" = 10
+	"Stanislav" = 10
+	"Stanislav" = 10
+	"Steinviðr" = 10
+	"Stemid" = 10
+	"Styrbjôrn" = 10
+	"Sudislav" = 10
+	"Sveinn" = 10
+	"Sven" = 10
+	"Sventopluk" = 10
+	"Svatopluk" = 10
+	"Sviatopolk" = 10
+	"Svatopluk" = 10
+	"Sviatoslav" = 10
+	"Sviatoslav" = 10
+	"Svyatoslav" = 10
+	"Sviatoslav" = 10
+	"Sæbjôrn" = 10
+	"Thorbjôrn" = 10
+	"Thorgestr" = 10
+	"Thorgíls" = 10
+	"Thorkell" = 10
+	"Thorsteinn" = 10
+	"Thórhallz" = 10
+	"Thórir" = 10
+	"Thórðar" = 10
+	"Tófi" = 10
+	"Tóki" = 10
+	"Ulfr" = 10
+	"Valdamarr" = 10
+	"Velmud" = 10
+	"Veremoud" = 10
+	"Vermundr" = 10
+	"Vermóðr" = 10
+	"Viacheslav" = 10
+	"Vladimir" = 10
+	"Vladimir" = 10
+	"Vsevolod" = 10
+	"Yaropolk" = 10
+	"Yaroslav" = 10
+	"Yuri" = 10
+	"George" = 10
+	"Áki" = 10
+	"Ásbjôrn" = 10
+	"Ásgautr" = 10
+	"Áskell" = 10
+	"Ásmundar" = 10
+	"Ásmundr" = 10
+	"Óleifr" = 10
+	"Ósníkin" = 10
+	"Óspaks" = 10
+	"Ótryggr" = 10
+	"Ônundr" = 10
+	"Ôzurr" = 10
+	
+	"Ababa" = -10
+	"Alda" = -10
+	"Amage" = -10
+	"Aritê" = -10
+	"Borena" = -10
+	"Burdukhan" = -10
+	"Leimeiê" = -10
+	"Mada" = -10
+	"Maiôsara" = -10
+	"Sarukê" = -10
+	"Storanê" = -10
+	"Tamura" = -10
+	"Tirgato" = -10
+	"Aghavni" = -10
+	"Alitz" = -10
+	"Alice" = -10
+	"Almasd" = -10
+	"Anahid" = -10
+	"Anoush" = -10
+	"Arda" = -10
+	"Arevig" = -10
+	"Arin" = -10
+	"Baydzar" = -10
+	"Berjanoush" = -10
+	"Berjouhi" = -10
+	"Datevig" = -10
+	"Dalita" = -10
+	"Eliz" = -10
+	"Eloise" = -10
+	"Gadar" = -10
+	"Gorandoukht" = -10
+	"Gorandukht" = -10
+	"Hasmig" = -10
+	"Houri" = -10
+	"Hranoush" = -10
+	"Hripsimeh" = -10
+	"Keghanoush" = -10
+	"Keran" = -10
+	"Khorishah" = -10
+	"Kohar" = -10
+	"Latavri" = -10
+	"Leyli" = -10
+	"Lousin" = -10
+	"Mara" = -10
+	"Margarid" = -10
+	"Margaret" = -10
+	"Maria" = -10
+	"Maria" = -10
+	"Mariyam" = -10
+	"Mariam" = -10
+	"Meghranoush" = -10
+	"Nane" = -10
+	"Nazani" = -10
+	"Ovsanna" = -10
+	"Pounig" = -10
+	"Razmouhi" = -10
+	"Rita" = -10
+	"Satenik" = -10
+	"Satinik" = -10
+	"Seta" = -10
+	"Siran" = -10
+	"Sirvart" = -10
+	"Srpouhi" = -10
+	"Shoushanig" = -10
+	"Takouhi" = -10
+	"Tamar" = -10
+	"Tamar" = -10
+	"Vartanoush" = -10
+	"Vartouhi" = -10
+	"Vosgi" = -10
+	"Yeva" = -10
+	"Zabel" = -10
+	"Elizabeth" = -10
+	"Zmroukhd" = -10
+	"Allogia" = -10
+	"Anastasia" = -10
+	"Anastasia" = -10
+	"Anna" = -10
+	"Anna" = -10
+	"Elisaveta" = -10
+	"Eufemia" = -10
+	"Euphemia" = -10
+	"Eupraxia" = -10
+	"Helga" = -10
+	"Helga" = -10
+	"Ingeborg" = -10
+	"Ingeborg" = -10
+	"Malmfred" = -10
+	"Marina" = -10
+	"Málfríðr" = -10
+	"Olava" = -10
+	"Olga" = -10
+	"Predslava" = -10
+	"Premyslava" = -10
+	"Rogneda" = -10
+	"Xenia" = -10
+	"Zbyslava" = -10
+}
+
+leader_names = {
+	
+}
+
+ship_names = {
+	Eagletree
+	Feathersun
+	Lowtree
+	Distantblade
+	Pineweaver
+	Oceanfang
+	Humbleripper
+	Wiseblood
+	Sunmantle
+	Grandpunch
+	Pyrefollower
+	Hawkfall
+	Heartsteam
+	Stonestrength
+	Mastertide
+	Gloomsworn
+	Redfist
+	Riverwinds
+	Skyspire
+	Fireclaw
+	Lunapike
+	Whitbane
+	Tarrensnow
+	Leafroot
+	Softswallow
+	Peacereaper
+	Stagarm
+	Monsterfury
+	Horsebinder
+	Strongmoon
+	Moltenmourn
+	Skymight
+	Covenstriker
+	Glowstrider
+	Farwatcher
+	Fallendown
+	Tarrengem
+	Stonestar
+	Fernstriker
+	Roughheart
+}
+
+army_names = {
+	"Regiment of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}

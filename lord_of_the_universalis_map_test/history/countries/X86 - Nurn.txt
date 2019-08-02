@@ -1,0 +1,11 @@
+mercantilism = 0.1
+government = tribal
+add_government_reform = independent_khaganate_reform
+primary_culture = culture_nurniags
+religion = religion_ioriags
+technology_group = lotr_easterling 
+capital = 431
+
+historical_rival = V24
+historical_rival = V23
+historical_rival = V17

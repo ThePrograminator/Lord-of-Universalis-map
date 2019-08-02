@@ -1,0 +1,7 @@
+mercantilism = 0.1
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = culture_rivermen_of_baranduin
+religion = religion_eriadorians
+technology_group = lotr_eriadorian
+capital = 267

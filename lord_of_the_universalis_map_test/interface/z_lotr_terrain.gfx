@@ -1,0 +1,342 @@
+spriteTypes = {
+	# Terrain Pictures
+	spriteType = {
+		name = "GFX_colony_terrain_unique_minas_tirith"
+		texturefile = "gfx/interface/colony_terrain_unique_minas_tirith.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_unique_minas_tirith"	
+		texturefile = "gfx//interface//combat_terrain_unique_minas_tirith.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_unique_helmsdeep"
+		texturefile = "gfx/interface/colony_terrain_unique_helmsdeep.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_unique_helmsdeep"	
+		texturefile = "gfx//interface//combat_terrain_unique_helmsdeep.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_unique_mountdoom"
+		texturefile = "gfx/interface/colony_terrain_unique_mountdoom.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_unique_mountdoom"	
+		texturefile = "gfx//interface//combat_terrain_unique_mountdoom.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_unique_osgilliath"
+		texturefile = "gfx/interface/colony_terrain_unique_osgilliath.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_unique_osgilliath"	
+		texturefile = "gfx//interface//combat_terrain_unique_osgilliath.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_unique_dolguldur"
+		texturefile = "gfx/interface/colony_terrain_unique_dolguldur.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_unique_dolguldur"	
+		texturefile = "gfx//interface//combat_terrain_unique_dolguldur.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_unique_erebor"
+		texturefile = "gfx/interface/colony_terrain_unique_erebor.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_unique_erebor"	
+		texturefile = "gfx//interface//combat_terrain_unique_erebor.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_unique_dale"
+		texturefile = "gfx/interface/colony_terrain_unique_dale.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_unique_dale"	
+		texturefile = "gfx//interface//combat_terrain_unique_dale.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_unique_laketown"
+		texturefile = "gfx/interface/colony_terrain_unique_laketown.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_unique_laketown"	
+		texturefile = "gfx//interface//combat_terrain_unique_laketown.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_unique_edoras"
+		texturefile = "gfx/interface/colony_terrain_unique_edoras.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_unique_edoras"	
+		texturefile = "gfx//interface//combat_terrain_unique_edoras.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_unique_isengard"
+		texturefile = "gfx/interface/colony_terrain_unique_isengard.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_unique_isengard"	
+		texturefile = "gfx//interface//combat_terrain_unique_isengard.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_unique_rivendell"
+		texturefile = "gfx/interface/colony_terrain_unique_rivendell.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_unique_rivendell"	
+		texturefile = "gfx//interface//combat_terrain_unique_rivendell.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_unique_hobbitton"
+		texturefile = "gfx/interface/colony_terrain_unique_hobbitton.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_unique_hobbitton"	
+		texturefile = "gfx//interface//combat_terrain_unique_hobbitton.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_unique_moria"
+		texturefile = "gfx/interface/colony_terrain_unique_moria.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_unique_moria"	
+		texturefile = "gfx//interface//combat_terrain_unique_moria.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_unique_blackgate"
+		texturefile = "gfx/interface/colony_terrain_unique_blackgate.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_unique_blackgate"	
+		texturefile = "gfx//interface//combat_terrain_unique_blackgate.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_unique_umbar"
+		texturefile = "gfx/interface/colony_terrain_unique_umbar.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_unique_umbar"	
+		texturefile = "gfx//interface//combat_terrain_unique_umbar.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_unique_fangorn"
+		texturefile = "gfx/interface/colony_terrain_unique_fangorn.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_unique_fangorn"	
+		texturefile = "gfx//interface//combat_terrain_unique_fangorn.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_unique_lothloria"
+		texturefile = "gfx/interface/colony_terrain_unique_lothloria.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_unique_lothloria"	
+		texturefile = "gfx//interface//combat_terrain_unique_lothloria.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_unique_thalls"
+		texturefile = "gfx/interface/colony_terrain_unique_thalls.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_unique_thalls"	
+		texturefile = "gfx//interface//combat_terrain_unique_thalls.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_unique_gundabad"
+		texturefile = "gfx/interface/colony_terrain_unique_gundabad.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_unique_gundabad"	
+		texturefile = "gfx//interface//combat_terrain_unique_gundabad.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_unique_goblintown"
+		texturefile = "gfx/interface/colony_terrain_unique_goblintown.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_unique_goblintown"	
+		texturefile = "gfx//interface//combat_terrain_unique_goblintown.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_unique_greyhavens"
+		texturefile = "gfx/interface/colony_terrain_unique_greyhavens.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_unique_greyhavens"	
+		texturefile = "gfx//interface//combat_terrain_unique_greyhavens.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_unique_amonhen"
+		texturefile = "gfx/interface/colony_terrain_unique_amonhen.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_unique_amonhen"	
+		texturefile = "gfx//interface//combat_terrain_unique_amonhen.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_unique_baraddur"
+		texturefile = "gfx/interface/colony_terrain_unique_baraddur.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_unique_baraddur"	
+		texturefile = "gfx//interface//combat_terrain_unique_baraddur.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_unique_dolamroth"
+		texturefile = "gfx/interface/colony_terrain_unique_dolamroth.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_unique_dolamroth"	
+		texturefile = "gfx//interface//combat_terrain_unique_dolamroth.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_unique_pass"
+		texturefile = "gfx/interface/colony_terrain_unique_pass.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_unique_pass"	
+		texturefile = "gfx//interface//combat_terrain_unique_pass.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_unique_shire"
+		texturefile = "gfx/interface/colony_terrain_unique_shire.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_unique_shire"	
+		texturefile = "gfx//interface//combat_terrain_unique_shire.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_unique_rohan"
+		texturefile = "gfx/interface/colony_terrain_unique_rohan.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_unique_rohan"	
+		texturefile = "gfx//interface//combat_terrain_unique_rohan.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_unique_mordor"
+		texturefile = "gfx/interface/colony_terrain_unique_mordor.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_unique_mordor"	
+		texturefile = "gfx//interface//combat_terrain_unique_mordor.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_unique_bree"
+		texturefile = "gfx/interface/colony_terrain_unique_bree.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_unique_bree"	
+		texturefile = "gfx//interface//combat_terrain_unique_bree.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_unique_carndum"
+		texturefile = "gfx/interface/colony_terrain_unique_carndum.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_unique_carndum"	
+		texturefile = "gfx//interface//combat_terrain_unique_carndum.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_unique_cirithungol"
+		texturefile = "gfx/interface/colony_terrain_unique_cirithungol.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_unique_cirithungol"	
+		texturefile = "gfx//interface//combat_terrain_unique_cirithungol.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_unique_minasmorgul"
+		texturefile = "gfx/interface/colony_terrain_unique_minasmorgul.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_unique_minasmorgul"	
+		texturefile = "gfx//interface//combat_terrain_unique_minasmorgul.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_unique_ithilien"
+		texturefile = "gfx/interface/colony_terrain_unique_ithilien.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_unique_ithilien"	
+		texturefile = "gfx//interface//combat_terrain_unique_ithilien.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_unique_harad_river"
+		texturefile = "gfx/interface/colony_terrain_unique_harad_river.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_unique_harad_river"	
+		texturefile = "gfx//interface//combat_terrain_unique_harad_river.tga"
+	}
+}

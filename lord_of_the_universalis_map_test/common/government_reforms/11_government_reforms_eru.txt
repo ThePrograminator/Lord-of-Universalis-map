@@ -1,0 +1,36 @@
+eru_gov_mechanic = {
+	
+	monarchy = yes
+	allow_convert = no
+	heir = no
+	queen = no
+	royal_marriage = no
+	basic_reform = yes # = invisible/does not take up a slot
+	valid_for_nation_designer = no
+	custom_attributes = {
+		enables_aristocratic_idea_group = yes
+	}
+}
+
+lotr_ent_government_reform = {
+	icon = "chieftain"
+	valid_for_new_country = no
+	allow_convert = no
+	allow_normal_conversion = no
+	nation_designer_cost = 0
+	legacy_equivalent = lotr_ent_government_legacy
+	lock_level_when_selected = yes
+	fixed_rank = 1
+	
+	potential = {
+		technology_group = lotr_ent 
+	}
+	
+	modifiers = {
+		tolerance_own = 5
+	}
+	
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}

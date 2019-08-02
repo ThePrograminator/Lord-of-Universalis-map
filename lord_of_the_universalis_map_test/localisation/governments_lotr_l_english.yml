@@ -1,0 +1,395 @@
+﻿l_english:
+#---------------------------------------------
+ # Government Names
+ #---------------------------------------------
+ orc_gov: "Orc Government"
+ orc_gov_desc: ""
+ 
+ dwarf_gov: "Dwarf Government"
+ dwarf_gov_desc: ""
+ 
+ elf_gov: "Elf Government"
+ elf_gov_desc: ""
+ 
+ melkor_gov: "Melkor Government"
+ melkor_gov_desc: ""
+ 
+ eru_gov: "Eru’s Children Government"
+ eru_gov_desc: ""
+ 
+ #---------------------------------------------
+ # Government Types
+ #---------------------------------------------
+ orc_gov_name: "Orc Government"
+ dwarf_gov_name: "Dwarf Government"
+ elf_gov_name: "Elf Government"
+ melkor_gov_name: "Melkor Government"
+ eru_gov_name: "Eru’s Children Government"
+ #---------------------------------------------
+ # Ranks
+ #---------------------------------------------
+ MAYORSHIP: "Mayorship"
+ GRAND_MAYORSHIP: "Grand Mayorship"
+ GREAT_MAYORSHIP: "Great Mayorship"
+ 
+ THAINSHIP: "Thainship"
+ GRAND_THAINSHIP: "Grand Thainship"
+ GREAT_THAINSHIP: "Great Thainship"
+ 
+ PRINCIPALITY: "Principality"
+ GRAND_PRINCIPALITY: "Grand Principality"
+ GREAT_PRINCIPALITY: "Great Principality"
+ 
+ STEWARDSHIP: "Stewardship"
+ GRAND_STEWARDSHIP: "Grand Stewardship"
+ GREAT_STEWARDSHIP: "Great Stewardship"
+ 
+ EASTERLING_TRIBE: "Tribe"
+ EASTERLING_CLAN: "Clan"
+ EASTERLING_KINGDOM: "Kingdom"
+ 
+ LORDSHIP: "Lordship"
+ GRAND_LORDSHIP: "Grand Lordship"
+ GREAT_LORDSHIP: "Great Lordship"
+ 
+ GUILD_ARISTOCRACY: "Guild Aristocracy"
+ GRAND_GUILD_ARISTOCRACY: "Guild Aristocracy"
+ GREAT_GUILD_ARISTOCRACY: "Guild Aristocracy"
+ 
+ KHAGANATE: "Khaganate"
+ INDEPENDENT_KHAGANATE: "Independent Khaganate"
+ GRAND_INDEPENDENT_KHAGANATE: "Grand Independent Khaganate"
+ GREAT_INDEPENDENT_KHAGANATE: "Great Independent Khaganate"
+ KHAGANATE_RULER: "Khaganate Ruler"
+ 
+ ORC_TRIBE: "Orc Tribe"
+ ORC_CLAN: "Orc Clan"
+ ORC_HORDE: "Orc Horde"
+ 
+ ORC_BAND: "Orc Band"
+ ORC_FEDERATION: "Orc Federation"
+ ORC_FACTION: "Orc Faction"
+ 
+ ORC_REALM: "Orc Realm"
+ ORC_KINGDOM: "Orc Kingdom"
+ 
+ TROLL_TRIBE: "Troll Tribe"
+ TROLL_CLAN: "Troll Clan"
+ TROLL_KINGDOM: "Troll Horde"
+ 
+ WIGHT_OUTPOST: "Wight Outpost"
+ WIGHT_DOMAIN: "Wight Domain"
+ WIGHT_GRAND_DOMAIN: "Wight Grand Domain"
+ 
+ SPIDER_NEST: "Spider Nest"
+ SPIDER_SWARM: "Spider Swarm"
+ SPIDER_HORDE: "Spider Horde"
+ 
+ NAZGUL_OUTPOST: "Nazgûl Outpost"
+ NAZGUL_DOMAIN: "Nazgûl Domain"
+ NAZGUL_KINGDOM: "Nazgûl Kingdom"
+ 
+ ISENGARD: "Isengard Kingdom"
+ 
+ MORDOR: "Mordor Kingdom"
+ 
+ ENTMOOT: "Entmoot Council"
+ GRAND_ENTMOOT: "Grand Entmoot Council"
+ GREAT_ENTMOOT: "Great Entmoot Council"
+
+ #---------------------------------------------
+ # Ruler Titles
+ #---------------------------------------------
+ MAYOR: "Mayor"
+ THAIN: "Thain"
+ PRINCE: "Prince"
+ PRINCESS: "Princess"
+ 
+ STEWARD: "Steward"
+ STEWARDESS: "Stewardess"
+ 
+ EASTERLING_CHEIF: "Cheif"
+ EASTERLING_KING: "King"
+ 
+ LORD_DWARF: "Lord"
+ LORD_ELF: "Lord"
+ CHAIRMAN: "Chairman"
+ 
+ ORC_CHEIF: "Cheif"
+ 
+ ORC_KING: "King"
+ 
+ TROLL_CHEIF: "Cheif"
+ 
+ WIGHT_RULER: "Master"
+ 
+ SPIDER_RULER: "King"
+ SPIDER_FEMALE_RULER: "Queen"
+ 
+ NAZGUL: "Nazgûl"
+ 
+ ISENGARD_RULER: "Ruler"
+  
+ MORDOR_RULER: "Ruler"
+ 
+ SHEPHERD_ENT: "Shepherd"
+ #---------------------------------------------
+ # Mechanics
+ #---------------------------------------------
+ government_form_monarchy: "Government Form"
+ government_form_republic: "Government Form"
+ government_form_tribal: "Government Form"
+ government_form_orc_gov: "Government Form"
+ government_form_dwarf_gov: "Government Form"
+ government_form_elf_gov: "Government Form"
+ government_form_melkor_gov: "Government Form"
+ government_form_eru_gov: "Government Form"
+ 
+ orc_gov_mechanic: "Orc Government"
+ orc_gov_mechanic_desc: "This is an Orc Government."
+ 
+ dwarf_gov_mechanic: "Dwarf Government"
+ dwarf_gov_mechanic_desc: "This is a Dwarf Government."
+ 
+ elf_gov_mechanic: "Elf Government"
+ elf_gov_mechanic_desc: "This is an Elf Government."
+ 
+ melkor_gov_mechanic: "Melkor Government"
+ melkor_gov_mechanic_desc: "This is a Melkor Government."
+ 
+ eru_gov_mechanic: "Eru’s Children Government"
+ eru_gov_mechanic_desc: "This is a Eru’s Children Government."
+ 
+ tribe_mechanic: "Tribal Government"
+ tribe_mechanic_desc: "This is a Tribal Government."
+ 
+ dwarven_cause: "Dwarven Cause"
+ dwarven_cause_desc: "We must decide here and now the greatest cause for our nation and kinsmen."
+ 
+ elven_cause: "Elven Cause"
+ elven_cause_desc: "We must decide here and now the greatest cause for our nation and kinsmen."
+ 
+ orc_tribe_decision: "Tribal Decision"
+ orc_tribe_decision_desc: "We must decide here and now how our tribes of orcs are structured."
+ 
+ concentration_of_production: "Concentration of Production"
+ concentration_of_production_desc: "We must decide what our production must be focused on."
+ 
+ orc_cause: "Orc Cause"
+ orc_cause_desc: "We must decide here and now the greatest cause for our orcs."
+ 
+ #---------------------------------------------
+ # Government Form (Monarchy)
+ #---------------------------------------------
+ 
+ kingship_reform: "Kingship"
+ kingship_reform_desc: "A realm governed by a king."
+ lotr_kingship_legacy: "Kingship"
+ lotr_kingship_legacy_desc: "A realm governed by a king."
+ 
+ stewardship_reform: "Stewardship"
+ stewardship_reform_desc: "A realm governed by a steward."
+ lotr_stewardship_legacy: "Stewardship"
+ lotr_stewardship_legacy_desc: "A realm governed by a steward."
+ 
+ principality_reform: "Principality"
+ principality_reform_desc: "A realm governed by a Prince or Princess."
+ lotr_principality_legacy: "Principality"
+ lotr_principality_legacy_desc: "A realm governed by a Prince or Princess."
+ 
+ easterling_clan_reform: "Easterling Clan"
+ easterling_clan_reform_desc: "A realm governed by a Cheif."
+ lotr_easterling_clan_legacy: "Easterling Clan"
+ lotr_easterling_clan_legacy_desc: "A realm governed by a Cheif."
+ 
+ #---------------------------------------------
+ # Government Form (Republic)
+ #---------------------------------------------
+ 
+ mayorship_reform: "Mayorship"
+ mayorship_reform_desc: "A realm governed by a Mayor."
+ lotr_mayorship_legacy: "Mayorship"
+ lotr_mayorship_legacy_desc: "A realm governed by a Mayor."
+ 
+ thainship_reform: "Thainship"
+ thainship_reform_desc: "A realm governed by a Thain."
+ lotr_thainship_legacy: "Thainship"
+ lotr_thainship_legacy_desc: "A realm governed by a Thain."
+ 
+ #---------------------------------------------
+ # Government Form (Tribal)
+ #---------------------------------------------
+ 
+ lotr_clan_legacy: "Clan"
+ lotr_clan_legacy_desc: "A realm ruled as a Chiefdom."
+ 
+ haradwaith_nomad_reform: "Haradwaith Nomad"
+ haradwaith_nomad_reform_desc: "A realm governed by a Cheif."
+ 
+ khaganate_reform: "Khaganate"
+ khaganate_reform_desc: "A realm governed by a Lord."
+ lotr_khaganate_legacy: "Khaganate"
+ lotr_khaganate_legacy_desc: "A realm governed by a Lord."
+ 
+ independent_khaganate_reform: "Independent Khaganate"
+ independent_khaganate_reform_desc: "A realm governed by a Lord."
+ lotr_independent_khaganate_legacy: "Independent Khaganate"
+ lotr_independent_khaganate_legacy_desc: "A realm governed by a Lord."
+ 
+ khaganate_ruler_reform: "Khaganate Ruler"
+ khaganate_ruler_reform_desc: "A realm governed by a Lord."
+ lotr_khaganate_ruler_legacy: "Khaganate Ruler"
+ lotr_khaganate_ruler_legacy_desc: "A realm governed by a Lord."
+ 
+ #---------------------------------------------
+ # Government Form (Orc)
+ #---------------------------------------------
+ 
+ lotr_orc_clan_reform: "Orc Clan"
+ lotr_orc_clan_reform_desc: "A realm of orcs ruled as a chiefdom."
+ lotr_orc_clan_legacy: "Orc Clan"
+ lotr_orc_clan_legacy_desc: "A realm of orcs ruled as a chiefdom."
+ 
+ lotr_orc_clan_federation_reform: "Orc Federation"
+ lotr_orc_clan_federation_reform_desc: "A realm of orc tribes ruled under a chief."
+ lotr_orc_clan_federation_legacy: "Orc Federation"
+ lotr_orc_clan_federation_legacy_desc: "A realm of orc tribes ruled under a chief."
+ 
+ lotr_orc_kingdom_reform: "Orc Kingdom"
+ lotr_orc_kingdom_reform_desc: "A realm of orcs ruled under a king."
+ lotr_orc_kingdom_legacy: "Orc Kingdom"
+ lotr_orc_kingdom_legacy_desc: "A realm of orcs ruled under a king."
+
+ lotr_nazgul_reform: "Nazgûl Kingdom"
+ lotr_nazgul_reform_desc: "This land is ruled by an overseering Nazgûl who reports to Sauron of Mordor."
+ lotr_nazgul_legacy: "Nazgûl Kingdom"
+ lotr_nazgul_legacy_desc: "This land is ruled by an overseering Nazgûl who reports to Sauron of Mordor."
+ 
+ lotr_isengard_reform: "Saruman"
+ lotr_isengard_reform_desc: "This land is ruled by Saruman."
+ lotr_isengard_legacy: "Saruman"
+ lotr_isengard_legacy_desc: "This land is ruled by Saruman."
+ 
+ lotr_mordor_reform: "Sauron"
+ lotr_mordor_reform_desc: "This land is ruled by Sauron."
+ lotr_mordor_legacy: "Sauron"
+ lotr_mordor_legacy_desc: "This land is ruled by Sauron."
+ 
+ #---------------------------------------------
+ # Government Form (Dwarf)
+ #---------------------------------------------
+ 
+ lordship_dwarf_reform: "Lordship"
+ lordship_dwarf_reform_desc: "A realm governed by a Lord."
+ lotr_lordship_dwarf_legacy: "Lordship"
+ lotr_lordship_dwarf_legacy_desc: "A realm governed by a Lord."
+ 
+ kingdom_dwarf_reform: "Kingdom"
+ kingdom_dwarf_reform_desc: "A realm governed by a King."
+ lotr_kingdom_dwarf_legacy: "Kingdom"
+ lotr_kingdom_dwarf_legacy_desc: "A realm governed by a King."
+ 
+ guild_aristocracy_reform: "Guild Aristocracy"
+ guild_aristocracy_reform_desc: "A realm governed by a Chairman."
+ lotr_guild_aristocracy_legacy: "Guild Aristocracy"
+ lotr_guild_aristocracy_legacy_desc: "A realm governed by a Chairman."
+ 
+ #---------------------------------------------
+ # Government Form (Elf)
+ #---------------------------------------------
+ 
+ lordship_elf_reform: "Lordship"
+ lordship_elf_reform_desc: "A realm governed by a Lord."
+ lotr_lordship_elf_legacy: "Lordship"
+ lotr_lordship_elf_legacy_desc: "A realm governed by a Lord."
+ 
+ kingdom_elf_reform: "Kingdom"
+ kingdom_elf_reform_desc: "A realm governed by a King."
+ lotr_kingdom_elf_legacy: "Kingdom"
+ lotr_kingdom_elf_legacy_desc: "A realm governed by a King."
+ 
+ principality_elf_reform: "Principality"
+ principality_elf_reform_desc: "A realm governed by a Prince or Princess."
+ lotr_principality_elf_legacy: "Principality"
+ lotr_principality_elf_legacy_desc: "A realm governed by a Prince or Princess."
+ 
+ #---------------------------------------------
+ # Government Form (Melkor)
+ #---------------------------------------------
+ 
+ lotr_troll_clan_reform: "Troll Clan"
+ lotr_troll_clan_reform_desc: "A realm of trolls ruled as a chiefdom."
+ lotr_troll_clan_legacy: "Troll Clan"
+ lotr_troll_clan_legacy_desc: "A realm of trolls ruled as a chiefdom."
+ 
+ lotr_wight_government_reform: "Wight Domain"
+ lotr_wight_government_reform_desc: "A realm of Wights."
+ lotr_wight_government_legacy: "Wight Domain"
+ lotr_wight_government_legacy_desc: "A realm of Wights."
+ 
+ lotr_spider_government_reform: "Spider Domain"
+ lotr_spider_government_reform_desc: "A realm of Spiders."
+ lotr_spider_government_legacy: "Spider Domain"
+ lotr_spider_government_legacy_desc: "A realm of Spiders."
+ 
+ #---------------------------------------------
+ # Government Form (Eru’s Children)
+ #---------------------------------------------
+ 
+ lotr_ent_government_reform: "Entmoot Council"
+ lotr_ent_government_reform_desc: "A realm of Ents."
+ lotr_ent_government_legacy: "Entmoot Council"
+ lotr_ent_government_legacy_desc: "A realm of Ents."
+ 
+ #---------------------------------------------
+ # Internal vs External Mission (Dwarf)
+ #---------------------------------------------
+ 
+ internal_mission_dwarf_reform: "Internal Mission"
+ internal_mission_dwarf_reform_desc: "We must tend to our own concerns."
+ external_mission_dwarf_reform: "External Mission"
+ external_mission_dwarf_reform_desc: "We must must not turn a blind eye to the world."
+ 
+ #---------------------------------------------
+ # Dwarven Cause
+ #---------------------------------------------
+ 
+ safeguard_dwelling_reform: "Safeguard Dwellings"
+ safeguard_dwelling_reform_desc: "We must focus our attention to secure our home."
+ recapture_lost_dwellings_reform: "Recapture Lost Dwellings"
+ recapture_lost_dwellings_reform_desc: "We must retake our lost lands."
+ expanding_dwellings_reform: "Expand Dwellings"
+ expanding_dwellings_reform_desc: "We must focus on the building and expansion of our current dwellings."
+ economic_growth_reform: "Economic Growth"
+ economic_growth_reform_desc: "We must focus on the economy of our entire realm."
+ 
+ #---------------------------------------------
+ # Elven Cause
+ #---------------------------------------------
+ 
+ regaining_lost_artifacts_reform: "Regaining Lost Artifacts"
+ regaining_lost_artifacts_reform_desc: "We must focus our attention to securing lost artifacts of our people."
+ reconquer_our_lands_reform: "Reconquer Our Lands"
+ reconquer_our_lands_reform_desc: "We must retake our lost lands."
+ peace_keepers_reform: "Peace Keepers"
+ peace_keepers_reform_desc: "We must focus on the well being of all good races of middle-earth."
+ 
+ #---------------------------------------------
+ # Concentration of Production
+ #---------------------------------------------
+ 
+ food_production_reform: "Food Production Focus"
+ food_production_reform_desc: "We must focus our attention to securing food for our many orcs."
+ weapons_production_reform: "Weapons Production Focus"
+ weapons_production_reform_desc: "We must assure that our orcs are well equiped."
+ machinery_production_reform: "Machinery Production Focus"
+ machinery_production_reform_desc: "We must assure that the machines of war are plentyful and always working away."
+ 
+ #---------------------------------------------
+ # Orc Cause
+ #---------------------------------------------
+ 
+ total_destruction_reform: "Total Destruction"
+ total_destruction_reform_desc: "All creation and life must be destroyed."
+ total_dominance_reform: "Total Dominance"
+ total_dominance_reform_desc: "All creation must be slaves of the orcs."

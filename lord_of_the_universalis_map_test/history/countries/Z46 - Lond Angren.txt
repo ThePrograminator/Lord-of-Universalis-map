@@ -1,0 +1,18 @@
+mercantilism = 0.1
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = culture_clansmen
+religion = religion_daen
+technology_group = lotr_daen
+capital = 370
+
+government_rank = 1
+
+historical_friend = Z43
+historical_friend = Z45
+historical_friend = V08
+historical_rival = V16
+historical_rival = Z44
+historical_rival = V15
+historical_rival = Z11
+historical_rival = X15

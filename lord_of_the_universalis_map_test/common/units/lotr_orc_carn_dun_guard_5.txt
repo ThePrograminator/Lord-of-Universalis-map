@@ -1,0 +1,11 @@
+# Goblin Archers
+type = infantry
+unit_type = lotr_orc
+
+maneuver = 1
+offensive_morale = 5
+defensive_morale = 4
+offensive_fire = 0
+defensive_fire = 0
+offensive_shock = 5
+defensive_shock = 3

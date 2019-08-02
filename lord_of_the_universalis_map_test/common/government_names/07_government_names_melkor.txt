@@ -1,0 +1,61 @@
+# For specific government types
+# Will pick the first valid one it finds in list
+gov_lotr_troll_clan = {
+	rank = {
+		1 = TROLL_TRIBE
+		2 = TROLL_CLAN
+		3 = TROLL_KINGDOM
+	}
+
+	ruler_male = {
+		1 = TROLL_CHEIF
+		2 = TROLL_CHEIF
+		3 = TROLL_CHEIF
+	}
+	
+	trigger = {
+		has_reform = lotr_troll_clan_reform
+	}
+}
+
+gov_lotr_wight_government = {
+	rank = {
+		1 = WIGHT_OUTPOST
+		2 = WIGHT_DOMAIN
+		3 = WIGHT_GRAND_DOMAIN
+	}
+
+	ruler_male = {
+		1 = WIGHT_RULER
+		2 = WIGHT_RULER
+		3 = WIGHT_RULER
+	}
+	
+	trigger = {
+		has_reform = lotr_wight_government_reform
+	}
+}
+
+gov_lotr_spider_government = {
+	rank = {
+		1 = SPIDER_NEST
+		2 = SPIDER_SWARM
+		3 = SPIDER_HORDE
+	}
+
+	ruler_male = {
+		1 = SPIDER_RULER
+		2 = SPIDER_RULER
+		3 = SPIDER_RULER
+	}
+	
+	ruler_female = {
+		1 = SPIDER_FEMALE_RULER
+		2 = SPIDER_FEMALE_RULER
+		3 = SPIDER_FEMALE_RULER
+	}
+	
+	trigger = {
+		has_reform = lotr_spider_government_reform
+	}
+}

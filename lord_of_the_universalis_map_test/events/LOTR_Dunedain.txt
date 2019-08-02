@@ -1,0 +1,524 @@
+########################################
+# Events for Dunedain Religion
+#
+#
+########################################
+
+namespace = flavor_dunedain
+normal_or_historical_nations = yes
+
+# Failed Harvest
+country_event = {
+	id = flavor_dunedain.1
+	title = flavor_dunedain.1.t
+	desc = flavor_dunedain.1.d
+	picture = FARMING_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			religion = religion_dunedain
+			
+			culture_group = culture_group_numenorean
+		}
+		NOT = {
+			has_country_modifier = dunedain_failed_harvest
+			has_country_modifier = dudedain_harvest_timer
+		}
+	}
+	
+	#Buy Grain
+	option = {
+		name = "flavor_dunedain.1.a"
+
+		add_treasury = -50
+		add_adm_power = -50
+		add_patriarch_authority = 0.05
+	}  
+	
+	#Our Coffers can't handle it
+	option = {
+		name = "flavor_dunedain.1.b"
+		
+		add_adm_power = 10
+		
+		add_country_modifier = {
+			name = dunedain_failed_harvest
+			duration = 3650
+		}
+	} 
+}
+
+# Recruite Young People
+country_event = {
+	id = flavor_dunedain.2
+	title = flavor_dunedain.2.t
+	desc = flavor_dunedain.2.d
+	picture = REFORM_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			religion = religion_dunedain
+			
+			culture_group = culture_group_numenorean
+			
+			manpower_percentage = 0.5
+		}
+		NOT = {
+			has_country_modifier = dunedain_recruite_young_people
+		}
+		
+	}
+	
+	#Do it
+	option = {
+		name = "flavor_dunedain.2.a"
+
+		add_patriarch_authority = -0.05
+		add_mil_power = -50
+		
+		add_country_modifier = {
+			name = dunedain_recruite_young_people
+			duration = 3650
+		}
+	}  
+	
+	#No
+	option = {
+		name = "flavor_dunedain.2.b"
+		
+		add_patriarch_authority = 0.05
+	} 
+}
+
+# Lack of Armor and Uniforms
+country_event = {
+	id = flavor_dunedain.3
+	title = flavor_dunedain.3.t
+	desc = flavor_dunedain.3.d
+	picture = TRADEGOODS_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			religion = religion_dunedain
+			
+			culture_group = culture_group_numenorean
+		}
+		NOT = {
+			has_country_modifier = dunedain_slacken_uniforms
+			has_country_modifier = dunedain_increase_uniforms
+		}
+		
+	}
+	
+	#Slacken Uniforms
+	option = {
+		name = "flavor_dunedain.3.a"
+
+		add_patriarch_authority = -0.05
+		add_dip_power = 10
+		
+		add_country_modifier = {
+			name = dunedain_slacken_uniforms
+			duration = 3650
+		}
+	}  
+	
+	#Set Up Production
+	option = {
+		name = "flavor_dunedain.3.b"
+		
+		add_patriarch_authority = 0.05
+		add_dip_power = -50
+		
+		add_country_modifier = {
+			name = dunedain_increase_uniforms
+			duration = 3650
+		}
+	} 
+}
+
+# Border Against Orcs
+province_event = {
+	id = flavor_dunedain.4
+	title = flavor_dunedain.4.t
+	desc = flavor_dunedain.4.d
+	picture = BORDER_TENSION_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			owned_by = ROOT
+			owner = {
+				religion = religion_dunedain
+			
+				culture_group = culture_group_numenorean
+			}
+			
+			any_neighbor_province = { 
+				owner = {
+					culture_group = culture_group_orcs
+					culture_group = culture_group_melkor
+					religion_group = religion_group_melkor
+				}
+				culture_group = culture_group_orcs
+				culture_group = culture_group_melkor
+				religion_group = religion_group_melkor
+			}
+		}
+			
+		NOT = {
+			has_province_modifier = province_dunedain_defend_province
+		}
+	}
+	
+	#Defend Province
+	option = {
+		name = "flavor_dunedain.4.a"
+		
+		add_treasury = -50
+		add_mil_power = -50
+		add_manpower = -2
+		
+		add_patriarch_authority = 0.05
+
+		add_province_modifier = {
+			name = "province_dunedain_defend_province"
+			duration = 1095
+		}
+	}  
+	
+	#Don't
+	option = {
+		name = "flavor_dunedain.4.b"
+		
+		add_patriarch_authority = -0.05
+		add_mil_power = 10
+	} 
+}
+
+# Our Leader Passed
+country_event = {
+	id = flavor_dunedain.5
+	title = flavor_dunedain.5.t
+	desc = flavor_dunedain.5.d
+	picture = DEATH_OF_HEIR_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			religion = religion_dunedain
+			
+			culture_group = culture_group_numenorean
+		}
+	}
+	
+	immediate = {
+		hidden_effect = {
+			random_list = {
+				25 = {
+					set_country_flag = sad
+				}
+				75 = {
+					set_country_flag = not_sad
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 3
+	}
+	
+	#Our Leader sad
+	option = {
+		name = "flavor_dunedain.5.a"
+		
+		trigger = {
+			has_country_flag = sad
+		}
+		
+		add_adm_power = -50
+		add_dip_power = -50
+		add_mil_power = -50
+		
+		add_patriarch_authority = -0.05
+		
+		clr_country_flag = sad
+	}  
+	
+	#not so sad
+	option = {
+		name = "flavor_dunedain.5.b"
+		
+		trigger = {
+			has_country_flag = not_sad
+		}
+		
+		add_patriarch_authority = 0.05
+		
+		clr_country_flag = not_sad
+	}  
+}
+
+# Battle Lost
+country_event = {
+	id = flavor_dunedain.6
+	title = flavor_dunedain.6.t
+	desc = flavor_dunedain.6.d
+	picture = WOUNDED_SOLDIERS_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			religion = religion_dunedain
+			
+			culture_group = culture_group_numenorean
+		}
+			
+		NOT = {
+			has_country_modifier = dudedain_battle_lost_timer
+		}
+	}
+	
+	#Our Leader Died
+	option = {
+		name = "flavor_dunedain.6.a"
+		
+		add_mil_power = -50
+		
+		add_patriarch_authority = -0.05
+		
+		hidden_effect = {
+			add_country_modifier = {
+				name = dudedain_battle_lost_timer
+				duration = 1825
+				hidden = yes
+			}
+		}
+	}  
+}
+
+# Excellent Harvest
+country_event = {
+	id = flavor_dunedain.7
+	title = flavor_dunedain.7.t
+	desc = flavor_dunedain.7.d
+	picture = FEAST_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			religion = religion_dunedain
+			
+			culture_group = culture_group_numenorean
+		}
+			
+		NOT = {
+			has_country_modifier = dunedain_failed_harvest
+			has_country_modifier = dudedain_harvest_timer
+		}
+	}
+	
+	#yes
+	option = {
+		name = "flavor_dunedain.7.a"
+		
+		add_treasury = 50
+		add_adm_power = 50
+		add_patriarch_authority = 0.05
+		
+		
+		hidden_effect = {
+			add_country_modifier = {
+				name = dudedain_harvest_timer
+				duration = 3650
+				hidden = yes
+			}
+		}
+	}  
+}
+
+# Won War
+country_event = {
+	id = flavor_dunedain.8
+	title = flavor_dunedain.8.t
+	desc = flavor_dunedain.8.d
+	picture = HRE_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			religion = religion_dunedain
+			
+			culture_group = culture_group_numenorean
+		}
+			
+		NOT = {
+			has_country_modifier = dudedain_won_war_timer
+		}
+	}
+	
+	#yay
+	option = {
+		name = "flavor_dunedain.8.a"
+		
+		add_treasury = 50
+		
+		add_mil_power = 50
+		
+		add_patriarch_authority = 0.05
+		
+		hidden_effect = {
+			add_country_modifier = {
+				name = dudedain_won_war_timer
+				duration = 1825
+				hidden = yes
+			}
+		}
+	}  
+}
+
+# long war
+country_event = {
+	id = flavor_dunedain.9
+	title = flavor_dunedain.9.t
+	desc = flavor_dunedain.9.d
+	picture = SIEGE_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			religion = religion_dunedain
+			
+			culture_group = culture_group_numenorean
+			overextension_percentage = 0.50
+			is_in_war = {
+				duration = 1095
+			}
+		}
+			
+		NOT = {
+			has_country_modifier = dudedain_long_war_timer
+		}
+	}
+	
+	#no yay
+	option = {
+		name = "flavor_dunedain.9.a"
+
+		add_mil_power = -25
+		
+		add_patriarch_authority = -0.05
+		
+		hidden_effect = {
+			add_country_modifier = {
+				name = dudedain_long_war_timer
+				duration = 1825
+				hidden = yes
+			}
+		}
+	}  
+}
+
+# Lost Hope
+country_event = {
+	id = flavor_dunedain.10
+	title = flavor_dunedain.10.t
+	desc = flavor_dunedain.10.d
+	picture = WOUNDED_SOLDIERS_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			religion = religion_dunedain
+			patriarch_authority = 0.10
+			
+			culture_group = culture_group_numenorean
+			stability = -2
+		}
+			
+		NOT = {
+			has_country_modifier = dudedain_won_war_timer
+			has_country_modifier = dudedain_lost_hope_timer
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+
+		modifier = {
+			factor = 0.6
+			OR = {
+				NOT = { stability = -2 }
+				AND = { war_exhaustion = 8}
+				exists = X84
+			}
+		}
+		modifier = {
+			factor = 0.7
+			OR = {
+				NOT = { stability = -1 }
+				AND = { war_exhaustion = 6}
+				exists = X84
+			}
+		}
+		modifier = {
+			factor = 0.8
+			OR = {
+				NOT = { stability = 0 }
+				AND = { war_exhaustion = 4}
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				NOT = { stability = 1 }
+				AND = { war_exhaustion = 2}
+			}
+		}
+		modifier = {
+			factor = 1.0
+			OR = {
+				NOT = { stability = 2 }
+				AND = { war_exhaustion = 0}
+			}
+		}
+		modifier = {
+			factor = 1.0
+			OR = {
+				NOT = { stability = 3 }
+				AND = { war_exhaustion = 0}
+			}
+		}
+	}
+	
+	#yay
+	option = {
+		name = "flavor_dunedain.10.a"
+
+		add_stability = -1
+		
+		add_patriarch_authority = -0.10
+		
+		hidden_effect = {
+			add_country_modifier = {
+				name = dudedain_lost_hope_timer
+				duration = 3650
+				hidden = yes
+			}
+		}
+	}  
+}

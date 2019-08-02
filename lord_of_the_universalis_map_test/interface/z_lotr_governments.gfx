@@ -1,0 +1,85 @@
+spriteTypes = {
+    
+	#----------------------------------------------
+    # Reforms
+    #----------------------------------------------
+	spriteType = {
+		name = "government_reform_entmoot"
+		texturefile = "gfx//interface//government_reform_icons//entmoot.dds"
+	}
+	
+	spriteType = {
+		name = "government_reform_spider_swarm"
+		texturefile = "gfx//interface//government_reform_icons//spider_swarm.dds"
+	}
+	
+	spriteType = {
+		name = "government_reform_wight"
+		texturefile = "gfx//interface//government_reform_icons//wight.dds"
+	}
+	
+	spriteType = {
+		name = "government_reform_troll_clan"
+		texturefile = "gfx//interface//government_reform_icons//troll_clan.dds"
+	}
+	
+	spriteType = {
+		name = "government_reform_nazgul_domain"
+		texturefile = "gfx//interface//government_reform_icons//nazgul_domain.dds"
+	}
+	
+	spriteType = {
+		name = "government_reform_orc_clan"
+		texturefile = "gfx//interface//government_reform_icons//orc_clan.dds"
+	}
+	
+	spriteType = {
+		name = "government_reform_orc_federation"
+		texturefile = "gfx//interface//government_reform_icons//orc_federation.dds"
+	}
+	
+	spriteType = {
+		name = "government_reform_orc_kingdom"
+		texturefile = "gfx//interface//government_reform_icons//orc_kingdom.dds"
+	}
+	
+	spriteType = {
+		name = "government_reform_isengard"
+		texturefile = "gfx//interface//government_reform_icons//isengard.dds"
+	}
+	
+	spriteType = {
+		name = "government_reform_mordor"
+		texturefile = "gfx//interface//government_reform_icons//mordor.dds"
+	}
+	
+	spriteType = {
+		name = "government_reform_dwarf_lordship"
+		texturefile = "gfx//interface//government_reform_icons//dwarf_lordship.dds"
+	}
+	
+	spriteType = {
+		name = "government_reform_dwarf_kingdom"
+		texturefile = "gfx//interface//government_reform_icons//dwarf_kingdom.dds"
+	}
+	
+	spriteType = {
+		name = "government_reform_guild_aristocracy"
+		texturefile = "gfx//interface//government_reform_icons//guild_aristocracy.dds"
+	}
+	
+	spriteType = {
+		name = "government_reform_elf_lordship"
+		texturefile = "gfx//interface//government_reform_icons//elf_lordship.dds"
+	}
+	
+	spriteType = {
+		name = "government_reform_elf_king"
+		texturefile = "gfx//interface//government_reform_icons//elf_king.dds"
+	}
+	
+	spriteType = {
+		name = "government_reform_elf_prince"
+		texturefile = "gfx//interface//government_reform_icons//elf_prince.dds"
+	}
+}

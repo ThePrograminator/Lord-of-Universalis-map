@@ -1,0 +1,1362 @@
+﻿l_spanish:
+ # Units
+ # lotr_dunedain
+ # Gondorian Militia Lvl 1
+ # 1/2/0/0/0/1
+ lotr_dunedain_militia_1: "Gondorian Militia"
+ lotr_dunedain_militia_1_aDESCR: "An unit of swordsmen originating from Gondor."
+ # Axemen of Losarnach Lvl 1
+ # 2/0/0/0/2/0
+ lotr_dunedain_axemen_1: "Axemen of Losarnach"
+ lotr_dunedain_axemen_1_aDESCR: "Lossarnach, flowered vales and fertile land of the White Mountains, brings fierce warriors to Gondor's forces."
+ # Gondorian Militia Archers Lvl 1
+ # 0/2/1/1/0/1
+ lotr_dunedain_militia_archers_1: "Gondorian Militia Archers"
+ lotr_dunedain_militia_archers_1_aDESCR: "An unit of archers originating from Gondor."
+ 
+ # Gondorian Militia Lvl 1
+ # 1/2/0/0/0/1
+ lotr_dunedain_test: "Test"
+ lotr_dunedain_test_aDESCR: "An unit of swordsmen originating from Gondor."
+ 
+ # Pelargir Marines Spear Lvl 2
+ # 1/3/0/0/1/3
+ lotr_dunedain_pelargir_spears_2: "Pelargir Marine Spearmen"
+ lotr_dunedain_pelargir_spears_2_aDESCR: "An unit of Spearmen originating from Gondor."
+ # Pelargir Marines Swordsmen lvl 2
+ # 3/1/0/0/3/1
+ lotr_dunedain_pelargir_swords_2: "Pelargir Marine Swordsmen"
+ lotr_dunedain_pelargir_swords_2_aDESCR: "An unit of Swordsmen originating from Gondor."
+ # Gondorian Blackroot Vale Archers Lvl 2
+ # 1/2/1/2/1/1
+ lotr_dunedain_blackroot_archers_2: "Blackroot Vale Archers"
+ lotr_dunedain_blackroot_archers_2_aDESCR: "An unit of archers originating from Gondor."
+ 
+ # Gondor Spear Infantry Lvl 3
+ # 2/4/0/0/1/4
+ lotr_dunedain_gondor_spears_3: "Gondor Spear Infantry"
+ lotr_dunedain_gondor_spears_3_aDESCR: "An unit of Spearmen originating from Gondor."
+ # Gondor Sword Infantry lvl 3
+ # 3/2/0/0/3/2
+ lotr_dunedain_gondor_sword_3: "Gondor Sword Infantry"
+ lotr_dunedain_gondor_sword_3_aDESCR: "An unit of Swordsmen originating from Gondor."
+ # Gondor Archers Lvl 3
+ # 1/3/2/2/1/2
+ lotr_dunedain_gondor_archers_3: "Gondor Archers"
+ lotr_dunedain_gondor_archers_3_aDESCR: "An unit of archers originating from Gondor."
+ 
+ # Fountain Spear Guard Lvl 4
+ # 2/4/0/0/3/5
+ lotr_dunedain_fountain_spear_4: "Fountain Guard"
+ lotr_dunedain_fountain_spear_4_aDESCR: "An unit of Spearmen originating from Gondor."
+ # Citidal Guard lvl 4
+ # 3/3/0/0/4/3
+ lotr_dunedain_citidal_sword_4: "Citidal Guard"
+ lotr_dunedain_citidal_sword_4_aDESCR: "An unit of Swordsmen originating from Gondor."
+ # Citidal Archers Lvl 4
+ # 2/3/3/3/1/2
+ lotr_dunedain_citidal_archers_4: "Citidal Archers"
+ lotr_dunedain_citidal_archers_4_aDESCR: "An unit of archers originating from Gondor."
+ 
+ # Guards of Osgiliath Lvl 5
+ # 3/5/0/0/4/5
+ lotr_dunedain_osgiliath_guard_5: "Guards of Osgiliath"
+ lotr_dunedain_osgiliath_guard_5_aDESCR: "An unit of Spearmen originating from Gondor."
+ # Swan Knights lvl 5
+ # 4/3/0/0/5/4
+ lotr_dunedain_swan_knights_5: "Swan Knights"
+ lotr_dunedain_swan_knights_5_aDESCR: "An unit of Swordsmen originating from Gondor."
+ # Ithilien Rangers Lvl 5
+ # 4/3/4/3/1/2
+ lotr_dunedain_ithilien_rangers_5: "Ithilien Rangers"
+ lotr_dunedain_ithilien_rangers_5_aDESCR: "An unit of archers originating from Gondor."
+ 
+ # Gondor Militia Cavalry Lvl 1
+ # 1/1/0/0/2/2
+ lotr_dunedain_militia_cavalry_1: "Gondor Militia Cavalry"
+ lotr_dunedain_militia_cavalry_1_aDESCR: "An unit of knights originating from Gondor."
+ 
+ # Gondor Heavy Cavalry Lvl 2
+ # 4/2/0/0/2/2
+ lotr_dunedain_heavy_cavalry_2: "Gondor Heavy Cavalry"
+ lotr_dunedain_heavy_cavalry_2_aDESCR: "An unit of horse archers originating from Gondor."
+ 
+ # Swan Mounted Knights Lvl 3
+ # 5/4/0/0/4/3
+ lotr_dunedain_swan_cavalry_3: "Swan Mounted Knights"
+ lotr_dunedain_swan_cavalry_3_aDESCR: "An unit of horse archers originating from Gondor."
+ 
+ # lotr_arnor_men
+ # Arnor Militia Lvl 1
+ # 2/1/0/0/1/0
+ lotr_arnor_arnor_militia_1: "Arnor Militia"
+ lotr_arnor_arnor_militia_1_aDESCR: "An unit of Arnor Militia."
+ # Arnorian Archers Lvl 1
+ # 1/2/1/1/0/1
+ lotr_arnor_rangers_1: "Arnorian Archers"
+ lotr_arnor_rangers_1_aDESCR: "An unit of Arnorian Archers."
+ 
+ # lotr_arnor_men
+ # Grey Company Lvl 3
+ # 2/1/0/0/1/0
+ lotr_arnor_grey_company_3: "Grey Company"
+ lotr_arnor_grey_company_3_aDESCR: "An unit of Grey Company."
+ 
+ # Dúnedain Rangers Lvl 4
+ # 1/2/1/1/0/1
+ lotr_arnor_dunedain_rangers_4: "Dúnedain Rangers"
+ lotr_arnor_dunedain_rangers_4_aDESCR: "An unit of Dúnedain Rangers."
+ 
+ # Arnorian Ancestreal Infantry Lvl 5
+ # 1/2/1/1/0/1
+ lotr_arnor_arnorian_ancestreal_infantry_5: "Arnorian Ancestreal Infantry"
+ lotr_arnor_arnorian_ancestreal_infantry_5_aDESCR: "An unit of Arnorian Ancestreal Infantry."
+ # Arnorian Ancestreal Pikemen Lvl 5
+ # 1/2/1/1/0/1
+ lotr_arnor_arnorian_ancestreal_pikemen_5: "Arnorian Ancestreal Pikemen"
+ lotr_arnor_arnorian_ancestreal_pikemen_5_aDESCR: "An unit of Arnorian Ancestreal Pikemen."
+ # Arnorian Ancestreal Bowmen Lvl 5
+ # 1/2/1/1/0/1
+ lotr_arnor_arnorian_ancestreal_bowmen_5: "Arnorian Ancestreal Bowmen"
+ lotr_arnor_arnorian_ancestreal_bowmen_5_aDESCR: "An unit of Arnorian Ancestreal Bowmen."
+ 
+ # Mounted Grey Company Lvl 2
+ # 1/1/0/0/2/2
+ lotr_arnor_mounted_grey_company_2: "Mounted Grey Company"
+ lotr_arnor_mounted_grey_company_2_aDESCR: "An unit of Mounted Grey Company."
+ 
+ # Mounted Dúnedain Rangers Lvl 2
+ # 1/1/0/0/2/2
+ lotr_arnor_mounted_dunedain_3: "Mounted Dúnedain Rangers"
+ lotr_arnor_mounted_dunedain_3_aDESCR: "An unit of Mounted Dúnedain Rangers."
+ 
+ # Knights of Annúminas Lvl 4
+ # 1/1/1/1/1/1
+ lotr_arnor_knights_of_annuminas_4: "Knights of Annúminas"
+ lotr_arnor_knights_of_annuminas_4_aDESCR: "An unit of Knights of Annúminas."
+ 
+ # lotr_eriador
+ # Lumbermen Lvl 1
+ # 2/1/0/0/1/0
+ lotr_eriador_lumbermen_1: "Lumbermen"
+ lotr_eriador_lumbermen_1_aDESCR: "An unit of Lumbermen."
+ # Woodsmen Hunters Lvl 1
+ # 1/2/1/1/0/1
+ lotr_eriador_hunter_1: "Woodsmen Hunters"
+ lotr_eriador_hunter_1_aDESCR: "An unit of Woodsmen Hunters."
+ 
+ # Greenway Guards Lvl 2
+ # 2/1/0/0/1/0
+ lotr_eriador_greenway_guards_2: "Greenway Guards"
+ lotr_eriador_greenway_guards_2_aDESCR: "An unit of Greenway Guards."
+ # Greenway Rangers Lvl 2
+ # 1/2/1/1/0/1
+ lotr_eriador_greenway_rangers_2: "Greenway Rangers"
+ lotr_eriador_greenway_rangers_2_aDESCR: "An unit of Greenway Rangers."
+ 
+ # Merchant Militia Lvl 3
+ # 2/1/0/0/1/0
+ lotr_eriador_merchant_militia_3: "Merchant Militia"
+ lotr_eriador_merchant_militia_3_aDESCR: "An unit of Merchant Militia."
+ # Merchant Militia Archer Lvl 3
+ # 1/2/1/1/0/1
+ lotr_eriador_merchant_militia_archer_3: "Merchant Militia Archer"
+ lotr_eriador_merchant_militia_archer_3_aDESCR: "An unit of Merchant Militia Archer."
+ # Breeland Militia(Bree) Lvl 3
+ # 1/2/1/1/0/1
+ lotr_eriador_bree_militia_3: "Breeland Militia"
+ lotr_eriador_bree_militia_3_aDESCR: "An unit of Breeland Militia."
+ 
+ # Greenleaf Pikes Lvl 4
+ # 2/1/0/0/1/0
+ lotr_eriador_greenleaf_pikes_4: "Greenleaf Pikes"
+ lotr_eriador_greenleaf_pikes_4_aDESCR: "An unit of Greenleaf Pikes."
+ # Greenleaf Archers Lvl 4
+ # 1/2/1/1/0/1
+ lotr_eriador_greenleaf_archer_4: "Greenleaf Archers"
+ lotr_eriador_greenleaf_archer_4_aDESCR: "An unit of Greenleaf Archers."
+ 
+ # Greenway Sentries Lvl 1
+ # 1/1/0/0/2/2
+ lotr_eriador_greenway_sentries_1: "Greenway Sentries"
+ lotr_eriador_greenway_sentries_1_aDESCR: "An unit of Greenway Sentries."
+ 
+ # Merchant Cavalry Lvl 2
+ # 1/1/1/1/1/1
+ lotr_eriador_merchant_cavalry_2: "Merchant Cavalry"
+ lotr_eriador_merchant_cavalry_2_aDESCR: "An unit of Merchant Cavalry."
+ 
+ # Greenleaf Cavalry Lvl 3
+ # 1/1/1/1/1/1
+ lotr_eriador_greenleaf_cavalry_3: "Greenleaf Cavalry"
+ lotr_eriador_greenleaf_cavalry_3_aDESCR: "An unit of Greenleaf Cavalry."
+ 
+ # lotr_dwarven
+ # Dwarven miners lvl 1
+ # 2/1/0/0/1/0
+ lotr_dwarven_miners_1: "Dwarven Miners"
+ lotr_dwarven_miners_1_aDESCR: "Simple miners taking up arms with their thrusty pickaxe and hammers."
+ # Dwarven halberdmen lvl 1
+ # 0/2/0/0/0/2
+ lotr_dwarven_halberdmen_1: "Dwarven Halberds"
+ lotr_dwarven_halberdmen_1_aDESCR: "An unit of Dwarven Halberdmen."
+ 
+ # Dwarven Warriors lvl 2
+ # 2/1/0/0/4/0
+ lotr_dwarven_warriors_2: "Dwarven Warriors"
+ lotr_dwarven_warriors_2_aDESCR: "An unit of Dwarven Warriors."
+ # Dwarven Polearm lvl 2
+ # 0/3/0/0/1/3
+ lotr_dwarven_polearm_2: "Dwarven Polearm"
+ lotr_dwarven_polearm_2_aDESCR: "An unit of dwarven archers."
+ # Dwarven Axethrowers lvl 2
+ # 2/1/2/0/2/0
+ lotr_dwarven_axethrowers_2: "Dwarven Axethrowers"
+ lotr_dwarven_axethrowers_2_aDESCR: "An unit of dwarven archers."
+ 
+ # Dwarven Axelads lvl 3
+ # 3/2/0/0/4/1
+ lotr_dwarven_axelads_3: "Dwarven Axe Lads"
+ lotr_dwarven_axelads_3_aDESCR: "An unit of Dwarven Warriors."
+ # Dwarven Vault Keepers lvl 3
+ # 0/4/0/0/2/4
+ lotr_dwarven_vault_keepers_3: "Dwarven Vault Keepers"
+ lotr_dwarven_vault_keepers_3_aDESCR: "An unit of dwarven archers."
+ 
+ # Iron Guard lvl 4
+ # 3/3/0/0/4/3
+ lotr_dwarven_iron_guard_4: "Iron Guard"
+ lotr_dwarven_iron_guard_4_aDESCR: "An unit of Dwarven Warriors."
+ # Iron Crossbows lvl 4
+ # 2/2/4/3/2/0
+ lotr_dwarven_iron_crossbows_4: "Iron Crossbows"
+ lotr_dwarven_iron_crossbows_4_aDESCR: "An unit of dwarven archers."
+ 
+ # Dragonslayers lvl 5
+ # 6/2/0/0/6/2
+ lotr_dwarven_dragonslayers_5: "Dragonslayers"
+ lotr_dwarven_dragonslayers_5_aDESCR: "An unit of Dwarven Warriors."
+ # Khazad-Dum Protecters lvl 5
+ # 3/6/0/0/3/5
+ lotr_dwarven_khazad_dum_protecters_5: "Khazad-Dúm Protecters"
+ lotr_dwarven_khazad_dum_protecters_5_aDESCR: "An unit of dwarven archers."
+ 
+ # Dwarven Dale Cavalry lvl 1
+ # 0/1/0/0/3/2
+ lotr_dwarven_dale_cavalry_1: "Dale Cavalry"
+ lotr_dwarven_dale_cavalry_1_aDESCR: "An unit of Human cavalry from Dale."
+ 
+ # Dwarven Boar Riders lvl 2
+ # 0/1/0/0/5/4
+ lotr_dwarven_boar_riders_2: "Boar Riders"
+ lotr_dwarven_boar_riders_2_aDESCR: "An unit of dwarven Boar Riders."
+ 
+ # Dwarven Ram Caveraly lvl 3
+ # 4/2/0/0/6/6
+ lotr_dwarven_ram_caveraly_3: "Ram Riders"
+ lotr_dwarven_ram_caveraly_3_aDESCR: "An unit of dwarven Ram Riders."
+ 
+ # lotr_elven (Silvan)
+ # Silvan Archers Lvl 1
+ # 2/1/0/0/1/0
+ lotr_elven_silvan_archers_1: "Silvan Archers"
+ lotr_elven_silvan_archers_1_aDESCR: "An unit of Silvan Archers."
+ 
+ # Silvan Sentinels Lvl 2
+ # 2/1/0/0/1/0
+ lotr_elven_silvan_sentinels_2: "Silvan Sentinels"
+ lotr_elven_silvan_sentinels_2_aDESCR: "An unit of Silvan Sentinels."
+ # Silvan Ambushers Lvl 2
+ # 2/1/0/0/1/0
+ lotr_elven_silvan_ambushers_2: "Silvan Ambushers"
+ lotr_elven_silvan_ambushers_2_aDESCR: "An unit of Silvan Ambushers."
+ 
+ # Woodland Poachers Lvl 3
+ # 2/1/0/0/1/0
+ lotr_elven_silvan_poachers_3: "Woodland Poachers"
+ lotr_elven_silvan_poachers_3_aDESCR: "An unit of Woodland Poachers."
+ # Woodland Protecters Lvl 3
+ # 2/1/0/0/1/0
+ lotr_elven_silvan_protecters_3: "Woodland Protecters"
+ lotr_elven_silvan_protecters_3_aDESCR: "An unit of Woodland Protecters."
+ 
+ # Emerald Guard Lvl 4
+ # 2/1/0/0/1/0
+ lotr_elven_silvan_guard_4: "Emerald Guard"
+ lotr_elven_silvan_guard_4_aDESCR: "An unit of Emerald Guard."
+ # Emerald Sentinel Lvl 4
+ # 2/1/0/0/1/0
+ lotr_elven_silvan_sentinel_4: "Emerald Sentinel"
+ lotr_elven_silvan_sentinel_4_aDESCR: "An unit of Emerald Sentinel."
+ 
+ # Galadrim Warriors Lvl 5
+ # 2/1/0/0/1/0
+ lotr_elven_silvan_warriors_5: "Galadrim Warriors"
+ lotr_elven_silvan_warriors_5_aDESCR: "An unit of Galadrim Warriors."
+ # Galadrim Spears Lvl 5
+ # 2/1/0/0/1/0
+ lotr_elven_silvan_spears_5: "Galadrim Spears"
+ lotr_elven_silvan_spears_5_aDESCR: "An unit of Galadrim Spears."
+ # Sindar Archers Lvl 5
+ # 2/1/0/0/1/0
+ lotr_elven_silvan_archer_5: "Sindar Archers"
+ lotr_elven_silvan_archer_5_aDESCR: "An unit of Sindar Archers."
+ 
+ # Silvan Horse Archers Lvl 1
+ # 1/1/0/0/2/2
+ lotr_elven_silvan_horse_archers_1: "Silvan Horse Archers"
+ lotr_elven_silvan_horse_archers_1_aDESCR: "An unit of Silvan Horse Archers."
+ 
+ # Mounted Sentinels Lvl 2
+ # 1/1/0/0/2/2
+ lotr_elven_silvan_mounted_sentinels_2: "Mounted Sentinels"
+ lotr_elven_silvan_mounted_sentinels_2_aDESCR: "An unit of Mounted Sentinels."
+ 
+ # Mounted Galadrim Warriors Lvl 3
+ # 1/1/0/0/2/2
+ lotr_elven_silvan_mounted_warriors_3: "Mounted Galadrim Warriors"
+ lotr_elven_silvan_mounted_warriors_3_aDESCR: "An unit of Mounted Galadrim Warriors."
+ # Mounted Sindar Archers Lvl 3
+ # 1/1/0/0/2/2
+ lotr_elven_silvan_mounted_archers_3: "Mounted Sindar Archers"
+ lotr_elven_silvan_mounted_archers_3_aDESCR: "An unit of Mounted Sindar Archers."
+ 
+ # lotr_elven High Elf(Rivendell, Lindon, Harlindon, Forlindon, Caras Celerain)
+ # Quendi Bows Lvl 1
+ # 2/1/0/0/1/0
+ lotr_elven_quendi_bows_1: "Quendi Bows"
+ lotr_elven_quendi_bows_1_aDESCR: "An unit of Quendi Bows."
+ 
+ # Nórëtirno Warriors Lvl 2
+ # 2/1/0/0/1/0
+ lotr_elven_noretirno_warriors_2: "Nórëtirno Warriors"
+ lotr_elven_noretirno_warriors_2_aDESCR: "An unit of Nórëtirno Warriors."
+ 
+ # Lindon Pikes Lvl 3
+ # 2/1/0/0/1/0
+ lotr_elven_lindon_pikes_3: "Lindon Pikes"
+ lotr_elven_lindon_pikes_3_aDESCR: "An unit of Lindon Pikes."
+ # Lindon Archers Lvl 3
+ # 2/1/0/0/1/0
+ lotr_elven_lindon_archer_3: "Lindon Archers"
+ lotr_elven_lindon_archer_3_aDESCR: "An unit of Lindon Archers."
+ 
+ # Mithlond Noble Archers Lvl 4
+ # 2/1/0/0/1/0
+ lotr_elven_noble_archers_4: "Mithlond Noble Archers"
+ lotr_elven_noble_archers_4_aDESCR: "An unit of Mithlond Noble Archers."
+ # Mithlond Noble Swords Lvl 4
+ # 2/1/0/0/1/0
+ lotr_elven_noble_swords_4: "Mithlond Noble Swords"
+ lotr_elven_noble_swords_4_aDESCR: "An unit of Mithlond Noble Swords."
+ 
+ # Eldarinwë Spears Lvl 5
+ # 2/1/0/0/1/0
+ lotr_elven_eldarinwe_spear_5: "Eldarinwë Spears"
+ lotr_elven_eldarinwe_spear_5_aDESCR: "An unit of Eldarinwë Spears."
+ # Eldarinwë Swords Lvl 5
+ # 2/1/0/0/1/0
+ lotr_elven_eldarinwe_swords_5: "Eldarinwë Swords"
+ lotr_elven_eldarinwe_swords_5_aDESCR: "An unit of Eldarinwë Swords."
+ # Eldarinwë Archers Lvl 5
+ # 2/1/0/0/1/0
+ lotr_elven_eldarinwe_archer_5: "Eldarinwë Archers"
+ lotr_elven_eldarinwe_archer_5_aDESCR: "An unit of Eldarinwë Archers."
+ 
+ # Imladris Riders Lvl 1
+ # 2/1/0/0/1/0
+ lotr_elven_imladris_riders_1: "Imladris Riders"
+ lotr_elven_imladris_riders_1_aDESCR: "An unit of Imladris Riders."
+ 
+ # Nórëtirno Cavalry Lvl 2
+ # 2/1/0/0/1/0
+ lotr_elven_noretirno_cavalry_2: "Nórëtirno Cavalry"
+ lotr_elven_noretirno_cavalry_2_aDESCR: "An unit of Nórëtirno Cavalry."
+ 
+ # Eldarinwë Lances Lvl 3
+ # 2/1/0/0/1/0
+ lotr_elven_eldarinwe_lances_3: "Eldarinwë Lances"
+ lotr_elven_eldarinwe_lances_3_aDESCR: "An unit of Eldarinwë Lances."
+ 
+ # Eldarinwë Nobles Lvl 4
+ # 2/1/0/0/1/0
+ lotr_elven_eldarinwe_nobles_4: "Eldarinwë Nobles"
+ lotr_elven_eldarinwe_nobles_4_aDESCR: "An unit of Eldarinwë Nobles."
+ 
+ 
+ # lotr_easterling
+ # Tribesmen Lvl 1 
+ # 2/1/0/0/1/0
+ lotr_easterling_tribesmen_1: "Tribesmen"
+ lotr_easterling_tribesmen_1_aDESCR: "An unit of Tribesmen."
+ 
+ # Clansmen Shields Lvl 2 
+ # 2/1/0/0/1/0
+ lotr_easterling_clansmen_shields_2: "Clansmen Shields"
+ lotr_easterling_clansmen_shields_2_aDESCR: "An unit of Clansmen Shields."
+ # Clansmen Slingers Lvl 2 
+ # 2/1/0/0/1/0
+ lotr_easterling_clansmen_slingers_2: "Clansmen Slingers"
+ lotr_easterling_clansmen_slingers_2_aDESCR: "An unit of Clansmen Slingers."
+ 
+ # Golden Pikes Lvl 3 
+ # 2/1/0/0/1/0
+ lotr_easterling_golden_pikes_3: "Golden Pikes"
+ lotr_easterling_golden_pikes_3_aDESCR: "An unit of Golden Pikes."
+ # Golden Arrows Lvl 3 
+ # 2/1/0/0/1/0
+ lotr_easterling_golden_arrows_3: "Golden Arrows"
+ lotr_easterling_golden_arrows_3_aDESCR: "An unit of Golden Arrows."
+ 
+ # Clan Guard Lvl 4 
+ # 2/1/0/0/1/0
+ lotr_easterling_clan_guard_4: "Clan Guard"
+ lotr_easterling_clan_guard_4_aDESCR: "An unit of Clan Guard."
+ # Clan Warriors Lvl 4 
+ # 2/1/0/0/1/0
+ lotr_easterling_clan_warriors_4: "Clan Warriors"
+ lotr_easterling_clan_warriors_4_aDESCR: "An unit of Clan Warriors."
+ # Clan Crossbowmen Lvl 4 
+ # 2/1/0/0/1/0
+ lotr_easterling_clan_crossbowmen_4: "Clan Crossbowmen"
+ lotr_easterling_clan_crossbowmen_4_aDESCR: "An unit of Clan Crossbowmen."
+ 
+ # Lóke-Gamp Rim Spearmen Lvl 5
+ # 2/1/0/0/1/0
+ lotr_easterling_loke_flag_gamp_spearmen_5: "Lóke-Gamp Rim Spearmen"
+ lotr_easterling_loke_flag_gamp_spearmen_5_aDESCR: "An unit of Lóke-Gamp Rim Spearmen."
+ # Lóke-Flag Rim Heavy Infantry Lvl 5 
+ # 2/1/0/0/1/0
+ lotr_easterling_loke_flag_rim_heavy_infantry_5: "Lóke-Flag Rim Heavy Infantry"
+ lotr_easterling_loke_flag_rim_heavy_infantry_5_aDESCR: "An unit of Lóke-Flag Rim Heavy Infantry."
+ # Lóke-Nar Rim Archers Lvl 5 
+ # 2/1/0/0/1/0
+ lotr_easterling_loke_flag_nar_archer_5: "Lóke-Nar Rim Archers"
+ lotr_easterling_loke_flag_nar_archer_5_aDESCR: "An unit of Lóke-Nar Rim Archers."
+ 
+ # Sea of Rhun Raiders Lvl 1 
+ # 1/1/0/0/2/2
+ lotr_easterling_horse_riders_1: "Sea of Rhun Raiders"
+ lotr_easterling_horse_riders_1_aDESCR: "An unit of Sea of Rhun Raiders."
+ 
+ # Steppe Riders Lvl 2
+ # 1/1/0/0/2/2
+ lotr_easterling_steppe_riders_2: "Steppe Riders"
+ lotr_easterling_steppe_riders_2_aDESCR: "An unit of Steppe Riders."
+ 
+ # Lóke-Innas Rim Lvl 3
+ # 1/1/0/0/2/2
+ lotr_easterling_loke_innas_rim_cavalry_3: "Lóke-Innas Rim"
+ lotr_easterling_loke_innas_rim_cavalry_3_aDESCR: "An unit of Lóke-Innas Rim."
+ 
+ # Vainrider Chariot Lvl 4
+ # 1/1/0/0/2/2
+ lotr_easterling_vainrider_chariot_4: "Vainrider Chariot"
+ lotr_easterling_vainrider_chariot_4_aDESCR: "An unit of Vainrider Chariot."
+ 
+ # lotr_khand
+ # Variag Axemen Lvl 1 
+ # 2/1/0/0/1/0
+ lotr_khand_variag_axemen_1: "Variag Axemen"
+ lotr_khand_variag_axemen_1_aDESCR: "An unit of Variag Axemen."
+ # Variag Skirmishers Lvl 1 
+ # 2/1/0/0/1/0
+ lotr_khand_variag_skirmishers_1: "Variag Skirmishers"
+ lotr_khand_variag_skirmishers_1_aDESCR: "An unit of Variag Skirmishers."
+ 
+ # Khand's Men Lvl 2 
+ # 2/1/0/0/1/0
+ lotr_khand_khands_men_2: "Khand's Men"
+ lotr_khand_khands_men_2_aDESCR: "An unit of Khand's Men."
+ # Variag Slingers Lvl 2 
+ # 2/1/0/0/1/0
+ lotr_khand_variag_slinger_2: "Variag Slingers"
+ lotr_khand_variag_slinger_2_aDESCR: "An unit of Variag Slingers."
+ 
+ # Khûdriag-Ata Guard Lvl 3
+ # 2/1/0/0/1/0
+ lotr_khand_khudriag_ata_guard_3: "Khûdriag-Ata Guard"
+ lotr_khand_khudriag_ata_guard_3_aDESCR: "An unit of Khûdriag-Ata Guard."
+ # Khûdriag-Ata Shortbows Lvl 3 
+ # 2/1/0/0/1/0
+ lotr_khand_khurdriag_ata_shortbows_3: "Khûdriag-Ata Shortbows"
+ lotr_khand_khurdriag_ata_shortbows_3_aDESCR: "An unit of Khûdriag-Ata Shortbows."
+ 
+ # Variag Camel Riders Lvl 1
+ # 2/1/0/0/1/0
+ lotr_khand_camel_riders_1: "Variag Camel Riders"
+ lotr_khand_camel_riders_1_aDESCR: "An unit of Variag Camel Riders."
+ 
+ # Khûrs Lancers Lvl 2
+ # 2/1/0/0/1/0
+ lotr_khand_khurs_lancers_2: "Khûrs Lancers"
+ lotr_khand_khurs_lancers_2_aDESCR: "An unit of Khûrs Lancers."
+ # Khûrs Skirmishers Lvl 2
+ # 2/1/0/0/1/0
+ lotr_khand_khurs_skirmishers_2: "Khûrs Skirmishers"
+ lotr_khand_khurs_skirmishers_2_aDESCR: "An unit of Khûrs Skirmishers."
+ 
+ # Arsiyah Cavalry Lvl 3
+ # 2/1/0/0/1/0
+ lotr_khand_arsiyah_cavalry_3: "Arsiyah Cavalry"
+ lotr_khand_arsiyah_cavalry_3_aDESCR: "An unit of Arsiyah Cavalry."
+ # Variag Chariot Lvl 3
+ # 2/1/0/0/1/0
+ lotr_khand_variag_chariot_3: "Variag Chariot"
+ lotr_khand_variag_chariot_3_aDESCR: "An unit of Variag Chariot."
+ 
+ # Khandish Cavalry Lvl 4
+ # 2/1/0/0/1/0
+ lotr_khand_arsiyah_cavalry_3: "Khandish Cavalry"
+ lotr_khand_arsiyah_cavalry_3_aDESCR: "An unit of Khandish Cavalry."
+ # Steppe Shock Cavalry Lvl 4
+ # 2/1/0/0/1/0
+ lotr_khand_variag_chariot_3: "Steppe Shock Cavalry"
+ lotr_khand_variag_chariot_3_aDESCR: "An unit of Steppe Shock Cavalry."
+ 
+ # Khûdriag-Ata Chariot Lvl 5
+ # 2/1/0/0/1/0
+ lotr_khand_khudriag_ata_riders_5: "Khûdriag-Ata Chariot"
+ lotr_khand_khudriag_ata_riders_5_aDESCR: "An unit of Khûdriag-Ata Chariot."
+ # Khûdriag-Ata Riders Lvl 5
+ # 2/1/0/0/1/0
+ lotr_khand_khudriag_ata_chariot_5: "Khûdriag-Ata Riders"
+ lotr_khand_khudriag_ata_chariot_5_aDESCR: "An unit of Khûdriag-Ata Riders."
+ 
+ # lotr_haradrim
+ # Haradrim Spearmen Lvl 1
+ # 2/1/0/0/1/0
+ lotr_haradrim_spearmen_1: "Haradrim Spearmen"
+ lotr_haradrim_spearmen_1_aDESCR: "An unit of Haradrim Spearmen."
+ # Haradrim Swordsmen Lvl 1
+ # 1/2/1/1/0/1
+ lotr_haradrim_swordsmen_1: "Haradrim Swordsmen"
+ lotr_haradrim_swordsmen_1_aDESCR: "An unit of Haradrim Swordsmen."
+ 
+ # Southron Warband Spearmen Lvl 2
+ # 2/1/0/0/1/0
+ lotr_haradrim_warband_spearmen_2: "Southron Warband Spearmen"
+ lotr_haradrim_warband_spearmen_2_aDESCR: "An unit of Southron Warband Spearmen."
+ # Southron Warband Swordsmen Lvl 2
+ # 1/2/1/1/0/1
+ lotr_haradrim_warband_swordsmen_2: "Southron Warband Swordsmen"
+ lotr_haradrim_warband_swordsmen_2_aDESCR: "An unit of Southron Warband Swordsmen."
+ 
+ # Muhad Tribesmen Lvl 3
+ # 2/1/0/0/1/0
+ lotr_haradrim_muhad_tribesmen_3: "Muhad Tribesmen"
+ lotr_haradrim_muhad_tribesmen_3_aDESCR: "An unit of Muhad Tribesmen."
+ # Troll men of Far Harad Lvl 3
+ # 1/2/1/1/0/1
+ lotr_haradrim_troll_men_3: "Troll men of Far Harad"
+ lotr_haradrim_troll_men_3_aDESCR: "An unit of Troll men of Far Harad."
+ 
+ # Southron Pikemen Lvl 4
+ # 2/1/0/0/1/0
+ lotr_haradrim_southron_pike_4: "Southron Pikemen"
+ lotr_haradrim_southron_pike_4_aDESCR: "An unit of Southron Pikemen."
+ # Muhad veterans Lvl 4
+ # 1/2/1/1/0/1
+ lotr_haradrim_muhad_veterans_4: "Muhad Veterans"
+ lotr_haradrim_muhad_veterans_4_aDESCR: "An unit of Muhad Veterans."
+ 
+ # Serpent Guard Lvl 5
+ # 2/1/0/0/1/0
+ lotr_haradrim_serpant_guard_5: "Serpent Guard"
+ lotr_haradrim_serpant_guard_5_aDESCR: "An unit of Serpent Guard."
+ # Hasnarii Lvl 5
+ # 1/2/1/1/0/1
+ lotr_haradrim_hasnarii_5: "Hasnarii"
+ lotr_haradrim_hasnarii_5_aDESCR: "An unit of Hasnarii."
+ # Southron Archers Lvl 5
+ # 1/2/1/1/0/1
+ lotr_haradrim_southron_archers_5: "Southron Archers"
+ lotr_haradrim_southron_archers_5_aDESCR: "An unit of Southron Archers."
+ 
+ # Milita Caveraly Lvl 1
+ # 1/1/0/0/2/2
+ lotr_haradrim_knights_1: "Milita Caveraly"
+ lotr_haradrim_knights_1_aDESCR: "An unit of Milita Caveraly."
+ # Skirmish Caveraly Lvl 1
+ # 1/1/1/1/1/1
+ lotr_haradrim_horse_archers_1: "Skirmish Caveraly"
+ lotr_haradrim_horse_archers_1_aDESCR: "An unit of Skirmish Caveraly." 
+ 
+ # Southron Lancers Lvl 2
+ # 1/1/0/0/2/2
+ lotr_haradrim_southron_lancers_2: "Southron Lancers"
+ lotr_haradrim_southron_lancers_2_aDESCR: "An unit of Southron Lancers."
+ # Southron Archer Caveraly Lvl 2
+ # 1/1/1/1/1/1
+ lotr_haradrim_southron_horse_archer_2: "Southron Archer Caveraly"
+ lotr_haradrim_southron_horse_archer_2_aDESCR: "An unit of Southron Archer Caveraly."
+ 
+ # Muhad Beastmasters Lvl 3
+ # 1/1/0/0/2/2
+ lotr_haradrim_muhad_beastmasters_3: "Muhad Beastmasters"
+ lotr_haradrim_muhad_beastmasters_3_aDESCR: "An unit of Muhad Beastmasters."
+ # Haradrim Raiders Lvl 3
+ # 1/1/1/1/1/1
+ lotr_haradrim_haradrim_raiders_3: "Haradrim Raiders"
+ lotr_haradrim_haradrim_raiders_3_aDESCR: "An unit of Haradrim Raiders."
+ 
+ # Serpent Guard Riders Lvl 4
+ # 1/1/0/0/2/2
+ lotr_haradrim_serpent_horse_guard_4: "Serpent Guard Riders"
+ lotr_haradrim_serpent_horse_guard_4_aDESCR: "An unit of Serpent Guard Riders."
+ 
+ # Amoured Múmakill Lvl 5
+ # 1/1/1/1/1/1
+ lotr_haradrim_amoured_mumakill_5: "Amoured Múmakill"
+ lotr_haradrim_amoured_mumakill_5_aDESCR: "An unit of Amoured Múmakill."
+ 
+ # lotr_umbar
+ # Jackals of the Wharf Lvl 1
+ # 2/1/0/0/1/0
+ lotr_umbar_jackals_of_the_wharf_1: "Jackals of the Wharf"
+ lotr_umbar_jackals_of_the_wharf_1_aDESCR: "An unit of Jackals of the Wharf."
+ 
+ # Corsairs Pillager Lvl 2
+ # 1/2/1/1/0/1
+ lotr_umbar_corsair_pillager_2: "Corsairs Pillager"
+ lotr_umbar_corsair_pillager_2_aDESCR: "An unit of Corsairs Pillager."
+ # Corsair Archers Lvl 2
+ # 1/2/1/1/0/1
+ lotr_umbar_corsair_archer_2: "Corsair Archers"
+ lotr_umbar_corsair_archer_2_aDESCR: "An unit of Corsair Archers."
+ 
+ # Ampadis Hookmen Lvl 3
+ # 1/2/1/1/0/1
+ lotr_umbar_ampadis_hookmen_3: "Ampadis Hookmen"
+ lotr_umbar_ampadis_hookmen_3_aDESCR: "An unit of Ampadis Hookmen."
+ # Black Port Guards Lvl 3
+ # 1/2/1/1/0/1
+ lotr_umbar_black_port_guard_3: "Black Port Guards"
+ lotr_umbar_black_port_guard_3_aDESCR: "An unit of Black Port Guards."
+ 
+ # Castamiri Kainuheen Lvl 4
+ # 1/2/1/1/0/1
+ lotr_umbar_castamiri_kainuheen_4: "Castamiri Kainuheen"
+ lotr_umbar_castamiri_kainuheen_4_aDESCR: "An unit of Castamiri Kainuheen."
+ # Black Sail Boltermen Lvl 4
+ # 1/2/1/1/0/1
+ lotr_umbar_black_sail_boltermen_4: "Black Sail Boltermen"
+ lotr_umbar_black_sail_boltermen_4_aDESCR: "An unit of Black Sail Boltermen."
+ 
+ # Warguard of Umbar Lvl 5
+ # 1/2/1/1/0/1
+ lotr_umbar_warguard_of_umbar_5: "Warguard of Umbar"
+ lotr_umbar_warguard_of_umbar_5_aDESCR: "An unit of Warguard of Umbar."
+ # Warguard of Umbar Archer Lvl 5
+ # 1/2/1/1/0/1
+ lotr_umbar_warguard_of_umbar_archer_5: "Warguard of Umbar Archer"
+ lotr_umbar_warguard_of_umbar_archer_5_aDESCR: "An unit of Warguard of Umbar Archer."
+ 
+ # Black Sail Chariot Lvl 1
+ # 1/2/1/1/0/1
+ lotr_umbar_black_sail_chariot_1: "Black Sail Chariot"
+ lotr_umbar_black_sail_chariot_1_aDESCR: "An unit of Black Sail Chariot."
+ 
+ # Morardai Barons Lvl 2
+ # 1/2/1/1/0/1
+ lotr_umbar_morardai_barons_2: "Morardai Barons"
+ lotr_umbar_morardai_barons_2_aDESCR: "An unit of Morardai Barons."
+ 
+ # Heirs of Ar-Pharazôn Lvl 3
+ # 1/2/1/1/0/1
+ lotr_umbar_heirs_of_ar_pharazon_3: "Heirs of Ar-Pharazôn"
+ lotr_umbar_heirs_of_ar_pharazon_3_aDESCR: "An unit of Heirs of Ar-Pharazôn."
+ 
+ # lotr_rohirrim
+ # Eorling Militia Spearmen Lvl 1
+ # 2/1/0/0/1/0
+ lotr_rohirrim_eorling_militia_spear_1: "Eorling Militia Spearmen"
+ lotr_rohirrim_eorling_militia_spear_1_aDESCR: "An unit of rohirrim spearmen."
+ # Eorling Militia Axemen Lvl 1
+ # 2/0/0/0/2/0
+ lotr_rohirrim_eorling_militia_axe_1: "Eorling Militia Axemen"
+ lotr_rohirrim_eorling_militia_axe_1_aDESCR: "An unit of rohirrim Axemen."
+ # Eorling Militia Archers Lvl 1
+ # 0/2/1/1/0/1
+ lotr_rohirrim_eorling_militia_archers_1: "Eorling Militia Archers"
+ lotr_rohirrim_eorling_militia_archers_1_aDESCR: "An unit of rohirrim archers."
+ 
+ # Eorling Swordsmen Lvl 2
+ # 3/1/0/0/2/1
+ lotr_rohirrim_eorling_sword_2: "Eorling Swordsmen"
+ lotr_rohirrim_eorling_sword_2_aDESCR: "An unit of rohirrim swordmen."
+ # Eorling Axemen Lvl 2
+ # 3/1/0/0/3/0
+ lotr_rohirrim_eorling_axe_2: "Eorling Axemen"
+ lotr_rohirrim_eorling_axe_2_aDESCR: "An unit of rohirrim axemen."
+ # Eorling Archers Lvl 2
+ # 0/2/2/1/1/2
+ lotr_rohirrim_eorling_archers_2: "Eorling Archers"
+ lotr_rohirrim_eorling_archers_2_aDESCR: "An unit of rohirrim archers."
+ 
+ # Riddermark Spears Lvl 3
+ # 3/2/0/0/2/3
+ lotr_rohirrim_riddermark_spear_3: "Riddermark Spears"
+ lotr_rohirrim_riddermark_spear_3_aDESCR: "An unit of rohirrim spearmen."
+ # Riddermark Axemen Lvl 3
+ # 4/2/0/0/3/1
+ lotr_rohirrim_riddermark_axemen_3: "Riddermark Axemen"
+ lotr_rohirrim_riddermark_axemen_3_aDESCR: "An unit of rohirrim axemen."
+ 
+ # Éored Spears Lvl 4
+ # 4/4/0/0/2/3
+ lotr_rohirrim_eored_spear_4: "Éored Spears"
+ lotr_rohirrim_eored_spear_4_aDESCR: "An unit of rohirrim spearmen."
+ # Éored Axes Lvl 4
+ # 4/2/0/0/5/2
+ lotr_rohirrim_eored_axe_4: "Éored Axes"
+ lotr_rohirrim_eored_axe_4_aDESCR: "An unit of rohirrim axemen."
+ # Helmingas archers Lvl 4
+ # 2/3/2/3/1/3
+ lotr_rohirrim_helmingas_archers_4: "Helmingas Archers"
+ lotr_rohirrim_helmingas_archers_4_aDESCR: "An unit of rohirrim archers."
+ 
+ # Royal Guard Spears Lvl 5
+ # 4/5/0/0/2/5
+ lotr_rohirrim_royal_guard_spear_5: "Royal Guard Spears"
+ lotr_rohirrim_royal_guard_spear_5_aDESCR: "An unit of rohirrim spearmen."
+ # Royal Guard Swords Lvl 5
+ # 5/3/0/0/5/3
+ lotr_rohirrim_royal_guard_sword_5: "Royal Guard Swords"
+ lotr_rohirrim_royal_guard_sword_5_aDESCR: "An unit of rohirrim axemen."
+ # Royal Guard Archers Lvl 5
+ # 4/3/2/3/2/3
+ lotr_rohirrim_royal_guard_archer_5: "Royal Guard Archers"
+ lotr_rohirrim_royal_guard_archer_5_aDESCR: "An unit of rohirrim archers."
+ 
+ # Rohirrim Scouts Lvl 1
+ # 2/0/0/0/2/2
+ lotr_rohirrim_scouts_1: "Rohirrim Scouts"
+ lotr_rohirrim_scouts_1_aDESCR: "An unit of rohirrim cavalry."
+ 
+ # Rohirrim Riders Lvl 2
+ # 3/1/0/0/3/2
+ lotr_rohirrim_riders_2: "Rohirrim Riders of the Mark"
+ lotr_rohirrim_riders_2_aDESCR: "An unit of rohirrim horse archers."
+ # Rohirrim Horse Archers Lvl 2
+ # 1/0/1/0/4/2
+ lotr_rohirrim_horse_archers_2: "Rohirrim Horse Archers"
+ lotr_rohirrim_horse_archers_2_aDESCR: "An unit of rohirrim horse archers."
+ 
+ # Éored Horse Spears Lvl 3
+ # 3/1/0/0/5/3
+ lotr_rohirrim_eored_horse_spears_3: "Éored Riders"
+ lotr_rohirrim_eored_horse_spears_3_aDESCR: "An unit of rohirrim horse archers."
+ # Éored Horse Archers Lvl 3
+ # 1/0/4/0/4/2
+ lotr_rohirrim_eored_horse_archers_3: "Éored Horse Archers"
+ lotr_rohirrim_eored_horse_archers_3_aDESCR: "An unit of rohirrim horse archers."
+ 
+ # Riders of the Fold Spears Lvl 4
+ # 3/2/0/0/5/5
+ lotr_rohirrim_riders_fold_spear_4: "Riders of the Fold Spears"
+ lotr_rohirrim_riders_fold_spear_4_aDESCR: "An unit of rohirrim horse archers."
+ # Riders of the Fold Archers Lvl 4
+ # 3/2/4/0/4/2
+ lotr_rohirrim_riders_fold_archers_4: "Riders of the Fold Archers"
+ lotr_rohirrim_riders_fold_archers_4_aDESCR: "An unit of rohirrim horse archers."
+ 
+ # Royal Guard Riders Lvl 5
+ # 5/3/0/0/5/5
+ lotr_rohirrim_royal_guard_horse_spear_5: "Royal Guard Riders"
+ lotr_rohirrim_royal_guard_horse_spear_5_aDESCR: "An unit of rohirrim horse archers."
+ # Royal Guard Archers Lvl 5
+ # 3/2/4/2/5/2
+ lotr_rohirrim_royal_guard_horse_archer_5: "Royal Guard Skirmisher"
+ lotr_rohirrim_royal_guard_horse_archer_5_aDESCR: "An unit of rohirrim horse archers."
+ 
+ # lotr_northron
+ # Rhovanion men at arms lvl 1
+ # 2/1/0/0/1/0
+ lotr_northron_rhovanion_arms_1: "Rhovanion Men at Arms"
+ lotr_northron_rhovanion_arms_1_aDESCR: "An unit of Rhovanion Men at Arms."
+ 
+ # Woodsmen Axes lvl 2
+ # 1/2/1/1/0/1
+ lotr_northron_woodsmen_axes_2: "Woodsmen Axes"
+ lotr_northron_woodsmen_axes_2_aDESCR: "An unit of Woodsmen Axes."
+ # Woodsmen Archers lvl 2
+ # 1/2/1/1/0/1
+ lotr_northron_woodsmen_archers_2: "Woodsmen Archers"
+ lotr_northron_woodsmen_archers_2_aDESCR: "An unit of Woodsmen Archers."
+ 
+ # Rhovanion Spears lvl 3
+ # 1/2/1/1/0/1
+ lotr_northron_rhovanion_spears_3: "Rhovanion Spears"
+ lotr_northron_rhovanion_spears_3_aDESCR: "An unit of Rhovanion Spears."
+ # Rhovanions Hunters lvl 3
+ # 1/2/1/1/0/1
+ lotr_northron_rhovanion_hunters_3: "Rhovanions Hunters"
+ lotr_northron_rhovanion_hunters_3_aDESCR: "An unit of Rhovanions Hunters."
+ 
+ # Dorwinion Retainers lvl 4
+ # 1/2/1/1/0/1
+ lotr_northron_dorwinion_retainers_4: "Dorwinion Retainers"
+ lotr_northron_dorwinion_retainers_4_aDESCR: "An unit of Dorwinion Retainers."
+ # Dorwinion Archers lvl 4
+ # 1/2/1/1/0/1
+ lotr_northron_dorwinion_archers_4: "Dorwinion Archers"
+ lotr_northron_dorwinion_archers_4_aDESCR: "An unit of Dorwinion Archers."
+ 
+ # Rhovanion Gadraughts lvl 5
+ # 1/2/1/1/0/1
+ lotr_northron_rhovanion_gadraughts_5: "Rhovanion Gadraughts"
+ lotr_northron_rhovanion_gadraughts_5_aDESCR: "An unit of Rhovanion Gadraughts."
+ 
+ # Rhovanion Riders lvl 1
+ # 1/1/0/0/2/2
+ lotr_northron_rhovanion_riders_1: "Rhovanion Riders"
+ lotr_northron_rhovanion_riders_1_aDESCR: "An unit of Rhovanion Riders."
+ 
+ # Dorwinion Retainers Mounted lvl 2
+ # 1/1/1/1/1/1
+ lotr_northron_dorwinion_retainers_mounted_2: "Dorwinion Retainers Mounted"
+ lotr_northron_dorwinion_retainers_mounted_2_aDESCR: "An unit of Dorwinion Retainers Mounted." 
+ 
+ # Rhovanion Gadraughts Knights lvl 3
+ # 1/1/1/1/1/1
+ lotr_northron_rhovanion_gadraughts_knights_3: "Rhovanion Gadraughts Knights"
+ lotr_northron_rhovanion_gadraughts_knights_3_aDESCR: "An unit of Rhovanion Gadraughts Knights."
+
+ # lotr_dale
+ # Heath Watchers lvl 1
+ # 2/1/0/0/1/0
+ lotr_dale_heath_watchers_1: "Heath Watchers"
+ lotr_dale_heath_watchers_1_aDESCR: "An unit of Heath Watchers."
+ # Rivermen lvl 2
+ # 1/2/1/1/0/1
+ lotr_dale_rivermen_1: "Rivermen"
+ lotr_dale_rivermen_1_aDESCR: "An unit of Rivermen."
+ 
+ # Dalesmen lvl 2
+ # 1/2/1/1/0/1
+ lotr_dale_dalesmen_2: "Dalesmen"
+ lotr_dale_dalesmen_2_aDESCR: "An unit of Dalesmen."
+ 
+ # Winter guards lvl 3
+ # 1/2/1/1/0/1
+ lotr_dale_winter_guard_3: "Winter Guards"
+ lotr_dale_winter_guard_3_aDESCR: "An unit of Winter Guards."
+ 
+ # Bardian Hird lvl 4
+ # 1/2/1/1/0/1
+ lotr_dale_bardian_hird_4: "Bardian Hird"
+ lotr_dale_bardian_hird_4_aDESCR: "An unit of Bardian Hird."
+ # Bardian Marksmen lvl 4
+ # 1/2/1/1/0/1
+ lotr_dale_bardian_marksman_4: "Bardian Marksmen"
+ lotr_dale_bardian_marksman_4_aDESCR: "An unit of Bardian Marksmen."
+ 
+ # Earls Guard lvl 5
+ # 1/2/1/1/0/1
+ lotr_dale_earls_guard_5: "Earls Guard"
+ lotr_dale_earls_guard_5_aDESCR: "An unit of Earls Guard."
+ # Athala Rangers lvl 5
+ # 1/2/1/1/0/1
+ lotr_dale_athala_rangers_5: "Athala Rangers"
+ lotr_dale_athala_rangers_5_aDESCR: "An unit of Athala Rangers."
+ 
+ # Yeomen lvl 1
+ # 1/1/0/0/2/2
+ lotr_dale_yeomen_1: "Yeomen"
+ lotr_dale_yeomen_1_aDESCR: "An unit of Yeomen."
+ 
+ # Aihwothiuda Horses lvl 2
+ # 1/1/1/1/1/1
+ lotr_dale_aihwothiuda_horses_2: "Aihwothiuda Horses"
+ lotr_dale_aihwothiuda_horses_2_aDESCR: "An unit of Aihwothiuda Horses." 
+ 
+ # Earls Guard Knights lvl 3
+ # 1/1/1/1/1/1
+ lotr_dale_earls_guard_knights_3: "Earls Guard Knights"
+ lotr_dale_earls_guard_knights_3_aDESCR: "An unit of Earls Guard Knights." 
+ 
+ # lotr_beornings
+ # Beornings Shape Shifter lvl 1
+ # 2/1/0/0/1/0
+ lotr_nothron_beronings_1: "Beornings Shape Shifter"
+ lotr_nothron_beronings_1_aDESCR: "An unit of Beornings Shape Shifter."
+ 
+ # lotr_hobbit
+ # Hobbitry In Arms lvl 1
+ # 1/1/0/0/1/0
+ lotr_hobbit_in_arms_1: "Hobbitry In Arms"
+ lotr_hobbit_in_arms_1_aDESCR: "An unit of Hobbitry In Arms."
+ # Hobbitry Stone tossers lvl 1
+ # 1/1/1/1/0/1
+ lotr_hobbit_stone_tossers_1: "Hobbitry Stone tossers"
+ lotr_hobbit_stone_tossers_1_aDESCR: "An unit of Hobbitry Stone tossers."
+ 
+ # Sheriff Posse lvl 2
+ # 1/1/0/0/1/0
+ lotr_hobbit_sheriff_posse_2: "Sheriff Posse"
+ lotr_hobbit_sheriff_posse_2_aDESCR: "An unit of Sheriff Posse."
+ # Sheriff Archers lvl 2
+ # 1/1/1/1/0/1
+ lotr_hobbit_sheriff_archers_2: "Sheriff Archers"
+ lotr_hobbit_sheriff_archers_2_aDESCR: "An unit of Sheriff Archers."
+ 
+ # Bandobras followers lvl 3
+ # 1/1/0/0/1/0
+ lotr_hobbit_bandobras_followers_3: "Bandobras followers"
+ lotr_hobbit_bandobras_followers_3_aDESCR: "An unit of Bandobras followers."
+ # Bandobras Archers lvl 3
+ # 1/1/1/1/0/1
+ lotr_hobbit_bandobras_archers_3: "Bandobras Archers"
+ lotr_hobbit_bandobras_archers_3_aDESCR: "An unit of Bandobras Archers."
+ 
+ # Pony Riders lvl 1
+ # 1/1/0/0/1/1
+ lotr_hobbit_pony_riders_1: "Pony Riders"
+ lotr_hobbit_pony_riders_1_aDESCR: "An unit of Pony Riders."
+ 
+ # Bandobras Riders lvl 2
+ # 1/1/1/1/0/0
+ lotr_hobbit_bandobras_riders_2: "Bandobras Riders"
+ lotr_hobbit_bandobras_riders_2_aDESCR: "An unit of Bandobras Riders." 
+ 
+ # lotr_ent
+ # Ents
+ # 8/10/0/0/3/3
+ lotr_ent_big_ents: "Big Ents"
+ lotr_ent_big_ents_aDESCR: "An unit of ents."
+ # 3/3/0/0/10/8
+ lotr_ent_small_ents: "Small Ents"
+ lotr_ent_small_ents_aDESCR: "An unit of ents."
+ 
+ # Ent Rockthrowers (artillery)
+ # 2/2/8/8/2/2
+ lotr_ent_rock_throwers: "Ent Rockthrowers"
+ lotr_ent_rock_throwers_aDESCR: "An unit of ent rockthrowers."
+
+ # lotr_orc (Mordor)
+ # Orc Bands Lvl 1
+ # 2/1/0/0/1/0
+ lotr_orc_mordor_orc_bands_1: "Orc Bands"
+ lotr_orc_mordor_orc_bands_1_aDESCR: "An unit of Orc Bands."
+ # Orc Scouts Lvl 1
+ # 1/2/1/1/0/1
+ lotr_orc_mordor_orc_scouts_1: "Orc Scouts"
+ lotr_orc_mordor_orc_scouts_1_aDESCR: "An unit of Orc Scouts."
+ 
+ # Orc Maulers Lvl 2
+ # 2/1/0/0/1/0
+ lotr_orc_mordor_orc_maulers_2: "Orc Maulers"
+ lotr_orc_mordor_orc_maulers_2_aDESCR: "An unit of Orc Maulers."
+ # Orc Raiders Lvl 2
+ # 2/1/0/0/1/0
+ lotr_orc_mordor_orc_raider_2: "Orc Raiders"
+ lotr_orc_mordor_orc_raider_2_aDESCR: "An unit of Orc Raiders."
+ # Orc Archers Lvl 2
+ # 1/2/1/1/0/1
+ lotr_orc_mordor_orc_archers_2: "Orc Archers"
+ lotr_orc_mordor_orc_archers_2_aDESCR: "An unit of Orc Archers."
+ 
+ # Gorgoth Spawn Lvl 3
+ # 2/1/0/0/1/0
+ lotr_orc_mordor_gorgoth_spawn_3: "Gorgoth Spawn"
+ lotr_orc_mordor_gorgoth_spawn_3_aDESCR: "An unit of Gorgoth Spawn."
+ # Cirith Ungul Uruk Lvl 3
+ # 2/1/0/0/1/0
+ lotr_orc_mordor_cirith_ungol_uruk_3: "Cirith Ungul Uruk"
+ lotr_orc_mordor_cirith_ungol_uruk_3_aDESCR: "An unit of Cirith Ungul Uruk."
+ 
+ # Morannon Guard Lvl 4
+ # 2/1/0/0/1/0
+ lotr_orc_mordor_morannon_guard_4: "Morannon Guard"
+ lotr_orc_mordor_morannon_guard_4_aDESCR: "An unit of Morannon Guard."
+ # Morannon Archers Lvl 4
+ # 2/1/0/0/1/0
+ lotr_orc_mordor_morannon_archer_4: "Morannon Archers"
+ lotr_orc_mordor_morannon_archer_4_aDESCR: "An unit of Morannon Archers."
+ 
+ # Uruk Halberds Lvl 5
+ # 2/1/0/0/1/0
+ lotr_orc_mordor_uruk_halberds_5: "Uruk Halberds"
+ lotr_orc_mordor_uruk_halberds_5_aDESCR: "An unit of Uruk Halberds."
+ # Uruk Archers Lvl 5
+ # 2/1/0/0/1/0
+ lotr_orc_mordor_uruk_archer_5: "Uruk Archers"
+ lotr_orc_mordor_uruk_archer_5_aDESCR: "An unit of Uruk Archers."
+ 
+ # Orc Warg Riders Lvl 1 (Gundabad,Angmar,Mordor)
+ # 1/1/0/0/2/2
+ lotr_orc_warg_riders_1: "Orc Warg Riders"
+ lotr_orc_warg_riders_1_aDESCR: "An unit of Orc Warg Riders."
+ 
+ # Mountain Trolls Lvl 2 (Mordor)
+ # 1/1/0/0/2/2
+ lotr_orc_mountain_troll_2: "Mountain Trolls"
+ lotr_orc_mountain_troll_2_aDESCR: "An unit of Mountain Trolls."
+ 
+ # Olog-Hai Trolls Lvl 3 (Mordor)
+ # 1/1/0/0/2/2
+ lotr_orc_olog_hai_troll_3: "Olog-Hai Trolls"
+ lotr_orc_olog_hai_troll_3_aDESCR: "An unit of Olog-Hai Trolls."
+ 
+ # Troll Catapult Lvl 3 (Siege)(Gundabad,Angmar,Mordor)
+ # 1/1/0/0/2/2
+ lotr_siege_troll_catapult_3: "Troll Catapult"
+ lotr_siege_troll_catapult_3_aDESCR: "An unit of Troll Catapult."
+ 
+ # lotr_orc (Gundabad/Angmar)
+ # Snaga Stalkers Lvl 1
+ # 2/1/0/0/1/0
+ lotr_orc_snaga_stalkers_1: "Snaga Stalkers"
+ lotr_orc_snaga_stalkers_1_aDESCR: "An unit of Snaga Stalkers."
+ # Snaga Archers Lvl 1
+ # 1/2/1/1/0/1
+ lotr_orc_snaga_archers_1: "Snaga Archers"
+ lotr_orc_snaga_archers_1_aDESCR: "An unit of Snaga Archers."
+ 
+ # Orc Marauders Lvl 2
+ # 2/1/0/0/1/0
+ lotr_orc_marauders_2: "Orc Marauders"
+ lotr_orc_marauders_2_aDESCR: "An unit of Orc Marauders."
+ # Orc Halberdiers Lvl 2
+ # 1/2/1/1/0/1
+ lotr_orc_halberdiers_2: "Orc Halberdiers"
+ lotr_orc_halberdiers_2_aDESCR: "An unit of Orc Halberdiers."
+ 
+ # Grey Mountain Orcs Lvl 3
+ # 2/1/0/0/1/0
+ lotr_orc_grey_mountain_orc_3: "Grey Mountain Orcs"
+ lotr_orc_grey_mountain_orc_3_aDESCR: "An unit of Grey Mountain Orcs."
+ # Grey Mountain Spears Lvl 3
+ # 1/2/1/1/0/1
+ lotr_orc_grey_mountain_spear_3: "Grey Mountain Spears"
+ lotr_orc_grey_mountain_spear_3_aDESCR: "An unit of Grey Mountain Spears."
+ 
+ # Orc Fellers Lvl 4
+ # 1/2/1/1/0/1
+ lotr_orc_fellers_4: "Orc Fellers"
+ lotr_orc_fellers_4_aDESCR: "An unit of Orc Fellers."
+ 
+ # Gundabaduul Halberds (Gundabad) Lvl 5
+ # 2/1/0/0/1/0
+ lotr_orc_gundabaduul_halberds_5: "Gundabaduul Halberds"
+ lotr_orc_gundabaduul_halberds_5_aDESCR: "An unit of Gundabaduul Halberds."
+ # Gundabaduul Shortbows (Gundabad) Lvl 5
+ # 1/2/1/1/0/1
+ lotr_orc_gundabaduul_shortbows_5: "Gundabaduul Shortbows"
+ lotr_orc_gundabaduul_shortbows_5_aDESCR: "An unit of Gundabaduul Shortbows."
+ # Carn Dun Guard (Angmar) Lvl 5
+ # 2/1/0/0/1/0
+ lotr_orc_carn_dun_guard_5: "Carn Dun Guard"
+ lotr_orc_carn_dun_guard_5_aDESCR: "An unit of Carn Dun Guard."
+ # Carn Dun Protecters (Angmar) Lvl 5
+ # 1/2/1/1/0/1
+ lotr_orc_carn_dun_protecters_5: "Carn Dun Protecters"
+ lotr_orc_carn_dun_protecters_5_aDESCR: "An unit of Carn Dun Protecters."
+ 
+ # Cave Trolls (Gundabad/Angmar) Lvl 2
+ # 1/2/1/1/0/1
+ lotr_orc_cave_troll_2: "Cave Trolls"
+ lotr_orc_cave_troll_2_aDESCR: "An unit of Cave Trolls."
+ 
+ # Snow Trolls (Gundabad/Angmar) Lvl 3
+ # 1/2/1/1/0/1
+ lotr_orc_snow_troll_3: "Snow Trolls"
+ lotr_orc_snow_troll_3_aDESCR: "An unit of Snow Trolls."
+ 
+ # lotr_goblin
+ # Snaga Spears lvl 1
+ # 1/1/0/0/1/0
+ lotr_goblin_snaga_spears_1: "Snaga Spears"
+ lotr_goblin_snaga_spears_1_aDESCR: "An unit of Snaga Spears."
+ # Snaga Archers lvl 1
+ # 1/1/1/1/0/0
+ lotr_goblin_snaga_archers_1: "Snaga Archers"
+ lotr_goblin_snaga_archers_1_aDESCR: "An unit of Snaga Archers."
+ 
+ # Goblin Raiders lvl 2
+ # 1/1/0/0/1/0
+ lotr_goblin_goblin_raiders_2: "Goblin Raiders"
+ lotr_goblin_goblin_raiders_2_aDESCR: "An unit of Goblin Raiders."
+ # Goblin Archers lvl 2
+ # 1/1/1/1/0/0
+ lotr_goblin_goblin_archers_2: "Goblin Archers"
+ lotr_goblin_goblin_archers_2_aDESCR: "An unit of Goblin Archers."
+ 
+ # Armoured Goblin lvl 3
+ # 1/1/0/0/1/0
+ lotr_goblin_armoured_goblin_3: "Armoured Goblin"
+ lotr_goblin_armoured_goblin_3_aDESCR: "An unit of Armoured Goblin."
+ # Amoured Halberd lvl 3
+ # 1/1/1/1/0/0
+ lotr_goblin_armoured_halberd_3: "Amoured Halberd"
+ lotr_goblin_armoured_halberd_3_aDESCR: "An unit of Amoured Halberd."
+ # Armoured Archers lvl 3
+ # 1/1/1/1/0/0
+ lotr_goblin_armoured_archer_3: "Armoured Archers"
+ lotr_goblin_armoured_archer_3_aDESCR: "An unit of Armoured Archers."
+ 
+ # Goblin Spider Riders lvl 1
+ # 1/1/0/0/1/1
+ lotr_goblin_spider_riders_1: "Goblin Spider Riders"
+ lotr_goblin_spider_riders_1_aDESCR: "An unit of Goblin Spider Riders."
+ 
+ # Goblin Warg Riders lvl 2
+ # 1/1/1/1/0/0
+ lotr_goblin_warg_riders_2: "Goblin Warg Riders"
+ lotr_goblin_warg_riders_2_aDESCR: "An unit of Goblin Warg Riders." 
+ 
+ # Cave Troll lvl 3
+ # 1/1/1/1/0/0
+ lotr_goblin_cave_troll_3: "Cave Troll"
+ lotr_goblin_cave_troll_3_aDESCR: "An unit of Cave Troll." 
+ 
+ # lotr_troll
+ # Stone troll Lvl 1
+ # 4/5/0/0/3/3
+ lotr_troll_stone_1: "Stone Trolls"
+ lotr_troll_stone_1_aDESCR: "An unit of Stone trolls."
+ # Hill troll Lvl 1
+ # 3/3/0/0/4/5
+ lotr_troll_hill_1: "Hill Trolls"
+ lotr_troll_hill_1_aDESCR: "An unit of Hill trolls."
+ 
+ # Rock Thrower Lvl 1
+ # 2/2/4/4/2/2
+ lotr_troll_rock_thrower_1: "Rock Thrower Troll"
+ lotr_troll_rock_thrower_1_aDESCR: "An unit of Rock Thrower Troll."
+ 
+ # Stone troll Lvl 2
+ # 5/7/0/0/3/3
+ lotr_troll_stone_2: "Armed Stone Trolls"
+ lotr_troll_stone_2_aDESCR: "An unit of Stone trolls."
+ # Hill troll Lvl 2
+ # 3/3/0/0/5/7
+ lotr_troll_hill_2: "Armed Hill Trolls"
+ lotr_troll_hill_2_aDESCR: "An unit of Hill trolls."
+ 
+ # Rock Thrower Lvl 2
+ # 2/2/5/5/2/2
+ lotr_troll_rock_thrower_2: "Armed Rock Thrower Troll"
+ lotr_troll_rock_thrower_2_aDESCR: "An unit of Rock Thrower Troll."
+ 
+ # Stone troll Lvl 3
+ # 6/8/0/0/4/4
+ lotr_troll_stone_3: "Armoured Stone Trolls"
+ lotr_troll_stone_3_aDESCR: "An unit of Stone trolls."
+ # Hill troll Lvl 3
+ # 4/4/0/0/6/8
+ lotr_troll_hill_3: "Armoured Hill Trolls"
+ lotr_troll_hill_3_aDESCR: "An unit of Hill trolls."
+ 
+ # Rock Thrower Lvl 3
+ # 3/3/6/6/2/2
+ lotr_troll_rock_thrower_3: "Armoured Rock Thrower Troll"
+ lotr_troll_rock_thrower_3_aDESCR: "An unit of Rock Thrower Troll."
+ 
+ # lotr_uruk_hai
+ # Dunland Raiders Lvl 1
+ # 3/4/0/0/2/2
+ lotr_uruk_hai_dunland_raider_1: "Dunland Raiders"
+ lotr_uruk_hai_dunland_raider_1_aDESCR: "An unit of Dunland Raiders."
+ # Uruk Hai Reavers Lvl 1
+ # 4/2/0/0/4/2
+ lotr_uruk_hai_reaver_1: "Uruk-Hai Reavers"
+ lotr_uruk_hai_reaver_1_aDESCR: "An unit of Uruk-Hai Reavers."
+ 
+ # Uruk Hai Pikes Lvl 2
+ # 4/5/0/0/3/3
+ lotr_uruk_hai_pike_2: "Uruk-Hai Pikes"
+ lotr_uruk_hai_pike_2_aDESCR: "An unit of Uruk-Hai Pikes."
+ # Uruk Hai Raiders Lvl 2
+ # 5/2/0/0/5/2
+ lotr_uruk_hai_raider_2: "Uruk-Hai Raiders"
+ lotr_uruk_hai_raider_2_aDESCR: "An unit of Uruk-Hai Raiders."
+ # Uruk Hai Archer Lvl 2
+ # 4/4/2/2/1/2
+ lotr_uruk_hai_archer_2: "Uruk-Hai Archer"
+ lotr_uruk_hai_archer_2_aDESCR: "An unit of Uruk-Hai Archer."
+ 
+ # Uruk hai Infantry Lvl 3
+ # 5/5/0/0/4/2
+ lotr_uruk_hai_infantry_3: "Uruk-hai Infantry"
+ lotr_uruk_hai_infantry_3_aDESCR: "An unit of Uruk-hai Infantry."
+ # Berserkers Lvl 3
+ # 7/1/0/0/7/1
+ lotr_uruk_hai_berserkers_3: "Uruk-hai Berserkers"
+ lotr_uruk_hai_berserkers_3_aDESCR: "An unit of Uruk-hai Berserkers."
+ # Uruk Hai Crossbows Lvl 3
+ # 4/4/3/2/3/1
+ lotr_uruk_hai_crossbow_3: "Uruk-hai Crossbows"
+ lotr_uruk_hai_crossbow_3_aDESCR: "An unit of Uruk-hai Crossbows."
+ 
+ # Uruk-hai Warg Riders Lvl 1
+ # 4/3/3/1/5/4
+ lotr_uruk_hai_warg_1: "Uruk-hai Warg Riders"
+ lotr_uruk_hai_warg_1_aDESCR: "An unit of uruk-hai cavalry."
+ 
+ # Dunmen Clansmen Lvl 1
+ # 2/0/0/0/1/1
+ lotr_dunmen_clansmen_1: "Clansmen"
+ lotr_dunmen_clansmen_1_aDESCR: "An unit of Clansmen."
+ 
+ # Dunmen Slaeghedar Spearmen Lvl 2
+ # 2/2/0/0/1/3
+ lotr_dunmen_slaeghedar_spear_2: "Slaeghedar Spearmen"
+ lotr_dunmen_slaeghedar_spear_2_aDESCR: "An unit of Slaeghedar Spearmen."
+ # Dunmen Slaeghedar Spear throwers Lvl 2
+ # 2/0/3/0/2/1
+ lotr_dunmen_slaeghedar_spear_throw_2: "Slaeghedar Spear throwers"
+ lotr_dunmen_slaeghedar_spear_throw_2_aDESCR: "An unit of Slaeghedar Spear throwers."
+ 
+ # Dunmen Wolf Hunters Lvl 3
+ # 4/2/1/0/2/2
+ lotr_dunmen_wolf_hunter_3: "Wolf Hunters"
+ lotr_dunmen_wolf_hunter_3_aDESCR: "An unit of Wolf Hunters."
+ # Dunmen Boar Hunters Lvl 3
+ # 3/3/0/0/2/2
+ lotr_dunmen_boar_hunter_3: "Boar Hunters"
+ lotr_dunmen_boar_hunter_3_aDESCR: "An unit of Boar Hunters."
+ # Dunmen Bear Hunters Lvl 3
+ # 2/4/0/1/1/3
+ lotr_dunmen_bear_hunter_3: "Bear Hunters"
+ lotr_dunmen_bear_hunter_3_aDESCR: "An unit of Bear Hunters."
+ 
+ # Dunmen Udmoraich Fanatics Lvl 4
+ # 5/1/4/0/5/0
+ lotr_dunmen_udmoraich_fanatics_4: "Udmoraich Fanatics"
+ lotr_dunmen_udmoraich_fanatics_4_aDESCR: "An unit of Udmoraich Fanatics."
+ # Dunmen Highland Warriors Lvl 4
+ # 3/4/2/0/2/3
+ lotr_dunmen_highland_warriors_4: "Highland Warriors"
+ lotr_dunmen_highland_warriors_4_aDESCR: "An unit of Highland Warriors."
+ 
+ # Dunmen Saighedar Infantry Lvl 5
+ # 5/4/2/0/4/3
+ lotr_dunmen_saighedar_infantry_5: "Saighedar Infantry"
+ lotr_dunmen_saighedar_infantry_5_aDESCR: "An unit of Saighedar Infantry."
+ # Dunmen Saighedar Archers Lvl 5
+ # 3/4/4/2/2/3
+ lotr_dunmen_saighedar_archer_5: "Saighedar Archers"
+ lotr_dunmen_saighedar_archer_5_aDESCR: "An unit of Saighedar Archers."
+ # Dunmen Wolfs Guard Lvl 5
+ # 7/2/2/0/5/2
+ lotr_dunmen_wolf_guard_5: "Wolf Guard"
+ lotr_dunmen_wolf_guard_5_aDESCR: "An unit of Wolf Guard."
+ 
+ # Dunmen War Hounds Lvl 1
+ # 2/0/0/0/3/0
+ lotr_dunmen_warhounds_1: "War Hounds"
+ lotr_dunmen_warhounds_1_aDESCR: "An unit of War Hounds."
+ 
+ # Dunmen Isenmarch Riders Lvl 2
+ # 3/2/1/0/2/2
+ lotr_dunmen_isenmarch_riders_2: "Isenmarch Riders"
+ lotr_dunmen_isenmarch_riders_2_aDESCR: "An unit of Isenmarch Riders."
+ 
+ # Dunmen Mounted Saighedar Lancers Lvl 3
+ # 5/3/0/0/5/3
+ lotr_dunmen_mounted_saighedar_lancers_3: "Mounted Saighedar Lancers"
+ lotr_dunmen_mounted_saighedar_lancers_3_aDESCR: "An unit of Mounted Saighedar Lancers."
+ 
+ # Wildmen Tribes men Lvl 1
+ # 3/0/0/0/1/0
+ lotr_wildmen_tribes_men_1: "Tribes Men"
+ lotr_wildmen_tribes_men_1_aDESCR: "An unit of Tribes Men."
+ # Wildmen Rhudaur Axmen Lvl 2
+ # 3/1/1/0/2/1
+ lotr_wildmen_axe_raiders_2: "Axe Raiders"
+ lotr_wildmen_axe_raiders_2_aDESCR: "An unit of Axe Raiders."
+ # Wildmen Clans Guard Lvl 3
+ # 4/2/2/0/3/1
+ lotr_wildmen_heavy_axemen_3: "Heavy Axemen"
+ lotr_wildmen_heavy_axemen_3_aDESCR: "An unit of Heavy Axemen."
+ 
+ # Wildmen Mounted Tribesmen Lvl 1
+ # 1/0/3/0/2/0
+ lotr_wildmen_mounted_tribesmen_1: "Mounted Tribesmen"
+ lotr_wildmen_mounted_tribesmen_1_aDESCR: "An unit of Mounted Tribesmen."
+ 
+ # Wildmen Mounted Axe Raiders Lvl 2
+ # 1/1/1/1/1/2
+ lotr_wildmen_mounted_axe_raiders_2: "Mounted Axe Raiders"
+ lotr_wildmen_mounted_axe_raiders_2_aDESCR: "An unit of Mounted Axe Raiders."
+ 
+ # Hillmen Hillmen Tribes men Lvl 1
+ # 3/0/0/0/1/0
+ lotr_hillmen_hillmen_tribes_men_1: "Hillmen Tribes Men"
+ lotr_hillmen_hillmen_tribes_men_1_aDESCR: "An unit of Hillmen Tribes Men."
+ # Hillmen Rhudaur Axmen Lvl 2
+ # 3/1/1/0/2/1
+ lotr_hillmen_rhudaur_axemen_2: "Rhudaur Raiders"
+ lotr_hillmen_rhudaur_axemen_2_aDESCR: "An unit of Rhudaur Raiders."
+ # Hillmen Clans Guard Lvl 3
+ # 4/2/2/0/3/1
+ lotr_hillmen_clans_guard_3: "Clans Guard"
+ lotr_hillmen_clans_guard_3_aDESCR: "An unit of Clans Guard."
+ 
+ # Hillmen Rhudaur Scouts Lvl 1
+ # 1/0/3/0/2/0
+ lotr_hillmen_rhudaur_scouts_1: "Rhudaur Scouts"
+ lotr_hillmen_rhudaur_scouts_1_aDESCR: "An unit of Rhudaur Scouts."
+ 
+ # Hillmen Mounted Clans Guard Lvl 2
+ # 1/1/1/1/1/2
+ lotr_hillmen_mounted_clans_guard_2: "Mounted Clans Guard"
+ lotr_hillmen_mounted_clans_guard_2_aDESCR: "An unit of Mounted Clans Guard."
+ 
+ # Snowmen Harpoon Fishers Lvl 1
+ # 0/1/0/1/1/1
+ lotr_snowmen_harpoon_fishers_1: "Harpoon Fishers"
+ lotr_snowmen_harpoon_fishers_1_aDESCR: "An unit of Harpoon Fishers."
+ # Snowmen Winter Coats Lvl 2
+ # 1/1/0/2/2/2
+ lotr_snowmen_winter_coats_2: "Winter Coats"
+ lotr_snowmen_winter_coats_2_aDESCR: "An unit of Winter Coats."
+ # Snowmen Whale Hunters Lvl 3
+ # 2/2/0/2/3/3
+ lotr_snowmen_whale_hunters_3: "Whale Hunters"
+ lotr_snowmen_whale_hunters_3_aDESCR: "An unit of Whale Hunters."
+ 
+ # Snowmen Wolf Sled Ambushers Lvl 1
+ # 1/1/1/1/1/2
+ lotr_snowmen_wolf_sled_ambushers_1: "Wolf Sled Ambushers"
+ lotr_snowmen_wolf_sled_ambushers_1_aDESCR: "An unit of Wolf Sled Ambushers."
+ 
+ # Spider Giant Spider Lvl 1
+ # 4/2/0/0/5/3
+ lotr_spider_giant_spider_1: "Giant Spider"
+ lotr_spider_giant_spider_1_aDESCR: "An unit of Giant Spider."
+ 
+ # Spider spider swarm Lvl 1
+ # 4/2/0/0/5/3
+ lotr_spider_spider_swarm_1: "Spider Swarm"
+ lotr_spider_spider_swarm_1_aDESCR: "An unit of Spider Swarm."
+ 
+ # Other
+ lotr_siege_balista: "Balista"
+ lotr_siege_balista_DESCR: "An unit of siege engines."
+ 
+ lotr_siege_catapult: "Catapult"
+ lotr_siege_catapult_DESCR: "An unit of siege engines."
+ 
+ lotr_siege_trebuchet: "Trebuchet"
+ lotr_siege_trebuchet_DESCR: "An unit of siege engines."
+ 
+ lotr_improved_siege_engines: "Improved Siege Engines"
+ lotr_improved_siege_engines_DESCR: "An unit of siege engines."
+ 
+ lotr_greater_siege_engines: "Greater Siege Engines"
+ lotr_greater_siege_engines_DESCR: "An unit of siege engines."
+ 
+ lotr_nazgul: "Nazgul Riders"
+ lotr_nazgul_DESCR: "Nazgul riding upon beasts."
+ 
+ lotr_warship: "Warship"
+ lotr_warship_DESCR: ""
+ lotr_cargoship: "Cargoship"
+ lotr_cargoship_DESCR: ""
+ lotr_galley: "Galley"
+ lotr_galley_DESCR: ""
+ lotr_cog: "Cog"
+ lotr_cog_DESCR: ""

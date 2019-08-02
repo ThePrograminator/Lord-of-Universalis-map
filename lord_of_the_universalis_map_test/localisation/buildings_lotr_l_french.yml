@@ -1,0 +1,1250 @@
+﻿l_french:
+ ################################################
+ # Human Buildings
+ ################################################
+ ################################################
+ # Human Main Building or a higher tiers
+ ################################################
+  
+ settlement_building:0 "Settlement"
+ settlement_building_short:0 "Settlement"
+ building_settlement_building: "Settlement"
+ building_settlement_building_desc: "Until a Settlement is build in this province, the province is mostly considered more of a territory. But with a defined Settlement, we will be able to improve the province by starting to build other buildings aswell."
+ build_settlement_building_title:0 "Build Settlement in $PROVINCENAME$"
+ build_settlement_building_desc:1 "Until a Settlement is build in this province, the province is mostly considered more of a territory. But with a defined Settlement, we will be able to improve the province by starting to build other buildings aswell."
+ 
+ ################################################
+ # Human Main Building or a higher tiers (City)
+ ################################################
+ 
+ city_1_building:0 "City 1"
+ city_1_building_short:0 "City 1"
+ building_city_1_building: "City 1"
+ building_city_1_building_desc: ""
+ build_city_1_building_title:0 "Build City 1 in $PROVINCENAME$"
+ build_city_1_building_desc: "1"
+ 
+ city_2_building:0 "City 2"
+ city_2_building_short:0 "City 2"
+ building_city_2_building: "City 2"
+ building_city_2_building_desc: ""
+ build_city_2_building_title:0 "Build City 2 in $PROVINCENAME$"
+ build_city_2_building_desc: "2"
+ 
+ city_3_building:0 "City 3"
+ city_3_building_short:0 "City 3"
+ building_city_3_building: "City 3"
+ building_city_3_building_desc: ""
+ build_city_3_building_title:0 "Build City 3 in $PROVINCENAME$"
+ build_city_3_building_desc: "3"
+ 
+ ################################################
+ # Human Main Building or a higher tiers (Fortress)
+ ################################################
+ 
+ fortress_1_building:0 "Fortress 1"
+ fortress_1_building_short:0 "Fortress 1"
+ building_fortress_1_building: "Fortress 1"
+ building_fortress_1_building_desc: ""
+ build_fortress_1_building_title:0 "Build Fortress 1 in $PROVINCENAME$"
+ build_fortress_1_building_desc: "1"
+ 
+ fortress_2_building:0 "Fortress 2"
+ fortress_2_building_short:0 "Fortress 2"
+ building_fortress_2_building: "Fortress 2"
+ building_fortress_2_building_desc: ""
+ build_fortress_2_building_title:0 "Build Fortress 2 in $PROVINCENAME$"
+ build_fortress_2_building_desc: "2"
+ 
+ fortress_3_building:0 "Fortress 3"
+ fortress_3_building_short:0 "Fortress 3"
+ building_fortress_3_building: "Fortress 3"
+ building_fortress_3_building_desc: ""
+ build_fortress_3_building_title:0 "Build Fortress 3 in $PROVINCENAME$"
+ build_fortress_3_building_desc: "3"
+ 
+ ################################################
+ # Human Main Building or a higher tiers (Capital)
+ ################################################
+ 
+ capital_1_building:0 "Capital 1"
+ capital_1_building_short:0 "Capital 1"
+ building_capital_1_building: "Capital 1"
+ building_capital_1_building_desc: ""
+ build_capital_1_building_title:0 "Build Capital 1 in $PROVINCENAME$"
+ build_capital_1_building_desc: "1"
+ 
+ capital_2_building:0 "Capital 2"
+ capital_2_building_short:0 "Capital 2"
+ building_capital_2_building: "Capital 2"
+ building_capital_2_building_desc: ""
+ build_capital_2_building_title:0 "Build Capital 2 in $PROVINCENAME$"
+ build_capital_2_building_desc: "2"
+ 
+ capital_3_building:0 "Capital 3"
+ capital_3_building_short:0 "Capital 3"
+ building_capital_3_building: "Capital 3"
+ building_capital_3_building_desc: ""
+ build_capital_3_building_title:0 "Build Capital 3 in $PROVINCENAME$"
+ build_capital_3_building_desc: "3"
+ 
+ ################################################
+ # Human Trade Buildings
+ ################################################
+ 
+ trade_outpost_building:0 "Trade Outpost"
+ trade_outpost_building_short:0 "Trade Outpost"
+ building_trade_outpost_building: "Trade Outpost"
+ building_trade_outpost_building_desc: "Requires: §YAny Main Building§!"
+ build_trade_outpost_building_title:0 "Build Trade Outpost in $PROVINCENAME$"
+ build_trade_outpost_building_desc: "Requires: §YAny Main Building§!"
+ 
+ marketplace_building:0 "Marketplace"
+ marketplace_building_short:0 "Marketplace"
+ building_marketplace_building: "Marketplace"
+ building_marketplace_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ build_marketplace_building_title:0 "Build Marketplace in $PROVINCENAME$"
+ build_marketplace_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ 
+ trade_depot_building:0 "Trade Depot"
+ trade_depot_building_short:0 "Trade Depot"
+ building_trade_depot_building: "Trade Depot"
+ building_trade_depot_building_desc: "Requires: §YCity or Capital Tier 2 - Main Building§! or a higher tier"
+ build_trade_depot_building_title:0 "Build Trade Depot in $PROVINCENAME$"
+ build_trade_depot_building_desc: "Requires: §YCity or Capital Tier 2 - Main Building§! or a higher tier"
+ 
+ forum_building:0 "Forum"
+ forum_building_short:0 "Forum"
+ building_forum_building: "Forum"
+ building_forum_building_desc: "Requires: §YCity or Capital Tier 3§! - Main Building"
+ build_forum_building_title:0 "Build Forum in $PROVINCENAME$"
+ build_forum_building_desc: "Requires: §YCity or Capital Tier 3§! - Main Building"
+ 
+ ################################################
+ # Human Taxation Buildings
+ ################################################
+ 
+ temple_building:0 "Temple"
+ temple_building_short:0 "Temple"
+ building_temple_building: "Temple"
+ building_temple_building_desc: "Requires: §YAny Main Building§!"
+ build_temple_building_title:0 "Build Temple in $PROVINCENAME$"
+ build_temple_building_desc: "Requires: §YAny Main Building§!"
+ 
+ tax_office_building:0 "Tax Office"
+ tax_office_building_short:0 "Tax Office"
+ building_tax_office_building: "Tax Office"
+ building_tax_office_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ build_tax_office_building_title:0 "Build Tax Office in $PROVINCENAME$"
+ build_tax_office_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ 
+ provincial_office_building:0 "Province Office"
+ provincial_office_building_short:0 "Province Office"
+ building_provincial_office_building: "Province Office"
+ building_provincial_office_building_desc: "Requires: §YCity or Capital Tier 2 - Main Building§! or a higher tier"
+ build_provincial_office_building_title:0 "Build Province Office in $PROVINCENAME$"
+ build_provincial_office_building_desc: "Requires: §YCity or Capital Tier 2 - Main Building§! or a higher tier"
+ 
+ bank_building:0 "Bank"
+ bank_building_short:0 "Bank"
+ building_bank_building: "Bank"
+ building_bank_building_desc: "Requires: §YCity or Capital Tier 3§! - Main Building"
+ build_bank_building_title:0 "Build Bank in $PROVINCENAME$"
+ build_bank_building_desc: "Requires: §YCity or Capital Tier 3§! - Main Building"
+ 
+ ################################################
+ # Human Production Buildings
+ ################################################
+ 
+ work_camp_building:0 "Work Camp"
+ work_camp_building_short:0 "Work Camp"
+ building_work_camp_building: "Work Camp"
+ building_work_camp_building_desc: "Requires: §YAny Main Building§!"
+ build_work_camp_building_title:0 "Build Work Camp in $PROVINCENAME$"
+ build_work_camp_building_desc: "Requires: §YAny Main Building§!"
+ 
+ workshop_building:0 "Workshop"
+ workshop_building_short:0 "Workshop"
+ building_workshop_building: "Workshop"
+ building_workshop_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ build_workshop_building_title:0 "Build Workshop in $PROVINCENAME$"
+ build_workshop_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ 
+ warehouse_building:0 "Warehouse"
+ warehouse_building_short:0 "Warehouse"
+ building_warehouse_building: "Warehouse"
+ building_warehouse_building_desc: "Requires: §YCity or Capital Tier 2 - Main Building§! or a higher tier"
+ build_warehouse_building_title:0 "Build Warehouse in $PROVINCENAME$"
+ build_warehouse_building_desc: "Requires: §YCity or Capital Tier 2 - Main Building§! or a higher tier"
+ 
+ stockpile_building:0 "Stockpile"
+ stockpile_building_short:0 "Stockpile"
+ building_stockpile_building: "Stockpile"
+ building_stockpile_building_desc: "Requires: §YCity or Capital Tier 3§! - Main Building"
+ build_stockpile_building_title:0 "Build Stockpile in $PROVINCENAME$"
+ build_stockpile_building_desc: "Requires: §YCity or Capital Tier 3§! - Main Building"
+ 
+ forge_building:0 "Forge"
+ forge_building_short:0 "Forge"
+ building_forge_building: "Forge"
+ building_forge_building_desc: "Requires: §YFortress or Capital Tier 2§! - Main Building or a higher tier"
+ build_forge_building_title:0 "Build Forge in $PROVINCENAME$"
+ build_forge_building_desc: "Requires: §YFortress or Capital Tier 2§! - Main Building or a higher tier"
+ 
+ foundry_building:0 "Foundry"
+ foundry_building_short:0 "Foundry"
+ building_foundry_building: "Foundry"
+ building_foundry_building_desc: "Requires: §YFortress or Capital Tier 3§! - Main Building"
+ build_foundry_building_title:0 "Build Foundry in $PROVINCENAME$"
+ build_foundry_building_desc: "Requires: §YFortress or Capital Tier 3§! - Main Building"
+ 
+ ################################################
+ # Human Fortification Buildings
+ ################################################
+ 
+ fort_pallisade_building:0 "Pallisade"
+ fort_pallisade_building_short:0 "Pallisade"
+ building_fort_pallisade_building: "Pallisade"
+ building_fort_pallisade_building_desc: "Requires: §YAny Main Building§!"
+ build_fort_pallisade_building_title:0 "Build Pallisade in $PROVINCENAME$"
+ build_fort_pallisade_building_desc: "Requires: §YAny Main Building§!"
+ 
+ fort_castle_building:0 "Castle"
+ fort_castle_building_short:0 "Castle"
+ building_fort_castle_building: "Castle"
+ building_fort_castle_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ build_fort_castle_building_title:0 "Build Castle in $PROVINCENAME$"
+ build_fort_castle_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ 
+ fort_stronghold_building:0 "Stronghold"
+ fort_stronghold_building_short:0 "Stronghold"
+ building_fort_stronghold_building: "Stronghold"
+ building_fort_stronghold_building_desc: "Requires: §YFortress or Capital Tier 2§! - Main Building or a higher tier"
+ build_fort_stronghold_building_title:0 "Build Stronghold in $PROVINCENAME$"
+ build_fort_stronghold_building_desc: "Requires: §YFortress or Capital Tier 2§! - Main Building or a higher tier"
+ 
+ fort_citidal_building:0 "Citadal"
+ fort_citidal_building_short:0 "Citadal"
+ building_fort_citidal_building: "Citadal"
+ building_fort_citidal_building_desc: "Requires: §YFortress or Capital Tier 3§! - Main Building"
+ build_fort_citidal_building_title:0 "Build Citidal in $PROVINCENAME$"
+ build_fort_citidal_building_desc: "Requires: §YFortress or Capital Tier 3§! - Main Building"
+ 
+ ################################################
+ # Human Army Buildings
+ ################################################
+ 
+ outpost_building:0 "Outpost"
+ outpost_building_short:0 "Outpost"
+ building_outpost_building: "Outpost"
+ building_outpost_building_desc: "Requires: §YAny Main Building§!"
+ build_outpost_building_title:0 "Build Outpost in $PROVINCENAME$"
+ build_outpost_building_desc: "Requires: §YAny Main Building§!"
+ 
+ army_camp_building:0 "Army Camp"
+ army_camp_building_short:0 "Army Camp"
+ building_army_camp_building: "Army Camp"
+ building_army_camp_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ build_army_camp_building_title:0 "Build Army Camp in $PROVINCENAME$"
+ build_army_camp_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ 
+ barracks_building:0 "Barracks"
+ barracks_building_short:0 "Barracks"
+ building_barracks_building: "Barracks"
+ building_barracks_building_desc: "Requires: §YFortress or Capital Tier 2§! - Main Building or a higher tier"
+ build_barracks_building_title:0 "Build Barracks in $PROVINCENAME$"
+ build_barracks_building_desc: "Requires: §YFortress or Capital Tier 2§! - Main Building or a higher tier"
+ 
+ garrison_building:0 "Garrison"
+ garrison_building_short:0 "Garrison"
+ building_garrison_building: "Garrison"
+ building_garrison_building_desc: "Requires: §YFortress or Capital Tier 3§! - Main Building"
+ build_garrison_building_title:0 "Build Garrison in $PROVINCENAME$"
+ build_garrison_building_desc: "Requires: §YFortress or Capital Tier 3§! - Main Building"
+ 
+ ################################################
+ # Human Navy Buildings
+ ################################################
+ 
+ port_building:0 "Port"
+ port_building_short:0 "Port"
+ building_port_building: "Port"
+ building_port_building_desc: "Requires: §YAny Main Building§!"
+ build_port_building_title:0 "Build Port in $PROVINCENAME$"
+ build_port_building_desc: "Requires: §YAny Main Building§!"
+ 
+ dock_building:0 "Dock"
+ dock_building_short:0 "Dock"
+ building_dock_building: "Dock"
+ building_dock_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ build_dock_building_title:0 "Build Dock in $PROVINCENAME$"
+ build_dock_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ 
+ seaport_building:0 "Seaport"
+ seaport_building_short:0 "Seaport"
+ building_seaport_building: "Seaport"
+ building_seaport_building_desc: "Requires: §YCity or Capital Tier 2 - Main Building§! or a higher tier"
+ build_seaport_building_title:0 "Build Seaport in $PROVINCENAME$"
+ build_seaport_building_desc: "Requires: §YCity or Capital Tier 2 - Main Building§! or a higher tier"
+ 
+ dockyard_building:0 "Dockyard"
+ dockyard_building_short:0 "Dockyard"
+ building_dockyard_building: "Dockyard"
+ building_dockyard_building_desc: "Requires: §YCity or Capital Tier 3§! - Main Building"
+ build_dockyard_building_title:0 "Build Dockyard in $PROVINCENAME$"
+ build_dockyard_building_desc: "Requires: §YCity or Capital Tier 3§! - Main Building"
+ 
+ drydock_building:0 "Drydock"
+ drydock_building_short:0 "Drydock"
+ building_drydock_building: "Drydock"
+ building_drydock_building_desc: "Requires: §YFortress or Capital Tier 2§! - Main Building or a higher tier"
+ build_drydock_building_title:0 "Build Drydock in $PROVINCENAME$"
+ build_drydock_building_desc: "Requires: §YFortress or Capital Tier 2§! - Main Building or a higher tier"
+ 
+ grand_shipyard_building:0 "Grand Shipyard"
+ grand_shipyard_building_short:0 "Grand Shipyard"
+ building_grand_shipyard_building: "Grand Shipyard"
+ building_grand_shipyard_building_desc: "Requires: §YFortress or Capital Tier 3§! - Main Building"
+ build_grand_shipyard_building_title:0 "Build Grand Shipyard in $PROVINCENAME$"
+ build_grand_shipyard_building_desc: "Requires: §YFortress or Capital Tier 3§! - Main Building"
+ 
+ ################################################
+ # Dwarf Buildings
+ ################################################
+ ################################################
+ # Dwarf Main Building or a higher tiers
+ ################################################
+  
+ colony_outpost_dwarf_building:0 "Colony Outpost"
+ colony_outpost_dwarf_building_short:0 "Colony Outpost"
+ building_colony_outpost_dwarf_building: "Colony Outpost"
+ building_colony_outpost_dwarf_building_desc: "Until a Colony Outpost is build in this province, the province is mostly considered more of a territory. But with a defined Colony Outpost, we will be able to improve the province by starting to build other buildings aswell."
+ build_colony_outpost_dwarf_building_title:0 "Build Colony Outpost in $PROVINCENAME$"
+ build_colony_outpost_dwarf_building_desc:1 "Until a Colony Outpost is build in this province, the province is mostly considered more of a territory. But with a defined Colony Outpost, we will be able to improve the province by starting to build other buildings aswell."
+ 
+ ################################################
+ # Dwarf Main Building or a higher tiers (City)
+ ################################################
+ 
+ settlement_1_dwarf_building:0 "Settlement 1"
+ settlement_1_dwarf_building_short:0 "Settlement 1"
+ building_settlement_1_dwarf_building: "Settlement 1"
+ building_settlement_1_dwarf_building_desc: "Requires: Either §Ya Mountainous terrain type§! and the §Ydwellers are Not Dwarves§!, or §Ynot a Mountainous terrain type§!"
+ build_settlement_1_dwarf_building_title:0 "Build Settlement 1 in $PROVINCENAME$"
+ build_settlement_1_dwarf_building_desc: "Requires: Either §Ya Mountainous terrain type§! and the §Ydwellers are Not Dwarves§!, or §Ynot a Mountainous terrain type§!"
+ 
+ settlement_2_dwarf_building:0 "Settlement 2"
+ settlement_2_dwarf_building_short:0 "Settlement 2"
+ building_settlement_2_dwarf_building: "Settlement 2"
+ building_settlement_2_dwarf_building_desc: "Requires: Either §Ya Mountainous terrain type§! and the §Ydwellers are Not Dwarves§!, or §Ynot a Mountainous terrain type§!"
+ build_settlement_2_dwarf_building_title:0 "Build Settlement 2 in $PROVINCENAME$"
+ build_settlement_2_dwarf_building_desc: "Requires: Either §Ya Mountainous terrain type§! and the §Ydwellers are Not Dwarves§!, or §Ynot a Mountainous terrain type§!"
+ 
+ settlement_3_dwarf_building:0 "Settlement 3"
+ settlement_3_dwarf_building_short:0 "Settlement 3"
+ building_settlement_3_dwarf_building: "Settlement 3"
+ building_settlement_3_dwarf_building_desc: "Requires: Either §Ya Mountainous terrain type§! and the §Ydwellers are Not Dwarves§!, or §Ynot a Mountainous terrain type§!"
+ build_settlement_3_dwarf_building_title:0 "Build Settlement 3 in $PROVINCENAME$"
+ build_settlement_3_dwarf_building_desc: "Requires: Either §Ya Mountainous terrain type§! and the §Ydwellers are Not Dwarves§!, or §Ynot a Mountainous terrain type§!"
+ 
+ ################################################
+ # Dwarf Main Building or a higher tiers (Fortress)
+ ################################################
+ 
+ hold_1_dwarf_building:0 "Hold 1"
+ hold_1_dwarf_building_short:0 "Hold 1"
+ building_hold_1_dwarf_building: "Hold 1"
+ building_hold_1_dwarf_building_desc: "Requires: §YA Mountainous terrain type§! and the §Ydwellers are Dwarves§!"
+ build_hold_1_dwarf_building_title:0 "Build Hold 1 in $PROVINCENAME$"
+ build_hold_1_dwarf_building_desc: "Requires: §YA Mountainous terrain type§! and the §Ydwellers are Dwarves§!"
+ 
+ hold_2_dwarf_building:0 "Hold 2"
+ hold_2_dwarf_building_short:0 "Hold 2"
+ building_hold_2_dwarf_building: "Hold 2"
+ building_hold_2_dwarf_building_desc: "Requires: §YA Mountainous terrain type§! and the §Ydwellers are Dwarves§!"
+ build_hold_2_dwarf_building_title:0 "Build Hold 2 in $PROVINCENAME$"
+ build_hold_2_dwarf_building_desc: "Requires: §YA Mountainous terrain type§! and the §Ydwellers are Dwarves§!"
+ 
+ hold_3_dwarf_building:0 "Hold 3"
+ hold_3_dwarf_building_short:0 "Hold 3"
+ building_hold_3_dwarf_building: "Hold 3"
+ building_hold_3_dwarf_building_desc: "Requires: §YA Mountainous terrain type§! and the §Ydwellers are Dwarves§!"
+ build_hold_3_dwarf_building_title:0 "Build Hold 3 in $PROVINCENAME$"
+ build_hold_3_dwarf_building_desc: "Requires: §YA Mountainous terrain type§! and the §Ydwellers are Dwarves§!"
+ 
+ ################################################
+ # Dwarf Main Building or a higher tiers (Capital)
+ ################################################
+ 
+ capital_1_dwarf_building:0 "Capital 1"
+ capital_1_dwarf_building_short:0 "Capital 1"
+ building_capital_1_dwarf_building: "Capital 1"
+ building_capital_1_dwarf_building_desc: ""
+ build_capital_1_dwarf_building_title:0 "Build Capital 1 in $PROVINCENAME$"
+ build_capital_1_dwarf_building_desc: "1"
+ 
+ capital_2_dwarf_building:0 "Capital 2"
+ capital_2_dwarf_building_short:0 "Capital 2"
+ building_capital_2_dwarf_building: "Capital 2"
+ building_capital_2_dwarf_building_desc: ""
+ build_capital_2_dwarf_building_title:0 "Build Capital 2 in $PROVINCENAME$"
+ build_capital_2_dwarf_building_desc: "2"
+ 
+ capital_3_dwarf_building:0 "Capital 3"
+ capital_3_dwarf_building_short:0 "Capital 3"
+ building_capital_3_dwarf_building: "Capital 3"
+ building_capital_3_dwarf_building_desc: ""
+ build_capital_3_dwarf_building_title:0 "Build Capital 3 in $PROVINCENAME$"
+ build_capital_3_dwarf_building_desc: "3"
+ 
+ ################################################
+ # Dwarf Trade Buildings
+ ################################################
+ 
+ material_exchance_dwarf_building:0 "Material Exchance"
+ material_exchance_dwarf_building_short:0 "Material Exchance"
+ building_material_exchance_dwarf_building: "Material Exchance"
+ building_material_exchance_dwarf_building_desc: "Requires: §YAny Main Building§!"
+ build_material_exchance_dwarf_building_title:0 "Build Material Exchance in $PROVINCENAME$"
+ build_material_exchance_dwarf_building_desc: "Requires: §YAny Main Building§!"
+ 
+ fairground_dwarf_building:0 "Fairground"
+ fairground_dwarf_building_short:0 "Fairground"
+ building_fairground_dwarf_building: "Fairground"
+ building_fairground_dwarf_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ build_fairground_dwarf_building_title:0 "Build Fairground in $PROVINCENAME$"
+ build_fairground_dwarf_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ 
+ great_market_dwarf_building:0 "Great Market"
+ great_market_dwarf_building_short:0 "Great Market"
+ building_great_market_dwarf_building: "Great Market"
+ building_great_market_dwarf_building_desc: "Requires: §YSettlement or Capital Tier 3§! - Main Building"
+ build_great_market_dwarf_building_title:0 "Build Great Market in $PROVINCENAME$"
+ build_great_market_dwarf_building_desc: "Requires: §YSettlement or Capital Tier 3§! - Main Building"
+ 
+ traders_guild_building:0 "Traders Guild"
+ traders_guild_building_short:0 "Traders Guild"
+ building_traders_guild_building: "Traders Guild"
+ building_traders_guild_building_desc: "Requires: §YSettlement or Capital Tier 2 - Main Building§! or a higher tier"
+ build_traders_guild_building_title:0 "Build Traders Guild in $PROVINCENAME$"
+ build_traders_guild_building_desc: "Requires: §YSettlement or Capital Tier 2 - Main Building§! or a higher tier"
+ 
+ ################################################
+ # Dwarf Taxation Buildings
+ ################################################
+ 
+ armoury_dwarf_building:0 "Amoury"
+ armoury_dwarf_building_short:0 "Amoury"
+ building_armoury_dwarf_building: "Amoury"
+ building_armoury_dwarf_building_desc: "Requires: §YAny Main Building§!"
+ build_armoury_dwarf_building_title:0 "Build Amoury in $PROVINCENAME$"
+ build_armoury_dwarf_building_desc: "Requires: §YAny Main Building§!"
+ 
+ forge_dwarf_building:0 "Forge"
+ forge_dwarf_building_short:0 "Forge"
+ building_forge_dwarf_building: "Forge"
+ building_forge_dwarf_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ build_forge_dwarf_building_title:0 "Build Forge in $PROVINCENAME$"
+ build_forge_dwarf_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ 
+ arsenal_dwarf_building:0 "Arsenal"
+ arsenal_dwarf_building_short:0 "Arsenal"
+ building_arsenal_dwarf_building: "Arsenal"
+ building_arsenal_dwarf_building_desc: "Requires: Any §YTier 2 - Main Building§! or a higher tier"
+ build_arsenal_dwarf_building_title:0 "Build Arsenal in $PROVINCENAME$"
+ build_arsenal_dwarf_building_desc: "Requires: Any §YTier 2 - Main Building§! or a higher tier"
+ 
+ smithies_guild_building:0 "Smithies Guild"
+ smithies_guild_building_short:0 "Smithies Guild"
+ building_smithies_guild_building: "Smithies Guild"
+ building_smithies_guild_building_desc: "Requires: §YAny Tier 3§! - Main Building"
+ build_smithies_guild_building_title:0 "Build Smithies Guild in $PROVINCENAME$"
+ build_smithies_guild_building_desc: "Requires: §YAny Tier 3§! - Main Building"
+ 
+ ################################################
+ # Dwarf State Buildings
+ ################################################
+ 
+ libary_dwarf_building:0 "Library"
+ libary_dwarf_building_short:0 "Library"
+ building_libary_dwarf_building: "Library"
+ building_libary_dwarf_building_desc: "Requires: §YAny Main Building§!"
+ build_libary_dwarf_building_title:0 "Build Library in $PROVINCENAME$"
+ build_libary_dwarf_building_desc: "Requires: §YAny Main Building§!"
+ 
+ research_office_dwarf_building:0 "Research Office"
+ research_office_dwarf_building_short:0 "Research Office"
+ building_research_office_dwarf_building: "Research Office"
+ building_research_office_dwarf_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ build_research_office_dwarf_building_title:0 "Build Research Office in $PROVINCENAME$"
+ build_research_office_dwarf_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ 
+ acadamy_dwarf_building:0 "Acadamy"
+ acadamy_dwarf_building_short:0 "Acadamy"
+ building_acadamy_dwarf_building: "Acadamy"
+ building_acadamy_dwarf_building_desc: "Requires: Any §YTier 2 - Main Building§! or a higher tier"
+ build_acadamy_dwarf_building_title:0 "Build Acadamy in $PROVINCENAME$"
+ build_acadamy_dwarf_building_desc: "Requires: Any §YTier 2 - Main Building§! or a higher tier"
+ 
+ advisor_guild_dwarf_building:0 "Advisors Guild"
+ advisor_guild_dwarf_building_short:0 "Advisors Guild"
+ building_advisor_guild_dwarf_building: "Advisors Guild"
+ building_advisor_guild_dwarf_building_desc: "Requires: §YAny Tier 3§! - Main Building"
+ build_advisor_guild_dwarf_building_title:0 "Build Advisors Guild in $PROVINCENAME$"
+ build_advisor_guild_dwarf_building_desc: "Requires: §YAny Tier 3§! - Main Building"
+ 
+ ################################################
+ # Dwarf Army Buildings
+ ################################################
+ 
+ mustering_hall_dwarf_building:0 "Mustering Hall"
+ mustering_hall_dwarf_building_short:0 "Mustering Hall"
+ building_mustering_hall_dwarf_building: "Mustering Hall"
+ building_mustering_hall_dwarf_building_desc: "Requires: §YAny Main Building§!"
+ build_mustering_hall_dwarf_building_title:0 "Build Mustering Hall in $PROVINCENAME$"
+ build_mustering_hall_dwarf_building_desc: "Requires: §YAny Main Building§!"
+ 
+ training_hall_dwarf_building:0 "Training Hall"
+ training_hall_dwarf_building_short:0 "Training Hall"
+ building_training_hall_dwarf_building: "Training Hall"
+ building_training_hall_dwarf_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ build_training_hall_dwarf_building_title:0 "Build Training Hall in $PROVINCENAME$"
+ build_training_hall_dwarf_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ 
+ hall_of_warriors_dwarf_building:0 "Hall of Warriors"
+ hall_of_warriors_dwarf_building_short:0 "Hall of Warriors"
+ building_hall_of_warriors_dwarf_building: "Hall of Warriors"
+ building_hall_of_warriors_dwarf_building_desc: "Requires: §YHold or Capital Tier 3 - Main Building§!"
+ build_hall_of_warriors_dwarf_building_title:0 "Build Hall of Warriors in $PROVINCENAME$"
+ build_hall_of_warriors_dwarf_building_desc: "Requires: §YHold or Capital Tier 3 - Main Building§!"
+ 
+ warriors_guild_dwarf_building:0 "Warriors Guild"
+ warriors_guild_dwarf_building_short:0 "Warriors Guild"
+ building_warriors_guild_dwarf_building: "Warriors Guild"
+ building_warriors_guild_dwarf_building_desc: "Requires: §YHold or Capital Tier 2 - Main Building§! or a higher tier"
+ build_warriors_guild_dwarf_building_title:0 "Build Warriors Guild in $PROVINCENAME$"
+ build_warriors_guild_dwarf_building_desc: "Requires: §YHold or Capital Tier 2 - Main Building§! or a higher tier"
+ 
+ ################################################
+ # Dwarf Army Buildings
+ ################################################
+ 
+ mine_shaft_dwarf_building:0 "Mine Shaft"
+ mine_shaft_dwarf_building_short:0 "Mine Shaft"
+ building_mine_shaft_dwarf_building: "Mine Shaft"
+ building_mine_shaft_dwarf_building_desc: "Requires: §YAny Main Building§!"
+ build_mine_shaft_dwarf_building_title:0 "Build Mine Shaft in $PROVINCENAME$"
+ build_mine_shaft_dwarf_building_desc: "Requires: §YAny Main Building§!"
+ 
+ mining_network_dwarf_building:0 "Mining Network"
+ mining_network_dwarf_building_short:0 "Mining Network"
+ building_mining_network_dwarf_building: "Mining Network"
+ building_mining_network_dwarf_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ build_mining_network_dwarf_building_title:0 "Build Mining Network in $PROVINCENAME$"
+ build_mining_network_dwarf_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ 
+ materials_depot_building:0 "Materials Depot"
+ materials_depot_building_short:0 "Materials Depot"
+ building_materials_depot_building: "Materials Depot"
+ building_materials_depot_building_desc: "Requires: §YHold or Capital Tier 3 - Main Building§!"
+ build_materials_depot_building_title:0 "Build Materials Depot in $PROVINCENAME$"
+ build_materials_depot_building_desc: "Requires: §YHold or Capital Tier 3 - Main Building§!"
+ 
+ miners_guild_dwarf_building:0 "Miners Guild"
+ miners_guild_dwarf_building_short:0 "Miners Guild"
+ building_miners_guild_dwarf_building: "Miners Guild"
+ building_miners_guild_dwarf_building_desc: "Requires: §YHold or Capital Tier 2 - Main Building§! or a higher tier"
+ build_miners_guild_dwarf_building_title:0 "Build Miners Guild in $PROVINCENAME$"
+ build_miners_guild_dwarf_building_desc: "Requires: §YHold or Capital Tier 2 - Main Building§! or a higher tier"
+ 
+ ################################################
+ # Dwarf Fortification Buildings (Dwarf Hold Only)
+ ################################################
+ 
+ fort_small_gatehouse_dwarf_building:0 "Small Gatehouse"
+ fort_small_gatehouse_dwarf_building_short:0 "Small Gatehouse"
+ building_fort_small_gatehouse_dwarf_building: "Small Gatehouse"
+ building_fort_small_gatehouse_dwarf_building_desc: "Requires: §YHold or Capital Tier 1 - Main Building§! or a higher tier"
+ build_fort_small_gatehouse_dwarf_building_title:0 "Build Small Gatehouse in $PROVINCENAME$"
+ build_fort_small_gatehouse_dwarf_building_desc: "Requires: §YHold or Capital Tier 1 - Main Building§! or a higher tier"
+ 
+ fort_great_gatehouse_dwarf_building:0 "Great Gatehouse"
+ fort_great_gatehouse_dwarf_building_short:0 "Great Gatehouse"
+ building_fort_great_gatehouse_dwarf_building: "Great Gatehouse"
+ building_fort_great_gatehouse_dwarf_building_desc: "Requires: §YHold or Capital Tier 1 - Main Building§! or a higher tier"
+ build_fort_great_gatehouse_dwarf_building_title:0 "Build Great Gatehouse in $PROVINCENAME$"
+ build_fort_great_gatehouse_dwarf_building_desc: "Requires: §YHold or Capital Tier 1 - Main Building§! or a higher tier"
+ 
+ fort_mountain_fortress_dwarf_building:0 "Mountain Fortress"
+ fort_mountain_fortress_dwarf_building_short:0 "Mountain Fortress"
+ building_fort_mountain_fortress_dwarf_building: "Mountain Fortress"
+ building_fort_mountain_fortress_dwarf_building_desc: "Requires: §YHold or Capital Tier 2 - Main Building§! or a higher tier"
+ build_fort_mountain_fortress_dwarf_building_title:0 "Build Mountain Fortress in $PROVINCENAME$"
+ build_fort_mountain_fortress_dwarf_building_desc: "Requires: §YHold or Capital Tier 2 - Main Building§! or a higher tier"
+ 
+ fort_mountain_citidal_dwarf_building:0 "Mountain Citadal"
+ fort_mountain_citidal_dwarf_building_short:0 "Mountain Citadal"
+ building_fort_mountain_citidal_dwarf_building: "Mountain Citadal"
+ building_fort_mountain_citidal_dwarf_building_desc: "Requires: §YHold or Capital Tier 3 - Main Building§!"
+ build_fort_mountain_citidal_dwarf_building_title:0 "Build Mountain Citadal in $PROVINCENAME$"
+ build_fort_mountain_citidal_dwarf_building_desc: "Requires: §YHold or Capital Tier 3 - Main Building§!"
+ 
+ ################################################
+ # Dwarf Fortification Buildings (Dwarf Settlement Only)
+ ################################################
+ 
+ fort_pallisade_dwarf_building:0 "Pallisade"
+ fort_pallisade_dwarf_building_short:0 "Pallisade"
+ building_fort_pallisade_dwarf_building: "Pallisade"
+ building_fort_pallisade_dwarf_building_desc: "Requires: §YSettlement or Capital Tier 1 - Main Building§! or a higher tier"
+ build_fort_pallisade_dwarf_building_title:0 "Build Pallisade in $PROVINCENAME$"
+ build_fort_pallisade_dwarf_building_desc: "Requires: §YSettlement or Capital Tier 1 - Main Building§! or a higher tier"
+ 
+ fort_castle_dwarf_building:0 "Castle"
+ fort_castle_dwarf_building_short:0 "Castle"
+ building_fort_castle_dwarf_building: "Castle"
+ building_fort_castle_dwarf_building_desc: "Requires: §YSettlement or Capital Tier 2 - Main Building§! or a higher tier"
+ build_fort_castle_dwarf_building_title:0 "Build Castle in $PROVINCENAME$"
+ build_fort_castle_dwarf_building_desc: "Requires: §YSettlement or Capital Tier 2 - Main Building§! or a higher tier"
+ 
+ ################################################
+ # Dwarf Defence Buildings (Hold Only)
+ ################################################
+ 
+ rune_door_dwarf_building:0 "Rune Door"
+ rune_door_dwarf_building_short:0 "Rune Door"
+ building_rune_door_dwarf_building: "Rune Door"
+ building_rune_door_dwarf_building_desc: "Requires: §YHold or Capital Tier 1 - Main Building§! or a higher tier"
+ build_rune_door_dwarf_building_title:0 "Build Rune Door in $PROVINCENAME$"
+ build_rune_door_dwarf_building_desc: "Requires: §YHold or Capital Tier 1 - Main Building§! or a higher tier"
+ 
+ narrow_bridge_dwarf_building:0 "Narrow Bridge"
+ narrow_bridge_dwarf_building_short:0 "Narrow Bridge"
+ building_narrow_bridge_dwarf_building: "Narrow Bridge"
+ building_narrow_bridge_dwarf_building_desc: "Requires: §YHold or Capital Tier 1 - Main Building§! or a higher tier"
+ build_narrow_bridge_dwarf_building_title:0 "Build Narrow Bridge in $PROVINCENAME$"
+ build_narrow_bridge_dwarf_building_desc: "Requires: §YHold or Capital Tier 1 - Main Building§! or a higher tier"
+ 
+ moat_dwarf_building:0 "Moat"
+ moat_dwarf_building_short:0 "Moat"
+ building_moat_dwarf_building: "Moat"
+ building_moat_dwarf_building_desc: "Requires: §YHold or Capital Tier 2 - Main Building§! or a higher tier"
+ build_moat_dwarf_building_title:0 "Build Moat in $PROVINCENAME$"
+ build_moat_dwarf_building_desc: "Requires: §YHold or Capital Tier 2 - Main Building§! or a higher tier"
+ 
+ ballista_towers_dwarf_building:0 "Ballista Tower"
+ ballista_towers_dwarf_building_short:0 "Ballista Tower"
+ building_ballista_towers_dwarf_building: "Ballista Tower"
+ building_ballista_towers_dwarf_building_desc: "Requires: §YHold or Capital Tier 3 - Main Building§!"
+ build_ballista_towers_dwarf_building_title:0 "Build Ballista Tower in $PROVINCENAME$"
+ build_ballista_towers_dwarf_building_desc: "Requires: §YHold or Capital Tier 3 - Main Building§!"
+ 
+ ################################################
+ # Elf Buildings
+ ################################################
+ ################################################
+ # Elf Main Building or a higher tiers
+ ################################################
+  
+ noble_residence_elf_building:0 "Noble Residence"
+ noble_residence_elf_building_short:0 "Noble Residence"
+ building_noble_residence_elf_building: "Noble Residence"
+ building_noble_residence_elf_building_desc: "Until a Noble Residence is build in this province, the province is mostly considered more of a territory. But with a defined Noble Residence, we will be able to improve the province by starting to build other buildings aswell."
+ build_noble_residence_elf_building_title:0 "Build Noble Residence in $PROVINCENAME$"
+ build_noble_residence_elf_building_desc:1 "Until a Noble Residence is build in this province, the province is mostly considered more of a territory. But with a defined Noble Residence, we will be able to improve the province by starting to build other buildings aswell."
+ 
+ ################################################
+ # Elf Main Building or a higher tiers (City)
+ ################################################
+ 
+ town_1_elf_building:0 "Town 1"
+ town_1_elf_building_short:0 "Town 1"
+ building_town_1_elf_building: "Town 1"
+ building_town_1_elf_building_desc: ""
+ build_town_1_elf_building_title:0 "Build Town 1 in $PROVINCENAME$"
+ build_town_1_elf_building_desc: "1"
+ 
+ town_2_elf_building:0 "Town 2"
+ town_2_elf_building_short:0 "Town 2"
+ building_town_2_elf_building: "Town 2"
+ building_town_2_elf_building_desc: ""
+ build_town_2_elf_building_title:0 "Build Town 2 in $PROVINCENAME$"
+ build_town_2_elf_building_desc: "2"
+ 
+ town_3_elf_building:0 "Town 3"
+ town_3_elf_building_short:0 "Town 3"
+ building_town_3_elf_building: "Town 3"
+ building_town_3_elf_building_desc: ""
+ build_town_3_elf_building_title:0 "Build Town 3 in $PROVINCENAME$"
+ build_town_3_elf_building_desc: "3"
+ 
+ ################################################
+ # Elf Main Building or a higher tiers (Fortress)
+ ################################################
+ 
+ fort_1_elf_building:0 "Fort 1"
+ fort_1_elf_building_short:0 "Fort 1"
+ building_fort_1_elf_building: "Fort 1"
+ building_fort_1_elf_building_desc: ""
+ build_fort_1_elf_building_title:0 "Build Fort 1 in $PROVINCENAME$"
+ build_fort_1_elf_building_desc: "1"
+ 
+ fort_2_elf_building:0 "Fort 2"
+ fort_2_elf_building_short:0 "Fort 2"
+ building_fort_2_elf_building: "Fort 2"
+ building_fort_2_elf_building_desc: ""
+ build_fort_2_elf_building_title:0 "Build Fort 2 in $PROVINCENAME$"
+ build_fort_2_elf_building_desc: "2"
+ 
+ fort_3_elf_building:0 "Fort 3"
+ fort_3_elf_building_short:0 "Fort 3"
+ building_fort_3_elf_building: "Fort 3"
+ building_fort_3_elf_building_desc: ""
+ build_fort_3_elf_building_title:0 "Build Fort 3 in $PROVINCENAME$"
+ build_fort_3_elf_building_desc: "3"
+ 
+ ################################################
+ # Elf Main Building or a higher tiers (Capital)
+ ################################################
+ 
+ capital_1_elf_building:0 "Capital 1"
+ capital_1_elf_building_short:0 "Capital 1"
+ building_capital_1_elf_building: "Capital 1"
+ building_capital_1_elf_building_desc: ""
+ build_capital_1_elf_building_title:0 "Build Capital 1 in $PROVINCENAME$"
+ build_capital_1_elf_building_desc: "1"
+ 
+ capital_2_elf_building:0 "Capital 2"
+ capital_2_elf_building_short:0 "Capital 2"
+ building_capital_2_elf_building: "Capital 2"
+ building_capital_2_elf_building_desc: ""
+ build_capital_2_elf_building_title:0 "Build Capital 2 in $PROVINCENAME$"
+ build_capital_2_elf_building_desc: "2"
+ 
+ capital_3_elf_building:0 "Capital 3"
+ capital_3_elf_building_short:0 "Capital 3"
+ building_capital_3_elf_building: "Capital 3"
+ building_capital_3_elf_building_desc: ""
+ build_capital_3_elf_building_title:0 "Build Capital 3 in $PROVINCENAME$"
+ build_capital_3_elf_building_desc: "3"
+ 
+ ################################################
+ # Elf Trade Buildings
+ ################################################
+ 
+ elven_fairground_elf_building:0 "Fairground"
+ elven_fairground_elf_building_short:0 "Fairground"
+ building_elven_fairground_elf_building: "Fairground"
+ building_elven_fairground_elf_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ build_elven_fairground_elf_building_title:0 "Build Fairground in $PROVINCENAME$"
+ build_elven_fairground_elf_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ 
+ craftsmen_plaza_elf_building:0 "Craftsmen Plaza"
+ craftsmen_plaza_elf_building_short:0 "Craftsmen Plaza"
+ building_craftsmen_plaza_elf_building: "Craftsmen Plaza"
+ building_craftsmen_plaza_elf_building_desc: "Requires: §YTown or Capital Tier 2 - Main Building§! or a higher tier"
+ build_craftsmen_plaza_elf_building_title:0 "Build Craftsmen Plaza in $PROVINCENAME$"
+ build_craftsmen_plaza_elf_building_desc: "Requires: §YTown or Capital Tier 2 - Main Building§! or a higher tier"
+ 
+ exotic_wares_market_elf_building:0 "Exotic Wares Market"
+ exotic_wares_market_elf_building_short:0 "Exotic Wares Market"
+ building_exotic_wares_market_elf_building: "Exotic Wares Market"
+ building_exotic_wares_market_elf_building_desc: "Requires: §YTown or Capital Tier 3 - Main Building§!"
+ build_exotic_wares_market_elf_building_title:0 "Build Exotic Wares Market in $PROVINCENAME$"
+ build_exotic_wares_market_elf_building_desc: "Requires: §YTown or Capital Tier 3 - Main Building§!"
+ 
+ ################################################
+ # Elf Taxation Buildings
+ ################################################
+ 
+ temple_elf_building:0 "Temple"
+ temple_elf_building_short:0 "Temple"
+ building_temple_elf_building: "Temple"
+ building_temple_elf_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ build_temple_elf_building_title:0 "Build Temple in $PROVINCENAME$"
+ build_temple_elf_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ 
+ theatre_elf_building:0 "Theatre"
+ theatre_elf_building_short:0 "Theatre"
+ building_theatre_elf_building: "Theatre"
+ building_theatre_elf_building_desc: "Requires: §YTown or Capital Tier 2 - Main Building§! or a higher tier"
+ build_theatre_elf_building_title:0 "Build Theatre in $PROVINCENAME$"
+ build_theatre_elf_building_desc: "Requires: §YTown or Capital Tier 2 - Main Building§! or a higher tier"
+ 
+ amphitheatre_elf_building:0 "Amphitheatre"
+ amphitheatre_elf_building_short:0 "Amphitheatre"
+ building_amphitheatre_elf_building: "Amphitheatre"
+ building_amphitheatre_elf_building_desc: "Requires: §YTown or Capital Tier 3 - Main Building§!"
+ build_amphitheatre_elf_building_title:0 "Build Amphitheatre in $PROVINCENAME$"
+ build_amphitheatre_elf_building_desc: "Requires: §YTown or Capital Tier 3 - Main Building§!"
+ 
+ ################################################
+ # Elf Production Buildings
+ ################################################
+ 
+ workshop_elf_building:0 "Workshop"
+ workshop_elf_building_short:0 "Workshop"
+ building_workshop_elf_building: "Workshop"
+ building_workshop_elf_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ build_workshop_elf_building_title:0 "Build Workshop in $PROVINCENAME$"
+ build_workshop_elf_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ 
+ elven_forge_elf_building:0 "Forge"
+ elven_forge_elf_building_short:0 "Forge"
+ building_elven_forge_elf_building: "Forge"
+ building_elven_forge_elf_building_desc: "Requires: §YTown or Capital Tier 2 - Main Building§! or a higher tier"
+ build_elven_forge_elf_building_title:0 "Build Forge in $PROVINCENAME$"
+ build_elven_forge_elf_building_desc: "Requires: §YTown or Capital Tier 2 - Main Building§! or a higher tier"
+ 
+ grand_forge_elf_building:0 "Grand Forge"
+ grand_forge_elf_building_short:0 "Grand Forge"
+ building_grand_forge_elf_building: "Grand Forge"
+ building_grand_forge_elf_building_desc: "Requires: §YTown or Capital Tier 3 - Main Building§!"
+ build_grand_forge_elf_building_title:0 "Build Grand Forge in $PROVINCENAME$"
+ build_grand_forge_elf_building_desc: "Requires: §YTown or Capital Tier 3 - Main Building§!"
+ 
+ ################################################
+ # Elf Army Buildings
+ ################################################
+ 
+ warriors_gallery_building:0 "Warriors Gallery"
+ warriors_gallery_building_short:0 "Warriors Gallery"
+ building_warriors_gallery_building: "Warriors Gallery"
+ building_warriors_gallery_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ build_warriors_gallery_building_title:0 "Build Warriors Gallery in $PROVINCENAME$"
+ build_warriors_gallery_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ 
+ heros_shrine_building:0 "Hero's Shrine"
+ heros_shrine_building_short:0 "Hero's Shrine"
+ building_heros_shrine_building: "Hero's Shrine"
+ building_heros_shrine_building_desc: "Requires: §YFort or Capital Tier 2 - Main Building§! or a higher tier"
+ build_heros_shrine_building_title:0 "Build Hero's Shrine in $PROVINCENAME$"
+ build_heros_shrine_building_desc: "Requires: §YFort or Capital Tier 2 - Main Building§! or a higher tier"
+ 
+ green_pastures_elf_building:0 "Green Pastures"
+ green_pastures_elf_building_short:0 "Green Pastures"
+ building_green_pastures_elf_building: "Green Pastures"
+ building_green_pastures_elf_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ build_green_pastures_elf_building_title:0 "Build Green Pastures in $PROVINCENAME$"
+ build_green_pastures_elf_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ 
+ grand_stables_elf_building:0 "Grand Stables"
+ grand_stables_elf_building_short:0 "Grand Stables"
+ building_grand_stables_elf_building: "Grand Stables"
+ building_grand_stables_elf_building_desc: "Requires: §YFort or Capital Tier 2 - Main Building§! or a higher tier"
+ build_grand_stables_elf_building_title:0 "Build Grand Stables in $PROVINCENAME$"
+ build_grand_stables_elf_building_desc: "Requires: §YFort or Capital Tier 2 - Main Building§! or a higher tier"
+ 
+ ################################################
+ # Elf Navy Buildings
+ ################################################
+ 
+ port_elf_building:0 "Port"
+ port_elf_building_short:0 "Port"
+ building_port_elf_building: "Port"
+ building_port_elf_building_desc: "Requires: §YTown or Capital Tier 1 - Main Building§! or a higher tier"
+ build_port_elf_building_title:0 "Build Port in $PROVINCENAME$"
+ build_port_elf_building_desc: "Requires: §YTown or Capital Tier 1 - Main Building§! or a higher tier"
+ 
+ seaport_elf_building:0 "Seaport"
+ seaport_elf_building_short:0 "Seaport"
+ building_seaport_elf_building: "Seaport"
+ building_seaport_elf_building_desc: "Requires: §YTown or Capital Tier 2 - Main Building§! or a higher tier"
+ build_seaport_elf_building_title:0 "Build Seaport in $PROVINCENAME$"
+ build_seaport_elf_building_desc: "Requires: §YTown or Capital Tier 2 - Main Building§! or a higher tier"
+ 
+ harbour_elf_building:0 "Harbour"
+ harbour_elf_building_short:0 "Harbour"
+ building_harbour_elf_building: "Harbour"
+ building_harbour_elf_building_desc: "Requires: §YFort or Capital Tier 1 - Main Building§! or a higher tier"
+ build_harbour_elf_building_title:0 "Build Harbour in $PROVINCENAME$"
+ build_harbour_elf_building_desc: "Requires: §YFort or Capital Tier 1 - Main Building§! or a higher tier"
+ 
+ haven_elf_building:0 "Haven"
+ haven_elf_building_short:0 "Haven"
+ building_haven_elf_building: "Haven"
+ building_haven_elf_building_desc: "Requires: §YFort or Capital Tier 2 - Main Building§! or a higher tier"
+ build_haven_elf_building_title:0 "Build Haven in $PROVINCENAME$"
+ build_haven_elf_building_desc: "Requires: §YFort or Capital Tier 2 - Main Building§! or a higher tier"
+ 
+ ################################################
+ # Elf Fortification Buildings
+ ################################################
+ 
+ fort_low_walls_elf_building:0 "Low Walls"
+ fort_low_walls_elf_building_short:0 "Low Walls"
+ building_fort_low_walls_elf_building: "Low Walls"
+ building_fort_low_walls_elf_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ build_fort_low_walls_elf_building_title:0 "Build Low Walls in $PROVINCENAME$"
+ build_fort_low_walls_elf_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ 
+ fort_high_walls_elf_building:0 "High Walls"
+ fort_high_walls_elf_building_short:0 "High Walls"
+ building_fort_high_walls_elf_building: "High Walls"
+ building_fort_high_walls_elf_building_desc: "Requires: Any §YTier 2 - Main Building§! or a higher tier"
+ build_fort_high_walls_elf_building_title:0 "Build High Walls in $PROVINCENAME$"
+ build_fort_high_walls_elf_building_desc: "Requires: Any §YTier 2 - Main Building§! or a higher tier"
+ 
+ ################################################
+ # Elf Defences Buildings
+ ################################################
+ 
+ moat_elf_building:0 "Moat"
+ moat_elf_building_short:0 "Moat"
+ building_moat_elf_building: "Moat"
+ building_moat_elf_building_desc: "Requires: Any §YTier 1 - Main Building§! or a higher tier and has an §Yfortification building§!"
+ build_moat_elf_building_title:0 "Build Moat in $PROVINCENAME$"
+ build_moat_elf_building_desc: "Requires: Any §YTier 1 - Main Building§! or a higher tier and has an §Yfortification building§!"
+ 
+ wall_bastions_elf_building:0 "Wall Bastions"
+ wall_bastions_elf_building_short:0 "Wall Bastions"
+ building_wall_bastions_elf_building: "Wall Bastions"
+ building_wall_bastions_elf_building_desc: "Requires: Any §YTier 2 - Main Building§! or a higher tier and has an §Yfortification building§!"
+ build_wall_bastions_elf_building_title:0 "Build Wall Bastions in $PROVINCENAME$"
+ build_wall_bastions_elf_building_desc: "Requires: Any §YTier 2 - Main Building§! or a higher tier and has an §Yfortification building§!"
+ 
+ ################################################
+ # Elf Special Buildings
+ ################################################
+ 
+ mallorn_tree_elf_building:0 "Mallorn"
+ mallorn_tree_elf_building_short:0 "Mallorn"
+ building_mallorn_tree_elf_building: "Mallorn"
+ building_mallorn_tree_elf_building_desc: "Requires: §YAny Tier 3§! - Main Building"
+ build_mallorn_tree_elf_building_title:0 "Build Mallorn in $PROVINCENAME$"
+ build_mallorn_tree_elf_building_desc: "Requires: §YAny Tier 3§! - Main Building"
+ 
+ statue_of_the_elders_elf_building:0 "Statue of the Elders"
+ statue_of_the_elders_elf_building_short:0 "Statue of the Elders"
+ building_statue_of_the_elders_elf_building: "Statue of the Elders"
+ building_statue_of_the_elders_elf_building_desc: "Requires: §YAny Tier 3§! - Main Building"
+ build_statue_of_the_elders_elf_building_title:0 "Build Statue of the Elders in $PROVINCENAME$"
+ build_statue_of_the_elders_elf_building_desc: "Requires: §YAny Tier 3§! - Main Building"
+ 
+ mirror_fountain_elf_building:0 "Mirror Fountain"
+ mirror_fountain_elf_building_short:0 "Mirror Fountain"
+ building_mirror_fountain_elf_building: "Mirror Fountain"
+ building_mirror_fountain_elf_building_desc: "Requires: §YAny Tier 3§! - Main Building"
+ build_mirror_fountain_elf_building_title:0 "Build Mirror Fountain in $PROVINCENAME$"
+ build_mirror_fountain_elf_building_desc: "Requires: §YAny Tier 3§! - Main Building"
+ 
+ star_of_earendil_shrine_elf_building:0 "Star of Eärendil Shrine"
+ star_of_earendil_shrine_elf_building_short:0 "Star of Eärendil Shrine"
+ building_star_of_earendil_shrine_elf_building: "Star of Eärendil Shrine"
+ building_star_of_earendil_shrine_elf_building_desc: "Requires: §YAny Tier 3§! - Main Building"
+ build_star_of_earendil_shrine_elf_building_title:0 "Build Star of Eärendil Shrine in $PROVINCENAME$"
+ build_star_of_earendil_shrine_elf_building_desc: "Requires: §YAny Tier 3§! - Main Building"
+ 
+ ################################################
+ # Orc Buildings
+ ################################################
+ ################################################
+ # Orc Main Building or a higher tiers
+ ################################################
+  
+ camp_orc_building:0 "Camp"
+ camp_orc_building_short:0 "Camp"
+ building_camp_orc_building: "Camp"
+ building_camp_orc_building_desc: "Until a Camp is build in this province, the province is mostly considered more of a territory. But with a defined Camp, we will be able to improve the province by starting to build other buildings aswell."
+ build_camp_orc_building_title:0 "Build Camp in $PROVINCENAME$"
+ build_camp_orc_building_desc:1 "Until a Camp is build in this province, the province is mostly considered more of a territory. But with a defined Camp, we will be able to improve the province by starting to build other buildings aswell."
+ 
+ ################################################
+ # Orc Main Building or a higher tiers (City)
+ ################################################
+ 
+ encampment_1_orc_building:0 "Encampment 1"
+ encampment_1_orc_building_short:0 "Encampment 1"
+ building_encampment_1_orc_building: "Encampment 1"
+ building_encampment_1_orc_building_desc: ""
+ build_encampment_1_orc_building_title:0 "Build Encampment 1 in $PROVINCENAME$"
+ build_encampment_1_orc_building_desc: "1"
+ 
+ encampment_2_orc_building:0 "Encampment 2"
+ encampment_2_orc_building_short:0 "Encampment 2"
+ building_encampment_2_orc_building: "Encampment 2"
+ building_encampment_2_orc_building_desc: ""
+ build_encampment_2_orc_building_title:0 "Build Encampment 2 in $PROVINCENAME$"
+ build_encampment_2_orc_building_desc: "2"
+ 
+ encampment_3_orc_building:0 "Encampment 3"
+ encampment_3_orc_building_short:0 "Encampment 3"
+ building_encampment_3_orc_building: "Encampment 3"
+ building_encampment_3_orc_building_desc: ""
+ build_encampment_3_orc_building_title:0 "Build Encampment 3 in $PROVINCENAME$"
+ build_encampment_3_orc_building_desc: "3"
+ 
+ ################################################
+ # Orc Main Building or a higher tiers (Fortress)
+ ################################################
+ 
+ fortress_1_orc_building:0 "Fortress 1"
+ fortress_1_orc_building_short:0 "Fortress 1"
+ building_fortress_1_orc_building: "Fortress 1"
+ building_fortress_1_orc_building_desc: ""
+ build_fortress_1_orc_building_title:0 "Build Fortress 1 in $PROVINCENAME$"
+ build_fortress_1_orc_building_desc: "1"
+ 
+ fortress_2_orc_building:0 "Fortress 2"
+ fortress_2_orc_building_short:0 "Fortress 2"
+ building_fortress_2_orc_building: "Fortress 2"
+ building_fortress_2_orc_building_desc: ""
+ build_fortress_2_orc_building_title:0 "Build Fortress 2 in $PROVINCENAME$"
+ build_fortress_2_orc_building_desc: "2"
+ 
+ fortress_3_orc_building:0 "Fortress 3"
+ fortress_3_orc_building_short:0 "Fortress 3"
+ building_fortress_3_orc_building: "Fortress 3"
+ building_fortress_3_orc_building_desc: ""
+ build_fortress_3_orc_building_title:0 "Build Fortress 3 in $PROVINCENAME$"
+ build_fortress_3_orc_building_desc: "3"
+ 
+ ################################################
+ # Orc Main Building or a higher tiers (Capital)
+ ################################################
+ 
+ capital_1_orc_building:0 "Capital 1"
+ capital_1_orc_building_short:0 "Capital 1"
+ building_capital_1_orc_building: "Capital 1"
+ building_capital_1_orc_building_desc: ""
+ build_capital_1_orc_building_title:0 "Build Capital 1 in $PROVINCENAME$"
+ build_capital_1_orc_building_desc: "1"
+ 
+ capital_2_orc_building:0 "Capital 2"
+ capital_2_orc_building_short:0 "Capital 2"
+ building_capital_2_orc_building: "Capital 2"
+ building_capital_2_orc_building_desc: ""
+ build_capital_2_orc_building_title:0 "Build Capital 2 in $PROVINCENAME$"
+ build_capital_2_orc_building_desc: "2"
+ 
+ capital_3_orc_building:0 "Capital 3"
+ capital_3_orc_building_short:0 "Capital 3"
+ building_capital_3_orc_building: "Capital 3"
+ building_capital_3_orc_building_desc: ""
+ build_capital_3_orc_building_title:0 "Build Capital 3 in $PROVINCENAME$"
+ build_capital_3_orc_building_desc: "3"
+ 
+ ################################################
+ # Orc Trade Buildings
+ ################################################
+ 
+ meat_depot_orc_building:0 "Meat Depot"
+ meat_depot_orc_building_short:0 "Meat Depot"
+ building_meat_depot_orc_building: "Meat Depot"
+ building_meat_depot_orc_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ build_meat_depot_orc_building_title:0 "Build Meat Depot in $PROVINCENAME$"
+ build_meat_depot_orc_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ 
+ treasure_trove_orc_building:0 "Treasure Trove"
+ treasure_trove_orc_building_short:0 "Treasure Trove"
+ building_treasure_trove_orc_building: "Treasure Trove"
+ building_treasure_trove_orc_building_desc: "Requires: §YEncampment or Capital Tier 2§! - Main Building or a higher tier"
+ build_treasure_trove_orc_building_title:0 "Build Treasure Trove in $PROVINCENAME$"
+ build_treasure_trove_orc_building_desc: "Requires: §YEncampment or Capital Tier 2§! - Main Building or a higher tier"
+ 
+ stockpile_orc_building:0 "Stockpile"
+ stockpile_orc_building_short:0 "Stockpile"
+ building_stockpile_orc_building: "Stockpile"
+ building_stockpile_orc_building_desc: "Requires: §YEncampment or Capital Tier 3§! - Main Building"
+ build_stockpile_orc_building_title:0 "Build Stockpile in $PROVINCENAME$"
+ build_stockpile_orc_building_desc: "Requires: §YEncampment or Capital Tier 3§! - Main Building"
+ 
+ ################################################
+ # Orc Taxation Buildings
+ ################################################
+ 
+ enforcer_camp_orc_building:0 "Enforcer Camp"
+ enforcer_camp_orc_building_short:0 "Enforcer Camp"
+ building_enforcer_camp_orc_building: "Enforcer Camp"
+ building_enforcer_camp_orc_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ build_enforcer_camp_orc_building_title:0 "Build Enforcer Camp in $PROVINCENAME$"
+ build_enforcer_camp_orc_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ 
+ overseer_station_orc_building:0 "Overseer Station"
+ overseer_station_orc_building_short:0 "Overseer Station"
+ building_overseer_station_orc_building: "Overseer Station"
+ building_overseer_station_orc_building_desc: "Requires: §YEncampment or Capital Tier 2§! - Main Building or a higher tier"
+ build_overseer_station_orc_building_title:0 "Build Overseer Station in $PROVINCENAME$"
+ build_overseer_station_orc_building_desc: "Requires: §YEncampment or Capital Tier 2§! - Main Building or a higher tier"
+ 
+ overseer_tower_orc_building:0 "Overseer"
+ overseer_tower_orc_building_short:0 "Overseer"
+ building_overseer_tower_orc_building: "Overseer"
+ building_overseer_tower_orc_building_desc: "Requires: §YEncampment or Capital Tier 3§! - Main Building"
+ build_overseer_tower_orc_building_title:0 "Build Overseer in $PROVINCENAME$"
+ build_overseer_tower_orc_building_desc: "Requires: §YEncampment or Capital Tier 3§! - Main Building"
+ 
+ ################################################
+ # Orc Production Buildings
+ ################################################
+ 
+ blacksmith_orc_building:0 "Blacksmith"
+ blacksmith_orc_building_short:0 "Blacksmith"
+ building_blacksmith_orc_building: "Blacksmith"
+ building_blacksmith_orc_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ build_blacksmith_orc_building_title:0 "Build Blacksmith in $PROVINCENAME$"
+ build_blacksmith_orc_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ 
+ metal_works_orc_building:0 "Metal Works"
+ metal_works_orc_building_short:0 "Metal Works"
+ building_metal_works_orc_building: "Metal Works"
+ building_metal_works_orc_building_desc: "Requires: §YEncampment or Capital Tier 2§! - Main Building or a higher tier"
+ build_metal_works_orc_building_title:0 "Build Metal Works in $PROVINCENAME$"
+ build_metal_works_orc_building_desc: "Requires: §YEncampment or Capital Tier 2§! - Main Building or a higher tier"
+ 
+ dark_iron_forge_orc_building:0 "Dark Iron Forge"
+ dark_iron_forge_orc_building_short:0 "Dark Iron Forge"
+ building_dark_iron_forge_orc_building: "Dark Iron Forge"
+ building_dark_iron_forge_orc_building_desc: "Requires: §YEncampment or Capital Tier 3§! - Main Building"
+ build_dark_iron_forge_orc_building_title:0 "Build Dark Iron Forge in $PROVINCENAME$"
+ build_dark_iron_forge_orc_building_desc: "Requires: §YEncampment or Capital Tier 3§! - Main Building"
+ 
+ ################################################
+ # Orc Army Buildings (Infantry)
+ ################################################
+ 
+ orc_pit_orc_building:0 "Orc Pit"
+ orc_pit_orc_building_short:0 "Orc Pit"
+ building_orc_pit_orc_building: "Orc Pit"
+ building_orc_pit_orc_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ build_orc_pit_orc_building_title:0 "Build Orc Pit in $PROVINCENAME$"
+ build_orc_pit_orc_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ 
+ orc_fissure_orc_building:0 "Orc Fissure"
+ orc_fissure_orc_building_short:0 "Orc Fissure"
+ building_orc_fissure_orc_building: "Orc Fissure"
+ building_orc_fissure_orc_building_desc: "Requires: §YFortress or Capital Tier 2§! - Main Building or a higher tier"
+ build_orc_fissure_orc_building_title:0 "Build Orc Fissure in $PROVINCENAME$"
+ build_orc_fissure_orc_building_desc: "Requires: §YFortress or Capital Tier 2§! - Main Building or a higher tier"
+ 
+ army_garrison_orc_building:0 "Army Garrison"
+ army_garrison_orc_building_short:0 "Army Garrison"
+ building_army_garrison_orc_building: "Army Garrison"
+ building_army_garrison_orc_building_desc: "Requires: §YFortress or Capital Tier 3§! - Main Building or a higher tier"
+ build_army_garrison_orc_building_title:0 "Build Army Garrison in $PROVINCENAME$"
+ build_army_garrison_orc_building_desc: "Requires: §YFortress or Capital Tier 3§! - Main Building or a higher tier"
+ 
+ ################################################
+ # Orc Army Buildings (Cav)
+ ################################################
+ 
+ warg_pit_orc_building:0 "Warg Pit"
+ warg_pit_orc_building_short:0 "Warg Pit"
+ building_warg_pit_orc_building: "Warg Pit"
+ building_warg_pit_orc_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ build_warg_pit_orc_building_title:0 "Build Warg Pit in $PROVINCENAME$"
+ build_warg_pit_orc_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ 
+ warg_arena_orc_building:0 "Warg Arena"
+ warg_arena_orc_building_short:0 "Warg Arena"
+ building_warg_arena_orc_building: "Warg Arena"
+ building_warg_arena_orc_building_desc: "Requires: §YFortress or Capital Tier 2§! - Main Building or a higher tier"
+ build_warg_arena_orc_building_title:0 "Build Warg Arena in $PROVINCENAME$"
+ build_warg_arena_orc_building_desc: "Requires: §YFortress or Capital Tier 2§! - Main Building or a higher tier"
+ 
+ troll_cage_orc_building:0 "Troll Cage"
+ troll_cage_orc_building_short:0 "Troll Cage"
+ building_troll_cage_orc_building: "Troll Cage"
+ building_troll_cage_orc_building_desc: "Requires: §YFortress or Capital Tier 3§! - Main Building or a higher tier"
+ build_troll_cage_orc_building_title:0 "Build Troll Cage in $PROVINCENAME$"
+ build_troll_cage_orc_building_desc: "Requires: §YFortress or Capital Tier 3§! - Main Building or a higher tier"
+ 
+ ################################################
+ # Orc Army Buildings (Cav)
+ ################################################
+ 
+ workshop_orc_building:0 "Workshop"
+ workshop_orc_building_short:0 "Workshop"
+ building_workshop_orc_building: "Workshop"
+ building_workshop_orc_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ build_workshop_orc_building_title:0 "Build Workshop in $PROVINCENAME$"
+ build_workshop_orc_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ 
+ siege_works_orc_building:0 "Siege Works"
+ siege_works_orc_building_short:0 "Siege Works"
+ building_siege_works_orc_building: "Siege Works"
+ building_siege_works_orc_building_desc: "Requires: §YFortress or Capital Tier 2§! - Main Building or a higher tier"
+ build_siege_works_orc_building_title:0 "Build Siege Works in $PROVINCENAME$"
+ build_siege_works_orc_building_desc: "Requires: §YFortress or Capital Tier 2§! - Main Building or a higher tier"
+ 
+ great_siege_works_orc_building:0 "Great Siege Works"
+ great_siege_works_orc_building_short:0 "Great Siege Works"
+ building_great_siege_works_orc_building: "Great Siege Works"
+ building_great_siege_works_orc_building_desc: "Requires: §YFortress or Capital Tier 3§! - Main Building or a higher tier"
+ build_great_siege_works_orc_building_title:0 "Build Great Siege Works in $PROVINCENAME$"
+ build_great_siege_works_orc_building_desc: "Requires: §YFortress or Capital Tier 3§! - Main Building or a higher tier"
+ 
+ ################################################
+ # Orc Fortifications Buildings
+ ################################################
+ 
+ fort_pallisade_orc_building:0 "Pallisade"
+ fort_pallisade_orc_building_short:0 "Pallisade"
+ building_fort_pallisade_orc_building: "Pallisade"
+ building_fort_pallisade_orc_building_desc: "Requires: Any §YMain Building§! or a higher tier"
+ build_fort_pallisade_orc_building_title:0 "Build Pallisade in $PROVINCENAME$"
+ build_fort_pallisade_orc_building_desc: "Requires: Any §YMain Building§! or a higher tier"
+ 
+ fort_wooden_walls_orc_building:0 "Wooden Walls"
+ fort_wooden_walls_orc_building_short:0 "Wooden Walls"
+ building_fort_wooden_walls_orc_building: "Wooden Walls"
+ building_fort_wooden_walls_orc_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ build_fort_wooden_walls_orc_building_title:0 "Build Wooden Walls in $PROVINCENAME$"
+ build_fort_wooden_walls_orc_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ 
+ fort_orc_stronghold_orc_building:0 "Stronghold"
+ fort_orc_stronghold_orc_building_short:0 "Stronghold"
+ building_fort_orc_stronghold_orc_building: "Stronghold"
+ building_fort_orc_stronghold_orc_building_desc: "Requires: Fortress or Capital Tier 2 - Main Building or a higher tier"
+ build_fort_orc_stronghold_orc_building_title:0 "Build Stronghold in $PROVINCENAME$"
+ build_fort_orc_stronghold_orc_building_desc: "Requires: Fortress or Capital Tier 2 - Main Building or a higher tier"
+ 
+ fort_large_orc_stronghold_orc_building:0 "Large Stronghold"
+ fort_large_orc_stronghold_orc_building_short:0 "Large Stronghold"
+ building_fort_large_orc_stronghold_orc_building: "Large Stronghold"
+ building_fort_large_orc_stronghold_orc_building_desc: "Requires: Fortress or Capital Tier 3 - Main Building or a higher tier"
+ build_fort_large_orc_stronghold_orc_building_title:0 "Build Large Stronghold in $PROVINCENAME$"
+ build_fort_large_orc_stronghold_orc_building_desc: "Requires: Fortress or Capital Tier 3 - Main Building or a higher tier"
+ 
+ ################################################
+ # Orc Army Buildings (Cav) §Y §!
+ ################################################
+ 
+ small_arena_building:0 "Small Arena"
+ small_arena_building_short:0 "Small Arena"
+ building_small_arena_building: "Small Arena"
+ building_small_arena_building_desc: "Requires: Any §YMain Building§! or a higher tier"
+ build_small_arena_building_title:0 "Build Small Arena in $PROVINCENAME$"
+ build_small_arena_building_desc: "Requires: Any §YMain Building§! or a higher tier"
+ 
+ large_arena_building:0 "Large Arena"
+ large_arena_building_short:0 "Large Arena"
+ building_large_arena_building: "Large Arena"
+ building_large_arena_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ build_large_arena_building_title:0 "Build Large Arena in $PROVINCENAME$"
+ build_large_arena_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ 
+ prisoner_cage_orc_building:0 "Prisoner Cages"
+ prisoner_cage_orc_building_short:0 "Prisoner Cages"
+ building_prisoner_cage_orc_building: "Prisoner Cages"
+ building_prisoner_cage_orc_building_desc: "Requires: Any §YMain Building§! or a higher tier"
+ build_prisoner_cage_orc_building_title:0 "Build Prisoner Cages in $PROVINCENAME$"
+ build_prisoner_cage_orc_building_desc: "Requires: Any §YMain Building§! or a higher tier"
+ 
+ tortur_chambers_orc_building:0 "Tortur Chambers"
+ tortur_chambers_orc_building_short:0 "Tortur Chambers"
+ building_tortur_chambers_orc_building: "Tortur Chambers"
+ building_tortur_chambers_orc_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ build_tortur_chambers_orc_building_title:0 "Build Tortur Chambers in $PROVINCENAME$"
+ build_tortur_chambers_orc_building_desc: "Requires: §YAny Tier 1 - Main Building§! or a higher tier"
+ 
+ ################################################
+ # Actions
+ ################################################
+ 
+ building_resettlement_action:0 "Resettlement"
+ building_resettlement_action_short:0 "Resettlement"
+ building_building_resettlement_action: "Resettlement"
+ building_building_resettlement_action_desc: "Allows you to remove the ruins in this province."
+ build_building_resettlement_action_title:0 "Build Resettlement in $PROVINCENAME$"
+ build_building_resettlement_action_desc:1 "Allows you to remove the ruins in this province."

@@ -1,0 +1,11 @@
+# Haradrim Cavalry
+type = cavalry
+unit_type = lotr_haradrim
+
+maneuver = 2
+offensive_morale = 6
+defensive_morale = 6
+offensive_fire = 4
+defensive_fire = 4
+offensive_shock = 10
+defensive_shock = 10

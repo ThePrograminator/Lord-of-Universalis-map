@@ -1,0 +1,302 @@
+tribe_mechanic = {
+	tribal = yes
+	monarchy = yes
+	basic_reform = yes # = invisible/does not take up a slot
+	valid_for_nation_designer = no
+	heir = yes
+	queen = yes
+}
+
+#############
+#Government Form#
+#############
+
+tribal_kingdom = {
+	icon = "indian_crown"
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	legacy_equivalent = lotr_clan_legacy
+	modifiers = {
+		vassal_income = 0.2
+	}
+}
+
+tribal_federation = {
+	icon = "chieftain"
+	allow_normal_conversion = yes
+	potential = {
+		has_reform = tribal_federation
+	}
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 20
+	legacy_equivalent = tribal_federation_legacy
+
+	lock_level_when_selected = yes
+
+	modifiers = {
+		years_of_nationalism = -5
+	}
+
+	conditional = {
+		allow = { has_dlc = "Cradle of Civilization" }
+		government_abilities = {
+			tribal_federation_mechanic
+		}
+	}
+}
+
+steppe_horde = {
+	icon = "horde_riding"
+	allow_normal_conversion = no
+	potential = {
+		has_reform = steppe_horde
+	}
+	legacy_equivalent = steppe_horde_legacy
+	nomad = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+	lock_level_when_selected = yes
+
+	start_territory_to_estates = 0.5
+
+	modifiers = {
+		global_manpower_modifier = 0.2
+		land_forcelimit_modifier = 0.2
+		loot_amount = 0.50
+		global_institution_spread = -0.15
+		reinforce_cost_modifier = -0.5
+		cav_to_inf_ratio = 0.25
+		movement_speed = 0.2
+		years_of_nationalism = -5
+	}
+	ai = {
+		factor = 1000
+	}
+}
+
+haradwaith_nomad_reform = {
+	icon = "chieftain"
+	allow_normal_conversion = yes
+	potential = {
+		has_reform = tribal_federation
+	}
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 20
+	legacy_equivalent = tribal_federation_legacy
+
+	lock_level_when_selected = yes
+
+	modifiers = {
+		global_supply_limit_modifier = 0.25
+	}
+
+	conditional = {
+		allow = { has_dlc = "Cradle of Civilization" }
+		government_abilities = {
+			tribal_federation_mechanic
+		}
+	}
+}
+
+khaganate_reform = {
+	icon = "soldiers_3"
+	allow_normal_conversion = no
+	potential = {
+		NOT = { has_country_flag = formed_khand_flag }
+		overlord = { has_reform = khaganate_ruler_reform }
+	}
+	legacy_equivalent = lotr_khaganate_legacy
+	fixed_rank = 1
+	maintain_dynasty = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	lock_level_when_selected = yes
+	nation_designer_trigger = {
+		
+	}
+	
+	modifiers = {
+		land_morale = 0.1
+		cav_to_inf_ratio = 0.50
+		movement_speed = 0.2
+	}
+	
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+independent_khaganate_reform = {
+	icon = "soldiers_3"
+	allow_normal_conversion = no
+	potential = {
+		NOT = { has_country_flag = formed_khand_flag }
+		OR = {
+			AND = {
+				OR = {
+					is_subject = no
+					overlord = { NOT = { has_reform = khaganate_ruler_reform } }
+				}
+				#capital_scope = { region = japan_region }
+				#culture_group = japanese_g
+			}
+			AND = {
+				is_playing_custom_nation = yes
+				have_had_reform = independent_khaganate_reform
+			}
+		}
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	nation_designer_trigger = {
+		
+	}
+	
+	legacy_equivalent = lotr_independent_khaganate_legacy
+	maintain_dynasty = yes
+
+	modifiers = {
+		land_morale = 0.1
+		cav_to_inf_ratio = 0.50
+		movement_speed = 0.2
+	}
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+khaganate_ruler_reform = {
+	icon = "elective_monarchy"
+	allow_normal_conversion = yes
+	potential = {
+		NOT = { has_country_flag = formed_khand_flag }
+		OR = {
+			AND = {
+				#capital_scope = {
+				#	province_id = 1020
+				#}
+				culture_group = culture_group_ioriags
+				#Khand
+				#NOT = { exists = JAP }
+			}
+			AND = {
+				is_playing_custom_nation = yes
+				have_had_reform = khaganate_ruler_reform
+			}
+		}
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 50
+	nation_designer_trigger = {
+	}
+	legacy_equivalent = lotr_khaganate_ruler_legacy
+	fixed_rank = 2
+	maintain_dynasty = yes
+	allow_vassal_war = yes
+	allow_vassal_alliance = yes
+	lock_level_when_selected = yes
+
+	modifiers = {
+		diplomats = 1
+		cav_to_inf_ratio = 0.50
+		movement_speed = 0.2
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+###############
+#Tribal Cultural Values#
+###############
+
+martial_society_reform = {
+	allow_normal_conversion = yes
+	icon = "tribal_martial_society"
+	modifiers = {
+		global_manpower_modifier = 0.2
+	}
+}
+
+civil_society_reform = {
+	allow_normal_conversion = yes
+	icon = "tribal_civil_society"
+	modifiers = {
+		global_tax_modifier = 0.05
+		yearly_corruption = -0.05
+	}
+}
+
+###########
+#Tribal Religion#
+###########
+
+religious_societies_reform = {
+	icon = "tribal_religious_society"
+	allow_normal_conversion = yes
+	modifiers = {
+		stability_cost_modifier = -0.1
+		religious_unity = 0.15
+	}
+}
+
+lip_service_reform = {
+	icon = "tribal_lip_service"
+	allow_normal_conversion = yes
+	modifiers = {
+		land_maintenance_modifier = -0.1
+	}
+}
+
+###########
+#Modernizantion#
+###########
+
+retain_tribal_hierarchy_reform = {
+	icon = "retain_tribal_hierarchy"
+	allow_normal_conversion = yes
+	modifiers = {
+		max_states = 3
+		max_absolutism = 10
+	}
+}
+
+centralize_tribal_power_reform = {
+	icon = "tribal_centralize_power"
+	allow_normal_conversion = yes
+	modifiers = {
+		core_creation = -0.05
+		stability_cost_modifier = -0.05
+	}
+}
+
+#############
+#Tribal Reformation#
+#############
+
+tribe_becomes_monarchy_reform = {
+	icon = "king_highlighted"
+	allow_normal_conversion = yes
+	effect = {
+		set_country_flag = populists_in_government
+		lose_reforms = 4
+		change_government = monarchy
+	}
+}
+
+tribe_becomes_republic_reform = {
+	icon = "parliament_highlighted"
+	allow_normal_conversion = yes
+	trigger = {
+		NOT = { is_lesser_in_union = yes }
+	}
+	effect = {
+		set_country_flag = populists_in_government
+		lose_reforms = 4
+		change_government = republic
+	}
+}

@@ -1,0 +1,8 @@
+# Cargoship
+type = light_ship
+
+hull_size = 30
+base_cannons = 5 
+sail_speed = 5
+
+sprite_level = 1

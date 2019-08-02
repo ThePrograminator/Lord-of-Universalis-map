@@ -1,0 +1,31 @@
+bookmark =
+{
+    # Smaug The Dreadful
+	name = "LOTR_3_NAME"
+	desc = "LOTR_3_DESC"
+	date = 2769.1.1
+	
+	center = 287
+    country = Y22
+	country = Y94
+	country = Y67 
+    
+    default = no
+    
+    effect = {
+		Y22 = {
+		add_stability = -2
+		add_prestige = -50
+		add_manpower = -8
+		}
+		Y94 = {
+		add_stability = -1
+		add_prestige = -60
+		add_manpower = -9
+		}
+		Y67 = {
+		add_stability = -1
+		add_prestige = -40
+		add_manpower = -7
+		}
+}

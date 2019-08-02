@@ -1,0 +1,295 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new technology, make sure they are uniquely named.
+
+# Armies get a insufficient support penalty when the ratio cav / (inf+cav) is _higher_ than "cav_to_inf_ratio". This applies for the "unit_type" of a country.
+
+# Groups must be defined BEFORE tables.
+
+groups = {
+	# LOTR
+	lotr_ahar = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
+	lotr_bellakarian = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
+	lotr_black_numenorean = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
+	lotr_chyan = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
+	lotr_daen = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
+	lotr_dunedain = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
+	lotr_dwarven = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
+	lotr_dragon = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
+	lotr_easterling = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
+	lotr_elven = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
+	lotr_eriadorian = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+
+	lotr_ent = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
+	lotr_goblin = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
+	lotr_giant = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
+	lotr_great_spider = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
+	lotr_half_dwarf = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
+	lotr_hobbit = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
+	lotr_half_orc = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
+	lotr_haradrim = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
+	lotr_linerim = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
+	lotr_lochans = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
+	lotr_lynerians = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
+	lotr_northmen = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
+	lotr_orc = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
+	lotr_rohirrim = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
+	lotr_sand_men = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
+	lotr_shelflanders = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
+	lotr_siranians = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
+	lotr_snow_men = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
+	lotr_swarthy_men = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
+	lotr_south_hildor = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
+	lotr_troll = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
+	lotr_ts_balla = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
+	lotr_urdic_men = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
+	lotr_uruk_hai = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
+	lotr_vulmaw = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
+	lotr_wizard = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
+	lotr_womarin = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
+	lotr_woses = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
+	lotr_wights = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
+	lotr_zorians = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
+	# Original techs, work them out of the files when possible
+	western = {
+		start_level = 3
+		start_cost_modifier = 0
+	}
+	eastern = {
+		start_level = 3
+		start_cost_modifier = 0.20
+	}
+	ottoman = {
+		start_level = 3
+		start_cost_modifier = 0.25
+	}
+	muslim = {
+		start_level = 3
+		start_cost_modifier = 0.40
+	}
+	indian = {
+		start_level = 3
+		start_cost_modifier = 0.5
+	}
+	east_african = {
+		start_level = 3
+		start_cost_modifier = 0.5
+		nation_designer_unit_type = sub_saharan
+	}
+	central_african = {
+		start_level = 2
+		start_cost_modifier = 0.65
+		nation_designer_unit_type = sub_saharan
+	}
+	chinese = {
+		start_level = 3
+		start_cost_modifier = 0.6
+	}
+	nomad_group = {
+		start_level = 3
+		start_cost_modifier = 0.75
+		nation_designer_trigger = {
+				has_reform = steppe_horde
+		}
+	}
+	sub_saharan = { #West African
+		start_level = 2
+		start_cost_modifier = 0.6
+	}
+	north_american = {
+		start_level = 1
+		start_cost_modifier = 2.5
+		is_primitive = yes
+	}
+	mesoamerican = {
+		start_level = 1
+		start_cost_modifier = 1.5
+		is_primitive = yes
+	}
+	south_american = {
+		start_level = 1
+		start_cost_modifier = 2.5
+		is_primitive = yes
+	}
+	andean = {
+		start_level = 1
+		start_cost_modifier = 1.5
+		nation_designer_unit_type = south_american
+		is_primitive = yes
+	}	
+	
+	
+	high_american = {
+		start_level = 3
+		start_cost_modifier = 0
+		nation_designer_unit_type = high_american
+	}
+}
+
+tables = {
+	adm_tech = "technologies/adm.txt"
+	dip_tech = "technologies/dip.txt"
+	mil_tech = "technologies/mil.txt"
+}

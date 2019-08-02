@@ -1,0 +1,8 @@
+mercantilism = 0.1
+government = tribal
+add_government_reform = tribal_kingdom
+
+primary_culture = culture_argaw
+religion = religion_cuivac
+technology_group = lotr_shelflanders 
+capital = 517

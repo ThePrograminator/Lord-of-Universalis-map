@@ -1,0 +1,311 @@
+third_age = {
+	start = 2560
+	
+	can_start = {
+		always = yes
+	}
+	
+	religious_conflicts = yes
+    
+	objectives = {
+		obj_prestigious_capital_3 = {
+            capital_scope = {
+                development = 50
+                religion = ROOT
+                culture = ROOT
+                NOT = { devastation = 0 }
+            }
+        }
+        # Wise Ruler
+		obj_wise_ruler_3 = {
+            OR = {
+                adm = 6
+                dip = 6
+                mil = 6
+            }
+        }
+        # Religious Defender
+        obj_religious_defender_3 = {
+            is_defender_of_faith = yes
+            religious_unity = 1.0
+        }
+        obj_colossal_fleet_3 = {
+            naval_forcelimit = 100
+            navy_size_percentage = 0.9
+        }
+        obj_colossal_army_3 = {
+            land_forcelimit = 100
+            army_size_percentage = 0.9
+        }
+        obj_realm_of_virtues_3 = {
+            prestige = 100
+            NOT = { corruption = 0 }
+            OR = {
+                legitimacy = 100
+                horde_unity = 100
+                devotion = 100
+                republican_tradition = 100
+                meritocracy = 100
+            }
+        }
+        obj_noble_connections_3 = {
+            num_of_royal_marriages = 5
+        }
+	}		
+
+	abilities = {
+		ab_soldiers_of_fortune_3 = {
+            modifier = {
+                possible_mercenaries = 1.0
+            }
+            ai_will_do = {
+				factor = 100
+			}
+        }
+        
+        ab_lay_of_the_land_3 = {
+            rule = {
+                attack_bonus_in_capital_terrain = yes
+            }
+            ai_will_do = {
+				factor = 100
+			}
+        }
+        
+        ab_fearsome_navy_3 = {
+            modifier = {
+                ship_durability = 0.2
+            }
+            ai_will_do = {
+				factor = 100
+			}
+        }
+        
+        ab_excellent_knights_3 = {
+            modifier = {
+                cavalry_power = 0.1
+            }
+            ai_will_do = {
+				factor = 100
+			}
+        }
+        
+        ab_excellent_soldiers_3 = {
+            modifier = {
+                infantry_power = 0.1
+            }
+            ai_will_do = {
+				factor = 100
+			}
+        }
+        
+        ab_citadel_research_3 = {
+            modifier = {
+                idea_cost = -0.1
+            }
+            ai_will_do = {
+				factor = 100
+			}
+        }
+        
+        ab_wise_associates_3 = { # asshai
+            modifier = {
+                technology_cost = -0.1
+            }
+            ai_will_do = {
+				factor = 100
+			}
+        }
+        
+        ab_loyal_lords_3 = {
+            modifier = {
+                state_maintenance_modifier = -0.33
+            }
+            ai_will_do = {
+				factor = 100
+			}
+        }
+        
+        ab_annual_purges_3 = {
+            modifier = {
+                yearly_corruption = -0.2
+            }
+            ai_will_do = {
+				factor = 100
+			}
+        }
+        
+        ab_death_marchs_3 = {
+            rule = {
+                force_march_free = yes
+            }
+            ai_will_do = {
+				factor = 100
+			}
+        }
+        
+        ab_administrative_competency_3 = {
+            modifier = {
+                max_states = 5
+            }
+            ai_will_do = {
+				factor = 100
+			}
+        }
+	}
+}
+
+fourth_age = {
+	start = 3019
+	
+	can_start = {
+		has_global_flag = fourth_age
+	}
+    
+	objectives = {
+		obj_prestigious_capital = {
+            capital_scope = {
+                development = 50
+                religion = ROOT
+                culture = ROOT
+                NOT = { devastation = 0 }
+            }
+        }
+        # Wise Ruler
+		obj_wise_ruler = {
+            OR = {
+                adm = 6
+                dip = 6
+                mil = 6
+            }
+        }
+        # Religious Defender
+        obj_religious_defender = {
+            is_defender_of_faith = yes
+            religious_unity = 1.0
+        }
+        obj_colossal_fleet = {
+            naval_forcelimit = 100
+            navy_size_percentage = 0.9
+        }
+        obj_colossal_army = {
+            land_forcelimit = 100
+            army_size_percentage = 0.9
+        }
+        obj_realm_of_virtues = {
+            prestige = 100
+            NOT = { corruption = 0 }
+            OR = {
+                legitimacy = 100
+                horde_unity = 100
+                devotion = 100
+                republican_tradition = 100
+                meritocracy = 100
+            }
+        }
+        obj_noble_connections = {
+            num_of_royal_marriages = 5
+        }
+	}		
+
+	abilities = {
+		ab_soldiers_of_fortune_4 = {
+            modifier = {
+                possible_mercenaries = 1.0
+            }
+            ai_will_do = {
+				factor = 100
+			}
+        }
+        
+        ab_lay_of_the_land_4 = {
+            rule = {
+                attack_bonus_in_capital_terrain = yes
+            }
+            ai_will_do = {
+				factor = 100
+			}
+        }
+        
+        ab_fearsome_navy_4 = {
+            modifier = {
+                ship_durability = 0.2
+            }
+            ai_will_do = {
+				factor = 100
+			}
+        }
+        
+        ab_excellent_knights_4 = {
+            modifier = {
+                cavalry_power = 0.1
+            }
+            ai_will_do = {
+				factor = 100
+			}
+        }
+        
+        ab_excellent_soldiers_4 = {
+            modifier = {
+                infantry_power = 0.1
+            }
+            ai_will_do = {
+				factor = 100
+			}
+        }
+        
+        ab_citadel_research_4 = {
+            modifier = {
+                idea_cost = -0.1
+            }
+            ai_will_do = {
+				factor = 100
+			}
+        }
+        
+        ab_wise_associates_4 = { # asshai
+            modifier = {
+                technology_cost = -0.1
+            }
+            ai_will_do = {
+				factor = 100
+			}
+        }
+        
+        ab_loyal_lords_4 = {
+            modifier = {
+                state_maintenance_modifier = -0.33
+            }
+            ai_will_do = {
+				factor = 100
+			}
+        }
+        
+        ab_annual_purges_4 = {
+            modifier = {
+                yearly_corruption = -0.2
+            }
+            ai_will_do = {
+				factor = 100
+			}
+        }
+        
+        ab_death_marchs_4 = {
+            rule = {
+                force_march_free = yes
+            }
+            ai_will_do = {
+				factor = 100
+			}
+        }
+        
+        ab_administrative_competency_4 = {
+            modifier = {
+                max_states = 5
+            }
+            ai_will_do = {
+				factor = 100
+			}
+        }
+	}
+}

@@ -1,0 +1,14 @@
+mercantilism = 0.1
+government = orc_gov
+add_government_reform = lotr_nazgul_reform
+primary_culture = culture_orkish
+religion = religion_orkish
+technology_group = lotr_orc
+capital = 417
+
+historical_friend = V17
+historical_friend = V19
+historical_friend = Y57
+historical_rival = X01
+historical_rival = X11
+historical_rival = X16

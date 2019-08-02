@@ -1,0 +1,606 @@
+########################################
+# Events for Elves
+########################################
+
+namespace = flavor_elven
+normal_or_historical_nations = yes
+
+province_event = {
+	id = flavor_elven.2
+	title = "flavor_elven.2.t"
+	desc = "flavor_elven.2.d"
+	picture = COLONIZATION_eventPicture
+
+	trigger = {
+		NOT = {
+			has_country_modifier = elven_event_citizens_left
+		}
+	
+		owner = {
+			religion_group = religion_group_eldar
+			karma = 30
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 84
+		
+		modifier = {
+			factor = 0.55
+			owner = {
+				war_exhaustion = 10 
+				karma = 50
+			}
+		}
+		modifier = {
+			factor = 0.65
+			owner = {
+				war_exhaustion = 15 
+				karma = 50
+			}
+		}
+		modifier = {
+			factor = 0.80
+			owner = {
+				karma = 50
+			}
+		}
+		modifier = {
+			factor = 0.50
+			owner = {
+				karma = 75
+			}
+		}
+	}
+	
+	option = {
+		name = "flavor_elven.2.a"
+
+		random_province = {
+			limit = {
+				owned_by = ROOT
+				
+				NOT = {
+					has_province_modifier = wilderness_debuff
+				}
+			}
+			
+			if = {
+				limit = {
+					NOT = {
+						base_manpower = 2
+						base_production = 2
+						base_tax = 2
+					}
+				}
+				change_culture = culture_wilderness
+				change_religion = religion_wilderness
+			}
+		
+			if = {
+				limit = {
+					OR = {
+						base_manpower = 2
+						base_production = 2
+						base_tax = 2
+					}
+				}
+				add_base_manpower = -1
+				add_base_production = -1
+				add_base_tax = -1
+				
+			}
+		}
+		
+		owner = {
+			add_karma = -5
+		}
+		
+		hidden_effect = {
+			add_country_modifier = {
+			name = elven_event_citizens_left
+			duration = 730
+			}
+		}
+	}
+}
+
+#Setting imortality
+country_event = {
+	id = flavor_elven.3
+	title = flavor_elven.3.t
+	desc = flavor_elven.3.d
+	picture = ADVISOR_eventPicture
+	hidden = yes
+
+	trigger = {
+		technology_group = lotr_elven
+		
+		OR = {
+			#Bigger nations
+			tag = Y80
+			tag = Y67
+			tag = Y68
+			tag = Y81
+			
+			#smaller nations
+			tag = Y83
+			tag = Y82
+		}
+		
+		OR = {
+			has_ruler = "Elrond"
+			has_ruler = "Thranduil"
+			has_ruler = "Celeborn"
+			has_ruler = "Círdan"
+			
+			has_ruler = "Nelon"
+			has_ruler = "Aearon"
+		}
+		
+		NOT = {
+			has_ruler_flag = imortal_flag
+		}
+	}
+	
+	option = { 
+		name = "flavor_elven.3.a"
+		set_ruler_flag = imortal_flag
+	}
+}
+#Reviving Ruler
+country_event = {
+	id = flavor_elven.4
+	title = flavor_elven.4.t
+	desc = flavor_elven.4.d
+	picture = ANGRY_MOB_eventPicture
+	hidden = yes
+
+	trigger = {
+		technology_group = lotr_elven
+		
+		OR = {
+			#Bigger nations
+			tag = Y80
+			tag = Y67
+			tag = Y68
+			tag = Y81
+			
+			#smaller nations
+			tag = Y83
+			tag = Z53
+			tag = Y82
+		}
+		
+		NOT = {
+			has_ruler_flag = imortal_flag
+			has_ruler = "Elrond"
+			has_ruler = "Thranduil"
+			has_ruler = "Celeborn"
+			has_ruler = "Círdan"
+			
+			has_ruler = "Nelon"
+			has_ruler = "Aearon"
+		}
+		
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				tag = Y80
+			}
+			define_ruler = {
+			  name = "Elrond"
+			  dynasty = original_dynasty
+			  age = 25
+			  claim = 100
+			  regency = no
+			  female = no
+			  adm = 6
+			  dip = 5
+			  mil = 6
+			  attach_leader = "Elrond"
+			}
+		}
+		
+		if = {
+			limit = {
+				tag = Y67
+			}
+			define_ruler = {
+			  name = "Thranduil"
+			  dynasty = original_dynasty
+			  age = 25
+			  claim = 100
+			  regency = no
+			  female = no
+			  adm = 6
+			  dip = 5
+			  mil = 6
+			  attach_leader = "Thranduil"
+			}
+		}
+		
+		if = {
+			limit = {
+				tag = Y68
+			}
+			define_ruler = {
+			  name = "Celeborn"
+			  dynasty = original_dynasty
+			  age = 25
+			  claim = 100
+			  regency = no
+			  female = no
+			  adm = 6
+			  dip = 5
+			  mil = 6
+			  attach_leader = "Celeborn"
+			}
+		}
+		
+		if = {
+			limit = {
+				tag = Y81
+			}
+			define_ruler = {
+			  name = "Círdan"
+			  dynasty = original_dynasty
+			  age = 25
+			  claim = 100
+			  regency = no
+			  female = no
+			  adm = 6
+			  dip = 5
+			  mil = 6
+			  attach_leader = "Círdan"
+			}
+		}
+		
+		if = {
+			limit = {
+				tag = Y83
+			}
+			define_ruler = {
+			  name = "Nelon"
+			  dynasty = original_dynasty
+			  age = 25
+			  claim = 100
+			  regency = no
+			  female = no
+			  adm = 4
+			  dip = 3
+			  mil = 4
+			  attach_leader = "Nelon"
+			}
+		}
+		
+		if = {
+			limit = {
+				tag = Y82
+			}
+			define_ruler = {
+			  name = "Aearon"
+			  dynasty = original_dynasty
+			  age = 25
+			  claim = 100
+			  regency = no
+			  female = no
+			  adm = 5
+			  dip = 3
+			  mil = 3
+			  attach_leader = "Aearon"
+			}
+		}
+		
+	}
+	
+	option = { 
+		name = "flavor_elven.4.a"
+	}
+}
+
+#kill ruler - test
+country_event = {
+	id = flavor_elven.5
+	title = flavor_elven.5.t
+	desc = flavor_elven.5.d
+	picture = ANGRY_MOB_eventPicture
+
+	trigger = {
+		has_country_flag = test
+	}
+	
+	immediate = {
+		#set_ruler = "Elrond"
+	}
+	
+	option = { 
+		name = "flavor_elven.5.a"
+		kill_ruler = yes
+	}
+}
+
+#gain karma
+country_event = {
+	id = flavor_elven.6
+	title = flavor_elven.6.t
+	desc = flavor_elven.6.d
+	picture = ANGRY_MOB_eventPicture
+
+	trigger = {
+		has_country_flag = test
+	}
+	
+	option = { 
+		name = "flavor_elven.6.a"
+		add_karma = 30
+	}
+}
+
+#gain karma
+country_event = {
+	id = flavor_elven.7
+	title = flavor_elven.7.t
+	desc = flavor_elven.7.d
+	picture = ANGRY_MOB_eventPicture
+
+	trigger = {
+		has_country_flag = test
+	}
+	
+	option = { 
+		name = "flavor_elven.7.a"
+		add_karma = -30
+	}
+}
+
+province_event = {
+	id = flavor_elven.8
+	title = "flavor_elven.8.t"
+	desc = "flavor_elven.8.d"
+	picture = COLONIZATION_eventPicture
+
+	trigger = {
+		NOT = {
+			has_country_modifier = elven_event_citizens_left
+		}
+	
+		owner = {
+			religion_group = religion_group_eldar
+			NOT = {
+				karma = -29
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 84
+		
+		modifier = {
+			factor = 0.55
+			owner = {
+				war_exhaustion = 10
+				NOT = {
+					karma = -50
+				}
+			}
+		}
+		modifier = {
+			factor = 0.35
+			owner = {
+				war_exhaustion = 15
+				NOT = {
+					karma = -50
+				}
+			}
+		}
+		modifier = {
+			factor = 0.80
+			owner = {
+				NOT = {
+					karma = -50
+				}
+			}
+			
+		}
+		modifier = {
+			factor = 0.50
+			owner = {
+				NOT = {
+					karma = -75
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "flavor_elven.8.a"
+
+		random_province = {
+			limit = {
+				owned_by = ROOT
+				
+				NOT = {
+					has_province_modifier = wilderness_debuff
+				}
+			}
+			
+			if = {
+				limit = {
+					NOT = {
+						base_manpower = 2
+						base_production = 2
+						base_tax = 2
+					}
+				}
+				change_culture = culture_wilderness
+				change_religion = religion_wilderness
+			}
+		
+			if = {
+				limit = {
+					OR = {
+						base_manpower = 2
+						base_production = 2
+						base_tax = 2
+					}
+				}
+				add_base_manpower = -1
+				add_base_production = -1
+				add_base_tax = -1
+				
+			}
+		}
+		
+		owner = {
+			add_karma = 5
+		}
+		
+		hidden_effect = {
+			add_country_modifier = {
+			name = elven_event_citizens_left
+			duration = 730
+			}
+		}
+	}
+}
+
+#Setting imortality heir
+country_event = {
+	id = flavor_elven.9
+	title = flavor_elven.9.t
+	desc = flavor_elven.9.d
+	picture = ADVISOR_eventPicture
+	hidden = yes
+
+	trigger = {
+		technology_group = lotr_elven
+		
+		OR = {
+			tag = Y80
+			tag = Y67
+			tag = Y68
+		}
+		
+		OR = {
+			has_heir = "Elladan"
+			has_heir = "Legolas"
+			has_heir = "Haldir"
+		}
+		
+		NOT = {
+			has_heir_flag = imortal_flag_heir
+		}
+	}
+	
+	option = { 
+		name = "flavor_elven.9.a"
+		set_heir_flag = imortal_flag_heir
+	}
+}
+#Reviving heir
+country_event = {
+	id = flavor_elven.10
+	title = flavor_elven.10.t
+	desc = flavor_elven.10.d
+	picture = ANGRY_MOB_eventPicture
+	hidden = yes
+
+	trigger = {
+		technology_group = lotr_elven
+		
+		OR = {
+			tag = Y80
+			tag = Y67
+			tag = Y68
+		}
+		
+		NOT = {
+			has_heir_flag = imortal_flag_heir
+			has_heir = "Elladan"
+			has_heir = "Legolas"
+			has_heir = "Haldir"
+		}
+		
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				tag = Y80
+			}
+			define_heir = {
+			  name = "Elladan"
+			  dynasty = original_dynasty
+			  age = 25
+			  claim = 100
+			  female = no
+			  adm = 6
+			  dip = 5
+			  mil = 6
+			  #attach_leader = "Elladan"
+			}
+		}
+		
+		if = {
+			limit = {
+				tag = Y67
+			}
+			define_heir = {
+			  name = "Legolas"
+			  dynasty = original_dynasty
+			  age = 25
+			  claim = 100
+			  female = no
+			  adm = 6
+			  dip = 5
+			  mil = 6
+			  #attach_leader = "Legolas"
+			}
+		}
+		
+		if = {
+			limit = {
+				tag = Y68
+			}
+			define_heir = {
+			  name = "Haldir"
+			  dynasty = original_dynasty
+			  age = 25
+			  claim = 100
+			  female = no
+			  adm = 6
+			  dip = 5
+			  mil = 6
+			  #attach_leader = "Haldir"
+			}
+		}
+	}
+	
+	option = { 
+		name = "flavor_elven.10.a"
+	}
+}
+
+#kill heir - test
+country_event = {
+	id = flavor_elven.11
+	title = flavor_elven.11.t
+	desc = flavor_elven.11.d
+	picture = ANGRY_MOB_eventPicture
+
+	trigger = {
+		has_country_flag = test
+	}
+	
+	immediate = {
+		#set_ruler = "Elrond"
+	}
+	
+	option = { 
+		name = "flavor_elven.11.a"
+		kill_heir = yes
+	}
+}

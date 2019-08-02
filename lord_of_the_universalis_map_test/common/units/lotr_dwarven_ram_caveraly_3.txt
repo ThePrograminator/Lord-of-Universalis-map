@@ -1,0 +1,11 @@
+# Dwarven Horse Archers
+type = cavalry
+unit_type = lotr_dwarven
+
+maneuver = 2
+offensive_morale = 4
+defensive_morale = 2
+offensive_fire = 0
+defensive_fire = 0
+offensive_shock = 6
+defensive_shock = 6

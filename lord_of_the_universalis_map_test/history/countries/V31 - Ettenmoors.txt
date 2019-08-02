@@ -1,0 +1,7 @@
+mercantilism = 0.1
+government = melkor_gov
+add_government_reform = lotr_troll_clan_reform
+primary_culture = culture_troll
+religion = religion_olog
+technology_group = lotr_troll
+capital = 624

@@ -1,0 +1,34 @@
+namespace = lotr_intro
+
+country_event = {
+	id = lotr_intro.1
+	title = lotr_intro.1.t
+	desc = lotr_intro.1.d
+	picture = COURT_eventPicture
+	
+	trigger = {
+		NOT = {	has_country_modifier =  "human_buff" }
+		OR = { 
+				technology_group = lotr_men
+				technology_group = lotr_arnor_men
+				technology_group = lotr_easterling
+				technology_group = lotr_haradrim
+				technology_group = lotr_rohirrim
+				technology_group = lotr_northron
+				technology_group = lotr_wildman
+				}
+		
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "LOTR_HUMAN.1a"
+		add_country_modifier = {
+			name = "human_buff"
+			duration = -1
+		}
+	}
+}

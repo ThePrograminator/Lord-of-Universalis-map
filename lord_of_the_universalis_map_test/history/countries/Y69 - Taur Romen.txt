@@ -1,0 +1,7 @@
+mercantilism = 0.1
+government = elf_gov
+add_government_reform = kingdom_elf_reform
+primary_culture = culture_uialrim
+religion = religion_umanyar
+technology_group = lotr_elven
+capital = 235

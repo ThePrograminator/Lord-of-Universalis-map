@@ -1,0 +1,68 @@
+# INSTRUCTIONS:
+# -------------
+# is_triggered_only - Triggered from within the code or by event effects. DO NOT REMOVE THE STOCK ONES.
+# months - The number of months this CB will be valid. Only works for triggered CBs.
+# prerequisites - A condition that automatically activates a CB. Does not work for triggered CBs.
+# no_opinion_hit - If yes you get no negative opinion from this
+#
+# ROOT = attacker
+# FROM = target
+#
+# NOTE: The order in which the peace options are listed is the order in which the AI will normally prioritize them in peace treaties
+#
+# TRIGGERED - Triggered from within the code or by event effects
+# --------------------------------------------------------------
+cb_war_of_the_dwarves_and_orcs = {
+	
+	valid_for_subject = no
+	
+	prerequisites = {
+		core_claim = FROM
+	}
+	#is_triggered_only = yes
+
+	war_goal = annex_country
+}
+
+cb_harad_invasion = {
+	coalition = yes
+	valid_for_subject = no
+
+	prerequisites = {
+		#is_neighbor_of = FROM
+		NOT = {
+			religion_group = FROM 
+		}
+		NOT = {
+			has_matching_religion = FROM 
+		}
+		FROM = { has_country_flag = Invasion_called_response }
+		religion = religion_southron
+	}
+
+	war_goal = superiority_crusade
+}
+
+cb_take_erebor_alone = {	
+	valid_for_subject = no
+	
+	prerequisites = {
+		#core_claim = FROM
+	}
+	is_triggered_only = yes
+
+	war_goal = war_battle_for_erebor
+}
+
+cb_take_erebor_both = {
+	coalition = yes
+	
+	valid_for_subject = no
+	
+	prerequisites = {
+		#core_claim = FROM
+	}
+	is_triggered_only = yes
+
+	war_goal = war_battle_for_erebor
+}

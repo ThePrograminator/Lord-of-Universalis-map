@@ -1,0 +1,7 @@
+mercantilism = 0.1
+government = elf_gov
+add_government_reform = kingdom_elf_reform
+primary_culture = culture_luindrim
+religion = religion_moriquendi
+technology_group = lotr_elven
+capital = 235

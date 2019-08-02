@@ -1,0 +1,67 @@
+# Dwarven religion
+#Sending Workers to a Mine (Dwarven settlement)
+
+# legitimize_government
+dwarven_blessing_send_traders = {
+	is_blessing = yes
+
+	modifier = {
+		trade_efficiency = 0.10
+		trade_range_modifier = 0.10
+	}
+	ai_will_do = {
+		factor = 15
+	}
+}
+
+# encourage_warriors_of_the_faith
+dwarven_blessing_send_smithies = {
+	is_blessing = yes
+
+	modifier = {
+		build_cost = -0.10
+		production_efficiency = 0.10
+	}
+	
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+# encourage_warriors_of_the_faith
+dwarven_blessing_send_miners = {
+	is_blessing = yes
+
+	modifier = {
+		global_trade_goods_size_modifier = 0.20
+	}
+	ai_will_do = {
+		factor = 20
+	}
+}
+
+# encourage_warriors_of_the_faith
+dwarven_blessing_send_warriors = {
+	is_blessing = yes
+
+	modifier = {
+		infantry_power = 0.1
+		discipline = 0.025
+	}
+	ai_will_do = {
+		factor = 25
+	}
+}
+
+# will_of_the_martyrs
+dwarven_blessing_send_advisors = {
+	is_blessing = yes
+
+	modifier = {
+		advisor_cost = -0.25
+		prestige = 1
+	}
+	ai_will_do = {
+		factor = 20
+	}
+}

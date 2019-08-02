@@ -1,0 +1,15 @@
+﻿l_english:
+ #estate_nobles:0 "Nobility"
+ #estate_nobles_desc:0 "This estate represents the families of landed aristocrats in your country. Their privileges are guaranteed by old traditions and most have originally been won through performing great services to the state. Their traditional responsibility is to fight and protect the realm against outside dangers as well as help the ruler keep the peace."
+ estate_traders_guild:0 "Traders Guild"
+ estate_traders_guild_desc:0 ""
+ estate_miners_guild:0 "Miners Guild"
+ estate_miners_guild_desc:0 ""
+ estate_smithies_guild:0 "Smithies Guild"
+ estate_smithies_guild_desc:0 ""
+ estate_advisors_guild:0 "Advisors Guild"
+ estate_advisors_guild_desc:0 ""
+ estate_warriors_guild:0 "Warriors Guild"
+ estate_warriors_guild_desc:0 ""
+
+ estate_families:0 "Families"

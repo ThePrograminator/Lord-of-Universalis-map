@@ -1,0 +1,125 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_third_age"
+		texturefile = "gfx/interface/ages/third_age.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_fourth_age"
+		texturefile = "gfx/interface/ages/fourth_age.dds"
+	}
+
+    # Ability
+	# Thrid Age
+    spriteType = {
+		name = "GFX_ab_soldiers_of_fortune_3"
+		texturefile = "gfx/interface/ages/ab_soldiers_of_fortune.dds"
+	}
+
+    spriteType = {
+		name = "GFX_ab_lay_of_the_land_3"
+		texturefile = "gfx/interface/ages/ab_lay_of_the_land.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_ab_fearsome_navy_3"
+		texturefile = "gfx/interface/ages/ab_fearsome_navy.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_ab_excellent_knights_3"
+		texturefile = "gfx/interface/ages/ab_excellent_knights.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_ab_excellent_soldiers_3"
+		texturefile = "gfx/interface/ages/ab_excellent_soldiers.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_ab_citadel_research_3"
+		texturefile = "gfx/interface/ages/ab_citadel_research.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_ab_wise_associates_3"
+		texturefile = "gfx/interface/ages/ab_wise_associates.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_ab_loyal_lords_3"
+		texturefile = "gfx/interface/ages/ab_loyal_lords.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_ab_annual_purges_3"
+		texturefile = "gfx/interface/ages/ab_annual_purges.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_ab_death_marchs_3"
+		texturefile = "gfx/interface/ages/ab_death_marchs.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_ab_administrative_competency_3"
+		texturefile = "gfx/interface/ages/ab_administrative_competency.dds"
+	}
+	
+	# Ability
+	# Forth Age
+	spriteType = {
+		name = "GFX_ab_soldiers_of_fortune_4"
+		texturefile = "gfx/interface/ages/ab_soldiers_of_fortune.dds"
+	}
+
+    spriteType = {
+		name = "GFX_ab_lay_of_the_land_4"
+		texturefile = "gfx/interface/ages/ab_lay_of_the_land.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_ab_fearsome_navy_4"
+		texturefile = "gfx/interface/ages/ab_fearsome_navy.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_ab_excellent_knights_4"
+		texturefile = "gfx/interface/ages/ab_excellent_knights.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_ab_excellent_soldiers_4"
+		texturefile = "gfx/interface/ages/ab_excellent_soldiers.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_ab_citadel_research_4"
+		texturefile = "gfx/interface/ages/ab_citadel_research.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_ab_wise_associates_4"
+		texturefile = "gfx/interface/ages/ab_wise_associates.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_ab_loyal_lords_4"
+		texturefile = "gfx/interface/ages/ab_loyal_lords.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_ab_annual_purges_4"
+		texturefile = "gfx/interface/ages/ab_annual_purges.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_ab_death_marchs_4"
+		texturefile = "gfx/interface/ages/ab_death_marchs.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_ab_administrative_competency_4"
+		texturefile = "gfx/interface/ages/ab_administrative_competency.dds"
+	}
+}

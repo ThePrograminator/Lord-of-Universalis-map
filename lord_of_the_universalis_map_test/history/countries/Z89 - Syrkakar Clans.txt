@@ -1,0 +1,9 @@
+mercantilism = 0.1
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = culture_syrkakar
+religion = religion_tyr
+technology_group = lotr_daen
+capital = 156
+
+government_rank = 1

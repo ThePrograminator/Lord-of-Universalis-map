@@ -1,0 +1,18 @@
+# Arnorian Knights
+type = cavalry
+unit_type = lotr_dunedain
+
+maneuver = 2
+offensive_morale = 4
+defensive_morale = 6
+offensive_fire = 0
+defensive_fire = 0
+offensive_shock = 5
+defensive_shock = 3
+
+trigger = {
+	OR = {
+		primary_culture = culture_arnorian
+		primary_culture = culture_dunedain_of_arnor
+	}
+}

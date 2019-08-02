@@ -1,0 +1,21 @@
+mercantilism = 0.1
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = culture_dunlendings
+religion = religion_daen
+technology_group = lotr_daen
+capital = 1433
+
+government_rank = 1
+
+historical_friend = Z55
+historical_friend = Z51
+historical_friend = Z57
+historical_friend = Z60
+historical_friend = Z48
+historical_rival = Z54
+historical_rival = Z52
+historical_rival = Z53
+historical_rival = Z58
+historical_rival = Z59
+historical_rival = X16

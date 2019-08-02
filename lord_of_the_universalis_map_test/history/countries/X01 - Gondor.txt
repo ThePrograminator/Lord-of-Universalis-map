@@ -1,0 +1,401 @@
+mercantilism = 0.1
+government = monarchy
+add_government_reform = stewardship_reform
+primary_culture = culture_dunedain_of_gondor
+add_accepted_culture = culture_gondor_middlemen
+religion = religion_dunedain
+technology_group = lotr_dunedain
+capital = 413
+
+historical_friend = X16
+historical_friend = X11
+historical_friend = X02
+historical_rival = V17
+historical_rival = V19
+historical_rival = V18
+historical_rival = X27
+historical_rival = X23
+historical_rival = X19
+historical_rival = X99
+historical_rival = X78
+historical_rival = X79
+historical_rival = X80
+historical_rival = X81
+historical_rival = X82
+historical_rival = X83
+historical_rival = X84
+
+2480.1.1 = {
+	heir = {
+		name = "Hallas"
+		monarch_name = "Hallas"
+		dynasty = "Húrin"
+		birth_date = 2480.1.1
+		death_date = 2605.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+2489.1.1 = {
+	monarch = {
+		name = "Cirion"
+		dynasty = "Húrin"
+		adm = 3
+		dip = 2
+		mil = 4
+		birth_date = 2449.1.1
+	}
+}
+
+2515.1.1 = {
+	heir = {
+		name = "Húrin"
+		monarch_name = "Húrin II"
+		dynasty = "Húrin"
+		birth_date = 2515.1.1
+		death_date = 2628.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 2
+	}
+}
+
+2567.1.1 = {
+	monarch = {
+		name = "Hallas"
+		dynasty = "Húrin"
+		adm = 4
+		dip = 3
+		mil = 3
+		birth_date = 2480.1.1
+	}
+}
+
+2605.1.1 = {
+	monarch = {
+		name = "Húrin II"
+		dynasty = "Húrin"
+		adm = 4
+		dip = 4
+		mil = 2
+		birth_date = 2515.1.1
+	}
+}
+
+2605.1.1 = {
+	heir = {
+		name = "Belecthor"
+		monarch_name = "Belecthor"
+		dynasty = "Húrin"
+		birth_date = 2545.1.1
+		death_date = 2655.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+2628.1.1 = {
+	monarch = {
+		name = "Belecthor"
+		dynasty = "Húrin"
+		adm = 3
+		dip = 4
+		mil = 3
+		birth_date = 2545.1.1
+	}
+}
+
+2628.1.1 = {
+	heir = {
+		name = "Orodreth"
+		monarch_name = "Orodreth"
+		dynasty = "Húrin"
+		birth_date = 2576.1.1
+		death_date = 2685.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+
+2655.1.1 = {
+	monarch = {
+		name = "Orodreth"
+		dynasty = "Húrin"
+		adm = 3
+		dip = 4
+		mil = 2
+		birth_date = 2576.1.1
+	}
+}
+
+2655.1.1 = {
+	heir = {
+		name = "Beren"
+		monarch_name = "Beren"
+		dynasty = "Húrin"
+		birth_date = 2655.1.1
+		death_date = 2763.1.1
+		claim = 95
+		adm = 1
+		dip = 2
+		mil = 5
+	}
+}
+
+2685.1.1 = {
+	monarch = {
+		name = "Ecthelion"
+		dynasty = "Húrin"
+		adm = 4
+		dip = 5
+		mil = 2
+		birth_date = 2600.1.1
+	}
+}
+
+2698.1.1 = {
+	monarch = {
+		name = "Egalmoth"
+		dynasty = "Húrin"
+		adm = 2
+		dip = 2
+		mil = 3
+		birth_date = 2626.1.1
+	}
+}
+
+2700.1.1 = {
+	heir = {
+		name = "Beregond"
+		monarch_name = "Beregond"
+		dynasty = "Húrin"
+		birth_date = 2700.1.1
+		death_date = 2811.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+2743.1.1 = {
+	monarch = {
+		name = "Beren"
+		dynasty = "Húrin"
+		adm = 1
+		dip = 2
+		mil = 5
+		birth_date = 2655.1.1
+	}
+}
+
+2752.1.1 = {
+	heir = {
+		name = "Belecthor"
+		monarch_name = "Belecthor II"
+		dynasty = "Húrin"
+		birth_date = 2752.1.1
+		death_date = 2872.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+2763.1.1 = {
+	monarch = {
+		name = "Beregond"
+		dynasty = "Húrin"
+		adm = 3
+		dip = 3
+		mil = 4
+		birth_date = 2700.1.1
+	}
+}
+
+2782.1.1 = {
+	heir = {
+		name = "Thorondir"
+		monarch_name = "Thorondir"
+		dynasty = "Húrin"
+		birth_date = 2782.1.1
+		death_date = 2882.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+2811.1.1 = {
+	monarch = {
+		name = "Belecthor II"
+		dynasty = "Húrin"
+		adm = 2
+		dip = 2
+		mil = 2
+		birth_date = 2752.1.1
+	}
+}
+
+2815.1.1 = {
+	heir = {
+		name = "Túrin"
+		monarch_name = "Túrin II"
+		dynasty = "Húrin"
+		birth_date = 2815.1.1
+		death_date = 2914.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 2
+	}
+}
+
+2855.1.1 = {
+	heir = {
+		name = "Turgon"
+		monarch_name = "Turgon"
+		dynasty = "Húrin"
+		birth_date = 2855.1.1
+		death_date = 2953.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 2
+	}
+}
+2872.1.1 = {
+	monarch = {
+		name = "Thorondir"
+		dynasty = "Húrin"
+		adm = 3
+		dip = 3
+		mil = 2
+		birth_date = 2782.1.1
+	}
+}
+
+2882.1.1 = {
+	monarch = {
+		name = "Túrin II"
+		dynasty = "Húrin"
+		adm = 4
+		dip = 4
+		mil = 2
+		birth_date = 2815.1.1
+	}
+}
+
+2886.1.1 = {
+	heir = {
+		name = "Ecthelion"
+		monarch_name = "Ecthelion II"
+		dynasty = "Húrin"
+		birth_date = 2886.1.1
+		death_date = 2984.1.1
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+2914.1.1 = {
+	monarch = {
+		name = "Turgon"
+		dynasty = "Húrin"
+		adm = 5
+		dip = 5
+		mil = 2
+		birth_date = 2855.1.1
+	}
+}
+
+2930.1.1 = {
+	heir = {
+		name = "Denethor"
+		monarch_name = "Denethor II"
+		dynasty = "Húrin"
+		birth_date = 2930.1.1
+		death_date = 3019.3.15
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 1
+	}
+}
+
+2953.1.1 = {
+	monarch = {
+		name = "Ecthelion II"
+		dynasty = "Húrin"
+		adm = 5
+		dip = 3
+		mil = 4
+		birth_date = 2886.1.1
+	}
+}
+
+2978.1.1 = {
+	heir = {
+		name = "Boromir"
+		monarch_name = "Boromir"
+		dynasty = "Húrin"
+		birth_date = 2978.1.1
+		death_date = 3019.2.26
+		claim = 95
+		adm = 4
+		dip = 1
+		mil = 4
+	}
+	add_heir_personality = inspiring_leader_personality
+}
+
+2984.1.1 = {
+	monarch = {
+		name = "Denethor II"
+		dynasty = "Húrin"
+		adm = 3
+		dip = 2
+		mil = 1
+		birth_date = 2930.1.1
+	}
+	queen = {
+        country_of_origin = X11
+        name = "Finduilas"
+        dynasty = "Dol Amroth" 
+        birth_date = 2950.1.1
+        death_date = 2988.1.1
+        female = yes
+        adm = 3
+        dip = 4
+        mil = 2
+    }
+	add_ruler_personality = craven_personality
+	add_ruler_personality = naive_personality
+}
+
+3019.2.26 = {
+	heir = {
+		name = "Faramir"
+		monarch_name = "Faramir"
+		dynasty = "Húrin"
+		birth_date = 2983.1.1
+		death_date = 3101.2.26
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	add_heir_personality = inspiring_leader_personality
+}

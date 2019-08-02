@@ -1,0 +1,47 @@
+mercantilism = 0.1
+government = orc_gov
+add_government_reform = lotr_mordor_reform
+primary_culture = culture_orkish
+religion = religion_orkish
+technology_group = lotr_orc
+capital = 639
+
+historical_friend = V18
+historical_friend = V19
+historical_friend = X99
+historical_friend = X19
+historical_friend = X23
+historical_rival = X01
+historical_rival = X11
+historical_rival = X16
+historical_rival = Y68
+historical_rival = Y67
+historical_rival = Y94
+historical_rival = Y22
+historical_rival = Y80
+historical_rival = Y81
+
+2951.1.1 = {
+	monarch = {
+		name = "Spirit of Sauron"
+		dynasty = "Lord of Darkness"
+		adm = 7
+		dip = 3
+		mil = 9
+		birth_date = 2515.1.1
+		death_date = 3000.1.1
+		claim = 95
+	}
+}
+3000.1.1 = {
+	monarch = {
+		name = "Spirit of Sauron"
+		dynasty = "Lord of Darkness"
+		adm = 7
+		dip = 3
+		mil = 9
+		birth_date = 2968.1.1
+		death_date = 3019.3.25
+		claim = 99
+	}
+}

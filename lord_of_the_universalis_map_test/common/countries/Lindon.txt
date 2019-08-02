@@ -1,0 +1,194 @@
+#Country Name: Please see filename.
+graphical_culture = lotr_elf_gfx
+
+color = { 45 55 105 }
+
+historical_idea_groups = {
+	offensive_ideas
+	diplomatic_ideas
+	defensive_ideas
+	innovativeness_ideas
+	administrative_ideas
+	quantity_ideas
+	economic_ideas
+	aristocracy_ideas
+}
+
+historical_units = {
+	lotr_elven_silvan_archers_1
+	lotr_elven_silvan_ambushers_2
+	lotr_elven_silvan_poachers_3
+	lotr_elven_silvan_sentinel_4
+	lotr_elven_silvan_archer_5
+
+	lotr_elven_silvan_horse_archers_1
+	lotr_elven_silvan_mounted_sentinels_2
+	lotr_elven_silvan_mounted_archers_3
+}
+
+monarch_names = {
+	"Aerendil" = 10
+	"Eärendil" = 10
+	"Aerennel" = 10
+	"Eärendil" = 10
+	"Amdír" = 10
+	"Amdír" = 10
+	"Amroth" = 10
+	"Amroth" = 10
+	"Ardamir" = 10
+	"Ardamir" = 10
+	"Boromir" = 10
+	"Boromir" = 10
+	"Celeborn" = 10
+	"Celeborn" = 10
+	"Círdan" = 10
+	"Círdan" = 10
+	"Deneroth" = 10
+	"Deneroth" = 10
+	"Denethor" = 10
+	"Denethor" = 10
+	"Denu" = 10
+	"Dan" = 10
+	"Elladan" = 10
+	"Elladan" = 10
+	"Elmo" = 10
+	"Elmo" = 10
+	"Elmagil" = 10
+	"Elemmacil" = 10
+	"Elrohir" = 10
+	"Elrohir" = 10
+	"Elrond" = 10
+	"Elrond" = 10
+	"Elros" = 10
+	"Elros" = 10
+	"Elu" = 10
+	"Elu" = 10
+	"Finu" = 10
+	"Finwë" = 10
+	"Gil-galad" = 10
+	"Gil-galad" = 10
+	"Glorfindel" = 10
+	"Glorfindel" = 10
+	"Gwachaedir" = 10
+	"Palantir" = 10
+	"Ingolodh" = 10
+	"Ingoldo" = 10
+	"Ingu" = 10
+	"Ingwë" = 10
+	"Ithilbor" = 10
+	"Itihlbor" = 10
+	"Laegolas" = 10
+	"Legolas" = 10
+	"Loeu" = 10
+	"Eöl" = 10
+	"Mablung" = 10
+	"Mablung" = 10
+	"Malgalad" = 10
+	"Malgalad" = 10
+	"Míru" = 10
+	"Mírwë" = 10
+	"Mírdan" = 10
+	"Mírdan" = 10
+	"Moru" = 10
+	"Morwë" = 10
+	"Nou" = 10
+	"Noue" = 10
+	"Nuru" = 10
+	"Nurwë" = 10
+	"Orofer" = 10
+	"Oropher" = 10
+	"Rodnor" = 10
+	"Rodnor" = 10
+	"Saeros" = 10
+	"Saeros" = 10
+	"Tharanduil" = 10
+	"Thranduil" = 10
+	"Thingol" = 10
+	"Thingol" = 10
+	
+	"Aerwen" = -10
+	"Eärwen" = -10
+	"Arwen" = -10
+	"Arwen" = -10
+	"Celebrían" = -10
+	"Celebrían" = -10
+	"Eirien" = -10
+	"Eirien" = -10
+	"Elwing" = -10
+	"Elwing" = -10
+	"Galadriel" = -10
+	"Galadriel" = -10
+	"Galadwen" = -10
+	"Galadwen" = -10
+	"Lúthien" = -10
+	"Lúthien" = -10
+	"Míriel" = -10
+	"Míriel" = -10
+	"Mithrellas" = -10
+	"Mithrellas" = -10
+	"Morwen" = -10
+	"Morwen" = -10
+	"Neniel" = -10
+	"Neniel" = -10
+	"Nimrodel" = -10
+	"Nimrodel" = -10
+	"Rían" = -10
+	"Rían" = -10
+	"Tinúviel" = -10
+	"Tinúviel" = -10
+}
+
+leader_names = {
+	
+}
+
+ship_names = {
+	Eagletree
+	Feathersun
+	Lowtree
+	Distantblade
+	Pineweaver
+	Oceanfang
+	Humbleripper
+	Wiseblood
+	Sunmantle
+	Grandpunch
+	Pyrefollower
+	Hawkfall
+	Heartsteam
+	Stonestrength
+	Mastertide
+	Gloomsworn
+	Redfist
+	Riverwinds
+	Skyspire
+	Fireclaw
+	Lunapike
+	Whitbane
+	Tarrensnow
+	Leafroot
+	Softswallow
+	Peacereaper
+	Stagarm
+	Monsterfury
+	Horsebinder
+	Strongmoon
+	Moltenmourn
+	Skymight
+	Covenstriker
+	Glowstrider
+	Farwatcher
+	Fallendown
+	Tarrengem
+	Stonestar
+	Fernstriker
+	Roughheart
+}
+
+army_names = {
+	"Regiment of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}

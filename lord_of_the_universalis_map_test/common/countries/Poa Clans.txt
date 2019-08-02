@@ -1,0 +1,572 @@
+#Country Name: Please see filename.
+graphical_culture = indiangfx
+
+color = { 250 175 50 }
+
+historical_idea_groups = {
+	offensive_ideas
+	diplomatic_ideas
+	defensive_ideas
+	innovativeness_ideas
+	administrative_ideas
+	quantity_ideas
+	economic_ideas
+	aristocracy_ideas
+}
+
+historical_units = {
+	lotr_haradrim_spearmen_1
+	lotr_haradrim_warband_spearmen_2
+	lotr_haradrim_muhad_tribesmen_3
+	lotr_haradrim_southron_pike_4
+	lotr_haradrim_serpant_guard_5
+
+	lotr_haradrim_horse_archers_1
+	lotr_haradrim_southron_horse_archer_2
+	lotr_haradrim_haradrim_raiders_3
+	lotr_haradrim_serpent_horse_guard_4
+	lotr_haradrim_amoured_mumakill_5
+}
+
+monarch_names = {
+	"Abakada" = 10
+	"Abazza" = 10
+	"Abbas" = 10
+	"Abbas" = 10
+	"Abdul" = 10
+	"Abdul" = 10
+	"Abdul-Azeem" = 10
+	"Abdul-Haleem" = 10
+	"Abdul-Kareem" = 10
+	"Abdul-Rahman" = 10
+	"Abdullah" = 10
+	"Abdullah" = 10
+	"Abidin" = 10
+	"Adal" = 10
+	"Adam" = 10
+	"Adam" = 10
+	"Aderbal" = 10
+	"Adergazuz" = 10
+	"Adherbal" = 10
+	"Admer" = 10
+	"Adrir" = 10
+	"Adum" = 10
+	"Afaghis" = 10
+	"Afalawas" = 10
+	"Afalku" = 10
+	"Afer" = 10
+	"Afulay" = 10
+	"Agafay" = 10
+	"Agama" = 10
+	"Agdada" = 10
+	"Agdun" = 10
+	"Agellid" = 10
+	"Aggur" = 10
+	"Aghali" = 10
+	"Aghecher" = 10
+	"Aghilas" = 10
+	"Agwillul" = 10
+	"Ahamatu" = 10
+	"Aheyyad" = 10
+	"Ahmad" = 10
+	"Ahmad" = 10
+	"Ajdir" = 10
+	"Ajeddig" = 10
+	"Akaday" = 10
+	"Akateiaji" = 10
+	"Akli" = 10
+	"Akorakor" = 10
+	"Aksel" = 10
+	"Caecilius" = 10
+	"Aksil" = 10
+	"Caecilius" = 10
+	"Akutla" = 10
+	"Akzer" = 10
+	"Al'a'addin" = 10
+	"Ali" = 10
+	"Ali" = 10
+	"Alyamas" = 10
+	"Amawal" = 10
+	"Amayas" = 10
+	"Amaz'uz'" = 10
+	"Ambay" = 10
+	"Amdegh" = 10
+	"Amellal" = 10
+	"Amennay" = 10
+	"Ameska" = 10
+	"Amessan" = 10
+	"Amin" = 10
+	"Amma" = 10
+	"Ammuc" = 10
+	"Amray" = 10
+	"Amri" = 10
+	"Amud" = 10
+	"Anaba" = 10
+	"Annaber" = 10
+	"Antalas" = 10
+	"Anwa" = 10
+	"Aras" = 10
+	"Asad" = 10
+	"Asaru" = 10
+	"Asirem" = 10
+	"Aszellay" = 10
+	"Atissi" = 10
+	"Awdia" = 10
+	"Awgustin" = 10
+	"August" = 10
+	"Awinagh" = 10
+	"Awlagh" = 10
+	"Awzal" = 10
+	"Aylal" = 10
+	"Ayt'ere" = 10
+	"Az'ar" = 10
+	"Az'regh" = 10
+	"Azenkwed" = 10
+	"Azim" = 10
+	"Azrur" = 10
+	"Badda" = 10
+	"Badis" = 10
+	"Bagay" = 10
+	"Barakat" = 10
+	"Beddis" = 10
+	"Berkan" = 10
+	"Bezz'i" = 10
+	"Br'ir'uc" = 10
+	"Bukkus" = 10
+	"Buwayh" = 10
+	"Buxtuc" = 10
+	"Capussa" = 10
+	"Cucung" = 10
+	"Dali" = 10
+	"Fahd" = 10
+	"Fath" = 10
+	"Fella" = 10
+	"Firhun" = 10
+	"Firmus" = 10
+	"Frawsen" = 10
+	"Gaia" = 10
+	"Galussa" = 10
+	"Gauda" = 10
+	"Gaya" = 10
+	"Ghani" = 10
+	"Ghanim" = 10
+	"Ghaysan" = 10
+	"Ghumer" = 10
+	"Gildun" = 10
+	"Gulusa" = 10
+	"H'emmu" = 10
+	"Haidar" = 10
+	"Hamad" = 10
+	"Hashim" = 10
+	"Hiba" = 10
+	"Hiempsal" = 10
+	"Himmi" = 10
+	"Hotha" = 10
+	"Hussamaddin" = 10
+	"Ibiza" = 10
+	"Ibrahim" = 10
+	"Abraham" = 10
+	"Iccaam" = 10
+	"Ifni" = 10
+	"Ifser" = 10
+	"Ighlaf" = 10
+	"Igider" = 10
+	"Igmi" = 10
+	"Iher" = 10
+	"Iken" = 10
+	"Ilyas" = 10
+	"Ilyas" = 10
+	"Immeghar" = 10
+	"Immel" = 10
+	"Irgen" = 10
+	"Is'mail" = 10
+	"Ismail" = 10
+	"Isalcas" = 10
+	"Ishaq" = 10
+	"Isaac" = 10
+	"Isli" = 10
+	"Issam" = 10
+	"It'ij" = 10
+	"Itber" = 10
+	"Itri" = 10
+	"Ixfensen" = 10
+	"Ixzi" = 10
+	"Izri" = 10
+	"Jaffar" = 10
+	"Jamal" = 10
+	"Kadidu" = 10
+	"Kamal" = 10
+	"Karidenna" = 10
+	"Kawsen" = 10
+	"Kenan" = 10
+	"Keraja" = 10
+	"Khalid" = 10
+	"Khanchla" = 10
+	"Khenchela" = 10
+	"Khidr" = 10
+	"Kussil" = 10
+	"Lacumaces" = 10
+	"Laweye" = 10
+	"Lewnis" = 10
+	"Luki" = 10
+	"Lucius" = 10
+	"Madidu" = 10
+	"Magsen" = 10
+	"Mahtar" = 10
+	"Malik" = 10
+	"Marwan" = 10
+	"Masgaba" = 10
+	"Masgava" = 10
+	"Masinissa" = 10
+	"Masmud" = 10
+	"Masnsen" = 10
+	"Massinissa" = 10
+	"Massiva" = 10
+	"Massnsen" = 10
+	"Mastan" = 10
+	"Mastanabal" = 10
+	"Matiya" = 10
+	"Matthew" = 10
+	"Maysar" = 10
+	"Maziba" = 10
+	"Mazigh" = 10
+	"Medjan" = 10
+	"Mellal" = 10
+	"Mennad" = 10
+	"Menzu" = 10
+	"Meq'wran" = 10
+	"Mez'yan" = 10
+	"Mezwar" = 10
+	"Micipsa" = 10
+	"Misagenes" = 10
+	"Misibsen" = 10
+	"Mu'izz" = 10
+	"Muh'end" = 10
+	"Muhammad" = 10
+	"Muhammad" = 10
+	"Mukhtar" = 10
+	"Mula" = 10
+	"Murad" = 10
+	"Musa" = 10
+	"Moses" = 10
+	"Mustafa" = 10
+	"Muzaffaraddin" = 10
+	"N'Guna" = 10
+	"Nasr" = 10
+	"Nazar" = 10
+	"Niptasan" = 10
+	"Nizamaddin" = 10
+	"Ptolemee" = 10
+	"Ptolemy" = 10
+	"Qutaiba" = 10
+	"Rashid" = 10
+	"Sa'id" = 10
+	"Salah" = 10
+	"Salla" = 10
+	"Salomon" = 10
+	"Solomon" = 10
+	"Sammer" = 10
+	"Sayyid" = 10
+	"Seghada" = 10
+	"Sekla" = 10
+	"Shamsaddin" = 10
+	"Sifaks" = 10
+	"Sifal" = 10
+	"Sinbad" = 10
+	"Sisso" = 10
+	"Stembanos" = 10
+	"Suggut" = 10
+	"Sultan" = 10
+	"T'ar'iq" = 10
+	"Tabat" = 10
+	"Tacfin" = 10
+	"Taffounnout" = 10
+	"Tahir" = 10
+	"Takfarinas" = 10
+	"Tanan" = 10
+	"Tariq" = 10
+	"Tegama" = 10
+	"Thabitah" = 10
+	"Tifan" = 10
+	"Theophanus" = 10
+	"Tiljad" = 10
+	"Ugdada" = 10
+	"Ugwistan" = 10
+	"Umar" = 10
+	"Umar" = 10
+	"Uqess'un" = 10
+	"Uregh" = 10
+	"Urtilian" = 10
+	"Urz'ig" = 10
+	"Uzmir" = 10
+	"Uzza" = 10
+	"Wahab" = 10
+	"Watt'as" = 10
+	"Xamida" = 10
+	"Yabdas" = 10
+	"Yaghmurasen" = 10
+	"Yahya" = 10
+	"Yahya" = 10
+	"Yattuy" = 10
+	"Yeften" = 10
+	"Yeh'lem" = 10
+	"Yiliyen" = 10
+	"Yuba" = 10
+	"Yugerten" = 10
+	"Yugurthen" = 10
+	"Youkhanna" = 10
+	"John" = 10
+	"Yunes" = 10
+	"Yusuf" = 10
+	"Joseph" = 10
+	"Yuva" = 10
+	"Z'effun" = 10
+	"Zafir" = 10
+	"Zalelsan" = 10
+	"Zayar" = 10
+	"Zer'wal" = 10
+	"Zigza" = 10
+	"Ziri" = 10
+	"Zubeyr" = 10
+	
+	"Daenya" = -10
+	"Aaliyah" = -10
+	"Aamina" = -10
+	"Aamira" = -10
+	"Aaqila" = -10
+	"Aarifa" = -10
+	"Aazzi" = -10
+	"Adelah" = -10
+	"Adela" = -10
+	"Adiba" = -10
+	"Adilah" = -10
+	"Adilia" = -10
+	"Adiva" = -10
+	"Adjan" = -10
+	"Aeesha" = -10
+	"Aesha" = -10
+	"Aisha" = -10
+	"Amira" = -10
+	"Badeea" = -10
+	"Badia" = -10
+	"Badra" = -10
+	"Bahac" = -10
+	"Bahiyya" = -10
+	"Bajila" = -10
+	"Bakka" = -10
+	"Baraah" = -10
+	"Barakah" = -10
+	"Baria" = -10
+	"Bashira" = -10
+	"Basilie" = -10
+	"Basima" = -10
+	"Basimah" = -10
+	"Bghnat" = -10
+	"Bibya" = -10
+	"Bilqis" = -10
+	"Cala" = -10
+	"Canh'a" = -10
+	"Cantara" = -10
+	"D'r'ifa" = -10
+	"Daisha" = -10
+	"Dalal" = -10
+	"Dasin" = -10
+	"Dema" = -10
+	"Dimah" = -10
+	"Dinara" = -10
+	"Dua" = -10
+	"Durra" = -10
+	"Durriyya" = -10
+	"Edza" = -10
+	"Eleonorka" = -10
+	"Eleanor" = -10
+	"Faghissa" = -10
+	"Fahriya" = -10
+	"Fariza" = -10
+	"Fedada" = -10
+	"Fer'r'udja" = -10
+	"Gedduda" = -10
+	"Ghida" = -10
+	"Ghnima" = -10
+	"Guraya" = -10
+	"Gwejda" = -10
+	"H'edda" = -10
+	"Hadiya" = -10
+	"Hawwa" = -10
+	"Hemu" = -10
+	"Herru" = -10
+	"Iija" = -10
+	"Iiju" = -10
+	"Ittû" = -10
+	"Izza" = -10
+	"Jaida" = -10
+	"Jdira" = -10
+	"Jeddjiga" = -10
+	"Kahina" = -10
+	"Kamila" = -10
+	"Kanimana" = -10
+	"Kella" = -10
+	"Kenwa" = -10
+	"Kisa" = -10
+	"Kulla" = -10
+	"Kwella" = -10
+	"Lalla" = -10
+	"Laysa" = -10
+	"Lem'an" = -10
+	"Lemta" = -10
+	"Lumsi" = -10
+	"Lunja" = -10
+	"Lwiza" = -10
+	"Lyaqut" = -10
+	"Mamma" = -10
+	"Massa" = -10
+	"Meghighda" = -10
+	"Melek" = -10
+	"Menna" = -10
+	"Menza" = -10
+	"Mernissa" = -10
+	"Monica" = -10
+	"Monica" = -10
+	"Myassa" = -10
+	"Najiba" = -10
+	"R'uza" = -10
+	"Ra'isa" = -10
+	"Rahima" = -10
+	"Randja" = -10
+	"Rula" = -10
+	"Sadiqa" = -10
+	"Salaama" = -10
+	"Sekkura" = -10
+	"Siddiqa" = -10
+	"Silya" = -10
+	"Siman" = -10
+	"T'awes" = -10
+	"T'item" = -10
+	"Tadefi" = -10
+	"Tadla" = -10
+	"Tadmut" = -10
+	"Tafrara" = -10
+	"Tafsut" = -10
+	"Tagwillult" = -10
+	"Taheyyatt" = -10
+	"Takama" = -10
+	"Taklit" = -10
+	"Talalit" = -10
+	"Taljat" = -10
+	"Tament" = -10
+	"Tamimunt" = -10
+	"Tamrust" = -10
+	"Tanaszart" = -10
+	"Tanebdatt" = -10
+	"Tanefzawit" = -10
+	"Tanest" = -10
+	"Taninna" = -10
+	"Tarifa" = -10
+	"Tariwelt" = -10
+	"Tasa" = -10
+	"Tasa'fut" = -10
+	"Taszellayt" = -10
+	"Tatbirt" = -10
+	"Tati" = -10
+	"Taweckint" = -10
+	"Tawenza" = -10
+	"Tawnat" = -10
+	"Tawzalt" = -10
+	"Tayri" = -10
+	"Tayyurt" = -10
+	"Tazdayt" = -10
+	"Tazenkwedt" = -10
+	"Tazirit" = -10
+	"Tazrurt" = -10
+	"Tella" = -10
+	"Temzi" = -10
+	"Tfit" = -10
+	"Tigmi" = -10
+	"Tikinas" = -10
+	"Tilelli" = -10
+	"Timmi" = -10
+	"Tinhinan" = -10
+	"Tintadefi" = -10
+	"Tintifawin" = -10
+	"Tinzert" = -10
+	"Tisent" = -10
+	"Tislit" = -10
+	"Titbirt" = -10
+	"Titrit" = -10
+	"Tizemt" = -10
+	"Tiziri" = -10
+	"Triya" = -10
+	"Tudert" = -10
+	"Tuh'r'ict" = -10
+	"Tureght" = -10
+	"Ultafa" = -10
+	"Wenza" = -10
+	"Wnissa" = -10
+	"Wrina" = -10
+	"Z'diant" = -10
+	"Z'ergha" = -10
+	"Zaghwa" = -10
+	"Zahida" = -10
+	"Zamba" = -10
+	"Zibba" = -10
+	"Zilgum" = -10
+	"Zubayda" = -10
+	"Zunagha" = -10
+	"Zwina" = -10
+	"Zwira" = -10
+}
+
+leader_names = {
+	
+}
+
+ship_names = {
+	Eagletree
+	Feathersun
+	Lowtree
+	Distantblade
+	Pineweaver
+	Oceanfang
+	Humbleripper
+	Wiseblood
+	Sunmantle
+	Grandpunch
+	Pyrefollower
+	Hawkfall
+	Heartsteam
+	Stonestrength
+	Mastertide
+	Gloomsworn
+	Redfist
+	Riverwinds
+	Skyspire
+	Fireclaw
+	Lunapike
+	Whitbane
+	Tarrensnow
+	Leafroot
+	Softswallow
+	Peacereaper
+	Stagarm
+	Monsterfury
+	Horsebinder
+	Strongmoon
+	Moltenmourn
+	Skymight
+	Covenstriker
+	Glowstrider
+	Farwatcher
+	Fallendown
+	Tarrengem
+	Stonestar
+	Fernstriker
+	Roughheart
+}
+
+army_names = {
+	"Regiment of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}

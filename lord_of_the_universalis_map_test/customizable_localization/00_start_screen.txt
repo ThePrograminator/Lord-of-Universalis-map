@@ -1,0 +1,1050 @@
+#AVIALABLE CUSTOM LOCALISATION KEYS
+#When adding new custom loc keys, add them to the appropriate category (or add a new one) and describe them. Name the strings "String_X" where x is its content.
+# To not display anything, you can use 'localisation_key = ""'
+# Please add one example sentence for each key.
+
+#As this list grow organize with categories.
+#Current loc keys in this file:
+#StartScreenUpLeft
+#StartScreenUpRight
+#StartScreenDownLeft
+#StartScreenDownRight
+
+### Main title of start screen
+#Ex: "The Empire of Man, 2017"
+defined_text = {
+    name = StartScreenTitle
+	random = no
+	
+	text = {
+		
+        localisation_key = string_screen_title_plural
+        trigger = {
+			tag_with_plural_name_trigger = yes
+        }
+    }
+    text = {
+        localisation_key = string_screen_title
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+### Upper left title textbox
+#Ex: "Sweden's Situation"
+defined_text = {
+    name = StartScreenUpLeftTitle
+	random = no #Pick first that fits
+
+	#Country Specific:
+	
+	#Gondor
+	text = {
+        localisation_key = string_start_title_gondor
+        trigger = {
+			tag = X01
+		}
+    }
+	
+	#Dol Amroth
+	text = {
+        localisation_key = string_start_title_dol_amroth
+        trigger = {
+			tag = X11
+		}
+    }
+	
+	#Gondor
+	text = {
+        localisation_key = string_start_title_mordor
+        trigger = {
+			tag = X84
+		}
+    }
+	
+	#Dol Amroth
+	text = {
+        localisation_key = string_start_title_dol_guldur
+        trigger = {
+			tag = Z03
+		}
+    }
+	
+	
+	#Generic:
+	
+	
+	#Final Fallback
+	text = {
+        localisation_key = string_start_title_fallback
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+### Upper right title textbox
+#Ex: "Muscovy is Orthodox"
+defined_text = {
+    name = StartScreenUpRightTitle
+	random = no
+
+	text = {
+        localisation_key = string_start_religion_mechanic_title_plural
+        trigger = {
+			tag_with_plural_name_trigger = yes
+        }
+    }
+    text = {
+        localisation_key = string_start_religion_mechanic_title
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+### Lower left title textbox
+#Ex: "Sweden is a Swedish Kingdom"
+defined_text = {
+    name = StartScreenDownLeftTitle
+	random = no
+
+    text = {
+        localisation_key = string_start_culture_government_title_plural
+		trigger = {
+			tag_with_plural_name_trigger = yes
+		}
+	}
+    text = {
+        localisation_key = string_start_culture_government_title
+		trigger = {
+			always = yes
+		}
+    }
+}
+
+### Lower right title textbox
+#Ex: "The Island of Japan"
+defined_text = {
+    name = StartScreenDownRightTitle
+	random = no
+
+	text = {
+        localisation_key = string_start_middle_earth
+        trigger = {
+			capital_scope = {
+				continent = middle_earth
+			}
+        }
+    }
+	
+	text = {
+        localisation_key = string_start_no_special_region_title
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+defined_text = {
+    name = capital_continent_title
+	random = no
+
+   
+	text = {
+        localisation_key = middle_earth
+		trigger = {
+			capital_scope = {
+				continent = middle_earth
+			}
+		}
+    }
+}
+
+### Upper left description textbox
+#Ex: "The Ayyubid dynasty, once the scourge of Christianity, and the masters of Syria, Egypt and Arabia, still remain in the Kurdistani fortress of Hisn Kayfa. Fiercely independent, the small state has managed to survive in independence amidst giants such as the Timurids or Qara Qoyunlu.\nAs 1444 opens the Ayyubid princes have recently managed to overcome their local rivals and former vassals, the Artuqids, and solidified their hold over their small principality by the Tigris."
+defined_text = {
+    name = StartScreenUpLeftDesc
+	random = no
+	
+	#Country Specific:
+	
+	#Dunedain
+	text = { #Gondor
+        localisation_key = string_start_gondor
+        trigger = {
+			tag = X01
+        }
+    }
+	
+	text = { #Dol Amroth
+        localisation_key = string_start_dol_amroth
+        trigger = {
+			tag = X11
+        }
+    }
+	
+	#Orc
+	text = { #Mordor
+        localisation_key = string_start_mordor
+        trigger = {
+			tag = X84
+        }
+    }
+	
+	text = { #Dol Guldur
+        localisation_key = string_start_dol_guldur
+        trigger = {
+			tag = Z03
+        }
+    }
+
+	#Regions
+	text = { #Gondor
+        localisation_key = string_start_tag_gondor
+        trigger = {
+			capital_scope = {
+				region = gondor_region
+			}
+        }
+    }
+	
+	text = { #Mordor
+        localisation_key = string_start_tag_mordor
+        trigger = {
+			capital_scope = {
+				region = mordor_region
+			}
+        }
+    }
+	
+	text = { #Mirkwood
+        localisation_key = string_start_tag_mirkwood
+        trigger = {
+			capital_scope = {
+				region = mordor_region
+			}
+        }
+    }
+	
+	#Continents
+    text = {
+        localisation_key = string_start_tag_middel_earth
+        trigger = {
+			capital_scope = {
+				continent = middle_earth
+			}
+        }
+    }
+	
+	#Later Start Dates
+	text = {
+		localisation_key = string_start_third_age
+		trigger = {
+			current_age = third_age
+		}
+	}
+	text = {
+		localisation_key = string_start_fourth_age
+		trigger = {
+			current_age = fourth_age
+		}
+	}
+	
+	text = {#Fallback
+        localisation_key = string_start_tag_generic
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+### Upper right description textbox
+#Ex: ""
+defined_text = {
+    name = StartScreenUpRightDesc
+	random = no
+	
+	#Religion Mechanics - Base Text, these refer to custom loc keys below to insert DLC specific information.
+	
+	#Orthodox (Patriarch Authority) / Dunedain
+	text = {
+        localisation_key = string_start_religion_dunedain
+        trigger = {
+			religion = religion_dunedain
+        }
+    }
+	
+	#Muslim / Orc
+	text = {
+        localisation_key = string_start_religion_orc
+        trigger = {
+			religion = religion_orkish
+        }
+    }
+	
+	#Fallback (Currently used by Animism, Judaism and Totemism)
+	text = {
+        localisation_key = string_start_religion_fallback
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+#Describing the bonuses from this religion (not really a dynamic key, just used to make the texts more modular and easier to edit).
+defined_text = {
+	name = start_religion_intro
+	random = no
+	text = {
+        localisation_key = string_start_religion_intro_text
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+
+#DLC Mechanics (these keys are inserted into the keys above, see the localization file)
+#Muslim Schools
+defined_text = {
+	name = start_religion_muslim_dlc_check
+	random = no
+	
+	#text = {
+    #    localisation_key = string_muslim_school #Has to end with \n
+    #    trigger = {
+	#		religion_group = muslim
+	#		has_dlc = "Cradle of Civilization"
+    #    }
+    #}
+	#text = {
+    #    localisation_key = string_muslim_school_no #\n
+    #    trigger = {
+	#		NOT = { has_dlc = "Cradle of Civilization" }
+    #    }
+    #}
+}
+
+#Iconography & Consecrate Patriarchs
+defined_text = {
+	name = start_religion_orthodox_dlc_check
+	random = no
+	#text = {
+    #    localisation_key = string_orthodox_icons #Has to end with \n
+    #    trigger = {
+	#		religion = orthodox
+	#		has_dlc = "Third Rome"
+    #    }
+    #}
+	#text = {
+    #    localisation_key = string_orthodox_icons_no #\n
+    #    trigger = {
+	#		religion = orthodox
+	#		NOT = { has_dlc = "Third Rome" }
+    #    }
+    #}
+}
+
+#Tordesillas
+defined_text = {
+	name = start_religion_catholic_tordesillas
+	random = no
+	#text = {
+    #    localisation_key = string_catholic_tordesillas #Has to end with \n
+    #    trigger = {
+	#		religion = catholic
+	#		has_dlc = "El Dorado"
+    #    }
+    #}
+	#text = {
+    #    localisation_key = string_catholic_tordesillas_no #\n
+    #    trigger = {
+	#		religion = catholic
+	#		NOT = { has_dlc = "El Dorado" }
+    #    }
+    #}
+}
+
+#Church Power
+defined_text = {
+	name = start_protestant_church_power
+	random = no
+	#text = {
+    #    localisation_key = string_church_power_info #Has to end with \n
+    #    trigger = {
+	#		religion = protestant
+	#		has_dlc = "Common Sense"
+    #    }
+    #}
+	#text = {
+    #    localisation_key = string_church_power_info_no #\n
+    #    trigger = {
+	#		religion = protestant
+	#		NOT = { has_dlc = "Common Sense" }
+    #    }
+    #}
+}
+
+#Fervor
+defined_text = {
+	name = start_reformed_fervor
+	random = no
+	#text = {
+    #    localisation_key = string_fervor_info #Has to end with \n
+    #    trigger = {
+	#		religion = reformed
+	#		has_dlc = "Wealth of Nations"
+    #    }
+    #}
+	#text = {
+    #    localisation_key = string_fervor_info_no #\n
+    #    trigger = {
+	#		religion = reformed
+	#		NOT = { has_dlc = "Wealth of Nations" }
+    #    }
+    #}
+}
+
+
+#Coptic Blessings
+defined_text = {
+	name = start_coptic_blessings
+	random = no
+	#text = {
+    #    localisation_key = string_blessings_info #Has to end with \n
+    #    trigger = {
+	#		religion = coptic
+	#		has_dlc = "Rights of Man"
+    #    }
+    #}
+	#text = {
+    #    localisation_key = string_blessings_info_no #\n
+    #    trigger = {
+	#		religion = coptic
+	#		NOT = { has_dlc = "Rights of Man" }
+    #    }
+    #}
+}
+
+#Buddhist Karma
+defined_text = {
+	name = start_buddhist_karma
+	random = no
+	#text = {
+    #    localisation_key = string_karma_info #Has to end with \n
+    #    trigger = {
+	#		OR = {
+	#			religion = buddhism
+	#			religion = mahayana
+	#			religion = vajrayana
+	#		}
+	#		has_dlc = "Common Sense"
+    #    }
+    #}
+	#text = {
+    #    localisation_key = string_karma_info_no #\n
+    #    trigger = {
+	#		OR = {
+	#			religion = buddhism
+	#			religion = mahayana
+	#			religion = vajrayana
+	#		}
+	#		NOT = { has_dlc = "Common Sense" }
+    #    }
+    #}
+}
+
+#Confucian Harmonization
+defined_text = {
+	name = start_confucian_harmonization
+	random = no
+	#text = {
+    #    localisation_key = string_harmonization_info #Has to end with \n
+    #    trigger = {
+	#		religion = confucianism
+	#		has_dlc = "Mandate of Heaven"
+    #    }
+    #}
+	#text = {
+    #    localisation_key = string_harmonization_info_no #\n
+    #    trigger = {
+	#		religion = confucianism
+	#		NOT = { has_dlc = "Mandate of Heaven" }
+    #    }
+    #}
+}
+
+
+#Shinto Isolationism
+defined_text = {
+	name = start_shinto_isolationism
+	random = no
+	#text = {
+    #    localisation_key = string_isolationism_info #Has to end with \n
+    #    trigger = {
+	#		religion = shinto
+	#		has_dlc = "Mandate of Heaven"
+    #    }
+    #}
+	#text = {
+    #    localisation_key = string_isolationism_info_no #\n
+    #    trigger = {
+	#		religion = shinto
+	#		NOT = { has_dlc = "Mandate of Heaven" }
+    #    }
+    #}
+}
+
+#Hindu Deities
+defined_text = {
+	name = start_hindu_deities
+	random = no
+	#text = {
+    #    localisation_key = string_deities_info #Has to end with \n
+    #    trigger = {
+	#		religion = hinduism
+	#		has_dlc = "Wealth of Nations"
+    #    }
+    #}
+	#text = {
+    #    localisation_key = string_deities_info_no #\n
+    #    trigger = {
+	#		religion = hinduism
+	#		NOT = { has_dlc = "Wealth of Nations" }
+    #    }
+    #}
+}
+
+#Fetishist Cults
+defined_text = {
+	name = start_fetishist_cults
+	random = no
+	#text = {
+    #    localisation_key = string_cults_info #Has to end with \n
+    #    trigger = {
+	#		religion = shamanism
+	#		has_dlc = "Rights of Man"
+    #    }
+    #}
+	#text = {
+    #    localisation_key = string_cults_info_no #\n
+    #    trigger = {
+	#		religion = shamanism
+	#		NOT = { has_dlc = "Rights of Man" }
+    #    }
+    #}
+}
+
+#Tengri Syncretism
+defined_text = {
+	name = start_tengri_syncretism
+	random = no
+	#text = {
+    #    localisation_key = string_syncretism_info #Has to end with \n
+    #    trigger = {
+	#		religion = tengri_pagan_reformed #Tengri
+	#		has_dlc = "The Cossacks"
+    #    }
+    #}
+	#text = {
+    #    localisation_key = string_syncretism_info_no #\n
+    #    trigger = {
+	#		religion = tengri_pagan_reformed #Tengri
+	#		NOT = { has_dlc = "The Cossacks" }
+    #    }
+    #}
+}
+
+#Inti Authority
+defined_text = {
+	name = start_inti_authority
+	random = no
+	#text = {
+    #    localisation_key = string_authority_info #Has to end with \n
+    #    trigger = {
+	#		religion = inti
+	#		has_dlc = "El Dorado"
+    #    }
+    #}
+	#text = {
+    #    localisation_key = string_authority_info_no #\n
+    #    trigger = {
+	#		religion = inti
+	#		NOT = { has_dlc = "El Dorado" }
+    #    }
+    #}
+}
+
+
+#Nahuatl DOOM!
+defined_text = {
+	name = start_nahuatl_doom
+	random = no
+	#text = {
+    #    localisation_key = string_doom_info #Has to end with \n
+    #    trigger = {
+	#		religion = nahuatl
+	#		has_dlc = "El Dorado"
+    #    }
+    #}
+	#text = {
+    #    localisation_key = string_doom_info_no #\n
+    #    trigger = {
+	#		religion = nahuatl
+	#		NOT = { has_dlc = "El Dorado" }
+    #    }
+    #}
+}
+
+#Mayan Mechanics
+defined_text = {
+	name = start_mayan_mechanics
+	random = no
+	#text = {
+    #    localisation_key = string_mayan_info #Has to end with \n
+    #    trigger = {
+	#		religion = mesoamerican_religion
+	#		has_dlc = "El Dorado"
+    #    }
+    #}
+	#text = {
+    #    localisation_key = string_mayan_info_no #\n
+    #    trigger = {
+	#		religion = mesoamerican_religion
+	#		NOT = { has_dlc = "El Dorado" }
+    #    }
+    #}
+}
+
+### Lower left description textbox
+#Ex: "As a Russian Nation Muscovy has...."
+defined_text = {
+    name = StartScreenDownLeftDesc
+	random = no
+
+    text = {
+        localisation_key = string_government_culture_explanation
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+#Culture specific Mechanics
+defined_text = {
+    name = startup_culture_explanation
+	random = no
+
+	text = {
+        localisation_key = string_no_special_culture
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+#Base Government Explanation
+defined_text  = {
+    name = startup_government_explanation
+	random = no
+	
+	text = {
+        localisation_key = string_start_government_stewards
+        trigger = {
+			government = lotr_stewardship
+        }
+    }
+	
+	text = {
+        localisation_key = string_start_government_hand_of_mordor
+        trigger = {
+			government = lotr_hand_of_mordor
+        }
+    }
+	
+	text = {
+        localisation_key = string_start_government_orc_clan
+        trigger = {
+			government = lotr_orc_clan
+        }
+    }
+	
+	text = {
+        localisation_key = string_start_government_hand_of_angmar
+        trigger = {
+			government = lotr_hand_of_angmar
+        }
+    }
+}
+
+defined_text = {
+	name = startup_government_heirs
+	random = no
+	
+	text = {
+		localisation_key = string_start_government_heirs_no
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+#Factions for Merchant & Veche Republics, Celestial Empire, Revolutionary Republic
+defined_text  = {
+    name = startup_government_factions
+	random = no
+
+	text = {
+        localisation_key = string_start_factions_no
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+defined_text  = {
+    name = startup_estates_explanation
+	random = no
+
+	text = {
+        localisation_key = string_startup_estates_explanation_no
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+#Tribal Reforms
+defined_text  = {
+    name = startup_government_tribal
+	random = no
+
+	text = {
+        localisation_key = string_tribal_reform_no
+        trigger = {
+			always = yes
+        }
+    }
+}
+#Tribal Federations don't get institution spread penalties.
+defined_text  = {
+    name = startup_government_tribal_institution_penalty
+	random = no
+	
+	text = {
+        localisation_key = string_tribal_institution_penalty_no
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+#DLC Content Explanation
+#Consorts
+defined_text  = {
+    name = startup_consorts_explanation
+	random = no
+
+	text = {
+        localisation_key = string_start_consorts_no #Empty string
+        trigger = {
+			NOT = { has_dlc = "Rights of Man" }
+        }
+    }
+}
+
+#Devotion
+defined_text  = {
+    name = startup_devotion_explanation
+	random = no
+
+	text = {
+        localisation_key = string_start_devotion_no #Empty string
+        trigger = {
+			NOT = { has_dlc = "Common Sense" }
+        }
+    }
+}
+
+#Russian Interactions
+defined_text  = {
+    name = startup_russian_government_interactions
+	random = no
+
+	text = {
+        localisation_key = string_start_russian_mechanics_no #Empty string
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+#Iqta
+defined_text  = {
+    name = startup_iqta_government
+	random = no
+
+	text = {
+        localisation_key = string_start_iqta_no #Empty string
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+#Feudal Theocracy
+defined_text  = {
+    name = startup_feudal_theocracy_government
+	random = no
+
+	text = {
+        localisation_key = string_start_feudal_theocracy_no #Empty string
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+#Ottoman Government
+defined_text  = {
+    name = startup_ottoman_government_harem
+	random = no
+
+	text = {
+        localisation_key = string_start_harem_no #Empty string
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+#Ottoman Government - Pashas And Janissaries
+defined_text  = {
+    name = startup_ottoman_government_pashas
+	random = no
+
+	text = {
+        localisation_key = string_start_pashas_no #Empty string
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+#Mamluk Government
+defined_text  = {
+    name = startup_tribal_federation_government
+	random = no
+
+	text = {
+        localisation_key = start_tribal_federation_no #Empty string
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+#Mamluk Government
+defined_text  = {
+    name = startup_mamluk_government
+	random = no
+
+	text = {
+        localisation_key = string_start_harem_no #Empty string
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+#Trade League
+defined_text  = {
+    name = startup_government_trade_league
+	random = no
+
+	text = {
+        localisation_key = string_start_trade_league_no #Empty string
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+#Parliaments
+defined_text  = {
+    name = startup_government_parliaments
+	random = no
+
+	text = {
+        localisation_key = string_start_parliaments_no #Empty string
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+#Prussian Monarchies
+defined_text  = {
+    name = startup_government_prussian
+	random = no
+
+	text = {
+        localisation_key = string_start_prussian_government_no #Empty string
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+#Prussian Monarchies DLC Part
+defined_text  = {
+    name = startup_government_prussian_dlc
+	random = no
+
+	text = {
+        localisation_key = string_start_prussian_government_dlc_no #Empty string
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+#Elective Monarchies
+defined_text  = {
+    name = startup_government_elective
+	random = no
+	
+	text = {
+        localisation_key = string_start_elective_monarchy_no #Empty string
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+#Hordes - Horde Unity
+defined_text  = {
+    name = startup_government_horde
+	random = no
+
+	text = {
+        localisation_key = string_start_horde_no #Empty string
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+#Native Council
+defined_text  = {
+    name = startup_government_native_council
+	random = no
+	
+	text = {
+        localisation_key = string_native_council_no #Empty string
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+#Siberian Council
+defined_text  = {
+    name = startup_government_siberian_native_council
+	random = no
+	
+	text = {
+        localisation_key = string_siberian_native_council_no #Empty string
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+#Meritocracy
+defined_text  = {
+    name = startup_government_meritocracy
+	random = no
+	
+	text = {
+        localisation_key = string_meritocracy_no #Empty string
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+#Shogunate
+defined_text  = {
+    name = startup_government_shogunate
+	random = no
+	
+	text = {
+        localisation_key = string_shogunate_no #Empty string
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+### Lower right description textbox
+#Ex: "Looong text about the HRE"
+defined_text = {
+    name = StartScreenDownRightDesc
+	random = no
+
+	text = {
+        localisation_key = string_start_no_special_region_description
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+defined_text = {
+	name = start_tributaries_descriptions
+	random = no
+
+	text = {
+        localisation_key = string_tributaries_desc_no #Empty String
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+defined_text = {
+	name = start_eoc_tributaries_descriptions
+	random = no
+
+	text = {
+        localisation_key = string_eoc_tributaries_desc_no #Empty String
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+defined_text = {
+    name = start_imperial_cities_description
+	random = no
+
+	text = {
+        localisation_key = string_imperial_cities_desc_no #Empty String
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+defined_text = {
+    name = start_shogun_holders_through_the_years #used to display right clan name for the Shogunate in startup screen.
+	random = no
+}
+
+defined_text = {
+    name = start_anglicanism_description
+	random = no
+}

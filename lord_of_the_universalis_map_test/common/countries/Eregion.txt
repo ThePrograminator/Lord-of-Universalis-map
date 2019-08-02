@@ -1,0 +1,574 @@
+#Country Name: Please see filename.
+graphical_culture = lotr_orc_gfx
+
+color = { 45 35 30 }
+
+historical_idea_groups = {
+	offensive_ideas
+	diplomatic_ideas
+	defensive_ideas
+	innovativeness_ideas
+	administrative_ideas
+	quantity_ideas
+	economic_ideas
+	aristocracy_ideas
+}
+
+historical_units = {
+	lotr_orc_snaga_stalkers_1
+	lotr_orc_halberdiers_2
+	lotr_orc_grey_mountain_orc_3
+	lotr_orc_fellers_4
+	lotr_orc_gundabaduul_halberds_5
+
+	lotr_orc_warg_riders_1
+	lotr_orc_cave_troll_2
+	lotr_orc_snow_troll_3
+}
+
+monarch_names = {
+	"Azog" = 10
+	"Azog" = 10
+	"Bolg" = 10
+	"Bolg" = 10
+	"Búrz" = 10
+	"Búrz" = 10
+	"Fimbul" = 10
+	"Fimbul" = 10
+	"Gazbag" = 10
+	"Gazbag" = 10
+	"Gazduf" = 10
+	"Gazduf" = 10
+	"Gazdush" = 10
+	"Gazdush" = 10
+	"Gazhúr" = 10
+	"Gazhúr" = 10
+	"Gazgash" = 10
+	"Gazgash" = 10
+	"Gazbug" = 10
+	"Gazbug" = 10
+	"Gazhorn" = 10
+	"Gazhorn" = 10
+	"Gazmog" = 10
+	"Gazmog" = 10
+	"Gazmuz" = 10
+	"Gazmuz" = 10
+	"Gazrad" = 10
+	"Gazrad" = 10
+	"Gazrat" = 10
+	"Gazrat" = 10
+	"Gazthak" = 10
+	"Gazthak" = 10
+	"Gazlag" = 10
+	"Gazlag" = 10
+	"Gazlúk" = 10
+	"Gazlúk" = 10
+	"Gazlûn" = 10
+	"Gazlûn" = 10
+	"Gazlur" = 10
+	"Gazlur" = 10
+	"Gaznag" = 10
+	"Gaznag" = 10
+	"Gazuf" = 10
+	"Gazuf" = 10
+	"Gazug" = 10
+	"Gazug" = 10
+	"Gazûl" = 10
+	"Gazûl" = 10
+	"Ghash" = 10
+	"Ghash" = 10
+	"Golfimbul" = 10
+	"Golfimbul" = 10
+	"Gorbag" = 10
+	"Gorbag" = 10
+	"Gorbug" = 10
+	"Gorbug" = 10
+	"Gorduf" = 10
+	"Gorduf" = 10
+	"Gordush" = 10
+	"Gordush" = 10
+	"Gorgash" = 10
+	"Gorgash" = 10
+	"Gorgaz" = 10
+	"Gorgaz" = 10
+	"Gorhúr" = 10
+	"Gorhúr" = 10
+	"Gorlúk" = 10
+	"Gorlúk" = 10
+	"Gorlûn" = 10
+	"Gorlûn" = 10
+	"Gornag" = 10
+	"Gornag" = 10
+	"Gorshag" = 10
+	"Gorshag" = 10
+	"Gorthak" = 10
+	"Gorthak" = 10
+	"Gorûl" = 10
+	"Gorûl" = 10
+	"Gorzag" = 10
+	"Gorzag" = 10
+	"Gothmog" = 10
+	"Gothmog" = 10
+	"Grishnákh" = 10
+	"Grishnákh" = 10
+	"Grond" = 10
+	"Grond" = 10
+	"Lagbug" = 10
+	"Lagbug" = 10
+	"Lagduf" = 10
+	"Lagduf" = 10
+	"Lagdush" = 10
+	"Lagdush" = 10
+	"Laghúr" = 10
+	"Laghúr" = 10
+	"Laguf" = 10
+	"Laguf" = 10
+	"Laglúg" = 10
+	"Laglúg" = 10
+	"Laglûn" = 10
+	"Laglûn" = 10
+	"Lagrad" = 10
+	"Lagrad" = 10
+	"Lagrat" = 10
+	"Lagrat" = 10
+	"Lagthak" = 10
+	"Lagthak" = 10
+	"Lug" = 10
+	"Lug" = 10
+	"Lugbag" = 10
+	"Lugbag" = 10
+	"Lugduf" = 10
+	"Lugduf" = 10
+	"Lugdush" = 10
+	"Lugdush" = 10
+	"Lughorn" = 10
+	"Lughorn" = 10
+	"Lughúr" = 10
+	"Lughúr" = 10
+	"Luglúk" = 10
+	"Luglúk" = 10
+	"Luglûn" = 10
+	"Luglûn" = 10
+	"Lugnag" = 10
+	"Lugnag" = 10
+	"Lugthak" = 10
+	"Lugthak" = 10
+	"Lugûl" = 10
+	"Lugûl" = 10
+	"Lugzag" = 10
+	"Lugzag" = 10
+	"Lûnbag" = 10
+	"Lûnbag" = 10
+	"Lûnbug" = 10
+	"Lûnbug" = 10
+	"Lûnduf" = 10
+	"Lûnduf" = 10
+	"Lûndush" = 10
+	"Lûndush" = 10
+	"Lûngash" = 10
+	"Lûngash" = 10
+	"Lûngaz" = 10
+	"Lûngaz" = 10
+	"Lûngor" = 10
+	"Lûngor" = 10
+	"Lûnhúr" = 10
+	"Lûnhúr" = 10
+	"Lûnlag" = 10
+	"Lûnlag" = 10
+	"Lûnlúk" = 10
+	"Lûnlúk" = 10
+	"Lûnmaz" = 10
+	"Lûnmaz" = 10
+	"Lûnrad" = 10
+	"Lûnrad" = 10
+	"Lûnrat" = 10
+	"Lûnrat" = 10
+	"Lûnshag" = 10
+	"Lûnshag" = 10
+	"Lûnthak" = 10
+	"Lûnthak" = 10
+	"Lûnuf" = 10
+	"Lûnuf" = 10
+	"Lûnug" = 10
+	"Lûnug" = 10
+	"Lûnûl" = 10
+	"Lûnûl" = 10
+	"Lûnzag" = 10
+	"Lûnzag" = 10
+	"Lurtz" = 10
+	"Lurtz" = 10
+	"Maubag" = 10
+	"Maubag" = 10
+	"Maubug" = 10
+	"Maubug" = 10
+	"Mauduf" = 10
+	"Mauduf" = 10
+	"Maudush" = 10
+	"Maudush" = 10
+	"Maugash" = 10
+	"Maugash" = 10
+	"Maugaz" = 10
+	"Maugaz" = 10
+	"Maugor" = 10
+	"Maugor" = 10
+	"Mauhúr" = 10
+	"Mauhúr" = 10
+	"Maulúk" = 10
+	"Maulúk" = 10
+	"Maulur" = 10
+	"Maulur" = 10
+	"Maunag" = 10
+	"Maunag" = 10
+	"Mauthak" = 10
+	"Mauthak" = 10
+	"Mauzag" = 10
+	"Mauzag" = 10
+	"Muzbag" = 10
+	"Muzbag" = 10
+	"Muzbug" = 10
+	"Muzbug" = 10
+	"Muzduf" = 10
+	"Muzduf" = 10
+	"Muzdush" = 10
+	"Muzdush" = 10
+	"Muzgash" = 10
+	"Muzgash" = 10
+	"Muzgaz" = 10
+	"Muzgaz" = 10
+	"Muzgor" = 10
+	"Muzgor" = 10
+	"Muzhúr" = 10
+	"Muzhúr" = 10
+	"Muzlag" = 10
+	"Muzlag" = 10
+	"Muzlug" = 10
+	"Muzlug" = 10
+	"Muzlúk" = 10
+	"Muzlúk" = 10
+	"Muzlûn" = 10
+	"Muzlûn" = 10
+	"Muzlur" = 10
+	"Muzlur" = 10
+	"Muznag" = 10
+	"Muznag" = 10
+	"Muzrad" = 10
+	"Muzrad" = 10
+	"Muzrat" = 10
+	"Muzrat" = 10
+	"Muzthak" = 10
+	"Muzthak" = 10
+	"Muzug" = 10
+	"Muzug" = 10
+	"Muzûl" = 10
+	"Muzûl" = 10
+	"Nagbug" = 10
+	"Nagbug" = 10
+	"Nagduf" = 10
+	"Nagduf" = 10
+	"Nagdush" = 10
+	"Nagdush" = 10
+	"Naghúr" = 10
+	"Naghúr" = 10
+	"Naglug" = 10
+	"Naglug" = 10
+	"Naglúk" = 10
+	"Naglúk" = 10
+	"Naglur" = 10
+	"Naglur" = 10
+	"Nagmuz" = 10
+	"Nagmuz" = 10
+	"Nagug" = 10
+	"Nagug" = 10
+	"Nagrad" = 10
+	"Nagrad" = 10
+	"Nagrat" = 10
+	"Nagrat" = 10
+	"Nagthak" = 10
+	"Nagthak" = 10
+	"Nagzag" = 10
+	"Nagzag" = 10
+	"Nûzu" = 10
+	"Nûzu" = 10
+	"Radbag" = 10
+	"Radbag" = 10
+	"Radbug" = 10
+	"Radbug" = 10
+	"Radgash" = 10
+	"Radgash" = 10
+	"Radgaz" = 10
+	"Radgaz" = 10
+	"Radhúr" = 10
+	"Radhúr" = 10
+	"Radlag" = 10
+	"Radlag" = 10
+	"Radlúk" = 10
+	"Radlúk" = 10
+	"Radmuz" = 10
+	"Radmuz" = 10
+	"Radnag" = 10
+	"Radnag" = 10
+	"Radrat" = 10
+	"Radrat" = 10
+	"Radthak" = 10
+	"Radthak" = 10
+	"Radug" = 10
+	"Radug" = 10
+	"Radzag" = 10
+	"Radzag" = 10
+	"Shagbug" = 10
+	"Shagbug" = 10
+	"Shagduf" = 10
+	"Shagduf" = 10
+	"Shagdush" = 10
+	"Shagdush" = 10
+	"Shaglúk" = 10
+	"Shaglúk" = 10
+	"Shaglur" = 10
+	"Shaglur" = 10
+	"Shagrad" = 10
+	"Shagrad" = 10
+	"Shagrat" = 10
+	"Shagrat" = 10
+	"Shagthak" = 10
+	"Shagthak" = 10
+	"Shaguf" = 10
+	"Shaguf" = 10
+	"Shagug" = 10
+	"Shagug" = 10
+	"Shagûl" = 10
+	"Shagûl" = 10
+	"Snaga" = 10
+	"Snaga" = 10
+	"Ufgaz" = 10
+	"Ufgaz" = 10
+	"Uflug" = 10
+	"Uflug" = 10
+	"Uflúk" = 10
+	"Uflúk" = 10
+	"Ufthak" = 10
+	"Ufthak" = 10
+	"Ufzag" = 10
+	"Ufzag" = 10
+	"Ugbag" = 10
+	"Ugbag" = 10
+	"Ugduf" = 10
+	"Ugduf" = 10
+	"Ugdush" = 10
+	"Ugdush" = 10
+	"Ughúr" = 10
+	"Ughúr" = 10
+	"Uglag" = 10
+	"Uglag" = 10
+	"Uglúk" = 10
+	"Uglúk" = 10
+	"Uglur" = 10
+	"Uglur" = 10
+	"Ugmuz" = 10
+	"Ugmuz" = 10
+	"Ugnag" = 10
+	"Ugnag" = 10
+	"Ugrad" = 10
+	"Ugrad" = 10
+	"Ugrat" = 10
+	"Ugrat" = 10
+	"Ugslap" = 10
+	"Ugslap" = 10
+	"Ugthak" = 10
+	"Ugthak" = 10
+	"Ugzag" = 10
+	"Ugzag" = 10
+	"Yagaz" = 10
+	"Yagaz" = 10
+	"Yagbug" = 10
+	"Yabug" = 10
+	"Yagduf" = 10
+	"Yagduf" = 10
+	"Yagdush" = 10
+	"Yagdush" = 10
+	"Yaghúr" = 10
+	"Yaghúr" = 10
+	"Yaglug" = 10
+	"Yaglug" = 10
+	"Yaglûn" = 10
+	"Yaglûn" = 10
+	"Yaglúk" = 10
+	"Yaglúk" = 10
+	"Yagmuz" = 10
+	"Yagmuz" = 10
+	"Yagor" = 10
+	"Yagor" = 10
+	"Yagrad" = 10
+	"Yagrad" = 10
+	"Yagrat" = 10
+	"Yagrat" = 10
+	"Yagthak" = 10
+	"Yagthak" = 10
+	"Yaguf" = 10
+	"Yaguf" = 10
+	"Yagug" = 10
+	"Yagug" = 10
+	"Yagûl" = 10
+	"Yagûl" = 10
+	"Zagbug" = 10
+	"Zagbug" = 10
+	"Zagduf" = 10
+	"Zagduf" = 10
+	"Zagdush" = 10
+	"Zagdush" = 10
+	"Zaghúr" = 10
+	"Zaghúr" = 10
+	"Zaglag" = 10
+	"Zaglag" = 10
+	"Zaglug" = 10
+	"Zaglug" = 10
+	"Zaglûn" = 10
+	"Zaglûn" = 10
+	"Zaglúk" = 10
+	"Zaglúk" = 10
+	"Zagmuz" = 10
+	"Zagmuz" = 10
+	"Zagrad" = 10
+	"Zagrad" = 10
+	"Zagrat" = 10
+	"Zagrat" = 10
+	"Zagthak" = 10
+	"Zagthak" = 10
+	"Zaguf" = 10
+	"Zaguf" = 10
+	"Zagug" = 10
+	"Zagug" = 10
+	
+	"Shagbed" = -10
+	"Shagbed" = -10
+	"Shagbet" = -10
+	"Shagbet" = -10
+	"Ugbet" = -10
+	"Ugbet" = -10
+	"Urzbet" = -10
+	"Urzbet" = -10
+	"Azbed" = -10
+	"Azbet" = -10
+	"Bolbed" = -10
+	"Bolbet" = -10
+	"Búrzbed" = -10
+	"Búrzbet" = -10
+	"Fimbed" = -10
+	"Fimbet" = -10
+	"Fimbeget" = -10
+	"Gazbet" = -10
+	"Gazbed" = -10
+	"Ûrizbite" = -10
+	"Berùnzia" = -10
+	"Ghibittah" = -10
+	"Prug" = -10
+	"Dabrill" = -10
+	"Lugronka" = -10
+	"Muranogil" = -10
+	"Obirta" = -10
+	"Ognorta" = -10
+	"Orkamurra" = -10
+	"Rogashka" = -10
+	"Rugrulia" = -10
+	"Yagbet" = -10
+	"Yagbed" = -10
+	"Zagbet" = -10
+	"Zagbed" = -10
+	"Rogrogga" = -10
+	"Saggta" = -10
+	"Toltukka" = -10
+	"Tormogga" = -10
+	"Ufgamoghi" = -10
+	"Ulthugga" = -10
+	"Umagauria" = -10
+	"Uthca" = -10
+	"Warennia" = -10
+	"Ubrutta" = -10
+	"Kibdurilla" = -10
+	"Barbrutta" = -10
+	"Garghira" = -10
+	"Ufbet" = -10
+	"Ufbed" = -10
+	"Nagbed" = -10
+	"Nagbet" = -10
+	"Maudbet" = -10
+	"Maudbeg" = -10
+	"Lûnbed" = -10
+	"Shagmoghi" = -10
+	"Lûnbet" = -10
+	"Lagbed" = -10
+	"Lagbet" = -10
+	"Radhúrga" = -10
+	"Radhúrbet" = -10
+	"Laghúrra" = -10
+	"Gornagga" = -10
+	"Muzlurra" = -10
+	"Yaghúrra" = -10
+	"Radzaggi" = -10
+	"Gothmogga" = -10
+	"Laguffa" = -10
+	"Maugashha" = -10
+	"Muzratta" = -10
+	"Ugbagga" = -10
+	"Radbaggi" = -10
+	"Maulúkbet" = -10
+	"Lugthakki" = -10
+	"Ghashbet" = -10
+	"Gorgazza" = -10
+	"Gazlaggi" = -10
+	"Gazmuzbed" = -10
+}
+
+leader_names = {
+	
+}
+
+ship_names = {
+	Eagletree
+	Feathersun
+	Lowtree
+	Distantblade
+	Pineweaver
+	Oceanfang
+	Humbleripper
+	Wiseblood
+	Sunmantle
+	Grandpunch
+	Pyrefollower
+	Hawkfall
+	Heartsteam
+	Stonestrength
+	Mastertide
+	Gloomsworn
+	Redfist
+	Riverwinds
+	Skyspire
+	Fireclaw
+	Lunapike
+	Whitbane
+	Tarrensnow
+	Leafroot
+	Softswallow
+	Peacereaper
+	Stagarm
+	Monsterfury
+	Horsebinder
+	Strongmoon
+	Moltenmourn
+	Skymight
+	Covenstriker
+	Glowstrider
+	Farwatcher
+	Fallendown
+	Tarrengem
+	Stonestar
+	Fernstriker
+	Roughheart
+}
+
+army_names = {
+	"Regiment of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}

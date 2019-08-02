@@ -1,0 +1,74 @@
+# Province ID : 2624
+# Province Name : Galbrethin
+# Province RGB : (12, 74, 143)
+# Province Area : null
+# Province Area : null
+# Province Super Region : null
+# Province Continent : Middle Earth
+# Province Tradenode : null
+# Province Climate : null
+# Province is not Sea/Lake Province
+# Province Contents : 
+
+is_city = yes
+
+base_tax = 5
+base_production = 5
+base_manpower = 6
+
+add_core = V20
+owner = V20
+controller = V20
+
+culture = culture_spider
+religion = religion_spider
+
+trade_goods = tropical_wood
+
+hre = no
+
+fortress_1_orc_building=yes
+orc_pit_orc_building=yes
+enforcer_camp_orc_building=yes
+blacksmith_orc_building=yes
+
+discovered_by = lotr_ahar
+discovered_by = lotr_bellakarian
+discovered_by = lotr_black_numenorean
+discovered_by = lotr_chyan
+discovered_by = lotr_daen
+discovered_by = lotr_dunedain
+discovered_by = lotr_dwarven
+discovered_by = lotr_dragon
+discovered_by = lotr_easterling
+discovered_by = lotr_elven
+discovered_by = lotr_eriadorian
+discovered_by = lotr_ent
+discovered_by = lotr_goblin
+discovered_by = lotr_giant
+discovered_by = lotr_great_spider
+discovered_by = lotr_half_dwarf
+discovered_by = lotr_hobbit
+discovered_by = lotr_half_orc
+discovered_by = lotr_haradrim
+discovered_by = lotr_linerim
+discovered_by = lotr_lochans
+discovered_by = lotr_lynerians
+discovered_by = lotr_northmen
+discovered_by = lotr_orc
+discovered_by = lotr_rohirrim
+discovered_by = lotr_sand_men
+discovered_by = lotr_shelflanders
+discovered_by = lotr_siranians
+discovered_by = lotr_snow_men
+discovered_by = lotr_swarthy_men
+discovered_by = lotr_troll
+discovered_by = lotr_ts_balla
+discovered_by = lotr_urdic_men
+discovered_by = lotr_uruk_hai
+discovered_by = lotr_wizard
+discovered_by = lotr_womarin
+discovered_by = lotr_woses
+discovered_by = lotr_wights
+
+

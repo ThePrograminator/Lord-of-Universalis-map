@@ -1,0 +1,969 @@
+########################################
+# Events for Orc Religion
+#
+#
+########################################
+
+namespace = flavor_orc_religion
+normal_or_historical_nations = yes
+
+# Infighting Brokeout
+country_event = {
+	id = flavor_orc_religion.1
+	title = flavor_orc_religion.1.t
+	desc = flavor_orc_religion.1.d
+	picture = ANGRY_MOB_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+			primary_culture = culture_orkish
+			primary_culture = culture_uruks
+			primary_culture = culture_half_orc
+			primary_culture = culture_ice_orkish
+			primary_culture = culture_jungle_orkish
+			primary_culture = culture_desert_orkish
+		}
+		
+		religion = religion_orkish
+		
+		uses_piety = yes
+		
+		OR = {
+			piety > -0.50
+			piety < 0.50
+		}
+		
+		NOT = {
+			has_country_modifier = orc_religion_punish_survivers
+			has_country_modifier = orc_religion_reward_victors
+		}
+	}
+	
+	#Punish The Survivers
+	option = { 
+		name = flavor_orc_religion.1.a
+		
+		add_piety = 0.10
+		add_country_modifier = {
+			name = orc_religion_punish_survivers
+			duration = 3650
+		}
+	}
+	
+	#Reward The Victors
+	option = { 
+		name = flavor_orc_religion.1.b
+
+		add_piety = -0.10
+	
+		add_country_modifier = {
+			name = orc_religion_reward_victors
+			duration = 3650
+		}
+	}
+}
+
+# Workers refuse to work without meat
+country_event = {
+	id = flavor_orc_religion.2
+	title = flavor_orc_religion.2.t
+	desc = flavor_orc_religion.2.d
+	picture = CITY_DEVELOPMENT_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+			primary_culture = culture_orkish
+			primary_culture = culture_uruks
+			primary_culture = culture_half_orc
+			primary_culture = culture_ice_orkish
+			primary_culture = culture_jungle_orkish
+			primary_culture = culture_desert_orkish
+		}
+		religion = religion_orkish
+		
+		uses_piety = yes
+		
+		OR = {
+			piety > -0.50
+			piety < 0.50
+		}
+		
+		NOT = {
+			has_country_modifier = orc_religion_dont_give_meat
+			has_country_modifier = orc_religion_give_meat
+		}
+	}
+	
+	#give them maggoty bread
+	option = { 
+		name = flavor_orc_religion.2.a
+		
+		add_piety = 0.05
+		
+		add_country_modifier = {
+			name = orc_religion_dont_give_meat
+			duration = 3650
+		}
+	}
+	
+	#buy the meat
+	option = { 
+		name = flavor_orc_religion.2.b
+		
+		add_piety = -0.05
+
+		add_treasury = -200
+		
+		add_country_modifier = {
+			name = orc_religion_give_meat
+			duration = 3650
+		}
+	}
+}
+
+# The warriors are badly trained
+country_event = {
+	id = flavor_orc_religion.3
+	title = flavor_orc_religion.3.t
+	desc = flavor_orc_religion.3.d
+	picture = NATIVES_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			uses_piety = yes
+			OR = {
+				primary_culture = culture_orkish
+				primary_culture = culture_uruks
+				primary_culture = culture_half_orc
+				primary_culture = culture_ice_orkish
+				primary_culture = culture_jungle_orkish
+				primary_culture = culture_desert_orkish
+			}
+			religion = religion_orkish
+		}
+		OR = {
+			piety > -0.50
+			piety < 0.50
+		}
+		NOT = {
+			army_professionalism = 0.50 
+			has_country_modifier = orc_religion_force_train
+			has_country_modifier = orc_religion_loose_formation
+		}
+	}
+	
+	#Force training
+	option = { 
+		name = flavor_orc_religion.3.a
+		
+		add_piety = 0.10
+		
+		add_army_professionalism = 0.05
+		
+		add_country_modifier = {
+			name = orc_religion_force_train
+			duration = 3650
+		}
+	}
+	
+	#loose formation is also good
+	option = { 
+		name = flavor_orc_religion.3.b
+		
+		add_piety = -0.10
+		
+		add_army_professionalism = -0.05
+		
+		add_country_modifier = {
+			name = orc_religion_loose_formation
+			duration = 3650
+		}
+	}
+}
+
+# Warmongering amongst the orcs
+country_event = {
+	id = flavor_orc_religion.4
+	title = flavor_orc_religion.4.t
+	desc = flavor_orc_religion.4.d
+	picture = BATTLE_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			uses_piety = yes
+			OR = {
+				primary_culture = culture_orkish
+				primary_culture = culture_uruks
+				primary_culture = culture_half_orc
+				primary_culture = culture_ice_orkish
+				primary_culture = culture_jungle_orkish
+				primary_culture = culture_desert_orkish
+			}
+			religion = religion_orkish
+		}
+		OR = {
+			piety > -0.50
+			piety < 0.50
+		}
+		
+		OR ={
+			is_at_war = no
+			NOT = {
+				had_recent_war = 5
+				has_country_modifier = orc_religion_prepare_for_war
+				has_country_modifier = orc_religion_promise_war
+				has_country_modifier = orc_religion_promise_war_but_didnt
+			}
+		}
+	}
+	
+	#We are preparing
+	option = { 
+		name = flavor_orc_religion.4.a
+		
+		add_piety = 0.05
+
+		add_country_modifier = {
+			name = orc_religion_prepare_for_war
+			duration = 3650
+		}
+	}
+	
+	#Promise to start war
+	option = { 
+		name = flavor_orc_religion.4.b
+		
+		add_country_modifier = {
+			name = orc_religion_promise_war
+			duration = 365
+		}
+		
+		custom_tooltip = orc_religion_promise_war_tooltip
+		
+		hidden_effect = {
+			country_event = {
+				id = flavor_orc_religion.5
+				days = 365
+			}
+		}
+	}
+}
+
+# Promised War But Didn't
+country_event = {
+	id = flavor_orc_religion.5
+	title = flavor_orc_religion.5.t
+	desc = flavor_orc_religion.5.d
+	picture = ANGRY_MOB_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			uses_piety = yes
+			OR = {
+				primary_culture = culture_orkish
+				primary_culture = culture_uruks
+				primary_culture = culture_half_orc
+				primary_culture = culture_ice_orkish
+				primary_culture = culture_jungle_orkish
+				primary_culture = culture_desert_orkish
+			}
+			religion = religion_orkish
+			is_at_war = no
+		}
+		NOT = {
+			has_country_modifier = orc_religion_promise_war_but_didnt
+		}
+	}
+	
+	#FAK
+	option = { 
+		name = flavor_orc_religion.5.a
+		
+		add_piety = -0.25
+		
+		add_corruption = 1
+		add_legitimacy = -25
+		add_prestige = -25
+		add_stability = -1
+
+		add_country_modifier = {
+			name = orc_religion_promise_war_but_didnt
+			duration = 3650
+		}
+	}
+}
+
+# raiding parties
+country_event = {
+	id = flavor_orc_religion.6
+	title = flavor_orc_religion.6.t
+	desc = flavor_orc_religion.6.d
+	picture = BORDER_TENSION_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+	
+		AND = {
+			uses_piety = yes
+			OR = {
+				primary_culture = culture_orkish
+				primary_culture = culture_uruks
+				primary_culture = culture_half_orc
+				primary_culture = culture_ice_orkish
+				primary_culture = culture_jungle_orkish
+				primary_culture = culture_desert_orkish
+			}
+			religion = religion_orkish
+			is_at_war = no
+			
+			NOT = {
+				piety = -0.40
+			}
+			
+			NOT = {
+				has_country_modifier = orc_religion_stopped_raid
+			}
+		}
+	
+		any_owned_province = {
+			has_owner_culture = yes
+			has_owner_religion = yes
+			any_neighbor_province = {
+				
+				NOT = { 
+					owned_by = ROOT 
+					culture = culture_orkish
+					culture = culture_uruks
+					culture = culture_half_orc
+					culture = culture_ice_orkish
+					culture = culture_jungle_orkish
+					culture = culture_desert_orkish
+					religion = religion_orkish
+					culture = culture_spider
+					religion = religion_spider
+					has_province_modifier = orc_religion_raided_neighbour_province
+				}
+				owner = {
+					NOT = { war_with = ROOT }
+				}
+			}
+		}
+		
+	}
+	
+	#Let Them Raid
+	option = { 
+		name = flavor_orc_religion.6.a
+		
+		add_piety = -0.20
+		
+		random_owned_province = {
+			limit = {
+				has_owner_culture = yes
+				has_owner_religion = yes
+				any_neighbor_province = {
+					#NOT = { owned_by = ROOT }
+					NOT = { 
+						owned_by = ROOT 
+						culture = culture_orkish
+						culture = culture_uruks
+						culture = culture_half_orc
+						culture = culture_ice_orkish
+						culture = culture_jungle_orkish
+						culture = culture_desert_orkish
+						religion = religion_orkish
+						culture = culture_spider
+						religion = religion_spider
+						has_province_modifier = orc_religion_raided_neighbour_province
+					}
+					owner = {
+						NOT = { war_with = ROOT }
+					}
+				}
+			}
+			random_neighbor_province = {
+				limit = {
+					NOT = {
+						owned_by = ROOT 
+						
+						culture = culture_orkish
+						culture = culture_uruks
+						culture = culture_half_orc
+						culture = culture_ice_orkish
+						culture = culture_jungle_orkish
+						culture = culture_desert_orkish
+						religion = religion_orkish
+						
+						culture = culture_spider
+						religion = religion_spider
+						has_province_modifier = orc_religion_raided_neighbour_province
+					}
+					owner = {
+						NOT = { war_with = ROOT }
+					}
+				}
+				
+				random_list = {
+					33 = {
+						add_base_tax = -1
+						FROM = {
+							add_adm_power = 25
+						}
+					}
+					33 = {
+						add_base_production = -1
+						FROM = {
+							add_dip_power = 25
+						}
+					}
+					33 = {
+						add_base_manpower = -1
+						FROM = {
+							add_mil_power = 25
+						}
+					}
+				}
+				
+				add_devastation = -100
+				
+				remove_loot = {
+					who = PREV
+					amount = 100
+				}
+				
+				add_province_modifier = {
+					name = orc_religion_raided_neighbour_province 
+					duration = 3650
+				}
+				
+				owner = {
+					add_opinion = {
+						who = ROOT
+						modifier = orc_raided_province
+						years = 25
+					}
+				}
+				
+				hidden_effect = {
+					THIS = {
+						owner = {
+							country_event = {
+								id = flavor_orc_religion.7
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	#We haven't ordered a raid!
+	option = { 
+		name = flavor_orc_religion.6.b
+		
+		add_piety = 0.20
+		
+		add_prestige = -20
+		add_manpower = -2
+		
+		add_country_modifier = {
+			name = orc_religion_stopped_raid
+			duration = 3650
+		}
+	}
+}
+
+# Country Being Raided
+province_event = {
+	id = flavor_orc_religion.7
+	title = flavor_orc_religion.7.t
+	desc = flavor_orc_religion.7.d
+	picture = BORDER_TENSION_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		
+	}
+	
+	#bring forth destruction
+	option = { 
+		name = flavor_orc_religion.7.a
+
+		tooltip = {
+			FROM = {
+				#limit = {
+					#NOT = {
+					#	owner = {
+					#		uses_piety = yes
+					#		culture = culture_orkish
+					#		religion = religion_orkish
+					#		war_with = FROM
+					#	}
+					#	owned_by = ROOT
+					#	culture = culture_orkish
+					#	religion = religion_orkish
+					#}
+				#}
+				
+				random_list = {
+					33 = {
+						add_base_tax = -1
+					}
+					33 = {
+						add_base_production = -1
+					}
+					33 = {
+						add_base_manpower = -1
+					}
+				}
+				
+				add_devastation = -100
+				
+				remove_loot = {
+					who = PREV
+					amount = 100
+				}
+				
+				add_province_modifier = {
+					name = orc_religion_raided_neighbour_province 
+					duration = 3650
+				}
+				
+				owner = {
+					add_opinion = {
+						who = FROM
+						modifier = orc_raided_province
+						years = 25
+					}
+				}
+			}
+		}
+	}
+}
+
+# Attack on Merchants and emmisaries 
+country_event = {
+	id = flavor_orc_religion.8
+	title = flavor_orc_religion.8.t
+	desc = flavor_orc_religion.8.d
+	picture = ACCUSATION_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			uses_piety = yes
+			OR = {
+				primary_culture = culture_orkish
+				primary_culture = culture_uruks
+				primary_culture = culture_half_orc
+				primary_culture = culture_ice_orkish
+				primary_culture = culture_jungle_orkish
+				primary_culture = culture_desert_orkish
+			}
+			religion = religion_orkish
+			
+			NOT = {
+				piety = -0.40
+			}
+			
+			
+			NOT = {
+				has_country_modifier = orc_religion_dont_compensate
+				has_country_modifier = orc_religion_compensate
+			}
+		}
+		
+		any_known_country = {
+			NOT = {
+				primary_culture = culture_spider
+				religion = religion_spider
+				has_country_modifier = orc_religion_frighten_traders
+			}
+			any_active_trade_node = {
+				has_merchant = PREV
+				any_trade_node_member_country = { tag = ROOT }
+			}
+		}
+	}
+	
+	#This will hurt us
+	option = { 
+		name = flavor_orc_religion.8.a
+		
+		random_known_country = {
+			limit = {
+				NOT = {
+					primary_culture = culture_spider
+					religion = religion_spider
+					has_country_modifier = orc_religion_frighten_traders
+				}
+			
+				any_active_trade_node = {
+					has_merchant = PREV
+					any_trade_node_member_country = { tag = ROOT }
+				}
+			}
+			add_mercantilism = -2
+			recall_merchant = THIS
+			kill_advisor = random
+			
+			add_country_modifier = {
+				name = orc_religion_frighten_traders
+				duration = 3650
+			}
+			
+			add_opinion = {
+				who = ROOT
+				modifier = orc_killed_merchants
+				years = 10
+			}
+			
+			hidden_effect = {
+				country_event = {
+					id = flavor_orc_religion.9
+				}
+			}
+		}
+		
+		ROOT = {
+			add_piety = -0.10
+		
+			add_country_modifier = {
+				name = orc_religion_dont_compensate 
+				duration = 3650
+			}
+		}
+	}
+	
+	#Compensate
+	option = { 
+		name = flavor_orc_religion.8.b
+		
+		add_adm_power = -50
+		add_dip_power = -50
+		
+		add_prestige = -10
+		
+		add_treasury = -100
+		
+		ROOT = {
+			add_piety = 0.10
+		
+			add_country_modifier = {
+				name = orc_religion_compensate 
+				duration = 3650
+			}
+		}
+	}
+}
+
+# Country Traders got killed
+country_event = {
+	id = flavor_orc_religion.9
+	title = flavor_orc_religion.9.t
+	desc = flavor_orc_religion.9.d
+	picture = ACCUSATION_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		
+	}
+	
+	#bring forth destruction
+	option = { 
+		name = flavor_orc_religion.9.a
+
+		tooltip = {
+			add_mercantilism = -2
+			recall_merchant = THIS
+			kill_advisor = random
+			
+			add_country_modifier = {
+				name = orc_religion_frighten_traders
+				duration = 3650
+			}
+			
+			add_opinion = {
+				who = FROM
+				modifier = orc_killed_merchants
+				years = 10
+			}
+		}
+	}
+}
+
+# The Orcs rebel!
+country_event = {
+	id = flavor_orc_religion.10
+	title = flavor_orc_religion.10.t
+	desc = flavor_orc_religion.10.d
+	picture = ANGRY_MOB_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			uses_piety = yes
+			OR = {
+				primary_culture = culture_orkish
+				primary_culture = culture_uruks
+				primary_culture = culture_half_orc
+				primary_culture = culture_ice_orkish
+				primary_culture = culture_jungle_orkish
+				primary_culture = culture_desert_orkish
+			}
+			religion = religion_orkish
+			
+			NOT = {
+				piety = -0.79
+			}
+			
+			NOT = {
+				has_country_modifier = orc_religion_chaos_rebels
+			}
+		}
+	}
+	
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					NOT = {
+						controlled_by = REB
+					}
+					has_owner_culture = yes
+					has_owner_religion = yes
+					is_capital = no
+				}
+				spawn_rebels = {
+					type = orc_chaos_rebels
+					size = 1
+					win = yes
+				}
+			}
+		}
+	}
+	
+	#Bash their skulls!
+	option = { 
+		name = flavor_orc_religion.10.a
+		
+		add_piety = 0.30
+		
+		add_manpower = -2
+		add_prestige = -30
+		add_stability = -1
+		
+		add_country_modifier = {
+			name = orc_religion_chaos_rebels
+			duration = 3650
+		}
+	}
+}
+
+# Enlits Overseers
+country_event = {
+	id = flavor_orc_religion.11
+	title = flavor_orc_religion.11.t
+	desc = flavor_orc_religion.11.d
+	picture = CONQUEST_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			uses_piety = yes
+			OR = {
+				primary_culture = culture_orkish
+				primary_culture = culture_uruks
+				primary_culture = culture_half_orc
+				primary_culture = culture_ice_orkish
+				primary_culture = culture_jungle_orkish
+				primary_culture = culture_desert_orkish
+			}
+			religion = religion_orkish
+		}
+		AND = {
+			piety > 0.40
+		}
+		NOT = {
+			has_country_modifier = orc_religion_enlisted_overseers
+			has_country_modifier = orc_religion_loose_formation
+		}
+	}
+	
+	#Where There Is a Whip There Is a Way
+	option = { 
+		name = flavor_orc_religion.11.a
+		
+		add_piety = 0.20
+		
+		add_army_professionalism = 0.05
+		
+		add_country_modifier = {
+			name = orc_religion_enlisted_overseers
+			duration = 3650
+		}
+	}
+	
+	#Leave Them Be
+	option = { 
+		name = flavor_orc_religion.11.b
+		
+		add_piety = -0.20
+		
+		add_army_professionalism = -0.05
+		
+		add_country_modifier = {
+			name = orc_religion_loose_formation
+			duration = 3650
+		}
+	}
+}
+
+# Many Orcs To Control
+country_event = {
+	id = flavor_orc_religion.12
+	title = flavor_orc_religion.12.t
+	desc = flavor_orc_religion.12.d
+	picture = RELIGIOUS_TURMOIL_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			uses_piety = yes
+			OR = {
+				primary_culture = culture_orkish
+				primary_culture = culture_uruks
+				primary_culture = culture_half_orc
+				primary_culture = culture_ice_orkish
+				primary_culture = culture_jungle_orkish
+				primary_culture = culture_desert_orkish
+			}
+			religion = religion_orkish
+			manpower_percentage = 0.75
+		}
+		AND = {
+			piety > 0.40
+		}
+		NOT = {
+			has_country_modifier = orc_religion_keep_the_grip
+			has_country_modifier = orc_religion_loosen_the_grip
+		}
+	}
+	
+	#Keep The Grip
+	option = { 
+		name = flavor_orc_religion.12.a
+		
+		add_piety = 0.10
+		
+		add_stability = -1
+		
+		add_country_modifier = {
+			name = orc_religion_keep_the_grip
+			duration = 3650
+		}
+	}
+	
+	#Loosen The Grip
+	option = { 
+		name = flavor_orc_religion.12.b
+		
+		add_piety = -0.10
+		
+		add_stability = 1
+		
+		add_country_modifier = {
+			name = orc_religion_loosen_the_grip
+			duration = 3650
+		}
+	}
+}
+
+# Orcs Desert
+country_event = {
+	id = flavor_orc_religion.13
+	title = flavor_orc_religion.13.t
+	desc = flavor_orc_religion.13.d
+	picture = MILITARY_CAMP_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			uses_piety = yes
+			OR = {
+				primary_culture = culture_orkish
+				primary_culture = culture_uruks
+				primary_culture = culture_half_orc
+				primary_culture = culture_ice_orkish
+				primary_culture = culture_jungle_orkish
+				primary_culture = culture_desert_orkish
+			}
+			religion = religion_orkish
+			manpower_percentage = 0.25
+		}
+		
+		piety > 0.75
+		
+		NOT = {
+			has_country_modifier = orc_religion_deserted_orcs
+		}
+	}
+	
+	#They Were Controlled Too Much
+	option = { 
+		name = flavor_orc_religion.13.a
+		
+		add_piety = -0.30
+		
+		add_stability = -1
+		add_legitimacy = -25
+		add_mil_power = -100
+		
+		
+		
+		random_owned_province = {
+			limit = {
+				num_of_units_in_province = {
+					who = owner
+					amount = 3
+				}
+			}
+			
+			if = {
+				limit = {
+					unit_has_leader = yes
+				}
+				kill_leader = { type = general }
+			}
+			
+			kill_units = {
+				who = owner
+				amount = 3
+			}
+		}
+		
+		
+		add_country_modifier = {
+			name = orc_religion_deserted_orcs
+			duration = 3650
+		}
+	}
+}

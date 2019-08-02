@@ -1,0 +1,45 @@
+mercantilism = 0.1
+government = republic
+add_government_reform = oligarchy_reform
+
+primary_culture = culture_bardings
+religion = religion_nenedain
+technology_group = lotr_northmen
+capital = 528
+
+government_rank = 1
+
+historical_friend = Y22
+historical_friend = Y23
+historical_friend = Y90
+historical_friend = Y67
+historical_friend = Z02
+historical_friend = Z03
+historical_friend = Y92
+historical_friend = Z04
+historical_friend = Y18
+historical_friend = Y06
+historical_rival = X99
+historical_rival = X90
+historical_rival = X87
+historical_rival = V41
+historical_rival = Y49
+historical_rival = V17
+historical_rival = V19
+historical_rival = V20
+historical_rival = Y44
+historical_rival = Y34
+historical_rival = Y33
+historical_rival = Y30
+historical_rival = Y31
+historical_rival = Y63
+historical_rival = X96
+historical_rival = X97
+historical_rival = X92
+historical_rival = X91
+historical_rival = X95
+historical_rival = X93
+historical_rival = X94
+historical_rival = Y01
+historical_rival = Y02
+historical_rival = V39

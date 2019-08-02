@@ -1,0 +1,74 @@
+# For specific government types
+# Will pick the first valid one it finds in list
+
+gov_lotr_lordship_elf = {
+	rank = {
+		1 = LORDSHIP
+		2 = GRAND_LORDSHIP
+		3 = GREAT_LORDSHIP
+	}
+
+	ruler_male = {
+		1 = LORD_ELF
+		2 = LORD_ELF
+		3 = LORD_ELF
+	}
+
+	ruler_female = {
+		1 = PRINCESS
+		2 = PRINCESS
+		3 = PRINCESS
+	}
+
+	trigger = {
+		has_reform = lordship_elf_reform
+	}
+}
+
+gov_lotr_principality_elf = {
+	rank = {
+		1 = PRINCIPALITY
+		2 = GRAND_PRINCIPALITY
+		3 = GREAT_PRINCIPALITY
+	}
+
+	ruler_male = {
+		1 = PRINCE
+		2 = PRINCE
+		3 = PRINCE
+	}
+
+	ruler_female = {
+		1 = PRINCESS
+		2 = PRINCESS
+		3 = PRINCESS
+	}
+
+	consort_male  = {
+		1 = PRINCE_CONSORT
+		2 = PRINCE_CONSORT
+		3 = PRINCE_CONSORT
+	}
+
+	consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+	}
+
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+
+	trigger = {
+		has_reform = principality_elf_reform
+	}
+}

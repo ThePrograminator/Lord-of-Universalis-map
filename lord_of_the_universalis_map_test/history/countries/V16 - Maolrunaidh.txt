@@ -1,0 +1,18 @@
+mercantilism = 0.1
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = culture_clansmen
+religion = religion_daen
+technology_group = lotr_daen
+capital = 366
+
+government_rank = 1
+
+historical_friend = Z43
+historical_friend = V08
+historical_friend = Z44
+historical_friend = Z45
+historical_rival = Z11
+historical_rival = Z46
+historical_rival = V15
+historical_rival = X15

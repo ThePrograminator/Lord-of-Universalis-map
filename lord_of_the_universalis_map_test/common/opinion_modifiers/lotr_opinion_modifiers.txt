@@ -1,0 +1,164 @@
+#########################################################################
+# OPINION MODIFIERS
+##########################################################################
+
+##########################################################################
+# HARD - DO NOT REMOVE OR RENAME ANY OF THESE
+##########################################################################
+
+# LOTR
+# 50 should be enough
+wants_gold = {
+	opinion = -50
+}
+
+raided = {
+	opinion = -100
+	yearly_decay = 5
+}
+
+rejected_sauron = {
+	opinion = -200
+	yearly_decay = 5
+}
+
+fury_of_the_haradrim = {
+	opinion = -100
+	yearly_decay = 5
+}
+
+isg_union = {
+	opinion = 200
+	years = 10
+	yearly_decay = 5
+}
+
+isg_negative = {
+	opinion = -50
+	years = 50
+	yearly_decay = 1
+}
+
+isg_declined = {
+	opinion = -25
+	years = 25
+	yearly_decay = 1
+}
+
+mordor_union = {
+	opinion = 200
+	years = 10
+	yearly_decay = 5
+}
+
+mordor_negative = {
+	opinion = -50
+	years = 50
+	yearly_decay = 1
+}
+
+mordor_declined = {
+	opinion = -25
+	years = 25
+	yearly_decay = 1
+}
+
+race_hates = {
+	opinion = -100
+}
+
+race_love = {
+	opinion = 25
+}
+
+unite_goblins = {
+	opinion = 200
+}
+
+thandruil_helped = {
+	opinion = 200
+}
+
+thandruil_helped_ally = {
+	opinion = 200
+}
+
+thandruil_left = {
+	opinion = -200
+}
+
+thandruil_left_ally = {
+	opinion = -100
+}
+
+harad_invasion_didnt_start_invasion = {
+	opinion = -25
+}
+
+harad_invasion_didnt_declare_invasion = {
+	opinion = -25
+}
+
+harad_invasion_started_invasion = {
+	opinion = 25
+}
+
+harad_invasion_won = {
+	opinion = 25
+}
+
+gondor_aided_rohan = {
+	opinion = 50
+}
+
+gondor_didnt_aid_rohan = {
+	opinion = -50
+}
+
+dol_amroth_send_low_men = {
+	opinion = 10
+}
+
+dol_amroth_send_med_men = {
+	opinion = 25
+}
+
+dol_amroth_send_high_men = {
+	opinion = 50
+}
+
+dol_guldur_servant = {
+	opinion = 200
+}
+
+mordor_master = {
+	opinion = 200
+}
+
+orc_raided_province = {
+	opinion = -100
+}
+
+orc_killed_merchants = {
+	opinion = -100
+}
+
+mordor_improved_relations = {
+	opinion = 50
+}
+
+orc_payed_tribute_to_mordor = {
+	opinion = 50
+}
+
+orc_didnt_pay_tribute_to_mordor = {
+	opinion = -50
+}
+
+orc_offended_orc_nation = {
+	opinion = -50
+}
+
+erebor_master = {
+	opinion = 100
+}

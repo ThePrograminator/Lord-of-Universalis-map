@@ -1,0 +1,85 @@
+melkor_gov_mechanic = {
+	
+	monarchy = yes
+	allow_convert = no
+	heir = no
+	queen = no
+	royal_marriage = no
+	basic_reform = yes # = invisible/does not take up a slot
+	valid_for_nation_designer = no
+	custom_attributes = {
+		enables_aristocratic_idea_group = yes
+	}
+}
+
+lotr_troll_clan_reform = {
+	icon = "troll_clan"
+	valid_for_new_country = no
+	allow_convert = no
+	allow_normal_conversion = no
+	nation_designer_cost = 0
+	legacy_equivalent = lotr_troll_clan_legacy
+	lock_level_when_selected = yes
+	
+	potential = {
+		technology_group = lotr_troll 
+	}
+	
+	modifiers = {
+		tolerance_own = 2
+		tolerance_heretic = -1
+		tolerance_heathen = -2
+	}
+	
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+lotr_wight_government_reform = {
+	icon = "wight"
+	valid_for_new_country = no
+	allow_convert = no
+	allow_normal_conversion = no
+	nation_designer_cost = 0
+	legacy_equivalent = lotr_wight_government_legacy
+	lock_level_when_selected = yes
+	
+	potential = {
+		technology_group = lotr_wights
+	}
+	
+	modifiers = {
+		tolerance_own = 2
+		tolerance_heretic = -1
+		tolerance_heathen = -2
+	}
+	
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+lotr_spider_government_reform = {
+	icon = "spider_swarm"
+	valid_for_new_country = no
+	allow_convert = no
+	allow_normal_conversion = no
+	nation_designer_cost = 0
+	legacy_equivalent = lotr_spider_government_legacy
+	lock_level_when_selected = yes
+	
+	potential = {
+		technology_group = lotr_great_spider
+	}
+	
+	modifiers = {
+		tolerance_own = 2
+		tolerance_heretic = -1
+		tolerance_heathen = -2
+	}
+	
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}

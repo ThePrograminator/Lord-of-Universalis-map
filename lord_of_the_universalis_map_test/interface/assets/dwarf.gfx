@@ -1,0 +1,30 @@
+objectTypes = {	
+	
+	###################################################################################################################
+	#####                                                                                                         #####
+	#####                                                   LEVEL 1                                               #####
+	#####                                                                                                         #####
+	###################################################################################################################
+		
+	pdxmesh = {
+		name = "mesh_dwarf_infantry_1"
+		
+		file = "gfx/models/Units/dwarf_infantry.mesh"
+
+		animation = { id = "attack"				type = "dwarf_attack_anim" }
+		animation = { id = "death"				type = "rifleman_death_animation" }		
+		animation = { id = "idle"				type = "dwarf_idle_anim" }
+		animation = { id = "walk"				type = "dwarf_move_anim" }
+		animation = { id = "retreat"			type = "dwarf_move_anim" }
+
+		animation = { id = "artillery_attack"	type = "dwarf_attack_anim" }
+		
+		scale = 0.5
+	}
+
+	pdxmesh = {
+		name = "warhammer_dwarf"
+		file = "gfx/models/Units/warhammer.mesh"
+		scale = 0.35
+	}
+}

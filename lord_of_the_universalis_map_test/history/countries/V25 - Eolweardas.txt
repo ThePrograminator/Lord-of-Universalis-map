@@ -1,0 +1,24 @@
+mercantilism = 0.1
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = culture_eothraim
+religion = religion_aivathuida
+technology_group = lotr_northmen
+capital = 1915
+
+historical_friend = X16
+historical_friend = Y97
+historical_friend = V30
+historical_friend = Z02
+historical_friend = Z03
+historical_rival = X99
+historical_rival = V17
+historical_rival = V19
+historical_rival = Y96
+historical_rival = V26
+historical_rival = X87
+historical_rival = X97
+historical_rival = X91
+historical_rival = X96
+historical_rival = V20
+historical_rival = V41

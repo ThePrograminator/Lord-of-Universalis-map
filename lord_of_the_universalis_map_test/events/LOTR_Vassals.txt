@@ -1,0 +1,180 @@
+namespace = lotr_vassals
+
+# Evil vassals with good overlords will attempt to revolt, and vice versa
+
+#title: Overthrow the Evil Overlords!
+#desc: Our overlord is evil, and taints our realm. Our people are unhappy, and wish to be free of such corruption. We must fight for independence, or die trying.
+#1: Fight!
+country_event = {
+	id = lotr_vassals.1
+	title = "lotr_vassals.1t"
+	desc = "lotr_vassals.1d"
+	picture = ANGRY_MOB_eventPicture
+	
+	trigger = {
+		is_subject = yes
+		ai = yes
+		religion_group = iluvatarism_group
+		army_size_percentage = 0.5
+		stability = 0
+		overlord = {  
+			religion_group = melkorism_group
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 420
+
+		modifier = {
+			factor = 0.8
+			overlord = {
+				military_strength = {
+					who = ROOT
+					value = 0.25
+				}
+			}
+		}
+		modifier = {
+			factor = 0.8
+			overlord = {
+				military_strength = {
+					who = ROOT
+					value = 0.5
+				}
+			}
+		}
+		modifier = {
+			factor = 0.9
+			overlord = {
+				military_strength = {
+					who = ROOT
+					value = 0.75
+				}
+			}
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { stability = 0 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { stability = -1 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { stability = -2 }
+		}
+		modifier = {
+			factor = 1.1
+			stability = 1
+		}
+		modifier = {
+			factor = 1.1
+			stability = 2
+		}
+		modifier = {
+			factor = 1.1
+			stability = 3
+		}
+	}
+	
+	option = {
+		name = "lotr_vassals.1a"
+		
+		overlord = {
+			ROOT = {
+				declare_war_with_cb = {
+					who = PREV
+					casus_belli = cb_independence_war
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = lotr_vassals.2
+	title = "lotr_vassals.2t"
+	desc = "lotr_vassals.2d"
+	picture = ANGRY_MOB_eventPicture
+	
+	trigger = {
+		is_subject = yes
+		ai = yes
+		religion_group = melkorism_group
+		army_size_percentage = 0.5
+		stability = 0
+		overlord = {  
+			religion_group = iluvatarism_group
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 420
+
+		modifier = {
+			factor = 0.8
+			overlord = {
+				military_strength = {
+					who = ROOT
+					value = 0.25
+				}
+			}
+		}
+		modifier = {
+			factor = 0.8
+			overlord = {
+				military_strength = {
+					who = ROOT
+					value = 0.5
+				}
+			}
+		}
+		modifier = {
+			factor = 0.9
+			overlord = {
+				military_strength = {
+					who = ROOT
+					value = 0.75
+				}
+			}
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { stability = 0 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { stability = -1 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { stability = -2 }
+		}
+		modifier = {
+			factor = 1.1
+			stability = 1
+		}
+		modifier = {
+			factor = 1.1
+			stability = 2
+		}
+		modifier = {
+			factor = 1.1
+			stability = 3
+		}
+	}
+	
+	option = {
+		name = "lotr_vassals.2a"
+		
+		overlord = {
+			ROOT = {
+				declare_war_with_cb = {
+					who = PREV
+					casus_belli = cb_independence_war
+				}
+			}
+		}
+	}
+}

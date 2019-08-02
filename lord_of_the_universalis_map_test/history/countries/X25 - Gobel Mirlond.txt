@@ -1,0 +1,21 @@
+mercantilism = 0.1
+government = monarchy
+
+add_government_reform = principality_reform
+primary_culture = culture_sakalai
+religion = religion_haruzani
+technology_group = lotr_haradrim
+capital = 130
+
+historical_friend = X23
+historical_friend = V13
+historical_friend = X27
+historical_friend = V17
+historical_friend = V18
+historical_rival = X26
+historical_rival = V14
+historical_rival = X01
+historical_rival = X02
+historical_rival = X11
+historical_rival = X16
+historical_rival = V48

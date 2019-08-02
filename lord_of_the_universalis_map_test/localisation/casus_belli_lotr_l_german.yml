@@ -1,0 +1,8 @@
+﻿l_german:
+ #War of the Dwarves
+ cb_war_of_the_dwarves_and_orcs: "War of the Dwarves and Orcs"
+ cb_war_of_the_dwarves_and_orcs_desc: "War of the Dwarves and Orcs (Historical War)"
+ 
+ # Harad Invasion
+ cb_harad_invasion: "Southron Invasion"
+ cb_harad_invasion_desc: "Southron Invasion called against a religion other than southron"

@@ -1,0 +1,65 @@
+﻿l_english:
+ # Religions
+ religion_group_eruhini: "Ainur"
+ religion_eruhini: "Ainur"
+ 
+ religion_group_enyd: "Onodrim"
+ religion_enyd: "Onodrim"
+ 
+ religion_group_khazad: "Khazâd"
+ religion_mahal: "Dwarves"
+ 
+ religion_group_eldar: "Eldar"
+ religion_moriquendi: "Moriquendi"
+ religion_umanyar: "Úmanyar"
+ religion_calaquendi: "Calaquendi"
+ 
+ religion_group_periannath: "Periannath"
+ religion_perian: "Perian"
+ 
+ religion_group_edain: "Edain"
+ religion_druedain: "Drúedain"
+ religion_edain: "Edain"
+ religion_dunedain: "Dúnedain"
+ religion_numenorean: "Númenórean"
+ religion_rhovanion: "Northmen"
+ religion_rohirrim: "Rohirrim"
+ religion_nurning: "Núrnoth"
+ religion_daen: "Daen"
+ religion_ishmalogim: "Ishmalogim"
+ religion_lossoth: "Lossoth"
+ religion_eriadorians: "Eriadorians"
+ 
+ religion_group_hildor: "Men of Darkness"
+ religion_southron: "Southrons"
+ religion_easterlings: "Easterlings"
+ religion_black_numenorean: "Black Númenóreans"
+ 
+ religion_group_melkor: "Creatures of Melkor"
+ religion_wight: "Wight"
+ religion_olog: "Troll"
+ religion_orkish: "Orcs"
+ religion_goblin: "Goblin"
+ religion_uruk: "Uruk"
+ religion_dragons: "Dragon"
+ religion_spider: "Spider"
+ religion_angmarim: "Angmarism"
+ religion_burz_uruk: "Burz Uruk"
+ 
+ religion_group_sun: "Sun people"
+ religion_sun: "Sun People"
+ 
+ religion_group_wilderness: "Wilderness"
+ religion_wilderness: "Wilderness"
+ 
+ #Rohan Ancestors
+ eorl_the_young_ancestor: "Eorl the Young"
+ eorl_the_young_ancestor_desc: "Choose to follow in the footsteps of Eorl the Young"
+ brego_ancestor: "Brego"
+ brego_ancestor_desc: "Choose to follow in the footsteps of Brego"
+ aldor_the_old_ancestor: "Aldor the Old"
+ aldor_the_old_ancestor_desc: "Choose to follow in the footsteps of Aldor the Old"
+ deor_ancestor: "Déor"
+ deor_ancestor_desc: "Choose to follow in the footsteps of Déor"
+ helm_hammerhand_ancestor: "Helm Hammerhand"
+ helm_hammerhand_ancestor_desc: "Choose to follow in the footsteps of Helm Hammerhand"

@@ -1,0 +1,143 @@
+#Country Name: Please see filename.
+graphical_culture = northamericagfx
+
+color = { 80 145 100 }
+
+historical_idea_groups = {
+	offensive_ideas
+	diplomatic_ideas
+	defensive_ideas
+	innovativeness_ideas
+	administrative_ideas
+	quantity_ideas
+	economic_ideas
+	aristocracy_ideas
+}
+
+historical_units = {
+	lotr_wildmen_tribes_men_1
+	lotr_wildmen_axe_raiders_2
+	lotr_wildmen_heavy_axemen_3
+
+	lotr_wildmen_mounted_tribesmen_1
+	lotr_wildmen_mounted_axe_raiders_2
+}
+
+monarch_names = {
+	"Abûmi" = 10
+	"Abrînu" = 10
+	"Adêr" = 10
+	"Adrîm" = 10
+	"Aghân" = 10
+	"Âgu" = 10
+	"Ambûghi" = 10
+	"Andrû" = 10
+	"Âri" = 10
+	"Awâb" = 10
+	"Baghâd" = 10
+	"Bâmu" = 10
+	"Bôr" = 10
+	"Brâghor" = 10
+	"Brâmbu" = 10
+	"Brâwâ" = 10
+	"Brûdor" = 10
+	"Brûnu" = 10
+	"Bûri" = 10
+	"Dagâr" = 10
+	"Daghân" = 10
+	"Dêrdru" = 10
+	"Dî" = 10
+	"Dragôr" = 10
+	"Drûnu" = 10
+	"Êrghân" = 10
+	"Gâbu" = 10
+	"Gâr" = 10
+	"Gâzu" = 10
+	"Ghâmi" = 10
+	"Ghâwa" = 10
+	"Ghân" = 10
+	"Ghêrdu" = 10
+	"Ghôrdu" = 10
+	"Ghûm" = 10
+	"Gîmi" = 10
+	"Grâtam" = 10
+	"Grî" = 10
+	"Grîga" = 10
+	"Grûghu" = 10
+	"Gûbi" = 10
+	"Gughân" = 10
+	"Gûmi" = 10
+	"Gûza" = 10
+	"Îbu" = 10
+	"Izûn" = 10
+	"Madrân" = 10
+	"Môrghu" = 10
+	"Naghân" = 10
+	"Ogû" = 10
+	"Ordrûg" = 10
+	"Ôrgrin" = 10
+	"Râmi" = 10
+	"Rûbêr" = 10
+	"Rûghi" = 10
+	"Saghân" = 10
+	"Tîghân" = 10
+	"Wâ" = 10
+	"Waghân" = 10
+	"Zîghi" = 10
+	"Zûn" = 10
+}
+
+leader_names = {
+	
+}
+
+ship_names = {
+	Eagletree
+	Feathersun
+	Lowtree
+	Distantblade
+	Pineweaver
+	Oceanfang
+	Humbleripper
+	Wiseblood
+	Sunmantle
+	Grandpunch
+	Pyrefollower
+	Hawkfall
+	Heartsteam
+	Stonestrength
+	Mastertide
+	Gloomsworn
+	Redfist
+	Riverwinds
+	Skyspire
+	Fireclaw
+	Lunapike
+	Whitbane
+	Tarrensnow
+	Leafroot
+	Softswallow
+	Peacereaper
+	Stagarm
+	Monsterfury
+	Horsebinder
+	Strongmoon
+	Moltenmourn
+	Skymight
+	Covenstriker
+	Glowstrider
+	Farwatcher
+	Fallendown
+	Tarrengem
+	Stonestar
+	Fernstriker
+	Roughheart
+}
+
+army_names = {
+	"Regiment of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}

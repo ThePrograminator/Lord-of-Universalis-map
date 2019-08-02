@@ -1,0 +1,59 @@
+country_decisions = {
+
+	gondor_nation = {
+		major = yes
+		potential = {
+			AND = {
+				NOT = { exists = X01 }
+				#NOT = { exists = Z99 }
+				religion = religion_dunedain
+				culture_group = culture_group_numenorean
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 1
+				}
+			}
+		}
+		allow = {
+			adm_tech = 10
+			is_subject = no
+			is_at_war = no
+			
+			minas_tirith_area = {
+				type = all
+				owned_by = ROOT
+			}
+			
+			osgiliath_area = {
+				type = all
+				owned_by = ROOT
+			}
+			
+			#Pelargir
+			owns_core_province = 17
+			
+			#Curedain
+			owns_core_province = 52
+		}
+		effect = {
+			change_tag = X01
+			add_prestige = 50
+			
+			X01 = {
+				set_capital = 413		# Minas Tirith
+			}
+			swap_free_idea_group = yes		#keep progress
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 3650
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		ai_importance = 100
+	}
+}

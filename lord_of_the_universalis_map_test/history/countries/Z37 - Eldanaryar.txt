@@ -1,0 +1,9 @@
+mercantilism = 0.1
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = culture_angmarrim
+religion = religion_baradhrim
+technology_group = lotr_swarthy_men
+capital = 633
+
+government_rank = 1

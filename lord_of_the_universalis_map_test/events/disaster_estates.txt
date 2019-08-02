@@ -1,0 +1,84 @@
+###########################################################
+# Events for the Cossack Estate
+#
+# written by Henrik Lohmander
+###########################################################
+
+namespace = estate_disasters
+
+# The Nobles take control
+country_event = {
+	id = estate_disasters.1
+	title = estate_disasters.1.t
+	desc = estate_disasters.1.d
+	picture = NOBLE_ESTATE_TAKE_OVER_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		set_country_flag = noble_estate_in_power
+	}
+	
+	option = {
+		name = estate_disasters.1.a	
+		add_stability = -1
+		
+		add_country_modifier = {
+			name = "noble_power_monarchy"
+			duration = -1
+		}
+		custom_tooltip = estate_disasters.1.a.tt
+	}
+}
+
+# Nobility brought to heel
+country_event = {
+	id = estate_disasters.2
+	title = estate_disasters.2.t
+	desc = estate_disasters.2.d
+	picture = NOBLE_ESTATE_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = estate_disasters.2.a
+	}
+}
+
+# The Burghers take control
+country_event = {
+	id = estate_disasters.5
+	title = estate_disasters.5.t
+	desc = estate_disasters.5.d
+	picture = BURGHER_ESTATE_UPSET_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		set_country_flag = burghers_estate_in_power
+	}
+	
+	option = {
+		name = estate_disasters.5.a	
+		add_stability = -1
+		custom_tooltip = estate_disasters.5.a.tt
+	}
+}
+
+# Burghers brought to heel
+country_event = {
+	id = estate_disasters.6
+	title = estate_disasters.6.t
+	desc = estate_disasters.6.d
+	picture = BURGHER_ESTATE_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = estate_disasters.6.a
+	}
+}

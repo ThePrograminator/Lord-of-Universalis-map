@@ -1,0 +1,112 @@
+namespace = LOTR_Elections
+
+country_event = {
+	id = LOTR_Elections.1
+	title = "LOTR_Elections.1t"
+	desc = "LOTR_Elections.1desc"
+	picture = ELECTION_REPUBLICAN_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		government = lotr_mayorship
+	}
+	
+	option = {
+		name = "LOTR_Elections.1a"
+		
+		add_scaled_republican_tradition = -0.10	
+		change_adm = 1
+		change_dip = 1
+		change_mil = 1
+	}
+	
+	option = {
+		name = "LOTR_Elections.1b"
+		
+		define_ruler = {
+			mil = 1
+			adm = 4
+			dip = 1					
+			fixed = yes
+		}
+	}
+	
+	option = {
+		name = "LOTR_Elections.1c"
+		
+		define_ruler = {
+			mil = 1
+			adm = 1
+			dip = 4				
+			fixed = yes
+		}
+	}
+	
+	option = {
+		name = "LOTR_Elections.1d"
+		
+		define_ruler = {
+			mil = 4
+			adm = 1
+			dip = 1					
+			fixed = yes
+		}
+	}
+}
+
+
+country_event = {
+	id = LOTR_Elections.2
+	title = "LOTR_Elections.2t"
+	desc = "LOTR_Elections.2desc"
+	picture = ELECTION_REPUBLICAN_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		government = lotr_trader_town
+	}
+	
+	option = {
+		name = "LOTR_Elections.2a"
+		
+		add_scaled_republican_tradition = -0.10	
+		change_adm = 1
+		change_dip = 1
+		change_mil = 1
+	}
+	
+	option = {
+		name = "LOTR_Elections.2b"
+		
+		define_ruler = {
+			mil = 1
+			adm = 4
+			dip = 1					
+			fixed = yes
+		}
+	}
+	
+	option = {
+		name = "LOTR_Elections.2c"
+		
+		define_ruler = {
+			mil = 1
+			adm = 1
+			dip = 4				
+			fixed = yes
+		}
+	}
+	
+	option = {
+		name = "LOTR_Elections.2d"
+		
+		define_ruler = {
+			mil = 4
+			adm = 1
+			dip = 1					
+			fixed = yes
+		}
+	}
+}

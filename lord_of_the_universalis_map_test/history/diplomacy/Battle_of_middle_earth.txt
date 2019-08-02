@@ -1,0 +1,24 @@
+# Battle of Middle Earth
+
+# Gondor and vassals
+
+union = {
+	first = X01
+	second = X11
+	start_date = 2560.1.1
+	end_date = 9651.1.1
+}
+
+alliance = {
+	first = X01
+	second = X16
+	start_date = 2560.1.1
+	end_date = 9651.1.1
+}
+
+march = {
+	first = X01
+	second = X02
+	start_date = 2560.1.1
+	end_date = 3500.1.1
+}

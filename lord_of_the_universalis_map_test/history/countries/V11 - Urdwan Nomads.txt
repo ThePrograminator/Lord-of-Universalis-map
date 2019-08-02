@@ -1,0 +1,7 @@
+mercantilism = 0.1
+government = tribal
+add_government_reform = haradwaith_nomad_reform
+primary_culture = culture_urdwan_nomads
+religion = religion_haruzani
+technology_group = lotr_sand_men
+capital = 470

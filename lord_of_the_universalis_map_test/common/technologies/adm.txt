@@ -1,0 +1,625 @@
+monarch_power = ADM
+
+# applied when a country is ahead of time in this technology
+ahead_of_time = {
+	production_efficiency = 0.2
+	yearly_corruption = -0.025
+}
+
+# Pre-era techs
+technology = {
+	# Tech 0
+	year = 2750
+	
+	may_support_rebels = yes
+	may_force_march = yes
+	
+	#lotr Legacy
+	lotr_kingship_legacy = yes
+	lotr_stewardship_legacy = yes
+	lotr_principality_legacy = yes
+	lotr_mayorship_legacy = yes
+	lotr_clan_legacy = yes
+	lotr_nazgul_legacy = yes
+	lotr_isengard_legacy = yes
+	lotr_mordor_legacy = yes
+	lotr_orc_clan_legacy = yes
+
+	#Human Buildings
+	#Human Main Buildings
+	
+	settlement_building = yes
+	
+	#Human Main Buildings (City)
+	city_1_building = yes
+	
+	#Human Main Buildings (Fortress)
+	fortress_1_building = yes
+	
+	#Human Main Buildings (Capital)
+	capital_1_building = yes
+	
+	#Human Taxation Buildings
+	temple_building = yes
+	tax_office_building = yes
+	
+	#Dwarf Buildings
+	#Dwarf Main Buildings
+	
+	colony_outpost_dwarf_building = yes
+	
+	#Dwarf Main Buildings (City)
+	settlement_1_dwarf_building = yes
+	
+	#Dwarf Main Buildings (Fortress)
+	hold_1_dwarf_building = yes
+	
+	#Dwarf Main Buildings (Capital)
+	capital_1_dwarf_building = yes
+	
+	#Dwarf State Buildings
+	libary_dwarf_building = yes
+	research_office_dwarf_building = yes
+	
+	#Elf Buildings
+	#Elf Main Buildings
+	
+	noble_residence_elf_building = yes
+	
+	#Elf Main Buildings (City)
+	town_1_elf_building = yes
+	
+	#Elf Main Buildings (Fortress)
+	fort_1_elf_building = yes
+	
+	#Elf Main Buildings (Capital)
+	capital_1_elf_building = yes
+	
+	#Elf Taxation Buildings
+	temple_elf_building = yes
+	
+	#Orc Buildings
+	#Orc Main Buildings
+	
+	camp_orc_building = yes
+	
+	#Orc Main Buildings (City)
+	encampment_1_orc_building = yes
+	
+	#Orc Main Buildings (Fortress)
+	fortress_1_orc_building = yes
+	
+	#Orc Main Buildings (Capital)
+	capital_1_orc_building = yes
+	
+	#Orc Taxation Buildings
+	enforcer_camp_orc_building = yes
+	
+	#Orc Unrest Buildings
+	small_arena_building = yes
+	prisoner_cage_orc_building = yes
+	
+	#Actions(Common)
+	resettlement_action = yes
+	max_states = 1
+}
+
+technology = {
+	# Tech 1
+	year = 2760
+
+	production_efficiency		= 0.025
+}
+
+technology = {
+	# Tech 2
+	year = 2770
+
+	administrative_efficiency	= 0.025
+}
+
+technology = {
+	# Tech 3
+	year = 2780
+
+	development_efficiency = 0.025
+}
+
+technology = {
+	# Tech 4
+	year = 2790
+
+	allowed_idea_groups			= 1
+	max_states = 2
+}
+
+technology = {
+	# Tech 5
+	year = 2800
+
+	production_efficiency		= 0.025
+}
+
+technology = {
+	# Tech 6
+	year = 2810
+
+	administrative_efficiency	= 0.025
+}
+
+technology = {
+	# Tech 7
+	year = 2820
+	
+	#Human Buildings
+	#Human Main Buildings
+	
+	settlement_building = yes
+	
+	#Human Main Buildings (City)
+	city_2_building = yes
+	
+	#Human Main Buildings (Fortress)
+	fortress_2_building = yes
+	
+	#Human Main Buildings (Capital)
+	capital_2_building = yes
+	
+	
+	#Human Taxation Buildings
+	provincial_office_building = yes
+	
+	#Dwarf Buildings
+	#Dwarf Main Buildings
+	
+	#Dwarf Main Buildings (City)
+	settlement_2_dwarf_building = yes
+	
+	#Dwarf Main Buildings (Fortress)
+	hold_2_dwarf_building = yes
+	
+	#Dwarf Main Buildings (Capital)
+	capital_2_dwarf_building = yes
+	
+	#Dwarf State Buildings
+	advisor_guild_dwarf_building = yes
+	
+	#Elf Buildings
+	#Elf Main Buildings
+	
+	#Elf Main Buildings (City)
+	town_2_elf_building = yes
+	
+	#Elf Main Buildings (Fortress)
+	fort_2_elf_building = yes
+	
+	#Elf Main Buildings (Capital)
+	capital_2_elf_building = yes
+	
+	#Elf Taxation Buildings
+	theatre_elf_building = yes
+	
+	#Orc Main Buildings (City)
+	encampment_2_orc_building = yes
+	
+	#Orc Main Buildings (Fortress)
+	fortress_2_orc_building = yes
+	
+	#Orc Main Buildings (Capital)
+	capital_2_orc_building = yes
+	
+	#Orc Taxation Buildings
+	overseer_station_orc_building = yes
+	
+	#Orc Unrest Buildings
+	large_arena_building = yes
+	tortur_chambers_orc_building = yes
+
+	development_efficiency = 0.025
+}
+
+technology = {
+	# Tech 8
+	year = 2830
+
+	allowed_idea_groups			= 2
+	max_states = 2
+}
+
+technology = {
+	# Tech 9
+	year = 2840
+
+	production_efficiency		= 0.025
+}
+
+technology = {
+	# Tech 10
+	year = 2850
+
+	administrative_efficiency	= 0.025
+}
+
+technology = {
+	# Tech 11
+	year = 2860
+
+	development_efficiency = 0.025
+}
+
+technology = {
+	# Tech 12
+	year = 2870
+
+	allowed_idea_groups			= 3
+	max_states = 2
+}
+
+technology = {
+	# Tech 13
+	year = 2880
+
+	production_efficiency		= 0.025
+}
+
+technology = {
+	# Tech 14
+	year = 2890
+
+	administrative_efficiency	= 0.025
+}
+
+technology = {
+	# Tech 15
+	year = 2900
+	
+	#Human Buildings
+	#Human Main Buildings
+	
+	#Human Main Buildings (City)
+	city_3_building = yes
+	
+	#Human Main Buildings (Fortress)
+	fortress_3_building = yes
+	
+	#Human Main Buildings (Capital)
+	capital_3_building = yes
+	
+	#Human Taxation Buildings
+	bank_building = yes
+	
+	#Dwarf Buildings
+	#Dwarf Main Buildings
+	
+	#Dwarf Main Buildings (City)
+	settlement_3_dwarf_building = yes
+	
+	#Dwarf Main Buildings (Fortress)
+	hold_3_dwarf_building = yes
+	
+	#Dwarf Main Buildings (Capital)
+	capital_3_dwarf_building = yes
+	
+	#Dwarf State Buildings
+	acadamy_dwarf_building = yes
+	
+	#Elf Buildings
+	#Elf Main Buildings
+
+	#Elf Main Buildings (City)
+	town_3_elf_building = yes
+	
+	#Elf Main Buildings (Fortress)
+	fort_3_elf_building = yes
+	
+	#Elf Main Buildings (Capital)
+	capital_3_elf_building = yes
+	
+	#Elf Taxation Buildings
+	amphitheatre_elf_building = yes
+	
+	#Elf Special Buildings
+	mallorn_tree_elf_building = yes
+	statue_of_the_elders_elf_building = yes
+	mirror_fountain_elf_building = yes
+	star_of_earendil_shrine_elf_building = yes
+	
+	#Orc Main Buildings (City)
+	encampment_3_orc_building = yes
+	
+	#Orc Main Buildings (Fortress)
+	fortress_3_orc_building = yes
+	
+	#Orc Main Buildings (Capital)
+	capital_3_orc_building = yes
+	
+	#Orc Taxation Buildings
+	overseer_tower_orc_building = yes
+
+	development_efficiency = 0.025
+}
+
+technology = {
+	# Tech 16
+	year = 2910
+
+	allowed_idea_groups			= 4
+	max_states = 2
+}
+
+technology = {
+	# Tech 17
+	year = 2920
+
+	production_efficiency		= 0.025
+}
+
+technology = {
+	# Tech 18
+	year = 2930
+
+	administrative_efficiency	= 0.025
+}
+
+technology = {
+	# Tech 19
+	year = 2940
+
+	development_efficiency = 0.025
+}
+
+technology = {
+	# Tech 20
+	year = 2950
+
+	allowed_idea_groups			= 5
+	max_states = 2
+}
+
+technology = {
+	# Tech 21
+	year = 2960
+
+	production_efficiency		= 0.025
+}
+
+technology = {
+	# Tech 22
+	year = 2970
+	
+	administrative_efficiency	= 0.025
+}
+
+technology = {
+	# Tech 23
+	year = 2980
+
+	development_efficiency = 0.025
+}
+
+technology = {
+	# Tech 24
+	year = 2990
+
+	allowed_idea_groups			= 6
+	max_states = 2
+}
+
+technology = {
+	# Tech 25
+	year = 3000
+
+	production_efficiency		= 0.025
+}
+
+technology = {
+	# Tech 26
+	year = 3010
+
+	administrative_efficiency	= 0.025
+}
+
+technology = {
+	# Tech 27
+	year = 3020
+
+	development_efficiency = 0.025
+}
+
+technology = {
+	# Tech 28
+	year = 3030
+
+	allowed_idea_groups			= 7
+	max_states = 2
+}
+
+technology = {
+	# Tech 29
+	year = 3040
+
+	production_efficiency		= 0.025
+}
+
+technology = {
+	# Tech 30
+	year = 3050
+
+	administrative_efficiency	= 0.025
+}
+
+technology = {
+	# Tech 31
+	year = 3060
+
+	development_efficiency = 0.025
+}
+
+technology = {
+	# Tech 32
+	year = 3070
+
+	allowed_idea_groups			= 8
+	max_states = 2
+}
+
+technology = {
+	# Tech 33
+	year = 3080
+
+	production_efficiency		= 0.025
+}
+
+technology = {
+	# Tech 34
+	year = 3090
+
+	administrative_efficiency	= 0.025
+}
+
+technology = {
+	# Tech 35
+	year = 3100
+
+	development_efficiency = 0.025
+}
+
+technology = {
+	# Tech 36
+	year = 3110
+
+	production_efficiency		= 0.025
+}
+
+technology = {
+	# Tech 37
+	year = 3120
+
+	administrative_efficiency	= 0.025
+}
+
+technology = {
+	# Tech 38
+	year = 3130
+
+	development_efficiency = 0.025
+}
+
+technology = {
+	# Tech 39
+	year = 3140
+
+	production_efficiency		= 0.025
+}
+
+technology = {
+	# Tech 40
+	year = 3150
+
+	administrative_efficiency	= 0.025
+}
+
+technology = {
+	# Tech 41
+	year = 3160
+
+	development_efficiency = 0.025
+}
+
+technology = {
+	# Tech 42
+	year = 3170
+
+	production_efficiency		= 0.025
+}
+
+technology = {
+	# Tech 43
+	year = 3180
+
+	administrative_efficiency	= 0.025
+}
+
+technology = {
+	# Tech 44
+	year = 3190
+
+	development_efficiency = 0.025
+}
+
+technology = {
+	# Tech 45
+	year = 3200
+
+	production_efficiency		= 0.025
+}
+
+technology = {
+	# Tech 46
+	year = 3210
+
+	administrative_efficiency	= 0.025
+}
+
+technology = {
+	# Tech 47
+	year = 3220
+
+	development_efficiency = 0.025
+}
+
+technology = {
+	# Tech 48
+	year = 3230
+
+	production_efficiency		= 0.025
+}
+
+technology = {
+	# Tech 49
+	year = 3240
+
+	administrative_efficiency	= 0.025
+}
+
+technology = {
+	# Tech 50
+	year = 3250
+
+	development_efficiency = 0.025
+}
+
+technology = {
+	# Tech 51
+	year = 3260
+
+	production_efficiency		= 0.025
+}
+
+technology = {
+	# Tech 52
+	year = 3270
+
+	administrative_efficiency	= 0.025
+}
+
+technology = {
+	# Tech 53
+	year = 3280
+
+	development_efficiency = 0.025
+}
+
+technology = {
+	# Tech 54
+	year = 3290
+
+	production_efficiency		= 0.025
+}
+
+technology = {
+	# Tech 55
+	year = 3300
+
+	administrative_efficiency	= 0.025
+}

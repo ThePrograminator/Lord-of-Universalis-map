@@ -1,0 +1,51 @@
+bookmark =
+{
+    # Crossing the Poros
+	name = "LOTR_11_NAME"
+	desc = "LOTR_11_DESC"
+	date = 2884.8.13
+    
+    center = 61
+    country = X01 
+	country = X16
+	country = X23
+	country = X19
+	country = X25
+	country = X18
+	country = X17
+	country = X26
+
+    default = no
+    
+    effect = {
+        X16 = {
+		add_stability = -1
+		add_prestige = 20
+		add_manpower = 5
+		}
+		X01 = {
+		add_stability = -2
+		add_prestige = -20
+		add_manpower = -15
+		add_sailor = -800
+		}
+		X23 = {
+		add_manpower = 10
+		}
+		X19 = {
+		add_manpower = 10
+		}
+		X25 = {
+		add_manpower = 10
+		}
+		X18 = {
+		add_manpower = 10
+		}
+		X17 = {
+		add_manpower = 10
+		}
+		X26 = {
+		add_manpower = 8
+		add_sailoe = 500
+		}
+}

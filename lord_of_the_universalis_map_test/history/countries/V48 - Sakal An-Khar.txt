@@ -1,0 +1,8 @@
+mercantilism = 0.1
+government = monarchy
+
+add_government_reform = principality_reform
+primary_culture = culture_haruze
+religion = religion_haruzani
+technology_group = lotr_haradrim
+capital = 430

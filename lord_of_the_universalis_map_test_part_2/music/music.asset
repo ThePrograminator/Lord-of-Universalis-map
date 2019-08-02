@@ -1,0 +1,68 @@
+music = {
+	name = "maintheme"
+	file = "maintheme.ogg"
+}
+music = {
+	name = "realm_of_gondor"
+	file = "realm_of_gondor.ogg"
+}
+music = {
+	name = "samwise_the_brave"
+	file = "samwise_the_brave.ogg"
+}
+music = {
+	name = "uruk_hai"
+	file = "uruk_hai.ogg"
+}
+music = {
+	name = "bridge_of_khazaddum"
+	file = "bridge_of_khazaddum.ogg"
+}
+music = {
+	name = "council_of_elrond"
+	file = "council_of_elrond.ogg"
+}
+music = {
+	name = "concerning_hobbits"
+	file = "concerning_hobbits.ogg"
+}
+music = {
+	name = "treason_of_isengard"
+	file = "treason_of_isengard.ogg"
+}
+music = {
+	name = "grey_havens"
+	file = "grey_havens.ogg"
+}
+music = {
+	name = "misty_mountains_cold"
+	file = "misty_mountains_cold.ogg"
+}
+music = {
+	name = "ganduril"
+	file = "ganduril.ogg"
+}
+music = {
+	name = "fields_of_pelenno"
+	file = "fields_of_pelenno.ogg"
+}
+music = {
+	name = "return_of_the_king"
+	file = "return_of_the_king.ogg"
+}
+music = {
+	name = "horn_burg"
+	file = "horn_burg.ogg"
+}
+music = {
+	name = "riders_of_rohan"
+	file = "riders_of_rohan.ogg"
+}
+music = {
+	name = "helms_deep"
+	file = "helms_deep.ogg"
+}
+music = {
+	name = "tree_beard"
+	file = "tree_beard.ogg"
+}

@@ -1,0 +1,2503 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new buildings, make sure they are uniquely named.
+
+# cost = x #==> cost in $ to build (subject to other modifiers)
+# time = x #==> number of months to build.
+# modifier = m # a modifier on the province that the building gives
+# trigger = t # an and trigger that needs to be fullfilled to build and keep the building
+# one_per_country = yes/no # if yes, only one of these can exist in a country
+# manufactory = { trade_good trade_good } # list of trade goods that get a production bonus
+# onmap = yes/no # show as a sprite on the map
+
+# FROM = owner
+# ROOT = province
+
+# Building AI is now mainly hard-coded. The AI will estimate how much it gains yearly from each building,
+# convert the value to ducats, and take the building with biggest yearly return as a percentage of the build cost.
+# If lower than 1%, the AI will not consider the yearly return worth it.
+# It will also require higher yearly return if the economy in not in prime shape.
+# Forts' value also get converted to a yearly return based on terrain and strategic position, as well as available budget for fort maintenance.
+
+# AI can still be modded though; it will multiply the yearly return with the value of ai_will_do.
+# If you don't want the AI to build a building at all, make ai_will_do become 0.
+# AI will consider each building to be worth 0.01 ducats per year as a base, so making ai_will_do above cost will have them build it at some point.
+# It will still check whether it can afford a building before doing so though, but may save up to it.
+
+
+################################################
+# Main Buildings
+################################################
+
+colony_outpost_dwarf_building = {
+	cost = 50
+	time = 12
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_dwarven
+		}
+		province_is_buildable = yes
+		province_dwarf_has_city_buildings = no
+		province_dwarf_has_fortress_buildings = no
+		province_dwarf_has_capital_buildings = no
+	}
+	
+	modifier = {
+		local_build_cost = -0.10
+	}
+	
+	ai_will_do = {
+		factor = 10000
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_dwarven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			development = 5
+		}
+		
+		modifier = {
+			factor = 3
+			development = 10
+		}
+		
+		modifier = {
+			factor = 5
+			development = 15
+		}
+	}
+}
+
+################################################
+# Main Buildings (City)
+################################################
+
+settlement_1_dwarf_building = {
+	cost = 100
+	time = 18
+	make_obsolete = colony_outpost_dwarf_building
+	
+	trigger = {
+		development = 5
+		is_capital = no
+		owner = {
+			technology_group = lotr_dwarven
+		}
+		province_is_buildable = yes
+		province_dwarf_has_fortress_buildings = no
+		province_dwarf_has_capital_buildings = no
+		OR = {
+			AND = {
+				province_dwarf_has_mountains_terrain = no
+				culture_group = culture_group_dwarves
+			}
+			NOT = {
+				culture_group = culture_group_dwarves
+			}
+		}
+	}
+	
+	modifier = {
+		local_development_cost = -0.1
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_dwarven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			development = 5
+		}
+		
+		modifier = {
+			factor = 3
+			development = 10
+		}
+		
+		modifier = {
+			factor = 5
+			development = 15
+		}
+	}
+}
+
+settlement_2_dwarf_building = {
+	cost = 200
+	time = 24
+	make_obsolete = settlement_1_dwarf_building
+	
+	trigger = {
+		development = 10
+		is_capital = no
+		owner = {
+			technology_group = lotr_dwarven
+		}
+		province_dwarf_has_fortress_buildings = no
+		province_dwarf_has_capital_buildings = no
+		OR = {
+			AND = {
+				province_dwarf_has_mountains_terrain = no
+				culture_group = culture_group_dwarves
+			}
+			NOT = {
+				culture_group = culture_group_dwarves
+			}
+		}
+	}
+	
+	modifier = {
+		local_development_cost = -0.2
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_dwarven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 3
+			development = 10
+		}
+		
+		modifier = {
+			factor = 5
+			development = 15
+		}
+	}
+}
+
+settlement_3_dwarf_building = {
+	cost = 300
+	time = 30
+	make_obsolete = settlement_2_dwarf_building
+	
+	trigger = {
+		development = 15
+		is_capital = no
+		owner = {
+			technology_group = lotr_dwarven
+		}
+		province_dwarf_has_fortress_buildings = no
+		province_dwarf_has_capital_buildings = no
+		OR = {
+			AND = {
+				province_dwarf_has_mountains_terrain = no
+				culture_group = culture_group_dwarves
+			}
+			NOT = {
+				culture_group = culture_group_dwarves
+			}
+		}
+	}
+	
+	modifier = {
+		local_development_cost = -0.3
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_dwarven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 5
+			development = 15
+		}
+	}
+}
+
+################################################
+# Main Buildings (Fortress)
+################################################
+
+hold_1_dwarf_building = {
+	cost = 100
+	time = 18
+	make_obsolete = colony_outpost_dwarf_building
+	
+	trigger = {
+		development = 5
+		is_capital = no
+		owner = {
+			technology_group = lotr_dwarven
+		}
+		province_dwarf_has_city_buildings = no
+		province_dwarf_has_capital_buildings = no
+		province_dwarf_has_mountains_terrain = yes
+		culture_group = culture_group_dwarves
+	}
+	
+	modifier = {
+		local_unrest = -0.5
+		local_manpower_modifier = 0.1
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_dwarven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			development = 5
+		}
+		
+		modifier = {
+			factor = 3
+			development = 10
+		}
+		
+		modifier = {
+			factor = 5
+			development = 15
+		}
+	}
+}
+
+hold_2_dwarf_building = {
+	cost = 200
+	time = 24
+	make_obsolete = hold_1_dwarf_building
+	
+	trigger = {
+		development = 10
+		is_capital = no
+		owner = {
+			technology_group = lotr_dwarven
+		}
+		province_dwarf_has_city_buildings = no
+		province_dwarf_has_capital_buildings = no
+		province_dwarf_has_mountains_terrain = yes
+		culture_group = culture_group_dwarves
+	}
+	
+	modifier = {
+		local_unrest = -1
+		local_manpower_modifier = 0.2
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_dwarven
+				}
+			}
+		}
+
+		modifier = {
+			factor = 3
+			development = 10
+		}
+		
+		modifier = {
+			factor = 5
+			development = 15
+		}
+	}
+}
+
+hold_3_dwarf_building = {
+	cost = 300
+	time = 30
+	make_obsolete = hold_2_dwarf_building
+	
+	trigger = {
+		development = 15
+		is_capital = no
+		owner = {
+			technology_group = lotr_dwarven
+		}
+		province_dwarf_has_city_buildings = no
+		province_dwarf_has_capital_buildings = no
+		province_dwarf_has_mountains_terrain = yes
+		culture_group = culture_group_dwarves
+	}
+	
+	modifier = {
+		local_unrest = -1.5
+		local_manpower_modifier = 0.3
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_dwarven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 5
+			development = 15
+		}
+	}
+}
+
+################################################
+# Main Buildings (Capital)
+################################################
+
+capital_1_dwarf_building = {
+	cost = 100
+	time = 18
+	make_obsolete = colony_outpost_dwarf_building
+	
+	trigger = {
+		is_capital = yes
+		development = 5
+		owner = {
+			technology_group = lotr_dwarven
+		}
+		province_dwarf_has_city_buildings = no
+		province_dwarf_has_fortress_buildings = no
+	}
+	
+	modifier = {
+		local_development_cost = -0.1
+		local_unrest = -0.5
+		local_manpower_modifier = 0.1
+		local_state_maintenance_modifier = -0.1
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_dwarven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			OR = {
+				development = 5
+				is_capital = yes
+			}
+		}
+		
+		modifier = {
+			factor = 3
+			OR = {
+				development = 10
+				is_capital = yes
+			}
+		}
+		
+		modifier = {
+			factor = 5
+			OR = {
+				development = 15
+				is_capital = yes
+			}
+		}
+	}
+}
+
+capital_2_dwarf_building = {
+	cost = 200
+	time = 24
+	make_obsolete = capital_1_dwarf_building
+	
+	trigger = {
+		is_capital = yes
+		development = 10
+		owner = {
+			technology_group = lotr_dwarven
+		}
+		province_dwarf_has_city_buildings = no
+		province_dwarf_has_fortress_buildings = no
+	}
+	
+	modifier = {
+		local_development_cost = -0.2
+		local_unrest = -1
+		local_manpower_modifier = 0.2
+		local_state_maintenance_modifier = -0.2
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_dwarven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 3
+			OR = {
+				development = 10
+				is_capital = yes
+			}
+		}
+		
+		modifier = {
+			factor = 5
+			OR = {
+				development = 15
+				is_capital = yes
+			}
+		}
+	}
+}
+
+capital_3_dwarf_building = {
+	cost = 300
+	time = 30
+	make_obsolete = capital_2_dwarf_building
+	
+	trigger = {
+		is_capital = yes
+		development = 15
+		owner = {
+			technology_group = lotr_dwarven
+		}
+		province_dwarf_has_city_buildings = no
+		province_dwarf_has_fortress_buildings = no
+	}
+	
+	modifier = {
+		local_development_cost = -0.3
+		local_unrest = -1.5
+		local_manpower_modifier = 0.3
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_dwarven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 5
+			OR = {
+				development = 15
+				is_capital = yes
+			}
+		}
+	}
+}
+
+################################################
+# Trade Buildings
+################################################
+
+material_exchance_dwarf_building = {
+	cost = 50
+	time = 12
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_dwarven
+		}
+		province_is_buildable = yes
+		province_dwarf_has_main_building_tier_1 = yes
+	}
+	
+	modifier = {
+		province_trade_power_modifier = 0.25
+	}
+	
+	ai_will_do = {
+		factor = 100 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_dwarven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 3
+			province_trade_power = 5
+		}
+		
+		modifier = {
+			factor = 4.5
+			province_trade_power = 10
+		}
+		
+		modifier = {
+			factor = 6.5
+			province_trade_power = 15
+		}
+		
+		modifier = {
+			factor = 6.5
+			OR = {
+				is_capital = yes
+				has_port = yes
+			}
+		}
+	}
+}
+
+fairground_dwarf_building = {
+	cost = 100
+	time = 18
+	make_obsolete = material_exchance_dwarf_building
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_dwarven
+		}
+		province_is_buildable = yes
+		province_dwarf_has_main_building_tier_2 = yes
+	}
+	
+	modifier = {
+		province_trade_power_modifier = 0.5
+	}
+	
+	ai_will_do = {
+		factor = 100 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_dwarven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 3
+			province_trade_power = 5
+		}
+		
+		modifier = {
+			factor = 4.5
+			province_trade_power = 10
+		}
+		
+		modifier = {
+			factor = 6.5
+			province_trade_power = 15
+		}
+		
+		modifier = {
+			factor = 6.5
+			OR = {
+				is_capital = yes
+				has_port = yes
+			}
+		}
+	}
+}
+
+great_market_dwarf_building = {
+	cost = 300
+	time = 30
+	make_obsolete = fairground_dwarf_building
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_dwarven
+		}
+		province_is_buildable = yes
+		province_dwarf_has_city_building_tier_4 = yes
+	}
+	
+	modifier = {
+		province_trade_power_modifier = 0.75
+	}
+	
+	ai_will_do = {
+		factor = 100 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_dwarven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 3
+			province_trade_power = 5
+		}
+		
+		modifier = {
+			factor = 4.5
+			province_trade_power = 10
+		}
+		
+		modifier = {
+			factor = 6.5
+			province_trade_power = 15
+		}
+		
+		modifier = {
+			factor = 6.5
+			OR = {
+				is_capital = yes
+				has_port = yes
+			}
+		}
+	}
+}
+
+traders_guild_building = {
+	cost = 200
+	time = 24
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_dwarven
+		}
+		province_is_buildable = yes
+		province_dwarf_has_city_building_tier_3 = yes
+	}
+	
+	modifier = {
+		trade_value_modifier = 0.15
+	}
+	
+	ai_will_do = {
+		factor = 100 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_dwarven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 3
+			province_trade_power = 5
+		}
+		
+		modifier = {
+			factor = 4.5
+			province_trade_power = 10
+		}
+		
+		modifier = {
+			factor = 6.5
+			province_trade_power = 15
+		}
+		
+		modifier = {
+			factor = 6.5
+			OR = {
+				is_capital = yes
+				has_port = yes
+			}
+		}
+	}
+}
+
+################################################
+# Taxation Buildings
+################################################
+
+armoury_dwarf_building = {
+	cost = 50
+	time = 12
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_dwarven
+		}
+		province_is_buildable = yes
+		province_dwarf_has_main_building_tier_1 = yes
+	}
+	
+	modifier = {
+		local_regiment_cost = -0.25
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_dwarven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			development = 5
+		}
+		
+		modifier = {
+			factor = 3
+			development = 10
+		}
+		
+		modifier = {
+			factor = 4.5
+			development = 15
+		}
+		
+		modifier = {
+			factor = 6
+			development = 20
+		}
+	}
+}
+
+forge_dwarf_building = {
+	cost = 100
+	time = 18
+	make_obsolete = armoury_dwarf_building
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_dwarven
+		}
+		province_is_buildable = yes
+		province_dwarf_has_main_building_tier_2 = yes
+	}
+	
+	modifier = {
+		local_regiment_cost = -0.50
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_dwarven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			development = 5
+		}
+		
+		modifier = {
+			factor = 3
+			development = 10
+		}
+		
+		modifier = {
+			factor = 4.5
+			development = 15
+		}
+		
+		modifier = {
+			factor = 6
+			development = 20
+		}
+	}
+}
+
+arsenal_dwarf_building = {
+	cost = 300
+	time = 30
+	make_obsolete = forge_dwarf_building
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_dwarven
+		}
+		province_is_buildable = yes
+		province_dwarf_has_main_building_tier_4 = yes
+	}
+	
+	modifier = {
+		local_regiment_cost = -0.75
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_dwarven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			development = 5
+		}
+		
+		modifier = {
+			factor = 3
+			development = 10
+		}
+		
+		modifier = {
+			factor = 4.5
+			development = 15
+		}
+		
+		modifier = {
+			factor = 6
+			development = 20
+		}
+	}
+}
+
+smithies_guild_building = {
+	cost = 200
+	time = 24
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_dwarven
+		}
+		province_is_buildable = yes
+		province_dwarf_has_main_building_tier_3 = yes
+	}
+	
+	modifier = {
+		allowed_num_of_buildings = 1
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_dwarven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			development = 5
+		}
+		
+		modifier = {
+			factor = 3
+			development = 10
+		}
+		
+		modifier = {
+			factor = 4.5
+			development = 15
+		}
+		
+		modifier = {
+			factor = 6
+			development = 20
+		}
+	}
+}
+
+################################################
+# State Buildings
+################################################
+
+libary_dwarf_building = {
+	cost = 50
+	time = 12
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_dwarven
+		}
+		province_is_buildable = yes
+		province_dwarf_has_main_building_tier_1 = yes
+	}
+	
+	modifier = {
+		local_state_maintenance_modifier = -0.25
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_dwarven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			development = 5
+		}
+		
+		modifier = {
+			factor = 3
+			development = 10
+		}
+		
+		modifier = {
+			factor = 4.5
+			development = 15
+		}
+		
+		modifier = {
+			factor = 6
+			development = 20
+		}
+	}
+}
+
+research_office_dwarf_building = {
+	cost = 100
+	time = 18
+	make_obsolete = libary_dwarf_building
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_dwarven
+		}
+		province_is_buildable = yes
+		province_dwarf_has_main_building_tier_2 = yes
+	}
+	
+	modifier = {
+		local_state_maintenance_modifier = -0.50
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_dwarven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			development = 5
+		}
+		
+		modifier = {
+			factor = 3
+			development = 10
+		}
+		
+		modifier = {
+			factor = 4.5
+			development = 15
+		}
+		
+		modifier = {
+			factor = 6
+			development = 20
+		}
+	}
+}
+
+acadamy_dwarf_building = {
+	cost = 300
+	time = 30
+	make_obsolete = research_office_dwarf_building
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_dwarven
+		}
+		province_is_buildable = yes
+		province_dwarf_has_main_building_tier_4 = yes
+	}
+	
+	modifier = {
+		local_state_maintenance_modifier = -0.75
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_dwarven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			development = 5
+		}
+		
+		modifier = {
+			factor = 3
+			development = 10
+		}
+		
+		modifier = {
+			factor = 4.5
+			development = 15
+		}
+		
+		modifier = {
+			factor = 6
+			development = 20
+		}
+	}
+}
+
+advisor_guild_dwarf_building = {
+	cost = 200
+	time = 24
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_dwarven
+		}
+		province_is_buildable = yes
+		province_dwarf_has_main_building_tier_3 = yes
+	}
+	
+	modifier = {
+		local_development_cost = -0.15
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_dwarven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			development = 5
+		}
+		
+		modifier = {
+			factor = 3
+			development = 10
+		}
+		
+		modifier = {
+			factor = 4.5
+			development = 15
+		}
+		
+		modifier = {
+			factor = 6
+			development = 20
+		}
+	}
+}
+
+################################################
+# Army
+################################################
+
+mustering_hall_dwarf_building = {
+	cost = 50
+	time = 12
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_dwarven
+		}
+		province_is_buildable = yes
+		province_dwarf_has_main_building_tier_1 = yes
+	}
+	
+	modifier = {
+		local_manpower_modifier = 0.25
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_dwarven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			base_manpower = 5
+		}
+		
+		modifier = {
+			factor = 3
+			base_manpower = 10
+		}
+		
+		modifier = {
+			factor = 4.5
+			base_manpower = 15
+		}
+		
+		modifier = {
+			factor = 6
+			base_manpower = 20
+		}
+	}
+}
+
+training_hall_dwarf_building = {
+	cost = 100
+	time = 18
+	make_obsolete = mustering_hall_dwarf_building
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_dwarven
+		}
+		province_is_buildable = yes
+		province_dwarf_has_main_building_tier_2 = yes
+	}
+	
+	modifier = {
+		local_manpower_modifier = 0.50
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_dwarven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			base_manpower = 5
+		}
+		
+		modifier = {
+			factor = 3
+			base_manpower = 10
+		}
+		
+		modifier = {
+			factor = 4.5
+			base_manpower = 15
+		}
+		
+		modifier = {
+			factor = 6
+			base_manpower = 20
+		}
+	}
+}
+
+hall_of_warriors_dwarf_building = {
+	cost = 300
+	time = 30
+	make_obsolete = training_hall_dwarf_building
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_dwarven
+		}
+		province_is_buildable = yes
+		province_dwarf_has_fortress_building_tier_4 = yes
+	}
+	
+	modifier = {
+		local_manpower_modifier = 0.75
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_dwarven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			base_manpower = 5
+		}
+		
+		modifier = {
+			factor = 3
+			base_manpower = 10
+		}
+		
+		modifier = {
+			factor = 4.5
+			base_manpower = 15
+		}
+		
+		modifier = {
+			factor = 6
+			base_manpower = 20
+		}
+	}
+}
+
+warriors_guild_dwarf_building = {
+	cost = 200
+	time = 24
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_dwarven
+		}
+		province_is_buildable = yes
+		province_dwarf_has_fortress_building_tier_3 = yes
+	}
+	
+	modifier = {
+		regiment_recruit_speed = -0.50
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_dwarven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			base_manpower = 5
+		}
+		
+		modifier = {
+			factor = 3
+			base_manpower = 10
+		}
+		
+		modifier = {
+			factor = 4.5
+			base_manpower = 15
+		}
+		
+		modifier = {
+			factor = 6
+			base_manpower = 20
+		}
+	}
+}
+
+################################################
+# Production Buildings
+################################################
+
+mine_shaft_dwarf_building = {
+	cost = 50
+	time = 12
+	
+	allow_in_gold_provinces = no
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_dwarven
+		}
+		province_is_buildable = yes
+		province_dwarf_has_main_building_tier_1 = yes
+	}
+	
+	modifier = {
+		local_production_efficiency = 0.25
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_dwarven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			development = 5
+		}
+		
+		modifier = {
+			factor = 3
+			development = 10
+		}
+		
+		modifier = {
+			factor = 4.5
+			development = 15
+		}
+		
+		modifier = {
+			factor = 6
+			development = 20
+		}
+	}
+}
+
+mining_network_dwarf_building = {
+	cost = 100
+	time = 18
+	make_obsolete = mine_shaft_dwarf_building
+	allow_in_gold_provinces = no
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_dwarven
+		}
+		province_is_buildable = yes
+		province_dwarf_has_main_building_tier_2 = yes
+	}
+	
+	modifier = {
+		local_production_efficiency = 0.50
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_dwarven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			development = 5
+		}
+		
+		modifier = {
+			factor = 3
+			development = 10
+		}
+		
+		modifier = {
+			factor = 4.5
+			development = 15
+		}
+		
+		modifier = {
+			factor = 6
+			development = 20
+		}
+	}
+}
+
+materials_depot_building = {
+	cost = 300
+	time = 30
+	make_obsolete = mining_network_dwarf_building
+	allow_in_gold_provinces = no
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_dwarven
+		}
+		province_is_buildable = yes
+		province_dwarf_has_fortress_building_tier_4 = yes
+	}
+	
+	modifier = {
+		local_production_efficiency = 0.75
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_dwarven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			development = 5
+		}
+		
+		modifier = {
+			factor = 3
+			development = 10
+		}
+		
+		modifier = {
+			factor = 4.5
+			development = 15
+		}
+		
+		modifier = {
+			factor = 6
+			development = 20
+		}
+	}
+}
+
+miners_guild_dwarf_building = {
+	cost = 200
+	time = 24
+	make_obsolete = materials_depot_building
+	allow_in_gold_provinces = no
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_dwarven
+		}
+		province_is_buildable = yes
+		province_dwarf_has_fortress_building_tier_3 = yes
+	}
+	
+	modifier = {
+		local_build_cost = -0.15
+	}
+	
+	ai_will_do = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_dwarven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			development = 5
+		}
+		
+		modifier = {
+			factor = 3
+			development = 10
+		}
+		
+		modifier = {
+			factor = 4.5
+			development = 15
+		}
+		
+		modifier = {
+			factor = 6
+			development = 20
+		}
+	}
+}
+
+################################################
+# Fortifications (Dwarf Hold Only)
+################################################
+
+fort_small_gatehouse_dwarf_building = {
+	cost = 100
+	time = 18
+	
+	onmap = no
+	influencing_fort = yes
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_dwarven
+		}
+		province_is_buildable = yes
+		OR = {
+			AND = {
+				province_dwarf_has_fortress_buildings = yes
+				province_dwarf_has_mountains_terrain = yes
+			}
+			AND = {
+				is_capital = yes
+				province_dwarf_has_capital_buildings = yes
+				province_dwarf_has_mountains_terrain = yes
+			}
+		}
+	}
+	
+	modifier = {
+		fort_level = 1
+	}
+	
+	ai_will_do = {
+		factor = 1000 #Lots of logic in code instead, that multiplies with this value
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_dwarven
+				}
+			}
+		}
+			
+		modifier = {
+			factor = 0
+			any_neighbor_province = {
+				owned_by = ROOT
+				OR = {
+					has_building = fort_small_gatehouse_dwarf_building
+					has_building = fort_great_gatehouse_dwarf_building
+					has_building = fort_mountain_fortress_dwarf_building
+					has_building = fort_mountain_citidal_dwarf_building
+					has_building = fort_pallisade_dwarf_building
+					has_building = fort_castle_dwarf_building
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 0.5
+			NOT = {
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+				}
+			}
+		}			
+		modifier = {
+			factor = 2.0
+			any_neighbor_province = {
+				NOT = { owned_by = ROOT }
+			}
+		}	
+		modifier = {
+			factor = 0.1
+			is_overseas = yes
+		}
+		
+		modifier = {
+			factor = 20
+			province_dwarf_has_fortress_buildings = yes
+		}
+	} 
+}
+
+fort_great_gatehouse_dwarf_building = {
+	cost = 200
+	time = 36
+	make_obsolete = fort_small_gatehouse_dwarf_building
+	onmap = no
+	influencing_fort = yes
+	
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_dwarven
+		}
+		province_is_buildable = yes
+		OR = {
+			AND = {
+				province_dwarf_has_fortress_buildings = yes
+				province_dwarf_has_mountains_terrain = yes
+			}
+			AND = {
+				is_capital = yes
+				province_dwarf_has_capital_buildings = yes
+				province_dwarf_has_mountains_terrain = yes
+			}
+		}
+	}
+	
+	modifier = {
+		fort_level = 2
+	}
+	
+	ai_will_do = {
+		factor = 1000 #Lots of logic in code instead, that multiplies with this value
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_dwarven
+				}
+			}
+		}
+			
+		modifier = {
+			factor = 0
+			any_neighbor_province = {
+				owned_by = ROOT
+				OR = {
+					has_building = fort_small_gatehouse_dwarf_building
+					has_building = fort_great_gatehouse_dwarf_building
+					has_building = fort_mountain_fortress_dwarf_building
+					has_building = fort_mountain_citidal_dwarf_building
+					has_building = fort_pallisade_dwarf_building
+					has_building = fort_castle_dwarf_building
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 0.5
+			NOT = {
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+				}
+			}
+		}			
+		modifier = {
+			factor = 2.0
+			any_neighbor_province = {
+				NOT = { owned_by = ROOT }
+			}
+		}	
+		modifier = {
+			factor = 0.1
+			is_overseas = yes
+		}
+		
+		modifier = {
+			factor = 20
+			province_dwarf_has_fortress_buildings = yes
+		}
+	} 
+}
+
+fort_mountain_fortress_dwarf_building = {
+	cost = 400
+	time = 54
+	make_obsolete = fort_great_gatehouse_dwarf_building
+	onmap = no
+	influencing_fort = yes
+	
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_dwarven
+		}
+		province_is_buildable = yes
+		OR = {
+			AND = {
+				province_dwarf_has_fortress_building_tier_3 = yes
+				province_dwarf_has_mountains_terrain = yes
+			}
+			AND = {
+				is_capital = yes
+				province_dwarf_has_fortress_building_tier_3 = yes
+				province_dwarf_has_mountains_terrain = yes
+			}
+		}
+	}
+	
+	modifier = {
+		fort_level = 4
+	}
+	
+	ai_will_do = {
+		factor = 1000 #Lots of logic in code instead, that multiplies with this value
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_dwarven
+				}
+			}
+		}
+			
+		modifier = {
+			factor = 0
+			any_neighbor_province = {
+				owned_by = ROOT
+				OR = {
+					has_building = fort_small_gatehouse_dwarf_building
+					has_building = fort_great_gatehouse_dwarf_building
+					has_building = fort_mountain_fortress_dwarf_building
+					has_building = fort_mountain_citidal_dwarf_building
+					has_building = fort_pallisade_dwarf_building
+					has_building = fort_castle_dwarf_building
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 0.5
+			NOT = {
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+				}
+			}
+		}			
+		modifier = {
+			factor = 2.0
+			any_neighbor_province = {
+				NOT = { owned_by = ROOT }
+			}
+		}	
+		modifier = {
+			factor = 0.1
+			is_overseas = yes
+		}
+		
+		modifier = {
+			factor = 20
+			province_dwarf_has_fortress_buildings = yes
+		}
+	} 
+}
+
+fort_mountain_citidal_dwarf_building = {
+	cost = 600
+	time = 72
+	make_obsolete = fort_mountain_fortress_dwarf_building
+	onmap = no
+	influencing_fort = yes
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_dwarven
+		}
+		province_is_buildable = yes
+		OR = {
+			AND = {
+				province_dwarf_has_fortress_building_tier_4 = yes
+				province_dwarf_has_mountains_terrain = yes
+			}
+			AND = {
+				is_capital = yes
+				province_dwarf_has_fortress_building_tier_4 = yes
+				province_dwarf_has_mountains_terrain = yes
+			}
+		}
+	}
+	
+	modifier = {
+		fort_level = 6
+	}
+	
+	ai_will_do = {
+		factor = 1000 #Lots of logic in code instead, that multiplies with this value
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_dwarven
+				}
+			}
+		}
+			
+		modifier = {
+			factor = 0
+			any_neighbor_province = {
+				owned_by = ROOT
+				OR = {
+					has_building = fort_small_gatehouse_dwarf_building
+					has_building = fort_great_gatehouse_dwarf_building
+					has_building = fort_mountain_fortress_dwarf_building
+					has_building = fort_mountain_citidal_dwarf_building
+					has_building = fort_pallisade_dwarf_building
+					has_building = fort_castle_dwarf_building
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 0.5
+			NOT = {
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+				}
+			}
+		}			
+		modifier = {
+			factor = 2.0
+			any_neighbor_province = {
+				NOT = { owned_by = ROOT }
+			}
+		}	
+		modifier = {
+			factor = 0.1
+			is_overseas = yes
+		}
+		
+		modifier = {
+			factor = 20
+			province_dwarf_has_fortress_buildings = yes
+		}
+	} 
+}
+
+################################################
+# Fortifications (Settlement Only)
+################################################
+
+fort_pallisade_dwarf_building = {
+	cost = 100
+	time = 18
+	
+	onmap = no
+	influencing_fort = yes
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_dwarven
+		}
+		province_is_buildable = yes
+		province_dwarf_has_city_buildings = yes
+		province_dwarf_has_capital_buildings = yes
+	}
+	
+	modifier = {
+		fort_level = 1
+	}
+	
+	ai_will_do = {
+		factor = 1000 #Lots of logic in code instead, that multiplies with this value
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_dwarven
+				}
+			}
+		}
+			
+		modifier = {
+			factor = 0
+			any_neighbor_province = {
+				owned_by = ROOT
+				OR = {
+					has_building = fort_small_gatehouse_dwarf_building
+					has_building = fort_great_gatehouse_dwarf_building
+					has_building = fort_mountain_fortress_dwarf_building
+					has_building = fort_mountain_citidal_dwarf_building
+					has_building = fort_pallisade_dwarf_building
+					has_building = fort_castle_dwarf_building
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 0.5
+			NOT = {
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+				}
+			}
+		}			
+		modifier = {
+			factor = 2.0
+			any_neighbor_province = {
+				NOT = { owned_by = ROOT }
+			}
+		}	
+		modifier = {
+			factor = 0.1
+			is_overseas = yes
+		}
+		
+		modifier = {
+			factor = 20
+			province_dwarf_has_city_buildings = yes
+		}
+	} 
+}
+
+fort_castle_dwarf_building = {
+	cost = 200
+	time = 36
+	make_obsolete = fort_pallisade_dwarf_building
+	onmap = no
+	influencing_fort = yes
+	
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_dwarven
+		}
+		province_is_buildable = yes
+		province_dwarf_has_city_buildings = yes
+		province_dwarf_has_city_building_tier_2 = yes
+	}
+	
+	modifier = {
+		fort_level = 2
+	}
+	
+	ai_will_do = {
+		factor = 1000 #Lots of logic in code instead, that multiplies with this value
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_dwarven
+				}
+			}
+		}
+			
+		modifier = {
+			factor = 0
+			any_neighbor_province = {
+				owned_by = ROOT
+				OR = {
+					has_building = fort_small_gatehouse_dwarf_building
+					has_building = fort_great_gatehouse_dwarf_building
+					has_building = fort_mountain_fortress_dwarf_building
+					has_building = fort_mountain_citidal_dwarf_building
+					has_building = fort_pallisade_dwarf_building
+					has_building = fort_castle_dwarf_building
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 0.5
+			NOT = {
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+				}
+			}
+		}			
+		modifier = {
+			factor = 2.0
+			any_neighbor_province = {
+				NOT = { owned_by = ROOT }
+			}
+		}	
+		modifier = {
+			factor = 0.1
+			is_overseas = yes
+		}
+		
+		modifier = {
+			factor = 20
+			province_dwarf_has_city_buildings = yes
+		}
+	} 
+}
+
+################################################
+# Defences (Hold Only)
+################################################
+
+rune_door_dwarf_building = {
+	cost = 50
+	time = 12
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_dwarven
+		}
+		province_is_buildable = yes
+		OR = {
+			has_building = fort_small_gatehouse_dwarf_building
+			has_building = fort_great_gatehouse_dwarf_building
+			has_building = fort_mountain_fortress_dwarf_building
+			has_building = fort_mountain_citidal_dwarf_building
+		}
+		OR = {
+			AND = {
+				province_dwarf_has_fortress_buildings = yes
+				province_dwarf_has_mountains_terrain = yes
+			}
+			AND = {
+				is_capital = yes
+				province_dwarf_has_capital_buildings = yes
+				province_dwarf_has_mountains_terrain = yes
+			}
+		}
+	}
+	
+	modifier = {
+		local_defensiveness = 0.15
+	}
+	
+	ai_will_do = {
+		factor = 1000 #Lots of logic in code instead, that multiplies with this value
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_dwarven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 20
+			province_dwarf_has_fortress_buildings = yes
+			OR = {
+				has_building = fort_small_gatehouse_dwarf_building
+				has_building = fort_great_gatehouse_dwarf_building
+				has_building = fort_mountain_fortress_dwarf_building
+				has_building = fort_mountain_citidal_dwarf_building
+			}
+		}
+	}
+}
+
+narrow_bridge_dwarf_building = {
+	cost = 100
+	time = 18
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_dwarven
+		}
+		province_is_buildable = yes
+		OR = {
+			has_building = fort_small_gatehouse_dwarf_building
+			has_building = fort_great_gatehouse_dwarf_building
+			has_building = fort_mountain_fortress_dwarf_building
+			has_building = fort_mountain_citidal_dwarf_building
+		}
+		OR = {
+			AND = {
+				province_dwarf_has_fortress_buildings = yes
+				province_dwarf_has_mountains_terrain = yes
+			}
+			AND = {
+				is_capital = yes
+				province_dwarf_has_capital_buildings = yes
+				province_dwarf_has_mountains_terrain = yes
+			}
+		}
+	}
+	
+	modifier = {
+		local_defensiveness = 0.30
+	}
+	
+	ai_will_do = {
+		factor = 1000 #Lots of logic in code instead, that multiplies with this value
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_dwarven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 20
+			province_dwarf_has_fortress_buildings = yes
+			OR = {
+				has_building = fort_small_gatehouse_dwarf_building
+				has_building = fort_great_gatehouse_dwarf_building
+				has_building = fort_mountain_fortress_dwarf_building
+				has_building = fort_mountain_citidal_dwarf_building
+			}
+		}
+	}
+}
+
+moat_dwarf_building = {
+	cost = 200
+	time = 24
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_dwarven
+		}
+		province_is_buildable = yes
+		OR = {
+			has_building = fort_small_gatehouse_dwarf_building
+			has_building = fort_great_gatehouse_dwarf_building
+			has_building = fort_mountain_fortress_dwarf_building
+			has_building = fort_mountain_citidal_dwarf_building
+		}
+		OR = {
+			AND = {
+				province_dwarf_has_fortress_building_tier_3 = yes
+				province_dwarf_has_mountains_terrain = yes
+			}
+			AND = {
+				is_capital = yes
+				province_dwarf_has_fortress_building_tier_3 = yes
+				province_dwarf_has_mountains_terrain = yes
+			}
+		}
+	}
+	
+	modifier = {
+		local_defensiveness = 0.45
+	}
+	
+	ai_will_do = {
+		factor = 1000 #Lots of logic in code instead, that multiplies with this value
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_dwarven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 20
+			province_dwarf_has_fortress_buildings = yes
+			OR = {
+				has_building = fort_small_gatehouse_dwarf_building
+				has_building = fort_great_gatehouse_dwarf_building
+				has_building = fort_mountain_fortress_dwarf_building
+				has_building = fort_mountain_citidal_dwarf_building
+			}
+		}
+	}
+}
+
+ballista_towers_dwarf_building = {
+	cost = 300
+	time = 30
+	
+	trigger = {
+		owner = {
+			technology_group = lotr_dwarven
+		}
+		province_is_buildable = yes
+		OR = {
+			has_building = fort_small_gatehouse_dwarf_building
+			has_building = fort_great_gatehouse_dwarf_building
+			has_building = fort_mountain_fortress_dwarf_building
+			has_building = fort_mountain_citidal_dwarf_building
+		}
+		OR = {
+			AND = {
+				province_dwarf_has_fortress_building_tier_4 = yes
+				province_dwarf_has_mountains_terrain = yes
+			}
+			AND = {
+				is_capital = yes
+				province_dwarf_has_fortress_building_tier_4 = yes
+				province_dwarf_has_mountains_terrain = yes
+			}
+		}
+	}
+	
+	modifier = {
+		local_defensiveness = 0.60
+	}
+	
+	ai_will_do = {
+		factor = 1000 #Lots of logic in code instead, that multiplies with this value
+		
+		modifier = {
+			factor = 0
+			province_is_buildable = no
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					technology_group = lotr_dwarven
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 20
+			province_dwarf_has_fortress_buildings = yes
+			OR = {
+				has_building = fort_small_gatehouse_dwarf_building
+				has_building = fort_great_gatehouse_dwarf_building
+				has_building = fort_mountain_fortress_dwarf_building
+				has_building = fort_mountain_citidal_dwarf_building
+			}
+		}
+	}
+}

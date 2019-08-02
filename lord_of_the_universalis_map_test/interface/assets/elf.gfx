@@ -1,0 +1,36 @@
+objectTypes = {	
+	
+	###################################################################################################################
+	#####                                                                                                         #####
+	#####                                                   LEVEL 1                                               #####
+	#####                                                                                                         #####
+	###################################################################################################################
+		
+	pdxmesh = {
+		name = "mesh_elf_infantry_1"
+		
+		file = "gfx/models/Units/elf_infantry_1.mesh"
+
+		animation = { id = "attack"				type = "elf_attack_slice_anim" }
+		animation = { id = "death"				type = "rifleman_death_animation" }		
+		animation = { id = "idle"				type = "elf_idle_2_anim" }
+		animation = { id = "walk"				type = "elf_move_anim" }
+		animation = { id = "retreat"			type = "elf_move_anim" }
+
+		animation = { id = "artillery_attack"	type = "elf_attack_slice_anim" }
+		
+		scale = 0.5
+	}
+
+	pdxmesh = {
+		name = "mesh_elven_bow"
+		file = "gfx/models/Units/bow.mesh"
+		scale = 0.35
+	}
+	
+	pdxmesh = {
+		name = "mesh_elven_2h_sword"
+		file = "gfx/models/Units/elven_sword.mesh"
+		scale = 0.35
+	}
+}
