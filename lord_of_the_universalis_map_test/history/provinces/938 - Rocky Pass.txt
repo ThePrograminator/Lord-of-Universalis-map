@@ -16,12 +16,12 @@ base_tax = 1
 base_production = 3
 base_manpower = 6
 
-add_core = V92
-owner = V92
-controller = V92
+add_core = Z85
+owner = Z85
+controller = Z85
 
-culture = culture_orkish
-religion = religion_orkish
+culture = culture_aca-folk
+religion = religion_easterlings
 
 trade_goods = iron
 

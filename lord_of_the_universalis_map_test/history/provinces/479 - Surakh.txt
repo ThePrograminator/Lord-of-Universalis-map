@@ -14,7 +14,7 @@ is_city = no
 
 base_tax = 2
 base_production = 3
-base_manpower = 1
+base_manpower = 4
 
 add_core = X81
 owner = X81

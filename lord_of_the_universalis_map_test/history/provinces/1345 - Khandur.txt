@@ -12,9 +12,9 @@
 
 is_city = no
 
-base_tax = 6
+base_tax = 3
 base_production = 3
-base_manpower = 6
+base_manpower = 4
 
 add_core = X79
 owner = X79

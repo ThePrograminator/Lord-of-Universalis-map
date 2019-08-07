@@ -132,6 +132,22 @@
  shire_region_name: "The Shire"
  shire_region_adj: "The Shire"
  
+ cardolan_region: "Cardolan"
+ cardolan_region_name: "Cardolan"
+ cardolan_region_adj: "Cardolan"
+ 
+ arthedain_region: "Arthedain"
+ arthedain_region_name: "Arthedain"
+ arthedain_region_adj: "Arthedain"
+ 
+ breeland_region: "Breeland"
+ breeland_region_name: "Breeland"
+ breeland_region_adj: "Breeland"
+ 
+ rhudaur_region: "Rhudaur"
+ rhudaur_region_name: "Rhudaur"
+ rhudaur_region_adj: "Rhudaur"
+ 
  enedhwaith_region: "Enedhwaith"
  enedhwaith_region_name: "Enedhwaith"
  enedhwaith_region_adj: "Enedhwaith"
@@ -183,6 +199,14 @@
  khand_region: "Khand"
  khand_region_name: "Khand"
  khand_region_adj: "Khand"
+ 
+ ered_harmal_region: "Ered Harmal"
+ ered_harmal_region_name: "Ered Harmal"
+ ered_harmal_region_adj: "Ered Harmal"
+ 
+ rhun_region: "Rhûn"
+ rhun_region_name: "Rhûn"
+ rhun_region_adj: "Rhûn"
  
  dune_sea_region: "The Dune Sea"
  dune_sea_region_name: "The Dune Sea"
@@ -273,6 +297,10 @@
  helkeaar_sea_region: "Helkeäar Sea"
  helkeaar_sea_region_name: "Helkeäar Sea"
  helkeaar_sea_region_adj: "Helkeäar Sea"
+ 
+ bay_of_utum_region: "Bay of Utum"
+ bay_of_utum_region_name: "Bay of Utum"
+ bay_of_utum_region_adj: "Bay of Utum"
  
  #-----------------------------
  # Ormal Sea

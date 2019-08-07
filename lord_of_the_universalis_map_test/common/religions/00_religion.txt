@@ -78,7 +78,7 @@ religion_group_arhunerim = {
 	
 	religion_drughu = {
 		icon = 1
-		color = { 0.15 0.31 0.05 }
+		color = { 0.31 0.56 0.39 }
 		
 		country = {
 			stability_cost_modifier = -0.1
@@ -117,7 +117,8 @@ religion_group_numenorean = {
 	
 	religion_dunedain = {
 		icon = 1
-		color = { 0.05 0.21 0.31 }
+		#color = { 0.05 0.21 0.31 }
+		color = { 0.21 0.35 0.88 }
 		
 		country = {
 			tolerance_heretic = 1
@@ -156,7 +157,7 @@ religion_group_eriedain = {
 	
 	religion_eriadorians = {
 		icon = 1
-		color = { 0.09 0.31 0.817 }
+		color = { 0.11 0.50 0.41 }
 		
 		country = {
 			stability_cost_modifier = -0.1
@@ -236,7 +237,7 @@ religion_group_eriedain = {
 	
 	religion_eorlingas = {
 		icon = 1
-		color = { 0.01 0.27 0.11 }
+		color = { 0.17 0.60 0.19 }
 		
 		country = {
 			stability_cost_modifier = -0.1
@@ -275,7 +276,7 @@ religion_group_haradrim = {
 	
 	religion_haruzani = {
 		icon = 2
-		color = { 0.29 0.09 0.09 }
+		color = { 0.68 0.17 0.21 }
 		
 		country = {
 			hostile_attrition = 1
@@ -443,7 +444,7 @@ religion_group_haradrim = {
 	
 	religion_apysani_beduins = {
 		icon = 1
-		color = { 0.25 0.03 0.05 }
+		color = { 0.66 0.68 0.07 }
 		
 		country = {
 			stability_cost_modifier = -0.1
@@ -459,7 +460,7 @@ religion_group_haradrim = {
 	
 	religion_sea_peoples = {
 		icon = 1
-		color = { 0.19 0.07 0.07 }
+		color = { 0.19 0.37 0.19 }
 		
 		country = {
 			stability_cost_modifier = -0.1
@@ -482,7 +483,7 @@ religion_group_mornerim = {
 	
 	religion_umli = {
 		icon = 1
-		color = { 0.70 0.82 0.81 }
+		color = { 0.35 0.37 0.37 }
 		
 		country = {
 			stability_cost_modifier = -0.1
@@ -544,7 +545,7 @@ religion_group_mornedain = {
 	
 	religion_mornedain = {
 		icon = 1
-		color = { 0.70 0.82 0.81 }
+		color = { 0.37 0.05 0.27 }
 		
 		country = {
 			stability_cost_modifier = -0.1
@@ -560,7 +561,7 @@ religion_group_mornedain = {
 	
 	religion_kir = {
 		icon = 1
-		color = { 0.70 0.82 0.81 }
+		color = { 0.64 0.15 0.15 }
 		
 		country = {
 			stability_cost_modifier = -0.1
@@ -758,7 +759,7 @@ religion_group_talatherim = {
 	
 	religion_ioriags = {
 		icon = 1
-		color = { 0.70 0.82 0.81 }
+		color = { 0.78 0.64 0.47 }
 		
 		country = {
 			stability_cost_modifier = -0.1
@@ -774,7 +775,7 @@ religion_group_talatherim = {
 	
 	religion_ulgath = {
 		icon = 1
-		color = { 0.70 0.82 0.81 }
+		color = { 0.45 0.07 0.07 }
 		
 		country = {
 			stability_cost_modifier = -0.1
@@ -790,7 +791,7 @@ religion_group_talatherim = {
 	
 	religion_chailuza = {
 		icon = 1
-		color = { 0.70 0.82 0.81 }
+		color = { 1.00 0.82 0.35 }
 		
 		country = {
 			stability_cost_modifier = -0.1
@@ -806,7 +807,7 @@ religion_group_talatherim = {
 	
 	religion_tyr = {
 		icon = 1
-		color = { 0.70 0.82 0.81 }
+		color = { 0.76 0.0 0.01 }
 		
 		country = {
 			stability_cost_modifier = -0.1
@@ -822,7 +823,7 @@ religion_group_talatherim = {
 	
 	religion_ahar = {
 		icon = 1
-		color = { 0.70 0.82 0.81 }
+		color = { 1.00 0.17 0.17 }
 		
 		country = {
 			stability_cost_modifier = -0.1
@@ -872,7 +873,7 @@ religion_group_khazad = {
 	
 	religion_mahal = {
 		icon = 1
-		color = { 0.57 0.72 0.96 }
+		color = { 0.03 0.19 0.41 }
 		
 		country = {
 			build_cost = -0.25
@@ -914,7 +915,7 @@ religion_group_eldar = {
 	
 	religion_moriquendi = {
 		icon = 1
-		color = { 0.81 0.63 0.90 }
+		color = { 0.45 0.39 0.56 }
 		
 		country = {
 			technology_cost = -0.05
@@ -930,7 +931,7 @@ religion_group_eldar = {
 	
 	religion_umanyar = {
 		icon = 1
-		color = { 0.27 0.33 0.08 }
+		color = { 0.68 0.74 0.37 }
 		
 		country = {
 			leader_land_fire = 2	
@@ -946,7 +947,7 @@ religion_group_eldar = {
 	
 	religion_calaquendi = {
 		icon = 1
-		color = { 0.54 0.99 0.98 }
+		color = { 0.17 0.21 0.41 }
 		
 		country = {
 			hostile_attrition = 1
@@ -969,7 +970,7 @@ religion_group_children_of_iluvatar = {
 	
 	religion_ents = {
 		icon = 1
-		color = { 0.69 1 0.39 }
+		color = { 0.15 0.50 0.0 }
 		
 		country = {
 			production_efficiency = 0.1
@@ -1056,7 +1057,7 @@ religion_group_melkor = {
 	
 	religion_orkish = {
 		icon = 2
-		color = { 0.9 0.0 0.2 }
+		color = { 0.72 0.0 0.0 }
 		
 		country = {
 			war_exhaustion = -0.25
@@ -1072,7 +1073,7 @@ religion_group_melkor = {
 	
 	religion_goblin = {
 		icon = 2
-		color = { 0.16 0.31 0.15 }
+		color = { 0.27 0.23 0.23 }
 		
 		country = {
 			leader_land_shock = 1
@@ -1088,7 +1089,7 @@ religion_group_melkor = {
 	
 	religion_uruk = {
 		icon = 2
-		color = { 0.83 0.10 0.5 }
+		color = { 0.0 0.0 0.0 }
 		
 		country = {
 			mil_tech_cost_modifier = -0.1
@@ -1120,7 +1121,7 @@ religion_group_melkor = {
 	
 	religion_spider = {
 		icon = 2
-		color = { 0.83 0.10 0.5 }
+		color = { 0.49 0.49 0.49 }
 		
 		country = {
 			movement_speed = 0.15
@@ -1163,7 +1164,7 @@ religion_group_wilderness = {
 	
 	religion_wilderness = {
 		icon = 1
-		color = { 0.59 0.48 0.46 }
+		color = { 0.15 0.15 0.15 }
 		
 		country = {
 			stability_cost_modifier = -0.1

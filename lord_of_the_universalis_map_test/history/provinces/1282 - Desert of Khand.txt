@@ -12,9 +12,9 @@
 
 is_city = no
 
-base_tax = 7
-base_production = 7
-base_manpower = 6
+base_tax = 3
+base_production = 2
+base_manpower = 2
 
 add_core = X82
 owner = X82
@@ -23,7 +23,7 @@ controller = X82
 culture = culture_variags
 religion = religion_ioriags
 
-trade_goods = naval_supplies
+trade_goods = stone
 
 hre = no
 

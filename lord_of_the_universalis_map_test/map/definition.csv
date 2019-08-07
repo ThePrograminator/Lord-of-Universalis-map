@@ -2779,7 +2779,7 @@ province;red;green;blue;x;x
 2778;116;42;181;Yalg Kusir;x
 2779;206;88;168;Vog Mur;x
 2780;46;88;168;Talirân;x
-2781;47;197;139;Zyeth Hýd;x
+2781;46;197;139;Zyeth Hyd;x
 2782;164;157;213;Wasyclax;x
 2783;164;157;42;Ukasur;x
 2784;81;78;21;Vorganis Cas;x
@@ -2827,7 +2827,7 @@ province;red;green;blue;x;x
 2826;66;88;88;Parth Myr;x
 2827;186;57;23;Daldunair Hills;x
 2828;208;187;181;Xâtal;x
-2829;30;181;181;Urm Tyra;x
+2829;26;181;181;Urm Tyra;x
 2830;206;100;44;Langarna;x
 2831;76;100;100;Lú Tyr Sû;x
 2832;206;100;213;Kharukthalad;x
@@ -2937,7 +2937,7 @@ province;red;green;blue;x;x
 2936;74;126;73;Forest of Pishanâ;x
 2937;160;2;19;Forest of Lylia;x
 2938;160;2;153;Asanâbar;x
-2939;123;167;213;Sarvâsher;x
+2939;123;167;217;Sarvâsher;x
 2940;17;68;126;Mahdat;x
 2941;32;8;37;Delshad Vale;x
 2942;230;3;27;Simbar;x
@@ -3372,14 +3372,105 @@ province;red;green;blue;x;x
 3371;90;37;90;Di-Gak;x
 3372;195;37;90; Djebel Gusar;x
 3373;65;34;65;Fred;x
-3374;109;16;64;namalo-kotar;x
-3375;121;21;42;kralji-dar;x
-3376;121;21;41;oluja-kotar;x
-3377;160;131;131;pravi-kotar;x
-3378;160;160;131;dah vatra;x
-3379;148;150;20;kralji-polozaj;x
-3380;227;229;78;jug-polozaj;x
-3381;229;229;78;tama sumar;x
-3382;229;229;79;sumar-dar;x
-3383;79;224;229;karsunaj;x
-3384;67;179;102;raishanan;x
+3374;109;16;64;Namalo-kotar;x
+3375;121;21;42;Kralji-dar;x
+3376;121;21;41;Oluja-kotar;x
+3377;160;131;131;Pravi-kotar;x
+3378;160;160;131;Dah vatra;x
+3379;148;150;20;Kralji-polozaj;x
+3380;227;229;78;Jug-polozaj;x
+3381;229;229;78;Tama sumar;x
+3382;229;229;79;Sumar-dar;x
+3383;79;224;229;Karsunaj;x
+3384;67;179;102;Raishanan;x
+3385;60;128;113;Lag-Hundur;x
+3386;111;30;33;Lag-Ulurikon;x
+3387;66;44;66;Nan Thorn Sîr;x
+3388;126;32;56;Sumna;x
+3389;70;118;47;Luts;x
+3390;70;38;47;Severna;x
+3391;98;222;37;Usored Vale;x
+3392;90;109;80;Leshen;x
+3393;220;232;215;Belgorod;x
+3394;85;90;82;Smendis;x
+3395;171;201;157;Esegel;x
+3396;63;68;60;Bereg;x
+3397;170;201;97;Ros Vale;x
+3398;111;119;91;Berestye;x
+3399;159;100;31;Radibar;x
+3400;31;159;40;Meladunya;x
+3401;113;176;118;Surukan;x
+3402;113;176;119;Urava;x
+3403;113;176;120;Rhukan;x
+3404;113;176;121;Kanrand;x
+3405;114;26;86;Sarad;x
+3406;114;26;87;Sugul;x
+3407;114;26;88;Ulkaram;x
+3408;114;26;89;Togai;x
+3409;114;26;90;Karoda;x
+3410;114;26;91;Dacragana;x
+3411;114;26;92;Koloda;x
+3412;114;26;93;Woumis;x
+3413;237;235;99;Vusbas;x
+3414;237;235;100;Idima;x
+3415;237;235;101;Hebidir;x
+3416;51;51;38;Sasinas;x
+3417;51;51;39;Pudarid;x
+3418;51;51;40;Blerei;x
+3419;195;51;40;Cerdim;x
+3420;195;50;40;Lesbleic;x
+3421;195;49;40;Uztarurzahar;x
+3422;195;49;41;Duragar;x
+3423;195;49;43;ardum;x
+3424;200;40;45;Nirthiach;x
+3425;100;40;45;Dongondwath;x
+3426;100;40;46;tharanin;x
+3427;100;40;47;Cargilin;x
+3428;100;40;48;Foronarth;x
+3429;100;40;49;Mirion;x
+3430;100;40;50;Nielros;x
+3431;100;40;51;Carathir;x
+3432;100;40;52;Maura;x
+3433;100;40;53;Rindalas;x
+3434;100;40;54;Tharni;x
+3435;100;40;55;Aithfinn;x
+3436;100;40;56;Galathlilval;x
+3437;100;40;57;Aithan;x
+3438;100;40;58;Cathiel;x
+3439;100;40;59;Morchan;x
+3440;100;40;60;hangireth;x
+3441;100;40;61;dirdabor;x
+3442;100;40;62;laganin;x
+3443;40;100;75;hena;x
+3444;40;100;76;Tiregad;x
+3445;152;195;178;Minas Brethil;x
+3446;152;195;179;Certhalc;x
+3447;152;195;180;Arnaro;x
+3448;152;195;181;Agand;x
+3449;152;195;182;Crudu;x
+3450;152;195;183;Broig;x
+3451;152;195;184;Brildil;x
+3452;183;30;73;Brynmor;x
+3453;183;30;74;Wrech;x
+3454;184;30;74;Girail;x
+3455;157;105;120;Dinuis;x
+3456;157;105;121;Dulaich;x
+3457;47;40;40;Nan Nenglos;x
+3458;47;40;140;Nan Nimeithel;x
+3459;48;40;140;Orgo;x
+3460;48;140;140;Shen-ubataya;x
+3461;49;140;140;Zigruriath;x
+3462;135;205;205;Taurfalas;x
+3463;100;120;120;Ostophor;x
+3464;216;120;120;Ramdrast;x
+3465;116;120;120;Ostokhir;x
+3466;18;172;172;Aglar-rammas;x
+3467;172;108;18;Usak;x
+3468;172;108;172;Sak Yaur;x
+3469;124;40;20;Cirvegil;x
+3470;124;137;20;Ostanor;x
+3471;137;20;51;khaloni;x
+3472;137;20;50;Azruloni;x
+3473;20;127;137;Talmirya;x
+3474;107;127;137;Ulijadar;x
+3475;100;17;52;Anhaban;x

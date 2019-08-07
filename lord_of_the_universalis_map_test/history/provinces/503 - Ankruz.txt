@@ -10,11 +10,11 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-is_city = no
+is_city = yes
 
-base_tax = 2
-base_production = 2
-base_manpower = 2
+base_tax = 9
+base_production = 10
+base_manpower = 10
 
 add_core = X22
 owner = X22
@@ -23,9 +23,17 @@ controller = X22
 culture = culture_siaken
 religion = religion_haruzani
 
-trade_goods = cloth
+trade_goods = silk
 
 hre = no
+
+capital_3_building=yes
+forum_building=yes
+bank_building=yes
+foundry_building=yes
+stockpile_building=yes
+fort_castle_building=yes
+garrison_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

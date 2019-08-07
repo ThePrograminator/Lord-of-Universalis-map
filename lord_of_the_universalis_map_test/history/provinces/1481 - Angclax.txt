@@ -16,12 +16,8 @@ base_tax = 10
 base_production = 7
 base_manpower = 4
 
-add_core = V67
-owner = V67
-controller = V67
-
-culture = culture_angcla
-religion = religion_eastern_snowmen
+culture = culture_wilderness
+religion = religion_wilderness
 
 trade_goods = gold
 

@@ -10,11 +10,11 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-is_city = no
+is_city = yes
 
-base_tax = 4
-base_production = 4
-base_manpower = 4
+base_tax = 7
+base_production = 7
+base_manpower = 7
 
 add_core = X29
 owner = X29
@@ -23,9 +23,17 @@ controller = X29
 culture = culture_eluzan
 religion = religion_haruzani
 
-trade_goods = silk
+trade_goods = chinaware
 
 hre = no
+
+capital_2_building=yes
+marketplace_building=yes
+provincial_office_building=yes
+forge_building=yes
+warehouse_building=yes
+fort_castle_building=yes
+barracks_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

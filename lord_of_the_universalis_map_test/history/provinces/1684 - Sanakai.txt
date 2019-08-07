@@ -16,12 +16,8 @@ base_tax = 4
 base_production = 1
 base_manpower = 5
 
-add_core = V85
-owner = V85
-controller = V85
-
-culture = culture_vulmav
-religion = religion_cuivac
+culture = culture_wilderness
+religion = religion_wilderness
 
 trade_goods = cloth
 

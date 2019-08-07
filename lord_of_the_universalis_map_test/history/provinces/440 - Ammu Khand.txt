@@ -12,9 +12,9 @@
 
 is_city = no
 
-base_tax = 3
-base_production = 3
-base_manpower = 3
+base_tax = 12
+base_production = 11
+base_manpower = 15
 
 add_core = X82
 owner = X82
@@ -23,9 +23,22 @@ controller = X82
 culture = culture_variags
 religion = religion_ioriags
 
-trade_goods = livestock
+trade_goods = silver
 
 hre = no
+
+add_permanent_province_modifier = {
+	name = trade_post_modifier
+	duration = -1
+}
+
+capital_3_building=yes
+forum_building=yes
+provincial_office_building=yes
+foundry_building=yes
+warehouse_building=yes
+fort_stronghold_building=yes
+garrison_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

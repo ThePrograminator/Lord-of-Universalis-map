@@ -16,12 +16,8 @@ base_tax = 7
 base_production = 3
 base_manpower = 7
 
-add_core = V83
-owner = V83
-controller = V83
-
-culture = culture_rolfandan
-religion = religion_avaradan
+culture = culture_wilderness
+religion = religion_wilderness
 
 trade_goods = iron
 

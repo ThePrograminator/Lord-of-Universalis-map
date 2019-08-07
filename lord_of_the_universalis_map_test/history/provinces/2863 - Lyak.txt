@@ -4,12 +4,8 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-add_core = V78
-owner = V78
-controller = V78
-
-culture = culture_surk_kaelan
-religion = religion_avaradan
+culture = culture_wilderness
+religion = religion_wilderness
 
 trade_goods = grain
 

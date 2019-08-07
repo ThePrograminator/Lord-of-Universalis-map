@@ -10,11 +10,11 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-is_city = no
+is_city = yes
 
 base_tax = 4
-base_production = 1
-base_manpower = 1
+base_production = 4
+base_manpower = 2
 
 add_core = X84
 owner = X84
@@ -23,9 +23,13 @@ controller = X84
 culture = culture_variags
 religion = religion_ioriags
 
-trade_goods = naval_supplies
+trade_goods = honey
 
 hre = no
+
+city_1_building=yes
+work_camp_building=yes
+temple_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

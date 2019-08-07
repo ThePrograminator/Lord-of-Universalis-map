@@ -12,9 +12,9 @@
 
 is_city = no
 
-base_tax = 9
+base_tax = 4
 base_production = 5
-base_manpower = 9
+base_manpower = 3
 
 add_core = X81
 owner = X81
@@ -26,6 +26,8 @@ religion = religion_ioriags
 trade_goods = copper
 
 hre = no
+
+center_of_trade = 1
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

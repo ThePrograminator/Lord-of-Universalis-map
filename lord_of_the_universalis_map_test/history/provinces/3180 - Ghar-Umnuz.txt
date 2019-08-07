@@ -1,13 +1,17 @@
 is_city = yes
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 4
+base_production = 3
+base_manpower = 3
 
-culture = culture_wilderness
-religion = religion_wilderness
+add_core = Y30
+owner = Y30
+controller = Y30
 
-trade_goods = grain
+culture = culture_orkish
+religion = religion_orkish
+
+trade_goods = iron
 
 hre = no
 

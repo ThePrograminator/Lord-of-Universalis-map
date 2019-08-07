@@ -14,7 +14,7 @@ is_city = no
 
 base_tax = 2
 base_production = 8
-base_manpower = 2
+base_manpower = 3
 
 add_core = X84
 owner = X84
@@ -26,6 +26,9 @@ religion = religion_ioriags
 trade_goods = copper
 
 hre = no
+
+settlement_building=yes
+work_camp_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

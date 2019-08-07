@@ -4,12 +4,8 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-add_core = Y74
-owner = Y74
-controller = Y74
-
-culture = culture_hisildi
-religion = religion_moriquendi
+culture = culture_wilderness
+religion = religion_wilderness
 
 trade_goods = grain
 

@@ -23,7 +23,7 @@ controller = Y57
 culture = culture_goblin
 religion = religion_goblin
 
-trade_goods = gems
+trade_goods = silver
 
 hre = no
 

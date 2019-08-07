@@ -40,13 +40,7 @@ western_middle_earth_sea_superregion= {
 	gwathlo_river_region
 	baranduin_river_region
 	sea_of_rhun_region
-	bay_of_belfalas_region
 	sea_of_belegaer_region
-	sea_of_harad_region
-	sea_of_enedwaith_region
-	sea_of_eriador_region
-	sea_of_forodwaith_region
-	bay_of_beriannen_region
 }
 
 far_harad_superregion= {

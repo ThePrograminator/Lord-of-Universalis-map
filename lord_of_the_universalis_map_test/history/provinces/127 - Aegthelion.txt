@@ -23,7 +23,7 @@ controller = V13
 culture = culture_donaen
 religion = religion_daen
 
-trade_goods = gold
+trade_goods = silver
 
 hre = no
 

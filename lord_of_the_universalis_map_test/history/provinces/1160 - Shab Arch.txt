@@ -12,13 +12,13 @@
 
 is_city = yes
 
-base_tax = 2
-base_production = 3
-base_manpower = 1
+base_tax = 5
+base_production = 5
+base_manpower = 5
 
-add_core = Y30
-owner = Y30
-controller = Y30
+add_core = Y31
+owner = Y31
+controller = Y31
 
 culture = culture_orkish
 religion = religion_orkish

@@ -12,9 +12,9 @@
 
 is_city = no
 
-base_tax = 6
-base_production = 9
-base_manpower = 1
+base_tax = 4
+base_production = 4
+base_manpower = 3
 
 add_core = X29
 owner = X29
@@ -23,9 +23,13 @@ controller = X29
 culture = culture_eluzan
 religion = religion_haruzani
 
-trade_goods = gold
+trade_goods = stone
 
 hre = no
+
+settlement_building=yes
+work_camp_building=yes
+outpost_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

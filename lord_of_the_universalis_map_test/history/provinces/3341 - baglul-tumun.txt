@@ -53,3 +53,9 @@ discovered_by = lotr_wizard
 discovered_by = lotr_womarin
 discovered_by = lotr_woses
 discovered_by = lotr_wights
+
+2989.4.1 = {
+	add_core = Y22
+	owner = Y22
+	controller = Y22
+}

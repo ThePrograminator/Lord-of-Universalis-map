@@ -4,12 +4,8 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-add_core = V60
-owner = V60
-controller = V60
-
-culture = culture_rubor
-religion = religion_eastern_snowmen
+culture = culture_wilderness
+religion = religion_wilderness
 
 trade_goods = grain
 

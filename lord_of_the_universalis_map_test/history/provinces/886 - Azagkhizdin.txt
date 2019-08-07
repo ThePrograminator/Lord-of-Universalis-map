@@ -10,11 +10,11 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-is_city = yes
+is_city = no
 
 base_tax = 5
 base_production = 5
-base_manpower = 3
+base_manpower = 4
 
 add_core = Y30
 owner = Y30
@@ -23,9 +23,14 @@ controller = Y30
 culture = culture_orkish
 religion = religion_orkish
 
-trade_goods = naval_supplies
+trade_goods = gems
 
 hre = no
+
+encampment_1_orc_building=yes
+blacksmith_orc_building=yes
+orc_pit_orc_building=yes
+small_arena_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

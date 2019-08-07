@@ -341,6 +341,66 @@ eregion_region = {
 	}
 }
 
+cardolan_region = {
+	areas = {
+		saralainn_area
+		lond_daer_area
+		eryn_vorn_area
+		girithlin_area
+		caladir_area
+		dol_tinereb_area
+		tharbad_area
+		minhiriath_area
+		tyrn_gorthad_area
+		faerdor_area
+		taur_iaur_area
+		annon_baran_area
+		rast_arnor_area
+		creb_durga_area
+		balost_area
+		lostiriand_area
+		pinnath_ceren_area
+	}
+}
+
+arthedain_region = {
+	areas = {
+	amon_sul_area
+	emyn_sul_area
+	fornost_erain_area
+	tyrn_formen_area
+	annuminas_area
+	nan_turnath_area
+	bareketta_area
+	emyn_uial_area
+	caras_celairnen_area
+	nan_lhun_area
+	rammas_formen_area
+	en_udanoriath_area
+	tarmear_area
+	maegoth_area
+	}
+}
+
+rhudaur_region = {
+	areas = {
+		en_egladil_area
+		pinnath_tereg_area
+		oiolad_area
+		magillos_area
+		nothva_rhaglaw_area
+		cameth_brin_area
+		ettenmoors_area
+		cold_fells_area
+	}
+}
+
+breeland_region = {
+	areas = {
+		breeland_area
+	}
+}
+
 #---------------------------
 # Near Harad (Haradwaith)                          
 #---------------------------
@@ -461,6 +521,47 @@ khand_region = {
 		upper_khand_area
 		gap_of_khand_area
 		neburkha_area
+	}
+}
+
+#---------------------------
+# Ered Harmal                           
+#---------------------------
+
+ered_harmal_region = {
+	areas = {
+		gamil_nala_area
+		mount_arysis_area
+		namagaluz_area
+		noshrud_area
+		rocky_pass_area
+		ered_harmal_area
+		aca_gap_area
+		nalashatur_area
+		kala_ogurk_area
+		chy_gap_area
+	}
+}
+
+#---------------------------
+# Rhûn                         
+#---------------------------
+
+rhun_region = {
+	areas = {
+		kara_kalpak_area
+		gathod_area
+		dacranamel_area
+		mistrand_area
+		surubeki_vale_area
+		morad_area
+		pustrava_area
+		kelepar_area
+		rhubar_area
+		urgathavuld_area
+		agasha_dag_area
+		kugathavuld_area
+		ulgathavuld_area
 	}
 }
 

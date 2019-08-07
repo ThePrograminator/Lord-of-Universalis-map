@@ -16,12 +16,8 @@ base_tax = 4
 base_production = 10
 base_manpower = 8
 
-add_core = V84
-owner = V84
-controller = V84
-
-culture = culture_rulurk
-religion = religion_avaradan
+culture = culture_wilderness
+religion = religion_wilderness
 
 trade_goods = cloth
 

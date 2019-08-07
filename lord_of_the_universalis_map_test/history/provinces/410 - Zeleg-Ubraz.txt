@@ -23,9 +23,15 @@ controller = Y06
 culture = culture_firebeard
 religion = religion_mahal
 
-trade_goods = grain
+trade_goods = copper
 
 hre = no
+
+hold_1_dwarf_building=yes
+armoury_dwarf_building=yes
+mustering_hall_dwarf_building=yes
+mine_shaft_dwarf_building=yes
+rune_door_dwarf_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

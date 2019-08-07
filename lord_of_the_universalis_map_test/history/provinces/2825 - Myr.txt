@@ -4,12 +4,8 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-add_core = V70
-owner = V70
-controller = V70
-
-culture = culture_myri
-religion = religion_tyr
+culture = culture_wilderness
+religion = religion_wilderness
 
 trade_goods = grain
 

@@ -16,12 +16,8 @@ base_tax = 8
 base_production = 1
 base_manpower = 7
 
-add_core = V45
-owner = V45
-controller = V45
-
-culture = culture_rycoli
-religion = religion_ahar
+culture = culture_wilderness
+religion = religion_wilderness
 
 trade_goods = wool
 

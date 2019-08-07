@@ -16,12 +16,8 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-add_core = V76
-owner = V76
-controller = V76
-
-culture = culture_ivabi
-religion = religion_ivabi
+culture = culture_wilderness
+religion = religion_wilderness
 
 trade_goods = grain
 

@@ -10,7 +10,7 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-is_city = no
+is_city = yes
 
 base_tax = 3
 base_production = 7
@@ -23,9 +23,14 @@ controller = X78
 culture = culture_variags
 religion = religion_ioriags
 
-trade_goods = wine
+trade_goods = livestock
 
 hre = no
+
+fortress_2_building=yes
+fort_pallisade_building=yes
+forge_building=yes
+barracks_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

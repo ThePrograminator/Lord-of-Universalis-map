@@ -12,7 +12,7 @@
 
 is_city = no
 
-base_tax = 10
+base_tax = 3
 base_production = 3
 base_manpower = 5
 
@@ -23,9 +23,12 @@ controller = X78
 culture = culture_variags
 religion = religion_ioriags
 
-trade_goods = gold
+trade_goods = stone
 
 hre = no
+
+settlement_building=yes
+temple_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

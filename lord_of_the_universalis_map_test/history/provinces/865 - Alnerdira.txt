@@ -10,11 +10,11 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-is_city = no
+is_city = yes
 
-base_tax = 1
+base_tax = 3
 base_production = 6
-base_manpower = 3
+base_manpower = 4
 
 add_core = X30
 owner = X30
@@ -23,9 +23,14 @@ controller = X30
 culture = culture_urdwan_nomads
 religion = religion_haruzani
 
-trade_goods = naval_supplies
+trade_goods = cloth
 
 hre = no
+
+city_1_building=yes
+temple_building=yes
+work_camp_building=yes
+outpost_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

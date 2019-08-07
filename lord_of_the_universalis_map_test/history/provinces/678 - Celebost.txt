@@ -12,9 +12,9 @@
 
 is_city = yes
 
-base_tax = 3
-base_production = 4
-base_manpower = 3
+base_tax = 6
+base_production = 8
+base_manpower = 9
 
 add_core = Y08
 owner = Y08
@@ -23,9 +23,19 @@ controller = Y08
 culture = culture_longbeard
 religion = religion_mahal
 
-trade_goods = iron
+trade_goods = silver
 
 hre = no
+
+capital_2_dwarf_building=yes
+fairground_dwarf_building=yes
+arsenal_dwarf_building=yes
+acadamy_dwarf_building=yes
+training_hall_dwarf_building=yes
+warriors_guild_dwarf_building=yes
+mining_network_dwarf_building=yes
+fort_mountain_fortress_dwarf_building=yes
+rune_door_dwarf_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

@@ -12,9 +12,9 @@
 
 is_city = yes
 
-base_tax = 6
-base_production = 10
-base_manpower = 10
+base_tax = 4
+base_production = 5
+base_manpower = 4
 
 add_core = Y06
 owner = Y06
@@ -26,6 +26,12 @@ religion = religion_mahal
 trade_goods = iron
 
 hre = no
+
+hold_1_dwarf_building=yes
+armoury_dwarf_building=yes
+mustering_hall_dwarf_building=yes
+mine_shaft_dwarf_building=yes
+rune_door_dwarf_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

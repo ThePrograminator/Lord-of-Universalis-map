@@ -4,13 +4,10 @@ base_tax = 4
 base_production = 4
 base_manpower = 8
 
-add_core = V17
-owner = V17
-controller = V17
-culture = culture_orkish
-religion = religion_orkish
+culture = culture_wilderness
+religion = religion_wilderness
 
-trade_goods = coal
+trade_goods = silver
 
 hre = no
 
@@ -57,3 +54,11 @@ discovered_by = lotr_wizard
 discovered_by = lotr_womarin
 discovered_by = lotr_woses
 discovered_by = lotr_wights
+
+2942.1.1 = {
+	add_core = V17
+	owner = V17
+	controller = V17
+	culture = culture_orkish
+	religion = religion_orkish
+}

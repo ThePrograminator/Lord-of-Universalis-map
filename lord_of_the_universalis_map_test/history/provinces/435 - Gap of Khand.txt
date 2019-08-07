@@ -12,9 +12,9 @@
 
 is_city = no
 
-base_tax = 2
+base_tax = 4
 base_production = 4
-base_manpower = 3
+base_manpower = 4
 
 add_core = X78
 owner = X78
@@ -23,9 +23,12 @@ controller = X78
 culture = culture_variags
 religion = religion_ioriags
 
-trade_goods = fur
+trade_goods = copper
 
 hre = no
+
+settlement_building=yes
+outpost_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
