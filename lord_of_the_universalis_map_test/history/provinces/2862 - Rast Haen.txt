@@ -4,8 +4,12 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_wilderness
-religion = religion_wilderness
+add_core = V68
+owner = V68
+controller = V68
+
+culture = culture_aigar
+religion = religion_eastern_snowmen
 
 trade_goods = grain
 

@@ -1,0 +1,8 @@
+mercantilism = 0.1
+government = monarchy
+add_government_reform = feudalism_reform
+
+primary_culture = culture_oplan_din_kaarn
+religion = religion_linerim
+technology_group = lotr_linerim
+capital = 517

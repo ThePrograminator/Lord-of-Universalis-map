@@ -16,8 +16,12 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_wilderness
-religion = religion_wilderness
+add_core = Z67
+owner = Z67
+controller = Z67
+
+culture = culture_lochans
+religion = religion_cuivac
 
 trade_goods = grain
 

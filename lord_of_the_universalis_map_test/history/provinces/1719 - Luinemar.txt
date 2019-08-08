@@ -16,8 +16,12 @@ base_tax = 9
 base_production = 7
 base_manpower = 10
 
-culture = culture_wilderness
-religion = religion_wilderness
+add_core = W09
+owner = W09
+controller = W09
+
+culture = culture_istari
+religion = religion_linerim
 
 trade_goods = iron
 

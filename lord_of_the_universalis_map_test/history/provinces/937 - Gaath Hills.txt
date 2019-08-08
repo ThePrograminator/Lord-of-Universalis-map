@@ -21,7 +21,7 @@ owner = Z85
 controller = Z85
 
 culture = culture_aca-folk
-religion = religion_easterlings
+religion = religion_ivabi
 
 trade_goods = fur
 

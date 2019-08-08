@@ -1,0 +1,8 @@
+mercantilism = 0.1
+government = monarchy
+add_government_reform = feudalism_reform
+
+primary_culture = culture_alduryakna
+religion = religion_talatherim
+technology_group = lotr_talatherim
+capital = 517

@@ -16,8 +16,12 @@ base_tax = 2
 base_production = 8
 base_manpower = 7
 
-culture = culture_wilderness
-religion = religion_wilderness
+add_core = W11
+owner = W11
+controller = W11
+
+culture = culture_usteri
+religion = religion_linerim
 
 trade_goods = naval_supplies
 

@@ -4,8 +4,12 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_wilderness
-religion = religion_wilderness
+add_core = V90
+owner = V90
+controller = V90
+
+culture = culture_hwendi
+religion = religion_moriquendi
 
 trade_goods = grain
 

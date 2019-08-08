@@ -16,8 +16,12 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_wilderness
-religion = religion_wilderness
+add_core = W15
+owner = W15
+controller = W15
+
+culture = culture_khanim
+religion = religion_black_numenorean
 
 trade_goods = grain
 

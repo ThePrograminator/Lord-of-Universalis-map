@@ -1,4 +1,16 @@
-#Temp Sea, Free to Replace
+is_city = yes
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = culture_wilderness
+religion = religion_wilderness
+
+trade_goods = grain
+
+hre = no
+
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
 discovered_by = lotr_black_numenorean
@@ -37,4 +49,3 @@ discovered_by = lotr_wizard
 discovered_by = lotr_womarin
 discovered_by = lotr_woses
 discovered_by = lotr_wights
-

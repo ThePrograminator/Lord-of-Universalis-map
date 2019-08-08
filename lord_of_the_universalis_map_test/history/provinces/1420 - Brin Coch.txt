@@ -16,8 +16,12 @@ base_tax = 3
 base_production = 4
 base_manpower = 3
 
-culture = culture_wilderness
-religion = religion_wilderness
+add_core = W23
+owner = W23
+controller = W23
+
+culture = culture_giants
+religion = religion_giants
 
 trade_goods = copper
 

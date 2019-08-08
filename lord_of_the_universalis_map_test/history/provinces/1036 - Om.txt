@@ -16,8 +16,12 @@ base_tax = 1
 base_production = 6
 base_manpower = 8
 
-culture = culture_wilderness
-religion = religion_wilderness
+add_core = V69
+owner = V69
+controller = V69
+
+culture = culture_stiffbeard
+religion = religion_mahal
 
 trade_goods = naval_supplies
 

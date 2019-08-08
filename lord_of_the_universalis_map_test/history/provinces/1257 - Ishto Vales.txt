@@ -21,7 +21,7 @@ owner = Z84
 controller = Z84
 
 culture = culture_elinse
-religion = religion_easterlings
+religion = religion_ivabi
 
 trade_goods = wool
 

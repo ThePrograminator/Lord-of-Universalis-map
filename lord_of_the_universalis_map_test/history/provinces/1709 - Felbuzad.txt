@@ -16,8 +16,12 @@ base_tax = 8
 base_production = 2
 base_manpower = 6
 
-culture = culture_wilderness
-religion = religion_wilderness
+add_core = W01
+owner = W01
+controller = W01
+
+culture = culture_stonefoot
+religion = religion_mahal
 
 trade_goods = copper
 

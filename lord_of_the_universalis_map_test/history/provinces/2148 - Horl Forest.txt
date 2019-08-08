@@ -16,8 +16,12 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_wilderness
-religion = religion_wilderness
+add_core = W12
+owner = W12
+controller = W12
+
+culture = culture_horl
+religion = religion_linerim
 
 trade_goods = grain
 

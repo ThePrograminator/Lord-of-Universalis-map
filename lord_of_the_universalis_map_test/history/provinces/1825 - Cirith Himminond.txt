@@ -16,8 +16,12 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_wilderness
-religion = religion_wilderness
+add_core = Y99
+owner = Y99
+controller = Y99
+
+culture = culture_beornings
+religion = religion_nenedain
 
 trade_goods = stone
 

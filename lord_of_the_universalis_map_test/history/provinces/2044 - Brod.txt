@@ -16,8 +16,12 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_wilderness
-religion = religion_wilderness
+add_core = Z75
+owner = Z75
+controller = Z75
+
+culture = culture_brodim
+religion = religion_lakhab
 
 trade_goods = grain
 

@@ -16,8 +16,12 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_wilderness
-religion = religion_wilderness
+add_core = W05
+owner = W05
+controller = W05
+
+culture = culture_arkklu-shen
+religion = religion_linerim
 
 trade_goods = grain
 

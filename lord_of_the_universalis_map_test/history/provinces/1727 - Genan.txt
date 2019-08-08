@@ -16,8 +16,12 @@ base_tax = 3
 base_production = 5
 base_manpower = 2
 
-culture = culture_wilderness
-religion = religion_wilderness
+add_core = W02
+owner = W02
+controller = W02
+
+culture = culture_alduryakna
+religion = religion_talatherim
 
 trade_goods = wool
 

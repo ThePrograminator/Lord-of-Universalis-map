@@ -21,7 +21,7 @@ owner = Y86
 controller = Y86
 
 culture = culture_vul
-religion = religion_druedain
+religion = religion_drughu
 
 trade_goods = grain
 

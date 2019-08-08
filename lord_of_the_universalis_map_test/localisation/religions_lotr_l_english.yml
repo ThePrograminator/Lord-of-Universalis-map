@@ -50,11 +50,17 @@
  religion_lakhab: "Lakhab"
  
  religion_group_talatherim: "Talatherim"
+ religion_talatherim: "Talatherim"
  religion_ioriags: "Ioriags"
  religion_ulgath: "Ulgath"
  religion_chailuza: "Chailûza"
  religion_tyr: "Tyr"
  religion_ahar: "Ahar"
+ 
+ religion_group_linerim: "Linerim"
+ religion_linerim: "Linerim"
+ religion_dhilikhran: "Dhilikhran"
+ religion_raliani: "Raliani"
  
  #Fantasy Races
  

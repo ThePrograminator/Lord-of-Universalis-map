@@ -1,0 +1,7 @@
+mercantilism = 0.1
+government = melkor_gov
+add_government_reform = lotr_spider_government_reform
+primary_culture = culture_spider
+religion = religion_spider
+technology_group = lotr_great_spider
+capital = 1913

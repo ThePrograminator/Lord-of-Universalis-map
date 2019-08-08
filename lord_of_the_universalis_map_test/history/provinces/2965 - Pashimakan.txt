@@ -4,8 +4,12 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_wilderness
-religion = religion_wilderness
+add_core = V93
+owner = V93
+controller = V93
+
+culture = culture_chyan_hill-men
+religion = religion_chailuza
 
 trade_goods = grain
 

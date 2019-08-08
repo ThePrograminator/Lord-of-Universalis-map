@@ -4,8 +4,12 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_wilderness
-religion = religion_wilderness
+add_core = V72
+owner = V72
+controller = V72
+
+culture = culture_langur
+religion = religion_tyr
 
 trade_goods = grain
 

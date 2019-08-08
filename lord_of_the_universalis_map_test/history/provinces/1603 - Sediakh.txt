@@ -16,8 +16,12 @@ base_tax = 7
 base_production = 3
 base_manpower = 4
 
-culture = culture_wilderness
-religion = religion_wilderness
+add_core = V63
+owner = V63
+controller = V63
+
+culture = culture_urdar
+religion = religion_eastern_snowmen
 
 trade_goods = grain
 

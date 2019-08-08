@@ -21,7 +21,7 @@ owner = Z83
 controller = Z83
 
 culture = culture_nissians
-religion = religion_easterlings
+religion = religion_ivabi
 
 trade_goods = cloth
 

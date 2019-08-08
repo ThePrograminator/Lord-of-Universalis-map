@@ -16,8 +16,12 @@ base_tax = 4
 base_production = 4
 base_manpower = 4
 
-culture = culture_wilderness
-religion = religion_wilderness
+add_core = W25
+owner = W25
+controller = W25
+
+culture = culture_great_eagles
+religion = religion_great_eagles
 
 trade_goods = stone
 

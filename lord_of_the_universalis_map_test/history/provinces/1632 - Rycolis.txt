@@ -1,14 +1,3 @@
-# Province ID : 2079
-# Province Name : Rycolis
-# Province RGB : (72, 101, 237)
-# Province Area : null
-# Province Area : null
-# Province Super Region : null
-# Province Continent : Middle Earth
-# Province Tradenode : null
-# Province Climate : null
-# Province is not Sea/Lake Province
-# Province Contents : 
 
 is_city = yes
 
@@ -16,8 +5,12 @@ base_tax = 8
 base_production = 1
 base_manpower = 7
 
-culture = culture_wilderness
-religion = religion_wilderness
+add_core = V45
+owner = V45
+controller = V45
+
+culture = culture_rycoli
+religion = religion_ahar
 
 trade_goods = wool
 
@@ -61,4 +54,3 @@ discovered_by = lotr_wizard
 discovered_by = lotr_womarin
 discovered_by = lotr_woses
 discovered_by = lotr_wights
-

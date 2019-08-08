@@ -16,8 +16,12 @@ base_tax = 6
 base_production = 10
 base_manpower = 8
 
-culture = culture_wilderness
-religion = religion_wilderness
+add_core = V75
+owner = V75
+controller = V75
+
+culture = culture_desdursy
+religion = religion_tyr
 
 trade_goods = grain
 

@@ -16,8 +16,12 @@ base_tax = 10
 base_production = 2
 base_manpower = 9
 
-culture = culture_wilderness
-religion = religion_wilderness
+add_core = V99
+owner = V99
+controller = V99
+
+culture = culture_dunedain_of_arnor
+religion = religion_dunedain
 
 trade_goods = fur
 

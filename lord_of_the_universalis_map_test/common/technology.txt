@@ -67,6 +67,11 @@ groups = {
 		start_level = 0
 	}
 	
+	lotr_erus_children = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+	
 	lotr_goblin = {
 		start_cost_modifier = 0
 		start_level = 0
@@ -126,6 +131,11 @@ groups = {
 		start_cost_modifier = 0
 		start_level = 0
 	}
+
+	lotr_raliani= {
+		start_cost_modifier = 0
+		start_level = 0
+	}
 	
 	lotr_rohirrim = {
 		start_cost_modifier = 0
@@ -158,6 +168,11 @@ groups = {
 	}
 	
 	lotr_south_hildor = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+
+	lotr_talatherim = {
 		start_cost_modifier = 0
 		start_level = 0
 	}

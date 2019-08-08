@@ -16,8 +16,12 @@ base_tax = 7
 base_production = 1
 base_manpower = 8
 
-culture = culture_wilderness
-religion = religion_wilderness
+add_core = V66
+owner = V66
+controller = V66
+
+culture = culture_zettan
+religion = religion_eastern_snowmen
 
 trade_goods = naval_supplies
 

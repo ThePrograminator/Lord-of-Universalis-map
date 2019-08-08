@@ -16,8 +16,12 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_wilderness
-religion = religion_wilderness
+add_core = W13
+owner = W13
+controller = W13
+
+culture = culture_nay
+religion = religion_talatherim
 
 trade_goods = grain
 

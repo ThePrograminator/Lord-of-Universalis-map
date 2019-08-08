@@ -757,6 +757,22 @@ religion_group_talatherim = {
 	flags_with_emblem_percentage = 33 # default == 0
 	flag_emblem_index_range = { 1 18 }
 	
+	religion_talatherim = {
+		icon = 1
+		color = { 0.78 0.64 0.47 }
+		
+		country = {
+			stability_cost_modifier = -0.1
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+	
 	religion_ioriags = {
 		icon = 1
 		color = { 0.78 0.64 0.47 }
@@ -824,6 +840,61 @@ religion_group_talatherim = {
 	religion_ahar = {
 		icon = 1
 		color = { 1.00 0.17 0.17 }
+		
+		country = {
+			stability_cost_modifier = -0.1
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+}
+
+religion_group_linerim = {
+	defender_of_faith = no
+	can_form_personal_unions = yes
+	flags_with_emblem_percentage = 33 # default == 0
+	flag_emblem_index_range = { 1 18 }
+	
+	religion_linerim = {
+		icon = 1
+		color = { 0.78 0.64 0.47 }
+		
+		country = {
+			stability_cost_modifier = -0.1
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+	
+	religion_dhilikhran = {
+		icon = 1
+		color = { 0.45 0.07 0.07 }
+		
+		country = {
+			stability_cost_modifier = -0.1
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		fervor = yes
+	}
+	
+	religion_raliani = {
+		icon = 1
+		color = { 1.00 0.82 0.35 }
 		
 		country = {
 			stability_cost_modifier = -0.1

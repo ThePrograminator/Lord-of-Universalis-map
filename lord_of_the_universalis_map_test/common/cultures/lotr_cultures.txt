@@ -7335,6 +7335,54 @@ culture_group_linerim  = {
 		}
 	}
 	
+	culture_jendi = {
+		male_names = {
+			Haldad Haldad Buldar Buldar Hasad Hazad
+			Meriadoc Murdoch Sadoc Sadoc Bledhun Caron Glundur Ilar Ilar Parru Haul Hugh Trehéarn Argel Cada Melfyn Wynfyrdd Sonnagh Lun Hedhwyn Bowen Inyr Siam Báin Bain Séarl Cyrill Luarch
+			Nye Déin Dan Cedyfawr Gethen Cadugan Dai Gethin Hopcun Hopkin Urien Lugdagnir Lugedur Léolyn Fraid Goronu Mabon Mabon Andras Andrew Fawlant Ianto Lyfylla Mawrig Celi Celun Conan Ceri Dylan Dylwyn
+			Tref Yefen John Penrod Sors Taf Wynfawr Nai Mostun Lleu Lug Iwan Owen Arwyl Cyngyn Barri Barry Sufulch Hamon Edmund Lleudd Lug Dafrig Glynn Glen Penlyn Siorus Rioc Bodúan Britou Gwydr Gwydr Lugh Lug
+			Ddraigiog Draxos Cyllin Conan Erp Ogma Ogma Taran Taran Gorbadoc Gorbadoc Macdoc Macdoc Belyn Belyn Segamain Segomo Gofannon Gofannon Goibniu Gofannon
+
+			Áed Hugh Astulph Astulphis Áedán Hugh Áengus Angus Éamonn Edmund Éicnechán Énna Énri Henry Óengus Angus Ólchobar Ailill Ainmere Amalgaid Amlaíb Olaf Ardgar Art Arthur Artgal Artúr Arthur Augaire  
+			Báetán Blathmac Bran Brandon Brandub Brandon Brian Brian Bróen Carlus Charles Cathal Cathalán Cellach Cennétig Cenn-Fáelad Cerball Cináed Kenneth Coirpre Colmán Conall Conchobar Congalach Conn Conan Constantín Constantine
+			Cormac Crimthann Crundmáel Dabíd David Demmán Diarmait Domnall Donald Donnchad Duncan Donncuan Duncan Dúnchad Duncan Dúngal Dúnlaing Eógan Ewan Echmarcach 
+			Fáelán Fáelbe Fergal Fergus Feidlimid Fedlimid Fedlimid Fedlimid Fedelmid Fedlimid Fiachnae Fingen Fionn Finn Fionnsnechtae Flaithbertach Flann Fogartach 
+			Gabrán Gilla-Íosa Gilla-Brígte Gilbert Gilla-Coluim Gilla-Comgáin Gilla-na-Náem Gilla-Pátraic Gilla-Ruad
+			Iacob Jacob Indrechtach Liam William Lóeguire Loingsech Lorcán Lugaid Lugaid Lochlann Máel-Brígte Máel-Ciaráin Máel-Dúin Máel-Íosa Malise 
+			Máel-Máedóc Máel-Martain Máel-Mórda Máel-Pátraic Máel-Ruanaid Máel-Sechlainn Máel-Sechnaill Magnus Magnus Mathgamain Matudán Muirchertach Muiredach Murdoch Murchad 
+			Niall Nigel Pátraic Patrick Pilib Philip Pól Paul Ricard Richard Róen Ruaidrí Roderick Ruarc Seán John Selbach Seoán John Túathal Tadg Tigernán Toirrdelbach Tomás Thomas Ualgarg Ualtar Walter Uilliam William
+
+			Adda Hugh Aeddan Hugh Adwyn Adwyn Alan Alan Alisander Alwyn Anarawd Aneurin Annun Arod Arthfael Arthwr Arthur Arthws Asa Asaph Awst Bangar Bedwyr Bleddyn Brân Brandon Branwaladr
+			Brochfael Brochmael Brwt Bert Brwyn Bryan Brian Brychan Cadell Cadfan Cadoc Cadoc Cadwal Cadwaladr Cadwallon Cadwgan Cai Caid Cain Caradoc Caradoc Casnar Caswallawn Caswallawn
+			Cawdaf Cedig Cedwyn Ceneu Ceredig Coel Custennin Cynan Conan Cynddelw Cynddylan Cynfarch Cynfawr Cynfeddw Cynfelyn Cynfelyn Cynfyn Cynwallon Cynyr
+			Dafydd Deheuwant Deiniol Dewi Dogfael Drystan Edern Ednyfed Ednywain Edwyn Einion Elis Elisedd Elud Elystan Emrys Ewyas Ffilip Philip
+			Ffriog Ffwdwr Fragan Fychan Fyrsil Gamon Geraint Gerallt Goronwy Gronw Gruffydd Gwyn Gwynwynwyn Gwerthefyr Gwerthern Gwidyr Gwilym
+			Gwrgant Hywel Hugh Iago Idwal Iestyn Justin Ieuan Ifor Io Iolo Iorwerth Ithel Llyr Llywarch Llywelyn Macsen Madoc Madoc Mael Maelgwn Maredudd Math Matthew
+			Meilyr Meirion Merfyn Meurig Morgan Morgan Morien Morydd Owain Owen Padern Padrig Patrick Pandoff Pasgen Pawl Paul Pedr Peter Peredyr Pryderi Publig Pwydion Pwyll Pyr
+			Rhainallt Rhicert Rhirid Rhobert Robert Rhodri Roderick Rhun Rhydderch Rhydog Rhys Sawyl Seferus Seisyll Sion Siwauna Steffen Stephen Sulien Tegonwy Tegwyd Teilo
+			Tewdwr Tomos Thomas Trahaearn Tudwal Tudwallon Tydy Tyfodedd Tysilio Ynyr Ysfael
+		}
+		female_names = {
+			Elmar Elmar
+			Nona Eiluned Lleucu Lucia Nia Munfaeril Tafyn Tafin Usbail Elisabeth Fefynn Vivinn Lunwen Morwen Morwen Eres Betrus Beatrice Aneria Almedha Gemma Anwen Ariene Arien
+			Enwys Louri Laura Luned Morn Myfe Maeve Medb Maeve Rhianu Wunne Delwen Blair Bethan Bethany Hefyna Seren Wenda Máelona Idele Gwynna Gaenora Eifiona Eva Rhiain
+			Guladus Siora Siora Gwenaewen Gwenaewen Mandua Amanda Buddug Boudicca Modron Modron
+
+			Áine Agnes Éua Eva Órlaith Úna Aíbinn Affraic Aibilín Aífe Eva Aignes Agnes Ailbhe Alis Alice Annábla Bébinn Ben-Míde Ben-Muman Ben-Ulad Brigid Brigit
+			Cacht Caisséne Caitilín Catherine Cathán Catríona Catherine Crístina Christina Cobflaith Condál Deirdre Derbáil Derborgaill Dervorgilla Der-Lugdach Dubchoclaigh Dub-Dil 
+			Echrad Eilionora Eleanor Fine Finnguala Gormflaith Gormflaith Gormlaith Gormflaith Gráinne   
+			Imag Lann Lasairfíona Lerthan Lucia Lucia Máire Maria Máiread Máirgred Margaret Mór Máel-Muire Mauda Matilda 
+			Nuala Róis Sadb Scáthach Sébdann Seonaid Siobán Sisuile Sláíne Taileflaith 
+
+			Addiena Aelwyd Aeronwen Aeronwy Alys Angharad Annes Anna Annest Annwyl Anowed Arddyn Arianrhod Blodwen Bronwen Catrin Catherine Ceridwen Cerie Cerys
+			Cicely Clarisant Cristin Christina Delyth Denis Dwynwen Dwywai Dyddgu Efa Eva Elaine Elen Elinion Elinor Eleanor Ellyn Enid Essyllt Euronwy Ffelis Ffion Fflur
+			Ffraid Brigit Glynys Gwen Gwenasedd Gwenhwyfar Gwenfrewwi Gwenllian Gwenwyn Gwerfyl Gwladys Haer Hawis Heledd Hellawes Heulwen Hunydd Hywela Ilud Isabel Elisabeth Iseult
+			Llecci Lleigy Lleuca Lucia Lowry Mabyn Maches Madrun Maelrys Mair Maria Mali Mallt Marared Marchell Margred Margaret Marwenna Mawd Matilda Melisant Melisende Morganna Morien
+			Myfanwy Nest Nesta Olwen Owena Prawst Ragnell Rhiainfelt Rhiannon Rhonwen Sannant Sara Sarah Senena Siân Sibyl Sibylla Sioned Joan Siwan Susanna Susana
+			Tangwystl Ysbail Elisabeth
+		}
+	}
+	
 	dynasty_names = {
 		"linerim 1" "linerim 2" "linerim 3" "linerim 4" "linerim 5" "linerim 6" "linerim 7" "linerim 8" "linerim 9"
 	}
@@ -7528,6 +7576,54 @@ culture_group_raliani  = {
 	}
 	
 	culture_rale_cuvian = {
+		male_names = {
+			Haldad Haldad Buldar Buldar Hasad Hazad
+			Meriadoc Murdoch Sadoc Sadoc Bledhun Caron Glundur Ilar Ilar Parru Haul Hugh Trehéarn Argel Cada Melfyn Wynfyrdd Sonnagh Lun Hedhwyn Bowen Inyr Siam Báin Bain Séarl Cyrill Luarch
+			Nye Déin Dan Cedyfawr Gethen Cadugan Dai Gethin Hopcun Hopkin Urien Lugdagnir Lugedur Léolyn Fraid Goronu Mabon Mabon Andras Andrew Fawlant Ianto Lyfylla Mawrig Celi Celun Conan Ceri Dylan Dylwyn
+			Tref Yefen John Penrod Sors Taf Wynfawr Nai Mostun Lleu Lug Iwan Owen Arwyl Cyngyn Barri Barry Sufulch Hamon Edmund Lleudd Lug Dafrig Glynn Glen Penlyn Siorus Rioc Bodúan Britou Gwydr Gwydr Lugh Lug
+			Ddraigiog Draxos Cyllin Conan Erp Ogma Ogma Taran Taran Gorbadoc Gorbadoc Macdoc Macdoc Belyn Belyn Segamain Segomo Gofannon Gofannon Goibniu Gofannon
+
+			Áed Hugh Astulph Astulphis Áedán Hugh Áengus Angus Éamonn Edmund Éicnechán Énna Énri Henry Óengus Angus Ólchobar Ailill Ainmere Amalgaid Amlaíb Olaf Ardgar Art Arthur Artgal Artúr Arthur Augaire  
+			Báetán Blathmac Bran Brandon Brandub Brandon Brian Brian Bróen Carlus Charles Cathal Cathalán Cellach Cennétig Cenn-Fáelad Cerball Cináed Kenneth Coirpre Colmán Conall Conchobar Congalach Conn Conan Constantín Constantine
+			Cormac Crimthann Crundmáel Dabíd David Demmán Diarmait Domnall Donald Donnchad Duncan Donncuan Duncan Dúnchad Duncan Dúngal Dúnlaing Eógan Ewan Echmarcach 
+			Fáelán Fáelbe Fergal Fergus Feidlimid Fedlimid Fedlimid Fedlimid Fedelmid Fedlimid Fiachnae Fingen Fionn Finn Fionnsnechtae Flaithbertach Flann Fogartach 
+			Gabrán Gilla-Íosa Gilla-Brígte Gilbert Gilla-Coluim Gilla-Comgáin Gilla-na-Náem Gilla-Pátraic Gilla-Ruad
+			Iacob Jacob Indrechtach Liam William Lóeguire Loingsech Lorcán Lugaid Lugaid Lochlann Máel-Brígte Máel-Ciaráin Máel-Dúin Máel-Íosa Malise 
+			Máel-Máedóc Máel-Martain Máel-Mórda Máel-Pátraic Máel-Ruanaid Máel-Sechlainn Máel-Sechnaill Magnus Magnus Mathgamain Matudán Muirchertach Muiredach Murdoch Murchad 
+			Niall Nigel Pátraic Patrick Pilib Philip Pól Paul Ricard Richard Róen Ruaidrí Roderick Ruarc Seán John Selbach Seoán John Túathal Tadg Tigernán Toirrdelbach Tomás Thomas Ualgarg Ualtar Walter Uilliam William
+
+			Adda Hugh Aeddan Hugh Adwyn Adwyn Alan Alan Alisander Alwyn Anarawd Aneurin Annun Arod Arthfael Arthwr Arthur Arthws Asa Asaph Awst Bangar Bedwyr Bleddyn Brân Brandon Branwaladr
+			Brochfael Brochmael Brwt Bert Brwyn Bryan Brian Brychan Cadell Cadfan Cadoc Cadoc Cadwal Cadwaladr Cadwallon Cadwgan Cai Caid Cain Caradoc Caradoc Casnar Caswallawn Caswallawn
+			Cawdaf Cedig Cedwyn Ceneu Ceredig Coel Custennin Cynan Conan Cynddelw Cynddylan Cynfarch Cynfawr Cynfeddw Cynfelyn Cynfelyn Cynfyn Cynwallon Cynyr
+			Dafydd Deheuwant Deiniol Dewi Dogfael Drystan Edern Ednyfed Ednywain Edwyn Einion Elis Elisedd Elud Elystan Emrys Ewyas Ffilip Philip
+			Ffriog Ffwdwr Fragan Fychan Fyrsil Gamon Geraint Gerallt Goronwy Gronw Gruffydd Gwyn Gwynwynwyn Gwerthefyr Gwerthern Gwidyr Gwilym
+			Gwrgant Hywel Hugh Iago Idwal Iestyn Justin Ieuan Ifor Io Iolo Iorwerth Ithel Llyr Llywarch Llywelyn Macsen Madoc Madoc Mael Maelgwn Maredudd Math Matthew
+			Meilyr Meirion Merfyn Meurig Morgan Morgan Morien Morydd Owain Owen Padern Padrig Patrick Pandoff Pasgen Pawl Paul Pedr Peter Peredyr Pryderi Publig Pwydion Pwyll Pyr
+			Rhainallt Rhicert Rhirid Rhobert Robert Rhodri Roderick Rhun Rhydderch Rhydog Rhys Sawyl Seferus Seisyll Sion Siwauna Steffen Stephen Sulien Tegonwy Tegwyd Teilo
+			Tewdwr Tomos Thomas Trahaearn Tudwal Tudwallon Tydy Tyfodedd Tysilio Ynyr Ysfael
+		}
+		female_names = {
+			Elmar Elmar
+			Nona Eiluned Lleucu Lucia Nia Munfaeril Tafyn Tafin Usbail Elisabeth Fefynn Vivinn Lunwen Morwen Morwen Eres Betrus Beatrice Aneria Almedha Gemma Anwen Ariene Arien
+			Enwys Louri Laura Luned Morn Myfe Maeve Medb Maeve Rhianu Wunne Delwen Blair Bethan Bethany Hefyna Seren Wenda Máelona Idele Gwynna Gaenora Eifiona Eva Rhiain
+			Guladus Siora Siora Gwenaewen Gwenaewen Mandua Amanda Buddug Boudicca Modron Modron
+
+			Áine Agnes Éua Eva Órlaith Úna Aíbinn Affraic Aibilín Aífe Eva Aignes Agnes Ailbhe Alis Alice Annábla Bébinn Ben-Míde Ben-Muman Ben-Ulad Brigid Brigit
+			Cacht Caisséne Caitilín Catherine Cathán Catríona Catherine Crístina Christina Cobflaith Condál Deirdre Derbáil Derborgaill Dervorgilla Der-Lugdach Dubchoclaigh Dub-Dil 
+			Echrad Eilionora Eleanor Fine Finnguala Gormflaith Gormflaith Gormlaith Gormflaith Gráinne   
+			Imag Lann Lasairfíona Lerthan Lucia Lucia Máire Maria Máiread Máirgred Margaret Mór Máel-Muire Mauda Matilda 
+			Nuala Róis Sadb Scáthach Sébdann Seonaid Siobán Sisuile Sláíne Taileflaith 
+
+			Addiena Aelwyd Aeronwen Aeronwy Alys Angharad Annes Anna Annest Annwyl Anowed Arddyn Arianrhod Blodwen Bronwen Catrin Catherine Ceridwen Cerie Cerys
+			Cicely Clarisant Cristin Christina Delyth Denis Dwynwen Dwywai Dyddgu Efa Eva Elaine Elen Elinion Elinor Eleanor Ellyn Enid Essyllt Euronwy Ffelis Ffion Fflur
+			Ffraid Brigit Glynys Gwen Gwenasedd Gwenhwyfar Gwenfrewwi Gwenllian Gwenwyn Gwerfyl Gwladys Haer Hawis Heledd Hellawes Heulwen Hunydd Hywela Ilud Isabel Elisabeth Iseult
+			Llecci Lleigy Lleuca Lucia Lowry Mabyn Maches Madrun Maelrys Mair Maria Mali Mallt Marared Marchell Margred Margaret Marwenna Mawd Matilda Melisant Melisende Morganna Morien
+			Myfanwy Nest Nesta Olwen Owena Prawst Ragnell Rhiainfelt Rhiannon Rhonwen Sannant Sara Sarah Senena Siân Sibyl Sibylla Sioned Joan Siwan Susanna Susana
+			Tangwystl Ysbail Elisabeth
+		}
+	}
+	
+	culture_ruartari = {
 		male_names = {
 			Haldad Haldad Buldar Buldar Hasad Hazad
 			Meriadoc Murdoch Sadoc Sadoc Bledhun Caron Glundur Ilar Ilar Parru Haul Hugh Trehéarn Argel Cada Melfyn Wynfyrdd Sonnagh Lun Hedhwyn Bowen Inyr Siam Báin Bain Séarl Cyrill Luarch

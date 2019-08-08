@@ -71,3 +71,11 @@ alliance = {
 	start_date = 2758.10.10
 	end_date = 9651.1.1
 }
+
+# Umbar & Mardruak
+alliance = {
+	first = X27
+	second = X43
+	start_date = 2758.1.1
+	end_date = 9651.1.1
+}
