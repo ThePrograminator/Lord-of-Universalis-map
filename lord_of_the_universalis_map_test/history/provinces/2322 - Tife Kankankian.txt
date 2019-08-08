@@ -1,4 +1,21 @@
-#Temp Sea, Free to Replace
+
+is_city = yes
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+add_core = W20
+owner = W20
+controller = W20
+
+culture = culture_tife_kankanian
+religion = religion_raliani
+
+trade_goods = grain
+
+hre = no
+
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
 discovered_by = lotr_black_numenorean

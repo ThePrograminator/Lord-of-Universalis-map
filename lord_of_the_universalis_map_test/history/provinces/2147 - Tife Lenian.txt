@@ -16,8 +16,12 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_wilderness
-religion = religion_wilderness
+add_core = W21
+owner = W21
+controller = W21
+
+culture = culture_tife_lenian
+religion = religion_raliani
 
 trade_goods = grain
 
