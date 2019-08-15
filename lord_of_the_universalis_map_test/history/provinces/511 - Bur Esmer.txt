@@ -12,9 +12,9 @@
 
 is_city = no
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 11
+base_production = 10
+base_manpower = 10
 
 add_core = X58
 owner = X58
@@ -23,9 +23,24 @@ controller = X58
 culture = culture_bellakaze
 religion = religion_sea_peoples
 
-trade_goods = wool
+trade_goods = ivory
 
 hre = no
+
+add_permanent_province_modifier = {
+	name = trade_post_modifier
+	duration = -1
+}
+
+capital_3_building=yes
+trade_depot_building=yes
+bank_building=yes
+stockpile_building=yes	
+foundry_building=yes
+fort_stronghold_building=yes
+garrison_building=yes
+dockyard_building=yes	
+grand_shipyard_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

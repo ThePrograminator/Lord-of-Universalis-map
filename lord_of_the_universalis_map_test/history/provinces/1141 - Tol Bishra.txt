@@ -10,9 +10,9 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-is_city = no
+is_city = yes
 
-base_tax = 2
+base_tax = 3
 base_production = 4
 base_manpower = 5
 
@@ -23,7 +23,7 @@ controller = X47
 culture = culture_etulians
 religion = religion_sea_peoples
 
-trade_goods = cloth
+trade_goods = slaves
 
 hre = no
 

@@ -12,8 +12,8 @@
 
 is_city = yes
 
-base_tax = 10
-base_production = 1
+base_tax = 5
+base_production = 2
 base_manpower = 3
 
 add_core = X39
@@ -23,7 +23,7 @@ controller = X39
 culture = culture_anbalukkhorian
 religion = religion_black_numenorean
 
-trade_goods = grain
+trade_goods = wool
 
 hre = no
 

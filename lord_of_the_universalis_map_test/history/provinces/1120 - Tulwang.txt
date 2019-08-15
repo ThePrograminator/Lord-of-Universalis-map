@@ -10,11 +10,11 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-is_city = no
+is_city = yes
 
 base_tax = 3
 base_production = 4
-base_manpower = 2
+base_manpower = 3
 
 add_core = X46
 owner = X46
@@ -23,7 +23,7 @@ controller = X46
 culture = culture_tulwani
 religion = religion_mornedain
 
-trade_goods = iron
+trade_goods = stone
 
 hre = no
 

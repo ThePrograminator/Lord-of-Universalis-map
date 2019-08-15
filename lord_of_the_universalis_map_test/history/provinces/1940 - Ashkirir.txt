@@ -16,18 +16,16 @@ base_tax = 4
 base_production = 5
 base_manpower = 5
 
-add_core = X90
-owner = X90
-controller = X90
+add_core = V98
+owner = V98
+controller = V98
 
-culture = culture_odhriags
-religion = religion_ioriags
+culture = culture_orkish
+religion = religion_orkish
 
 trade_goods = stone
 
 hre = no
-
-settlement_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

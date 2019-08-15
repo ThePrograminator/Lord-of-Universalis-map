@@ -1,24 +1,12 @@
-# Province ID : 803
-# Province Name : Lôkhurush Vale
-# Province RGB : (249, 135, 82)
-# Province Area : null
-# Province Area : null
-# Province Super Region : null
-# Province Continent : Middle Earth
-# Province Tradenode : null
-# Province Climate : null
-# Province is not Sea/Lake Province
-# Province Contents : 
+is_city = yes
 
-is_city = no
+base_tax = 3
+base_production = 4
+base_manpower = 3
 
-base_tax = 1
-base_production = 3
-base_manpower = 1
-
-add_core = X57
-owner = X57
-controller = X57
+add_core = X55
+owner = X55
+controller = X55
 
 culture = culture_bellakaze
 religion = religion_sea_peoples
@@ -65,4 +53,3 @@ discovered_by = lotr_wizard
 discovered_by = lotr_womarin
 discovered_by = lotr_woses
 discovered_by = lotr_wights
-

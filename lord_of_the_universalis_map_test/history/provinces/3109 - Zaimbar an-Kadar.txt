@@ -1,15 +1,27 @@
 is_city = yes
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 8
+base_production = 8
+base_manpower = 10
 
-culture = culture_wilderness
-religion = religion_wilderness
+add_core = X48
+owner = X48
+controller = X48
 
-trade_goods = grain
+culture = culture_etulians
+religion = religion_sea_peoples
+
+trade_goods = spices
 
 hre = no
+
+fortress_3_building=yes
+trade_outpost_building=yes
+tax_office_building=yes
+foundry_building=yes
+fort_castle_building=yes
+garrison_building=yes
+grand_shipyard_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

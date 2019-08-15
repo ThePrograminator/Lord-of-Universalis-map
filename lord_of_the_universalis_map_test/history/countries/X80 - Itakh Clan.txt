@@ -4,4 +4,11 @@ add_government_reform = khaganate_ruler_reform
 primary_culture = culture_variags
 religion = religion_ioriags
 technology_group = lotr_easterling 
-capital = 517
+capital = 443
+
+historical_friend = X21
+historical_friend = X77
+historical_rival = X20
+historical_rival = X85
+historical_rival = X88
+historical_rival = X86 

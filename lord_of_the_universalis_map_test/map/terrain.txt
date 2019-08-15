@@ -321,7 +321,7 @@ categories =  {
 		local_defensiveness = 0.50
 		
 		terrain_override = {
-
+			413
 		}
 	}
 	
@@ -336,7 +336,7 @@ categories =  {
 		local_defensiveness = 0.25
 		
 		terrain_override = {
-
+			419 418
 		}
 	}
 	
@@ -350,7 +350,7 @@ categories =  {
 		local_defensiveness = 0
 		
 		terrain_override = {
-
+			661
 		}
 	}
 	
@@ -365,7 +365,7 @@ categories =  {
 		local_defensiveness = 0
 		
 		terrain_override = {
-
+			322
 		}
 	}
 	
@@ -380,7 +380,7 @@ categories =  {
 		local_defensiveness = 0.25
 		
 		terrain_override = {
-
+			641
 		}
 	}
 	
@@ -396,7 +396,7 @@ categories =  {
 		local_defensiveness = 0.50
 		
 		terrain_override = {
-
+			417
 		}
 	}
 	
@@ -428,7 +428,7 @@ categories =  {
 		local_defensiveness = 0
 		
 		terrain_override = {
-
+			271
 		}
 	}
 	
@@ -443,7 +443,7 @@ categories =  {
 		local_defensiveness = 0
 		
 		terrain_override = {
-
+			420
 		}
 	}
 	
@@ -458,7 +458,7 @@ categories =  {
 		local_defensiveness = 0
 		
 		terrain_override = {
-
+			360
 		}
 	}
 	
@@ -488,7 +488,7 @@ categories =  {
 		local_defensiveness = 0
 		
 		terrain_override = {
-
+			13
 		}
 	}
 	
@@ -503,7 +503,7 @@ categories =  {
 		local_defensiveness = 0
 		
 		terrain_override = {
-
+			1939
 		}
 	}
 	
@@ -518,7 +518,7 @@ categories =  {
 		local_defensiveness = 0
 		
 		terrain_override = {
-
+			1045
 		}
 	}
 	
@@ -533,7 +533,7 @@ categories =  {
 		local_defensiveness = 0
 		
 		terrain_override = {
-
+			276
 		}
 	}
 	
@@ -553,7 +553,7 @@ categories =  {
 		local_defensiveness = 0.50
 		
 		terrain_override = {
-
+			147
 		}
 	}
 	
@@ -569,7 +569,7 @@ categories =  {
 		local_defensiveness = 0.50
 		
 		terrain_override = {
-
+			675
 		}
 	}
 	
@@ -584,7 +584,7 @@ categories =  {
 		local_defensiveness = 0.50
 		
 		terrain_override = {
-
+			639
 		}
 	}
 	
@@ -616,7 +616,7 @@ categories =  {
 		local_defensiveness = 0.25
 		
 		terrain_override = {
-
+			148
 		}
 	}
 	
@@ -632,7 +632,7 @@ categories =  {
 		local_defensiveness = 0.25
 		
 		terrain_override = {
-
+			1006 1750
 		}
 	}
 	
@@ -651,7 +651,7 @@ categories =  {
 		local_defensiveness = 0.35
 		
 		terrain_override = {
-
+			121
 		}
 	}
 	
@@ -666,7 +666,7 @@ categories =  {
 		local_defensiveness = 0.15
 		
 		terrain_override = {
-
+			114
 		}
 	}
 	
@@ -681,7 +681,7 @@ categories =  {
 		local_defensiveness = 0.15
 		
 		terrain_override = {
-
+			223
 		}
 	}
 	
@@ -711,7 +711,7 @@ categories =  {
 		local_defensiveness = 0
 		
 		terrain_override = {
-
+			744
 		}
 	}
 	
@@ -731,7 +731,7 @@ categories =  {
 		local_defensiveness = 0.25
 		
 		terrain_override = {
-
+			304
 		}
 	}
 	
@@ -746,7 +746,7 @@ categories =  {
 		local_defensiveness = 0.50
 		
 		terrain_override = {
-
+			287
 		}
 	}
 	
@@ -761,7 +761,7 @@ categories =  {
 		local_defensiveness = 0.10
 		
 		terrain_override = {
-
+			527
 		}
 	}
 	
@@ -776,7 +776,7 @@ categories =  {
 		local_defensiveness = 0.10
 		
 		terrain_override = {
-
+			528
 		}
 	}
 	
@@ -791,7 +791,7 @@ categories =  {
 		local_defensiveness = 0.15
 		
 		terrain_override = {
-
+			232
 		}
 	}
 	
@@ -806,7 +806,7 @@ categories =  {
 		local_defensiveness = 0
 		
 		terrain_override = {
-
+			83
 		}
 	}
 	
@@ -822,7 +822,7 @@ categories =  {
 		local_defensiveness = 0.5
 		
 		terrain_override = {
-
+			740
 		}
 	}
 	
@@ -837,7 +837,7 @@ categories =  {
 		local_defensiveness = 0.25
 		
 		terrain_override = {
-
+			421
 		}
 	}
 	
@@ -853,7 +853,7 @@ categories =  {
 		local_defensiveness = 0
 		
 		terrain_override = {
-
+			64 188 1042 70 279
 		}
 	}
 	
@@ -883,7 +883,7 @@ categories =  {
 		local_defensiveness = 0.10
 		
 		terrain_override = {
-
+			316
 		}
 	}
 	
@@ -899,7 +899,7 @@ categories =  {
 		local_defensiveness = 0.25
 		
 		terrain_override = {
-
+			628
 		}
 	}
 	
@@ -915,7 +915,7 @@ categories =  {
 		local_defensiveness = 0.10
 		
 		terrain_override = {
-		
+			558
 		}
 	}
 	
@@ -930,7 +930,7 @@ categories =  {
 		local_defensiveness = 0.25
 		
 		terrain_override = {
-
+			642
 		}
 	}
 	
@@ -946,7 +946,7 @@ categories =  {
 		local_defensiveness = 0.25
 		
 		terrain_override = {
-
+			727
 		}
 	}
 	
@@ -976,7 +976,7 @@ categories =  {
 		local_defensiveness = 0
 		
 		terrain_override = {
-
+			263
 		}
 	}
 	
@@ -991,7 +991,7 @@ categories =  {
 		local_defensiveness = 0.25
 		
 		terrain_override = {
-
+			610
 		}
 	}
 	

@@ -12,9 +12,9 @@
 
 is_city = no
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 3
+base_production = 4
+base_manpower = 3
 
 add_core = X59
 owner = X59
@@ -23,9 +23,12 @@ controller = X59
 culture = culture_bellakaze
 religion = religion_sea_peoples
 
-trade_goods = wool
+trade_goods = fish
 
 hre = no
+
+settlement_building=yes
+work_camp_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

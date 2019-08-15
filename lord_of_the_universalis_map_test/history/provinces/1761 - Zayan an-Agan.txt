@@ -13,17 +13,17 @@
 is_city = no
 
 base_tax = 2
-base_production = 2
-base_manpower = 1
+base_production = 3
+base_manpower = 2
 
-add_core = X53
-owner = X53
-controller = X53
+add_core = X34
+owner = X34
+controller = X34
 
 culture = culture_bellakaze
 religion = religion_sea_peoples
 
-trade_goods = grain
+trade_goods = copper
 
 hre = no
 

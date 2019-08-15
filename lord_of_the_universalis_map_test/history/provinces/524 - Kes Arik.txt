@@ -12,9 +12,9 @@
 
 is_city = no
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 2
+base_production = 3
+base_manpower = 3
 
 add_core = X34
 owner = X34
@@ -23,7 +23,7 @@ controller = X34
 culture = culture_tedjin
 religion = religion_chailuza
 
-trade_goods = wool
+trade_goods = stone
 
 hre = no
 

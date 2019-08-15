@@ -1,7 +1,7 @@
 #Country Name: Please see filename.
 graphical_culture = africangfx
 
-color = { 0 125 15 }
+color = { 5 40 5 }
 
 historical_idea_groups = {
 	offensive_ideas

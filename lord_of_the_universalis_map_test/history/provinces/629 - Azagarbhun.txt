@@ -12,9 +12,9 @@
 
 is_city = yes
 
-base_tax = 3
-base_production = 7
-base_manpower = 5
+base_tax = 8
+base_production = 8
+base_manpower = 8
 
 add_core = Y19
 owner = Y19
@@ -26,6 +26,13 @@ religion = religion_mahal
 trade_goods = gems
 
 hre = no
+
+hold_2_dwarf_building=yes
+fairground_dwarf_building=yes
+forge_dwarf_building=yes
+training_hall_dwarf_building=yes
+mining_network_dwarf_building=yes
+narrow_bridge_dwarf_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

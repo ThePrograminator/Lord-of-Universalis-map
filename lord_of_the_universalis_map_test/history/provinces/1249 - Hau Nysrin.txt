@@ -23,9 +23,22 @@ controller = Y78
 culture = culture_hwanin
 religion = religion_umanyar
 
-trade_goods = grain
+trade_goods = tropical_wood
 
 hre = no
+
+capital_3_elf_building=yes
+craftsmen_plaza_elf_building=yes
+theatre_elf_building=yes
+elven_forge_elf_building=yes
+heros_shrine_building=yes	
+grand_stables_elf_building=yes
+fort_high_walls_elf_building=yes
+moat_elf_building=yes
+mallorn_tree_elf_building=yes
+statue_of_the_elders_elf_building=yes
+mirror_fountain_elf_building=yes
+
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

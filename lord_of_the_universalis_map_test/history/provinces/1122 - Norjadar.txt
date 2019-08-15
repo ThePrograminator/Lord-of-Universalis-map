@@ -10,11 +10,11 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-is_city = no
+is_city = yes
 
 base_tax = 10
-base_production = 8
-base_manpower = 9
+base_production = 9
+base_manpower = 12
 
 add_core = X46
 owner = X46
@@ -23,9 +23,24 @@ controller = X46
 culture = culture_tulwani
 religion = religion_mornedain
 
-trade_goods = naval_supplies
+trade_goods = spices
 
 hre = no
+
+add_permanent_province_modifier = {
+	name = trade_post_modifier
+	duration = -1
+}
+
+capital_3_building=yes
+forum_building=yes
+bank_building=yes
+stockpile_building=yes			
+foundry_building=yes
+fort_castle_building=yes
+garrison_building=yes
+dockyard_building=yes			
+grand_shipyard_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

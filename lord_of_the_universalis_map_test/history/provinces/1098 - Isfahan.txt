@@ -10,7 +10,7 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-is_city = no
+is_city = yes
 
 base_tax = 4
 base_production = 4
@@ -26,6 +26,10 @@ religion = religion_apysani_beduins
 trade_goods = stone
 
 hre = no
+
+settlement_building=yes
+work_camp_building=yes
+outpost_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

@@ -1,15 +1,26 @@
 is_city = yes
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 8
+base_production = 8
+base_manpower = 8
 
-culture = culture_wilderness
-religion = religion_wilderness
+add_core = X75
+owner = X75
+controller = X75
 
-trade_goods = grain
+culture = culture_cly
+religion = religion_chailuza
+
+trade_goods = iron
 
 hre = no
+
+fortress_3_building=yes
+marketplace_building=yes
+tax_office_building=yes
+foundry_building=yes
+fort_castle_building=yes
+garrison_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

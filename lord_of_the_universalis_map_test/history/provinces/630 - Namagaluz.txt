@@ -12,9 +12,9 @@
 
 is_city = yes
 
-base_tax = 7
-base_production = 5
-base_manpower = 5
+base_tax = 10
+base_production = 10
+base_manpower = 11
 
 add_core = Y19
 owner = Y19
@@ -23,9 +23,21 @@ controller = Y19
 culture = culture_ironfist
 religion = religion_mahal
 
-trade_goods = dyes
+trade_goods = silver
 
 hre = no
+
+capital_3_dwarf_building=yes
+great_market_dwarf_building=yes
+arsenal_dwarf_building=yes
+smithies_guild_building=yes
+acadamy_dwarf_building=yes
+advisor_guild_dwarf_building=yes
+hall_of_warriors_dwarf_building=yes
+warriors_guild_dwarf_building=yes
+materials_depot_building=yes
+fort_mountain_fortress_dwarf_building=yes
+ballista_towers_dwarf_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

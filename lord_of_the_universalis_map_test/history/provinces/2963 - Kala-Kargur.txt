@@ -1,8 +1,8 @@
 is_city = yes
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 8
+base_production = 8
+base_manpower = 9
 
 add_core = V91
 owner = V91
@@ -11,9 +11,18 @@ controller = V91
 culture = culture_goblin
 religion = religion_goblin
 
-trade_goods = grain
+trade_goods = iron
 
 hre = no
+
+capital_2_orc_building=yes
+treasure_trove_orc_building=yes
+overseer_station_orc_building=yes
+metal_works_orc_building=yes
+orc_fissure_orc_building=yes
+workshop_orc_building=yes
+fort_wooden_walls_orc_building=yes
+large_arena_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

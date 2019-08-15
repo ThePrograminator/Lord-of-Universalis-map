@@ -12,9 +12,9 @@
 
 is_city = yes
 
-base_tax = 10
-base_production = 10
-base_manpower = 2
+base_tax = 6
+base_production = 6
+base_manpower = 7
 
 add_core = Y41
 owner = Y41
@@ -23,9 +23,17 @@ controller = Y41
 culture = culture_orkish
 religion = religion_orkish
 
-trade_goods = gold
+trade_goods = fur
 
 hre = no
+
+encampment_3_orc_building=yes
+treasure_trove_orc_building=yes
+overseer_tower_orc_building=yes
+dark_iron_forge_orc_building=yes
+orc_pit_orc_building=yes
+warg_pit_orc_building=yes
+large_arena_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

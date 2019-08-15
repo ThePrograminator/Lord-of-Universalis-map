@@ -10,11 +10,11 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-is_city = no
+is_city = yes
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 13
+base_production = 13
+base_manpower = 14
 
 add_core = X56
 owner = X56
@@ -23,9 +23,17 @@ controller = X56
 culture = culture_bellakaze
 religion = religion_sea_peoples
 
-trade_goods = stone
+trade_goods = marble
 
 hre = no
+
+capital_3_building=yes
+marketplace_building=yes
+bank_building=yes
+stockpile_building=yes	
+foundry_building=yes
+fort_citidal_building=yes
+garrison_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

@@ -23,7 +23,7 @@ controller = X37
 culture = culture_covshek-pust
 religion = religion_apysani_beduins
 
-trade_goods = herbs
+trade_goods = stone
 
 hre = no
 

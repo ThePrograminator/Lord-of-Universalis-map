@@ -1,8 +1,8 @@
 is_city = yes
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 4
+base_production = 4
+base_manpower = 4
 
 add_core = V91
 owner = V91
@@ -11,7 +11,7 @@ controller = V91
 culture = culture_goblin
 religion = religion_goblin
 
-trade_goods = grain
+trade_goods = copper
 
 hre = no
 

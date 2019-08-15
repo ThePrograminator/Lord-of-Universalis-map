@@ -1,13 +1,17 @@
 is_city = yes
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 4
+base_production = 5
+base_manpower = 4
 
-culture = culture_wilderness
-religion = religion_wilderness
+add_core = Y17
+owner = Y17
+controller = Y17
 
-trade_goods = grain
+culture = culture_firebeard
+religion = religion_mahal
+
+trade_goods = iron
 
 hre = no
 

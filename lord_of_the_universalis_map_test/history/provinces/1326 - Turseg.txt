@@ -10,7 +10,7 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-is_city = no
+is_city = yes
 
 base_tax = 4
 base_production = 7
@@ -23,9 +23,17 @@ controller = X32
 culture = culture_quarsag
 religion = religion_apysani_beduins
 
-trade_goods = iron
+trade_goods = glass
 
 hre = no
+
+capital_1_building=yes
+marketplace_building=yes
+tax_office_building=yes
+workshop_building=yes
+fort_pallisade_building=yes
+army_camp_building=yes
+
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

@@ -10,7 +10,7 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-is_city = no
+is_city = yes
 
 base_tax = 6
 base_production = 7
@@ -27,9 +27,13 @@ trade_goods = glass
 
 hre = no
 
-army_camp_building=yes
-
-tax_office_building=yes
+capital_3_building=yes
+forum_building=yes
+stockpile_building=yes
+bank_building=yes
+foundry_building=yes
+fort_castle_building=yes
+garrison_building=yes
 
 center_of_trade = 2
 

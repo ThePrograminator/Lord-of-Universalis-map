@@ -12,7 +12,7 @@
 
 is_city = no
 
-base_tax = 5
+base_tax = 2
 base_production = 3
 base_manpower = 2
 
@@ -26,6 +26,8 @@ religion = religion_apysani_beduins
 trade_goods = silk
 
 hre = no
+
+center_of_trade = 1
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

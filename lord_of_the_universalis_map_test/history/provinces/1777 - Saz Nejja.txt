@@ -12,9 +12,9 @@
 
 is_city = no
 
-base_tax = 3
-base_production = 3
-base_manpower = 3
+base_tax = 6
+base_production = 5
+base_manpower = 5
 
 add_core = X52
 owner = X52
@@ -23,9 +23,15 @@ controller = X52
 culture = culture_bellakaze
 religion = religion_sea_peoples
 
-trade_goods = cloth
+trade_goods = paper
 
 hre = no
+
+city_1_building=yes
+dock_building=yes
+trade_outpost_building=yes
+temple_building=yes
+outpost_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

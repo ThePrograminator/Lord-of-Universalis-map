@@ -10,11 +10,11 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-is_city = no
+is_city = yes
 
-base_tax = 1
-base_production = 2
-base_manpower = 1
+base_tax = 9
+base_production = 10
+base_manpower = 10
 
 add_core = X47
 owner = X47
@@ -23,9 +23,17 @@ controller = X47
 culture = culture_etulians
 religion = religion_sea_peoples
 
-trade_goods = wool
+trade_goods = salt
 
 hre = no
+
+city_3_building=yes
+forum_building=yes
+bank_building=yes
+stockpile_building=yes
+fort_pallisade_building=yes
+army_camp_building=yes
+dockyard_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

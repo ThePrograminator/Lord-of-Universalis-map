@@ -10,7 +10,7 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-is_city = no
+is_city = yes
 
 base_tax = 7
 base_production = 6
@@ -26,6 +26,18 @@ religion = religion_sea_peoples
 trade_goods = naval supplies
 
 hre = no
+
+add_permanent_province_modifier = {
+	name = trade_post_modifier
+	duration = -1
+}
+
+city_2_building=yes
+marketplace_building=yes
+provincial_office_building=yes
+warehouse_building=yes
+army_camp_building=yes
+seaport_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

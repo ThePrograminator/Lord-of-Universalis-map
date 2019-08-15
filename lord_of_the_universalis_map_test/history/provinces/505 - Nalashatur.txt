@@ -12,9 +12,9 @@
 
 is_city = yes
 
-base_tax = 2
-base_production = 4
-base_manpower = 2
+base_tax = 10
+base_production = 12
+base_manpower = 12
 
 add_core = Y17
 owner = Y17
@@ -23,9 +23,22 @@ controller = Y17
 culture = culture_firebeard
 religion = religion_mahal
 
-trade_goods = salt
+trade_goods = silver
 
 hre = no
+
+capital_3_dwarf_building=yes
+great_market_dwarf_building=yes
+traders_guild_building=yes
+arsenal_dwarf_building=yes
+smithies_guild_building=yes
+acadamy_dwarf_building=yes
+hall_of_warriors_dwarf_building=yes
+warriors_guild_dwarf_building=yes
+materials_depot_building=yes
+miners_guild_dwarf_building=yes
+fort_mountain_fortress_dwarf_building=yes
+ballista_towers_dwarf_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

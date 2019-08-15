@@ -11,7 +11,7 @@ controller = X39
 culture = culture_anbalukkhorian
 religion = religion_black_numenorean
 
-trade_goods = iron
+trade_goods = silver
 
 hre = no
 

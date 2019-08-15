@@ -1,15 +1,25 @@
 is_city = yes
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 3
+base_production = 4
+base_manpower = 4
 
-culture = culture_wilderness
-religion = religion_wilderness
+add_core = X44
+owner = X44
+controller = X44
+
+culture = culture_bellakarani
+religion = religion_black_numenorean
 
 trade_goods = grain
 
 hre = no
+
+settlement_building=yes
+trade_outpost_building=yes
+temple_building=yes
+work_camp_building=yes
+outpost_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

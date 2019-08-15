@@ -12,9 +12,9 @@
 
 is_city = no
 
-base_tax = 1
+base_tax = 3
 base_production = 3
-base_manpower = 2
+base_manpower = 4
 
 add_core = X53
 owner = X53
@@ -23,7 +23,7 @@ controller = X53
 culture = culture_bellakaze
 religion = religion_sea_peoples
 
-trade_goods = wine
+trade_goods = fish
 
 hre = no
 

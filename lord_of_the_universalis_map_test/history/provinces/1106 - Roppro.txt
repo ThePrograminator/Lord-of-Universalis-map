@@ -10,7 +10,7 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-is_city = no
+is_city = yes
 
 base_tax = 8
 base_production = 8
@@ -23,9 +23,17 @@ controller = X51
 culture = culture_sorijans
 religion = religion_sea_peoples
 
-trade_goods = fur
+trade_goods = naval_supplies
 
 hre = no
+
+fortress_3_building=yes
+marketplace_building=yes
+tax_office_building=yes
+foundry_building=yes
+fort_castle_building=yes
+garrison_building=yes
+grand_shipyard_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

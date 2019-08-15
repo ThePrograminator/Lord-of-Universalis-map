@@ -10,11 +10,11 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-is_city = no
+is_city = yes
 
-base_tax = 1
-base_production = 3
-base_manpower = 2
+base_tax = 5
+base_production = 5
+base_manpower = 6
 
 add_core = X60
 owner = X60
@@ -26,6 +26,12 @@ religion = religion_sea_peoples
 trade_goods = grain
 
 hre = no
+
+city_2_building=yes
+army_camp_building=yes
+workshop_building=yes
+tax_office_building=yes
+marketplace_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

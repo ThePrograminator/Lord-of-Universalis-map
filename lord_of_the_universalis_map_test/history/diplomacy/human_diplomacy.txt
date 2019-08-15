@@ -79,3 +79,55 @@ alliance = {
 	start_date = 2758.1.1
 	end_date = 9651.1.1
 }
+
+# Beornings of Anduin & Beiabarnae
+march = {
+	first = Z01
+	second = V21
+	start_date = 2758.1.1
+	end_date = 3500.1.1
+}
+
+# Beornings of Anduin & Beornings of Grey Foothills
+vassal = {
+	first = Z01
+	second = Y99
+	start_date = 2758.1.1
+	end_date = 9651.1.1
+}
+
+# Beornings of Anduin & Woodsmen
+alliance = {
+	first = Z01
+	second = Z04
+	start_date = 2758.1.1
+	end_date = 9651.1.1
+}
+# Beornings of Anduin & Dale
+alliance = {
+	first = Z01
+	second = Y94
+	start_date = 2758.1.1
+	end_date = 9651.1.1
+}
+# Beornings of Anduin & Maethelburg
+alliance = {
+	first = Z01
+	second = Y92
+	start_date = 2758.1.1
+	end_date = 9651.1.1
+}
+# Woodsmen & Maethelburg
+alliance = {
+	first = Z04
+	second = Y92
+	start_date = 2758.1.1
+	end_date = 9651.1.1
+}
+# Woodsmen & Dale
+alliance = {
+	first = Z04
+	second = Y94
+	start_date = 2758.1.1
+	end_date = 9651.1.1
+}

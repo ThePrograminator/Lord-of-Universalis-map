@@ -12,20 +12,23 @@
 
 is_city = yes
 
-base_tax = 1
-base_production = 3
-base_manpower = 1
+base_tax = 4
+base_production = 4
+base_manpower = 4
 
 add_core = Y78
+add_core = X56
 owner = Y78
 controller = Y78
 
 culture = culture_hwanin
 religion = religion_umanyar
 
-trade_goods = copper
+trade_goods = iron
 
 hre = no
+
+noble_residence_elf_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

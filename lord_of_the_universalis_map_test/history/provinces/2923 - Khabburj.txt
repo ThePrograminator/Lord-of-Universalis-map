@@ -1,8 +1,8 @@
 is_city = yes
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 7
+base_production = 7
+base_manpower = 9
 
 add_core = V94
 owner = V94
@@ -11,9 +11,19 @@ controller = V94
 culture = culture_wight
 religion = religion_wight
 
-trade_goods = grain
+trade_goods = iron
 
 hre = no
+
+fortress_3_orc_building=yes
+overseer_station_orc_building=yes
+metal_works_orc_building=yes
+army_garrison_orc_building=yes
+warg_arena_orc_building=yes
+great_siege_works_orc_building=yes
+fort_orc_stronghold_orc_building=yes
+small_arena_building=yes
+tortur_chambers_orc_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

@@ -1,15 +1,25 @@
 is_city = yes
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 5
+base_production = 5
+base_manpower = 6
 
-culture = culture_wilderness
-religion = religion_wilderness
+add_core = X46
+owner = X46
+controller = X46
 
-trade_goods = grain
+culture = culture_tulwani
+religion = religion_mornedain
+
+trade_goods = iron
 
 hre = no
+
+fortress_3_building=yes
+foundry_building=yes
+fort_castle_building=yes
+garrison_building=yes
+tax_office_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

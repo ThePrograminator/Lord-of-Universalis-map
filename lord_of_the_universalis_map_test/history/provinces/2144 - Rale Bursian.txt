@@ -16,12 +16,8 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-add_core = W18
-owner = W18
-controller = W18
-
-culture = culture_rale_bursian
-religion = religion_raliani
+culture = culture_wilderness
+religion = religion_wilderness
 
 trade_goods = grain
 

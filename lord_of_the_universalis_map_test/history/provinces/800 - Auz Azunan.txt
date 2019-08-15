@@ -10,7 +10,7 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-is_city = no
+is_city = yes
 
 base_tax = 2
 base_production = 6
@@ -23,7 +23,7 @@ controller = Y87
 culture = culture_honnin
 religion = religion_drughu
 
-trade_goods = silk
+trade_goods = iron
 
 hre = no
 

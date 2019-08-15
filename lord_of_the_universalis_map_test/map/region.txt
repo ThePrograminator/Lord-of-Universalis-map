@@ -401,6 +401,32 @@ breeland_region = {
 	}
 }
 
+angmar_region = {
+	areas = {
+		carn_dum_area
+		nan_angmar_area
+		mount_gram_area
+		shedun_area
+		angsul_area
+		morkai_area
+		phaluran_area
+		angirith_area
+		rist_angsiril_area
+		gram_foothills_area
+		emyn_angmar_area
+	}
+}
+
+#---------------------------
+# Forodwaith (Northern waste)                          
+#---------------------------
+
+forodwaith_region = {
+	areas = {
+	forodwaith_area
+	}
+}
+
 #---------------------------
 # Near Harad (Haradwaith)                          
 #---------------------------
@@ -566,6 +592,22 @@ rhun_region = {
 }
 
 #---------------------------
+# Logathavuld                  
+#---------------------------
+
+logathavuld_region = {
+	areas = {
+		gazar_narkad_area
+		gazar_barak_area
+		gazar_gord_area
+		gazar_ibar_area
+		gazar_utal_area
+		kardavan_area
+		shrel_arkasa_area
+	}
+}
+
+#---------------------------
 # Bellakar                           
 #---------------------------
 
@@ -644,5 +686,45 @@ thani_hazad_region = {
 		an_adun_area
 		an_kharadun_area
 		ciryatandor_area
+	}
+}
+
+#---------------------------
+# Chy                  
+#---------------------------
+
+clyan_region = {
+	areas = {
+		clyan_area
+		sarhad_area
+	}
+}
+
+chy_region = {
+	areas = {
+	chy_area
+	pelepelplu_area
+	ammu_baj_area
+	lhud_area
+	thrizafan_area
+	nhordad_area
+	jelhad_area
+	mijore_area
+	}
+}
+lodenuly_region = {
+	areas = {
+		chaman_area
+		lodenuly_area
+	}
+}
+bulchyades_region = {
+	areas = {
+	bulchyaden_marshes_area
+	delkhush_hills_area
+	samarth_area
+	bulchyades_area
+	jorash_area
+	kantilya_area
 	}
 }

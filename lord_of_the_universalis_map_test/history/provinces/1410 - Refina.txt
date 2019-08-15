@@ -10,9 +10,9 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-is_city = no
+is_city = yes
 
-base_tax = 10
+base_tax = 6
 base_production = 5
 base_manpower = 6
 
@@ -26,6 +26,12 @@ religion = religion_sea_peoples
 trade_goods = wine
 
 hre = no
+
+city_2_building=yes
+marketplace_building=yes
+tax_office_building=yes
+warehouse_building=yes	
+army_camp_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

@@ -10,7 +10,7 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-is_city = no
+is_city = yes
 
 base_tax = 5
 base_production = 3
@@ -23,9 +23,12 @@ controller = X75
 culture = culture_cly
 religion = religion_chailuza
 
-trade_goods = wine
+trade_goods = copper
 
 hre = no
+
+settlement_building=yes
+outpost_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

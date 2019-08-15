@@ -13,7 +13,7 @@
 is_city = no
 
 base_tax = 2
-base_production = 2
+base_production = 3
 base_manpower = 2
 
 add_core = X32
@@ -23,9 +23,13 @@ controller = X32
 culture = culture_quarsag
 religion = religion_apysani_beduins
 
-trade_goods = grain
+trade_goods = marble
 
 hre = no
+
+settlement_building=yes
+work_camp_building=yes
+outpost_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

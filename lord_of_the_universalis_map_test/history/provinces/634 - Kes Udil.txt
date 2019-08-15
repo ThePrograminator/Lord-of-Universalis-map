@@ -12,8 +12,8 @@
 
 is_city = no
 
-base_tax = 2
-base_production = 4
+base_tax = 3
+base_production = 5
 base_manpower = 2
 
 add_core = X34
@@ -26,6 +26,9 @@ religion = religion_chailuza
 trade_goods = livestock
 
 hre = no
+
+settlement_building=yes
+outpost_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

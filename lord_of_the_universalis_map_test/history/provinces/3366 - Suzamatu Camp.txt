@@ -1,15 +1,24 @@
 is_city = yes
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 3
+base_production = 5
+base_manpower = 5
 
-culture = culture_wilderness
-religion = religion_wilderness
+add_core = Y87
+owner = Y87
+controller = Y87
 
-trade_goods = grain
+culture = culture_honnin
+religion = religion_drughu
+
+trade_goods = tropical_wood
 
 hre = no
+
+fortress_1_building=yes
+fort_pallisade_building=yes
+army_camp_building=yes
+work_camp_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

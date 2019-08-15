@@ -11,6 +11,7 @@ government_rank = 1
 historical_friend = X16
 historical_friend = Z05
 historical_friend = V25
+historical_friend = Z05
 historical_friend = V30
 historical_friend = Y18
 historical_rival = Y48

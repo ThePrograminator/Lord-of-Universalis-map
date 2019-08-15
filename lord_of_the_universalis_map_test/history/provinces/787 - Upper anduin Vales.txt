@@ -10,13 +10,13 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-base_tax = 2
+base_tax = 3
 base_production = 3
 base_manpower = 3
 
-add_core = Y99
-owner = Y99
-controller = Y99
+add_core = Z01
+owner = Z01
+controller = Z01
 
 culture = culture_beornings
 religion = religion_nenedain

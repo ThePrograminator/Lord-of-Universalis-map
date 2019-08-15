@@ -1,15 +1,24 @@
 is_city = yes
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 4
+base_production = 4
+base_manpower = 4
 
-culture = culture_wilderness
-religion = religion_wilderness
+add_core = X58
+owner = X58
+controller = X58
 
-trade_goods = grain
+culture = culture_bellakaze
+religion = religion_sea_peoples
+
+trade_goods = naval_supplies
 
 hre = no
+
+settlement_building=yes
+port_building=yes
+outpost_building=yes
+work_camp_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

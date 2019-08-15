@@ -12,9 +12,9 @@
 
 is_city = no
 
-base_tax = 7
-base_production = 9
-base_manpower = 9
+base_tax = 2
+base_production = 3
+base_manpower = 2
 
 add_core = X37
 owner = X37
@@ -23,9 +23,11 @@ controller = X37
 culture = culture_covshek-pust
 religion = religion_apysani_beduins
 
-trade_goods = naval_supplies
+trade_goods = silk
 
 hre = no
+
+center_of_trade = 1
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

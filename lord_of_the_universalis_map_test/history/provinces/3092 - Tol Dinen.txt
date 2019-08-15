@@ -1,13 +1,17 @@
 is_city = yes
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 2
+base_production = 5
+base_manpower = 3
 
-culture = culture_wilderness
-religion = religion_wilderness
+add_core = X58
+owner = X58
+controller = X58
 
-trade_goods = grain
+culture = culture_bellakaze
+religion = religion_sea_peoples
+
+trade_goods = slaves
 
 hre = no
 

@@ -14,7 +14,7 @@ is_city = no
 
 base_tax = 2
 base_production = 3
-base_manpower = 1
+base_manpower = 4
 
 add_core = X54
 owner = X54
@@ -23,7 +23,7 @@ controller = X54
 culture = culture_bellakaze
 religion = religion_sea_peoples
 
-trade_goods = salt
+trade_goods = iron
 
 hre = no
 

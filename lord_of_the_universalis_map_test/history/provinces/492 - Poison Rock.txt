@@ -12,9 +12,9 @@
 
 is_city = yes
 
-base_tax = 2
-base_production = 1
-base_manpower = 3
+base_tax = 3
+base_production = 3
+base_manpower = 5
 
 add_core = Y40
 owner = Y40
@@ -23,9 +23,12 @@ controller = Y40
 culture = culture_orkish
 religion = religion_orkish
 
-trade_goods = cloth
+trade_goods = salt
 
 hre = no
+
+encampment_1_orc_building=yes
+orc_pit_orc_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

@@ -12,9 +12,9 @@
 
 is_city = yes
 
-base_tax = 9
-base_production = 5
-base_manpower = 9
+base_tax = 2
+base_production = 4
+base_manpower = 3
 
 add_core = X44
 owner = X44
@@ -23,9 +23,12 @@ controller = X44
 culture = culture_bellakarani
 religion = religion_black_numenorean
 
-trade_goods = wool
+trade_goods = fish
 
 hre = no
+
+settlement_building=yes
+port_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

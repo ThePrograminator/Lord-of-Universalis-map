@@ -23,9 +23,13 @@ controller = X32
 culture = culture_quarsag
 religion = religion_apysani_beduins
 
-trade_goods = grain
+trade_goods = stone
 
 hre = no
+
+settlement_building=yes
+work_camp_building=yes
+outpost_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian

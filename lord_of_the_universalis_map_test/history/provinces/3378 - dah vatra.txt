@@ -1,13 +1,17 @@
 is_city = yes
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 2
+base_production = 2
+base_manpower = 2
 
-culture = culture_wilderness
-religion = religion_wilderness
+add_core = X38
+owner = X38
+controller = X38
 
-trade_goods = grain
+culture = culture_gusar
+religion = religion_apysani_beduins
+
+trade_goods = stone
 
 hre = no
 

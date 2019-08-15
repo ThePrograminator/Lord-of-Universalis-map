@@ -10,9 +10,11 @@
 # Province is not Sea/Lake Province
 # Province Contents : 
 
-base_tax = 10
-base_production = 6
-base_manpower = 3
+is_city = yes
+
+base_tax = 7
+base_production = 8
+base_manpower = 7
 
 add_core = X39
 owner = X39
@@ -21,11 +23,15 @@ controller = X39
 culture = culture_anbalukkhorian
 religion = religion_black_numenorean
 
-trade_goods = grain
+trade_goods = iron
 
 hre = no
 
-is_city = yes
+city_2_building=yes
+marketplace_building=yes
+tax_office_building=yes
+warehouse_building=yes
+army_camp_building=yes
 
 discovered_by = lotr_ahar
 discovered_by = lotr_bellakarian
