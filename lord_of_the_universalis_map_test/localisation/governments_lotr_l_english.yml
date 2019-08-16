@@ -133,6 +133,9 @@
  MORDOR_RULER: "Ruler"
  
  SHEPHERD_ENT: "Shepherd"
+ 
+ TARB: "Tarb"
+ AUTARB: "Autarb"
  #---------------------------------------------
  # Mechanics
  #---------------------------------------------

@@ -309,14 +309,47 @@ type={
 			45.000 180.000 0.000 
 		}
 	}
+}
+type={
+	type="helms_deep_monument"
+	use_animation=no
+	scale=6.000000
+	time_duration=300.000000
+	always_visible=yes
+	visible_in_all_map_modes=yes
+}
+type={
+	type="hornburg_monument"
+	use_animation=no
+	scale=20.000000
+	time_duration=300.000000
+	always_visible=yes
+	visible_in_all_map_modes=yes
 	object={
 		name="orthanc_monument"
 		hidden_on_start=no
 		position={
-			1901.000 0.000 1244.000 
+			1527.000 0.000 1279.000 
 		}
 		rotation={
-			0.000 110.000 90.000 
+			0.000 200.000 90.000 
+		}
+	}
+}
+type={
+	type="durins_tower_monument"
+	use_animation=no
+	time_duration=300.000000
+	always_visible=yes
+	visible_in_all_map_modes=yes
+	object={
+		name="orthanc_monument"
+		hidden_on_start=no
+		position={
+			1552.000 -3.000 1439.000 
+		}
+		rotation={
+			0.000 150.000 90.000 
 		}
 	}
 }
